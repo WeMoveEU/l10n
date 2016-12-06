@@ -2987,7 +2987,7 @@ msgstr "Esta contribución recurrente será automaticamente procesada cada %1 %2
 msgid ""
 "You will receive an email receipt which includes information about how to "
 "update or cancel this recurring contribution."
-msgstr "Usted recibirá un recibo por email que incluirá información sobre cómo actualizar o cancelar la contribución periódica."
+msgstr "Recibirás un recibo por correo electrónico."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""

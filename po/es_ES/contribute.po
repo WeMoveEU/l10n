@@ -2756,17 +2756,17 @@ msgstr "La contribución periódica será procesada automáticamente cada %1 de 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
 "This recurring contribution will be automatically processed every %1 %2s."
-msgstr "Esta contribución será procesada de manera automática cada %1 %2(s)."
+msgstr "Tu donación será procesada de manera automática cada mes."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "This recurring contribution will be automatically processed every %1."
-msgstr "Esta contribución será procesada de manera automática cada %1."
+msgstr "Tu donación será procesada de manera automática cada mes."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
 "You will receive an email receipt which includes information about how to "
 "update or cancel this recurring contribution."
-msgstr "Usted recibirá un recibo por email que incluirá información sobre cómo actualizar o cancelar la contribución periódica."
+msgstr "Recibirás un recibo por correo electrónico."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -4907,9 +4907,8 @@ msgstr "Gracias por su inscripción de contribución periódica."
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
-msgid ""
-"This recurring contribution will be automatically processed every %1 %2(s)"
-msgstr "Esta contribución recurrente  se procesará de forma automática cada %1 %2(s)"
+msgid "This recurring contribution will be automatically processed every %1 %2(s)"
+msgstr "Tu donación será procesada de manera automática cada mes"
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl

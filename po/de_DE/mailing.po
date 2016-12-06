@@ -2016,7 +2016,7 @@ msgid ""
 " <i><b>not</b></i> been added to any mailing lists. If this is your email "
 "address and you <i><b>wish to opt out</b></i> please enter your email "
 "address below for verification purposes:"
-msgstr "Wenn das nicht Ihre E-Mail Adresse ist, müssen sie nichts weiter tun. Sie werden <i><b>nicht</b></i> zum Newsletter hinzugefügt. Wenn das Ihre E-Mail Adresse ist und Sie <i><b>ersuchen um Abmeldung</b></i> tragen Sie bitte Ihre E-Mail Adresse nachstehend zur Bestätigung ein:"
+msgstr "Wenn das nicht Ihre E-Mail Adresse ist, müssen sie nichts weiter tun. Sie werden <i><b>nicht</b></i> zum Newsletter hinzugefügt. Wenn das Ihre E-Mail Adresse ist und Sie <i><b>ersuchen um Abmeldung</b></i> tragen Sie bitte Ihre E-Mail Adresse nachstehend zur Bestätigung ein."
 
 #: templates/CRM/Mailing/Form/Schedule.hlp
 msgid "Scheduling and Sending Mailings"
