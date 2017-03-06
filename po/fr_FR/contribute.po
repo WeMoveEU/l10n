@@ -899,7 +899,7 @@ msgstr "Confirmer la contribution"
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "Contribute"
-msgstr "Contribuez"
+msgstr "Je fais un don"
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "I want to contribute this amount"

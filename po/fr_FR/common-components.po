@@ -801,7 +801,7 @@ msgstr "Voir le paiement"
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Credit Card Information"
-msgstr "Carte de crédit"
+msgstr "Informations de paiement"
 
 #: CRM/Contribute/Form/AdditionalPayment.php
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
