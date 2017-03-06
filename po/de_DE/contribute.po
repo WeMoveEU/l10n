@@ -2754,11 +2754,11 @@ msgstr ""
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
 "This recurring contribution will be automatically processed every %1 %2s."
-msgstr ""
+msgstr "Diese regelmäßige Spende wird jeden Monat automatisch abgebucht, so lange, bis Sie uns anders informieren."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "This recurring contribution will be automatically processed every %1."
-msgstr ""
+msgstr "Diese regelmäßige Spende wird jeden Monat automatisch abgebucht, so lange, bis Sie uns anders informieren."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -4906,8 +4906,8 @@ msgstr ""
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
 msgid ""
-"This recurring contribution will be automatically processed every %1 %2(s)"
-msgstr ""
+"This recurring contribution will be automatically processed every %1 %2(s)."
+msgstr "Diese regelmäßige Spende wird jeden Monat automatisch abgebucht, so lange, bis Sie uns anders informieren."
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
