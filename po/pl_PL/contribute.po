@@ -884,7 +884,7 @@ msgstr "Zatwierdź Wpłatę"
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "Contribute"
-msgstr ""
+msgstr "Wpłacam"
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "I want to contribute this amount"
