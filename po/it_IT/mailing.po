@@ -687,11 +687,11 @@ msgstr "La richiesta conteneva un errore"
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Please Confirm Your Opt Out"
-msgstr ""
+msgstr "Per favore, conferma per annullare l'iscrizione"
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Verify email address to opt out:"
-msgstr ""
+msgstr "Verifica dell'indirizzo email per la annullare l'iscrizione:"
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Email address is required to opt out."
@@ -699,7 +699,7 @@ msgstr ""
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Email: %1 has been successfully opted out"
-msgstr ""
+msgstr "La tua mail %1 è stata cancellata correttamente"
 
 #: CRM/Mailing/Form/Optout.php
 msgid ""
@@ -1987,7 +1987,7 @@ msgstr "Destinatari Aggiuntivi Mailing"
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
 "You are requesting to opt out this email address from all mailing lists:"
-msgstr ""
+msgstr "Il tuo indirizzo mail verrà cancellato da tutte le nostre mailing list:"
 
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
@@ -1995,7 +1995,7 @@ msgid ""
 " <i><b>not</b></i> been added to any mailing lists. If this is your email "
 "address and you <i><b>wish to opt out</b></i> please enter your email "
 "address below for verification purposes:"
-msgstr ""
+msgstr "Se questo non fosse il tuo indirizzo email non devi fare nient'altro. <i><b>Non</b></i> sei stato aggiunto a nessuna lista. Se invece si tratta del tuo indirizzo e <i><b>vuoi essere cancellato dalle nostre liste</b></i>, per favore inserisci il tuo indirizzo email qui: si tratta di una verifica di sicurezza."
 
 #: templates/CRM/Mailing/Form/Schedule.hlp
 msgid "Scheduling and Sending Mailings"
