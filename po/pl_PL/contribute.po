@@ -2680,7 +2680,8 @@ msgstr ""
 msgid ""
 "Your contribution has been submitted to %1 for processing. Please print this"
 " page for your records."
-msgstr ""
+msgstr "Twoja darowizna z użyciem %1 została przekazana."
+" Możesz wydrukować tę stronę i zachować ją w swoim archiwum."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -2692,7 +2693,7 @@ msgstr ""
 msgid ""
 "An email receipt will be sent to %1 once the transaction is processed "
 "successfully."
-msgstr ""
+msgstr "Potwierdzenie mailem będzie wysłane na %1 kiedy transakcja zostanie zaksięgowana."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -2749,13 +2750,14 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "This recurring contribution will be automatically processed every %1."
-msgstr ""
+msgstr "Ta regularna darowizna będzie księgowana co miesiąc."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
 "You will receive an email receipt which includes information about how to "
 "update or cancel this recurring contribution."
-msgstr ""
+msgstr "Otrzymasz wiadomość email z informacją o tym, jak możesz zmienić "
+"lub cofnąć zlecenie regularnej darowizny."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""

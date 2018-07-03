@@ -11200,7 +11200,7 @@ msgstr ""
 
 #: CRM/Price/BAO/PriceField.php CRM/Upgrade/Snapshot/V4p2/Price/BAO/Field.php
 msgid "Other Amount"
-msgstr ""
+msgstr "Inna kwota"
 
 #: CRM/Price/BAO/PriceField.php CRM/Upgrade/Snapshot/V4p2/Price/BAO/Field.php
 msgid "Sorry, this option is currently sold out."
@@ -25225,7 +25225,7 @@ msgstr ""
 #: CRM/Core/BAO/UFField.php CRM/Core/OptionValue.php CRM/Core/SelectValues.php
 #: CRM/Export/BAO/Export.php xml/templates/civicrm_data.tpl
 msgid "Payment Method"
-msgstr ""
+msgstr "Metoda płatności"
 
 #: CRM/Core/BAO/UFField.php
 msgid "Contribution Transaction ID"
