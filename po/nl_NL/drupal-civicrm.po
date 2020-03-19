@@ -3,7 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2013-2016
+# HanV <han.velthuis@home.nl>, 2013-2016,2019
 # HanV <han.velthuis@home.nl>, 2011-2012
 # HanV <han.velthuis@home.nl>, 2011
 # Kevin Levie <kevin@levity.nl>, 2016
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
 "POT-Creation-Date: 2011-03-27 21:13+0200\n"
-"PO-Revision-Date: 2016-12-10 15:53+0000\n"
+"PO-Revision-Date: 2019-12-04 12:03+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr "Aangepaste link naar een Drupal-node"
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_activity.inc
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_contact.inc
 msgid "Links Text"
-msgstr "Links tekst"
+msgstr "Link tekst"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_participant.inc
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_contribution.inc
@@ -434,7 +434,7 @@ msgid ""
 "these activities in a single database, creating efficiencies and new "
 "opportunities for communities to better communicate and benefit from "
 "relationships with their community members."
-msgstr "De CiviCRM module slaat informatie op over mensen in een gemeenschap, zoals hun e-mails, donaties, enz. CiviCRM kan gebruikt worden als een stand-alone contacten beheersysteem, waarbij het mogelijk is om te integreren met  systemen voor bulkmailings, vrijwilligersbeheer, petities en evenementenkalenders. CiviCRM stelt organisaties in staat om deze activiteiten te bundelen in een enkele database. Hierdoor wordt de efficiëntie vergroot en is de organisatie beter in staat te communiceren met haar relaties waardoor er nieuwe mogelijkheden en voordelen worden gecreëerd."
+msgstr "De CiviCRM-module slaat informatie op over mensen in een gemeenschap, zoals hun e-mails, donaties, enz. CiviCRM kan gebruikt worden als een stand-alone contactenbeheersysteem, waarbij het mogelijk is om te integreren met  systemen voor massa-mailings, vrijwilligersbeheer, petities en evenementenkalenders. CiviCRM stelt organisaties in staat om deze activiteiten te bundelen in een enkele database. Hierdoor wordt de efficiëntie vergroot en is de organisatie beter in staat te communiceren met haar relaties waardoor er nieuwe mogelijkheden en voordelen worden gecreëerd."
 
 #: drupal/civicrm.module
 msgid ""
@@ -461,19 +461,19 @@ msgstr "U kunt:"
 
 #: drupal/civicrm.module
 msgid "read the <a href=\"!1\">CiviCRM Administrator Guide</a>."
-msgstr "lees de <a href=\"!1\">CiviCRM Administrator Guide</a>."
+msgstr "lees de <a href=\"!1\">Beheerdershandleiding</a>."
 
 #: drupal/civicrm.module
 msgid ""
 "enable CiviCRM blocks at <a href=\"!1\">Administer &raquo; Site Building "
 "&raquo; Blocks</a>."
-msgstr "inschakelen CiviCRM blokken bij <a href=\"!1\">Beheren &raquo; Blokken</a>."
+msgstr "inschakelen CiviCRM-blokken bij <a href=\"!1\">Beheren &raquo; Blokken</a>."
 
 #: drupal/civicrm.module
 msgid ""
 "read about <a href=\"!1\">CiviCRM access permissions</a> and set access "
 "permissions at <a href=\"!2\">Administer CiviCRM &raquo; Access Control</a>."
-msgstr "lees <a href=\"!1\">CiviCRM toegangsrechten</a> en wijzig de toegangsrechten bij <a href=\"!2\">Beheer &raquo; Toegangscontrole</a>."
+msgstr "lees <a href=\"!1\">CiviCRM-toegangsrechten</a> en wijzig de toegangsrechten bij <a href=\"!2\">Beheer &raquo; Toegangscontrole</a>."
 
 #: drupal/civicrm.module
 msgid ""
@@ -489,11 +489,11 @@ msgstr "Voer een complexe zoekactie uit, gebaseerd op kenmerk, groepsleden, loca
 
 #: drupal/civicrm.module
 msgid "create or manage groups at <a href=\"!1\">Manage Groups</a>."
-msgstr "maak of wijzig groepen bij <a href=\"!1\">Groepsbeheer</a>"
+msgstr "maak of wijzig groepen bij <a href=\"!1\">Groepsbeheer</a>."
 
 #: drupal/civicrm.module
 msgid "import contacts from other sources at <a href=\"!1\">Import Contacts</a>."
-msgstr "Importeer contacten uit andere bronnen bij  <a href=\"!1\">contacten importeren</a>."
+msgstr "importeer contacten uit andere bronnen bij  <a href=\"!1\">contacten importeren</a>."
 
 #: drupal/civicrm.module
 msgid ""
@@ -526,7 +526,7 @@ msgid ""
 "create or administer custom data fields (e.g. volunteer skills, emergency "
 "contact info...) <a href=\"!1\">CiviCRM &raquo; Administer &raquo; Custom "
 "Data</a>."
-msgstr "maak of wijzig eigen gegevensvelden (bijv. vakkennis, vaardigheden, noodcontactnummer, informatie, enz.) <a href=\"!1\">CiviCRM &raquo; Beheer &raquo;; Specifieke velden</a>."
+msgstr "maak of wijzig eigen gegevensvelden (bijv. vakkennis, vaardigheden, noodcontactnummer, informatie, enz.) <a href=\"!1\">Gegevens en schermen aanpassen &raquo; Aangepaste velden</a>."
 
 #: drupal/civicrm.module
 msgid ""
@@ -540,7 +540,7 @@ msgid ""
 "For more information please refer to the <a href=\"!1\">CiviCRM web-site</a>"
 " which includes project information, documentation and support resources and"
 " more."
-msgstr "Voor meer informatie gaat u naar de <a href=\"!1\">CiviCRM web-site</a> u vindt daar o.a. projectinformatie, documentatie en hulpbronnen."
+msgstr "Voor meer informatie gaat u naar de <a href=\"!1\">CiviCRM-website</a> u vindt daar o.a. projectinformatie, documentatie en hulpbronnen."
 
 #: drupal/civicrm.module
 msgid ""
@@ -549,7 +549,7 @@ msgid ""
 "contributions, memberships and events. For more information please refer to "
 "the <a href=\"!2\">CiviCRM web-site</a> which includes project information, "
 "documentation and support resources and more."
-msgstr "Constituent Relationship Management (CiviCRM !1). Biedt de mogelijkheid om contacten, relaties en groepen te beheren en contactmomenten, contactactiviteiten, bijdragen, lidmaatschappen en evenementen te beheersen en te volgen. Bezoek de <a href=\"!2\">CiviCRM website</a> voor project-informatie, documentatie en hulpbronnen."
+msgstr "Constituent Relationship Management (CiviCRM !1). Biedt de mogelijkheid om contacten, relaties en groepen te beheren en contactmomenten, contactactiviteiten, bijdragen, lidmaatschappen en evenementen te beheersen en te volgen. Bezoek de <a href=\"!2\">CiviCRM-website</a> voor project-informatie, documentatie en hulpbronnen."
 
 #: drupal/civicrm.module
 msgid ""
@@ -558,20 +558,20 @@ msgid ""
 "installing, you can often find solutions to your issue by searching for the "
 "error message in the <a href='!3'>installation support section of the "
 "community forum</a>.</strong></p>"
-msgstr "Kijk in de <a href='!1'>Drupal Installation Guide</a> en de <a href='!2'>Trouble-shooting page</a> voor verdere hulp. Wanneer u nog hulp nodig heeft bij de installatie dan kunt u vaak een oplossing vinden door uw foutbericht te zoeken in de <a href='!3'>installation support section of the community forum</a>.</strong></p>"
+msgstr "Kijk in de <a href='!1'>Drupal Installatiegids</a> en op de <a href='!2'>Trouble-shooting pagina</a> voor verdere hulp. Wanneer u nog hulp nodig heeft bij de installatie dan kunt u vaak een oplossing vinden door uw foutbericht te zoeken in de <a href='!3'>'installation support'-sectie van het forum</a>.</strong></p>"
 
 #: drupal/civicrm.module
 msgid ""
 "Oops! - The CiviCRM settings file (civicrm.settings.php) was not found in "
 "the expected location "
-msgstr "Het CiviCRM configuratiebestand (civicrm.settings.php) is niet gevonden op de verwachte locatie"
+msgstr "Het CiviCRM-configuratiebestand (civicrm.settings.php) is niet gevonden op de verwachte locatie "
 
 #: drupal/civicrm.module
 msgid ""
 "Oops! - The path for including CiviCRM code files is not set properly. Most "
 "likely there is an error in the <em>civicrm_root</em> setting in your "
 "CiviCRM settings file (!1)."
-msgstr "Het pad om CiviCRM code bestanden in te sluiten is niet goed ingesteld. Hoogstwaarschijnlijk is er een fout in de <em>civicrm_root</em> instelling in je CiviCRM configuratiebestand (!1)."
+msgstr "Het pad om CiviCRM-codebestanden in te sluiten is niet goed ingesteld. Waarschijnlijk is er een fout in de <em>civicrm_root</em> instelling in het CiviCRM-configuratiebestand (!1)."
 
 #: drupal/civicrm.module
 msgid "civicrm_root is currently set to: <em>!1</em>."
@@ -696,7 +696,7 @@ msgstr "CiviCRM-contacten"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Contacts, of people, organizations, etc."
-msgstr "Bekijk weergaven van CiviCRM Contacten, personen, organisaties, enz."
+msgstr "Bekijk weergaven van contacten, personen, organisaties, enz."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The numeric ID of the Contact"
@@ -720,7 +720,7 @@ msgstr "Sorteernaam"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Contact Name for sorting purposes, Last Name then First"
-msgstr "Het Contact Naam voor het sorteren, eerst familienaam dan voornaam"
+msgstr "De contactnaam voor het sorteren, achternaam en voornaam"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Display Name"
@@ -728,7 +728,7 @@ msgstr "Weergavenaam"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Name of the Contact with prefixes and suffixes"
-msgstr "Volledige naam van het contact met voorvoegsels en achtervoegsels."
+msgstr "Volledige naam van het contact met voorvoegsels en achtervoegsels"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Contact's Gender"
@@ -925,7 +925,7 @@ msgstr "De streek of regio bij dit adres"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In Global Settings"
-msgstr "In algemene instellingen"
+msgstr "In instellingen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Address Name"
@@ -937,7 +937,7 @@ msgstr "Zorg ervoor dat de adresnaam ingeschakeld is %link"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Email"
-msgstr "CiviCRM E-mail"
+msgstr "CiviCRM e-mail"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Primary Email"
@@ -961,7 +961,7 @@ msgstr "E-mailadres"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Phone Details"
-msgstr "CiviCRM Telefoon details"
+msgstr "CiviCRM telefoondetails"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Primary Phone"
@@ -1001,7 +1001,7 @@ msgstr "Het type nummer: vaste telefoon, mobiel of fax"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Website"
-msgstr "CiviCRM-website"
+msgstr "CiviCRM website"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Website Type"
@@ -1021,7 +1021,7 @@ msgstr "CiviCRM Evenementen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Events"
-msgstr "Bekijk weergaven CiviCRM Evenementen"
+msgstr "Bekijk weergaven evenementen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Event ID"
@@ -1057,7 +1057,7 @@ msgstr "Inclusief sjabloon"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Include Event templates?"
-msgstr "Inclusief evenementsjabloon"
+msgstr "Inclusief evenementsjabloon?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Title"
@@ -1142,7 +1142,7 @@ msgstr "CiviCRM Deelnemers"
 #: drupal/modules/views/civicrm.views.inc
 msgid ""
 "View displays CiviCRM Participants, often in conjunction with Event Filters"
-msgstr "Bekijk weergaven van CiviCRM Deelnemers, meestal in samenspraak met Evenement Filters"
+msgstr "Bekijk weergaven van deelnemers, meestal met evenementsfilters"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Participant ID"
@@ -1234,7 +1234,7 @@ msgstr "CiviCRM-bijdragen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Contributions, with relation to contacts."
-msgstr "Toon alle bijdragen met de contacten"
+msgstr "Toon alle bijdragen met de contacten."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Contribution ID"
@@ -1266,7 +1266,7 @@ msgstr "Ontvangstdatum"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the Contribution was received / paid"
-msgstr "Datum van ontvangst / betaling van deze bijdrage."
+msgstr "Datum van ontvangst / betaling van deze bijdrage"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Non Deductible Amount"
@@ -1274,7 +1274,7 @@ msgstr "Niet-aftrekbaar bedrag"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Non Deductible Part of the Contribution"
-msgstr "Niet-aftrekbaar deel van deze bijdrage."
+msgstr "Niet-aftrekbaar deel van deze bijdrage"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Total Amount"
@@ -1342,7 +1342,7 @@ msgstr "Datum ontvangstbewijs"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date a receipt for the contribution was sent."
-msgstr "De datum waarop de kwitantie van de bijdrage per e-mail is verstuurd."
+msgstr "De datum waarop het ontvangstbewijs van de bijdrage per e-mail is verstuurd."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Thank You Date"
@@ -1398,7 +1398,7 @@ msgstr "Persoonlijke campagnepagina roepnaam"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Personal Campaign Page Personal Note"
-msgstr "Notitie op persoonlijke campagnepagina "
+msgstr "Notitie op persoonlijke campagnepagina"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Personal note form PCP"
@@ -1446,7 +1446,7 @@ msgstr "Aantal periodieken"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution started."
-msgstr "Datum dat de periodieke bijdragen zijn gestart"
+msgstr "Datum dat de periodieke bijdrage is gestart."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Create Date"
@@ -1518,7 +1518,7 @@ msgstr "Aantal fouten"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "How many times has theis recurring contribution failed?"
-msgstr "Aantal malen falen periodieke bijdrage"
+msgstr "Hoe vaak is de periodieke bijdrage mislukt?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Failed retry date"
@@ -1526,7 +1526,7 @@ msgstr "Datum opnieuw proberen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "When will the failed contribution be retried?"
-msgstr "Datum nieuw poging mislukte bijdrage"
+msgstr "Wanneer wordt een nieuwe poging voor de mislukte bijdrage gedaan?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Auto-renew"
@@ -1534,7 +1534,7 @@ msgstr "Automatisch verlengen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Will this recurring contribution automayically renew?"
-msgstr "Automatisch verlengen periodieke bijdragen."
+msgstr "Wanneer wordt de periodieke bijdrage verlengd?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Activities"
@@ -1590,7 +1590,7 @@ msgstr "Bovenliggende activiteit-ID"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The numeric ID of the Parent Activity "
-msgstr "Het nummer van de bovenliggende activiteit"
+msgstr "Het nummer van de bovenliggende activiteit "
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Subject"
@@ -1630,7 +1630,7 @@ msgstr "Details"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Details and Notes regarding the activity."
-msgstr "Details en Notities over de activiteit"
+msgstr "Details en Notities over de activiteit."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is the activity a test entry?"
@@ -1678,7 +1678,7 @@ msgstr "Doel Contact ID"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The contact who is the activity's target."
-msgstr "Het contact dat het doel is van deze activiteit"
+msgstr "Het contact dat het doel is van deze activiteit."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Target Contact ID"
@@ -1710,7 +1710,7 @@ msgstr "CiviCRM Relaties"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Relationships, with connection to contacts."
-msgstr "Bekijk overzichten van CiviCRM relaties, met links naar contacten"
+msgstr "Bekijk overzichten van relaties, met links naar contacten."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Relationship ID"
@@ -1782,7 +1782,7 @@ msgstr "CiviCRM Lidmaatschappen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Memberships, with connection to contacts."
-msgstr "Dit overzicht laat CiviCRM lidmaatschappen zien, gelinkt naar de contacten"
+msgstr "Dit overzicht laat lidmaatschappen zien, gelinkt naar de contacten."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Membership ID"
@@ -1818,7 +1818,7 @@ msgstr "Status"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Status of the Membership"
-msgstr "De status van het lidmaatschap."
+msgstr "De status van het lidmaatschap"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Status overridden?"
@@ -1914,11 +1914,11 @@ msgstr "CiviCRM-mailings"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Mailing Results."
-msgstr "Toon weergaven CiviCRM Mailing resultaten."
+msgstr "Toon weergaven mailingresultaten."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "ID"
-msgstr "Nr."
+msgstr "ID"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The mailing's ID in the database."
@@ -1998,7 +1998,7 @@ msgstr "Koptekst mailing - HTML"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The HTML header for this mailing."
-msgstr "De koptekst van deze mailing in HTML"
+msgstr "De HTML-koptekst van deze mailing."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Mailing Header - Plaintext"
@@ -2014,7 +2014,7 @@ msgstr "Voettekst mailing - HTML"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The HTML footer for this mailing."
-msgstr "De voettekst van deze mailing in HTML"
+msgstr "De HTML-voettekst van deze mailing."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Mailing Footer - Plaintext"
@@ -2054,7 +2054,7 @@ msgstr "Is dit de testmailing?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Mailing Forwards"
-msgstr "CiviCRM Mailing doorsturingen"
+msgstr "CiviCRM Mailing doorsturen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Date forwaded"
@@ -2362,7 +2362,7 @@ msgstr "Link naar Tonen relatie"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_relationship.inc
 msgid "Link to Edit Relationship A-B"
-msgstr "Link naar Wijzig relatie "
+msgstr "Link naar Wijzigen relatie"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_relationship.inc
 msgid "Link to View Relationship B-A"
@@ -2370,7 +2370,7 @@ msgstr "Link naar Tonen relatie"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_relationship.inc
 msgid "Link to Edit Relationship B-A"
-msgstr "Link naar Wijzig relatie "
+msgstr "Link naar Wijzigen relatie"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link_relationship.inc
 msgid "Link to Delete Relationship"
@@ -2492,7 +2492,7 @@ msgstr "Selecteer lijst"
 
 #: drupal/modules/civicrm_cck/civicrm_cck.module
 msgid "Check boxes/radio buttons"
-msgstr "Vink velden/radio-knoppen aan"
+msgstr "Vink velden/radioknoppen aan"
 
 #: drupal/modules/civicrm_cck/civicrm_cck.module
 msgid "Autocomplete text field"
@@ -2512,7 +2512,7 @@ msgstr "CiviCRM Contact Weergave"
 
 #: drupal/modules/civicrm_cck/civicrm_cck_handler_filter.inc
 msgid "Enter a contact name."
-msgstr "Voer de naam van een contact in"
+msgstr "Voer de naam van een contact in."
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "CiviMember Roles Sync"
@@ -2553,7 +2553,7 @@ msgstr "Er zijn momenteel geen regels ingesteld. Gebruik het scherm 'Associatier
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "Manual Synchronization:"
-msgstr "Handmatige synchronisatie"
+msgstr "Handmatige synchronisatie:"
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "Synchronize CiviMember Membership Types to Drupal Roles now"
@@ -2660,13 +2660,13 @@ msgid ""
 "There was an error in obtaining the association rule for edit. Please check "
 "your database settings and try again. If you continue to get this error "
 "message then try to reinstall CiviMember Roles Sync."
-msgstr "Er is een fout opgetreden in het verkrijgen van de aangewezen regel om te wijzigen. Controleer de database instellingen en probeer het opnieuw. Als je doorgaat en deze melding opnieuw krijgt, probeer dan CiviMember Roles Sync opnieuw te installeren."
+msgstr "Er is een fout opgetreden bij het lezen van de te wijzigen regel. Controleer de database-instellingen en probeer het opnieuw. Als u deze melding opnieuw krijgt, probeer dan CiviMember Roles Sync opnieuw te installeren."
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid ""
 "You must select both a CiviMember Membership Type and a Drupal Role from the"
 " \"Association Rule\" section."
-msgstr "Je moet een CiviMember lidmaatschap Type en een Drupal Rol selecteren van de \"Toegewezen Regel\" sectie."
+msgstr "U moet een CiviMember lidmaatschapstype en een Drupal-rol selecteren bij de \"Toegewezen Regel\"."
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "CiviMember Membership Type and Drupal Role values were not numeric."
@@ -2676,7 +2676,7 @@ msgstr "CiviMember lidmaatschap Type en Drupal Rol type zijn niet numeriek."
 msgid ""
 "You can not have the same Status Rule registered as both \"Current\" and "
 "\"Expired\"."
-msgstr "Je kunt niet de zelfde Status Rol registreren als \"Huidig\" en \"Verlopen\"."
+msgstr "U kunt niet dezelfde statusrol registreren als \"Huidig\" en \"Verlopen\"."
 
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "Status Rules values were not numeric."
@@ -2710,7 +2710,7 @@ msgstr "Ongeldige parameter op opgegeven voor _civicrm_member_roles_get_data(). 
 msgid ""
 "CiviMember Membership Types or Status Rules have not been configured. Please"
 " do so on the \"Administer CiviCRM\" page."
-msgstr "CiviMember Lidmaatschap Types of Status Rollen zijn niet geconfigureerd. Configureer deze op de Beheer CiviCRM pagina."
+msgstr "CiviMember Lidmaatschap Types of Status Rollen zijn niet geconfigureerd. Configureer deze met de menu-keuze Beheer."
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact has been created"
@@ -2880,7 +2880,7 @@ msgstr "Andere naam"
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/WalkList.php
 msgid "Street#"
-msgstr "Huisnummer"
+msgstr "Straatnr"
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/WalkList.php
 msgid "Street Name"
@@ -2904,7 +2904,7 @@ msgstr "Interviewer niet gevonden."
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "Street Number"
-msgstr "Huisnummer"
+msgstr "Straatnummer"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "City"

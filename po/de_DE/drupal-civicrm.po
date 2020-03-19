@@ -5,20 +5,24 @@
 # Translators:
 # translatosaurus <accounts@drexler.eu>, 2012
 # Detlev Sieber <detlev.sieber@foebud.org>, 2011,2014
-# Fabian <schuttenberg@systopia.de>, 2013-2015
+# Fabian <schuttenberg@systopia.de>, 2013-2015,2017
 # Hartmut Holzgraefe <hartmut@php.net>, 2011
 # Jens-Erik Weber <JensErikWeber@gmail.com>, 2014
-# Martin Peth <peth@systopia.de>, 2014-2015
+# juliane Welp <welp@systopia.de>, 2017
+# Martin Peth <peth@systopia.de>, 2014-2015,2017-2018
+# Matthias Baernthaler <matthias.baernthaler@mitgruenden.at>, 2017
+# Mirko Gmyrek <rabuntu@x-quture.com>, 2019
 # Martin Peth <peth@systopia.de>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
-# Sebastian Huter <sebastian.huter@gmail.com>, 2015
+# Sebastian Huter <inactive+sebastian.huter@transifex.com>, 2015
+# Thomas Schuettler, 2018
 # Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
 "POT-Creation-Date: 2011-03-27 21:13+0200\n"
-"PO-Revision-Date: 2015-12-21 09:45+0000\n"
-"Last-Translator: Fabian <schuttenberg@systopia.de>\n"
+"PO-Revision-Date: 2019-01-02 03:38+0000\n"
+"Last-Translator: Mirko Gmyrek <rabuntu@x-quture.com>\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +45,7 @@ msgstr "Verbindungssregel(n) anzeigen"
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "Add Association Rule"
-msgstr "Verbindungsregel hinzufügen"
+msgstr "Verknüpfungsregel hinzufügen"
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
@@ -73,7 +77,7 @@ msgstr "löschen"
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
 msgid "Use the 'Add Association Rule' form to add new rules."
-msgstr "Benutzen Sie das \"Verbindungsregel hinzufügen Regel\" Formular um neue Regeln hinzuzufügen"
+msgstr "Benutzen Sie das Formular \"Verbindungsregel hinzufügen\", um neue Regeln hinzuzufügen"
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 #: drupal/modules/civicrm_member_roles/civicrm_member_roles.module
@@ -371,15 +375,15 @@ msgstr "Profil-Listen und -Formulare"
 
 #: CRM/Core/Permission.php
 msgid "profile create"
-msgstr "Profil erstellen"
+msgstr "Profil im Erstellmodus verwenden"
 
 #: CRM/Core/Permission.php
 msgid "profile edit"
-msgstr "Profil bearbeiten"
+msgstr "Profil im Bearbeitungsmodus verwenden"
 
 #: CRM/Core/Permission.php
 msgid "profile view"
-msgstr "Profil ansehen"
+msgstr "Profil im Lesemodus verwenden"
 
 #: CRM/Core/Permission.php
 msgid "access all custom data"
@@ -403,7 +407,7 @@ msgstr "Kontaktübersicht"
 
 #: CRM/Core/Permission.php
 msgid "translate CiviCRM"
-msgstr "CiviCRM übersetzen"
+msgstr "CiviCRM Multi-Lanugage"
 
 #: CRM/Core/Permission.php
 msgid "administer Tagsets"
@@ -729,7 +733,7 @@ msgstr "Der Kontaktname für Sortierzwecke, erst Nachname, dann Vorname"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Display Name"
-msgstr "Namen anzeigen"
+msgstr "Anzeigename"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Name of the Contact with prefixes and suffixes"
@@ -777,7 +781,7 @@ msgstr "Möchte dieser Kontakt nicht angerufen werden?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Do Not Mail"
-msgstr "Nicht per Post anschreiben"
+msgstr "Nicht anschreiben"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Does this contact not want to be mailed?"
@@ -1559,23 +1563,23 @@ msgstr "Numerische ID der Aktivität"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Contact"
-msgstr ""
+msgstr "Kontakt (Quelle)"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The contact who scheduled this activity"
-msgstr ""
+msgstr "Kontakt, der den Termin für diese Aktivität festgelegt hat"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Source Contact"
-msgstr ""
+msgstr "CiviCRM Kontakt (Quelle)"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Record ID"
-msgstr ""
+msgstr "Quellen ID"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The contact who made this activity"
-msgstr ""
+msgstr "Der Kontakt der diese Aktivität angestoßen hat"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Type of Activity"
@@ -2289,7 +2293,7 @@ msgstr "Dieses Feld mit dem/der dazu gehörigen Benutzer/in verlinken"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_contact_type.inc
 msgid "Contact type"
-msgstr ""
+msgstr "Kontaktart"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_relationship_type.inc
 msgid "Relationship Type"
@@ -2319,11 +2323,11 @@ msgstr "Link zu einem Drupal-Knoten oder einer Drupal-Ansicht, ausgehend vom Bas
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_tag_title.inc
 msgid "Tag Name"
-msgstr ""
+msgstr "Name des Tags"
 
 #: drupal/modules/views/civicrm/views_handler_argument_civicrm_week.inc
 msgid "Week %week"
-msgstr "Woche %woche"
+msgstr "Woche %week"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link.inc
 msgid "Text to display"
@@ -2723,7 +2727,7 @@ msgstr "Kontakt wurde angelegt"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Created contact"
-msgstr ""
+msgstr "Kontakt erstellt"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact has been updated"
@@ -2731,7 +2735,7 @@ msgstr "Kontakt wurde aktualisiert"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Updated contact"
-msgstr ""
+msgstr "Kontakt aktualisiert"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact has been viewed"
@@ -2739,7 +2743,7 @@ msgstr "Kontakt wurde angesehen"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Viewed contact"
-msgstr ""
+msgstr "Angesehener Kontakt"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact has been deleted"
@@ -2747,7 +2751,7 @@ msgstr "Kontakt wurde gelöscht"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Deleted contact"
-msgstr ""
+msgstr "Gelöschter Kontakt"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing has been created"
@@ -2755,7 +2759,7 @@ msgstr "Rundschreiben wurde erstellt"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Created mailing"
-msgstr ""
+msgstr "Erstelltes Rundschreiben"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing has been updated"
@@ -2763,7 +2767,7 @@ msgstr "Das Rundschreiben wurde aktualisiert"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Updated Mailing"
-msgstr ""
+msgstr "Aktualisiertes Rundschreiben"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing content has been uploaded"
@@ -2771,7 +2775,7 @@ msgstr "Der Inhalt des Rundschreibens wurde hochgeladen"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing content uploaded"
-msgstr ""
+msgstr "Inhalt des Rundschreibens hochgeladen"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing has been scheduled"
@@ -2795,7 +2799,7 @@ msgstr "Zeitplaner über das Rundschreiben informieren"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Inform Mailing"
-msgstr ""
+msgstr "Über Rundschreiben informieren"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing has been queued"
@@ -2841,7 +2845,7 @@ msgstr "Eine E-Mail versenden"
 msgid ""
 "Enter e-mail address of recipient. (Use a comma to separate multiple e-mail "
 "addresses.)"
-msgstr ""
+msgstr "E-Mail-Adresse des Empfängers bzw. der Empfängerin eingeben (mehrere E-Mail-Adressen mit Komma trennen)."
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Message Subject"
@@ -2849,19 +2853,19 @@ msgstr "Betreff"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Enter subject for the email"
-msgstr ""
+msgstr "Betreffzeile der E-Mail eingeben"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Select the group"
-msgstr ""
+msgstr "Gruppe auswählen"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact will be added to selected group."
-msgstr ""
+msgstr "Kontakt wird zur ausgewählten Gruppe hinzugefügt."
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact will be removed from selected group."
-msgstr ""
+msgstr "Kontakt wir aus der ausgewählten Gruppe entfernt."
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Contact"
@@ -2877,7 +2881,7 @@ msgstr "gehört zu"
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/List.php
 msgid "Is equal to"
-msgstr "ist gleich wie  \"%1\""
+msgstr "ist gleich"
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/WalkList.php
 msgid "Other Name"
@@ -2905,7 +2909,7 @@ msgstr "VH"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "Could not find Interviewer Id."
-msgstr ""
+msgstr "Interviewer-ID konnte nicht gefunden werden."
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "Street Number"
@@ -2921,7 +2925,7 @@ msgstr "Postleitzahl"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "State"
-msgstr ""
+msgstr "Bundesland"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "Email"
@@ -2929,7 +2933,7 @@ msgstr "E-Mail"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 msgid "Is Held"
-msgstr ""
+msgstr "Abgehalten"
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Task/ReleaseVoters.php
 msgid ""
@@ -2940,7 +2944,7 @@ msgstr ""
 msgid ""
 "Could not find contacts for release voters resevation Or Missing Interviewer"
 " contact."
-msgstr ""
+msgstr "Kontakte für Wähler Reservierung konnten nicht gefunden werden oder fehlender Interviewer Kontakt. "
 
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Task/ReleaseVoters.php
 msgid "All voters held by you are already released for this survey."

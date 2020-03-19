@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Szabo Attila <atekka@gmail.com>, 2013
-# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2017
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-10 15:53+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-10 13:22+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -170,11 +170,6 @@ msgstr "Személyes Kampány oldal azonosítója"
 msgid "Personal Campaign Page Status"
 msgstr "Személyes Kampány oldal státusza"
 
-#: CRM/PCP/DAO/PCP.php xml/templates/message_templates/pcp_notify_html.tpl
-#: xml/templates/message_templates/pcp_notify_text.tpl
-msgid "Personal Campaign Page Title"
-msgstr "Személyes Kampány oldal címe"
-
 #: CRM/PCP/DAO/PCP.php
 msgid "Intro Text"
 msgstr "Bemutatkozó szöveg"
@@ -188,24 +183,134 @@ msgid "Donate Link Text"
 msgstr "Adomány linkjének szövege"
 
 #: CRM/PCP/DAO/PCP.php
+msgid "The Contribution or Event Page which triggered this pcp"
+msgstr "A személyes kampány oldalt előhívó adomány vagy esemény oldal"
+
+#: CRM/PCP/DAO/PCP.php
 msgid "PCP Page Type"
 msgstr "PCP odal tipusa"
 
+#: CRM/PCP/DAO/PCP.php
+msgid "The type of PCP this is: contribute or event"
+msgstr "Személyes kampányoldal típusa: adomány vagy esemény"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Block"
+msgstr "személyes kampányoldal blokk"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The pcp block that this pcp page was created from"
+msgstr "A személyes kampányoldalt blokkoló személyes kampányoldal, amiből ez létrehozásra került"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Use Thermometer?"
+msgstr "Hőmérőt használjunk?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Show Honor Roll?"
+msgstr "Büszkeségfalat mutassuk?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Goal amount of this Personal Campaign Page."
+msgstr "Személyes kampány oldal célösszege"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Is Personal Campaign Page enabled/active?"
+msgstr "Eza személyes kampány oldal engedélyezett/aktív?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify Owner?"
+msgstr "Tulajdonost értesítsük?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify owner via email when someone donates to page?"
+msgstr "A tulajdonos e-mail értesítése, ha valaki adományozott az oldalon?"
+
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity Type"
-msgstr "Cél Entitás Tipusa"
+msgid "PCP Block ID"
+msgstr "személyes kkampányoldal azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP block Id"
+msgstr "Személyes kampány oldal blokk azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_contribution_page.id OR civicrm_event.id"
+msgstr " civicrm_contribution_page.id VAGY civicrm_event.id FK"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity"
+msgstr "Cél egyed"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The type of entity that this pcp targets"
+msgstr "A személyes kampány oldal által megcélzott egyed típusok"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity ID"
+msgstr "Cél egyed azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The entity that this pcp targets"
+msgstr "A személyes kampány oldal által megcélzott egyed"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"FK to civicrm_uf_group.id. Does Personal Campaign Page require manual "
+"activation by administrator? (is inactive by default after setup)?"
+msgstr "civicrm_uf_group.id FK. A személyes kampány oldal engedélyezéséhez az adminisztrátor kézi jóváhagyása kell? (alap beállítás szerint inaktív)?"
 
 #: CRM/PCP/DAO/PCPBlock.php
 msgid "Owner Notification"
 msgstr "Tulajdonos értesítés"
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Tellfriend Limit"
-msgstr "Mesélj a barátodnak limit"
+msgid "FK to civicrm_option_group with name = PCP owner notifications"
+msgstr "civicrm_option_group with name = személyes kampányoldal tulajdonos értesítés FK"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Approval Required?"
+msgstr "Jóváhagyás szükséges?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"Does Personal Campaign Page require manual activation by administrator? (is "
+"inactive by default after setup)?"
+msgstr "A személyes kampány oldal engedélyezéséhez az adminisztrátor kézi jóváhagyása kell? (alap beállítás szerint inaktív)?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell a Friend Enabled?"
+msgstr "Add tovább engedélyezve?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Does Personal Campaign Page allow using tell a friend?"
+msgstr "A személyes kampány oldal engedélyezi, az add tovább használatát? "
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell A Friend Limit"
+msgstr "Add tovább korlát"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Maximum recipient fields allowed in tell a friend"
+msgstr "Az engedélyezett maximum címzett mező szám az add tovább funkcióban"
 
 #: CRM/PCP/DAO/PCPBlock.php templates/CRM/PCP/Form/Event.hlp
 msgid "Link Text"
 msgstr "Link szövege"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Link text for PCP."
+msgstr "Személyes kampányoldal link szövege."
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Is Personal Campaign Page Block enabled/active?"
+msgstr "A személyes kampány oldal engedélyezett/aktív?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"If set, notification is automatically emailed to this email-address on "
+"create/update Personal Campaign Page"
+msgstr "Ha beállított, az értesítés automatikusan elküldésre kerül erre az e-mail címre a személyes kampányoldal létrehozásakor/frissítésekor"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Setup a Personal Campaign Page - Step 2"
@@ -631,12 +736,12 @@ msgid ""
 msgstr "Ez az oldal mutatja az Összes Személtes Kampány oldalt ami létre lett hozva a rendszerbem és engedélyezett az adminisztrátorok számára hogy felülvizsgálják vagy változtassanak a státuszán."
 
 #: templates/CRM/PCP/Page/PCP.tpl
-msgid "Page Title"
-msgstr "Oldal címe"
-
-#: templates/CRM/PCP/Page/PCP.tpl
 msgid "Contribution Page / Event"
 msgstr "Adományodal / Esemény"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "View Personal Campaign Page"
+msgstr "Személyes kampány oldal megtekintése"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "View page"
@@ -918,43 +1023,3 @@ msgstr "Kattins vagy illeszd be ezt a hivatkozást a böngésződbe és kövesd 
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser"
 msgstr "Kattins vagy illeszd be ezt a linket a böngésződbe"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "PCP Block"
-msgstr "személyes kampányoldal blokk"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Use Thermometer?"
-msgstr "Hőmérőt használjunk?"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Show Honor Roll?"
-msgstr "Büszkeségfalat mutassuk?"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Notify Owner?"
-msgstr "Tulajdonost értesítsük?"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "PCP Block ID"
-msgstr "személyes kkampányoldal azonosító"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity"
-msgstr "Cél egyed"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity ID"
-msgstr "Cél egyed azonosító"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Approval Required?"
-msgstr "Jóváhagyás szükséges?"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell a Friend Enabled?"
-msgstr "Add tovább engedélyezve?"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell A Friend Limit"
-msgstr "Add tovább korlát"

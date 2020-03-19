@@ -3,27 +3,45 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Marketa Tomaskova <maki.tomaskova@gmail.com>, 2017
 # Martin Máša <my.melody.production@gmail.com>, 2013
+# Venda Hamršmíd <v.hamrsmid@ambassadors.cz>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-05-09 17:10+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-16 17:22+0000\n"
+"Last-Translator: Venda Hamršmíd <v.hamrsmid@ambassadors.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/civicrm/civicrm/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Current Campaigns"
-msgstr ""
+msgstr "Aktuální kampaně"
 
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Past Campaigns"
-msgstr ""
+msgstr "Minulé kampaně"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr "V budoucnosti"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr "V minulosti"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr "Nestanovit"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr "Nová kampaň"
 
 #: CRM/Campaign/BAO/Petition.php
 msgid "No survey sid parameter. Cannot process signature."
@@ -35,36 +53,32 @@ msgstr ""
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Survey - %1"
-msgstr ""
+msgstr "Průzkum - %1"
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Survey Status - %1"
-msgstr ""
+msgstr "Stav průzkumu - %1"
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Survey Interviewer - %1"
-msgstr ""
+msgstr "Tazatel průzkumu - %1"
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Interviewer"
-msgstr ""
+msgstr "Tazatel"
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Could not find survey for %1 respondents."
-msgstr ""
-
-#: CRM/Campaign/BAO/Query.php
-msgid "Campaigns %1"
-msgstr ""
+msgstr "Dotazník pro %1 respondenty nenalezen."
 
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
 msgid "Reserve Respondents"
-msgstr ""
+msgstr "Zajistit respondenty"
 
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Page/Vote.php
 msgid "Interview Respondents"
-msgstr ""
+msgstr "Respondenti rozhovoru"
 
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Release.php
 #: CRM/Campaign/Task.php templates/CRM/Campaign/Form/Task/Release.tpl
@@ -76,59 +90,167 @@ msgid "View Survey Report"
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr "Vyjímečná kampaň ID."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr "Název kampaně."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr "Název kampaně."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Description"
-msgstr ""
+msgstr "Popis kampaně"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr "Celkový popis kampaně."
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Start Date"
-msgstr ""
+msgstr "Datum začátku kampaně"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr "Datum a čas zahájení kampaně."
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign End Date"
+msgstr "Datum ukončení kampaně"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr "Datum a čas ukončení kampaně."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign External ID"
-msgstr ""
+msgstr "Externí ID kampaně"
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Parent Campaign"
+msgstr "Mateřská kampaň"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Is Campaign Active?"
-msgstr ""
+msgstr "Je kampaň aktivní?"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr "Je tato Kampaň zpřístupněna nebo nezpřístupněna/zrušena?"
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Created By"
+msgstr "Kampaň vytvořena"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
 msgid "Campaign Created Date"
-msgstr ""
+msgstr "Kampaň vytvořena dne"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr "Datum a čas vytvoření kampaně"
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified By"
+msgstr "Kampaň upravena"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified Date"
-msgstr ""
+msgstr "Kampaň upravena dne"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr "Datum a čas poslední úpravy kampaně."
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
 msgid "Campaign Goals"
-msgstr ""
+msgstr "Cíle kampaně"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr "Obecné cíle kampaně."
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Goal Revenue"
+msgstr "Přínos cílů"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr "Skupinové id kampaně."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr "Cizí klíč k aktivitě Kampaně. "
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr "Typ skupiny."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey ID"
-msgstr ""
+msgstr "Průzkum ID"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr "Průzkum id."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr "Název průzkumu. "
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Campaign ID"
+msgstr "ID Průzkumové Kampaně"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr "Cizí klíč ke Kampani. "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
@@ -136,52 +258,108 @@ msgid "Follow up Interval"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
-msgid "Instructions"
+msgid "Recontact intervals for each status."
 msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Instructions"
+msgstr "Instrukce"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr "Intrukce pro dobrovolníky k použití pro průzkum."
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Hold Duration"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Maximum number of contacts"
+msgstr "Maximální počet kontaktů"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Default number of contacts"
+msgstr "Výchozí počet kontaktů"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Is Active"
-msgstr ""
+msgstr "Průzkum je aktivní"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr "Je tento průzkum aktivovaný nebo dezaktivovaný/zrušený?"
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Is Default Survey"
-msgstr ""
+msgstr "Výchozí průzkum"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr "Je toto výchozí průzkum?"
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Created By"
+msgstr "Průzkum vytvořen"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr "Datum a čas vytvoření průzkumu."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified"
+msgstr "Průzkum upraven"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified On"
+msgstr "Průzkum upraven na"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr "Datum a čas poslední úpravy průzkumu."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "No Email Verification"
+msgstr "Žádný ověřovací e-mail"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
 msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr "Mohou lidé sdílet petici na sociálních médiích?"
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Edit Campaign"
-msgstr ""
+msgstr "Editovat kampaň"
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "- select Parent -"
-msgstr ""
+msgstr "- zvolit si zdroj -"
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Revenue Goal"
@@ -189,21 +367,21 @@ msgstr ""
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Campaign has been deleted."
-msgstr ""
+msgstr "Kampaň byla smazána"
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Campaign %1 has been saved."
-msgstr ""
+msgstr "Kampaň %1 byla uložena"
 
 #: CRM/Campaign/Form/Campaign.php
 msgid " You can add another Campaign."
-msgstr ""
+msgstr "Můžete vložit další kampaň"
 
 #: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Search.php
 #: CRM/Campaign/Form/Task/Interview.php CRM/Campaign/Form/Task/Release.php
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "Survey(s)"
-msgstr ""
+msgstr "Průzkum(y)"
 
 #: CRM/Campaign/Form/Gotv.php
 msgid "GOTV (Voter Tracking)"
@@ -213,28 +391,28 @@ msgstr "Sledování voličů (GOTV)"
 msgid ""
 "Oops. It looks like no surveys have been created. <a href='%1'>Click here to"
 " create a new survey.</a>"
-msgstr ""
+msgstr "Ups. Zdá se, že žádné průzkumy nebyly vytvořeny. <a href='%1'> Klikněte zde k vytvoření nového průzkumu.</a>"
 
 #: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Task/Interview.php
 msgid "Could not find Survey."
-msgstr ""
+msgstr "Průzkum nenalezen"
 
 #: CRM/Campaign/Form/Petition/Signature.php
 msgid "Sign the Petition"
-msgstr ""
+msgstr "Podepsat petici"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Edit Survey"
-msgstr ""
+msgstr "Editovat průzkum"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Delete Survey"
-msgstr ""
+msgstr "Smazat průzkum"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Edit Petition"
-msgstr ""
+msgstr "Editovat petici"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Page/DashBoard.php
 msgid "Delete Petition"
@@ -242,19 +420,19 @@ msgstr "Smazat petici"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Petition Dashboard"
-msgstr ""
+msgstr "Ovládací panel petice"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Petition Title"
-msgstr ""
+msgstr "Název petice"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Contact Profile"
-msgstr ""
+msgstr "Profil kontaktů"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Activity Profile"
-msgstr ""
+msgstr "Profil aktivit"
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Bypass email confirmation"
@@ -262,59 +440,59 @@ msgstr ""
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Is Default?"
-msgstr ""
+msgstr "Je výchozí? "
 
 #: CRM/Campaign/Form/Petition.php
 msgid ""
 "This title is already associated with the selected activity type. Please "
 "specify a unique title."
-msgstr ""
+msgstr "Tento název je již spojován se zvoleným typem aktivity. Specifikujte ho prosím."
 
 #: CRM/Campaign/Form/Petition.php
 msgid ""
 "This title is already associated with the selected campaign and activity "
 "type. Please specify a unique title."
-msgstr ""
+msgstr "Tento název je již spojován se zvolenou kampaní a zvoleným typem aktivity. Specifikujte ho prosím."
 
 #: CRM/Campaign/Form/Petition.php
 msgid " Petition has been deleted."
-msgstr ""
+msgstr "Petice byla smazána."
 
 #: CRM/Campaign/Form/Petition.php
 msgid "Petition has been saved."
-msgstr ""
+msgstr "Petice byla uložena."
 
 #: CRM/Campaign/Form/Petition.php
 msgid " You can add another Petition."
-msgstr ""
+msgstr "Můžete přidat další petici."
 
 #: CRM/Campaign/Form/Search/Campaign.php
 msgid "Find Campaigns"
-msgstr ""
+msgstr "Najít kampaně"
 
 #: CRM/Campaign/Form/Search/Petition.php
 msgid "Find Petition"
-msgstr ""
+msgstr "Najít petici"
 
 #: CRM/Campaign/Form/Search/Survey.php
 msgid "Find Survey"
-msgstr ""
+msgstr "Najít průzkum"
 
 #: CRM/Campaign/Form/Search.php
 msgid "Find Respondents To %1"
-msgstr ""
+msgstr "Najít respondenty %1"
 
 #: CRM/Campaign/Form/Search.php CRM/Campaign/Form/Task/Interview.php
 msgid "Record %1 Responses"
-msgstr ""
+msgstr "Zaznamenat %1 odpovědí"
 
 #: CRM/Campaign/Form/Search.php
 msgid "Find Respondents"
-msgstr ""
+msgstr "Najít respondenty"
 
 #: CRM/Campaign/Form/Survey/Delete.php
 msgid "'%1' survey has been deleted."
-msgstr ""
+msgstr "'%1' průzkum byl smazán"
 
 #: CRM/Campaign/Form/Survey/Delete.php
 msgid "Delete action is missing expected survey ID."
@@ -322,20 +500,19 @@ msgstr ""
 
 #: CRM/Campaign/Form/Survey/Main.php
 msgid "Configure Survey"
-msgstr ""
+msgstr "Nastavit průzkum"
 
 #: CRM/Campaign/Form/Survey/Main.php
 msgid "Survey Dashboard"
-msgstr ""
+msgstr "Ovládací panel průzkumů"
 
 #: CRM/Campaign/Form/Survey/Main.php
 msgid "Instructions for interviewers"
-msgstr ""
+msgstr "Instrukce pro tazatele"
 
 #: CRM/Campaign/Form/Survey/Main.php
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Release Frequency"
 msgstr ""
 
@@ -367,24 +544,24 @@ msgstr ""
 
 #: CRM/Campaign/Form/Survey/Questions.php
 msgid "Contact Info"
-msgstr ""
+msgstr "Kontaktní informace"
 
 #: CRM/Campaign/Form/Survey/Questions.php
 #: CRM/Campaign/Form/Survey/TabHeader.php
 msgid "Questions"
-msgstr ""
+msgstr "Otázky"
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "Create new result set"
-msgstr ""
+msgstr "Vytvořit nový soubor výsledků"
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "Use existing result set"
-msgstr ""
+msgstr "Použít existující soubor výsledků"
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "Select Result Set"
-msgstr ""
+msgstr "Vybrat soubor výsledků"
 
 #: CRM/Campaign/Form/Survey/Results.php
 #: templates/CRM/Campaign/Form/ResultOptions.tpl
@@ -394,7 +571,7 @@ msgstr ""
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "Enter at least one result option."
-msgstr ""
+msgstr "Zadejte alespoň jednu výslednou možnost."
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "Please select a Survey Result Set."
@@ -402,31 +579,31 @@ msgstr ""
 
 #: CRM/Campaign/Form/Survey/Results.php
 msgid "A Survey Detail Report <a href='%1'>%2</a> has been created."
-msgstr ""
+msgstr "Podrobný záznam průzkumu <a href='%1'>%2</a> byl vytvořen. "
 
 #: CRM/Campaign/Form/Survey/TabHeader.php
 msgid "Main Information"
-msgstr ""
+msgstr "Hlavní informace"
 
 #: CRM/Campaign/Form/Survey.php
 msgid "Configure Survey - %1"
-msgstr ""
+msgstr "Nastavit průzkum - %1"
 
 #: CRM/Campaign/Form/Survey.php
 msgid "'%1' have been saved."
-msgstr ""
+msgstr "'%1' bylo uloženo."
 
 #: CRM/Campaign/Form/SurveyType.php
 msgid "Selected Survey type has been deleted."
-msgstr ""
+msgstr "Zvolený typ průzkumu byl vymazán."
 
 #: CRM/Campaign/Form/SurveyType.php
 msgid "The Survey type '%1' has been saved."
-msgstr ""
+msgstr "Průzkum '%1' byl uložen."
 
 #: CRM/Campaign/Form/Task/Interview.php
 msgid "Could not find Interviewer."
-msgstr ""
+msgstr "Tazatel nenalezen."
 
 #: CRM/Campaign/Form/Task/Interview.php
 msgid "No respondents are currently reserved for you to interview."
@@ -462,7 +639,7 @@ msgstr ""
 
 #: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
 msgid "Missing Interviewer contact."
-msgstr ""
+msgstr "Chybějící kontakt tazatele."
 
 #: CRM/Campaign/Form/Task/Release.php
 msgid "Could not find respondents to release."
@@ -478,10 +655,11 @@ msgid_plural "%count respondents have been released."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: CRM/Campaign/Form/Task/Release.php
 msgid "Released"
-msgstr ""
+msgstr "Zveřejněno"
 
 #: CRM/Campaign/Form/Task/Release.php
 msgid "1 respondent did not release."
@@ -489,10 +667,11 @@ msgid_plural "%count respondents did not release."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "Could not find Survey Id."
-msgstr ""
+msgstr "Id průzkumu nenalezeno."
 
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "Could not find contacts for reservation."
@@ -510,6 +689,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: CRM/Campaign/Form/Task/Reserve.php
 #: templates/CRM/Campaign/Form/Task/Reserve.tpl
@@ -535,6 +715,7 @@ msgid_plural "%count contacts have been reserved."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "They have been added to %1."
@@ -550,6 +731,11 @@ msgid_plural "Reservation did not add for %count contacts."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
+
+#: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr ""
 
 #: CRM/Campaign/Info.php
 msgid "administer CiviCampaign"
@@ -561,7 +747,7 @@ msgstr ""
 
 #: CRM/Campaign/Info.php
 msgid "manage campaign"
-msgstr ""
+msgstr "spravovat kampaň"
 
 #: CRM/Campaign/Info.php
 msgid "Create new campaigns, surveys and petitions, reserve respondents"
@@ -601,7 +787,7 @@ msgstr ""
 
 #: CRM/Campaign/Info.php
 msgid "sign CiviCRM Petition"
-msgstr ""
+msgstr "podepsat CiviCRM Petici"
 
 #: CRM/Campaign/Page/AJAX.php
 msgid "Respondent Reserved."
@@ -609,72 +795,68 @@ msgstr ""
 
 #: CRM/Campaign/Page/AJAX.php templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Vote Recorded."
-msgstr ""
+msgstr "Hlas zaznamenán"
 
-#: CRM/Campaign/Page/Campaign.php templates/CRM/Campaign/Form/Campaign.tpl
-msgid "Are you sure you want to delete this Campaign?"
-msgstr ""
-
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Campaign"
-msgstr ""
+msgstr "Aktualizovat kampaň"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Campaign"
-msgstr ""
+msgstr "Zastavit kampaň"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Campaign"
-msgstr ""
+msgstr "Spustit kampaň"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Survey"
-msgstr ""
+msgstr "Aktualizovat průzkum"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Survey"
-msgstr ""
+msgstr "Zastavit průzkum"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Survey"
-msgstr ""
+msgstr "Spustit průzkum"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Update Petition"
-msgstr ""
+msgstr "Aktualizovat petici"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Petition"
-msgstr ""
+msgstr "Zastavit petici"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Petition"
-msgstr ""
+msgstr "Spustit petici"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Sign"
-msgstr ""
+msgstr "Podepsat"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Sign Petition"
-msgstr ""
+msgstr "Podepsat petici"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Signatures"
-msgstr ""
+msgstr "Podpisy"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "List the signatures"
-msgstr ""
+msgstr "Sepsat podpisy"
 
 #: CRM/Campaign/Page/DashBoard.php
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 msgid "Search Campaigns"
-msgstr ""
+msgstr "Hledat kampaně"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Search Survey"
-msgstr ""
+msgstr "Hledat průzkum"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "1 Day"
@@ -682,10 +864,11 @@ msgid_plural "%count Days"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "view result set"
-msgstr ""
+msgstr "zobrazit soubor výsledků"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Incomplete. Click to configure result set."
@@ -693,19 +876,19 @@ msgstr ""
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Search Petition"
-msgstr ""
+msgstr "Hledat petici"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Surveys"
-msgstr ""
+msgstr "Průzkumy"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "Petitions"
-msgstr ""
+msgstr "Petice"
 
 #: CRM/Campaign/Selector/Search.php
 msgid "Respondents"
-msgstr ""
+msgstr "Respondenti"
 
 #: CRM/Campaign/Selector/Search.php
 msgid "CiviCRM Respondent Search"
@@ -715,13 +898,17 @@ msgstr ""
 msgid "Record Respondents Interview"
 msgstr ""
 
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Opravdu chcete smazat tuto kampaň?"
+
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Is Interview Conducted?"
-msgstr ""
+msgstr "Probíhá interview?"
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Voted?"
-msgstr ""
+msgstr "Odhlasováno?"
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Is Reserved?"
@@ -729,15 +916,15 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Save as voted."
-msgstr ""
+msgstr "Uložit jako odhlasované."
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Save as non voted."
-msgstr ""
+msgstr "Uložit jako neodhlasované."
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Vote Cancelled."
-msgstr ""
+msgstr "Hlas zrušen."
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Reserved."
@@ -751,30 +938,30 @@ msgstr ""
 #: templates/CRM/Campaign/Form/Petition/Signature.tpl
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid "You have already signed this petition."
-msgstr ""
+msgstr "Tuto petici jste již podepsali."
 
 #: templates/CRM/Campaign/Form/Petition/Signature.tpl
 msgid ""
 "You have already signed this petition but you still <b>need to verify your "
 "email address</b>."
-msgstr ""
+msgstr "Tuto petici jste už podepsali ale stále <b> si potřebujete ověřit vaší e-mailovou adresu</b> .  "
 
 #: templates/CRM/Campaign/Form/Petition/Signature.tpl
 msgid ""
 "Please check your email inbox for the confirmation email. If you don't find "
 "it, verify if it isn't in your spam folder."
-msgstr ""
+msgstr "Zkontrolujte prosím vaší e-mailovou schránku kvůli potvrzovacímu e-mailu. Pokud ho nemůžete najít, ověřte jestli není ve složce spamu. "
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Are you sure you want to delete this Petition?"
-msgstr ""
+msgstr "Jste si jisti, že chcete smazat tuto petici?"
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid ""
 "Use this form to Add new Survey. You can create a new Activity type, "
 "specific to this Survey or select an existing activity type for this Survey."
-msgstr ""
+msgstr "Použijte tuto formu k Přidání nového Průzkumu. Můžete vytvořit nový Aktivační typ, specifický pro tento Průzkum nebo vybrat již existující aktivační typ pro tento Průzkum."
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Fields about the contact you want to collect."
@@ -786,11 +973,11 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Click here for new profile"
-msgstr ""
+msgstr "Klikněte zde pro nový profil"
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "This title will be displayed at the top of the thank-you page."
-msgstr ""
+msgstr "Tento název bude zobrazen navrchu děkovné stránky. "
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid ""
@@ -804,11 +991,11 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Is this petition active?"
-msgstr ""
+msgstr "Je tato petice aktivní?"
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Is this the default petition?"
-msgstr ""
+msgstr "Jedná se o výchozí petici?"
 
 #: templates/CRM/Campaign/Form/ResultOptions.tpl
 msgid ""
@@ -828,9 +1015,8 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: templates/CRM/Campaign/Page/Campaign.tpl
 msgid "Add Campaign"
-msgstr ""
+msgstr "Přidat kampaň"
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 msgid "Type ID"
@@ -846,7 +1032,7 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 msgid "Add Petition"
-msgstr ""
+msgstr "Přidat petici"
 
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 msgid "Petition ID"
@@ -862,13 +1048,12 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 msgid "Search Petitions"
-msgstr ""
+msgstr "Hledat petice"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Add Survey"
-msgstr ""
+msgstr "Přidat průzkum"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey Type ID"
@@ -876,9 +1061,8 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Survey Type"
-msgstr ""
+msgstr "Typ Průzkumu"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Reserve Each Time"
@@ -890,7 +1074,7 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Search Surveys"
-msgstr ""
+msgstr "Hledat průzkumy"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Result Set for"
@@ -898,19 +1082,11 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Survey/Delete.tpl
 msgid "Are you sure you want to delete the %1 survey?"
-msgstr ""
+msgstr "Jste si jistí, že chcete vymazat %1 průzkumu?"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Title of the survey."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "Opens New Campaign form in a separate window"
-msgstr ""
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "new campaign"
-msgstr ""
+msgstr "Název průzkumu."
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Select the campaign for which survey is created."
@@ -941,11 +1117,11 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Is this survey active?"
-msgstr ""
+msgstr "Je tento průzkum aktivní?"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Is this the default survey?"
-msgstr ""
+msgstr "Jedná se o výchozí průzkum?"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid ""
@@ -968,7 +1144,7 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "Vote"
-msgstr ""
+msgstr "Hlasovat"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "Record Responses for All"
@@ -999,6 +1175,10 @@ msgid "Update Responses for All"
 msgstr ""
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "reserve"
 msgstr ""
 
@@ -1016,7 +1196,7 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Task/Reserve.tpl
 msgid "Add respondent(s) to a new group"
-msgstr ""
+msgstr "Přidat respondenta(ty) do nové skupiny"
 
 #: templates/CRM/Campaign/Form/addCampaignToComponent.hlp
 msgid ""
@@ -1026,49 +1206,35 @@ msgid ""
 "signups, and pledges to a particular campaign."
 msgstr ""
 
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "Show past campaign(s) in this select list."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "There are currently no active Campaigns."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid ""
-"If you want to associate this record with a campaign, you can <a %1>create a"
-" campaign here</a>."
-msgstr ""
-
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid ""
 "<strong>%1 - your email address '%2' has been successfully "
 "verified.</strong>"
-msgstr ""
+msgstr "<strong>%1  - vaše e-mailová adresa %2' byla úspešně ověřena.</strong>"
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid ""
 "Oops. We encountered a problem in processing your email verification. Please"
 " contact the site administrator."
-msgstr ""
+msgstr "Ups. Došlo k problému ve zpracování ověření vašeho e-mailu. Prosím kontaktujte správce stránek. "
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid "Thank you for signing the petition."
-msgstr ""
+msgstr "Díky za podepsání petice."
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid "STEP 2: Please Check Your Email"
-msgstr ""
+msgstr "KROK 2: Zkontrolujte Prosím Svůj E-mail"
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid ""
 "To complete and confirm your signature, please follow the activation "
 "instructions sent to the email address you provided."
-msgstr ""
+msgstr "K dokončení a potvrzení vašeho podpisu, prosím následujte aktivační instrukce, poslané na e-mailovou adresu, kterou jste zadali."
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid "IMPORTANT"
-msgstr ""
+msgstr "DŮLEŽITÉ"
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid ""
@@ -1081,49 +1247,57 @@ msgstr ""
 msgid ""
 "If you haven't received an email within a few minutes, please check your "
 "spam folder."
-msgstr ""
+msgstr "Pokud jste během několika minut e-mail neobdrželi, zkontrolujte prosím složku spam."
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid ""
 "You have already signed this petition but we<strong>need to confirm your "
 "email address</strong>."
-msgstr ""
+msgstr "Tuto petici jste již podepsali ale <strong> potřebujeme ověřit vaší e-mailovou adresu</strong> . "
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid ""
 "Before we can add your signature, you must validate your email address by "
 "clicking on the activation link in the confirmation e-mail. Sometimes our "
 "confirmation emails get flagged as spam and are moved to your spam folder."
-msgstr ""
+msgstr "Před tím, než přidáme váš podpis, musíte potvrdit vaší e.mailovou adresu tím, že kliknete na aktivační odkaz v potvrzovacím e-mailu. Naše potvrzovací e-maily jsou občas označeny jako spam a jsou přesunuty do vašeho spam adresáře. "
 
 #: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
 msgid ""
 "If you haven't received an email from us, check your spam folder, it might "
 "have been wrongly classified."
-msgstr ""
+msgstr "Pokud jste od nás neobdrželi e-mail, zkontrolujte svůj spam adresář, mohl být špatně zařazen. "
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Max Number Of Contacts"
-msgstr ""
+msgstr "Maximální počet kontaktů"
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Default Number Of Contacts"
-msgstr ""
-
-#: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey type entered. You can <a href='%1'>add one</a>."
-msgstr ""
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group ID"
-msgstr ""
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group Type"
-msgstr ""
+msgstr "Výchozí počet kontaktů"
 
 #: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "nová kampaň"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr ""
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "Právě nyní nejsou žádné kampaně aktivní."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
 msgstr ""

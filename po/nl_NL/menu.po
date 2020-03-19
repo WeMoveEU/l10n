@@ -6,8 +6,8 @@
 # brouwser <brouwer@ee-atwork.nl>, 2013
 # brouwser <brouwer@ee-atwork.nl>, 2012
 # brouwser <brouwer@ee-atwork.nl>, 2012-2013
-# Ed van Leeuwen <ed@huizevanleeuwen.nl>, 2013
-# HanV <han.velthuis@home.nl>, 2013-2016
+# Ed van Leeuwen, 2013
+# HanV <han.velthuis@home.nl>, 2013-2016,2019
 # HanV <han.velthuis@home.nl>, 2012
 # HanV <han.velthuis@home.nl>, 2011
 # Jeroen Groothuismink <jeroengroothuismink@gmail.com>, 2012
@@ -20,8 +20,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-12-10 16:01+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-02 18:57+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 msgctxt "menu"
 msgid "Campaign Dashboard"
-msgstr "Campagnedashboard"
+msgstr "Campagne"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -168,6 +168,11 @@ msgstr "Dossierdetails"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr "CiviCase Instellingen"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Case Types"
 msgstr "Dossiertypes"
 
@@ -269,8 +274,8 @@ msgstr "Financiële rekeningen"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "Betaalwijze"
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -356,6 +361,14 @@ msgctxt "menu"
 msgid "Email Invoice"
 msgstr "Factuur e-mailen"
 
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr "Betalingen Periodieke Bijdragen"
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr "Lidmaatschappen Periodieke Bijdragen"
+
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Personal Campaign Pages"
@@ -368,7 +381,7 @@ msgstr "Persoonlijke campagnepagina instellen - Accountinformatie"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Activity"
-msgstr "Nieuwe activiteit"
+msgstr "Activiteit toevoegen"
 
 msgctxt "menu"
 msgid "View Activity"
@@ -431,16 +444,6 @@ msgstr "Nieuw CiviCRM-profiel"
 msgctxt "menu"
 msgid "Profile Settings"
 msgstr "Profielinstellingen"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "Kenmerken (tags)"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "Kenmerk toevoegen"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -618,12 +621,10 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "Configuratiecontrolelijst"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "CiviCRM-componenten inschakelen"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
 msgstr "Extensies beheren"
@@ -637,8 +638,8 @@ msgid "Outbound Email Settings"
 msgstr "Instellingen uitgaande e-mail"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "Betaalmethode"
+msgid "Settings - Payment Processor"
+msgstr "Instellingen betaalmethode"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -764,6 +765,10 @@ msgid "Badge Layout"
 msgstr "Opmaak naambadge"
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr "CKEditor configureren"
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -810,17 +815,17 @@ msgstr "Nieuw contact"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Individual"
-msgstr "Nieuwe persoon"
+msgstr "Persoon toevoegen"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Household"
-msgstr "Nieuw huishouden"
+msgstr "Huishouden toevoegen"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Organization"
-msgstr "Nieuwe organisatie"
+msgstr "Organisatie toevoegen"
 
 msgctxt "menu"
 msgid "Edit Related Contact"
@@ -869,10 +874,6 @@ msgid "Smart Groups"
 msgstr "Smartgroepen"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "Zonlicht"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "Notities"
 
@@ -882,7 +883,7 @@ msgstr "Kenmerken"
 
 msgctxt "menu"
 msgid "Contact Dashboard"
-msgstr "Contactdashboard"
+msgstr "Contact-dashboard"
 
 msgctxt "menu"
 msgid "Activity Dashlet"
@@ -892,9 +893,10 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "CiviCRM-blog"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
-msgstr "Aan de slag met CiviCRM"
+msgid "CiviCRM Resources"
+msgstr "CiviCRM Bronnen"
 
 msgctxt "menu"
 msgid "Case Dashlet"
@@ -907,12 +909,16 @@ msgstr "Dashlet alle dossiers"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Case Dashboard Dashlet"
-msgstr "Dossierdasboard Dashlet"
+msgstr "Dossier-dashboard dashlet"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find and Merge Duplicate Contacts"
 msgstr "Dubbele contacten zoeken en samenvoegen"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr "Dubbele contacten batchgewijs samenvoegen"
 
 msgctxt "menu"
 msgid "Dedupe Exceptions"
@@ -934,7 +940,7 @@ msgstr "Groepsleden"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Group"
-msgstr "Nieuwe groep"
+msgstr "Groep toevoegen"
 
 msgctxt "menu"
 msgid "Import"
@@ -965,6 +971,10 @@ msgstr "Fouten downloaden"
 msgctxt "menu"
 msgid "Export Contacts"
 msgstr "Exporteer contacten"
+
+msgctxt "menu"
+msgid "Export"
+msgstr "Exporteren"
 
 msgctxt "menu"
 msgid "ACL Roles"
@@ -999,8 +1009,8 @@ msgid "Log out"
 msgstr "Afmelden"
 
 msgctxt "menu"
-msgid "CiviCRM API"
-msgstr "CiviCRM-API"
+msgid "CiviCRM API v3"
+msgstr "CiviCRM API v3"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1020,8 +1030,26 @@ msgid "Confirm dates"
 msgstr "Datums bevestigen"
 
 msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr "CiviCRM-inhoud toevoegen"
+
+msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "CiviCRM-profiel maken"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Kenmerken (tags)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Kenmerk toevoegen"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr "Kenmerken samenvoegen"
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1137,6 +1165,14 @@ msgid "Manage Price Sets"
 msgstr "Prijssets beheren"
 
 msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr "Zelfbedieningspagina aanmelding bijwerken"
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr "Zelfbedieningspagina aanmelding overdragen"
+
+msgctxt "menu"
 msgid "Add Event To Cart"
 msgstr "Evenement aan winkelwagen toevoegen"
 
@@ -1239,10 +1275,6 @@ msgstr "Mail wordt verzonden"
 msgctxt "menu"
 msgid "Mailing Event"
 msgstr "Evenementmailing"
-
-msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "Mailing inplannen"
 
 msgctxt "menu"
 msgid "View Mailing"
@@ -1348,11 +1380,6 @@ msgstr "CiviCRM-nieuws"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Getting Started"
-msgstr "Aan de slag"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
 msgid "My Cases"
 msgstr "Mijn dossiers"
 
@@ -1374,7 +1401,7 @@ msgstr "Zoeken"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Full-text Search"
-msgstr "Zoeken in volledige tekst"
+msgstr "In volledige tekst zoeken"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1568,6 +1595,11 @@ msgstr "Beheerpaneel"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr "Systeemstatus"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
 msgstr "Gegevens en schermen aanpassen"
 
@@ -1623,8 +1655,23 @@ msgstr "Systeeminstellingen"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr "Onderdelen"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
 msgstr "Koppelingen"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr "Extensies"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Debuggen en foutafhandeling"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1640,11 +1687,6 @@ msgstr "Betalingsproviders"
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "Veilige bestandsextensies"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "Debuggen en foutafhandeling"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1768,6 +1810,11 @@ msgstr "Rapporten"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "My Reports"
+msgstr "Mijn rapporten"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Constituent Summary"
 msgstr "Overzicht achterban"
 
@@ -1776,7 +1823,7 @@ msgctxt "menu"
 msgid ""
 "Provides a list of address and telephone information for constituent records"
 " in your system."
-msgstr "Geeft een lijst van adressen en telefoonnummers van medestanders in uw systeem."
+msgstr "Geeft een lijst van adressen en telefoonnummers van uw donateurs."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1788,7 +1835,12 @@ msgctxt "menu"
 msgid ""
 "Provides contact-related information on contributions, memberships, events "
 "and activities."
-msgstr "Geeft informatie met betrekking tot contacten over bijdragen, lidmaatschappen, evenementen en activiteiten."
+msgstr "Geeft informatie met betrekking over donateurs, lidmaatschappen, evenementen en activiteiten."
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Details"
+msgstr "Details activiteit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1812,7 +1864,17 @@ msgstr "Geeft een gedetailleerde lijst met werkgever/werknemer-relaties inclusie
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Gives relationship details between two contacts"
-msgstr "Geeft informatie over de relatie tussen twee contacten."
+msgstr "Geeft informatie over de relatie tussen twee contacten"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Summary"
+msgstr "Activiteitenoverzicht"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr "Toont statistieken van activiteiten per type of datum"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1952,15 +2014,15 @@ msgstr "Opgehaald totaalbedrag en aantal gevers van elke persoonlijke campagnepa
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr "Overzicht toezeggingen"
+msgid "Pledge Detail"
+msgstr "Detail toezegging"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr "Samenvatting van toezeggingen inclusief toegezegd bedrag, status, eerstvolgende betaaldatum, openstaand bedrag, totaal betaald enz."
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr "Lijst van de toezeggingen inclusief onder meer  het toegezegde bedrag,  de status, de volgende betalingsdatum."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2100,7 +2162,7 @@ msgstr "Rapport statistieken toelagen"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mail Bounces"
-msgstr "e-mailbounces"
+msgstr "E-mailbounces"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2159,85 +2221,3 @@ msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
 msgstr "Rapport met detailinformatie voor stemmenwerving, belrondes, looprondes of andere enquêtes."
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr "Betaalmethoden"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr "Boekhoudperiode afsluiten"
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr "CKEditor configureren"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr "CiviCRM Bronnen"
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr "Dubbele contacten batchgewijs samenvoegen"
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr "CiviCRM-inhoud toevoegen"
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr "Zelfbedieningspagina aanmelding bijwerken"
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr "Zelfbedieningspagina aanmelding overdragen"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr "Systeemstatus"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr "Onderdelen"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr "Extensies"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr "Mijn rapporten"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr "Details activiteit"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr "Activiteitenoverzicht"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr "Toont statistieken van activiteiten per type of datum"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr "Detail toezegging"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr "Lijst van de toezeggingen inclusief onder meer  het toegezegde bedrag,  de status, de volgende betalingsdatum."

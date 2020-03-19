@@ -1,0 +1,2715 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zaruhi Andreasyan <zandreasyan@yahoo.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-07-18 10:24+0000\n"
+"Last-Translator: Zaruhi Andreasyan <zandreasyan@yahoo.com>\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Member/BAO/Membership.php
+msgid "No valid membership status for given dates."
+msgstr "Տվյալ ժամկետների համար վավեր անդամակցության կարգավիճակ գոյություն չունի:"
+
+#: CRM/Member/BAO/Membership.php CRM/Member/Form/MembershipView.php
+msgid "Membership Type:"
+msgstr "Անդամակցության տեսակը․"
+
+#: CRM/Member/BAO/Membership.php
+msgid "do not import"
+msgstr "չներմուծել"
+
+#: CRM/Member/BAO/Membership.php
+msgid "Membership Fields"
+msgstr "Անդամակցության դաշտեր"
+
+#: CRM/Member/BAO/Membership.php
+msgid "Invalid date \"%1\" (must have form yyyy-mm-dd)."
+msgstr "Անվավեր ամսաթիվ \"%1\" (պետք է լինի  տարի-ամիս-օր ձևաչափով).\n "
+
+#: CRM/Member/BAO/Membership.php
+msgid ""
+"Oops, it looks like there is no valid membership status corresponding to the"
+" membership start and end dates for this membership. Contact the site "
+"administrator for assistance."
+msgstr "Օհ, կարծես թե տվյալ անդամակցության համար գոյություն չունի անդամակցության մեկնարիկի և ավարտի ժամկետներին համապատասխան անդամակցության վավեր կարգավիճակ: Եթե Ձեզ օգնություն է անհրաժեշտ՝ դիմեք կայքի ադմինիստրատորին:"
+
+#: CRM/Member/BAO/Membership.php
+msgid ""
+"Deceased Membership status is missing or not active. <a href='%1'>Click here"
+" to check</a>."
+msgstr "\"Մահացածների\" անդամակցության կարգավիճակ գոյություն չունի կամ ակտիվ չէ: <a href='%1'> Ստուգելու համար սեղմեք այստեղ </a>:"
+
+#: CRM/Member/BAO/Membership.php
+msgid "Processed %1 membership records. Updated %2 records."
+msgstr "Մշակվել է %1 անդամակցության վերաբերյալ գրանցումներ։ Թարմացվել է %2 գրանցում։"
+
+#: CRM/Member/BAO/MembershipStatus.php
+msgid ""
+"This membership status cannot be deleted as memberships exist with this "
+"status"
+msgstr "Այս անդամակցության կարգավիճակը չի կարող ջնջվել, քանի որ անդամակցությունն առկա է այս կարգավիճակով"
+
+#: CRM/Member/BAO/MembershipType.php
+msgid "This membership type cannot be deleted due to following reason(s):"
+msgstr "Այս անդամակցության տեսակը հնարավոր չէ ջնջել հետևյալ պատճառով(ներ)ով."
+
+#: CRM/Member/BAO/MembershipType.php
+msgid ""
+"%3. There are some contacts who have this membership type assigned to them. "
+"Search for contacts with this membership type from <a href='%1'>Find "
+"Members</a>. If you are still getting this message after deleting these "
+"memberships, there may be contacts in the Trash (deleted) with this "
+"membership type. Try using <a href=\"%2\">Advanced Search</a> and checking "
+"\"Search in Trash\"."
+msgstr "3%: Գոյություն ունեն որոշ կոնտակտներ, որոնց վերագրված է անդամակցության այս տեսակը: <a href='%1'>Գտնել անդամներին</a>բաժնում որոնել այս անդամակցության այս տեսակն ունեցող կոնտակտներին: Եթե այդ անդամներին ջնջելուց հետո դեռևս շարունակում եք ստանալ այս հաղորդագրությունը՝ հնարավոր է, որ \"Աղբարկղում\" (ջնջված) առկա են անդամակցության այս տեսակն ունեցող կոնտակտներ: Փորձեք իրականացնել <a href=\"%2\">Ընդլայնված որոնում</a> և ստուգել «Որոնել աղբարկղում» գործառույթի միջոցով:"
+
+#: CRM/Member/BAO/MembershipType.php
+msgid ""
+"%2. This Membership Type is used in an <a href='%1'>Online Contribution "
+"page</a>. Uncheck this membership type in the Memberships tab."
+msgstr "% 2․ Անդամակցության այս տեսակը կիրառվում է <a href='%1'>Առցանց ներդրումների էջում</a>: Անդամագրման նշապիտակում ապաակտիվացնել անդամակցության տեսակը:"
+
+#: CRM/Member/BAO/Query.php
+msgid "Member Since %2 %1"
+msgstr "Անդամ է սկսած %2 %1"
+
+#: CRM/Member/BAO/Query.php
+msgid "Source %2 %1"
+msgstr "Աղբյուր %2 %1"
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a current member"
+msgstr "Ներկայումս անդամ է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a non-current member"
+msgstr "Ներկայումս անդամ չէ"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is a Test"
+msgstr "Անդամակցությունը փորձնական է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is NOT Auto-Renew"
+msgstr "Անդամակցությունն ավտոմատ կերպով չի թարմացվում"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and In Progress"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվում է և ընթացքի մեջ է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Failed"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվող է և չի հաջողվել"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Cancelled"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվող է և չեղարկվել է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Ended"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվող է և ավարտվել է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվող է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Pay Later"
+msgstr "Անդամակցությունն հետվճարային հիմունքներով է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is NOT Pay Later"
+msgstr "Անդամակցությունն հետվճարային հիմունքներով ՉԷ"
+
+#: CRM/Member/BAO/Query.php
+msgid "Primary Members Only"
+msgstr "Բացառապես հիմնական անդամները"
+
+#: CRM/Member/BAO/Query.php
+msgid "Related Members Only"
+msgstr "Միայն առնչություն ուեցող անդամները"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden"
+msgstr "Անդամակցության կարգավիճակը չեղարկված է։"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is NOT Overriden"
+msgstr "Անդամակցության կարգավիճակը չեղարկված ՉԷ։"
+
+#: CRM/Member/BAO/Query.php
+msgid "Current Member?"
+msgstr "Ներկայումս անդամ է՞"
+
+#: CRM/Member/BAO/Query.php
+msgid "Primary Member?"
+msgstr "Հիմնական անդամ է՞"
+
+#: CRM/Member/BAO/Query.php
+msgid "Pay Later?"
+msgstr "Հետվճարային հիմունքներով է՞"
+
+#: CRM/Member/BAO/Query.php
+msgid "Auto-Renew Subscription Status?"
+msgstr "Անդամակցության կարգավիճակը ավտոմատ կերպով թարմացվում է՞"
+
+#: CRM/Member/BAO/Query.php
+msgid "- None -"
+msgstr "- Ոչ մեկը -"
+
+#: CRM/Member/BAO/Query.php
+msgid "Ended"
+msgstr "Ավարտված է"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is a Test?"
+msgstr "Անդամակցությունը փորձնական է՞"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden?"
+msgstr "Անդամակցության կարգավիճակը չեղարկված է՞։"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipBlock.php
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Id"
+msgstr "Անդամության նույնականացուցիչը"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Type Id"
+msgstr "Անդամակցության տեսակի նույնականացուցիչ"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of initial membership period (member since...)."
+msgstr "Անդամակցության ժամանակահատվածի սկիզբը (անդամ է սկսած․․․)"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of current uninterrupted membership period."
+msgstr "Ներկայիս չընդհատված անդամակցության ժամանակահատվածի սկիզբը "
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Expiration Date"
+msgstr "Անդամության ավարտման ամսաթիվը"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Current membership period expire date."
+msgstr "Ընթացիկ անդամակցության ժամկետի լրանալու ամսաթիվը:"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Status Id"
+msgstr "Անդամակցության կարգավիճակի նույնականացուցիչը"
+
+#: CRM/Member/DAO/Membership.php
+msgid "FK to Membership Status"
+msgstr "Անդամակցության փոփոխման ամսաթիվը"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Status Override"
+msgstr "Կարգավիճակը չեղարկված է"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Admin users may set a manual status which overrides the calculated status. "
+"When this flag is true, automated status update scripts should NOT modify "
+"status for the record."
+msgstr "Ադմինիստրատորները կարող են գործարկել ձեռքով նշվող կարգավիճակը, որը չեղարկում հաշվարկված կարգավիճակը: Եթե այս նշիչը ճիշտ է, ապա կարգավիճակի ավտոմատ կերպով թարմացման սցենարները չպետք է փոփոխեն արձանագրության կարգավիճակը:"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/Form/Membership.php
+msgid "Status Override End Date"
+msgstr "Կարգավիճակի չեղարկման վերջնաժամկետ"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Then end date of membership status override if 'Override until selected "
+"date' override type is selected."
+msgstr "Այնուհետև չեղարկվում է անդամակցության կարգավիճակը, եթե ընտրված է \"Չեղարկել մինչև նախատեսված ամսաթիվը\" չեղարկման տեսակը :"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Primary Member ID"
+msgstr "Հիմնական անդամի նույնականացուցիչ"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Optional FK to Parent Membership."
+msgstr "Քարոզարշավ, որին կցված է այս անդամակցությունը"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipType.php
+msgid "Max Related"
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "Maximum number of related memberships (membership_type override)."
+msgstr "Հարակից անդամակցությունների առավելագույն թիվը (անդամակցության տեսակի չեղարկում)։"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Recurring Contribution"
+msgstr "Անդամակցության կրկնվող ներդրում"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Conditional foreign key to civicrm_contribution_recur id. Each membership in"
+" connection with a recurring contribution carries a foreign key to the "
+"recurring contribution record. This assumes we can track these processor "
+"initiated events."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "The campaign for which this membership is attached."
+msgstr "Քարոզարշավ, որին կցված է այս անդամակցությունը"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block ID"
+msgstr "Անդամակցության բլոկի նույնականացուցիչ"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Entity Table"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php CRM/Member/DAO/MembershipStatus.php
+msgid "Name for Membership Status"
+msgstr "Անդամակցության կարգավիճակի անվանումը"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Entity ID"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "FK to civicrm_contribution_page.id"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Membership Types"
+msgstr "Անդամակցության բլոկի անդամակցության տեսակները"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership types to be exposed by this block"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Default Type"
+msgstr "Անդամակցության բլոկի բազային տեսակը"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Optional foreign key to membership_type"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Display Minimum Fee"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Display minimum membership fee"
+msgstr "Ցույց տալ նվազագույն անդամավճարը"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Is Separate Payment"
+msgstr "Անդամակցության բլոկի համար նախատեսված է առանձին վճար"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Should membership transactions be processed separately"
+msgstr "Անդամակցության գործարքը պետք է առանձին մշակվի՞"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block New Title"
+msgstr "Անդամակցության բլոկի նոր վերնագիր"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title to display at top of block"
+msgstr "Բլոկի գլխամասում նշված վերնագիր"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block New Text"
+msgstr "Անդամակցության բլոկի նոր տեքստ"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display below title"
+msgstr "Վերնագրի ներքո զետեղված տեքստ"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Renewal Title"
+msgstr "Թարմացված անդամակցության բլոկի վերնագիր "
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title for renewal"
+msgstr "Թարմացման վերնագիր"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Renewal Text"
+msgstr "Անդամակցության բլոկի թարմացման տեքստ"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display for member renewal"
+msgstr "Անդամակցության երկարացման ժամանակ ցուցադրվող տեքստ"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is Required"
+msgstr "Պահանջվում է"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is membership sign up optional"
+msgstr "Անդամագրությունը ընտրովի է՞"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is this membership_block enabled"
+msgstr "Այս անդամակցության բլոկըն ակտիվացված է՞"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log ID"
+msgstr "Ամդամակության գրանցամատյանի նույնականացուցիչ"
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipPayment.php
+msgid "FK to Membership table"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid ""
+"New status assigned to membership by this action. FK to Membership Status"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log Start Date"
+msgstr "Անդամակցության գրանցամատյանի մեկնարկի ամսաթիվը"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period start date"
+msgstr "Նոր անդամակցության մեկնարկի ամսաթիվը"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log End Date"
+msgstr "Անդամակցության գրանցամատյանի ավարտի ամսաթիվը"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period expiration date."
+msgstr "Նոր անդամության ժամկետը լրանալու ամսաթիվը "
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log modified By"
+msgstr "Անդամակցության գրանցամատյանը փոփոխության է ենթարկվել ․․․․․ կողմից"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Change Date"
+msgstr "Անդամակցության փոփոխման ամսաթիվը"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Date this membership modification action was logged."
+msgstr "Անդամակցության փոփոխման գրանցման ամսաթիվը "
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Type ID"
+msgstr "Անդամակցության տեսակի նույնականցուցիչը"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "FK to Membership Type."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Maximum Related Memberships"
+msgstr "Առավելագույն թվով հարակից անդամակցություններ "
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Maximum number of related memberships."
+msgstr "Հարակից անդամակցությունների առավելագույն թիվը"
+
+#: CRM/Member/DAO/MembershipPayment.php
+msgid "Membership Payment ID"
+msgstr "Անդամակցության վճարման նույնականացուցիչը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Membership Status ID"
+msgstr "Անդամակցության կարգավիճակի նույնականացուցիչը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Label for Membership Status"
+msgstr "Անդամակցության կարգավիճակի նշապիտակը"
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Start Event"
+msgstr "Սկսել միջոցառում"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Event when this status starts."
+msgstr "Միջոցառում, երբ սկսում է այս կարգավիճակը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Start Event Adjust Unit"
+msgstr "Միջոցարման կարգավորման մեկնարկի միավոր"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from start_event."
+msgstr "Միջոցառման մեկնարկի համար հարմարեցված միավոր"
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "Start Event Adjust Interval"
+msgstr "Միջոցառման կարգավորման մեկնարկի միջակայք"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range begins this many units from start_event."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "End Event"
+msgstr "Ավարտել միջոցառումը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Event after which this status ends."
+msgstr "Միջոցառում, որից հետո ավարտվում է այս կարգավիճակը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "End Event Adjust Unit"
+msgstr "Միջոցառման կարգավորման ավարտի միավոր"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from the ending event."
+msgstr "Միջոցառման ավարտի համար հարմարեցված միավոր"
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "End Event Adjust Interval"
+msgstr "Միջոցառման կարգավորման ավարտի միջակայք"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range ends this many units from end_event."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "Current Membership?"
+msgstr "Ներկա անդամակցությունը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Does this status aggregate to current members (e.g. New, Renewed, Grace "
+"might all be TRUE... while Unrenewed, Lapsed, Inactive would be FALSE)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Administrator Only?"
+msgstr "Միայն ադմինիստրատորի համա՞ր"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this status for admin/manual assignment only."
+msgstr "Այս կարգավիճակը միայն ադմինիստրատորի / ձեռնարկի նշանակման համար է՞:"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Default Status?"
+msgstr "Հիմնական կարգավիճակը"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Assign this status to a membership record if no other status match is found."
+msgstr "Այս կարգավիճակը վերագրել անդամագրության գրանցմանը, եթե որևէ այլ կարգավիճակ չի գտնվել:"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status enabled."
+msgstr "Այս անդամակցության կարգավիճակն ակտիվացված է:"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is Reserved"
+msgstr "Ամրագրված է"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status reserved."
+msgstr "Այս անդամակցության կարգավիճակն ամրագրված է՞։"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Domain"
+msgstr "Անդամակցության տեսակի դոմեն"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Name of Membership Type"
+msgstr "Անդամակցության տեսակի անվանումը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Description"
+msgstr "Անդամակցության տեսակի նկարագիրը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Description of Membership Type"
+msgstr "Անդամակցության տեսակի նկարագիրը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Organization"
+msgstr "Անդամակցության տեսակի կազմակերպությունը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Owner organization for this membership type. FK to Contact ID"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Financial Type"
+msgstr "Անդամակցություն Ֆինանսական տեսակը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"If membership is paid by a contribution - what financial type should be "
+"used. FK to civicrm_financial_type.id"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Minimum Fee"
+msgstr "Անդամակցության տեսակի համար նախատեսված նվազագույն վճարը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Minimum fee for this membership (0 for free/complimentary memberships)."
+msgstr "Նվազագույն անդամավճար (0 անվճար անդամակցություն):"
+
+#: CRM/Member/DAO/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Minimum Fee"
+msgstr "Նվազագույն անդամավճար"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Duration Unit"
+msgstr "Անդամակցության տեսակի տևողության միավոր"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Unit in which membership period is expressed."
+msgstr "Միավ, որով արտահայտվում է անդամակցության ժամանակահատվածը :"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Duration Interval"
+msgstr "Անդամության տեսակի տևողության միջակայք"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Number of duration units in membership period (e.g. 1 year, 12 months)."
+msgstr "Անդամության ժամանակահատվածի տևողության միավորների քանակը (օրինակ `1 տարի, 12 ամիս):"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Plan"
+msgstr "Անդամության տեսակի ծրագիրը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Rolling membership period starts on signup date. Fixed membership periods "
+"start on fixed_period_start_day."
+msgstr "Չֆիքսված ժամանակահատվածով անդամակցության ժամկետն սկսվում է գրանցման ամսաթվից: Հաստատուն անդամակցության ժամանակահատվածները սկսվում են հաստատուն_ժամանակահատվածի_մեկնարկի_ամսաթվից"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, month and day (mmdd) on which "
+"subscription/membership will start. Period start is back-dated unless after "
+"rollover day."
+msgstr "Հաստատուն ժամանակահատվածով անդամակցության համար նշել բաժանորդագրության/անդամակցության մեկնարկի ամսաթիվը (ամիս,օր): Ժամանակահատվածի մեկնարկը հետին ամսաթվով է, եթե չի թարմացվել:"
+
+#: CRM/Member/DAO/MembershipType.php CRM/Member/Form/MembershipType.php
+msgid "Fixed Period Rollover Day"
+msgstr "Հաստատուն ժամանակահատվածի թարմացման ամսաթիվ"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, signups after this day (mmdd) rollover to next"
+" period."
+msgstr "Հաստատուն ժամանակահատվածով անդամակցության համար նշված ամսաթվից (ամիս, օր) հետո կատարվող գրանցումները տեղափոխվում են հաջորդ ժամանակաշրջան:"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Relationship"
+msgstr "Անդամակցության տեսակին բնորոշ հարաբերությունները"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "FK to Relationship Type ID"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Max Related Members for Type"
+msgstr "Առավելագույն թվով հարակից անդամներ տվյալ տեսակի համար"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Visible"
+msgstr "Տեսանելի"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Receipt Text"
+msgstr "Անդամության տեսակի համար նախատեսված անդորրագրի տեքստը"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership signup"
+msgstr "Անդամագրության  անդորրագրի տեքստ"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Renewal Text"
+msgstr "Անդամակցության տեսակի թարմացման տեքստ"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership renewal"
+msgstr "Անդամակցության թարմացման անդորրագրի տեքստ"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"0 = No auto-renew option; 1 = Give option, but not required; 2 = Auto-renew "
+"required;"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Is this membership_type enabled"
+msgstr "Տվյալ անդամակցության տեսակն ակտիվացված է"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Consider modifying the membership status instead if you want to maintain an "
+"audit trail and avoid losing payment data. You can set the status to "
+"Cancelled by editing the membership and clicking the Status Override "
+"checkbox."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid "Click 'Delete' if you want to continue."
+msgstr "Սեղմել ՛Ջնջել՛, եթե ցանկանում եք շարունակել"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"This Membership is linked to a contribution. You must have 'delete in "
+"CiviContribute' permission in order to delete this record."
+msgstr "Այս անդամակցությունը կապված է ներդրման հետ: Դուք պետք է ունենաք «Ջնջել CiviContribute-ում» թույլտվություն՝ այս գրառումը ջնջելու համար:"
+
+#: CRM/Member/Form/Membership.php templates/CRM/Member/Form/MembershipView.tpl
+msgid "Max related"
+msgstr "Առավելագույն թվով առնչվող/հարակից"
+
+#: CRM/Member/Form/Membership.php
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Membership Organization and Type"
+msgstr "Անդամակցության կազմակերպությունը և տեսակը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Status Override?"
+msgstr "Կարգավիճակի չեղարկու՞մ"
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment?"
+msgstr "Գրանցե՞լ անդամավճարի վճարումը"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Record Payment from a Different Contact?"
+msgstr "Գրանցե՞լ այլ կոնտակտի կողմից կատարված վճարումը"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment From"
+msgstr "Վճարման եղանակը"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Send Confirmation and Receipt?"
+msgstr "Հաստատում կամ ստացական ուղարկե՞լ"
+
+#: CRM/Member/Form/Membership.php
+msgid "Select at most one option associated with the same membership type."
+msgstr "Ընտրել անդամակցության միևնույն  տեսակի հետ կապված ոչ ավելի քան մեկ  տարբերակ:"
+
+#: CRM/Member/Form/Membership.php
+msgid "Select at least one membership option."
+msgstr "Ընտրել անդամակցության առնվազն մեկ տարբերակ "
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment is required when you use a price set."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid "Please select a membership type."
+msgstr "Խնդրում ենք ընտրել անդամակցության տեսակը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter an integer for the number of terms."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
+msgid "Please enter the financial Type."
+msgstr "Խնդրում ենք մուտքագրել ֆինանսական տեսակը"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Please do not select more than one membership associated with the same "
+"organization."
+msgstr "Խնդրում ենք միևնույն կազմակերպությանն առնչվող մեկից ավելի անդամակցություն չընտրել:"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please Select a Soft Credit Type"
+msgstr "Խնդրում ենք ընտրել արտոնյալ վարկի տեսակը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please select a contact"
+msgstr "Խնդրում ենք ընտրել կոնտակտային անձ"
+
+#: CRM/Member/Form/Membership.php
+msgid "Start date must be the same or later than Member since."
+msgstr "Մեկնարկի ամսաթիվը պետք է լինի նույնը կամ ոչ ուշ քան \"Անդամ է ----- ից\" դաշտում նշված ամսաթիվը։"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Please enter a status that does NOT represent a current membership status."
+msgstr "Խնդրում ենք մուտքագրել մի կարգավիճակ, որը ՉԻ ներկայացնում ընթացիկ անդամակցության կարգավիճակը:"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Because you set an End Date for a lifetime membership, This must be set to "
+"\"Override Permanently\""
+msgstr "Քանի որ դուք ողջ կյանքի համար նախատեսված անդամակցության համար նշում եք ավարտի ամսաթիվ, ապա դա պետք է նշել  \"մշտապես չեղյալ համարել\" գործառույթը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Start date must be set if end date is set."
+msgstr "Եթե նշվում է ավարտի ամսաթիվը, ապա պետք է նշվի նաև մեկնարկի ամսաթիվը"
+
+#: CRM/Member/Form/Membership.php
+msgid "End date must be the same or later than start date."
+msgstr "Ավարտի ամսաթիվը պետք է լինի նույնը ինչ մեկնարկի ամսաթիվն է կամ ավելի ուշ։"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"There is no valid Membership Status available for selected membership dates."
+msgstr "Անդամակցության համար ընտրված ամսաթվերի համար գոյություն չունի անդամակցության վավեր կարգավիճակ։"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Oops, it looks like there is no valid membership status available for the "
+"given membership dates. You can <a href=\"%1\">Configure Membership Status "
+"Rules</a>."
+msgstr "Օհ, կարծես տվյալ անդամակցության համար ընտրված ամսաթվերի համար  անդամակցության վավեր կարգավիճակ գոյություն չունի։ Դուք կարող եք                     1 Կազմաձևել անդամակցության կարգավիճակի կանոնները 1"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"OR You can sign up by setting Status Override? to something other than "
+"\"NO\"."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid "Membership Status Error"
+msgstr "Անդամակցության կարգավիճակի սխալ"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Member Since."
+msgstr "Խնդրում ենք լրացնել \"Անդամ է սկսած-----\" դաշտը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership status."
+msgstr "Խնդրում ենք մուտքագրել անդամակցության կարգավիճակը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership override end date."
+msgstr "Խնդրում ենք մուտքագրել անդամակցության անվավեր ճանաչման ավարտի ամսաթիվը"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the contribution."
+msgstr "Խնդրում ենք մուտքագրել ներդրումը"
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 Membership: Offline signup (by %2)"
+msgstr "% 1 Անդամակցություն. Offline գրանցում (% 2)"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"signup"
+msgstr "Աշխատակցի կողմից ներդրման մուտքագրում, որի ժամանակ օգտագործվում է անդամի վարկային քարտը "
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 Membership Signup: Credit card or direct debit (by %2)"
+msgstr "1 անդամագրություն. վարկային քարտ կամ ուղղակի դեբիտ (% 2)"
+
+#: CRM/Member/Form/Membership.php
+msgid "A membership confirmation and receipt has been sent to %1."
+msgstr "Անդամակցության հաստատում և ստացական է ուղարկվել % 1:"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Associated recurring contribution cannot be updated on membership type "
+"change."
+msgstr "Առնչվող կրկնվող ներդրման մեջ հնարավոր չէ կատարել անդամության տեսակի փոփոխությամբ պայմանավորված թարմացում "
+
+#: CRM/Member/Form/Membership.php
+msgid "Associated contribution is updated on membership type change."
+msgstr "Առնչվող ներդրումը թարմացվել է և ներառում է անդամության փոփոխության վերաբերյալ տվյալներ"
+
+#: CRM/Member/Form/Membership.php
+msgid "Membership for %1 has been updated."
+msgstr "1% -ի անդամակցությունը թարմացվել է:"
+
+#: CRM/Member/Form/Membership.php
+msgid "The membership End Date is %1."
+msgstr "Անդամակցության ավարտի ամսաթիվը % 1 է:"
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 membership for %2 has been added."
+msgstr "% 2 ի համար ավելացվել է % 1 անդամակցություն:"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "The new membership End Date is %1."
+msgstr "Անդամակցության ավարտի նոր ամսաթիվը %1 է։ "
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The financial types associated with the old and new membership types are "
+"different. You may want to edit the contribution associated with this "
+"membership to adjust its financial type."
+msgstr "Անդամակցության հին և նոր տեսակներին առնչվող ֆինանսական տեսակները տարբեր են: Դուք կարող եք խմբագրել այս անդամակցության հետ կապված ներդրումը, դրա ֆինանսական տեսակը կարգավորելու համար:"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The cost of the old and new membership types are different. You may want to "
+"edit the contribution associated with this membership to adjust its amount."
+msgstr "Անդամակցության հին և նոր տեսակների ծախսերը տարբեր են: Դուք կարող եք խմբագրել այս անդամակցության հետ կապված ներդրումը, դրա գումարը կարգավորելու համար:"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Section Enabled?"
+msgstr "Անդամության բաժինն ակտիվացված է՞։"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Title - New Membership"
+msgstr "Վերնագիր - Նոր անդամակցություն"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Introductory Message - New Memberships"
+msgstr "Ներածական հաղորդագրություն - Նոր անդամակցություններ"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Title - Renewals"
+msgstr "Վերնագիր - Թարմացումներ"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Introductory Message - Renewals"
+msgstr "Ներածական հաղորդագրություն - Թարմացումներ"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Require Membership Signup"
+msgstr "Անհրաժետ է անդամագրվել"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Display Membership Fee"
+msgstr "Ցույց տալ անդամավճարը"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Separate Membership Payment"
+msgstr "Անդամավճարի առանձին վճարում "
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Types Label"
+msgstr "Անդամության տեսակների նշիչ"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Not offered"
+msgstr "Չի առաջարկվում"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Give option"
+msgstr "Տարբերակ առաջարկել"
+
+#: CRM/Member/Form/MembershipBlock.php
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew"
+msgstr "Ավտոմատ թարմացում"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Types Default"
+msgstr "Անդամակցության հիմնական տեսակները"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Price Set"
+msgstr "Անդամակցության գնային տարբերակները"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"The membership price set associated with this online contribution allows a "
+"user to select BOTH an auto-renew AND a non-auto-renew membership. This "
+"requires submitting multiple processor transactions, and is not supported "
+"for one or more of the payment processors enabled under the Amounts tab."
+msgstr "Այս առցանց ներդրման հետ կապված անդամակցության գինը հնարավորություն է տալիս օգտվողին ընտրելու և՛ ավտոմատ կերպով թարմացվող, և ավտոմատ կերպով չթարմացվող անդամակցության տեսակները: Դրա համար անհրաժեշտ է բազմապրոցեսորային գործարքներ մուտքագրել, և այն  չի պահպանվում \"Գումարներ\" էջանշի ներքո միացված վճարման պրոցեսորներից մեկի կամ մի քանիսի համար:"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot enable both Membership Signup and a Contribution Price Set on the"
+" same online contribution page."
+msgstr "Դուք չեք կարող առցանց ներդրումների միևնույն էջում ակտիվացնել և՛ անդամագրության հայտը և՛ Ներդումների գնային սահմանաչափերը:"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"Please select at least one Membership Type to include in the Membership "
+"section of this page."
+msgstr "Խնդրում ենք ընտրել անդամության առնվազն մեկ  տեսակը` այս էջի \"Անդամակցություն\" բաժնում ընդգրկելու համար:"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot select more than %1 choices. For more complex functionality, "
+"please use a Price Set."
+msgstr "Չեք կարող ընտրել  1%-ից ավել տարբերակներ: Ավելի բարդ ֆունկցիոնալության համար խնդրում ենք օգտագործել \"Գնային սանդղակը\":"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You need to enable Separate Membership Payment when online contribution page"
+" is configured for both Membership and Recurring Contribution"
+msgstr "Առցանց ներդրումների էջը կազմաձևելիս Դուք պետք է ակտիվացնեք \"Անհատական Անդամավճարի մուծում\" գործառույթն ինչպես անդամակցության, այնպես էլ կրկնվող ներդրումների համար։"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot enable both Recurring Contributions and Auto-renew memberships on"
+" the same online contribution page"
+msgstr "Դուք չեք կարող առցանց ներդրումների միևնույն էջում միաժամանակ ակտիվացնել կրկնվող ներդրումները և ավտոմատ կերպով երկարաձգվող անդամակցությունները"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Add status rules, before configuring membership"
+msgstr "Ավելացնել կարգավիճակի վերաբերյալ կանոններ՝ նախքան անդամակցության կարգավորումը"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Can't set default option for an unchecked membership type."
+msgstr "Հնարավոր չէ բազային տարբերակ սահմանել անդամակցության չնշված տեսակի համար "
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Please enable the contribution amount section to use this option."
+msgstr "Խնդրում ենք ակտիվացնել ներդրման գումարի բաժինը՝ այս տարբերակն օգտագործելու համար:"
+
+#: CRM/Member/Form/MembershipConfig.php CRM/Member/Form.php
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Renew"
+msgstr "Թարմացնել"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Membership Renewal using a credit card requires a Membership fee. Since "
+"there is no fee associated with the selected membership type, you can use "
+"the normal renewal mode."
+msgstr "Վարկային քարտի միջոցով անդամակցության երկարաձգելու համար ահնրաժեշտ է վճարել անդամավճարը: Քանի որ ընտրված անդամակցության տեսակը չի նախատեսում որևէ վճար, դուք կարող եք կիրառել թարմացման սովորական ռեժիմը:"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Includes %1 amount of %2"
+msgstr "Ներառում է% 2 գումարի %1 -ը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal Membership Organization and Type"
+msgstr "Թարմացվող անդամակցության կազմակերպությունը և տեսակը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Date Renewal Entered"
+msgstr "Թարմացման մուտքագրման ամսաթիվը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Extend Membership by"
+msgstr "Երկարաձգել անդամակցություն -----"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please enter a whole number for how many periods to renew."
+msgstr "Խնդրում ենք մուտքագրել ամբողջ թիվ՝ նշելու համար, թե քանի շրջան եք ցանկանում երկարացնել"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Record Renewal Payment?"
+msgstr "Գրանցե՞լ երկարաձգման նպատակով կատարվող վճարումը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal Message"
+msgstr "Հաղորդագրություն թարմացման վերաբերյալ"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Oops. It looks like you are trying to change the membership type while "
+"renewing the membership. Please click the \"change membership type\" link, "
+"and select a Membership Organization."
+msgstr "Օհ, կարծե թե դուք փորձում եք փոխել անդամության տեսակը, անդամակցությունը թարմացնելիս: Խնդրում ենք սեղմել «փոխել անդամության տեսակը» հղումը և ընտրել անդամակցության կազմակերպությունը:"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Oops. It looks like you are trying to change the membership type while "
+"renewing the membership. Please click the \"change membership type\" link "
+"and select a Membership Type from the list."
+msgstr "Օհ, կարծես թե դուք փորձում եք փոխել անդամության տեսակը, անդամակցությունը թարմացնելիս: Խնդրում ենք սեղմել «փոխել անդամության տեսակը» հղումը և ցանկից ընտրել անդամակցության տեսակը:"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal date must be the same or later than Member since (Join Date)."
+msgstr "Երկարաձգման ամսաթիվը պետք է լինի նույնը կամ ավելի ուշ քան \"Անդամ է ----- ից\" (անդամակցության ամսաթիվ) դաշտում նշված ամսաթիվը։"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please select a Financial Type."
+msgstr "Խնդրում ենք ընտրել ֆինանսական տեսակը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please enter a Contribution Amount."
+msgstr "Խնդրում ենք մուտքագրել ներդրվող գումարի չափը"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "%1 membership for %2 has been renewed."
+msgstr "% 1 անդամակցությունը % 2-ի համար երկարաձգվել է:"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "A renewal confirmation and receipt has been sent to %1."
+msgstr "Երկարաձգման վերաբերյալ հաստատումը և անդորրագիրն ուղարկվել է  %1-ին։"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"renewal"
+msgstr "Երկարաձգման նպատակով ներդրումը կատարվել է աշխատակցի կողմից՝ անդամի վարկային քարտի միջոցով"
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Display name for this Membership status (e.g. New, Current, Grace, "
+"Expired...)."
+msgstr "Ցույց տալ այդ անդամակցության կարգավիճակը (օրինակ՝ Նոր, Ընթացիկ, Երկարաձգված ժամկետով, Լրացած․․․ )"
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Check this box if this status is for use by administrative staff only. If "
+"checked, this status is never automatically assigned by CiviMember. It is "
+"assigned to a contact's Membership by checking the <strong>Status "
+"Override</strong> flag when adding or editing the Membership record. Start "
+"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
+" setting can be useful for special case statuses like 'Non-expiring', "
+"'Barred' or 'Expelled', etc."
+msgstr "Նշեք այս վանդակը, եթե այդ կարգավիճակը օգտագործվում է միայն վարչական աշխատակազմի կողմից: Նշելու դեպքում այս կարգավիճակը երբեք ավտոմատ կերպով չի նշանակվում CiviMember-ի կողմից: Այն վերագրվում է կոնտակտի անդամակցությանը՝ նշելով  1 Status Override 1 նշիչը անդամակցության վերաբերյալ գրառումն ավելացնելիս կամ խմբագրելիս: Միջոցառում սկսելու և ավարտելու կարգավորումներն անտեսվում են Ադմինիստրատորի կարգավիճակի համար: EXAMPLE: Այս կարգավորումը կարող է օգտակար լինել հատուկ գործերի կարգավիճակների համար, ինչպիսիք են `« Չսպառվող »,« Արգելված » կամ                   «Հեռացված » և այլն:"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"You will not be able to delete this membership status if there are existing "
+"memberships with this status. You will need to check all your membership "
+"status rules afterwards to ensure that a valid status will always be "
+"available."
+msgstr "Դուք չեք կարողանա ջնջել այս անդամակցության կարգավիճակը, եթե գոյություն ունեն այս կարգավիճակն ունեցող անդամներ: Հետագայում անհրաժեշտ է ստուգել Ձեր  անդամակցության կարգավիճակի վերաբերյալ բոլոր կանոնները՝ հավաստիանալու համար, որ վավեր կարգավիճակը միշտ հասանելի է:"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"A membership status with this label already exists. Please select another "
+"label."
+msgstr "Այս նշիչով անդամակցության կարգավիճակ արդեն գոյություն ունի: Խնդրում ենք ընտրել մեկ այլ նշիչ:"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Start Event Adjustment"
+msgstr "Միջոցառման մեկնարկի կարգավորում"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "End Event Adjustment"
+msgstr "Միջոցառման ավարտի կարգավորում"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Delete Failed"
+msgstr "Ջնջել չհաջողվեց"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Selected membership status has been deleted."
+msgstr "Ընտրված անդամակցության կարգավիճակը ջնջվել է:"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "The membership status '%1' has been saved."
+msgstr "'% 1' անդամակցության կարգավիճակը պահպանվել է:"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
+msgstr "Օրինակ՝ «Ուսանող», «ավագ», «Պատվավոր հասարակություն ..."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Description of this membership type for internal use. May include "
+"eligibility, benefits, terms, etc."
+msgstr "Անդամակցության այս տեսակի նկարագրությունը ներքին օգտագործման համար․ Այն կարող են ներառել իրավասությունը, օգուտները, պայմանները և այլն:"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Members assigned this membership type belong to which organization (e.g. "
+"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
+" organization/group/chapter must exist as a CiviCRM Organization type "
+"contact."
+msgstr "Որ կազմակերպությանն են պատկանում անդամակցության այս տեսակում ներգրավված անդամները (օրինակ՝ սա \"Փրկել կետաձկերին\" կազմակերպության հյուսիս-արևմտյան բաժնի անդամակցության համար է)։ ՈՒՇԱԴՐՈՒԹՅՈՒՆ․ տվյալ կազմակերպությունը/խումբը/բաժինը պետք է գոյություն ունենա որպես CiviCRM կազմակերպության համապատասխան տեսակի կոնտակտ։"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Minimum fee required for this membership type. For free/complimentary "
+"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
+"process sales taxes this should be the tax exclusive amount."
+msgstr "Անդամակցության տվյալ տեսակի համար պահանջվող նվազագույն վճար: Անվճար անդամակցությունների համար սահմանվում է նվազագույնից մինչև զրո (0) անդամավճար: ՈՒՇԱԴՐՈՒԹՅՈՒՆ․ CiviCRM համակարգում վաճառքի հարկը հաշվելիս դա պետք է հարկազատվի:"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select the financial type assigned to fees for this membership type (for "
+"example 'Membership Fees'). This is required for all membership types - "
+"including free or complimentary memberships."
+msgstr "Ընտրել անդամակցության տվյալ տեսակի համար կիրառվող ֆինանսական տեսակը (օրինկակ՝ \"Անդամավճարներ\")։ Սա պարտադիր է անդամակցության բոլոր տեսակների համար՝ այդ թվում նաև անվճար անդամակցության։ "
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You will need to select and configure a supported payment processor "
+"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
+"to offer automatically renewing memberships."
+msgstr "Անդամակցություններն ավտոմատ կերպով երկարացնելու համար Դուք պետք է ընտրեք և կոնֆիգուրացնեք համապատասխան  վճարման օպերատորին (ներկայումս դրանք են Authorize.Net, PayPal Pro կամ PayPal Website Standard):"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
+msgstr "Այս անդամակցության տևողությունը (օրինակ՝ 30 օր, 2 ամիս, 5 տարի, ցմահ)"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date."
+msgstr "Ընտրել \"չֆիքսված ժամկետով\", եթե անդամակցության ժամանակահատվածն սկսում է գրանցման ամսաթվից։ Ընտրել \"ֆիքսված ժամկետով\", թե անդամակցության ժամանակահատվածն սկսում է որոշակի օրացուցային ամսաթվից։ "
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Month and day on which a <strong>fixed</strong> period membership or "
+"subscription begins. Example: A fixed period membership with Start Day set "
+"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
+"anyone signing up during 2006."
+msgstr "1 ֆիքսված 1 ժամանակահատվածով անդամակցության կամ բաժանորդագրության մեկնարկի ամիսը և օրը․ Օրինակ՝ եթե ֆիքսված ժամանակահատվածով անդամակցության մեկնարկի համար սահմաված ամսաթիվը հունվարի 01-ն է՝ նշանակում է, որ 2006թ․-ի ընթացքում գրանցված բոլոր անդամների համար անդամակցության ժամկետը կլինի 1/1/06 - 31/12/06:"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this date cover the following calendar year "
+"as well. Example: If the rollover day is November 30, membership period for "
+"signups during December will cover the following year."
+msgstr "Այս ամսաթվին կամ դրանից հետո անդամագրությունները ներառում են նաև հաջորդ օրացուցային տարին: Օրինակ `եթե անդամակցության թարմացման օրը նոյեմբերի 30-ն է, դեկտեմբեր ամսվա ընթացքում կատարված անդամագրությունների ժամկետը կներառի հաջորդ տարին:"
+
+#: CRM/Member/Form/MembershipType.php templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Maximum number of related memberships (leave blank for unlimited)."
+msgstr "Հարակից անդամակցությունների առավելագույն քանակը (դատարկ թողնել․ անսահմանափակ է)"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Can this membership type be used for self-service signups ('Public'), or is "
+"it only for CiviCRM users with 'Edit Contributions' permission ('Admin')."
+msgstr "Հնարավո՞ր է, արդոք, անդամակցության այս տեսակն օգտագործել ինքնուրույն գրանցվելու (\"Հանրային\") համար, թե՞ դա նախատեսված է բացառապես CiviCRM անդամների համար, որոնք ունեն \"Ներդումները խմբագրելու\" թույտվություն (\"Admin\")"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"WARNING: Deleting this option will result in the loss of all membership "
+"records of this type."
+msgstr "ՈՒՇԱԴՐՈՒԹՅՈՒՆ. Այս տարբերակը ջնջելու դեպքում կկորցնեք այս կատեգորիայի անդամագրությանն առնչվող բոլոր գրանցումները:"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"A membership type with this name already exists. Please select another name."
+msgstr "Այս անունով անդամակցության տեսակ արդեն գոյություն ունի: Խնդրում ենք ընտրել այլ անուն:"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a monetary value for the Minimum Fee."
+msgstr "Խնդրում ենք մուտքագրել դրամական արժեք նվազագույն վճարի համար:"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Membership Organization"
+msgstr "Անդամակցության կազմակերպությունը"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid "Auto-renew Option"
+msgstr "Ավտոմատ թարմացման տարբերակ"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a membership type name."
+msgstr "Խնդրում ենք նշել անդամակցության տեսակի անվանումը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a duration interval."
+msgstr "Խնդրում ենք նշել տևողությունը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Automatic renewals are not supported by the currently available payment "
+"processors when the membership duration is greater than 1 year / 12 months."
+msgstr "Ներկայումս առկա վճարումներ իրականացնող օպերատորները չեն կատարում ավտոմատ թարմացումներ, եթե անդամակցության տևողությունը գերազանցում է 1 տարին / 12 ամիսը։ "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Period type should be Rolling when duration unit is Day"
+msgstr "Ժամանակահատվածը պետք է լինի \"չֆիքսված\" տեսակի, եթե տևողության միավորը օրն է։ "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a valid fixed period start day"
+msgstr "Խնդրում ենք մուտքագրել վավերական ֆիքսված ժամանակատվածի մեկնարկի ամսաթիվը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a valid fixed period rollover day"
+msgstr "Խնդրում ենք մուտքագրել վավերական ֆիքսված ժամանակատվածի թարմացման ամսաթիվը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter valid Fixed Period Start Day"
+msgstr "Խնդրում ենք մուտքագրել վավերական ֆիքսված ժամանակատվածի մեկնարկի ամսաթիվը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter valid Fixed Period Rollover Day"
+msgstr "Խնդրում ենք մուտքագրել վավերական ֆիքսված ժամանակատվածի թարմացման ամսաթիվը"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Membership Type Not Deleted"
+msgstr "Անդամակցության տեսակը ջնջված չէ"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Selected membership type has been deleted."
+msgstr "Ընտրված անդամակցության տեսակը ջնջվել է։"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "The membership type '%1' has been saved."
+msgstr "Անդամակցության տեսակը %1 պահպանվել է։"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Cancel Related Membership"
+msgstr "Չեղարկել հարակից անդամակցությունները"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Create Related Membership"
+msgstr "Ստեղծել հարակից անդամակցություն"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Related membership for %1 has been deleted."
+msgstr "Ջնջվել է %1 -ի հարակից անդամակցությունը "
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Membership Deleted"
+msgstr "Անդամակցությունը ջնջված է"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Manual Assignment of Related Membership"
+msgstr "Հարակից անդամակցության ոչ ավտոմատ նշանակում"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Related membership for %1 has been created."
+msgstr "Ստեղծվել է %1 -ի հարակից անդամակցություն"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Membership Added"
+msgstr "Ավելացվել է անդամակցություն"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Invalid action specified in URL"
+msgstr "URL- ում նշված է անվավեր գործողություն"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Unlimited"
+msgstr "Անսահմանափակ"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "None available"
+msgstr "Առկա չէ"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "%1 available"
+msgstr "%1 առկա է"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "View Membership for"
+msgstr "Դիտել անդամակցություն ---ի համար"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Name or Email"
+msgstr "Անդամի անունը կամ էլ․ փոստի հասցեն"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Tag(s)"
+msgstr "Անդամի նշապիտակ(ներ)"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Group(s)"
+msgstr "Անդամների խումբ(խմբեր)"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Contact Type"
+msgstr "Անդամի կոնտակտի տեսակը"
+
+#: CRM/Member/Form/Search.php
+msgid "Find Memberships"
+msgstr "Գտնել անդամակցություններ"
+
+#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
+#: CRM/Member/Task.php
+msgid "Update multiple memberships"
+msgstr "Թարմացնել մի քանի անդամակցություն"
+
+#: CRM/Member/Form/Task/Batch.php
+msgid "Update Members(s)"
+msgstr "Թարմացնել անդամն(ներ)ին"
+
+#: CRM/Member/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple memberships."
+msgstr ""
+
+#: CRM/Member/Form/Task/Batch.php
+msgid "Update Memberships"
+msgstr "Թարմացնել անդամագրությունները"
+
+#: CRM/Member/Form/Task/Delete.php
+msgid "Delete Memberships"
+msgstr "Ջնջել անդամագրությունները"
+
+#: CRM/Member/Form/Task/Delete.php
+msgid "%count membership deleted."
+msgid_plural "%count memberships deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Member/Form/Task/Label.php
+msgid "Print one label per Membership (rather than per contact)"
+msgstr "Տպել մեկական միտակ յուրաքանչյուր անդամակցության համար (այլ ոչ թե յուրաքանչյուր կոնտակտի համար)"
+
+#: CRM/Member/Form/Task/Label.php
+msgid ""
+"As you are printing one label per membership your merge settings are being "
+"ignored"
+msgstr "Քանի որ Դուք յուրաքանչյուր անդամակցության համար տպում եք մեկական պիտակ, ապա Ձեր միաձուլման կարգավորումներն անտեսվում են"
+
+#: CRM/Member/Form/Task/PickProfile.php
+msgid ""
+"The maximum number of members you can select for Update multiple memberships"
+" is %1. You have selected %2. Please select fewer members from your search "
+"results and try again."
+msgstr "\"Թարմացնել բազմակի անդամակցություններ\" գործառույթի համար դուք կարող եք ընտրել առավելագույնը % 1 անդամ: Դուք ընտրել եք% 2: Ձեր որոնման արդյունքներից ընտրեք ավելի քիչ անդամներ եւ կրկին փորձեք:"
+
+#: CRM/Member/Form/Task/PickProfile.php
+msgid ""
+"You will need to create a Profile containing the %1 fields you want to edit "
+"before you can use Update multiple memberships. Navigate to Administer "
+"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
+"Administrator documentation for more information."
+msgstr "Տպել անդամների ցանկը/անունները"
+
+#: CRM/Member/Form/Task/Print.php
+msgid "Print Members"
+msgstr "Տպել անդամների ցանկը"
+
+#: CRM/Member/Form.php
+msgid ""
+"There are no configured membership statuses. You cannot add this membership "
+"until your membership statuses are correctly configured"
+msgstr "Անդամակցության կոնֆիգորացված կարգավիճակներ գոյություն չունեն: Դուք չեք կարող ավելացնել այս անդամակցությունը, եթե ձեր անդամության ստատուսները ճիշտ չեն կոնֆիգուրացված։"
+
+#: CRM/Member/Form.php
+msgid "Membership renewed automatically"
+msgstr "Անդամակցությունն ավտոմատ կերպով թարմացվել է"
+
+#: CRM/Member/Import/Form/DataSource.php
+msgid "Insert new Membership"
+msgstr "Մուտքագրել նոր անդամակցություն"
+
+#: CRM/Member/Import/Form/DataSource.php
+msgid "Update existing Membership"
+msgstr "Թարմացնել առկա անդամակցությունը"
+
+#: CRM/Member/Import/Form/MapField.php
+msgid "(OR Membership ID if update mode.)"
+msgstr ""
+
+#: CRM/Member/Import/Form/MapField.php
+msgid "Duplicate Import Membership Mapping Name"
+msgstr ""
+
+#: CRM/Member/Import/Parser.php
+msgid "View Membership URL"
+msgstr "Դիտել անդամակցության URL-ն"
+
+#: CRM/Member/Info.php
+msgid "CiviCRM Membership Engine"
+msgstr "CiviCRM-ի անդամակցության մեխանիզմը"
+
+#: CRM/Member/Info.php
+msgid "access CiviMember"
+msgstr "Մուտք գործել CiviMember "
+
+#: CRM/Member/Info.php
+msgid "View memberships"
+msgstr "Դիտել անդամակցությունները"
+
+#: CRM/Member/Info.php
+msgid "edit memberships"
+msgstr "խմբագրել անդամակցությունները"
+
+#: CRM/Member/Info.php
+msgid "Create and update memberships"
+msgstr "Ստեղծել և թարմացնել անդամակցություններ"
+
+#: CRM/Member/Info.php
+msgid "delete in CiviMember"
+msgstr "ջնջել CiviMember-ում "
+
+#: CRM/Member/Info.php CRM/Member/Task.php
+msgid "Delete memberships"
+msgstr "Ջնջել անդամակցություններ"
+
+#: CRM/Member/Info.php
+msgid "Your Membership(s)"
+msgstr "Ձեր անդամակցություն(ներ)ը"
+
+#: CRM/Member/Page/DashBoard.php
+msgid "Invalid date query \"%1\" in URL (valid syntax is yyyymm)."
+msgstr "Անվավեր ամսաթվի հարցում \"%1\" URL-ում ( ճիշտ հերթականությունն է տարի, ամիս)"
+
+#: CRM/Member/Page/DashBoard.php CRM/Member/Selector/Search.php
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Member"
+msgstr "Անդամ"
+
+#: CRM/Member/Page/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Edit Membership Status"
+msgstr "Խմբագրել անդամության կարգավիճակը"
+
+#: CRM/Member/Page/MembershipStatus.php
+msgid "Disable Membership Status"
+msgstr "Ապաակտիվացնել անդամակցության կարգավիճակը"
+
+#: CRM/Member/Page/MembershipStatus.php
+msgid "Enable Membership Status"
+msgstr "Ակտիվացնել անդամակցության կարգավիճակը"
+
+#: CRM/Member/Page/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Delete Membership Status"
+msgstr "Ջնջել անդամակցության կարգավիճակը"
+
+#: CRM/Member/Page/MembershipType.php CRM/Member/Page/Tab.php
+msgid "Edit Membership Type"
+msgstr "Խմբագրել անդամակցության տեսակը"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Disable Membership Type"
+msgstr "Ապաակտիվացնել անդամակցության տեսակը"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Enable Membership Type"
+msgstr "Ակտիվացնել անդամակցության տեսակը"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Delete Membership Type"
+msgstr "Ջնջել անդամակցության տեսակը"
+
+#: CRM/Member/Page/Tab.php
+msgid "%1 created"
+msgstr "Ստեղծված է %1"
+
+#: CRM/Member/Page/Tab.php
+msgid "%1 out of %2"
+msgstr "%2-ից %1-ը  "
+
+#: CRM/Member/Page/Tab.php
+msgid "N/A"
+msgstr ""
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "View Membership"
+msgstr "Դիտել անդամակցությունը"
+
+#: CRM/Member/Page/Tab.php
+msgid "Create Membership"
+msgstr "Ստեղծել անդամակցություն"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Edit Membership"
+msgstr "Խմբագրել անդամակցությունը"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Renew-Credit Card"
+msgstr "Թարմացնել-վարկային քարտ"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Renew Membership Using Credit Card"
+msgstr "Երկարացնել անդամակցությունը՝ կիրառելով վարկային քարտ"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Delete Membership"
+msgstr "Ջնջել անդամակցությունը"
+
+#: CRM/Member/Page/Tab.php
+msgid ""
+"WARNING: If you cancel the recurring contribution associated with this "
+"membership, the membership will no longer be renewed automatically. However,"
+" the current membership status will not be affected."
+msgstr "ՈՒՇԱԴՐՈՒԹՅՈՒՆ․ Եթե չեղարկեք այս անդամակցության հետ կապված կրկնվող ներդրումը` անդամագրությունն այլևս ավտոմատ կերպով չի թարմացվի: Սակայն դա ազդեցություն չի ունենա ընթացիկ անդամակցության կարգավիճակի վրա:"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Cancel Auto Renew Subscription"
+msgstr "Չեղարկել ավտոմատ կերպով թարմացվող անդամագրությունը"
+
+#: CRM/Member/Page/Tab.php
+msgid "Members"
+msgstr "Անդամներ"
+
+#: CRM/Member/Selector/Search.php
+msgid "Auto-renew?"
+msgstr "Ավտոմատ կերպով թարմացնե՞լ"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Permanently"
+msgstr "Մշտապես անվավեր համարել"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Until Selected Date"
+msgstr "Անվավեր համարել մինչև ընտրվելու օրը"
+
+#: CRM/Member/Task.php
+msgid "Export members"
+msgstr "Արտահանել անդամներին"
+
+#: CRM/Member/Task.php
+msgid "Print/merge document for memberships"
+msgstr "Տպել/իրաի միացնել անդամակցություններին առնչվող փաստաթուղթը"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"A recurring payment (subscription) request will be submitted to the selected"
+" payment processor. If the request is successful, this membership will be "
+"automatically renewed on the last day of the membership period until the "
+"recurring payment is cancelled. Membership payment receipt emails will "
+"include a link for the member to cancel the auto-renewal."
+msgstr "Ընտրված վճարում իրականացնող օպերատորին  կներկայացվի կրկնվող վճարման (բաժանորդագրության) հայտ: Եթե հայտին դրական ընթացք տրվի, ապա տվյալ անդամակցությունն ավտոմատ կերպով կթարմացվի անդամության վերջին օրվա ընթացքում, եթե կրկնվող վճարումը չի չեղարկվել: Անդամության վճարման անդորրագրեր պարունակող էլ․նամակներում առկա կլինի հղում, որի միջոցով անդամը հնարավորություն կունենա չեղարկել ավտոմատ կերպով թարմացման գործառույթը։"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid "To cancel automatic renewal:"
+msgstr "Չեղարկել անդամակցության ավտոմատ կերպով թարմացումը․"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"If this recurring payment uses a processor which has support for integrated "
+"cancellation, click \"Cancel\" on this form, and use the \"Cancel Auto-renew"
+" Subscription\" action (click \"more\" in the membership listing row)."
+msgstr "Եթե այս կրկնվող վճարման ժամանակ օգտագործվում է մի օպերատոր, որը տալիս է համապարփակ չեղարկման հնարավորություն՝ սեղմեք «Չեղարկել» այս բլանկի վրա և իրականացնել «Չեղարկել ավտոմատ կերպով թարմացվող անդամագրությունը» գործողությունը (սեղմել «ավելին», անդամակցության ցուցակի տողում):"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"If you do not see the \"Cancel Auto-renew Subscription\" action, you will "
+"need to cancel the associated Recurring Contribution record from the "
+"Contributions tab. <strong>In this case you must also manually cancel the "
+"recurring payment from the payment processor website</strong>."
+msgstr "Եթե չեք տեսնում «Չեղարկել անդամագրության ավտոմատ թարմացում» գործողությունը, ապա հարկավոր է ներդրումների էջում չեղարկել կրկնվող ներդրումների գրառումը: 1 Այս պարագայում Դուք պետք է վճարման օպերատորի կայքից ձեռքով չեղարկեք կրկնվող վճարումը 1 ։"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"You will not be able to send an automatic email receipt for this Membership "
+"because there is no email address recorded for this contact. If you want a "
+"receipt to be sent when this Membership is recorded, click Cancel and then "
+"click Edit from the Summary tab to add an email address before recording the"
+" Membership."
+msgstr "Դուք չեք կարող այս Անդամակցության համար էլ․ փոստով ավտոմատ կերպով գեներացվող անդորրագիրը ուղարկել, քանի որ տվյալ կոնտակտի էլ․փոստի հասցեն նշված չէ: Եթե ցանկանում եք, որպեսզի անդամակցության գրանցման ժամանակ   անդորրագիր ուղարկվի՝ սեղմեք \"Չեղարկել\", ապա \"Խմբագրել\" Ամփոփագրի էջում` անդամակցությունը  գրանցելուց առաջ էլ. փոստի հասցեն ավելացնելու համար:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Use this form to submit Membership Record on behalf of %1. <strong>A %2 "
+"transaction will be submitted</strong> using the selected payment processor."
+msgstr "Օգտագործեք այս ձևթուղթը՝ % 1 անունից անդամակցության գրանցման մուտքագրման համար: 1  % 2 գործարքը կմուտքագրվի՝ 1 ընտրված վճարում իրականացնող օպերատորի միջոցով:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "submit credit card membership"
+msgstr "մուտքագրել վարկային քարտի միջոցով անդամագրության տարբերակը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Select Membership Organization and then Membership Type."
+msgstr "Ընտրեք կազմակերպությունը, որին ցանկանում եք անդամակցել, անուհետեւ անդամակցության տեսակը:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Set the membership end date this many membership periods from now. Make sure"
+" the appropriate corresponding fee is entered below."
+msgstr ""
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Source of this membership. This value is searchable."
+msgstr "Այս անդամակցության աղբյուրը: Այս նշանակությամբվ հնարավոր է որոնում իրականացնել:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "When did this contact first become a member?"
+msgstr "Ե՞րբ է այս կոնտակտն առաջին անգամ անդամ դարձել։"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"First day of current continuous membership period. Start Date will be "
+"automatically set based on Membership Type if you don't select a date."
+msgstr "Ընթացիկ շարունակական անդամակցության ժամանակահատվածի առաջին օրը: Եթե Դուք չընտրեք մեկնարկի ամսաթիվ, ապա այն կսահմանվի ավտոմատ կերպով՝ ելնելով անդամակցության տեսակից:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Over-ride end date"
+msgstr "Չեղարկման վերջնաժամկետը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Latest membership period expiration date. End Date will be automatically set"
+" based on Membership Type if you don't select a date."
+msgstr "Վերջին անդամակցության ժամկետի լրանալու ամսաթիվը: Եթե Դուք չընտրեք ավարտի ամսաթիվ, ապա այն կսահմանվի ավտոմատ կերպով՝ ելնելով անդամակցության տեսակից:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"When <strong>Status Override</strong> is active, the selected status will "
+"remain in force (it will NOT be subject to membership status rules) until it"
+" is cancelled or become inactive."
+msgstr "Եթե 1 կարգավիճակի չեղարկում 1 գործառույթն ակտիվ է, ապա ընտրված կարգավիճակը կմնա ուժի մեջ (այն ՉԻ ենթարկվի անդամակցուության կարգավիճակի կանոններին), քանի դեռ այն չի չեղարկվել կամ ապաակտիվացվել:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Update Payment Status"
+msgstr "Թարմացնել վճարման կարգավիճակը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Check this box to enter or update payment information. You will also be able"
+" to generate a customized receipt."
+msgstr "Նշել այս վանդակը՝ վճարման վերաբերյալ տեղեկատվության մուտքագրման կամ թարմացման համար: Դուք կարող եք նաև գեներացնել համապատասխան անդորրագիր:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Membership Payment and Receipt"
+msgstr "Անդամավճար և անդորրագիր"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Automatically email a membership confirmation and receipt to %1? OR if the "
+"payment is from a different contact, this email will only go to them."
+msgstr "Ավտոմատ կերպով էլ․ նամակով անդամագրության հաստատումը կամ անդորրագիրն ուղարկե՞լ %1-ին։  ԿԱՄ, եթե վճարումը կատարվում է այլ կոնտակտի կողմից, ապա այս էլ․ նամակը կուղարկվի միայն նրան:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"For auto-renewing memberships the emails are sent when each payment is "
+"received"
+msgstr "Ավտոմատ կերպով թարմացվող անդամագրությունների համար է․նամակներն ուղարկվում են յուրաքանչյուր վճարումը ստանալու ժամանակ։"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Automatically email a membership confirmation and receipt to "
+msgstr "Ավտոմատ կերպով էլ․ նամակով անդամագրության հաստատումը կամ անդորրագիրն ուղարկել -----ին"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"OR if the payment is from a different contact, this email will only go to "
+"them."
+msgstr "ԿԱՄ, եթե վճարումը կատարվում է այլ կոնտակտի կողմից, ապա այս էլ․ նամակը կուղարկվի միայն նրան:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"If you need to include a special message for this member, enter it here. "
+"Otherwise, the confirmation email will include the standard receipt message "
+"configured under System Message Templates."
+msgstr "Եթե անհրաժեշտ է այս անդամի համար հատուկ հաղորդագրություն ներառել, ապա այն մուտքագրեք այստեղ: Հակառակ դեպքում, հաստատման էլ․ նամակը կներառի ստանդարտ ստացական-հաղորդագրությունը, որը կազմված է համաձայն Համակարգային հաղորդագրությունների ձևանմուշների:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Soft Contributions"
+msgstr "Առնչվող առանց նախապայմանների ներդրումներ"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "and end date of %1"
+msgstr "և %1 -ի լրանալու ամսաթիվը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "This contact has an existing %1 membership at %2 with %3 status%4."
+msgstr "Այս կոնտակտն ունի  1% անդամակցություն % 2-ում, % 3 կարգավիճակով 4%:"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "Renew the existing membership instead"
+msgstr "Փոխարենը թարմացնել առկա անդամակցությունը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "View all existing and / or expired memberships for this contact"
+msgstr "Դիտել տվյալ կոնտակտի ընթացիկ և/կամ ավարտված անդամակցությունները"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "Duplicate Membership?"
+msgstr "Կրկնօրինակե՞լ անդամակցությունը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Manual membership and price"
+msgstr "Ձեռքով/ոչ ավտոմատ կերպով կատարվող անդամագրություն և դրա գինը"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "No contacts are currently eligible to inherit this relationship."
+msgstr "Ներկայումս գոյություն չունի որևէ կոնտակտ, որին իրավասու է ընդունել/ժառանգել այս հարաբերությունը։"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "One contact is currently eligible to inherit this relationship."
+msgstr "Ներկայումս գոյություն ունի մեկ կոնտակտ, որին կարելի է փոխանցել այս հարաբերությունը։"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "%1 contacts are currently eligible to inherit this relationship."
+msgstr "Ներկայումս գոյություն ունի  %1  կոնտակտ, որոնց կարելի է փոխանցել այս հարաբերությունը։"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "Separate Payment"
+msgstr "Առանձին վճարում"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"Check this box if you are including both Membership Signup/Renewal AND a "
+"Contribution Amount section, AND you want the membership fee to be handled "
+"as a separate transaction."
+msgstr "Նշեք այս վանդակը, եթե ներառում եք Անդամակցության Գրանցումը / Թարմացումը և Ներդրվող գումարի չափը բաժինը և  ցանկանում եք, որպեսզի անդամավճարի համար առանձին գործարք կատարվի:"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"With this configuration, the membership fee is automatically charged, and "
+"users have an option to make an additional contribution (two separate "
+"payment transactions will be generated)."
+msgstr "Այս կազմաձևման պարագայում անդամավճարը ավտոմատ կերպով գանձվում է, եւ օգտվողները հնարավորություն ունեն լրացուցիչ ներդրում կատարելու (կիրականացվեն վճարման երկու առանձին  գործարքներ):"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"The contribution amount covering the membership fee will use the financial "
+"type configured with the selected membership type (see the membership types "
+"configuration tool to review those settings). Any additional contribution "
+"will use the financial type configured for this online contribution page."
+msgstr "Անդամակցության վճար ներառող ներդրումային գումարի կօգտագործվի ընտրված անդամակցության տեսակի համար համապատասխանեցված ֆինանսական տեսակ (տես անդամակցության տեսակների կազմաձեւման գործիքը այդ պարամետրերը վերանայելու համար): Ցանկացած լրացուցիչ ներդրման համա կօգտագործվի այս առցանց ներդրման էջի համար կազմաձեւված ֆինանսական տեսակը:"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If this option is NOT checked and you include a Contribution Amount section,"
+" then a single transaction is processed for their contribution amount which "
+"must at least cover the selected membership fee."
+msgstr "Եթե այս տարբերակը նշված ՉԷ, և Դուք ներառում եք \"Ներդրվող գումար\" բաժինը, ապա դրանց ներդրվող գումարի համար կատարվում է մեկ գործարքը, որը պետք է առնվազն ներգրավվի ընտրված անդամավճարը:"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "Display Fee"
+msgstr "Ցուցադրել անդամավճարը"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"When this box is checked, the membership fee is included in the listing of "
+"each membership option on the signup and renewal page. This is recommended "
+"for most configurations."
+msgstr "Երբ այս վանդակում նշում է կատարված, ապա անդամավճարը ներառվում է անդամագրության և անդամակցության թարմացման էջում՝ յուրաքանչյուր անդամակցության տարբերակներիի ցանկում: Սա առաջարկվում է կոնֆիգուրացիաներi մեծ մասի համար:"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If the page is configured with 'Separate Membership Payment' enabled - then "
+"just the fee amount is displayed:"
+msgstr "Եթե էջը կազմաձևված է «Առանձին անդամավճար» գործառույթով, ապա պարզապես երևում է վճարման ենթակա գումարը."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "General Membership - $100.00"
+msgstr "Ընդհանուր անդամակցություն` $ 100.00"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If the page 'Separate Membership Payment' is NOT enabled AND the "
+"Contribution Amount is enabled so that user's can opt to give more than the "
+"minimum membership fee - then the display looks like this:"
+msgstr "Եթե «Անհատական անդամավճարը» էջը ՉԻ գործում, ԻՍԿ \"Ներդրման գումարն\" ակտիվացված է այնպես, որ օգտագործողը կարողանա վճարել ավելի մեծ գումար, քան նվազագույն անդամավճարն է, ապա էջում դա կարտացուլվի հետևյալ կերպ."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"General Membership (contribute at least $100.00 to be eligible for this "
+"membership)"
+msgstr "Ընդհանուր անդամակցություն (անդամակցության համար անհրաժեշտ է առնվազն $ 100.00 ներդնել)"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Use this form to enable and configure a Membership Signup and Renewal "
+"section for this Online Contribution Page. If you're not using this page for"
+" membership signup, leave the <strong>Enabled</strong> box un-checked.."
+msgstr "Օգտագործեք այս ձեաթուղթըը, որպեսզի ակտիվացնեք և կարգավորեք \"Անդամագրման և անդամակցության թարմացման\" բաժինն առցանց ներդրումների այս էջում: Եթե դուք չեք օգտագործում այս էջը, անդամակցության գրանցման համար, ապա նշում մի կատարեք <strong>Ակտիվացված է</strong>1 վանդակում:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Include a Membership Signup section in this Online Contribution page?"
+msgstr "Առցանց ներդրումենրի այս էջում ներառե՞լ \"Անդամակցության գրանցման բաժինը\" :"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section title - for new member signups."
+msgstr "Անդամակցության բաժնի անունը - նոր անդամների գրանցման համար:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section introductory text - for new member signups."
+msgstr "Անդամակցության բաժնի ներածական տեքստ` նոր անդամների գրանցման համար:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section title - displayed to renewing members."
+msgstr "Անդամակցության բաժնի անունը - ցուցադրվում է անդամակցության թարմացման ժամանակ։ "
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section introductory text - displayed to renewing members."
+msgstr "Անդամության բաժնի ներածական տեքստը - ցուցադրվում է անդամակցության թարմացման ժամանակ:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"No Membership Price Sets have been configured / enabled for your site. Price"
+" sets allow you to configure more complex membership signup and renewal "
+"options, including allowing constituents to sign up for multiple memberships"
+" at the same time. Click <a href='%1'>here</a> if you want to configure "
+"price sets for your site."
+msgstr "Ձեր կայքի համար կազմաձևված / ակտիվացված  չեն անդամակցության գնային սահմանաչափերը: Սահմանված գները Ձեզ հնարավորություն են տալիս կազմաձևել անդամակցության գրանցման և թարմացման ավելի բարդ տարբերակներ, այդ թվում ` ընտրողներին հնարավորություն տալ միաժամանակ մի քանի անդամագրություններ իրականացնել: Սեղմեք <a href='%1'> այստեղ</a>, եթե ցանկանում եք կազմաձևել գնային սանդղակները ձեր կայքի համար:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Click <a id='memQuickconfig' href='#'>here</a> if you want to configure the "
+"Membership Types below as part of a Price Set, with the added flexibility "
+"and complexity that entails."
+msgstr "Սեղմեք <a id='memQuickconfig' href='#'>այստեղ</a>, եթե ցանկանում եք կարգավորել  ստորև ներկայացված \"Անդամության տեսակները\" որպես գնային սանդղակի մի մաս` դրանից բխող հավելյալ հարմարվողականությամբ և բարդությամբ:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Include these membership types"
+msgstr "Ներառել անդամակցության հետևյալ տեսակները"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "(Not Available)"
+msgstr ""
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"If checked, user must signup for one of the displayed membership options "
+"before continuing."
+msgstr "Եթե նշված է, ապա շարունակելուց առաջ օգտվողը պետք է գրանցվի անդամակցության ցուցադրված տարբերակներից որևէ մեկին:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Check this box if you are including both Membership Signup/Renewal AND a "
+"Contribution Amount section, AND you want the membership fee to be charged "
+"separately from any additional contribution amount."
+msgstr "Նշեք այս վանդակը, եթե դուք ներառում եք և՛ \"Անդամգրության / Թարմացման\", և՛ \"Ներդրումների\" բաժինը, և ցանկանում եք, որպեսզի անդամավճարը գանձվի այլ լրացուցիչ գումարից առանձին:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Display the membership fee along with the membership name and description "
+"for each membership option?"
+msgstr "Ցուցադրել անդամավճարը, ինչպես նաև անդամակցության անվանումը և անդամակցության յուրաքանչյուր տարբերակի նկարագրությունը:"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"You need to have at least one <a href=\"%1\">Membership Type</a> with "
+"'Public' visibility in order to enable self-service Membership Signup and "
+"Renewal."
+msgstr " Ինքնուրույն անդամագրվելու և անդամակցությունը թարմացնելու գործառույթն ակտիվացնելու համար անհրաժեշտ է ունենալ առնվազն մեկ «Հանրային» հասանելիություն ունեցող 1 Անդամակցության տեսակ 1:"
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid ""
+"Membership payment amount. A contribution record will be created for this "
+"amount."
+msgstr "Անդամվճարի չափը: Այդ գումարի համար կստեղծվի ներդրման գրառում:"
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid "Membership payment amount."
+msgstr "Անդամավճարի չափը"
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Related Contacts/Memberships"
+msgstr "Հարակից կոնտակտներ․անդամակցություններ"
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Relationship Start"
+msgstr "Հարաբերության մեկնարկ"
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Relationship End"
+msgstr "Հարաբերության ավարտ"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"You will not be able to send an automatic email receipt for this Renew "
+"Membership because there is no email address recorded for this contact. If "
+"you want a receipt to be sent when this Membership is recorded, click Cancel"
+" and then click Edit from the Summary tab to add an email address before "
+"Renewal the Membership."
+msgstr "Դուք չեք կարող այս Անդամակցության թարմացման համար էլ․ փոստով ավտոմատ կերպով գեներացվող անդորրագիրը ուղարկել, քանի որ տվյալ կոնտակտի էլ․փոստի հասցեն նշված չէ: Եթե ցանկանում եք, որպեսզի անդամակցության գրանցման ժամանակ անդորրագիր ուղարկվի՝ սեղմեք \"Չեղարկել\", ապա \"Խմբագրել\" Ամփոփագրի էջում` անդամակցությունը երկարաձգելուց առաջ էլ. փոստի հասցեն ավելացնելու համար:"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Use this form to Renew Membership Record on behalf of %1.\n"
+"        <strong>A %2 transaction will be submitted</strong>\n"
+"        using the selected payment processor."
+msgstr "Օգտագործեք այս ձևթուղթը՝ % 1 անունից անդամակցության գրանցման մուտքագրման համար: 1 % 2 գործարքը կմուտքագրվի՝ 1 ընտրված վճարում իրականացնող օպերատորի միջոցով:"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Renewing will add the normal membership period to the End Date of the "
+"previous period for members whose status is Current or Grace. For Expired "
+"memberships, renewing will create a membership period commencing from the "
+"'Date Renewal Entered'. This date can be adjusted including being set to the"
+" day after the previous End Date - if continuous membership is required."
+msgstr "Թարմացումը նախորդ ժամանակաշրջանի ավարտի ամսաթվին կավելացնի նորմալ անդամակցության ժամանակահատված այն անդամների համար, ովքեր ունեն \"Ընթացիկ\" կամ \"Grace\" կարգավիճակ: Ժամկետանց անդամակցությունների թարմացման պարագայում կստեղծվի անդամակցության ժամանակահատված, որը կմեկնարկի «Թարմացման» ամսաթվից: Այս ամսաթիվը հնարավոր է հարմարեցնել, այդ թվում՝ սահմանել նախորդի ժամանակահատվածի ավարտին հաջորդող օրը, եթե պահանջվում է շարունակական անդամակցություն:"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "change membership type"
+msgstr "փոխել անդամակցության տեսակը"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Status of this membership."
+msgstr "Այս անդամակցության կարգավիճակը"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal extends membership end date by one membership period"
+msgstr "\"Թարմացում\" գործառույթն անդամակցության վերջնաժամկետը երկարացնում է մեկ անդամակցության ժամկետով։"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "change"
+msgstr "փոխել"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "membership periods"
+msgstr "անդամակցության ժամանակահատված"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Extend the membership end date by this many membership periods. Make sure "
+"the appropriate corresponding fee is entered below."
+msgstr "Անդամակցության վերժնաժամկետը երկարացնել անդամակցության հետևյալ քանակի ժամկետով։ Հավաստիացեք, որ համապատասխան գումար է մուտքագրվել ստորև։ "
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal Payment and Receipt"
+msgstr "Անդամակցության երկարացման համար նախատեսվող գումարի վճարում և անդորրագիր"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Automatically email a membership confirmation and receipt to %1?"
+msgstr "Ավտոմատ կերպով էլ․ նամակով անդամագրության հաստատումը կամ անդորրագիրն ուղարկե՞լ %1-ին։ Կ"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Enter a message you want included at the beginning of the emailed receipt. "
+"EXAMPLE: 'Thanks for supporting our organization with your membership.'"
+msgstr "Մուտքագրել հաղորդագրություն, որը ցանկանում եք ներառել էլ․ նամակով ուղարկվող ստացականի սկզբում: ՕՐԻՆԱԿ՝ «Շնորհակալություն Ձեր անդամակցությամբ մեր կազմակերպությանն աջակցելու համար»:"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "New Membership Status"
+msgstr "Նոր անդամակցության կարգավիճակը"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"When does this status begin? EXAMPLE: <strong>New</strong> status begins at "
+"the membership 'join date'."
+msgstr "Ե՞րբ է մեկնարկում այս կարգավիճակը։ ՕՐԻՆԱԿ՝ 1 Նոր 1 կարգավիճակը մեկնարկում է անդամագրման օրվանից։"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Optional adjustment period added or subtracted from the Start Event. "
+"EXAMPLE: <strong>Current</strong> status might begin at 'join date' PLUS 3 "
+"months (to distinguish Current from New members)."
+msgstr ""
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"When does this status end? EXAMPLE: <strong>Current</strong> status ends at "
+"the membership 'end date'."
+msgstr "Ե՞րբ է ավարտվում այս կարգավիճակը։ ՕՐԻՆԱԿ՝ 1 Նոր 1 կարգավիճակն ավարտվում է անդամակցության վերջին օրը։"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Optional adjustment period added or subtracted from the End Event. EXAMPLE: "
+"<strong>Grace</strong> status might end at 'end date' PLUS 1 month."
+msgstr ""
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Should this status be considered a current membership in good standing. "
+"EXAMPLE: New, Current and Grace could all be considered 'current'."
+msgstr "Այս կարգավիճակը պետք է՞ համարվի ընթացիկ անդմակացություն՝ առանց պարտազանցության: ՕՐԻՆԱԿ՝\" Նոր\", \"Ընթացիկ\" և \"Grace\" անդամակցությունները կարող են բոլորն էլ համարվել «ընթացիկ»:"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Weight sets the order of precedence for automatic assignment of status to a "
+"membership. It also sets the order for status displays. EXAMPLE: The default"
+" 'New' and 'Current' statuses have overlapping ranges. Memberships that meet"
+" both status range criteria are assigned the status with the lower weight."
+msgstr ""
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"The default status is assigned when there are no matching status rules for a"
+" membership."
+msgstr "Սահմանվում է բազային կարգավիճակ, եթե անդամակցության համար համապատասխան կարգավիճակ գոյություն չունի:"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Is this status enabled."
+msgstr "Այս կարգավիճակն ակտիվացված է՞"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this day of the month cover the rest of the "
+"month plus the specified number of months."
+msgstr "Նշված ամսաթվից հետո կատարվող անդամագրությունները ներառում են տվյալ ամիսը գումարած նշված թվով ամիսներ։"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You cannot modify relationship type because there are membership records "
+"associated with this membership type."
+msgstr "Դուք չեք կարող փոխել հարաբերության տեսակը, քանի որ գոյություն ունեն տվյալ անդամակցության տեսակի հետ կապված անդամակցության վերաբերյալ գրառումներ :"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Memberships can be automatically granted to related contacts by selecting a "
+"Relationship Type."
+msgstr "Հնարավոր է ավտոմատ կերպով անդամակցություններ  շնորհվել համապատասխան կոնտակտներին`  ընտրելով հարաբերության տեսակը :"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Renewal Reminders"
+msgstr "Հիշեցում անդամակցության թարմացման վերաբերյալ"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Configure membership renewal reminders using <a href=\"%1\">Schedule "
+"Reminders</a>. If you have previously configured renewal reminder templates,"
+" you can re-use them with your new scheduled reminders."
+msgstr "Կազաձևեք անդամակցության թարմացման վերաբերյալ հիշեցումները՝ օգտագործելով <a href=\"%1\">Հիշեցումների ժամանակացույցի կազմում</a>: Եթե նախկինում կազմաձևել եք թարմացումների վերաբերյալ հիշեցումների ձևանմուշներ, ապա կարող եք դրանք կրկին օգտագործել` Ձեր հիշեցումների նոր ժամանակացույցի պարագայում:"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "View contact summary"
+msgstr "Դիտել կոնտակտի ամփոփագիրը"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "By Relationship"
+msgstr "Ըստ հարաբերության"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "View primary member contact summary"
+msgstr "Դիտել հիմնական կոնտակտի ամփոփագիրը"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Contributions and Recurring Contributions"
+msgstr "Հարակից ներդրումները կրկնվող ներդրումներ են"
+
+#: templates/CRM/Member/Form/Search/EmptyResults.tpl
+msgid "if you are searching by member name, check your spelling"
+msgstr "Եթե որոնումն իրականացնում եք անդամի անունով, ապա ստուգեք ուղղագրությունը"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Primary Members"
+msgstr "Հիմնական անդամներ"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only primary members (those contacts who have a "
+"membership directly attached to their record)"
+msgstr "Ընտրեք «Այո» միայն հիմնական անդամներին տեսնելու համար (այն կոնտակտները, որոնց գրառմանն ուղղակիորեն  կցված է անդամակցությունը)"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only related records (those who inherit membership "
+"through a relationship as defined in the membership type configuration)."
+msgstr "Ընտրեք «Ոչ»՝ ցուցադրելու համար միայն առնչվող գրառումները (նրանք, ովքեր ժառանգում են անդամակցության կարգավիճակ՝ ելնելով ունեցած կապից, ինչպես նշված է անդամակցության տեսակի կարգավորումներում):"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select neither to show all members, regardless of whether they are the "
+"direct member or inherit it through a relationship,"
+msgstr "Ընտրել բոլոր անդամներին ցույց չտալու տարբերակը՝ անկախ այն հանգամանքից, թե նրանք ուղղակի անդամներ են, թե ժառանգել են անդամակցությունը՝ ելնելով որևէ մեկի հետ ունեցած կապից։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Membership Status Is Override?"
+msgstr "Անդամակցության կարգավիճակը չեղարկված է՞"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only membership with Status Override set "
+"(membership is manually forced to a specific status)"
+msgstr "Ընտրեք «Այո», տեսնելու համար միայն չեղարկված կարգավիճակով անդամակցությունները (անդամակցությունը ոչ ավտոմատ կերպով պարտադրվում է  որոշակի կարգավիճակին)"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only memberships without Status Override set "
+"(membership is subject to the normal status rules)"
+msgstr "Ընտրեք «Ոչ» ` տեսնելու համար միայն չչեղարկված  կարգավիճակով անդամակցությունները (անդամակցությունը ենթակա է նորմալ կարգավիճակի կանոններին)"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select neither to show all memberships"
+msgstr "Ընտրել \"ցույց չտալ բոլոր անդամակցությունները\""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Auto-Renew Subscription Status"
+msgstr "Ավտոմատ կերպով թարմացնել անդամագրության կարգավիճակը"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"None\" to display memberships that have never had an auto-renew "
+"subscription."
+msgstr "Ընտրեք «Ոչ մեկը»՝ տեսնելու համար այն անդամակցությունները, որոնց համար երբևիցե անվտոմատ կերպով թարմացման գործառույթ չի ակտիվացվել։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"In Progress\" to display memberships with current auto-renew "
+"subscriptions."
+msgstr "Ընտրեք «Ընթացքի մեջ է»՝ տեսնելու համար այն անդամակցությունները, որոնց համար ակտիվացված է անվտոմատ թարմացման գործառույթը։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select \"Failed\" to display memberships with failed subscription payment."
+msgstr "Ընտրել «Չի հաջողվել»՝ տեսնելու համար այն անդամակցությունները, որոնց անդամագրության վճարումը չի հաջողվել իրականացնել։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Cancelled\" to display memberships with cancelled auto-renew "
+"subscriptions."
+msgstr "Ընտրել «Չեղարկված»՝ տեսնելու համար այն անդամակցությունները, որոնց անդամագրության ավտոմատ երկարացումը չեղարկված է։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Ended\" to display memberships with an ended auto-renew "
+"subscription."
+msgstr "Ընտրել «Ավարտված»՝ տեսնելու համար այն անդամակցությունները, որոնց անդամագրության ավտոմատ երկարացումն ավարտված է։"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Any\" to display memberships with auto-renew subscription "
+"irrespective of their status."
+msgstr "Ընտրեք «Ցանկացածը»՝ տեսնելու համար ավտոմատ կերպով թարմացվող անդամակցությունները՝ անկախ նրանց կարգավիճակից:"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "by relationship"
+msgstr "ըստ հարաբերության"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew active"
+msgstr "Ավտոմատ թարմացման/երկարացման գործառույթն ակտիվացված է"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew error"
+msgstr "Ավտոմատ թարմացման սխալանք"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "View Primary member record"
+msgstr "Դիտել հիմնական անդամի վերաբերյալ տեղեկատվությունը"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "View Primary"
+msgstr "Հիմնականի դիտում"
+
+#: templates/CRM/Member/Form/Selector.tpl
+msgid "View all memberships for this contact"
+msgstr "Դիտել տվյալ անդամի բոլոր անդամակցությունները"
+
+#: templates/CRM/Member/Form/Selector.tpl
+msgid "Find more members"
+msgstr "Գտնել այլ անդամներ"
+
+#: templates/CRM/Member/Form/Task/Batch.tpl
+msgid ""
+"Update field values for each member as needed. Click <strong>Update "
+"Memberships</strong> below to save all your changes. To set a field to the "
+"same value for ALL rows, enter that value for the first member and then "
+"click the <strong>Copy icon</strong> (next to the column title)."
+msgstr ""
+
+#: templates/CRM/Member/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected memberships? This delete "
+"operation cannot be undone and will delete all transactions and activity "
+"associated with these memberships."
+msgstr "Վստահ եք, որ ցանկանում եք ջնջել ընտրված անդամակցությունները: Այս ջնջման գործողությունը հնարավոր չէ չեղարկել և կջնջի այդ անդամակցությունների հետ կապված ողջ գործարքները և գործունեությունը:"
+
+#: templates/CRM/Member/Form/Task/PDFLetter.tpl
+msgid "Membership Letter (PDF)"
+msgstr "Անդամակցության նամակ (PDF)"
+
+#: templates/CRM/Member/Form/Task.tpl
+msgid "Number of selected memberships: %1"
+msgstr "Ընտրված անդամակցությունների թիվը․ %1 "
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid "Contact Records for Members"
+msgstr "Անդամների կոնտակտային տվյալները"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Membership import requires that each person, household or organization "
+"already exists as a contact record in your CiviCRM database. If you need to "
+"import memberships for contact records which haven't been added to CiviCRM "
+"yet - you will do this in 2 steps. First, use <strong>Import "
+"Contacts</strong> to add the contact records. If possible, include a unique "
+"'External ID' for each new contact which you can then use to match "
+"memberships to contacts. Then return to this screen and import the "
+"membership records."
+msgstr "Անդամակցության ներմուծուման համար անհրաժեշտ է, որպեսզի յուրաքանչյուր անհատ, տնային տնտեսություն կամ կազմակերպություն արդեն գրանցված լինի CiviCRM տվյալների շտեմարանում: Եթե Ձեզ անհրաժեշտ է ներմուծել  անդամագրություններ այն կոնտակտների գրառումների համար, որոնք դեռևս չեն ավելացվել CiviCRM, ապա դա պետք է անել 2 գործողությամբ․ նախ, 1<strong> Ներմուծել կոնտակտներ</strong> գործառույթի օգնությամբ ավելացնել կոնտակտային գրառումները: Հնարավորության դեպքում  յուրաքանչյուր նոր կոնտակտի համար ներառել է յուրահատուկ «Արտաքին նույնականացուցիչ», որը կարող եք օգտագործել կոնտակտներին անդամակցությունների հետ համապատասխանեցնելիս: Այնուհետեւ վերադառնալ այս էկրանին և ներմուծել անդամակցության գրառումները:"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid "Matching Memberships to Contacts"
+msgstr "Անդամակցությունների և կոնտակտների համապատասխանությունը"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Membership import files must contain data needed to <strong>match the "
+"membership to the contact record</strong>. This 'matching' can be handled in"
+" several different ways:"
+msgstr "Անդամության ներմուծման թղթապանակները պետք է պարունակեն տվյալներ <strong>անդամակցությունը կոնտակտի վերաբեյալ գրանցումներին համապատասխանեցնելու</strong> համար: Այս «համապատասխանեցումը» կարելի է անել տարբեր եղանակներով."
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you've stored a unique <strong>External Identifier</strong> for each "
+"contact in CiviCRM, you can include that value as a column in your import "
+"file. Memberships will then be matched to contact records using their "
+"External ID."
+msgstr "Եթե CiviCRM- ի յուրաքանչյուր կոնտակտի համար առանձին <strong> Արտաքին նույնականացուցիչ </strong> եք պահպանել, ապա այդ տվյալն առանձին սյունակով կարող եք ներառել ներմուծվող ֆայլում: Անդամակցությունները այնուհետև կհամապատասխանեցվեն կոնտակտների վերաբերյալ գրառումներին՝ օգտագործելով նրանց Արտաքին նույնականացուցիչը:"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Save the CSV file with your membership data and 'contact matching' data to "
+"your local hard drive (or an accessible drive on your network) - and you are"
+" now ready for step 1 (Upload Data)."
+msgstr "Պահպանեք Ձեր անդամակցության և «կոնտակների համապատասխանեցման» տվյալներ պարունակող CSV թղթապանակը  Ձեր կոշտ սկավառակի վրա (կամ Ձեր ցանցում առկա որևէ կրիչի) վրա - և այժմ պատրաստ եք 1-ին քայլին (Վերբեռնման տվյալներ):"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"For each import, you can either INSERT new membership records, or UPDATE "
+"existing records. You can not do both types of operations in a single import"
+" session."
+msgstr "Յուրաքանչյուր ներմուծման համար կարող եք կամ ՄՈՒՏՔԱԳՐԵԼ նոր անդամագրության վերաբերյալ գրառումները կամ ԹԱՐՄԱՑՆԵԼ առկա գրառումները: Դուք չեք կարող կատարել երկու տեսակի գործողություն `մեկ ներմուծման ընթացքում:"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you are INSERTING new membership records, you will need to include a "
+"column in your data file containing the values used to link the membership "
+"to an existing contact. You can use the 'Internal Contact ID', an 'External "
+"Identifier' (if you are using those in your contact records), OR the "
+"property defined in your Unsupervised Duplicate Matching rule (which is "
+"Email Address by default)."
+msgstr " Եթե դուք ՄՈՒՏՔԱԳՐՈՒՄ եք նոր անդամակցության գրառումներ, ապա ձեզ հարկավոր է ներառել ձեր տվյալները պարունակող սյունակ, որը պարունակում է գոյություն ունեցող կոնտակտին անդամակցելու համար օգտագործվող արժեքները: Դուք կարող եք օգտագործել «Կոնտակտի ներքին նույնականացուցիչը», «Արտաքին նույնականացուցիչը» (եթե դուք օգտագործում եք դրանք ձեր կոնտակտային գրառումներում), կամ Ձեր \"Կրկնօրինակների չվերահսկվող համապատասխանեցման\" կանոնում սահմանված տվյալը (որն ի սկզբանե էլ․փոստի հասցեն է):"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you are UPDATING existing memberships, you will need to include a column "
+"containing the unique CiviCRM-assigned membership ID to match to the "
+"existing membership records."
+msgstr "Եթե դուք թարմացնում եք առկա անդամակցությունները, ապա անհրաժեշտ է ավելացնել սյունակ, որը կպարունակի CiviCRM-ի կողմից տրված անդամակցության յուրահատուկ նույնականացուցիչ, որը համապատասխանում է առկա անդամագրության գրառումների:"
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"The Membership Import Wizard allows you to easily upload memberships from "
+"other applications into CiviCRM."
+msgstr "Անդամակցության ներմուծման համակարգը հնարավորություն է տալիս այլ ինֆորմացիոն համակարգերից դիմումները հեշտությամբ վերբեռնել CiviCRM-ում"
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Files to be imported must be in the 'comma-separated-values' format (CSV) "
+"and must contain data needed to match the membership data to an existing "
+"contact in your CiviCRM database."
+msgstr "Ներմուծված ֆայլերը պետք է լինեն «ստորակետով առանձնացված բաղադրիչների» ձեւաչափով (ՍԱԲ) և պետք է պարունակեն ձեր CiviCRM տվյալների բազայում առկա կոնտակտի անդամակցության տվյալների համապատասխանեցման համար անհրաժեշտ տվյալներ:"
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Individual' if you are importing memberships for individual persons."
+msgstr "Ընտրեք «Անհատ», եթե դուք անդամակցություններ եք ներմուծում առանձին անհատների համար:"
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Organization' or 'Household' if you are importing memberships made "
+"by contacts of that type. (NOTE: Some built-in contact types may not be "
+"enabled for your site.)"
+msgstr "Ընտրեք «Կազմակերպություն» կամ «Տնային տնտեսություն», եթե դուք ներմուծում եք տվյալ տեսակի կոնտակտներով անդամագրություններ: (Նշում. Որոշ ներդրված կոնտակտային տեսակներ հնարավոր չէ ակտիվացնել Ձեր կայքում):"
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"If you want to use a previously saved import field mapping - select it here."
+msgstr "Եթե ցանկանում եք օգտագործել նախկինում պահված ներմուծման դաշտի քարտեզագրումը՝ ընտրեք այստեղ:"
+
+#: templates/CRM/Member/Import/Form/Preview.tpl
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Total rows (membership records) in uploaded file."
+msgstr "Տողերի ընդհանուր թիվը  (անդամակցության վերաբերյալ գրառումներ) վերբեռնված ֆայլում:"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected mismatched membership ID. This record has not been "
+"updated."
+msgid_plural ""
+"CiviCRM has detected mismatched membership IDs. These records have not been "
+"Updated."
+msgstr[0] " CiviCRM- ը հայտնաբերել է չհամապատասխանող անդամակցության նույնականացուցիչները: Այս գրառումները չեն թարմացվել:"
+msgstr[1] "CiviCRM- ը հայտնաբերել է անհամապատասխան անդամության ID- ները: Այս գրառումները չեն թարմացվել:"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"You can <a href='%1'>Download Mismatched Memberships</a>. You may then "
+"correct them, and import the new file with the corrected data."
+msgstr "Դուք կարող եք <a href='%1'>Ներբեռնել չհամապատասխանող անդամակցությունները</a>, որից հետո կարող եք դրանք շտկել և ներմուծել նոր ֆայլը՝ ճշգրտված տվյալներով:"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record with conflicting transaction ID within this "
+"data file or relative to existing membership records. This record has not "
+"been imported."
+msgid_plural ""
+"CiviCRM has detected %count records with conflicting transaction IDs within "
+"this data file or relative to existing membership records. These records "
+"have not been imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record which is a duplicate of existing CiviCRM "
+"membership record."
+msgid_plural ""
+"CiviCRM has detected %count records which are duplicates of existing CiviCRM"
+" membership records."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Rows with mismatched membership IDs... (NOT updated)."
+msgstr "Անդամակցության անհամապատասխան նույնականացուցիչներով տողերը (թարմացված ՉԷ)․"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Download Mismatched Memberships"
+msgstr "Ներբեռնել անհամապատասխան անդամակցությունները"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Rows which are duplicates of existing CiviCRM membership records."
+msgstr "Տողեր, որոնք CiviCRM- ի անդամակցության վերաբերյալ առկա տվյալների կրկնօրինակներն են:"
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid "Member Dashboard"
+msgstr "Անդամի վահանակ"
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"CiviMember allows you to create customized membership types as well as "
+"page(s) for online membership sign-up and renewal. Administrators can create"
+" or modify Membership Types <a href='%2'>here</a>, and configure Online "
+"Contribution Pages which include membership sign-up <a href='%1'>here</a>."
+msgstr ""
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"This table provides a summary of <strong>Membership Signup and Renewal "
+"Activity</strong>, and includes shortcuts to view the details for these "
+"commonly used search criteria. To run your own customized searches - click "
+"<a href='%1'>Find Members</a>. You can search by Member Name, Membership "
+"Type, Status, and Signup Date Ranges."
+msgstr ""
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"You can also input and track membership sign-ups offline. To record "
+"memberships manually for individual contacts, use <a href=\"%1\">Find "
+"Contacts</a> to locate the contact. Then click <strong>View</strong> to go "
+"to their summary page and click on the <strong>New Membership</strong> link."
+" You can also <a href=\"%2\">import batches of membership records</a> from "
+"other sources."
+msgstr ""
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid "Refer to the online user guide for more information."
+msgstr "Լրացուցիչ տեղեկությունների համար օգտվել  օգտագործողի ուղեցույցի առցանց տարբերակից:"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Members by Type"
+msgstr "Անդամներն ըստ անդամակցության տեսակի"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "(Last Month)"
+msgstr "(Անցյալ ամիս)"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid " (MTD)"
+msgstr "(MTD) "
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "(YTD)"
+msgstr "(YTD) "
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "through %1"
+msgstr ""
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Current #"
+msgstr "Ընթացիկ #"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Members as of %1 %2"
+msgstr "Անդամներ առ %1 %2 "
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Totals (all types)"
+msgstr "Ընդամենը (բոլոր տեսակները)"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid ""
+"Primary member counts (those who \"own\" the membership rather than "
+"receiving via relationship) are in [brackets]."
+msgstr "Հիմանական անդամների թիվը (այն անդամներն, ովքեր ունեն անդամակցություն, այլ ոչ թե ստացել են որևէ մեկից) նշված է [փակագծերում]։  "
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Recent Memberships"
+msgstr "Վերջին անդամագրությունները"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"CiviMember automatically calculates the current status of each contact's "
+"membership based on the status names and rules configured here. The status "
+"'rule' tells CiviMember what status to assign based on the start and end "
+"dates of a given membership. For example, the default <strong>Grace</strong>"
+" status rule says: 'assign Grace status if the membership period ended "
+"sometime within the past month.'"
+msgstr "CiviMember-ն ավտոմատ կերպով հաշվարկում է յուրաքանչյուր կոնտակտի անդամակցության ընթացիկ կարգավիճակը` հիմնվելով այստեղ նշված  կարգավիճակի անվան և կանոնների վրա: «Կանոն» կարգավիճակը, CiviMember-ին տեղեկացնում է, թե ինչ կարգավիճակ պետք է նշանակել՝ ելնելով տվյալ անդամակցության մեկնարկի և ավարտի ամսաթվերից: Օրինակ, <strong>Grace</strong> կարգավիճակի բազային կանոնում ասվում է. 'սահմանել Grace կարգավիճակը, եթե անդամակցության ժամկետը ավարտվել է վերջին ամսվա ընթացքում:"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"The status rules provided by default may be sufficient for your "
+"organization. However, you can easily change the status names and/or adjust "
+"the rules by clicking the Edit links below. Or you can <a href='%1'>add a "
+"new status and rule</a>."
+msgstr "Ավտոմատ կերպով սահմանված կարգավիճակի վերաբերյալ կանոնները կարող է բավարար լինել ձեր կազմակերպության համար: Այնուամենայնիվ, կարող եք հեշտությամբ փոխել կարգավիճակի անունները եւ / կամ կարգավորել կանոնները՝  սեղմելով ստորև ներկայացված խմբագրման հղումները, կամ Դուք կարող եք <a href='%1'>ավելացնել նոր կարգավիճակ և կանոն</a>։"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Add Membership Status"
+msgstr "Ավելացնել անդամակցության կարգավիճակը"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"There are no custom membership status entered. You can <a href='%1'>add "
+"one</a>."
+msgstr ""
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"Use this field to configure Membership Types where memberships are "
+"automatically granted to related contacts. Examples:"
+msgstr "Ուղղակի անդամ"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Direct member is:"
+msgstr "Անմիջական անդամը․"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Membership is automatically granted to:"
+msgstr "Անդամակցությունն ավտոմատ կերպով փոխանցվում/շնորհվում է"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "a household"
+msgstr "ընտանիքին"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Household Members' of that household"
+msgstr "Տվյալ ընտանիքի անդամներին"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "an organization"
+msgstr "կազմակերպությանը"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Employees' of that organization"
+msgstr "Տվյալ կազմակերպության աշխատակիցներին"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "an individual"
+msgstr "որևէ անհատի"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Children' of that individual"
+msgstr "Տվյալ մարդու երեխաներին"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Membership Period"
+msgstr "Անդամակցության ժամանակահատվածը"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date. If membership "
+"duration is specified in years, you will be able to specify the exact month "
+"and day for memberships to start. If membership duration is specified in "
+"months, memberships will start on the 1st of the current month and run for "
+"the number of specified months."
+msgstr "Ընտրել «լողացող», եթե անդամակցության ժամկետներն սկսվում են գրանցման ամսաթվից: Ընտրել «ֆիքսված», եթե անդամակցության ժամկետները մեկնարկում են սահմանված օրացուցային օրվանից: Եթե անդամակցության տևողությունը նշված է տարիներով, Դուք պետք է կարողանաք նշել անդամակցության մեկնարկի ճշգրիտ ամիսը և օրը: Եթե անդամակցության տևողությունը նշված է ամիսներով, ապա անդամակցությունը կմեկնարկի ընթացիկ ամսվա 1-ին ուժի մեջ կլինի է որքան ամիս որ նշված է։"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "EXAMPLES"
+msgstr "ՕՐԻՆԱԿՆԵՐ"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Fixed Membership Period - 1 Year Duration:</strong> Fixed period "
+"start date is set to January 1. A person signs up for membership on February"
+" 15th, 2008. Their membership start date is set to January 1, 2008 - and the"
+" end date is December 31, 2008."
+msgstr "<strong> Անդամակցության ֆիքսված ժամանակահատված՝ 1 տարի տևոողությամբ. </strong> ֆիքսված ժամանակահատվածի մենկանկը սահմանվում է հունվարի 1-ը: Անդամը անդամագրվում է 2008 թ. փետրվարի 15-ին: Նրանց անդամակցության մեկնարկը սահմանվում է 2008 թվականի հունվարի 1-ը, իսկ ավարտի ամսաթիվը՝   2008 թ. դեկտեմբերի 31-ը:"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Fixed Membership - 3 Months Duration:</strong> A person signs up on "
+"February 15th, 2008. Their membership start date is set to February 1, 2008 "
+"- and the end date is April 30, 2008."
+msgstr "<strong> Ֆիքսված անդամակցություն - 3 ամիս տևողությամբ․</strong> Անձը գրանցվում է  2008 թ. փետրվարի 15-ին: Նրանց անդամակցության սկիզբը սահմանվում է 2008 թ. փետրվարի 1-ը, իսկ ավարտի ամսաթիվը՝ 2008 թ. ապրիլի 30-ը:"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Rolling Membership Period - 1 Year Duration:</strong> A person signs"
+" up on February 15th, 2008. Their membership start date is February 15th, "
+"2008 - and the end date is February 14th, 2009."
+msgstr ""
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"Membership types are used to categorize memberships. You can define an "
+"unlimited number of types. Each type incorporates a 'name' (Gold Member, "
+"Honor Society Member...), a description, a minimum fee (can be $0), and a "
+"duration (can be 'lifetime'). Each member type is specifically linked to the"
+" membership entity (organization) - e.g. Bay Area Chapter."
+msgstr "Անդամության տեսակներն օգտագործվում են անդամակցության դասակարգման համար: Դուք կարող եք սահմանել անսահմանափակ թվով տեսակներ: Յուրաքանչյուր տեսակի մեջ ներառված է «անուն» (Ոսկյա անդամակցություն (Gold Member),  Պատվավոր խմբի անդամ (Honor Society Society member), նկարագրություն, նվազագույն վարձավճար (կարող է լինել $ 0) և տեւողություն (կարող է լինել «ցմահ»): Յուրաքանչյուր անդամի տեսակ կոնկրետ կապված է անդամության (կառույցի) անդամակցության հետ, օրինակ, Bay Area Chapter:"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"Configure membership renewal reminders using <a href=\"%1\">Schedule "
+"Reminders</a>."
+msgstr "Կազմաձևել անդամակցության թարմացման վերաբերյալ հիշեցումները                        1 հիշեցումների ժամանակցույցի 1 միջոցով:"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Fixed Start"
+msgstr "Հստակ սկիզբ"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Related"
+msgstr "Կապված է"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid "Add Membership Type"
+msgstr "Ավելացնել անդամակցության տեսակ"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"There are no membership types entered. You can <a href='%1'>add one</a>."
+msgstr "Անդամակցության որևէ տեսակ մուտքագրված չէ։ Դուք կարող եք 1 ավելացնել տեսակ 1"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid "Override Status"
+msgstr "Չեղարկել կարգավիճակը"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"Membership status is normally assigned and updated automatically based on "
+"your configured membership status rules. However, if you want to assign a "
+"status manually and bypass automated status setting, choose either "
+"\"Override Permanently\" or \"Override Until Selected Date\", Then you can "
+"select from the available status options."
+msgstr "Անդամության կարգավիճակը սովորաբար ավտոմատ կերպով է նշանակվում և թարմացվում՝ հիմնվելով Ձեր կազմաձևված անդամության կարգավիճակի կանոնների հիման վրա: Այնուամենայնիվ, եթե ցանկանում եք կարգավիճակը ձեռքով նշանակել և շրջանցել կարգավիճակի ավտոմատացված կարգաբերումը՝ ընտրեք կամ «Ընդմիշտ չեղարկել» կամ «Չեղարկել մինչև ընտրված ամսաթիվը», ապա ընտրեք կարգավիճակի առկա տարբերակներից:"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"If you select \"Override Permanently\", The status you assign will remain in"
+" force, unless it is again modified on this screen. If you select \"Override"
+" Until Selected Date\", it will behave same as \"Override Permanently\" but "
+"will revert to \"No\" once the selected date is reached. As long as the "
+"Membership Override is active, the automated membership status update script"
+" will NOT update this membership record."
+msgstr ""
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"Check this box if someone other than the member is paying for this "
+"membership (i.e. a gift membership or gift subscription), and you want to "
+"link the payment to the person who is actually paying.  You will be able to "
+"select an existing contact or enter a new one. The resulting contribution "
+"record will be linked to the payer, and a soft credit for that contribution "
+"will be linked to this contact (the member)."
+msgstr "Ստուգեք այս վանդակում, թե անդամից բացի որևէ մեկը վճարում է՞ այս անդամակցության համար (այսինքն `նվեր անդամություն կամ նվեր բաժանորդագրություն), և դուք ցանկանում եք վճարումը կապել վճարում կատարող անձի հետ: Դուք հնարավորություն կունենաք ընտրել գոյություն ունեցող կոնտակտ կամ մուտքագրել նորը: Արդյունքում ներդրման վերաբերյալ գրառումը կապված կլինի վճարողի հետ, և այդ ներդրման համար արտոնյալ վարկը կապված կլինի է այս կոնտակտի (անդամի) հետ :"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid "Override End Date for Auto-renew Memberships"
+msgstr "Չեղարկել ավտոմատ կերպով թարմացվող անդամակցությունների վերջնաժամկետը"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"If CiviCRM's membership end-date is different from when the payment "
+"processor will next collect a payment, various problems can occur. Members "
+"may experience a gap in their membership, and the renewal date may get "
+"changed from what is manually entered. Use care when modifying the End Date "
+"value, and check the associated recurring payment in your payment processor "
+"system so they always match."
+msgstr "Եթե CiviCRM- ի անդամակցության վերջնաժամկերտը տարբեր է վճարման օպերատորի կողմից  հաջորդում է վճարումը հավաքելու ժամանակահատվածից, ապա կարող են տարբեր խնդիրներ առաջանալ: Անդամների անդամակցության ժամկետների միջև կարող է առաջանալ ազատ միջակայք, և թարմացման ամսաթիվը կարող է փոխվել և տարբերվել ձեռքով մուտքագրված ամսաթվից։ Անհրաժեշտ է ուշադիր լինել վերջնաժամկետի փոփոխման ժամանակ և ստուգել Ձեր վճարման համակարգում, որպեսզի դրանք միշտ համընկնեն:"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Click <a %1>Add Membership</a> to record a new membership."
+msgstr "Սեղմել <a %1> Ավելացնել անդամակցություն</a>՝ նոր անդամակցություն գրանցելու համար։ "
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid ""
+"Click <a %1>Submit Credit Card Membership</a> to process a Membership on "
+"behalf of the member using their credit card."
+msgstr "Սեղմել <a %1>Վարկային քարտի միջոցով իրականցվող անդամագրություն</a>՝ անդամի անունից նրա վարկային քարտի միջոցով անդամագրվելու համար "
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Current and inactive memberships for %1 are listed below."
+msgstr "Ընթացիկ և ապաակտիվացված անդամակցությունները  %1 -ի համար ներկայացված են ստորև։"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Submit Credit Card Membership"
+msgstr "Մուտքագրել վարկային քարտի միջոցով իրականացվող անդամագրությունը"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "No memberships have been recorded for this contact."
+msgstr "Այդ կոնտակտի համար գրանցվել են նոր անդամակցություններ"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Active Memberships"
+msgstr "Ակտիվ անդամակցություններ"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Pending and Inactive Memberships"
+msgstr "Սպասման մեջ գտնվող և ապաակտիվացված անդամակցություններ"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid ""
+"The following Membership Types are associated with this organization. Click "
+"<strong>Members</strong> for a listing of all contacts who have memberships "
+"of that type. Click <strong>Edit</strong> to modify the settings for that "
+"type."
+msgstr ""
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "Renew Now"
+msgstr "Թարմացնել հիմա"
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "Expired / Inactive Memberships"
+msgstr "Ժամկետը լրացած / Ապաակտիվացած անդամակցություններ"
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "There are no memberships on record for you."
+msgstr "Ձեր գրառումների մեջ անդամակցություններ գոյություն չունեն"
+
+#: xml/templates/message_templates/membership_autorenew_billing_subject.tpl
+msgid "Membership Autorenewal Billing Updates"
+msgstr ""
+
+#: xml/templates/message_templates/membership_autorenew_cancelled_html.tpl
+#: xml/templates/message_templates/membership_autorenew_cancelled_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Membership Information"
+msgstr "Տեղեկատվություն անդամակցության վերաբերյալ"
+
+#: xml/templates/message_templates/membership_autorenew_cancelled_subject.tpl
+msgid "Autorenew Membership Cancellation Notification"
+msgstr "Ավտոմատ կերպով թարմացնել անդամակցության դադարեցման վերաբերյալ ծանուցումը"
+
+#: xml/templates/message_templates/membership_offline_receipt_subject.tpl
+msgid "Membership Confirmation and Receipt"
+msgstr "Անդամակցության հաստատում և անդորրագիր"
+
+#: xml/templates/message_templates/membership_offline_receipt_subject.tpl
+msgid "Membership Renewal Confirmation and Receipt"
+msgstr "Անդամակցության թարմացման հաստատում և անդորրագիր"
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "%1 Membership"
+msgstr "%1 Անդամակցություն "
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid "NO"
+msgstr "ՈՉ"
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "This membership will be renewed automatically."
+msgstr "Այս անդամակցությունն ավտոմատ կերպով կթարմացվի"
+
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "You can cancel the auto-renewal option by visiting this web page: %1."
+msgstr "Դուք կարող եք չեղարկել ավտոմատ կերպով թարմացման տարբերակը՝ այցելելով հետևյալ կայքը՝ %1։"
+
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid ""
+"This membership will be renewed automatically. You can cancel the auto-"
+"renewal option by visiting this web page: %1."
+msgstr "Այս անդամակցությունն անվտոմատ կերպով կթարմացվի։ Դուք կարող եք չեղարկել ավտոմատ կերպով թարմացման տարբերակը՝ այցելելով հետևյալ կայքը՝ %1։"

@@ -9,15 +9,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Arabic (http://www.transifex.com/civicrm/civicrm/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Subscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Forward URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Reply (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Event Queue ID"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "CiviMail will not send email to a non-existent contact: %1"
@@ -35,13 +75,19 @@ msgstr "من الضروري ملء الخانة \"%1\""
 msgid "Field \"body_html\" or \"body_text\" is required."
 msgstr "من الضروري ملء خانة \"صلب الموضوع_صيغة لغة رموز النصوص التشعبية\" أو \"صلب الموضوع_صيغة النص الصرف\""
 
-#: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Form/Upload.php
+#: CRM/Mailing/BAO/Mailing.php
 msgid "This message is missing a required token - {%1}: %2"
 msgstr "تفتقر هذه الرسالة إلى إشارة مطلوبة- {%1}: %2"
 
 #: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Selector/Event.php
 msgid "Opt-Out"
 msgstr "الانسحاب"
+
+#: CRM/Mailing/BAO/Mailing.php ang/crmMailing/BlockReview.html
+#: ang/crmMailingAB/EditCtrl/report.html
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Resubscribe"
+msgstr "إعادة الاشتراك"
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "You do not have permission to access this mailing report"
@@ -56,6 +102,10 @@ msgid "SMS Message"
 msgstr "الرسالة النصية القصيرة"
 
 #: CRM/Mailing/BAO/Mailing.php
+msgid "Document Body"
+msgstr ""
+
+#: CRM/Mailing/BAO/Mailing.php
 msgid "Use Template"
 msgstr "استخدم النموذج"
 
@@ -68,18 +118,10 @@ msgid "Save As New Template"
 msgstr "إحفظ كنموذج جديد"
 
 #: CRM/Mailing/BAO/Mailing.php
-msgid "Select Template"
-msgstr "إختر النموذج"
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Your Letter"
-msgstr "رسالتك"
-
-#: CRM/Mailing/BAO/Mailing.php
 msgid ""
 "The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in the online user and administrator guide</a>"
-msgstr "لم يتم ضبط <a href=\"%1\">البريد التلقائي </a>. يمكنك إيجاد <a href=\"%2\">المزيد من المعلومات في الدليل الخاص بالمستخدمين والمدراء المتوافر على شبكة الإنترنت </a>"
+"find <a href=\"%2\">more info in the online system administrator guide</a>"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "View Mailing"
@@ -88,10 +130,6 @@ msgstr "اطلع على البريد"
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "[CiviMail Draft]"
 msgstr "[مسودة CiviMail]"
-
-#: CRM/Mailing/BAO/MailingJob.php
-msgid "The mailing has been canceled."
-msgstr "تمّ حذف البريد."
 
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "Not scheduled"
@@ -137,6 +175,10 @@ msgid "Forwards"
 msgstr "ما من تحويلات حالياً"
 
 #: CRM/Mailing/BAO/Query.php
+msgid "Campaign %1 %2"
+msgstr ""
+
+#: CRM/Mailing/BAO/Query.php
 msgid "Mailing Name(s)"
 msgstr "إسم البريد"
 
@@ -160,54 +202,84 @@ msgstr "تتبع نقرات العناوين الإلكترونية"
 msgid "Trackable Replies"
 msgstr "تتبع عمليات الرد"
 
+#: CRM/Mailing/BAO/Query.php templates/CRM/Mailing/Form/Search/Common.tpl
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "Mailing Date"
+msgstr "تاريخ البريد"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "Bounce Pattern ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/DAO/BounceType.php
+msgid "Type of bounce"
+msgstr ""
+
 #: CRM/Mailing/DAO/BouncePattern.php
 msgid "Pattern"
 msgstr "النمط"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "A regexp to match a message to a bounce type"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Name"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Description"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "A description of this bounce type"
+msgstr ""
 
 #: CRM/Mailing/DAO/BounceType.php
 msgid "Hold Threshold"
 msgstr "الحدّ الأقصى للرسائل المحفوظة من دون إرسالها"
 
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component ID"
-msgstr "الرمز التعريفي لعنصر البريد"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Component Name"
-msgstr "اسم المكون"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Type"
-msgstr "نوع عنصر البريد"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Body HTML"
-msgstr "عنصر البريد بصيغة لغة رموز النصوص التشعبية"
-
-#: CRM/Mailing/DAO/Component.php CRM/Mailing/DAO/Mailing.php
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Body Text"
+#: CRM/Mailing/DAO/BounceType.php
+msgid ""
+"Number of bounces of this type required before the email address is put on "
+"bounce hold"
 msgstr ""
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component is Default?"
-msgstr "عنصر البريد تلقائي؟"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Is Active?"
-msgstr "عنصر البريد شغال؟"
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Domain"
 msgstr "نطاق البريد"
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingAB.php
+msgid "Which site is this mailing for"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the header component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the footer component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Reply"
 msgstr "الإجابة على البريد"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the auto-responder component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Unsubscribe"
 msgstr "إلغاء الاشتراك في البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the unsubscribe component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Resubscribe"
@@ -218,20 +290,66 @@ msgid "Mailing Opt Out"
 msgstr "الانسحاب من البريد"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the opt-out component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Name."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Type"
 msgstr "نوع البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"differentiate between standalone mailings, A/B tests, and A/B final-winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Name"
 msgstr "بريد من الاسم"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Header of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Email"
 msgstr "بريد من عنوان البريد الإلكتروني"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Replyto Email"
 msgstr "الرد على البريد الإلكتروني"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Reply-To Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Type"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "The language/processing system used for email templates."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Options (JSON)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Advanced options used by the email templating system. (JSON encoded)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingComponent.php
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Body Text"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Body Html"
@@ -241,22 +359,42 @@ msgstr ""
 msgid "Url Tracking"
 msgstr "تتبع العناوين الإلكترونية"
 
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track URL click-throughs for this mailing?"
+msgstr ""
+
 #: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockResponses.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Forward Replies"
 msgstr "تحويل الردود"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we forward replies back to the author?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Auto Responder"
 msgstr "المجيب التلقائي"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we enable the auto-responder?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Track Mailing?"
 msgstr "تتبع البريد؟"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track when recipients open/read this mailing?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Completed"
 msgstr "تم استكمال البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Has at least one job associated with this mailing finished?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Message Template"
@@ -267,49 +405,106 @@ msgid "Override Verp"
 msgstr "إبطال مسار رجوع المغلفات المتغير"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we overrite VERP address in Reply-To"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Creator"
 msgstr "منشئ البريد"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who first created this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Created Date"
 msgstr "تاريخ إنشاء البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was created."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"When the mailing (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who scheduled this mailing"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Scheduled Date"
 msgstr "تاريخ جدولة البريد"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was scheduled."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approved By"
 msgstr "تمت الموافقة عليه من قبل"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who approved this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Approved Date"
 msgstr "تاريخ الموافقة على البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was approved."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Approve.php
 msgid "Approval Status"
 msgstr "وضع الموافقة"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The status of this mailing. Values: none, approved, rejected"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approval Note"
 msgstr "ملاحظة الموافقة"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Note behind the decision."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Is Mailing Archived?"
 msgstr "هل تمّ حفظ البريد في الأرشيف؟"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Settings.php
-#: ang/crmMailing/BlockPublication.html
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Is this mailing archived?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockPublication.html
 msgid "Mailing Visibility"
 msgstr "مقروئية البريد"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "In what context(s) is the mailing contents visible (online viewing)"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Campaign"
 msgstr "حملة البريد"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The campaign for which this mailing has been initiated."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "No Duplicate emails?"
 msgstr "ما من رسائل إلكترونية مزدوجة؟"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Remove duplicate emails?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing SMS Provider"
@@ -319,25 +514,62 @@ msgstr "مزود الرسائل النصية القصيرة للبريد"
 msgid "Mailing Hash"
 msgstr "بعثرة البريد"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Group.php
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Key for validating requests related to this mailing."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "With email_selection_method, determines which email address to use"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Email Selection Method"
 msgstr "وسيلة اختيار البريد الإلكتروني"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"With location_type_id, determine how to choose the email address to use."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Language"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Language of the content of the mailing. Useful for tokens."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "MailingAB ID"
 msgstr "الرمز التعريفي للبريد أب"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "Name of the A/B test"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (A)"
 msgstr "الرمز التعريفي للبريد (أ)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The first experimental mailing (\"A\" condition)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (B)"
 msgstr "الرمز التعريفي للبريد (ب)"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "The second experimental mailing (\"B\" condition)"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (C)"
 msgstr "الرمز التعريفي للبريد (ج)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The final, general mailing (derived from A or B)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Testing Criteria"
@@ -352,8 +584,16 @@ msgid "URL for Winner Criteria"
 msgstr "العنوان الإلكتروني لمعايير الفائز"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "What specific url to track"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Declaration Time"
 msgstr "وقت الإعلان "
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "In how much time to declare winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Group Percentage"
@@ -367,13 +607,65 @@ msgstr "اختبار أب أنشأه"
 msgid "AB Test Created Date"
 msgstr "تاريخ إنشاء اختبار أب"
 
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component ID"
+msgstr "الرمز التعريفي لعنصر البريد"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Component Name"
+msgstr "اسم المكون"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "The name of this component"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Type"
+msgstr "نوع عنصر البريد"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Type of Component."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Body HTML"
+msgstr "عنصر البريد بصيغة لغة رموز النصوص التشعبية"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in html format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in text format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component is Default?"
+msgstr "عنصر البريد تلقائي؟"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Is this the default component for this component_type?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Is Active?"
+msgstr "عنصر البريد شغال؟"
+
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group ID"
 msgstr "الرمز التعريفي لمجموعة البريد"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The ID of a previous mailing to include/exclude recipients."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Type"
 msgstr "نوع مجموعة البريد"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "Are the members of the group included or excluded?."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Entity Table"
@@ -388,40 +680,88 @@ msgid "Mailing Group Search"
 msgstr "البحث في مجموعة البريد"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The filtering search. custom search id or -1 for civicrm api search"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Search Arguments"
 msgstr "حجج البحث في مجموعة البريد"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "The arguments to be sent to the search function"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job ID"
 msgstr "الرمز التعريفي لمهمة البريد"
+
+#: CRM/Mailing/DAO/MailingJob.php CRM/Mailing/DAO/Recipients.php
+msgid "The ID of the mailing this Job will send."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was scheduled."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Start Date"
 msgstr "تاريخ بداية مهمة البريد"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was started."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job End Date"
 msgstr "تاريخ نهاية مهمة البريد"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job ended."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "The state of this job"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Is Test?"
 msgstr "مهمة البريد قيد الاختبار؟"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Is this job for a test mail?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Type"
 msgstr "نوع مهمة البريد"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Type of mailling job: null | child "
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Parent"
 msgstr "الوظيفة الأساسية للبريد"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Parent job id"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Offset"
 msgstr "أوفست وظيفة البريد "
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Offset of the child job"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Limit"
 msgstr "الحدود المفروضة على مهمة البريد"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Queue size limit for each child job"
+msgstr ""
 
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Mailing Recipients ID"
@@ -431,37 +771,82 @@ msgstr "الرمز التعريفي لمستلمي البريد"
 msgid "Mailing Recipient"
 msgstr "مستلم البريد"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "FK to Contact"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php CRM/Mailing/DAO/Spool.php
 msgid "Recipient Email"
 msgstr "البريد الإلكتروني للمستلم"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Email"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Recipient Phone"
 msgstr "هاتف المستلم"
+
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Phone"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Spool ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Mailing Job"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The ID of the Job ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The email of the receipients this mail is to be sent."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
 msgid "Headers"
 msgstr "الرأسيات"
 
 #: CRM/Mailing/DAO/Spool.php
+msgid "The header information of this mailing ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
 msgid "Body"
 msgstr "المضمون"
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Added At"
-msgstr "مضاف في"
+msgid "The body of this mailing."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Removed At"
-msgstr "تمت إزالته في"
+msgid "date on which this job was added."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "date on which this job was removed."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "Trackable URL ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "The URL to be tracked."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "FK to the mailing"
+msgstr ""
 
 #: CRM/Mailing/Event/BAO/Bounce.php
 msgid "Unknown bounce type: Could not parse bounce email"
 msgstr "نوع الارتداد غير معروف: لا يمكن تفكيك البريد الإلكتروني الارتدادي"
-
-#: CRM/Mailing/Event/BAO/Bounce.php
-msgid "Unknown"
-msgstr "غير معلوم"
 
 #: CRM/Mailing/Event/BAO/Subscribe.php
 msgid "You are already subscribed in %1, your subscription is %2."
@@ -481,11 +866,34 @@ msgid ""
 "Please contact the site administrator."
 msgstr "واجهتنا مشكلة في معالجة طلب الاشتراك لـ %1. لقد حاولت الاشتراك في مجموعة خاصة و/أو واجهنا خطأً في قاعدة البيانات. الرجاء الاتصال بمدير الموقع."
 
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "Bounce ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
+#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Event Queue"
+msgstr ""
+
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
 #: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Opened.php
 #: CRM/Mailing/Event/DAO/Reply.php CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Time Stamp"
-msgstr "الختم الزمني"
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "FK to EventQueue"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "What type of bounce was it?"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "The reason the email bounced."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "When this bounce event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Mailing Confirmation ID"
@@ -496,16 +904,80 @@ msgid "Mailing Subscribe ID"
 msgstr "الرمز التعريفي للاشتراك في البريد"
 
 #: CRM/Mailing/Event/DAO/Confirm.php
+msgid "FK to civicrm_mailing_event_subscribe"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Confirm Timestamp"
 msgstr "أكّد على الختم الزمني"
+
+#: CRM/Mailing/Event/DAO/Confirm.php
+msgid "When this confirmation event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Delivered.php
+msgid "Delivered ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Delivered.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "When this delivery event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Forward ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Mailing Event Queue"
+msgstr "قائمة الانتظار لمناسبات البريد"
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Destination Queue"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "FK to EventQueue for destination"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "When this forward event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "Mailing Opened ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "When this open event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Queue.php
 msgid "Mailing Event Queue ID"
 msgstr "الرمز التعريفي لقائمة الانتظار لمناسبات البريد"
 
 #: CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Job"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Queue.php
 msgid "Security Hash"
 msgstr "دالة هاش الأمنية "
+
+#: CRM/Mailing/Event/DAO/Queue.php CRM/Mailing/Event/DAO/Subscribe.php
+msgid "Security hash"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply Timestamp"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "When this reply event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Subscribe.php
 msgid "Mailing Subscribe Group"
@@ -523,17 +995,37 @@ msgstr "دالة هاش للاشتراك في البريد"
 msgid "Mailing Subscribe Timestamp"
 msgstr "الختم الزمني للاشتراك بالبريد"
 
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "When this subscription event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable URL Open ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable Url"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "FK to TrackableURL"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "When this trackable URL open occurred."
+msgstr ""
+
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe ID"
 msgstr "الرمز التعريفي لإلغاء الاشتراك"
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
-msgid "Mailing Event Queue"
-msgstr "قائمة الانتظار لمناسبات البريد"
-
-#: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe is for Organization?"
 msgstr "إلغاء الاشتراك للمنظمة؟"
+
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Unsubscribe at org- or group-level"
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe Timestamp"
@@ -546,6 +1038,10 @@ msgstr "الموافقة على/رفض البريد"
 #: CRM/Mailing/Form/Approve.php
 msgid "Approve/Reject Note"
 msgstr "الموافقة على /رفض الملاحظة"
+
+#: CRM/Mailing/Form/Browse.php CRM/Mailing/Page/Browse.php
+msgid "The mailing has been canceled."
+msgstr "تمّ حذف البريد."
 
 #: CRM/Mailing/Form/Component.php
 msgid "Component Type"
@@ -580,6 +1076,10 @@ msgstr "تم الكشف عن الأخطاء التالية في الرسالة %
 msgid "More information on tokens..."
 msgstr "المزيد من المعلومات عن الإشارات"
 
+#: CRM/Mailing/Form/Component.php
+msgid "Please provide either HTML or TEXT format for the Body."
+msgstr ""
+
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Invalid form parameters."
 msgstr "مؤشرات ذات صيغة غير صالحة"
@@ -587,10 +1087,6 @@ msgstr "مؤشرات ذات صيغة غير صالحة"
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward Mailing: %1"
 msgstr "تحويل البريد: %1"
-
-#: CRM/Mailing/Form/ForwardMailing.php
-msgid "Email %1"
-msgstr "البريد الإلكتروني %1"
 
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward"
@@ -615,76 +1111,6 @@ msgstr[2] "تمّ إرسال البريد بنجاح إلى عنوانين إل�
 msgstr[3] "تمّ إرسال البريد بنجاح إلى بضعة عناوين إلكترونية. "
 msgstr[4] "تمّ إرسال البريد بنجاح إلى العديد من العناوين الإلكترونية. "
 msgstr[5] "تمّ إرسال البريد بنجاح إلى عناوين إلكترونية غير محددة. "
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in our online user and administrator "
-"guide.</a>"
-msgstr "لم يتم ضبط <a href=\"%1\">البريد التلقائي </a>. يمكنك إيجاد <a href=\"%2\">المزيد من المعلومات في الدليل الخاص بالمستخدمين والمدراء المتوافر على شبكة الإنترنت </a>"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Name Your Mailing"
-msgstr "سم البريد الإلكتروني الخاص بك"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Remove duplicate emails?"
-msgstr "إزالة الرسائل الإلكترونية المزدوجة؟"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Unsubscription Group"
-msgstr "مجموعة إلغاء الاشتراك"
-
-#: CRM/Mailing/Form/Group.php
-msgid "INCLUDE Recipients of These Mailing(s)"
-msgstr ""
-
-#: CRM/Mailing/Form/Group.php
-msgid "EXCLUDE Recipients of These Mailing(s)"
-msgstr ""
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Settings.php
-#: CRM/Mailing/Form/Test.php CRM/Mailing/Form/Upload.php
-msgid ""
-"You can continue later by clicking the 'Continue' action to resume working "
-"on it.<br />From <a href='%1'>Draft and Unscheduled Mailings</a>."
-msgstr "يمكنك المتابعة لاحقاً بالنقر على \"أكمل\" لاستئناف العمل عليه <br />من<a href='%1'>مسودة البريد والبريد غير المجدول</a>"
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Click the 'Continue' action to resume working on it."
-msgstr "أنقر على \"أكمل\" لاسئناف العمل عليه"
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Saved"
-msgstr "تمّ حفظ البريد"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Cannot have same mail in Include mailing(s) and Exclude mailing(s)."
-msgstr "لا يمكن حفظ البريد نفسه في إدراج البريد (المراسلات) وإقصاء البريد (المراسلات)."
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a group to filter on"
-msgstr "يجب اختيار مجموعة لتصفيتها"
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a search to filter"
-msgstr "عليك اختيار بحث لتصفيته"
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Email Selection Method' is automatic, you are not allowed to choose any "
-"'Location Type'"
-msgstr "إذا كانت \"عملية اختيار البريد\" آليةً، لا يسمح لك باختيار أي \"نوع موقع\""
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Location Type' is not selected, you must set the 'Email Selection "
-"Method' to automatic as well."
-msgstr "إن لم يتم اختيار \"نوع الموقع\"، يجب تحديد \"طريقة اختيار عنوان البريد الإلكتروني\" إلى آلية أيضاً."
 
 #: CRM/Mailing/Form/Optout.php CRM/Mailing/Form/Unsubscribe.php
 #: CRM/Mailing/Page/Common.php
@@ -713,26 +1139,6 @@ msgid ""
 "with this opt out request."
 msgstr "عنوان البريد الإلكتروني: %1 الذي أدخلته لا يتطابق مع البريد الإلكتروني المرتبط بطلب السحب."
 
-#: CRM/Mailing/Form/Schedule.php
-msgid "Schedule Mailing"
-msgstr "جدولة البريد"
-
-#: CRM/Mailing/Form/Schedule.php ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-#: ang/crmMailingAB/EditCtrl/edit.html
-msgid "Submit Mailing"
-msgstr "تسليم البريد"
-
-#: CRM/Mailing/Form/Schedule.php
-msgid ""
-"Your mailing has been saved. You can continue later by clicking the "
-"'Continue' action to resume working on it.<br />From <a href='%1'>Draft and "
-"Unscheduled Mailings</a>."
-msgstr "تم حفظ بريدك. يمكنك المتابعة لاحقاً بالنقر على \"أكمل\" لاستئناف العمل عليه. <br />من<a href='%1'>مسودة البريد والبريد غير المجدول</a>"
-
 #: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
 msgid "SMS Name"
 msgstr "اسم الرسالة النصية القصيرة"
@@ -749,29 +1155,15 @@ msgstr "مسودة/ غير مجدولة"
 msgid "Mailing is Archived"
 msgstr "ـتمّ حفظ البريد في الأرشيف"
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Replies?"
-msgstr "تتبع الردود؟"
+#: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
+#: CRM/Mailing/Selector/Search.php ang/crmMailing/BlockMailing.html
+#: ang/crmMailing/BlockReview.html templates/CRM/Mailing/Page/Browse.hlp
+msgid "Language"
+msgstr ""
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Forward Replies?"
-msgstr "تحويل الردود؟"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Click-throughs?"
-msgstr "تتبع مستوى النقرات للاستجابة؟"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Opens?"
-msgstr "تتبّع عمليات الفتح؟"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Auto-respond to Replies?"
-msgstr "الاستجابة التلقائية على الردود؟"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track and Respond"
-msgstr "التتبع والاستجابة"
+#: CRM/Mailing/Form/Search.php
+msgid "- all languages -"
+msgstr ""
 
 #: CRM/Mailing/Form/Subscribe.php
 msgid "Subscribe to Mailing List - %1"
@@ -792,48 +1184,6 @@ msgstr "اشترك"
 #: CRM/Mailing/Form/Task/Print.php CRM/Mailing/Task.php
 msgid "Print Mailing Recipients"
 msgstr "إطبع أسماء المتلقين للبريد"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Address"
-msgstr "أرسل إلى هذا العنوان"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Group"
-msgstr "أرسل إلى هذه المجموعة"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send a Test Mailing"
-msgstr "أرسل بريداً كاختبار"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Inform Scheduler"
-msgstr "أعلم منظّم البرامج"
-
-#: CRM/Mailing/Form/Test.php
-msgid "You did not provide an email address or select a group."
-msgstr "لم تقدّم عنوان بريد إلكتروني أو تختر مجموعة"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test not sent."
-msgstr "لم يتمّ إرسال الاختبار."
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"You can not schedule or send this mailing because there are currently no "
-"recipients selected. Click 'Previous' to return to the Select Recipients "
-"step, OR click 'Save & Continue Later'."
-msgstr "لا يمكنك تحديد موعد أو إرسال هذا البريد لأنك لم تختر أي متلقين. أنقر على \"السابق\" للعودة إلى \"اختيار المتلقين\" أو أنقر على \"إحفظ وأكمل لاحقاً.\""
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"Click 'Next' when you are ready to Schedule or Send your live mailing (you "
-"will still have a chance to confirm or cancel sending this mailing on the "
-"next page)."
-msgstr "أنقر على \"التالي\" عندما تصبح جاهزاً لتحديد موعد أو إرسال البريد (ستتسنى لك فرص ة التأكيد أو العزوف عن إرسال هذا البريد في الصفحة التالية)."
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test message sent"
-msgstr "تمّ إرسال الاختبار"
 
 #: CRM/Mailing/Form/Unsubscribe.php
 msgid "Missing Parameters"
@@ -862,38 +1212,9 @@ msgid ""
 "with this unsubscribe request."
 msgstr "عنوان البريد الإلكتروني: %1 الذي أدخلته لا يتطابق مع البريد الإلكتروني المرتبط بطلب إلغاء الاشتراك."
 
-#: CRM/Mailing/Form/Upload.php
-msgid ""
-"There is no valid from email address present. You can add here <a "
-"href='%1'>Add From Email Address.</a>"
-msgstr "ما من عنوان بريد إلكتروني صالح متوافر. يمكنك إضافة هنا <a href='%1'>أضف من عناوين البريد الإلكتروني.</a>"
-
-#: CRM/Mailing/Form/Upload.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailing/EmailAddrCtrl.js ang/crmMailingAB/BlockMailing.html
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "Reply-To"
-msgstr "أرسل إجابة-إلى"
-
-#: CRM/Mailing/Form/Upload.php CRM/Mailing/Selector/Search.php
-#: templates/CRM/Mailing/Form/Task/Print.tpl
-msgid "Mailing Subject"
-msgstr "موضوع البريد"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Upload HTML Message"
-msgstr "حمّل الرسالة بصيغة لغة رموز النصوص التشعبية"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Please provide either a Text or HTML formatted message - or both."
-msgstr "الرجاء إدخال إما رسالة بصيغة نص أو بلغة رموز النصوص التشعبية - أو الإثنتين معاً."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "More information on required tokens..."
-msgstr "المزيد من المعلومات عن الإشارات المطلوبة..."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Content"
-msgstr "محتوى البريد"
+#: CRM/Mailing/Info.php
+msgid "CiviCRM Mailing Engine"
+msgstr ""
 
 #: CRM/Mailing/Info.php
 msgid "access CiviMail"
@@ -932,9 +1253,31 @@ msgstr "جدولة المراسلات"
 msgid "approve mailings"
 msgstr "الموافقة على المراسلات"
 
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to send SMS"
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to view this page."
+msgstr ""
+
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Cancel Mailing"
 msgstr "إلغاء البريد"
+
+#: CRM/Mailing/Page/Browse.php
+msgid ""
+"The mailing has been paused. Active message deliveries may continue for a "
+"few minutes, but CiviMail will not begin delivery of any more batches."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "The mailing has been resumed."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "Resumed"
+msgstr ""
 
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Archive Mailing"
@@ -1106,6 +1449,26 @@ msgid "Archive"
 msgstr "الأرشيف"
 
 #: CRM/Mailing/Selector/Browse.php
+msgid "Resume"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Resume mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Public View"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
 msgid "CiviMail Mailings"
 msgstr "بريد CiviMail"
 
@@ -1149,10 +1512,9 @@ msgstr "النقرات"
 msgid "Unique Tracked Opens"
 msgstr "عمليات الفتح المتتبعة الفريدة"
 
-#: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Tracked Opens"
-msgstr "عمليات الفتح المتتبعة"
+#: CRM/Mailing/Selector/Event.php
+msgid "Total Tracked Opens"
+msgstr ""
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Task/Print.tpl
 msgid "Completed Date"
@@ -1162,20 +1524,61 @@ msgstr "التاريخ كاملاً"
 msgid "CiviCRM Mailing Search"
 msgstr "البحث في بريد CiviCRM"
 
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Group(s)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (View)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Edit)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Schedule)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing HTML"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Status"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Note"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval URL"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Name)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Email)"
+msgstr ""
+
 #: ang/crmMailing/BlockApprove.html
 msgid "Unreviewed"
 msgstr ""
 
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Save As"
-msgstr ""
-
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Email address"
-msgstr ""
+#: ang/crmMailing/BlockMailing.html ang/crmMailing/EmailAddrCtrl.js
+#: ang/crmMailingAB/BlockMailing.html
+msgid "Reply-To"
+msgstr "أرسل إجابة-إلى"
 
 #: ang/crmMailing/BlockMailing.html
 msgid "Unsubscribe Group"
+msgstr ""
+
+#: ang/crmMailing/BlockMailing.html
+msgid "- choose language -"
 msgstr ""
 
 #: ang/crmMailing/BlockPreview.html
@@ -1231,11 +1634,15 @@ msgid "Group is empty."
 msgstr ""
 
 #: ang/crmMailing/BlockRecipients.html
-msgid "Preview a List of Recipients"
+msgid "Edit Recipient Options"
 msgstr ""
 
 #: ang/crmMailing/BlockRecipients.html
-msgid "Edit Recipient Options"
+msgid "Click to refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/BlockRecipients.html
+msgid "Preview a List of Recipients"
 msgstr ""
 
 #: ang/crmMailing/BlockResponses.html ang/crmMailing/BlockReview.html
@@ -1259,6 +1666,12 @@ msgstr ""
 msgid "Exclude:"
 msgstr ""
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Content"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
 #: ang/crmMailing/EditMailingCtrl/unified2.html
@@ -1269,8 +1682,17 @@ msgstr ""
 msgid "Plain Text"
 msgstr ""
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Tracking"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click Throughs"
+msgid "Click-Throughs"
 msgstr ""
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
@@ -1278,18 +1700,12 @@ msgid "Opens"
 msgstr "يفتح"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Form/Settings.tpl
 msgid "Responding"
 msgstr "الاستجابة"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Auto-Respond"
 msgstr ""
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Resubscribe"
-msgstr "إعادة الاشتراك"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
@@ -1300,20 +1716,16 @@ msgstr "إعادة الاشتراك"
 msgid "Publication"
 msgstr ""
 
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send immediately"
-msgstr ""
-
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send at:"
-msgstr ""
-
 #: ang/crmMailing/BlockSummary.html ang/crmMailingAB/BlockSetup.html
 msgid "Select Campaign"
 msgstr ""
 
+#: ang/crmMailing/BlockTemplates.html ang/crmMailingAB/BlockMailing.html
+msgid "Save As"
+msgstr ""
+
 #: ang/crmMailing/BlockTracking.html
-msgid "Track Click Throughs"
+msgid "Track Click-Throughs"
 msgstr ""
 
 #: ang/crmMailing/BlockTracking.html
@@ -1322,14 +1734,6 @@ msgstr ""
 
 #: ang/crmMailing/BodyHtml.html ang/crmMailing/BodyText.html
 msgid "Required tokens are missing."
-msgstr ""
-
-#: ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-msgid "This mailing has been submitted."
 msgstr ""
 
 #: ang/crmMailing/EditMailingCtrl/2step.html
@@ -1370,6 +1774,15 @@ msgstr ""
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: ang/crmMailingAB/EditCtrl/edit.html
+msgid "Submit Mailing"
+msgstr "تسليم البريد"
+
+#: ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Delete Draft"
 msgstr ""
 
@@ -1391,6 +1804,10 @@ msgstr ""
 msgid "Save Draft"
 msgstr ""
 
+#: ang/crmMailing/EditMailingCtrl/base.html
+msgid "This mailing has been submitted."
+msgstr ""
+
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Submit and Approve Mailing"
 msgstr ""
@@ -1401,27 +1818,35 @@ msgid "Submitting..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "(Estimating)"
-msgstr ""
-
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/PreviewRecipCtrl.html
-msgid "No recipients"
+msgid "Estimating..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "~1 recipient"
+msgid "Estimate recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "Refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "No Recipients"
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "~%1 recipients"
 msgstr ""
 
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
-msgid "Previewing..."
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "(unknown)"
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "Preview (%1)"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
+msgid "Previewing..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipOptionsDialogCtrl.html
@@ -1450,8 +1875,9 @@ msgstr ""
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
 msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list or (b) completely opt-out from all\n"
-"  mailings. Please insert an unsubscribe or opt-out token."
+"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
+"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
+" opt-out token."
 msgstr ""
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
@@ -1496,28 +1922,12 @@ msgid ""
 "final list may change."
 msgstr ""
 
+#: ang/crmMailing/PreviewRecipCtrl.html
+msgid "No recipients"
+msgstr ""
+
 #: ang/crmMailing/RadioDate.js
 msgid "The scheduled date and time is in the past"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Mandatory Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Past Recipients From"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Past Recipients From"
 msgstr ""
 
 #: ang/crmMailing/Recipients.js
@@ -1549,6 +1959,10 @@ msgstr ""
 #: ang/crmMailing/services.js
 msgid "Sending..."
 msgstr ""
+
+#: ang/crmMailing/services.js
+msgid "Tracked Opens"
+msgstr "عمليات الفتح المتتبعة"
 
 #: ang/crmMailing/services.js
 msgid "Unsubscribes"
@@ -1713,7 +2127,7 @@ msgid "n/a"
 msgstr ""
 
 #: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for  '%1'"
+msgid "Reports for '%1'"
 msgstr ""
 
 #: ang/crmMailingAB/EditCtrl/report.html
@@ -1795,22 +2209,18 @@ msgid "Submit final mailing"
 msgstr ""
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Preview Mailing"
 msgstr "استعراض البريد"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Attachment(s):"
 msgstr "الملف (الملفات) المرفقة"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing HTML:"
 msgstr "بريد بصيغة لغة رموز النصوص التشعبية"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing Text:"
 msgstr "البريد بصيغة النص"
 
@@ -1826,7 +2236,91 @@ msgstr "إجمالي عد المستلمين"
 msgid "Please enter up to 5 email addresses to receive the mailing."
 msgstr "الرجاء إدخال 5 عناوين بريد إلكتروني كحدّ أقصى لتلقي البريد."
 
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/Form/Optout.tpl
+msgid ""
+"You are requesting to opt out this email address from all mailing lists:"
+msgstr "تطلب سحب عنوان البريد الإلكتروني من لوائح البريد كافة:"
+
+#: templates/CRM/Mailing/Form/Optout.tpl
+msgid ""
+"If this is not your email address, there is no need to do anything. You have"
+" <i><b>not</b></i> been added to any mailing lists. If this is your email "
+"address and you <i><b>wish to opt out</b></i> please enter your email "
+"address below for verification purposes:"
+msgstr "إن لم يكن ذلك هو عنوان بريدك الإلكتروني، لاحاجة للقيام بأيّ أمر. <i><b>لم</b></i> تتم إضافتك إلى أي لوائح بريدية. إن كان هذا هو عنوان بريدك الإلكتروني وكنت <i><b>ترغب في الانسحاب</b></i>، الرجاء إدخال عنوان بريدك الإلكتروني أدناه لأهداف التدقيق:"
+
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "SMS Date"
+msgstr "تاريخ الرسالة النصية القصيرة"
+
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "SMS Status"
+msgstr "وضع الرسالة النصية القصيرة"
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"This option makes it possible to make the contents of the email accessible "
+"to users as a web page. This option is only relevant if you insert the "
+"Mailing permalink token %1 in your message in the next step. This token "
+"generates a URL on which the message can be viewed (remember to insert the "
+"code in the appropriate HTML tags)."
+msgstr "يمكن من خلال هذا الخيار إتاحة محتويات عناوين البريد الإلكتروني للمستخدمين كصفحة إلكترونية. ولا يكون هذا الخيار ذا صلة إلا إذا أدخلت العلامة المميزة لرابط البريد الدائم %1 في رسالتك كخطوة تالية. تولّد هذه العلامة المميزة عنواناً إلكترونياًيمكن الاطلاع على الرسالة عليه (تذكر إدخال الرمز في إشارات لغة رموز النصوص التشعبية)."
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid "You have two options to specify the visibility of the mailing"
+msgstr "يتوافر أمامك خياران  لتحديد مقروئية البريد"
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"\"public pages\" will make the content of this mailing be viewable as a web "
+"page by everyone who has the permission of \"view public CiviMail content\""
+msgstr "\"الصفحات العامة\" تجعل محتوى هذا البريد متاحاً كصفحة إلكترونية من قبل كل من لديه إذن \"بالاطلاع على محتوى CiviMail العام\"."
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"\"user and user admin\" only means that only users that received the mailing"
+" or administrators can view the content of this email as a web page; the "
+"recipients will have to log in to be able to view the message"
+msgstr "\"المستخدم ومدير المستخدمين\" تعني أنّ وحدهم المستخدمين الذين تلقوا البريد أو المدراء يمكنهم الاطلاع على هذه الرسالة على موقعك؛ يجب على المستخدمين تسجيل دخولهم من أجل الاطلاع على الرسالة."
+
+#: templates/CRM/Mailing/Form/Subscribe.tpl
+msgid ""
+"Enter your email address and click <strong>Subscribe</strong>. You will "
+"receive a confirmation request via email shortly. Your subscription will be "
+"activated after you respond to that email."
+msgstr "أدخل عنوان بريدك الإلكتروني وأنقر على <strong>إشترك<strong>. سوف تتلقى طلب تأكيد عبر البريد الإلكتروني قريباً. يفعّل الاشتراك بعد الإجابة على هذا البريد الإلكتروني."
+
+#: templates/CRM/Mailing/Form/Subscribe.tpl
+msgid ""
+"Enter your email address and check the box next to each mailing list you "
+"want to join. Then click the <strong>Subscribe</strong> button. You will "
+"receive a confirmation request via email for each selected list. Activate "
+"your subscription to each list by responding to the corresponding "
+"confirmation email."
+msgstr "أدخل عنوان بريدك الإلكتروني وضع إشارةً في المربع بجانب كل لائحة بريد تودّ الانضمام إليها. من ثم أنقر على <strong>إشترك<strong>. سوف تتلقى طلب تأكيد عبر البريد الإلكتروني لكل لائحة يتم اختيارها. فعّل اشتراكك في كلّ قائمة من خلال الإجابة عن بريد التأكيد المقابل."
+
+#: templates/CRM/Mailing/Form/Task.tpl
+msgid "Number of selected Mailing Recipients: %1"
+msgstr "عدد مستلمي البريد الذين وقع الاختيار عليهم: %1"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid ""
+"Are you sure you want to be removed from the mailing list(s) shown below:"
+msgstr "هل أنت متأكد من أنك تريد إزالة عنوانك من لائحة (لوائح) البريد المدرجة أدناه:"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid "You are requesting to unsubscribe this email address:"
+msgstr "تطلب إلغاء اشتراك عنوان البريد الإلكتروني هذا:"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid ""
+"If this is not your email address, there is no need to do anything. You have"
+" <i><b>not</b></i> been added to any mailing lists. If this is your email "
+"address and you <i><b>wish to unsubscribe</b></i> please enter your email "
+"address below for verification purposes:"
+msgstr "إن لم يكن ذلك هو عنوان بريدك الإلكتروني، لاحاجة للقيام بأيّ أمر. <i><b>لم</b></i> تتم إضافتك إلى أي لوائح بريدية. إن كان هذا هو عنوان بريدك الإلكتروني وكنت <i><b>ترغب في إلغاء الاشتراك</b></i>، الرجاء إدخال عنوان بريدك الإلكتروني أدناه لأهداف التدقيق:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "Assign a unique name to each of your mailings. Select a naming convention "
 "that will help keep your mailings organized and easy to find when you want "
@@ -1834,9 +2328,295 @@ msgid ""
 "general-interest newsletter - you might use the following naming convention:"
 msgstr "إختر اسماً فريداً لكل من مراسلاتك البريدية. واعتمد نظام تسمية يساعدك في تنظيم مراسلاتك ويسهل عليك العثور عليه عندما تريد أن تراجع وتقارن نتائج البريد. على سبيل المثال، إذا قمت بإعداد نشرة إخبارية شهرية ذات اهتمام عام - قد تعتمد نظام التسمية الآتي:"
 
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "General Monthly Newsletter: 200709"
 msgstr "النشرة الإخبارية الشهرية العامة: 200709"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"You may choose to include a pre-configured Header block above your message."
+msgstr "يمكنك اختيار إدراج رأسية محددة مسبقاً فوق رسالتك."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"You may choose to include a pre-configured Footer block below your message. "
+"This is a good place to include the required unsubscribe, opt-out and postal"
+" address tokens."
+msgstr "يمكنك اختيار إدراج ذيل محدد مسبقاً تحت رسالتك. فالمكان مناسب لإدراج إلغاء الاشتراك المطلوب، والانسحاب والعلامات المميزة للعنوان البريدي."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Multiple people -- such as spouses, parents, or children -- may sometimes "
+"share the same email address."
+msgstr "يمكن لعدة أشخاص - كالأزواج، أو الأهل، أو الأطفال - تشارك عنوان البريد الإلكتروني نفسه."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"To send only one message to the shared address, enable this option. Mail-"
+"merge tokens will be filled for only one person."
+msgstr "لإرسال رسالة واحدة فقط للعنوان المشترك، فعّل هذا الخيار. يتمّ ملء علامات دمج البريد من قبل شخص واحد فقط."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"To send separate messages for each person, disable this option. Mail-merge "
+"tokens will be filled separately for each person."
+msgstr "لإرسال رسائل منفصلة لكل شخص، عطّل هذا الخيار. يتم ملء علامات دمج البريد لشخص واحد فقط."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"This option controls who can view the contents of this email on your "
+"website. The link can be included by inserting the \"Mailing permalink\" "
+"token (place it in a link when composing in HTML mode)."
+msgstr "يتحكم هذا الخيار بمن يمكنه رؤية محتويات هذا البريد الإلكتروني على موقعك. يمكن إدراج الرابط من خلال إدخال علامة \"الرابط الدائم للبريد\" (ضعها في رابط عند تأليف صيغة لغة رموز النصوص التشعبية)."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "The options for mailing visibility are:"
+msgstr "خيارات مقروئية البريد هي:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"\"Public Pages\" will make the content of this mailing viewable everyone who"
+" has the permission \"view public CiviMail content\". Note that even people "
+"who did not receive the mailing would be able to find it via search engines."
+msgstr "\"الصفحات العامة\" تجعل محتوى هذا البريد متاحاً لكل من يملك الإذن في \"الاطلاع على محتوى CiviMail العام\". جدير بالذكر أنّ حتى الأشخاص الذين لم يستلموا البريد سيكونون قادرين على الوصول إليه من خلال محرّكات البحث."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"\"User and User Admin Only\" means that only users that received the mailing"
+" or administrators can view this email on your website; users must be logged"
+" in to view the message."
+msgstr "\"المستخدم ومدير المستخدمين\" تعني أنّ وحدهم المستخدمين الذين تلقوا البريد أو المدراء يمكنهم الاطلاع على هذه الرسالة على موقعك؛ يجب على المستخدمين تسجيل دخولهم من أجل الاطلاع على الرسالة."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"It's a good idea to test your mailing by sending it to yourself and/or a "
+"selected group of people in your organization."
+msgstr "من المستحسن اختبار بريدك بإرسالة لنفسك و/أو مجموعة مختارة من الأشخاص في منظمتك."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "Things to check in a test mailing:"
+msgstr "الأمور الواجب التحقق منها في اختبار البريد:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Verify the content and formatting looks consistent across various email "
+"clients."
+msgstr "تحقق من أنّ المحتوى والشكل يبدوان متماسكين عبر مختلف عناوين البريد الإلكتروني للعملاء."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If you are using mail-merge tokens, check that they have been replaced with "
+"expected values."
+msgstr "في حال كنت تستخدم العلامات المميزة لدمج البريد، تحقق من أنه قد تم استبدالها بالقيم المتوقعة."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Click on each included link to make sure they go to the expected web pages."
+msgstr "أنقر على كل رابط مدرج للتأكد من أنه يؤدي إلى الصفحات المعينة."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "Track the number of times recipients click each link in this mailing."
+msgstr "تتبع عدد المرات التي ينقر فيها المستلمون على كلّ رابط في هذا البريد."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"NOTE: When this feature is enabled, all links in the message body (including"
+" mailtos) will be automatically re-written to route through your CiviCRM "
+"website prior to redirecting to the target page."
+msgstr ""
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Track the number of times recipients open this mailing in their email "
+"software."
+msgstr "تتبع عدد المرات التي يفتح فيها المستلمون البريد في برنامج البريد الإلكتروني."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Recipients' replies are sent to a CiviMail specific address instead of the "
+"sender's address so they can be stored within CiviCRM."
+msgstr "ترسل إجابات المستلمين إلى عنوان CiviMail المحدّد عوضاً عن عنوان المرسل بحيث يمكن حفظها ضمن CiviCRM"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, send an automated reply using the "
+"selected message."
+msgstr "إذا أجاب أحد المستلمين عن هذا البريد، قم بإرسال ردّ أوتوماتيكي باستخدام الرسالة التي تمّ اختيارها."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, forward the reply to the FROM Email "
+"address specified for the mailing."
+msgstr "إذا أجاب أحد المستلمين عن هذا البريد، قم بتحويل الإجابة إلى من عنوان البريد الإلكتروني المحدّد لهذا البريد."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid ""
+"Find mailings by mailing name. You can enter a partial or complete name."
+msgstr "حاول إيجاد المراسلات بحسب اسم البريد. يمكنك إدخال اسم جزئي أو كامل."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Mailing Sender"
+msgstr "مرسل البريد"
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid ""
+"Find mailings by the name of the person who created or sent them. You can "
+"enter a complete OR partial name (last name, first name format)."
+msgstr "حاول إيجاد المراسلات بحسب اسم الشخص الذي أعدّها أو قام بإرسالها. يمكن إدخال الاسم الكامل أو الجزئي (الشهرة،الاسم الأول)."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Archived"
+msgstr "تم حفظه في الأرشيف"
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "This field is disabled when searching for Draft/Unscheduled mailings."
+msgstr "تعطّل هذه الخانة في حالة البحث عن المسودات/المراسلات غير المجدولة"
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Find mailing by language."
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "No %1 match your search criteria. Suggestions:"
+msgstr "الرقم %1 تستوفي معايير البحيث. الاقتراحات:"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "Or you can <a href='%1'>browse all %2 %3</a>."
+msgstr "أو يمكنك <a href='%1'>تصفّح الكل%2 %3</a>"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "There are no Unscheduled %1."
+msgstr "ما من %1 غير مجدولة"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "You can <a href='%1'>create and send one</a>."
+msgstr "يمكنك <a href='%1'>إنشاء وإرسال واحدة</a>"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid ""
+"There are no Archived %2. You can archive %2 from <a href='%1'>Scheduled or "
+"Sent %2</a>."
+msgstr "ما من مراسلات محفوظة في الأرشيف %2. يمكنك وضع %2 في الأرشيف من <a href='%1'>الرسائل المجدولة أو المرسلة %2</a>."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "There are no Scheduled or Sent %1."
+msgstr "ما من %1 مجدولة أو مرسلة."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "You can <a href='%1'>create and send one</a>"
+msgstr "يمكنك <a href='%1'>إنشاء وإرسال واحدة</a>"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid " OR you can search the <a href='%1'>Archived %2</a>"
+msgstr "أو يمكنك البحث في <a href='%1'>محفوظات الأرشيف%2 </a>"
+
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Body HTML"
+msgstr "المضمون - بصيغة لغة ترميز النصوص التشعبية"
+
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Add Mailing Component"
+msgstr "أضف عنصر البريد"
+
+#: templates/CRM/Mailing/Page/Confirm.tpl
+msgid ""
+"<strong>%1 (%2)</strong> has been successfully subscribed to the "
+"<strong>%3</strong> mailing list."
+msgstr "تم اشتراك <strong>%1 (%2)</strong>بنجاح في <strong>%3</strong>لائحة البريد."
+
+#: templates/CRM/Mailing/Page/Confirm.tpl
+msgid ""
+"Oops. We encountered a problem in processing your subscription confirmation."
+" Please contact the site administrator."
+msgstr "مع الأسف، واجهتنا مشكلة في معالجة طلب تأكيد اشتراكك. الرجاء الاتصال بمدير الموقع."
+
+#: templates/CRM/Mailing/Page/Event.tpl
+msgid "There are currently no %1."
+msgstr "ما من %1 حالياً."
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Delivery Summary"
+msgstr "ملخص التسليم"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid ""
+"<strong>Delivery has not yet begun for this mailing.</strong> If the "
+"scheduled delivery date and time is past, ask the system administrator or "
+"technical support contact for your site to verify that the automated mailer "
+"task ('cron job') is running - and how frequently."
+msgstr "<strong>لم تبدأ عملية تسليم هذا البريد بعد.<strong>  في حال تجاوزت تاريخ ووقت التسليم المجدول إسأل مدير النظام أو جهة الدعم التقني لموقعك الإلكتروني للتحقق من تشغيل المهمة الآلية ('cron job') - ومدى التكرار."
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Included"
+msgstr "مدرج"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Recipients of <a href=\"%1\">%2</a>"
+msgstr "مستلمون ل <a href=\"%1\">%2</a>"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Members of <a href=\"%1\">%2</a>"
+msgstr "أعضاء في  <a href=\"%1\">%2</a>"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Excluded"
+msgstr "مستثنى"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Unsubscription Groups"
+msgstr "مجموعات إلغاء الاشتراك"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Click-through Summary"
+msgstr "ملخص النقرات"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Success Rate"
+msgstr "معدل النجاح"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Mailing Settings"
+msgstr "إعدادات البريد"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Reply-to email"
+msgstr "الردّ على البريد الإلكتروني"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Forward replies"
+msgstr "تحويل الردود"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Off"
+msgstr "غير شغال"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Auto-respond to replies"
+msgstr "الإجابة التلقائية على الردود"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Open tracking"
+msgstr "تتبع عمليات الفتح"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "URL Click-through tracking"
+msgstr "تتبع النقرات على الروابط الإلكترونية"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Public url"
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "has been successfully resubscribed."
+msgstr "تمت إعادة الاشتراك بنجاح."
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Are you sure you want to resubscribe: %1 (%2)"
+msgstr "هل أنت متأكد من أنك تريد معاودة الاشتراك: %1 (%2)"
+
+#: templates/CRM/Mailing/Page/Tab.tpl
+msgid "Opens/ Clicks"
+msgstr "عمليات الفتح/ النقرات"
 
 #: templates/CRM/Mailing/Form/Group.hlp
 msgid "Search-based mailings require an \"unsubscribe tracking\" group."
@@ -1990,19 +2770,6 @@ msgstr "استثناء المراسلات"
 msgid "Additional Mailing Recipients"
 msgstr "مستلمو البريد الإضافيون"
 
-#: templates/CRM/Mailing/Form/Optout.tpl
-msgid ""
-"You are requesting to opt out this email address from all mailing lists:"
-msgstr "تطلب سحب عنوان البريد الإلكتروني من لوائح البريد كافة:"
-
-#: templates/CRM/Mailing/Form/Optout.tpl
-msgid ""
-"If this is not your email address, there is no need to do anything. You have"
-" <i><b>not</b></i> been added to any mailing lists. If this is your email "
-"address and you <i><b>wish to opt out</b></i> please enter your email "
-"address below for verification purposes:"
-msgstr "إن لم يكن ذلك هو عنوان بريدك الإلكتروني، لاحاجة للقيام بأيّ أمر. <i><b>لم</b></i> تتم إضافتك إلى أي لوائح بريدية. إن كان هذا هو عنوان بريدك الإلكتروني وكنت <i><b>ترغب في الانسحاب</b></i>، الرجاء إدخال عنوان بريدك الإلكتروني أدناه لأهداف التدقيق:"
-
 #: templates/CRM/Mailing/Form/Schedule.hlp
 msgid "Scheduling and Sending Mailings"
 msgstr "جدولة وإرسال البريد"
@@ -2048,45 +2815,6 @@ msgid ""
 "Set a date and time when you want CiviMail to start sending this mailing."
 msgstr "حدّد التاريخ والوقت المحددين لإرسال هذا البريد عن طريق CiviMail."
 
-#: templates/CRM/Mailing/Form/Search/Common.tpl
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "Mailing Date"
-msgstr "تاريخ البريد"
-
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "SMS Date"
-msgstr "تاريخ الرسالة النصية القصيرة"
-
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "SMS Status"
-msgstr "وضع الرسالة النصية القصيرة"
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"This option makes it possible to make the contents of the email accessible "
-"to users as a web page. This option is only relevant if you insert the "
-"Mailing permalink token %1 in your message in the next step. This token "
-"generates a URL on which the message can be viewed (remember to insert the "
-"code in the appropriate HTML tags)."
-msgstr "يمكن من خلال هذا الخيار إتاحة محتويات عناوين البريد الإلكتروني للمستخدمين كصفحة إلكترونية. ولا يكون هذا الخيار ذا صلة إلا إذا أدخلت العلامة المميزة لرابط البريد الدائم %1 في رسالتك كخطوة تالية. تولّد هذه العلامة المميزة عنواناً إلكترونياًيمكن الاطلاع على الرسالة عليه (تذكر إدخال الرمز في إشارات لغة رموز النصوص التشعبية)."
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid "You have two options to specify the visibility of the mailing"
-msgstr "يتوافر أمامك خياران  لتحديد مقروئية البريد"
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"\"public pages\" will make the content of this mailing be viewable as a web "
-"page by everyone who has the permission of \"view public CiviMail content\""
-msgstr "\"الصفحات العامة\" تجعل محتوى هذا البريد متاحاً كصفحة إلكترونية من قبل كل من لديه إذن \"بالاطلاع على محتوى CiviMail العام\"."
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"\"user and user admin\" only means that only users that received the mailing"
-" or administrators can view the content of this email as a web page; the "
-"recipients will have to log in to be able to view the message"
-msgstr "\"المستخدم ومدير المستخدمين\" تعني أنّ وحدهم المستخدمين الذين تلقوا البريد أو المدراء يمكنهم الاطلاع على هذه الرسالة على موقعك؛ يجب على المستخدمين تسجيل دخولهم من أجل الاطلاع على الرسالة."
-
 #: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
 "These settings control tracking and responses to recipient actions. The "
@@ -2095,40 +2823,12 @@ msgid ""
 "<strong>Previous</strong> to review your selection(s)."
 msgstr "هذه الإعدادات تتحكم بالتتبع والردود على أفعال المستلمين. يظهر عدد المستلمين الذين يتم اختيارهم لاستلام البريد في المربع إلى اليمين. إن لم يتوافق هذا العدد مع مستوى توقعاتك، أنقر على <strong>السابق<strong> لمراجعة اختيارك (اختياراتك)."
 
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid "Track the number of times recipients click each link in this mailing."
-msgstr "تتبع عدد المرات التي ينقر فيها المستلمون على كلّ رابط في هذا البريد."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
 "NOTE: When this feature is enabled, all links in the message body will be "
 "automatically re-written to route through your CiviCRM server prior to "
 "redirecting to the target page."
 msgstr "ملاحظة: عند تشغيل هذه الميزة، تتمّ إعادة الكتابة التلقائية لجميع الروابط في متن الرسالة بحيث تحوّل عبر خادم CiviCRM قبل إعادة توجيهها إلى الصفحة الهدف."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Track the number of times recipients open this mailing in their email "
-"software."
-msgstr "تتبع عدد المرات التي يفتح فيها المستلمون البريد في برنامج البريد الإلكتروني."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Recipients' replies are sent to a CiviMail specific address instead of the "
-"sender's address so they can be stored within CiviCRM."
-msgstr "ترسل إجابات المستلمين إلى عنوان CiviMail المحدّد عوضاً عن عنوان المرسل بحيث يمكن حفظها ضمن CiviCRM"
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, forward the reply to the FROM Email "
-"address specified for the mailing."
-msgstr "إذا أجاب أحد المستلمين عن هذا البريد، قم بتحويل الإجابة إلى من عنوان البريد الإلكتروني المحدّد لهذا البريد."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, send an automated reply using the "
-"selected message."
-msgstr "إذا أجاب أحد المستلمين عن هذا البريد، قم بإرسال ردّ أوتوماتيكي باستخدام الرسالة التي تمّ اختيارها."
 
 #: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
@@ -2147,30 +2847,6 @@ msgid ""
 "Select the automated message to be sent when a recipient opts out of all "
 "mailings from your site."
 msgstr "قم باختيار الرسالة التلقائية  التي يجب إرسالها عندما ينسحب المستلم من جميع المراسلات التي يتلقاها من موقعك."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid ""
-"Enter your email address and click <strong>Subscribe</strong>. You will "
-"receive a confirmation request via email shortly. Your subscription will be "
-"activated after you respond to that email."
-msgstr "أدخل عنوان بريدك الإلكتروني وأنقر على <strong>إشترك<strong>. سوف تتلقى طلب تأكيد عبر البريد الإلكتروني قريباً. يفعّل الاشتراك بعد الإجابة على هذا البريد الإلكتروني."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid ""
-"Enter your email address and check the box next to each mailing list you "
-"want to join. Then click the <strong>Subscribe</strong> button. You will "
-"receive a confirmation request via email for each selected list. Activate "
-"your subscription to each list by responding to the corresponding "
-"confirmation email."
-msgstr "أدخل عنوان بريدك الإلكتروني وضع إشارةً في المربع بجانب كل لائحة بريد تودّ الانضمام إليها. من ثم أنقر على <strong>إشترك<strong>. سوف تتلقى طلب تأكيد عبر البريد الإلكتروني لكل لائحة يتم اختيارها. فعّل اشتراكك في كلّ قائمة من خلال الإجابة عن بريد التأكيد المقابل."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid "Group Listings."
-msgstr "قوائم تصنيف المجموعات."
-
-#: templates/CRM/Mailing/Form/Task.tpl
-msgid "Number of selected Mailing Recipients: %1"
-msgstr "عدد مستلمي البريد الذين وقع الاختيار عليهم: %1"
 
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid "Test Message"
@@ -2192,17 +2868,6 @@ msgstr "أدخل عنوان بريد إلكتروني واحد أو اختر م�
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid "Verify the content and formatting."
 msgstr "تحقق من المحتوى والشكل."
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If you are using mail-merge tokens, check that they have been replaced with "
-"expected values."
-msgstr "في حال كنت تستخدم العلامات المميزة لدمج البريد، تحقق من أنه قد تم استبدالها بالقيم المتوقعة."
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Click on each included link to make sure they go to the expected web pages."
-msgstr "أنقر على كل رابط مدرج للتأكد من أنه يؤدي إلى الصفحات المعينة."
 
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid ""
@@ -2237,22 +2902,15 @@ msgstr "النسخة بلغة ترميز النصوص التشعبية:"
 msgid "HTML Version"
 msgstr "النسخة بلغة ترميز النصوص التشعبية:"
 
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+#: templates/CRM/Mailing/Form/Upload.hlp
 msgid ""
-"Are you sure you want to be removed from the mailing list(s) shown below:"
-msgstr "هل أنت متأكد من أنك تريد إزالة عنوانك من لائحة (لوائح) البريد المدرجة أدناه:"
-
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
-msgid "You are requesting to unsubscribe this email address:"
-msgstr "تطلب إلغاء اشتراك عنوان البريد الإلكتروني هذا:"
-
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
-msgid ""
-"If this is not your email address, there is no need to do anything. You have"
-" <i><b>not</b></i> been added to any mailing lists. If this is your email "
-"address and you <i><b>wish to unsubscribe</b></i> please enter your email "
-"address below for verification purposes:"
-msgstr "إن لم يكن ذلك هو عنوان بريدك الإلكتروني، لاحاجة للقيام بأيّ أمر. <i><b>لم</b></i> تتم إضافتك إلى أي لوائح بريدية. إن كان هذا هو عنوان بريدك الإلكتروني وكنت <i><b>ترغب في إلغاء الاشتراك</b></i>، الرجاء إدخال عنوان بريدك الإلكتروني أدناه لأهداف التدقيق:"
+"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
+"what-you-get) editor is provided which you can use create simple HTML "
+"messages. However, if you are planning on creating HTML messages with "
+"complex layouts - it is best to use an HTML editor on your local computer. "
+"Then locate and upload the saved file(s) by clicking the "
+"<strong>Browse</strong> button."
+msgstr ""
 
 #: templates/CRM/Mailing/Form/Upload.tpl
 msgid ""
@@ -2280,362 +2938,6 @@ msgstr "انتقل إلى ملف رسالة <strong>لغة رموز النصوص
 msgid "Header / Footer"
 msgstr "الرأسية/ الذيل"
 
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"You may choose to include a pre-configured Header block above your message."
-msgstr "يمكنك اختيار إدراج رأسية محددة مسبقاً فوق رسالتك."
-
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"You may choose to include a pre-configured Footer block below your message. "
-"This is a good place to include the required unsubscribe, opt-out and postal"
-" address tokens."
-msgstr "يمكنك اختيار إدراج ذيل محدد مسبقاً تحت رسالتك. فالمكان مناسب لإدراج إلغاء الاشتراك المطلوب، والانسحاب والعلامات المميزة للعنوان البريدي."
-
 #: templates/CRM/Mailing/Form/Upload.tpl
 msgid "More information and sample messages..."
 msgstr "المزيد من المعلومات والرسائل النموذجية..."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Multiple people -- such as spouses, parents, or children -- may sometimes "
-"share the same email address."
-msgstr "يمكن لعدة أشخاص - كالأزواج، أو الأهل، أو الأطفال - تشارك عنوان البريد الإلكتروني نفسه."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"To send only one message to the shared address, enable this option. Mail-"
-"merge tokens will be filled for only one person."
-msgstr "لإرسال رسالة واحدة فقط للعنوان المشترك، فعّل هذا الخيار. يتمّ ملء علامات دمج البريد من قبل شخص واحد فقط."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"To send separate messages for each person, disable this option. Mail-merge "
-"tokens will be filled separately for each person."
-msgstr "لإرسال رسائل منفصلة لكل شخص، عطّل هذا الخيار. يتم ملء علامات دمج البريد لشخص واحد فقط."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"This option controls who can view the contents of this email on your "
-"website. The link can be included by inserting the \"Mailing permalink\" "
-"token (place it in a link when composing in HTML mode)."
-msgstr "يتحكم هذا الخيار بمن يمكنه رؤية محتويات هذا البريد الإلكتروني على موقعك. يمكن إدراج الرابط من خلال إدخال علامة \"الرابط الدائم للبريد\" (ضعها في رابط عند تأليف صيغة لغة رموز النصوص التشعبية)."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid "The options for mailing visibility are:"
-msgstr "خيارات مقروئية البريد هي:"
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"\"Public Pages\" will make the content of this mailing viewable everyone who"
-" has the permission \"view public CiviMail content\". Note that even people "
-"who did not receive the mailing would be able to find it via search engines."
-msgstr "\"الصفحات العامة\" تجعل محتوى هذا البريد متاحاً لكل من يملك الإذن في \"الاطلاع على محتوى CiviMail العام\". جدير بالذكر أنّ حتى الأشخاص الذين لم يستلموا البريد سيكونون قادرين على الوصول إليه من خلال محرّكات البحث."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"\"User and User Admin Only\" means that only users that received the mailing"
-" or administrators can view this email on your website; users must be logged"
-" in to view the message."
-msgstr "\"المستخدم ومدير المستخدمين\" تعني أنّ وحدهم المستخدمين الذين تلقوا البريد أو المدراء يمكنهم الاطلاع على هذه الرسالة على موقعك؛ يجب على المستخدمين تسجيل دخولهم من أجل الاطلاع على الرسالة."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"It's a good idea to test your mailing by sending it to yourself and/or a "
-"selected group of people in your organization."
-msgstr "من المستحسن اختبار بريدك بإرسالة لنفسك و/أو مجموعة مختارة من الأشخاص في منظمتك."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid "Things to check in a test mailing:"
-msgstr "الأمور الواجب التحقق منها في اختبار البريد:"
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Verify the content and formatting looks consistent across various email "
-"clients."
-msgstr "تحقق من أنّ المحتوى والشكل يبدوان متماسكين عبر مختلف عناوين البريد الإلكتروني للعملاء."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid ""
-"Find mailings by mailing name. You can enter a partial or complete name."
-msgstr "حاول إيجاد المراسلات بحسب اسم البريد. يمكنك إدخال اسم جزئي أو كامل."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "Mailing Sender"
-msgstr "مرسل البريد"
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid ""
-"Find mailings by the name of the person who created or sent them. You can "
-"enter a complete OR partial name (last name, first name format)."
-msgstr "حاول إيجاد المراسلات بحسب اسم الشخص الذي أعدّها أو قام بإرسالها. يمكن إدخال الاسم الكامل أو الجزئي (الشهرة،الاسم الأول)."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "Archived"
-msgstr "تم حفظه في الأرشيف"
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "This field is disabled when searching for Draft/Unscheduled mailings."
-msgstr "تعطّل هذه الخانة في حالة البحث عن المسودات/المراسلات غير المجدولة"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "No %1 match your search criteria. Suggestions:"
-msgstr "الرقم %1 تستوفي معايير البحيث. الاقتراحات:"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "Or you can <a href='%1'>browse all %2 %3</a>."
-msgstr "أو يمكنك <a href='%1'>تصفّح الكل%2 %3</a>"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "There are no Unscheduled %1."
-msgstr "ما من %1 غير مجدولة"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "You can <a href='%1'>create and send one</a>."
-msgstr "يمكنك <a href='%1'>إنشاء وإرسال واحدة</a>"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid ""
-"There are no Archived %2. You can archive %2 from <a href='%1'>Scheduled or "
-"Sent %2</a>."
-msgstr "ما من مراسلات محفوظة في الأرشيف %2. يمكنك وضع %2 في الأرشيف من <a href='%1'>الرسائل المجدولة أو المرسلة %2</a>."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "There are no Scheduled or Sent %1."
-msgstr "ما من %1 مجدولة أو مرسلة."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "You can <a href='%1'>create and send one</a>"
-msgstr "يمكنك <a href='%1'>إنشاء وإرسال واحدة</a>"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid " OR you can search the <a href='%1'>Archived %2</a>"
-msgstr "أو يمكنك البحث في <a href='%1'>محفوظات الأرشيف%2 </a>"
-
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Body HTML"
-msgstr "المضمون - بصيغة لغة ترميز النصوص التشعبية"
-
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Add Mailing Component"
-msgstr "أضف عنصر البريد"
-
-#: templates/CRM/Mailing/Page/Confirm.tpl
-msgid ""
-"<strong>%1 (%2)</strong> has been successfully subscribed to the "
-"<strong>%3</strong> mailing list."
-msgstr "تم اشتراك <strong>%1 (%2)</strong>بنجاح في <strong>%3</strong>لائحة البريد."
-
-#: templates/CRM/Mailing/Page/Confirm.tpl
-msgid ""
-"Oops. We encountered a problem in processing your subscription confirmation."
-" Please contact the site administrator."
-msgstr "مع الأسف، واجهتنا مشكلة في معالجة طلب تأكيد اشتراكك. الرجاء الاتصال بمدير الموقع."
-
-#: templates/CRM/Mailing/Page/Event.tpl
-msgid "There are currently no %1."
-msgstr "ما من %1 حالياً."
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Delivery Summary"
-msgstr "ملخص التسليم"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid ""
-"<strong>Delivery has not yet begun for this mailing.</strong> If the "
-"scheduled delivery date and time is past, ask the system administrator or "
-"technical support contact for your site to verify that the automated mailer "
-"task ('cron job') is running - and how frequently."
-msgstr "<strong>لم تبدأ عملية تسليم هذا البريد بعد.<strong>  في حال تجاوزت تاريخ ووقت التسليم المجدول إسأل مدير النظام أو جهة الدعم التقني لموقعك الإلكتروني للتحقق من تشغيل المهمة الآلية ('cron job') - ومدى التكرار."
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Included"
-msgstr "مدرج"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Recipients of <a href=\"%1\">%2</a>"
-msgstr "مستلمون ل <a href=\"%1\">%2</a>"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Members of <a href=\"%1\">%2</a>"
-msgstr "أعضاء في  <a href=\"%1\">%2</a>"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Excluded"
-msgstr "مستثنى"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Unsubscription Groups"
-msgstr "مجموعات إلغاء الاشتراك"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Click-through Summary"
-msgstr "ملخص النقرات"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Unique Clicks"
-msgstr "نقرات فريدة"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Success Rate"
-msgstr "معدل النجاح"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Mailing Settings"
-msgstr "إعدادات البريد"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Reply-to email"
-msgstr "الردّ على البريد الإلكتروني"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Forward replies"
-msgstr "تحويل الردود"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Off"
-msgstr "غير شغال"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Auto-respond to replies"
-msgstr "الإجابة التلقائية على الردود"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Open tracking"
-msgstr "تتبع عمليات الفتح"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "URL Click-through tracking"
-msgstr "تتبع النقرات على الروابط الإلكترونية"
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "has been successfully resubscribed."
-msgstr "تمت إعادة الاشتراك بنجاح."
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Are you sure you want to resubscribe: %1 (%2)"
-msgstr "هل أنت متأكد من أنك تريد معاودة الاشتراك: %1 (%2)"
-
-#: templates/CRM/Mailing/Page/Tab.tpl
-msgid "Opens/ Clicks"
-msgstr "عمليات الفتح/ النقرات"
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Document Body"
-msgstr ""
-
-#: CRM/Mailing/BAO/Query.php
-msgid "Campaign %1 %2"
-msgstr ""
-
-#: CRM/Mailing/DAO/BouncePattern.php
-msgid "Bounce Pattern ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Name"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Description"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Spool ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Mailing Job"
-msgstr ""
-
-#: CRM/Mailing/DAO/TrackableURL.php
-msgid "Trackable URL ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php
-msgid "Bounce ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
-#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Event Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Delivered.php
-msgid "Delivered ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Forward ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Destination Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Opened.php
-msgid "Mailing Opened ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply Timestamp"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable URL Open ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable Url"
-msgstr ""
-
-#: CRM/Mailing/Form/Component.php
-msgid "Please provide either HTML or TEXT format for the Body."
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php
-msgid "Public View"
-msgstr ""
-
-#: CRM/Mailing/Selector/Event.php
-msgid "Total Tracked Opens"
-msgstr ""
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/BlockTracking.html
-msgid "Track Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
-msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
-"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
-" opt-out token."
-msgstr ""
-
-#: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for '%1'"
-msgstr ""
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"NOTE: When this feature is enabled, all links in the message body (including"
-" mailtos) will be automatically re-written to route through your CiviCRM "
-"website prior to redirecting to the target page."
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Public url"
-msgstr ""

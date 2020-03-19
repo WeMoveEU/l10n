@@ -4,15 +4,17 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Estefanía Mediavilla <e.mediavilla@ixiam.com>, 2013
-# francescbassas <francesc@babu.cat>, 2013-2017
-# ixiam <info@ixiam.com>, 2016
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2013-2017
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2017-2019
+# ixiam <info@ixiam.com>, 2016-2017,2019
+# Marti Prat <m.prat@ixiam.com>, 2019
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
 "POT-Creation-Date: 2011-03-27 21:13+0200\n"
-"PO-Revision-Date: 2017-01-19 17:29+0000\n"
-"Last-Translator: francescbassas <francesc@babu.cat>\n"
+"PO-Revision-Date: 2019-10-25 16:11+0000\n"
+"Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -317,7 +319,7 @@ msgstr "Enquesta"
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Search/Custom/FindVoters.php
 #: drupal/modules/civicrm_engage/Engage/Contact/Form/Task/VoterReservation.php
 msgid "- select -"
-msgstr ""
+msgstr "- selecciona -"
 
 #: CRM/Core/Permission.php
 msgid "add contacts"
@@ -393,7 +395,7 @@ msgstr "accedir al CiviCRM"
 
 #: CRM/Core/Permission.php
 msgid "access Contact Dashboard"
-msgstr "accedir al panell de control de contactes"
+msgstr "accedir al tauler de contactes"
 
 #: CRM/Core/Permission.php
 msgid "translate CiviCRM"
@@ -635,11 +637,11 @@ msgstr ""
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 msgid "-- Select --"
-msgstr ""
+msgstr "-- Selecciona --"
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 msgid "Drupal Role"
-msgstr ""
+msgstr "Rol de Drupal"
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.module
 msgid ""
@@ -682,7 +684,7 @@ msgstr ""
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.install
 msgid "here"
-msgstr ""
+msgstr "aquí"
 
 #: drupal/modules/civicrm_group_roles/civicrm_group_roles.install
 msgid ""
@@ -691,7 +693,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Contacts"
-msgstr ""
+msgstr "CiviCRM Contactes"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Contacts, of people, organizations, etc."
@@ -703,7 +705,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Drupal ID"
-msgstr ""
+msgstr "ID de Drupal"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Relates a CiviCRM Contact to the Druapl User Record"
@@ -711,7 +713,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Drupal User"
-msgstr ""
+msgstr "Usuari Drupal"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Sort Name"
@@ -727,11 +729,11 @@ msgstr "Nom de visualització"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Name of the Contact with prefixes and suffixes"
-msgstr ""
+msgstr "Nom complet del contacte amb prefixos i sufixos"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Contact's Gender"
-msgstr ""
+msgstr "Gènere del contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "First Name"
@@ -787,11 +789,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Do Not Trade"
-msgstr "No enviar comunicats comercials"
+msgstr "No enviar comunicacions comercials"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Does this contact not want trade?"
-msgstr "Aquest contacte no vol rebre comunicats comercials?"
+msgstr "Aquest contacte no vol rebre comunicacions comercials?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Opted Out of Bulk Mail"
@@ -803,11 +805,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Deleted"
-msgstr ""
+msgstr "Està eliminat"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Has this contact been deleted?"
-msgstr ""
+msgstr "S'ha eliminat aquest contacte?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Organization Name"
@@ -827,7 +829,7 @@ msgstr "Subtipus de contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Sub-type for the Contact"
-msgstr ""
+msgstr "El subtipus per al contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Address"
@@ -835,19 +837,19 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Primary Address"
-msgstr ""
+msgstr "És la direcció principal"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is this address the contact's primary address?"
-msgstr ""
+msgstr "És aquesta l'adreça principal del contacte?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Billing Address"
-msgstr ""
+msgstr "És la direcció fiscal"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is this address the contact's billing address?"
-msgstr ""
+msgstr "És aquesta la direcció fiscal del contacte?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Location Type"
@@ -855,11 +857,11 @@ msgstr "Tipus d'ubicació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Location of the Address for the Contact"
-msgstr ""
+msgstr "La localització de la direcció del contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Street Address"
-msgstr ""
+msgstr "Adreça completa"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Street Address without Country, State or Postcode"
@@ -867,7 +869,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Supplemental Street Address"
-msgstr ""
+msgstr "Adreça adicional"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid ""
@@ -876,7 +878,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "City / Suburb"
-msgstr ""
+msgstr "Població / suburbi"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The City or Suburb the address is at"
@@ -892,11 +894,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "ZIP / Postal Code"
-msgstr ""
+msgstr "Codi postal"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "ZIP / Postal Code of the Address"
-msgstr ""
+msgstr "Codi postal de l'adreça"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Latitude"
@@ -904,7 +906,7 @@ msgstr "Latitud"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Latitude of the Address for mapping"
-msgstr ""
+msgstr "Latitud de l'adreça per al mapatge"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Longitude"
@@ -912,15 +914,15 @@ msgstr "Longitud"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Longitude of the Address for mapping"
-msgstr ""
+msgstr "Longitud de l'adreça per al mapatge"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Country of the Address"
-msgstr ""
+msgstr "País de l'adreça"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The County of the Address"
-msgstr ""
+msgstr "Comarca de l'adreça"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In Global Settings"
@@ -936,7 +938,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Email"
-msgstr ""
+msgstr "CiviCRM Correu electrònic"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Primary Email"
@@ -948,7 +950,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Billing Email"
-msgstr ""
+msgstr "És el correu electrònic de facturació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is this address the contact's billing email?"
@@ -960,7 +962,7 @@ msgstr "Adreça de correu electrònic"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Phone Details"
-msgstr ""
+msgstr "CiviCRM Detalls del telèfon"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Primary Phone"
@@ -972,7 +974,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Billing Phone"
-msgstr ""
+msgstr "És el telèfon de facturació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is this the contact's billing phone?"
@@ -988,7 +990,7 @@ msgstr "Número de telèfon"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Full Phone Number"
-msgstr ""
+msgstr "Número de telèfon complet"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Phone Type"
@@ -1000,23 +1002,23 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Website"
-msgstr ""
+msgstr "Lloc web del CiviCRM"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Website Type"
-msgstr ""
+msgstr "Tipus de lloc web"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The type of website for the contact"
-msgstr ""
+msgstr "El tipus de lloc web per al contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Website URL"
-msgstr ""
+msgstr "URL del lloc web"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Events"
-msgstr ""
+msgstr "CiviCRM Esdeveniments"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "View displays CiviCRM Events"
@@ -1024,19 +1026,19 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Event ID"
-msgstr ""
+msgstr "ID de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The numeric ID of the Event"
-msgstr ""
+msgstr "L'ID numèric de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event Type"
-msgstr ""
+msgstr "El tipus d'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Public"
-msgstr ""
+msgstr "Està publicat"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Has this event been made public?"
@@ -1044,7 +1046,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Active"
-msgstr ""
+msgstr "Està actiu"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Has this event been made active?"
@@ -1052,11 +1054,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Include Template"
-msgstr ""
+msgstr "Incloure plantilla"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Include Event templates?"
-msgstr ""
+msgstr "Incloure plantilles de l'esdeveniment?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Title"
@@ -1064,7 +1066,7 @@ msgstr "Títol"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Title"
-msgstr ""
+msgstr "El títol de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Summary"
@@ -1072,7 +1074,7 @@ msgstr "Resum"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Summary"
-msgstr ""
+msgstr "El resum de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Description"
@@ -1080,7 +1082,7 @@ msgstr "Descripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Full Description"
-msgstr ""
+msgstr "La descripció completa de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Start Date"
@@ -1088,7 +1090,7 @@ msgstr "Data d'inici"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Start Date"
-msgstr ""
+msgstr "La data d'inici de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "End Date"
@@ -1096,7 +1098,7 @@ msgstr "Data de finalització"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's End Date"
-msgstr ""
+msgstr "La data de finalització de l'esdeveniment"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Online Registration On"
@@ -1108,7 +1110,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Registration Start Date"
-msgstr ""
+msgstr "Data d'inici de la inscripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Online Registration Start Date"
@@ -1116,7 +1118,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Registration End Date"
-msgstr ""
+msgstr "Data de finalització de la inscripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Online Registration End Date"
@@ -1124,11 +1126,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Registration Link Text"
-msgstr ""
+msgstr "Text de l'enllaç de la inscripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Text for the Registration Link"
-msgstr ""
+msgstr "Text per a l'enllaç de la inscripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Locations"
@@ -1136,7 +1138,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Participants"
-msgstr ""
+msgstr "CiviCRM Participants"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid ""
@@ -1177,7 +1179,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source"
-msgstr "Font"
+msgstr "Origen"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Where did this registration come from?"
@@ -1185,7 +1187,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Register Date"
-msgstr ""
+msgstr "Data d'inscripció"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the participant Registered for the Event"
@@ -1201,7 +1203,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Registered by ID"
-msgstr ""
+msgstr "Inscrit per l'ID"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The numeric ID of the Participant who registered this Participant"
@@ -1209,7 +1211,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Source Record Contact"
-msgstr "Font del registre de contacte de CiviCRM"
+msgstr "Origen del registre de contacte de CiviCRM"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Fee Level"
@@ -1221,7 +1223,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Fee Amount"
-msgstr ""
+msgstr "Comissió"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The amount the Participant has paid or will have to pay."
@@ -1253,7 +1255,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Payment Instrument"
-msgstr ""
+msgstr "Instrument de pagament"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Payment Instrument Used for the Contribution"
@@ -1277,7 +1279,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Total Amount"
-msgstr ""
+msgstr "Import total"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Total Contribution made by the Contact"
@@ -1385,7 +1387,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Amount"
-msgstr ""
+msgstr "Import"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The amount of the soft credit"
@@ -1405,19 +1407,19 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM  Recurring Contributions"
-msgstr ""
+msgstr "CiviCRM contribucions periòdiques"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Recurring Contribution ID"
-msgstr ""
+msgstr "Identificador de la contribució periòdica"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The numeric ID of the  Recurring Contribution"
-msgstr ""
+msgstr "L'identificador numéric de la contribució periòdica"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The amunt of the recurring contribution"
-msgstr ""
+msgstr "L'import de la contribució periòdica"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Frequency Unit"
@@ -1425,7 +1427,7 @@ msgstr "Unitat de freqüència"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Day, Week, Month, Year"
-msgstr ""
+msgstr "Dia, Setmana, Mes, Any"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Frequency Interval"
@@ -1441,11 +1443,11 @@ msgstr "Quotes "
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Number of Installments"
-msgstr "Número d'instal·lacions"
+msgstr "Nombre de pagaments"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution started."
-msgstr ""
+msgstr "Data en què es va iniciar la contribució periòdica."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Create Date"
@@ -1453,7 +1455,7 @@ msgstr "Data de creació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution was created."
-msgstr ""
+msgstr "Data en què es va crear la contribució periòdica."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Modified Date"
@@ -1461,7 +1463,7 @@ msgstr "Data de modificació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution was modified."
-msgstr ""
+msgstr "Data en què es va modificar la contribució periòdica."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Cancel Date"
@@ -1469,11 +1471,11 @@ msgstr "Data de cancel·lació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution was cancelled."
-msgstr ""
+msgstr "Data en què es va cancel·lar la contribució periòdica."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Date the recurring contribution ended."
-msgstr ""
+msgstr "Data en què va finalitzar la contribució periòdica."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Unique Transaction ID"
@@ -1481,7 +1483,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Transaction ID of the  Recurring Contribution"
-msgstr ""
+msgstr "L'identificador de la transacció de la contribució periòdica"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Unique CiviCRM Generated Invoice ID"
@@ -1493,7 +1495,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is the recurring contribution a test entry?"
-msgstr ""
+msgstr "És una contribució periòdica de prova?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Cycle Day"
@@ -1505,19 +1507,19 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Next Contribution Date"
-msgstr ""
+msgstr "Propera data de contribució"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Next Contribution Date."
-msgstr ""
+msgstr "La propera data de contribució."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Failure Count"
-msgstr ""
+msgstr "Intents fallits"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "How many times has theis recurring contribution failed?"
-msgstr ""
+msgstr "Quantes vegades ha fallat la contribució periòdica?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Failed retry date"
@@ -1533,7 +1535,7 @@ msgstr "Renovació automàtica"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Will this recurring contribution automayically renew?"
-msgstr ""
+msgstr "S'ha de renovar automàticament aquesta contribució periòdica?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Activities"
@@ -1553,7 +1555,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Contact"
-msgstr "Font del contacte"
+msgstr "Origen del contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The contact who scheduled this activity"
@@ -1561,7 +1563,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Source Contact"
-msgstr "Font del contacte de CiviCRM"
+msgstr "CiviCRM Origen del contacte"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Record ID"
@@ -1809,7 +1811,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source of the relationship"
-msgstr "Font de la relació"
+msgstr "Origen de la relació"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Status"
@@ -1953,11 +1955,11 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "From Email"
-msgstr ""
+msgstr "Correu electrònic del remitent"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "From Email of the mailing"
-msgstr ""
+msgstr "Correu electrònic del remitent de l'enviament"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Reply to Email"
@@ -2213,7 +2215,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "%title year + month"
-msgstr ""
+msgstr "%title any + mes"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In the form of YYYYMM."
@@ -2221,7 +2223,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "%title year"
-msgstr ""
+msgstr "%title any"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In the form of YYYY."
@@ -2229,7 +2231,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "%title month"
-msgstr ""
+msgstr "%title mes"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In the form of MM (01 - 12)."
@@ -2245,7 +2247,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "%title week"
-msgstr ""
+msgstr "%title setmana"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "In the form of WW (01 - 53)."
@@ -2283,7 +2285,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_contact_type.inc
 msgid "Contact type"
-msgstr ""
+msgstr "Tipus de contacte"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_relationship_type.inc
 msgid "Relationship Type"
@@ -2317,7 +2319,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm/views_handler_argument_civicrm_week.inc
 msgid "Week %week"
-msgstr ""
+msgstr "Setmana %week"
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link.inc
 msgid "Text to display"
@@ -2325,7 +2327,7 @@ msgstr ""
 
 #: drupal/modules/views/civicrm/civicrm_handler_field_link.inc
 msgid "view"
-msgstr ""
+msgstr "veure"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_mailing_name.inc
 msgid "Mailing Name"
@@ -2471,7 +2473,7 @@ msgstr ""
 
 #: drupal/modules/civicrm_cck/civicrm_cck.module
 msgid "CiviCRM Contact Type %1"
-msgstr ""
+msgstr "CiviCRM Tipus de contacte %1"
 
 #: drupal/modules/civicrm_cck/civicrm_cck.module
 msgid "Please ensure that the CiviCRM Contact exists"
@@ -2871,7 +2873,7 @@ msgstr ""
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/List.php
 msgid "Is equal to"
-msgstr ""
+msgstr "És igual a"
 
 #: drupal/modules/civicrm_engage/Engage/Report/Form/WalkList.php
 msgid "Other Name"

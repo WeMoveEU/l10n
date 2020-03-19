@@ -4,17 +4,18 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Antonio de Simone <desimone.webdesign@gmail.com>, 2012
-# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2016
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2016-2018
+# teddy <guido.tedaldi@gmail.com>, 2017
 # mitch.camp <kal-el@hotmail.it>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # Riccardo <ricma40@gmail.com>, 2013
-# vodkina <mnemosyne@logioshermes.org>, 2016
+# Yvette Agostini <mnemosyne@logioshermes.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-11-09 23:11+0000\n"
-"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Italian (http://www.transifex.com/civicrm/civicrm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +77,7 @@ msgstr "Anguilla"
 
 msgctxt "country"
 msgid "Antarctica"
-msgstr "Antartico"
+msgstr "Antartide"
 
 msgctxt "country"
 msgid "Antigua and Barbuda"
@@ -259,7 +260,7 @@ msgid "Costa Rica"
 msgstr "Costa Rica"
 
 msgctxt "country"
-msgid "Côte d'Ivoire"
+msgid "Côte d’Ivoire"
 msgstr "Costa d'Avorio"
 
 msgctxt "country"
@@ -484,7 +485,7 @@ msgstr "Giordania"
 
 msgctxt "country"
 msgid "Kazakhstan"
-msgstr "Kazakhstan"
+msgstr "Kazakistan"
 
 msgctxt "country"
 msgid "Kenya"
@@ -695,8 +696,8 @@ msgid "Palau"
 msgstr "Palau"
 
 msgctxt "country"
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestina, territori occupati"
+msgid "Palestine, State of"
+msgstr "Palestina, Stato della"
 
 msgctxt "country"
 msgid "Panama"
@@ -847,8 +848,8 @@ msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard e Jan Mayen"
 
 msgctxt "country"
-msgid "Swaziland"
-msgstr "Swaziland"
+msgid "Eswatini"
+msgstr ""
 
 msgctxt "country"
 msgid "Sweden"
@@ -1051,21 +1052,5 @@ msgid "Saint Martin (French part)"
 msgstr "Saint Martin (Parte Francese)"
 
 msgctxt "country"
-msgid "Virgin Islands,British"
-msgstr "Isole vergini, Britanniche"
-
-msgctxt "country"
-msgid "Côte d’Ivoire"
-msgstr "Costa d'Avorio"
-
-msgctxt "country"
-msgid "Iran, Islamic Republic Of"
-msgstr "Iran, Repubblica Islamica di"
-
-msgctxt "country"
-msgid "Macedonia, Republic Of"
-msgstr "Macedonia, Repubblica di"
-
-msgctxt "country"
-msgid "Palestinian Territory"
-msgstr "Palestina, Territorio della"
+msgid "Swaziland"
+msgstr "Swaziland"

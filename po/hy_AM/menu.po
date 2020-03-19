@@ -1,0 +1,2210 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zaruhi Andreasyan <zandreasyan@yahoo.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-11-11 06:55+0000\n"
+"Last-Translator: Zaruhi Andreasyan <zandreasyan@yahoo.com>\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "menu"
+msgid "Campaign Dashboard"
+msgstr "Քարոզարշավի վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Campaign"
+msgstr "Նոր քարոզարշավ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Survey"
+msgstr "Նոր հարցում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Conduct Survey"
+msgstr "Հարցում անցկացնել"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Survey Types"
+msgstr "Հարցման տեսակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Campaign Types"
+msgstr "Քարոզարշավի տեսակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Campaign Status"
+msgstr "Քարոզարշավի կարգավիճակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Engagement Index"
+msgstr "Ներգրավածության ցուցանիշ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCampaign Component Settings"
+msgstr "CiviCampaign բաղադրիչի կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Reserve Respondents"
+msgstr "Ընտրել հարցվողներին"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Release Respondents"
+msgstr "Հարցում չանցկացնել "
+
+msgctxt "menu"
+msgid "Record Respondents Interview"
+msgstr "Ձայնագրել հարցվողների հետ անցկացվող հարցազրույցը "
+
+msgctxt "menu"
+msgid "GOTV (Track Voters)"
+msgstr "GOTV (հետևել ընտրողներին) "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Petition"
+msgstr "Նոր դիմում"
+
+msgctxt "menu"
+msgid "Sign Petition"
+msgstr "Ստորագրել դիմումը"
+
+msgctxt "menu"
+msgid "View Petition Signatures"
+msgstr "Դիտել դիմումի ներքևում դրված բոլոր ստորագրությունները"
+
+msgctxt "menu"
+msgid "Email address verified"
+msgstr "Էլ․ փոստի հասցեն հաստատված է"
+
+msgctxt "menu"
+msgid "Thank You"
+msgstr "Շնորհակալություն"
+
+msgctxt "menu"
+msgid "Configure Survey"
+msgstr "Կազմաձևել հարցումը"
+
+msgctxt "menu"
+msgid "Delete Survey"
+msgstr "Ջնջել հարցումը"
+
+msgctxt "menu"
+msgid "CiviCase Dashboard"
+msgstr "CiviCase Վահանակ"
+
+msgctxt "menu"
+msgid "Open Case"
+msgstr "Բացել գործ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Cases"
+msgstr "Գտնել գործեր"
+
+msgctxt "menu"
+msgid "Case Activity"
+msgstr "Գործի շրջանակներում տարվող գործողությունները"
+
+msgctxt "menu"
+msgid "Case Activity Audit"
+msgstr "Գործի շրջանակներում տարվող գործողությունների աուդիտ"
+
+msgctxt "menu"
+msgid "Case Custom Set"
+msgstr ""
+
+msgctxt "menu"
+msgid "Case"
+msgstr "Գործ"
+
+msgctxt "menu"
+msgid "Activity View"
+msgstr "Գործողության դիտում"
+
+msgctxt "menu"
+msgid "Assign to Another Client"
+msgstr "Նշեք մեկ այլ հաճախորդի"
+
+msgctxt "menu"
+msgid "File on Case"
+msgstr "Գործի թղթապանակ"
+
+msgctxt "menu"
+msgid "Case Details"
+msgstr "Գործի մանրամասները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr "CiviCase կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Case Types"
+msgstr "Գործերի տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Redaction Rules"
+msgstr "Խմբագրման կանոնները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Case Statuses"
+msgstr "Գործերի կարգավիճակները"
+
+msgctxt "menu"
+msgid "Encounter Mediums"
+msgstr "Շփման միջավայրերը"
+
+msgctxt "menu"
+msgid "CiviContribute Dashboard"
+msgstr "CiviContribute վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Contribution"
+msgstr "Նոր ներդրում"
+
+msgctxt "menu"
+msgid "Contribution Summary - Chart View"
+msgstr "Ներդրման ամփոփագիր - Գծապատկերի դիտում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviContribute"
+msgstr "CiviContribute "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Contribution Pages"
+msgstr "Կառավարել ներդրումների էջերը"
+
+msgctxt "menu"
+msgid "Title and Settings"
+msgstr "Վերնագիր և կարգավորումներ"
+
+msgctxt "menu"
+msgid "Contribution Amounts"
+msgstr "Ներդրումների չափը"
+
+msgctxt "menu"
+msgid "Membership Section"
+msgstr "Անդամության բաժին"
+
+msgctxt "menu"
+msgid "Include Profiles"
+msgstr "Ներառել պրոֆիլները"
+
+msgctxt "menu"
+msgid "Thank-you and Receipting"
+msgstr "Շնորհակալություն և ստացման վերաբերյալ հաստատում"
+
+msgctxt "menu"
+msgid "Tell a Friend"
+msgstr "Ասել ընկերոջը"
+
+msgctxt "menu"
+msgid "Configure Widget"
+msgstr "Կարգավորել գործիքը"
+
+msgctxt "menu"
+msgid "Premiums"
+msgstr "Պարգևավճարներ"
+
+msgctxt "menu"
+msgid "Add Products to This Page"
+msgstr "Այս էջում արտադրանքներ ավելացնել"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Contribution Page"
+msgstr "Ներդրումների նոր էջ"
+
+msgctxt "menu"
+msgid "Manage Premiums"
+msgstr "Պարգևավճարների կառավարում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Financial Types"
+msgstr "Ֆինանսների տեսակները"
+
+msgctxt "menu"
+msgid "New Payment"
+msgstr "Նոր վճարում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Financial Accounts"
+msgstr "Ֆինանսական հաշիվներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Payment Methods"
+msgstr "Վճարման մեթոդները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Accepted Credit Cards"
+msgstr "Ընդունվող վարկային քարտերի տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Soft Credit Types"
+msgstr "Արտոնյալ վարկերի տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contributions"
+msgstr "Ներդրումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Recurring Contributions"
+msgstr "Կրկնվող ներդրումներ"
+
+msgctxt "menu"
+msgid "Additional Info"
+msgstr "Լրացուցիչ տեղեկատվություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Contributions"
+msgstr "Գտնել ներդրումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import Contributions"
+msgstr "Ներմուծել ներդրումներ"
+
+msgctxt "menu"
+msgid "AdditionalInfo Form"
+msgstr "Լրացուցիչ տեղեկատվության ձևաթուղթ"
+
+msgctxt "menu"
+msgid "Cancel Subscription"
+msgstr "Չեղարկել բաժանորդագրությունը"
+
+msgctxt "menu"
+msgid "Update Billing Details"
+msgstr "Թարմացնել վճարումների վերաբերյալ տվյալները"
+
+msgctxt "menu"
+msgid "Update Subscription"
+msgstr "Թարմացնել բաժանորդագրությունը"
+
+msgctxt "menu"
+msgid "Financial Type Accounts"
+msgstr "Ֆինանսական հաշիվների տեսակը"
+
+msgctxt "menu"
+msgid "Accounting Batch"
+msgstr "Հաշվապահական փաթեթ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Accounting Batches"
+msgstr "Հաշվապահական փաթեթներ"
+
+msgctxt "menu"
+msgid "Accounting Batch Export"
+msgstr "Հաշվապահական փաթեթի արտահանումը"
+
+msgctxt "menu"
+msgid "View Payment"
+msgstr "Դիտել վճարումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviContribute Component Settings"
+msgstr "CiviContribute բաղադրիչների կարգավորումներ"
+
+msgctxt "menu"
+msgid "PDF Invoice"
+msgstr "PDF ձևաչափի հաշիվ ապրանքագիր"
+
+msgctxt "menu"
+msgid "Email Invoice"
+msgstr "Հաշիվ ապրանքագիրն ուղարկել էլ․ փոստով"
+
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr "Կրկնվող ներդրումների վճարումները"
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr "Անդամակցության կրկնվող վճարումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Personal Campaign Pages"
+msgstr "Քարոզչության անձնական էջեր"
+
+msgctxt "menu"
+msgid "Setup a Personal Campaign Page - Account Information"
+msgstr "Ստեղծել անձնական քարոզչական էջ - Հաշվի վերաբերյալ տեղեկություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Activity"
+msgstr "Նոր գործողություն"
+
+msgctxt "menu"
+msgid "View Activity"
+msgstr "Դիտել գործողությունը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Activities"
+msgstr "Գտնել գործողությունները"
+
+msgctxt "menu"
+msgid "Custom Data"
+msgstr "Կարգավորվող տվյալներ"
+
+msgctxt "menu"
+msgid "Custom Data Fields"
+msgstr "Կարգավորվող տվյալների դաշտեր"
+
+msgctxt "menu"
+msgid "Custom Field - Options"
+msgstr "Կարգավորվող դաշտեր - Տարբերակներ"
+
+msgctxt "menu"
+msgid "Custom Field - Add"
+msgstr "Կարգավորվող դաշտ - Ավելացնել"
+
+msgctxt "menu"
+msgid "Custom Field - Edit"
+msgstr "Կարգավորվող դաշտ - Խմբագրել"
+
+msgctxt "menu"
+msgid "Custom Field - Move"
+msgstr "Կարգավորվող դաշտ - Տեղափոխել"
+
+msgctxt "menu"
+msgid "Custom Field - Change Type"
+msgstr "Կարգավորվող դաշտ - փոխել տեսակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Profiles"
+msgstr "Պրոֆիլներ"
+
+msgctxt "menu"
+msgid "CiviCRM Profile Fields"
+msgstr "CiviCRM պրոֆիլի դաշտեր"
+
+msgctxt "menu"
+msgid "Add Field"
+msgstr "Ավելացնել դաշտ"
+
+msgctxt "menu"
+msgid "Edit Field"
+msgstr "Խմբագրել դաշտը"
+
+msgctxt "menu"
+msgid "New CiviCRM Profile"
+msgstr "CiviCRM նոր պրոֆիլ"
+
+msgctxt "menu"
+msgid "Profile Settings"
+msgstr "Պրոֆիլի կարգավորումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Types"
+msgstr "Գործողությունների տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Relationship Types"
+msgstr "Հարաբերությունների տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contact Types"
+msgstr "Կոնտակտների տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Gender Options"
+msgstr "Գենդերային տարբերակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Individual Prefixes (Ms, Mr...)"
+msgstr "Անվան առջև դրվող դիմելաձևեր (տիկին, պարոն ...)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Individual Suffixes (Jr, Sr...)"
+msgstr "Անունից հետո դրվող բառեր (կրտսեր, ավագ․․․)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Location Types (Home, Work...)"
+msgstr "Գտնվելու վայրի տեսակները (տուն, աշխատավայր)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Website Types"
+msgstr "Կայքերի տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Instant Messenger Services"
+msgstr "Հաղորդագրությունների ակնթարթային առաքման ծառայություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mobile Phone Providers"
+msgstr "Բջջային հեռախոսակապի օպերատորներ"
+
+msgctxt "menu"
+msgid "Phone Type"
+msgstr "Հեռախոսի տեսակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Display Preferences"
+msgstr "Ցուցադրման կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Search Preferences"
+msgstr "Որոնման կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Date Preferences"
+msgstr "Ամսաթվի կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Navigation Menu"
+msgstr "Նավիգացիոն մենյու"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Word Replacements"
+msgstr "Փոխարինող բառեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Custom Searches"
+msgstr "Կառավարել կարգավորվող որոնումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Organization Address and Contact Info"
+msgstr "Կազմակերպության հասցեն և կոնտակտային տվյալները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "From Email Addresses"
+msgstr "Ուղարկողի էլ․ փոստի հասցեն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Message Templates"
+msgstr "Հաղորդագրությունների ձևանմուշները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Schedule Reminders"
+msgstr "Ժամանակացույցի հիշեցում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Preferred Communication Methods"
+msgstr "Կապի նախընտրելի միջոցներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Label Formats"
+msgstr "Պիտակների ձեւաչափեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Print Page (PDF) Formats"
+msgstr "Տպագրության (PDF) Ֆորմատներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Communication Style Options"
+msgstr "Հաղորդակցության տարբերակների կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Email Greeting Formats"
+msgstr " ողջույնի ձևաչափեր էլ․ նամակի"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Postal Greeting Formats"
+msgstr "Ողջույնի ձևաչափեր փոստային հաղորդագրության համար"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Addressee Formats"
+msgstr "Հասցեատերերի ձևաչափերը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Languages, Currency, Locations"
+msgstr "Լեզուներ, արժույթ, գտնվելու վայր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Address Settings"
+msgstr "Հասցեների կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Date Formats"
+msgstr "Ամսաթվի ձևաչափեր"
+
+msgctxt "menu"
+msgid "Preferred Languages"
+msgstr "Նախընտրելի լեզուն"
+
+msgctxt "menu"
+msgid "Access Control"
+msgstr "Մուտքի վերահսկողություն"
+
+msgctxt "menu"
+msgid "WordPress Access Control"
+msgstr "WordPress մուտքի վերահսկողություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Synchronize Users to Contacts"
+msgstr "Օգտատերերի և կոնտակտների սինխրոնիզացում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Configuration Checklist"
+msgstr "Կազմաձևման ստուգաթերթ"
+
+msgctxt "menu"
+msgid "Enable CiviCRM Components"
+msgstr "Միացնել CiviCRM բաղադրիչները "
+
+msgctxt "menu"
+msgid "Manage Extensions"
+msgstr "Կառավարել ընդլայնումները"
+
+msgctxt "menu"
+msgid "Database Upgrades"
+msgstr "Տվյալների բազայի բարելավում"
+
+msgctxt "menu"
+msgid "Outbound Email Settings"
+msgstr "ելքային էլ․փոստի կարգավորումները"
+
+msgctxt "menu"
+msgid "Settings - Payment Processor"
+msgstr "Կարգավորումներ - Վճարման պրոցեսոր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mapping and Geocoding"
+msgstr "Քարտեզագրում և գեոկոդավորում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Misc (Undelete, PDFs, Limits, Logging, Captcha, etc.)"
+msgstr "Այլևայլ (վերականգնել ջնջածը, PDF-ներ, սահմաններ, գրանցում, Captcha, և այլն)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Directories"
+msgstr "Տեղեկագրքեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Resource URLs"
+msgstr "Ռեսուրսների URL-ները "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Cleanup Caches and Update Paths"
+msgstr "Հիշապահեստների մաքրում և ուղիների թարմացում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CMS Database Integration"
+msgstr "CMS տվյալների բազայի ինտեգրում"
+
+msgctxt "menu"
+msgid "Safe File Extension Options"
+msgstr "Ապահով ֆայլի ընդլայնման տարբերակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Option Groups"
+msgstr "Ընտրանքային խմբեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import/Export Mappings"
+msgstr "ներմուծման / արտահանման քարտեզագրումներ"
+
+msgctxt "menu"
+msgid "Debugging"
+msgstr "Վրիպազերծում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Multi Site Settings"
+msgstr "Բազմակայք կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviEvent Component Settings"
+msgstr "CiviEvent բաղադրիչի կարգավորումներ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviMail Component Settings"
+msgstr "CiviMail բաղադրիչի կարգավորումներ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviMember Component Settings"
+msgstr "CiviMember բաղադրիչի կարգավորումներ"
+
+msgctxt "menu"
+msgid "View Date Preferences"
+msgstr "Դիտել ամսաթվի կարգավորումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Scheduled Jobs"
+msgstr "Ծրագրված աշխատանքներ"
+
+msgctxt "menu"
+msgid "Scheduled Jobs Log"
+msgstr "Պլանավորված աշխատանքների մատյան"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Types"
+msgstr "Դրամաշնորհների տեսակները"
+
+msgctxt "menu"
+msgid "Payment Processor Type"
+msgstr "Վճարում իրականացնող օպերատորի տեսակը"
+
+msgctxt "menu"
+msgid "Administer CiviCRM"
+msgstr "CiviCRM-ի Կառավարում"
+
+msgctxt "menu"
+msgid "Price Sets"
+msgstr "Գներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Price Set"
+msgstr "Նոր գներ"
+
+msgctxt "menu"
+msgid "Price Fields"
+msgstr "Գնային դաշտեր"
+
+msgctxt "menu"
+msgid "Price Field Options"
+msgstr "Գնային դաշտերի տարբերակներ"
+
+msgctxt "menu"
+msgid "Sms Providers"
+msgstr "Sms մատակարարները"
+
+msgctxt "menu"
+msgid "New Mass SMS"
+msgstr "Նոր զանգվածային SMS"
+
+msgctxt "menu"
+msgid "Badge Layout"
+msgstr "Բեյջի տեսքով"
+
+msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr "Կազմաձևել CKEditor-ը"
+
+msgctxt "menu"
+msgid "CiviCRM"
+msgstr "CiviCRM"
+
+msgctxt "menu"
+msgid "CiviCRM Home"
+msgstr "CiviCRM-ի ակունքը"
+
+msgctxt "menu"
+msgid "CiviCRM Dashlets"
+msgstr "CiviCRM ենթավահանակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Contacts"
+msgstr "Գտնել կոնտակտներ"
+
+msgctxt "menu"
+msgid "Process Uploaded Images"
+msgstr "Մշակել վերբեռնված պատկերները"
+
+msgctxt "menu"
+msgid "Get Image File"
+msgstr "Ստանալ պատկերով ֆայլ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Advanced Search"
+msgstr "Ընդլայնված որոնում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Search Builder"
+msgstr "Որոնել կառուցողին"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Custom Searches"
+msgstr "Կարգավորվող որոնումներ"
+
+msgctxt "menu"
+msgid "New Contact"
+msgstr "Նոր կոնտակտ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Individual"
+msgstr "Նոր անձ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Household"
+msgstr "Նոր տնային տնտեսություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Organization"
+msgstr "Նոր կազմակերպություն"
+
+msgctxt "menu"
+msgid "Edit Related Contact"
+msgstr "Խմբագրել կապակցված կոնտակտին"
+
+msgctxt "menu"
+msgid "Merge Contact"
+msgstr "Միավորել կոնտակտներին"
+
+msgctxt "menu"
+msgid "Email a Contact"
+msgstr "Էլ․ նամակ ուղարկել կոնտակտին"
+
+msgctxt "menu"
+msgid "Map Location(s)"
+msgstr "Քարտեզի վրա նշել տեղանք(ներ)ը"
+
+msgctxt "menu"
+msgid "Map Event Location"
+msgstr "Քարտեզի վրա նշել միջոցառման անցկացման վայրը"
+
+msgctxt "menu"
+msgid "Contact Summary"
+msgstr "Կոնտակտի ամփոփագիրը"
+
+msgctxt "menu"
+msgid "Delete Contact"
+msgstr "Ջնջել կոնտակտին"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activities"
+msgstr "Գործողություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Relationships"
+msgstr "Հարաբերություններ"
+
+msgctxt "menu"
+msgid "Groups"
+msgstr "Խմբեր"
+
+msgctxt "menu"
+msgid "Smart Groups"
+msgstr "Խելացի խմբեր"
+
+msgctxt "menu"
+msgid "Notes"
+msgstr "Նշումներ"
+
+msgctxt "menu"
+msgid "Tags"
+msgstr "Նշապիտակներ"
+
+msgctxt "menu"
+msgid "Contact Dashboard"
+msgstr "Կոնտակտի վահանակը"
+
+msgctxt "menu"
+msgid "Activity Dashlet"
+msgstr "Գործողության ենթավահանակը"
+
+msgctxt "menu"
+msgid "CiviCRM Blog"
+msgstr "CiviCRM բլոգը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCRM Resources"
+msgstr "CiviCRM ռեսուրսները"
+
+msgctxt "menu"
+msgid "Case Dashlet"
+msgstr "Գործի ենթավահանակը"
+
+msgctxt "menu"
+msgid "All Cases Dashlet"
+msgstr "Բոլոր գործերի ենթավահանակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Case Dashboard Dashlet"
+msgstr "Գործի վահանակի ենթավահանակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find and Merge Duplicate Contacts"
+msgstr "Գտնել և միավորել կրկնվող կոնտակտները"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr "Կրկնվող կոնտակտների փաթեթային միավորում"
+
+msgctxt "menu"
+msgid "Dedupe Exceptions"
+msgstr "Կրկնությունների վերացման բացառություններ"
+
+msgctxt "menu"
+msgid "Add User"
+msgstr "Ավելացնել օգտագործող"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Groups"
+msgstr "Կառավարել խմբեր"
+
+msgctxt "menu"
+msgid "Group Members"
+msgstr "Խմբի անդամներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Group"
+msgstr "Նոր խումբ"
+
+msgctxt "menu"
+msgid "Import"
+msgstr "Ներմուծում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import Contacts"
+msgstr "ներմուծել կոնտակտներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import Activities"
+msgstr "Գործողությունների ներմուծում"
+
+msgctxt "menu"
+msgid "Import Multi-value Custom Data"
+msgstr ""
+
+msgctxt "menu"
+msgid "Upgrade CiviCRM"
+msgstr "Թարմացնել CiviCRM-ը "
+
+msgctxt "menu"
+msgid "Download Errors"
+msgstr "Ներբեռնել սխալները"
+
+msgctxt "menu"
+msgid "Export Contacts"
+msgstr "Արտահանել կոնտակտները"
+
+msgctxt "menu"
+msgid "Export"
+msgstr "Արտահանում"
+
+msgctxt "menu"
+msgid "ACL Roles"
+msgstr "ACL դերերը"
+
+msgctxt "menu"
+msgid "Manage ACLs"
+msgstr "Կառավարել ACL-ները"
+
+msgctxt "menu"
+msgid "Assign Users to ACL Roles"
+msgstr "Օգտագործողների ACL դերեր նշանակել"
+
+msgctxt "menu"
+msgid "ACL"
+msgstr "ACL"
+
+msgctxt "menu"
+msgid "Registration Page"
+msgstr "Գրանցման էջ"
+
+msgctxt "menu"
+msgid "Browse Uploaded files"
+msgstr "Դիտել վերբեռնված ֆայլերը"
+
+msgctxt "menu"
+msgid "Delete File"
+msgstr "Ջնջել ֆայլը"
+
+msgctxt "menu"
+msgid "Log out"
+msgstr "Դուրս գալ"
+
+msgctxt "menu"
+msgid "CiviCRM API v3"
+msgstr "CiviCRM API v3 "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Batch Data Entry"
+msgstr "Տվյալների խմբային մուտքագրում"
+
+msgctxt "menu"
+msgid "QUnit"
+msgstr "Դիտել զամբյուղը"
+
+msgctxt "menu"
+msgid "ProfileEditor"
+msgstr "Պրոֆիլի խմբագիր"
+
+msgctxt "menu"
+msgid "Confirm dates"
+msgstr "Հաստատել ամսաթվերը"
+
+msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr "Մուտքագրել CiviCRM-ի բովանդակությունը"
+
+msgctxt "menu"
+msgid "CiviCRM Profile Create"
+msgstr "Ստեղծել CiviCRM պրոֆիլ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Նշապիտակներ (Կատեգորիաներ)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Նոր նշապիտակ"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr "Միացնել նշապիտակները"
+
+msgctxt "menu"
+msgid "CiviEvent Dashboard"
+msgstr "CiviEvent վահանակ "
+
+msgctxt "menu"
+msgid "Register New Participant"
+msgstr "Գրանցել նոր մասնակից"
+
+msgctxt "menu"
+msgid "Event Information"
+msgstr "Միջոցառման վերաբերյալ տեղեկատվություն"
+
+msgctxt "menu"
+msgid "Event Registration"
+msgstr "Միջոցառման գրանցում"
+
+msgctxt "menu"
+msgid "Confirm Event Registration"
+msgstr "Հաստատել միջոցառման գրանցումը"
+
+msgctxt "menu"
+msgid "Current and Upcoming Events"
+msgstr "Ընթացիկ և գալիք միջոցառումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Participants List"
+msgstr "Միջոցառման մասնակիցների ցանկ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Events"
+msgstr "Կառավարել միջոցառումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Templates"
+msgstr "Միջոցառումների ձևանմուշները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Types"
+msgstr "Միջոցառումների տեսակները"
+
+msgctxt "menu"
+msgid "Participant Status"
+msgstr "Մասնակցի կարգավիճակը"
+
+msgctxt "menu"
+msgid "Participant Role"
+msgstr "Մասնակցի դերը"
+
+msgctxt "menu"
+msgid "Participant Listing Templates"
+msgstr "Մասնակիցների ցանկերի ձևանմուշները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Name Badge Layouts"
+msgstr "Միջոցառման անունը կրող բեյջերը"
+
+msgctxt "menu"
+msgid "Conference Slot Labels"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Participants"
+msgstr "Գտնել մասնակիցներին"
+
+msgctxt "menu"
+msgid "Print Event Name Badge"
+msgstr "Տպել միջոցառման անվանական բեյջերը"
+
+msgctxt "menu"
+msgid "Event Info and Settings"
+msgstr "Միջոցառման վերաբերյալ տեղեկատվություն և կարգավորումներ"
+
+msgctxt "menu"
+msgid "Event Location"
+msgstr "Միջոցառման ացկացման վայրը"
+
+msgctxt "menu"
+msgid "Event Fees"
+msgstr "Միջոցառման վարձավճարներ"
+
+msgctxt "menu"
+msgid "Event Online Registration"
+msgstr "Միջոցառման առցանց գրանցում "
+
+msgctxt "menu"
+msgid "Repeat Event"
+msgstr "Կրկնել միջոցառումը"
+
+msgctxt "menu"
+msgid "Conference Slots"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Event"
+msgstr "Նոր միջոցառում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import Participants"
+msgstr "Կարևոր մասնակիցներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Price Sets"
+msgstr "Կառավարել գները"
+
+msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr "Ինքնասպասարկման պորտալի տեղեկատվության թարմացում"
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr "Ինքնասպասարկման գրանցման փոխանցում"
+
+msgctxt "menu"
+msgid "Add Event To Cart"
+msgstr "Միջոցառումն ավելացնել զամբյուղի մեջ"
+
+msgctxt "menu"
+msgid "Cart Checkout"
+msgstr "Զամբյուղի ստուգում"
+
+msgctxt "menu"
+msgid "Remove From Cart"
+msgstr "Զամբյուղի ստուգում"
+
+msgctxt "menu"
+msgid "View Cart"
+msgstr "Դիտել զամբյուղը"
+
+msgctxt "menu"
+msgid "Change Registration Selections"
+msgstr "Փոխել գրանցումների ընտրությունը"
+
+msgctxt "menu"
+msgid "CiviGrant Dashboard"
+msgstr "CiviGrant վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Grants"
+msgstr "Գտնել դրամաշնորհներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Grant"
+msgstr "նոր դրամաշնորհ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviMail"
+msgstr "CiviMail "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mailer Settings"
+msgstr "Փոստային առաքումների կարգավորումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Headers, Footers, and Automated Messages"
+msgstr "Վերնագրեր, էջատակային նշումներ և ավտոմատ հաղորդագրություններ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mail Accounts"
+msgstr "Փոստային հաշիվներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Mailing"
+msgstr "Նոր փոստային առաքումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Mailings"
+msgstr "Գտնել փոստային առաքումները"
+
+msgctxt "menu"
+msgid "Unsubscribe"
+msgstr "Դուրս գալ գրանցումից"
+
+msgctxt "menu"
+msgid "Resubscribe"
+msgstr "Վերագրանցվել"
+
+msgctxt "menu"
+msgid "Opt-out"
+msgstr "Չեղարկել"
+
+msgctxt "menu"
+msgid "Confirm"
+msgstr "Հաստատել"
+
+msgctxt "menu"
+msgid "Subscribe"
+msgstr "Գրանցվել"
+
+msgctxt "menu"
+msgid "Preview Mailing"
+msgstr "Փոստի նախնական դիտում"
+
+msgctxt "menu"
+msgid "Mailing Report"
+msgstr "Հաշվետվություն փոստային առաքումների վերաբերյալ"
+
+msgctxt "menu"
+msgid "Forward Mailing"
+msgstr "Վերահասցեավորել հաղորդագրությունը"
+
+msgctxt "menu"
+msgid "Sending Mail"
+msgstr "Ուղարկել նամակ"
+
+msgctxt "menu"
+msgid "Mailing Event"
+msgstr "Միջոցառման վերաբերյալ փոստային հաղորդագրություններ"
+
+msgctxt "menu"
+msgid "View Mailing"
+msgstr "Դիտել փոստային հաղորդագրությունները"
+
+msgctxt "menu"
+msgid "Approve Mailing"
+msgstr "Հաստատել փոստային հաղորդագրությունները"
+
+msgctxt "menu"
+msgid "CiviMember Dashboard"
+msgstr "CiviMember-ի վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Membership"
+msgstr "Նոր անդամակցություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Membership Types"
+msgstr "Անդամակցության տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Membership Status Rules"
+msgstr "Անդամակցության կարգավիճակների կանոնները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Memberships"
+msgstr "Անդամակցություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Memberships"
+msgstr "Գտնել անդամակցությունները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Import Memberships"
+msgstr "Ներմուծել անդամակցություններ"
+
+msgctxt "menu"
+msgid "CiviPledge Dashboard"
+msgstr "CiviPledge վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Pledges"
+msgstr "Գտնել խոստումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Pledges"
+msgstr "Խոստումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Pledge"
+msgstr "Նոր խոստում"
+
+msgctxt "menu"
+msgid "Pledge Payments"
+msgstr "Խոստացված վճարումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviReport"
+msgstr "CiviReport "
+
+msgctxt "menu"
+msgid "CiviCRM Reports"
+msgstr "CiviCRM հաշվետվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Create New Report from Template"
+msgstr "Կազմել նոր հաշվոտվություն ձևանմուշից"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Templates"
+msgstr "Կառավարել ձևանմուշները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Register Report"
+msgstr "Գրանցել հաշվետվությունը"
+
+msgctxt "menu"
+msgid "Report"
+msgstr "Հաշվետվություն"
+
+msgctxt "menu"
+msgid "Reports Listing"
+msgstr "Հաշվետվությունների ցանկ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCRM News"
+msgstr "CiviCRM նորություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "My Cases"
+msgstr "Իմ գործերը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "All Cases"
+msgstr "Բոլոր գործերը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Home"
+msgstr "Գլխավոր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Search"
+msgstr "Որոնում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Full-text Search"
+msgstr "Լիարժեք տեքստային որոնում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contacts"
+msgstr "Կոնտակտներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contact Reports"
+msgstr "Հաշվետվություններ կոնտակտների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Email"
+msgstr "Նոր էլ․ նամակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage Tags (Categories)"
+msgstr "Կառավարել նշապիտակները (Կատեգորիաներ)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Dashboard"
+msgstr "Վահանակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contribution Reports"
+msgstr "Հաշվետվություններ ներդրումների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Pledge Reports"
+msgstr "Հաշվետվություններ խոստումների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Premiums (Thank-you Gifts)"
+msgstr "Պարգևավճարներ (երախտագիտական նվերներ)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Batch"
+msgstr "Նոր փաթեթ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Open Batches"
+msgstr "Բաց փաթեթներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Closed Batches"
+msgstr "Փակ փաթեթներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Exported Batches"
+msgstr "Արտահանված փաթեթներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Events"
+msgstr "Միջոցառումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Register Event Participant"
+msgstr "Գրանցել միջոցառման մասնակցին"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Reports"
+msgstr "Միջոցառումների վերաբերյալ հաշվետվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mailings"
+msgstr "Փոստային առաքումներ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Draft and Unscheduled Mailings"
+msgstr "Սևագրեր և չպլանավորած հաղորդագրություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Scheduled and Sent Mailings"
+msgstr "Պլանավորած և ուղարկած փոստային հաղորդագրություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Archived Mailings"
+msgstr "Արխիվացված նամակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mailing Reports"
+msgstr "Փոստային հաղորդագրությունների վերաբերյալ հաշվետվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New SMS"
+msgstr "Նոր SMS"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Find Mass SMS"
+msgstr "Գտնել զանգվածային SMS-ներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New A/B Test"
+msgstr "Նոր A/B թեստ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Manage A/B Tests"
+msgstr "Կառավարել A/B թեստերը "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Membership Reports"
+msgstr "Հաշվետվություններ անդամակցությունների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Campaigns"
+msgstr "Քարոզարշավներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Surveys"
+msgstr "Հարցումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Petitions"
+msgstr "Դիմումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Interview Respondents"
+msgstr "Հարցազրույց անցկացնել հարցվողների հետ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Campaign Reports"
+msgstr "Հաշվետվություններ քարոզարշավների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "GOTV (Voter Tracking)"
+msgstr "GOTV (քվեարկողների հսկում) "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Cases"
+msgstr "Գործեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Case"
+msgstr "Նոր գործ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Case Reports"
+msgstr "Հաշվետվություններ գործերի վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grants"
+msgstr "Դրամաշնորհներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Reports"
+msgstr "Հաշվետվություններ դրամաշնորհների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Administer"
+msgstr "Կառավարել"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Administration Console"
+msgstr "Կառավարակետ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "System Status"
+msgstr "Համակարգային կարգավիճակ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Customize Data and Screens"
+msgstr "Տվյալների և էջերի համապատասխանեցում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Custom Fields"
+msgstr "Օգտագործողների դաշտեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Dropdown Options"
+msgstr "Բացվող ցուցակներում ներկայացված տարբերակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Phone Types"
+msgstr "Հեռախոսների տեսակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Communications"
+msgstr "Հաղորդակցություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "FROM Email Addresses"
+msgstr "Ուղարկողի էլ․ փոստի հասցեն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Localization"
+msgstr "Տեղայնացում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Preferred Language Options"
+msgstr "Նախընտրելի լեզուն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Users and Permissions"
+msgstr "Օգտատերեր և թույլտվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Permissions (Access Control)"
+msgstr "Թույլտվություններ (Մուտքի վերահսկողություն)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "System Settings"
+msgstr "Համակարգի կարգավորումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Components"
+msgstr "Մոդուլներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Connections"
+msgstr "Միացումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr "Ընդլայնումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Վրիպազերծում և սխալների մշակում"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Outbound Email (SMTP/Sendmail)"
+msgstr "Ելքային էլ․ նամակներl (SMTP/ուղարկված նամակներl) "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Payment Processors"
+msgstr "Օպերատորներ, որոնց միջոցով իրականացվում են վճարումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Safe File Extensions"
+msgstr "Ֆայլերի անվտանգ ընդլայնումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "SMS Providers"
+msgstr "SMS օպերատորներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCampaign"
+msgstr "CiviCampaign "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCase"
+msgstr "CiviCase "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Encounter Medium"
+msgstr "Հանդիպման միջնորդ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviEvent"
+msgstr "CiviEvent"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Participant Statuses"
+msgstr "Մասնակիցների կարգավիճակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Participant Roles"
+msgstr "Մասնակիցների դերերը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Participant Listing Options"
+msgstr "Մասնակիցների ցուցակների տարբերակները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviGrant"
+msgstr "CiviGrant "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Status"
+msgstr "Դրամաշնորհի կարգավիճակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviMember"
+msgstr "CiviMember "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "All Reports"
+msgstr "Բոլոր հաշվետվությունները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Support"
+msgstr "Աջակցություն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Get started"
+msgstr "Սկսել"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Documentation"
+msgstr "Փաստաթղթեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Ask a question"
+msgstr "Հարց տալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Get expert help"
+msgstr "Ստանալ աջակցություն փորձագետից"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "About CiviCRM"
+msgstr "CiviCRM-ի մասին"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Register your site"
+msgstr "Գրանցեք Ձեր կայքը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Join CiviCRM"
+msgstr "Միանալ CiviCRM-ին "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Developer"
+msgstr "Մշակումներ կատարող"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "API Explorer"
+msgstr "API հետազոտող"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Developer Docs"
+msgstr "Մշակումներ կատարողի փաստաթղթեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Reports"
+msgstr "Հաշվետվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "My Reports"
+msgstr "Իմ հաշվետվությունները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Constituent Summary"
+msgstr "Ընտրողների ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides a list of address and telephone information for constituent records"
+" in your system."
+msgstr "Տրամադրում է հասցեների և հեռախոսահամարների ցանկ՝ ձեր համակարգում ընտրողների վերաբերյալ գրառումների իրականացման համար "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Constituent Detail"
+msgstr "Մանրամասներ ընտրողների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides contact-related information on contributions, memberships, events "
+"and activities."
+msgstr "Տրամադրում է կոնտակտին առնչվող տեղեկություններ ներդրումների, անդամակցությունների, միջոցառումների և գործունեության մասին:"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Details"
+msgstr "Գործունեության վերաբերյալ մանրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides a list of constituent activity including activity statistics for "
+"one/all contacts during a given date range(required)"
+msgstr "Տրամադրում է ընտրողի գործողությունների ցանկը, ներառյալ տվյալ ժամանակահատվածում (պահանջվող) մեկ / բոլոր կոնտակտների գործունեության վիճակագրությունը "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Current Employers"
+msgstr "Ներկա գործատուներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides detail list of employer employee relationships along with "
+"employment details."
+msgstr "Տրամադրում է գործատու-աշխատակից փոխհարաբերությունների վերաբերյալ մանրակրկիտ ցանկ, ինչպես նաեւ զբաղվածության վերաբերյալ մանրամասները:"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Gives relationship details between two contacts"
+msgstr "Տրամադրում է երկու կոնտակտների միջև եղած հարաբերությունների վերաբերյալ մասնրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Summary"
+msgstr "Գործունեության ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr "Ցույց է տալիս գործողությունների վիճակագրությունն ըստ տեսակի/ամսաթվի"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contribution Summary"
+msgstr "Ներդրումների ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Groups and totals contributions by criteria including contact, time period, "
+"contribution type, contributor location, etc."
+msgstr "Խմբային և ընդհանուր ներդրումներն ըստ չափանիշների՝ ներառյալ կոնտակտը, ժամանակահատվածը, ներդրման տեսակը, ներդրում կատարողի գտնվելու վայրը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contribution Details"
+msgstr "Ներդրումների մանրամասները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Lists specific contributions by criteria including contact, time period, "
+"contribution type, contributor location, etc. Contribution summary report "
+"points to this report for contribution details."
+msgstr "Ցույց է տալիս ներդրումներն ըստ չափանիշների՝ ներառյալ կոնտակտը, ժամանակահատվածը, ներդրման տեսակը, ներդրում կատարողի գտնվելու վայրը և այլն։ Ներդրումների ամփոփ հաշվետվության մեջ այս հաշվետվությունը նշված է որպես ներդրումների վերաբերյալ մանրամասների ձեռքբերման աղբյուր։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Repeat Contributions"
+msgstr "Կրկնվող ներդրումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Given two date ranges, shows contacts who contributed in both the date "
+"ranges with the amount contributed in each and the percentage increase / "
+"decrease."
+msgstr "Տրված երկու ամսաթվերի միջակայքերը ցույց են տալիս այն կոնտակտներին, ովքեր երկու միջակայքում էլ ներդրում են կատարել, յուրաքանչյուր ներդրման գումարը և տոկոսային աճը/նվազումը։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "SYBUNT (some year but not this year)"
+msgstr "SYBUNT (ինչ որ տարի, բայց ոչ այս տարի)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Some year(s) but not this year. Provides a list of constituents who donated "
+"at some time in the history of your organization but did not donate during "
+"the time period you specify."
+msgstr "Որոշ տարի(ներ), սակայն ոչ այս տարի: Ներկայացնում է այն ընտրողների ցանկը, որոնք ձեր կազմակերպության պատմության մեջ ինչ որ ժամանակ նվիրատվություն են կատարել, սակայն նվիրատվություն չեն կատարում Ձեր կողմից նշված ժամանակահատվածում:"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "LYBUNT (last year but not this year)"
+msgstr "SYBUNT (անցյալ տարի, սակայն ոչ այս տարի)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Last year but not this year. Provides a list of constituents who donated "
+"last year but did not donate during the time period you specify as the "
+"current year."
+msgstr "Անցյալ տարի, սակայն ոչ այս տարի․ Տրամադրում է այն ընտրողների ցուցակը, ովքեր ներդրում են կատարել անցյալ տարի, սակայն ներդրում չեն կատարել այն ժամանակահատվածում, որը Դուք նշել եք որպես ընթացիկ տարի։ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contributions by Organization"
+msgstr "Ներդրումներ ըստ կազմակերպությունների"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Displays a detailed list of contributions grouped by organization, which "
+"includes contributions made by employees for the organisation."
+msgstr "Ցույց է տալիս ներդրումների մանրամասն ցանկն ըստ կազմակերպությունների, որը ներառում է կազմակերպության համար աշխատողների կատարած ներդրումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contributions by Household"
+msgstr "Ներդրումներ ըստ տնային տնտեսությունների"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Displays a detailed list of contributions grouped by household which "
+"includes contributions made by members of the household."
+msgstr "Ցույց է տրված ներդրումների մանրամասն ցանկն ըստ ընտանիքների, որը ներառում է ընտանիքի անդամների կողմից կատարված ներդրումները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Top Donors"
+msgstr "Առավելագույն ներդրումներ կատարող դոնորները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides a list of the top donors during a time period you define. You can "
+"include as many donors as you want (for example, top 100 of your donors)."
+msgstr "Տրամադրում է Ձեր կողմից սահմանված ժամանակահատվածում առավելագույն չափով ներդրումներ կատարող դոնորների ցանկը։ Քանի դոնոր ցանկանում եք, կարող եք ներառել (օրինակ՝ առավելագույն չափով ներդրում կատարած 100 դոնոր)։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Soft Credits"
+msgstr "Արտոնյալ վարկեր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Shows contributions made by contacts that have been soft-credited to other "
+"contacts."
+msgstr "Ցույց է տրված կոնտակտների կողմից կատարված ներդրումները, որոնց շնորհիվ արտոնյալ վարկեր են տրամադրվել այլ կոնտակներին։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contribution Aggregate by Relationship"
+msgstr "Ընդհանուր ներդրում՝ պայմանավորված հարաբերություններով"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"List contact's donation history, grouped by year, along with contributions "
+"attributed to any of the contact's related contacts."
+msgstr "Ներկայացված է կոնտակտի կատարած ներդրումների պատմությունն ըստ տարիների, ինչպես նաև տվյալ կոնտակտի հետ որևէ կապ ունեցող կոնտակտների ներդրումները։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Personal Campaign Page Summary"
+msgstr "Անհատական քարոզարշավի էջի ամփոփագիրը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Summarizes amount raised and number of contributors for each Personal "
+"Campaign Page."
+msgstr "Ամփոփում է քարոզարշավի յուրաքանչյուր էջի համար հավաքված գումարը և ներդրողների թիվը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Pledge Detail"
+msgstr "Մանրամասներ խոստումների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr "Խոստումների ցանկը՝ ներառյալ խոստացված գումարի չափը, խոստման կարգավիճակը, հաջորդ վճարման ամսաթիվը, մնացորդը, վճարված ընդհանուր գումարը և այլն"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Pledged But not Paid"
+msgstr "Խոստացված, սակայն չվճարված"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Pledged but not Paid Report"
+msgstr "Հաշվետվություն չվճարված խոստացված գումարների վերաբերյալ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Bookkeeping Transactions"
+msgstr "Հաշվապահական գործարքներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides transaction details for all contributions and payments, including "
+"Transaction #, Invoice ID, Payment Instrument and Check #."
+msgstr "Մանրամասներ է տրամադրում բոլոր ներդրումների և վճարումների վերաբերյալ՝ ներառյալ գործարքի համարը, հաշիվ ապրանքագրի նույնականացուցիչը, վճարման միջոցը և կտրոնի համարը։ "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Provides information about the status of recurring contributions"
+msgstr "Տեղեկատվություն է տրամադրում կրկնվող ներդրումների կարգավիճակի վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Membership Summary"
+msgstr "Անդամակցության ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Provides a summary of memberships by type and join date."
+msgstr "Անդամակցությունների վերաբերյալ ամփոփ տեղեկատվություն է տրամադրում՝ ըստ տեսակի և անդամակցության ամսաթվի"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Membership Details"
+msgstr "Անդամակցության վերաբերյալ մանրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides a list of members along with their membership status and membership"
+" details (Join Date, Start Date, End Date). Can also display contributions "
+"(payments) associated with each membership."
+msgstr "Ներկայացնում է անդամների ցանկը անդամության կարգավիճակի և մանրամասների հետ միասին (անդամակցության ամսաթիվը, մեկնարկի ամսաթիվը, ավարտի ամսաթիվը)։ Կարող է նաև ցույց տալ յուրաքանչյուր անդամին առնչվող ներդրումները (վճարումները)։   "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Contribution and Membership Details"
+msgstr "Մանրամասներ ներդրումների և անդամակցությունների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Contribution details for any type of contribution, plus associated "
+"membership information for contributions which are in payment for "
+"memberships."
+msgstr "Ներդրումների ցանկացած տեսակի վերաբերյալ մանրամասներ, ինչպես նաև առնչվող անդամակցության վերաբերյալ տեղեկատվություններ անդամակցության համար կատարվող վճարումների վերաբերյալ  "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Lapsed Memberships"
+msgstr "Նախկին անդամակցություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides a list of memberships that have lapsed or will lapse by the date "
+"you specify."
+msgstr "Ներկայացնում է այն անդամակցությունների ցանկը, որոնց ժամկետը լրացել է կամ կլրանա մինչև Ձեր նշած ամսաթիվը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Provides lists of participants for an event."
+msgstr "Տրամադրում է միջոցառման մասնակիցների ցանկը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Income Summary"
+msgstr "Միջոցառման եկամտի վերաբերյալ ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides an overview of event income. You can include key information such "
+"as event ID, registration, attendance, and income generated to help you "
+"determine the success of an event."
+msgstr "Ընդհանուր պատկերացում է տալիս միջոցառման եկամտի մասին։ Դուք կարող եք ներառել կարևոր տեղեկատվությունը, ինչպես օրինակ, միջոցառման նույնականացուցիչը, գրանցումը, մասնակցությունը և ձեռք բերված եկամուտը, որը կօգնի ձեզ միջոցառման հաջողությունը գնահատելու հարցում։"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Event Income Details"
+msgstr "Միջոցառման եկամտի վերաբերյալ մանրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Helps you to analyze the income generated by an event. The report can "
+"include details by participant type, status and payment method."
+msgstr "Օգնում է ձեզ վերլուծել միջոցառման արդյունքում առաջացած եկամուտը: Հաշվետվությունը կարող է ներառել մանրամասներ ըստ մասնակցի տեսակի, կարգավիճակի և վճարման եղանակի:"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Attendee List"
+msgstr "Մասնակիցների ցանկ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Provides lists of event attendees."
+msgstr "Տրամադրում է միջոցառումների մասնակիցների ցանկերը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Details"
+msgstr "Դրամաշնորհների վերաբերյալ մանրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Report Detail"
+msgstr "Դրամաշնորհների վերաբերյալ մանրամասն հաշվետվություններ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Statistics"
+msgstr "Դրամաշնորհների վիճակագրությունը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Grant Report Statistics"
+msgstr "Դրամաշնորհների վերաբերյալ հաշվետվությունների վիճակագրությունը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mail Bounces"
+msgstr "Չիրականացած փոստային առաքումներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Bounce Report for mailings"
+msgstr "Հաշվետվություն չուղարկված նամակների վերաբերյալ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mailing Summary"
+msgstr "Հաղորդագրությունների առաքման ամփոփագիր"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Summary statistics for mailings"
+msgstr "Առաքանիների վերաբերյալ ամփոփ վիճակագրություն "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mail Opened"
+msgstr "Բացված նամակներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Display contacts who opened emails from a mailing"
+msgstr "Ցույց է տալիս այն կոնտակտներին, որոնք բացել են նամակը"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mail Clickthroughs"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Display clicks from each mailing"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Mailing Details"
+msgstr "Փոստային առաքումների վերաբերյալ մանրամասներ"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Provides reporting on Intended and Successful Deliveries, Unsubscribes and "
+"Opt-outs, Replies and Forwards."
+msgstr "Տրամադրում է հաշվետվություն ենթադրյալ և հաջողված առաքումների, գրանցումից դուրս գալու և մերժումների, պատասխանների և վերահասցեավորումների մասին:"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Survey Details"
+msgstr "Հարցման մանրամասները"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid ""
+"Detailed report for canvassing, phone-banking, walk lists or other surveys."
+msgstr "Մանրամասն հաշվետվություն հանրային հարցման, հեռախոսային հարցման, հասցեների ցուցակի և այլ հարցումների վերաբերյալ"

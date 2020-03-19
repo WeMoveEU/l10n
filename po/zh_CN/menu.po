@@ -26,14 +26,15 @@
 # Summer <mordbiz@foxmail.com>, 2015
 # Tony Hong <humanhong1001@gmail.com>, 2015
 # walkenaway <ashkandilothar@gmail.com>, 2015
+# Xiang Wang <xiangzi.elaine@gmail.com>, 2019
 # zhiyong zhou <jxsky2002@163.com>, 2011
 # 兆锋 刘 <liuzf@jahome.net>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-26 10:54+0000\n"
+"Last-Translator: Xiang Wang <xiangzi.elaine@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/civicrm/civicrm/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,6 +180,11 @@ msgstr "个案明细"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Case Types"
 msgstr "个案类型"
 
@@ -280,8 +286,8 @@ msgstr "财务帐目"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "支付工具"
+msgid "Payment Methods"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -367,6 +373,14 @@ msgctxt "menu"
 msgid "Email Invoice"
 msgstr "Email 发票"
 
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr ""
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr ""
+
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Personal Campaign Pages"
@@ -442,16 +456,6 @@ msgstr "新CiviCRM配置文件"
 msgctxt "menu"
 msgid "Profile Settings"
 msgstr "配置文件设定"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "分类标签"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "创建新标签"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -629,12 +633,10 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "配置清单"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "启用CiviCRM组件"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
 msgstr "管理扩展"
@@ -648,8 +650,8 @@ msgid "Outbound Email Settings"
 msgstr "发出邮件设定"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "支付处理"
+msgid "Settings - Payment Processor"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -775,6 +777,10 @@ msgid "Badge Layout"
 msgstr "名牌布局"
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr ""
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -851,7 +857,7 @@ msgstr "标注地址（一个或多个）"
 
 msgctxt "menu"
 msgid "Map Event Location"
-msgstr "标注事件地址"
+msgstr "用地图显示活动地址"
 
 msgctxt "menu"
 msgid "Contact Summary"
@@ -880,10 +886,6 @@ msgid "Smart Groups"
 msgstr "智能群组"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "阳光"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "注解"
 
@@ -903,8 +905,9 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "Civil博客"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
+msgid "CiviCRM Resources"
 msgstr ""
 
 msgctxt "menu"
@@ -924,6 +927,10 @@ msgstr "个案面板元件"
 msgctxt "menu"
 msgid "Find and Merge Duplicate Contacts"
 msgstr "查找并合并重复的联系人"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr ""
 
 msgctxt "menu"
 msgid "Dedupe Exceptions"
@@ -978,6 +985,10 @@ msgid "Export Contacts"
 msgstr "导出联系人"
 
 msgctxt "menu"
+msgid "Export"
+msgstr ""
+
+msgctxt "menu"
 msgid "ACL Roles"
 msgstr "权限角色"
 
@@ -1010,8 +1021,8 @@ msgid "Log out"
 msgstr "退出"
 
 msgctxt "menu"
-msgid "CiviCRM API"
-msgstr "CiviCRM API"
+msgid "CiviCRM API v3"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1031,8 +1042,26 @@ msgid "Confirm dates"
 msgstr "确定日期"
 
 msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr ""
+
+msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "创建CiviCRM配置文件"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "分类标签"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "创建新标签"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr ""
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1044,19 +1073,19 @@ msgstr "注册新参与者"
 
 msgctxt "menu"
 msgid "Event Information"
-msgstr "事件信息"
+msgstr "活动信息"
 
 msgctxt "menu"
 msgid "Event Registration"
-msgstr "事件登记"
+msgstr "活动报名"
 
 msgctxt "menu"
 msgid "Confirm Event Registration"
-msgstr "确认事件登记"
+msgstr "确认活动报名"
 
 msgctxt "menu"
 msgid "Current and Upcoming Events"
-msgstr "当前和即将进行的事件"
+msgstr "当前和即将进行的活动"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1066,17 +1095,17 @@ msgstr "参加者名单"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Events"
-msgstr "管理事件"
+msgstr "管理活动"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Event Templates"
-msgstr "事件模板"
+msgstr "活动模板"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Event Types"
-msgstr "事件类型"
+msgstr "活动类型"
 
 msgctxt "menu"
 msgid "Participant Status"
@@ -1106,27 +1135,27 @@ msgstr "查找参加者"
 
 msgctxt "menu"
 msgid "Print Event Name Badge"
-msgstr "打印事件名牌"
+msgstr "打印活动名牌"
 
 msgctxt "menu"
 msgid "Event Info and Settings"
-msgstr "事件信息与设定"
+msgstr "活动信息与设定"
 
 msgctxt "menu"
 msgid "Event Location"
-msgstr "事件地点"
+msgstr "活动地点"
 
 msgctxt "menu"
 msgid "Event Fees"
-msgstr "事件费用"
+msgstr "活动费用"
 
 msgctxt "menu"
 msgid "Event Online Registration"
-msgstr "事件在线登记"
+msgstr "活动在线报名"
 
 msgctxt "menu"
 msgid "Repeat Event"
-msgstr "重复事件"
+msgstr "重复活动"
 
 msgctxt "menu"
 msgid "Conference Slots"
@@ -1135,7 +1164,7 @@ msgstr "会议席位"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Event"
-msgstr "创建新事件"
+msgstr "创建新活动"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1146,6 +1175,14 @@ msgstr "导入参加者"
 msgctxt "menu"
 msgid "Manage Price Sets"
 msgstr "管理价格表"
+
+msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr ""
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr ""
 
 msgctxt "menu"
 msgid "Add Event To Cart"
@@ -1252,10 +1289,6 @@ msgid "Mailing Event"
 msgstr "邮寄事件"
 
 msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "预定邮件发送时间"
-
-msgctxt "menu"
 msgid "View Mailing"
 msgstr "查看邮件"
 
@@ -1359,11 +1392,6 @@ msgstr "CiviCRM新闻"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Getting Started"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
 msgid "My Cases"
 msgstr "我的个案"
 
@@ -1450,17 +1478,17 @@ msgstr "导出批量处理"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Events"
-msgstr "事件"
+msgstr "活动"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Register Event Participant"
-msgstr "登记事件参加者"
+msgstr "登记活动参加者"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Event Reports"
-msgstr "事件报告"
+msgstr "活动报告"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1579,6 +1607,11 @@ msgstr "管理控制台"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
 msgstr "自定义数据和屏幕"
 
@@ -1634,8 +1667,23 @@ msgstr "系统设置"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
 msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "调试与错误控制"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1651,11 +1699,6 @@ msgstr "支付处理"
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "安全文件扩展名"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "调试与错误控制"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1779,6 +1822,11 @@ msgstr "报告"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "My Reports"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Constituent Summary"
 msgstr "支持者一览"
 
@@ -1799,7 +1847,12 @@ msgctxt "menu"
 msgid ""
 "Provides contact-related information on contributions, memberships, events "
 "and activities."
-msgstr "提供联系人的捐赠、会籍、事件和活动信息"
+msgstr "提供联系人的捐赠、会籍、活动和互动信息"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Details"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1824,6 +1877,16 @@ msgstr "提供雇主和雇员从雇佣关系成立起的详细列表"
 msgctxt "menu"
 msgid "Gives relationship details between two contacts"
 msgstr "给出两名联系人之间的连系详情"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Summary"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1963,15 +2026,15 @@ msgstr "在每个个人活动页面中概括筹得款项和捐赠者数目"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr "认捐一览"
+msgid "Pledge Detail"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr "认捐一览。包括认捐数目、认捐状态、下次支付日期、结欠金额和已支付总额等"
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2170,85 +2233,3 @@ msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
 msgstr "列出游说拉票、电话银行、行动名单或其它调查的详尽报告"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr ""
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr ""
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr ""
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr ""

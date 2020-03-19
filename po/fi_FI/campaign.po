@@ -3,6 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Lasse Miettinen, 2017
 # Pinja-Liina Jalkanen <pinjaliina@iki.fi>, 2016
 # Tero Kankaanperä <tero@terokankaanpera.fi>, 2017
 # Tomi Toivio <tomi@sange.fi>, 2013
@@ -10,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-11 09:03+0000\n"
-"Last-Translator: Tero Kankaanperä <tero@terokankaanpera.fi>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Finnish (http://www.transifex.com/civicrm/civicrm/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,6 +28,22 @@ msgstr "Nykyiset kampanjat"
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Past Campaigns"
 msgstr "Aiemmat kampanjat"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr ""
 
 #: CRM/Campaign/BAO/Petition.php
 msgid "No survey sid parameter. Cannot process signature."
@@ -56,10 +73,6 @@ msgstr "Haastattelija"
 msgid "Could not find survey for %1 respondents."
 msgstr ""
 
-#: CRM/Campaign/BAO/Query.php
-msgid "Campaigns %1"
-msgstr "Kampanjat %1"
-
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
 msgid "Reserve Respondents"
@@ -79,16 +92,52 @@ msgid "View Survey Report"
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Description"
 msgstr "Kampanjan kuvaus"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Start Date"
 msgstr "Kampanjan alkupäivämäärä"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign End Date"
 msgstr "Kampanjan päättymispäivämäärä"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign External ID"
@@ -99,39 +148,111 @@ msgid "Parent Campaign"
 msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Is Campaign Active?"
 msgstr "Onko kampanja aktiivinen?"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Created By"
 msgstr "Kampanjan loi"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
 msgid "Campaign Created Date"
 msgstr "Kampanjan luontipäivä"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified By"
 msgstr "Kampanjaa muokkasi"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified Date"
 msgstr "Kampanjan muokkauspäivä"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
 msgid "Campaign Goals"
 msgstr "Kampanjan tavoitteet"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Goal Revenue"
 msgstr "Tuottotavoite"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey ID"
 msgstr "Kysely ID"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Campaign ID"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
@@ -139,11 +260,23 @@ msgid "Follow up Interval"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Instructions"
 msgstr "Ohjeet"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Hold Duration"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
@@ -151,7 +284,15 @@ msgid "Maximum number of contacts"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Default number of contacts"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
@@ -159,7 +300,15 @@ msgid "Survey Is Active"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Is Default Survey"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
@@ -167,16 +316,44 @@ msgid "Survey Created By"
 msgstr "Kyselyn loi"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified"
 msgstr "Kyselyä muokattu"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified On"
 msgstr "Kyselyn muokkauspäivä"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "No Email Verification"
 msgstr "Ei sähköpostivarmistusta"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr ""
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Edit Campaign"
@@ -231,7 +408,7 @@ msgid "Edit Survey"
 msgstr "Muokkaa kyselyä"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Delete Survey"
 msgstr "Poista kysely"
 
@@ -338,7 +515,6 @@ msgstr "Ohjeet haastattelijoille"
 #: CRM/Campaign/Form/Survey/Main.php
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Release Frequency"
 msgstr ""
 
@@ -550,6 +726,10 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr ""
+
+#: CRM/Campaign/Info.php
 msgid "administer CiviCampaign"
 msgstr ""
 
@@ -609,31 +789,27 @@ msgstr ""
 msgid "Vote Recorded."
 msgstr ""
 
-#: CRM/Campaign/Page/Campaign.php templates/CRM/Campaign/Form/Campaign.tpl
-msgid "Are you sure you want to delete this Campaign?"
-msgstr ""
-
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Campaign"
 msgstr ""
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Campaign"
 msgstr ""
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Campaign"
 msgstr ""
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Survey"
 msgstr ""
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Survey"
 msgstr ""
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Survey"
 msgstr ""
 
@@ -710,6 +886,10 @@ msgstr ""
 
 #: CRM/Campaign/Task.php
 msgid "Record Respondents Interview"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
 msgstr ""
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
@@ -825,7 +1005,6 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: templates/CRM/Campaign/Page/Campaign.tpl
 msgid "Add Campaign"
 msgstr ""
 
@@ -863,7 +1042,6 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Add Survey"
 msgstr ""
 
@@ -873,7 +1051,6 @@ msgstr ""
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Survey Type"
 msgstr ""
 
@@ -900,14 +1077,6 @@ msgstr ""
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Title of the survey."
 msgstr ""
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "Opens New Campaign form in a separate window"
-msgstr ""
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "new campaign"
-msgstr "uusi kampanja"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Select the campaign for which survey is created."
@@ -996,6 +1165,10 @@ msgid "Update Responses for All"
 msgstr ""
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "reserve"
 msgstr ""
 
@@ -1021,20 +1194,6 @@ msgid ""
 "related to a particular fund-raising or engagement effort. You can link "
 "activities, contributions, event participation, mailings, membership "
 "signups, and pledges to a particular campaign."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "Show past campaign(s) in this select list."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "There are currently no active Campaigns."
-msgstr ""
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid ""
-"If you want to associate this record with a campaign, you can <a %1>create a"
-" campaign here</a>."
 msgstr ""
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
@@ -1100,27 +1259,35 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Max Number Of Contacts"
 msgstr ""
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Default Number Of Contacts"
 msgstr ""
 
 #: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey type entered. You can <a href='%1'>add one</a>."
-msgstr ""
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group ID"
-msgstr ""
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group Type"
-msgstr ""
-
-#: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "uusi kampanja"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "Näytä vanhat kampanjat tässä listassa."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr ""
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
 msgstr ""

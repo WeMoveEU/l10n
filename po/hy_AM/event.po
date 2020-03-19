@@ -1,0 +1,4359 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zaruhi Andreasyan <zandreasyan@yahoo.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-11-11 06:30+0000\n"
+"Last-Translator: Zaruhi Andreasyan <zandreasyan@yahoo.com>\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Event/ActionMapping.php
+msgid "Event Template"
+msgstr "Միջոցառման ձևանմուշ"
+
+#: CRM/Event/ActionMapping.php CRM/Event/DAO/Event.php
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration Start Date"
+msgstr "Գրանցման մեկնարկի ամսաթիվ"
+
+#: CRM/Event/ActionMapping.php CRM/Event/DAO/Event.php
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration End Date"
+msgstr "Գրանցման ավարտի ամսաթիվ"
+
+#: CRM/Event/BAO/Event.php CRM/Event/Cart/Form/Checkout/Payment.php
+#: CRM/Event/Form/Participant.php CRM/Event/Form/ParticipantFeeSelection.php
+msgid "confirmation"
+msgstr "հաստատում"
+
+#: CRM/Event/BAO/Event.php
+msgid "Cannot find participant ID"
+msgstr "Չի հաջողվում գտնել մասնակցի նույնականացուցիչը"
+
+#: CRM/Event/BAO/Participant.php
+msgid "This event is full."
+msgstr "Այս միջոցառման տեղերը սպառված են"
+
+#: CRM/Event/BAO/Participant.php
+msgid "- Participant Fields -"
+msgstr "Մասնակիցների դաշտեր"
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Status Id"
+msgstr "Մասնակցի կարգավիճակի նույնականացուցիչ"
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Role Id"
+msgstr "Մասնակցի դերի նույնականացուցիչ "
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Status (label)"
+msgstr "Մասնակցի կարգավիճակը (պիտակ)"
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Role (label)"
+msgstr "Մասնակցի դերը (պիտակ)"
+
+#: CRM/Event/BAO/Participant.php
+msgid ""
+"Participant status has been updated to '%1'. An email has been sent to %2."
+msgstr "Մասնակիցի կարգավիճակը թարմացվել է '% 1': Էլ-նամակ ուղարկվել է% 2-ին:"
+
+#: CRM/Event/BAO/Participant.php
+msgid ""
+"This event currently has the maximum number of participants registered (%1)."
+" However, you can still override this limit and register additional "
+"participants using this form."
+msgstr "Այս միջոցառումը ներկայումս ունի առավելագույն թվով գրանցված մասնակիցներէ (% 1): Այնուամենայնիվ, դուք դեռևս կարող եք չեղարկել այս սահմանաչափը և լրացուցիչ մասնակիցներ գրանցել՝ օգտագործելով այս ձևաթուղթը:"
+
+#: CRM/Event/BAO/Participant.php
+msgid ""
+"There are %2 people currently on the waiting list for this event. You can <a"
+" href='%1'>view waitlisted registrations here</a>, or you can continue and "
+"register additional participants using this form."
+msgstr "Այս միջոցառման հերթացուցակում ներկայումս կա % 2 մարդ: Դուք կարող եք <a href='%1'>դիտել հերթացուցակում գտնվող գրանցումներն այստեղ</a> կամ կարող եք շարունակել և գրանցել լրացուցիչ մասնակիցներ՝ կիրառելով այս ձևաթուղթը:"
+
+#: CRM/Event/BAO/Query.php
+msgid "Include Repeating Events"
+msgstr "Ներառել կրկնվող միջոցառումները"
+
+#: CRM/Event/BAO/Query.php
+msgid "Participant is %1"
+msgstr "Մասնակիցը %1 է"
+
+#: CRM/Event/BAO/Query.php CRM/Event/DAO/Participant.php
+msgid "Fee level"
+msgstr "Անդամավճարի մակարդակը"
+
+#: CRM/Event/BAO/Query.php
+msgid "Include participants from all events in the %1 series"
+msgstr "% 1 շարքում մասնակիցներ ներառել  բոլոր միջոցառումներից"
+
+#: CRM/Event/BAO/Query.php
+msgid "Participant is a Test?"
+msgstr "Մասնակցությունը փորձնական է՞"
+
+#: CRM/Event/BAO/Query.php
+msgid "Participant is Pay Later?"
+msgstr "Մասնակցությունը հետվճարային հիմունքներով է՞"
+
+#: CRM/Event/BAO/Query.php
+msgid ""
+"Please check that your Event Date Range is in correct chronological order."
+msgstr "Խնդրում ենք ստուգել, որպեսզի Ձեր միջոցառման ամսաթվերը լինեն ճիշտ ժամանակագրական հերթականությամբ:"
+
+#: CRM/Event/BAO/Query.php
+msgid ""
+"Please check that your Registration Date Range is in correct chronological "
+"order."
+msgstr "Խնդրում ենք ստուգել, որպեսզի Ձեր գրանցման ամսաթվերը լինեն ճիշտ ժամանակագրական հերթականությամբ:"
+
+#: CRM/Event/Cart/BAO/Cart.php
+msgid "There was an error creating an event cart"
+msgstr "Միջոցառումների զամբյուղի ստեղծման ժամանակ սխալ առաջացավ"
+
+#: CRM/Event/Cart/BAO/Cart.php
+msgid "Could not find cart matching %1"
+msgstr "Հնարավոր չէ գտնել %1 համապատասխան զամբյուղ"
+
+#: CRM/Event/Cart/BAO/EventInCart.php
+msgid "There was an error creating an event_in_cart"
+msgstr "Զամբյուղի մեջ միջոցառում ստեղծելու գործընթացում սխալ տեղի ունեցավ"
+
+#: CRM/Event/Cart/BAO/EventInCart.php
+msgid "Remove from Cart"
+msgstr "Զամբյուղից հեռացնել"
+
+#: CRM/Event/Cart/BAO/EventInCart.php
+msgid "Add to Cart"
+msgstr "Ավելացնել զամբյուղ"
+
+#: CRM/Event/Cart/BAO/MerParticipant.php
+msgid "There was an error creating a cart participant"
+msgstr "Զամբյուղի մասնակից ստեղծելու գործընթացում սխալ է տեղի ունեցել"
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Cart ID"
+msgstr "Զամբյուղի նույնականացուցիչ"
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Cart Id"
+msgstr "Զամբյուղի նույնականացուցիչ"
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "FK to civicrm_contact who created this cart"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Complete?"
+msgstr "Ավատրված է՞"
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "Event In Cart"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "Event In Cart Id"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/EventInCart.php CRM/Event/DAO/Participant.php
+msgid "FK to Event ID"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "FK to Event Cart ID"
+msgstr ""
+
+#: CRM/Event/Cart/Form/Cart.php
+msgid "Online Registration for %1"
+msgstr "Առցանց գրանցում %1-ի համար"
+
+#: CRM/Event/Cart/Form/Cart.php
+msgid ""
+"Could not create or match a contact with that email address. Please contact "
+"the webmaster."
+msgstr "Հնարավոր չէր տվյալ  էլ.փոստի հասցեով կոնտակտ ստեղծել կամ համապատասխանեցնել: Խնդրում ենք դիմել վեբմաստերին:"
+
+#: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
+msgid "Select at least one option from Price Levels."
+msgstr "Գնային մակարդակից ընտրել առնվազն մեկ տարբերակ:"
+
+#: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
+msgid ""
+"Price Levels can not be less than zero. Please select the options "
+"accordingly"
+msgstr "Գնային մակարդակները չեն կարող զրոյից պակաս լինել: Խնդրում ենք ընտրել համապատասխան տարբերակները"
+
+#: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
+msgid "The participant %1 is already registered for %2 (%3)."
+msgstr "% 1 մասնակիցն արդեն գրանցված է% 2 (3%)-ի համար:"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid ""
+"When registering for multiple events all events must use the same payment "
+"processor. "
+msgstr "Մի քանի միջոցառման համար գրանցված լինելու պարագայում բոլոր միջոցառումների համար պետք է կիրառվի վճարման միևնույն օպերատորը։"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid ""
+"A payment processor must be selected for this event registration page, or "
+"the event must be configured to give users the option to pay later (contact "
+"the site administrator for assistance)."
+msgstr "Այս միջոցառման գրանցման էջում անհրաժեշտ է ընտրել վճարման օպերատոր կամ միջոցառումը պետք է կոնֆիգուրացվի այնպես, որպեսզի օգտվողներին ավելի ուշ վճարում կատարելու հնարավորություն տրվի  (դիմել կայքի ադմինիստրատորին):"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid "Payment Completed"
+msgstr "Վճարումը կատարված է"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid "Complete Transaction"
+msgstr "Ավարտել գործարքը"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid "Alternative Payment Type"
+msgstr "Վճարման այլընտրանքային տեսակ"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid "Check No."
+msgstr "Կտրոնի համարը"
+
+#: CRM/Event/Cart/Form/Checkout/Payment.php
+msgid "Create a pending registration"
+msgstr "Ստեղծել չավարտված գրանցում"
+
+#: CRM/Event/Cart/Page/AddToCart.php CRM/Event/Form/Registration.php
+msgid "You do not have permission to register for this event"
+msgstr "Դուք այս միջոցառման գրանցման թույլտվություն չունեք"
+
+#: CRM/Event/Cart/Page/AddToCart.php
+msgid ""
+"<b>%1</b> has been added to your cart. <a href='%2'>View your cart.</a>"
+msgstr " <b>1%</b>ավելացվել է Ձեր զամբյուղի մեջ: <a href='%2'> Դիտել Ձեր զամբյուղը </a>"
+
+#: CRM/Event/Cart/Page/RemoveFromCart.php
+msgid "<b>%1</b> has been removed from your cart."
+msgstr "<b>%1</b>հեռացվել է Ձեր զամբյուղից։"
+
+#: CRM/Event/Cart/StateMachine/Checkout.php
+msgid "You don't have any events in you cart. Please add some events."
+msgstr "Դուք որևէ միջոցառում չունեք Ձեր զամբյուղում։ Խնդրում ենք որոշ միջոցառումներ ավելացնել։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Event Title (e.g. Fall Fundraiser Dinner)"
+msgstr "Միջոցառման վերնագիրը (օրինակ՝ Աշնանային դրամահավաք-ճաշկերույթ )"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Brief summary of event. Text and html allowed. Displayed on Event "
+"Registration form and can be used on other CMS pages which need an event "
+"summary."
+msgstr "Միջոցառման ամփոփագիր։ Թույլատրվում է կիրառել տեքստային և html ձևաչափ։ Ներկայացված է միջոցառման գրանցման ձևաթղթում և կարելի է օգտագործել այլ CMS էջերում, որոնց համար անհրաժեշտ է միջոցառման ամփոփագիր։ "
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Full description of event. Text and html allowed. Displayed on built-in "
+"Event Information screens."
+msgstr "Միջոցառման ամբողջական նկարագիրը։ Թույլատրվում է կիրառել տեքստային և html ձևաչափ։ Ներկայացված է միջոցառման մեջ ներառված տեղեկատվական էկրանների վրա։ "
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Event Type ID.Implicit FK to civicrm_option_value where option_group = "
+"event_type."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Should we expose the participant list? Implicit FK to civicrm_option_value "
+"where option_group = participant_listing."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Is Event Public"
+msgstr "Միջոցառումը հանրային/բաց է՞"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Public events will be included in the iCal feeds. Access to private event "
+"information may be limited using ACLs."
+msgstr "Հանրային միջոցառումները կներառվեն iCal- ի թարմացումների մեջ: Մասնավոր/փակ միջոցառումների վերաբերյալ տեղեկատվության հասանելիությունը կարող է սահմանափակվել ACL- ներով:"
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that event starts."
+msgstr "Միջոցառման մեկնարկի ամսաթիվը և ժամը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that event ends. May be NULL if no defined end date/time"
+msgstr "Միջոցառման ավարտի ամսաթիվը և ժամը։ Կարող է դատարկ լինել, եթե ավարտի ամսաթիվը և ժամ սահմանված չէ։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "Is Online Registration"
+msgstr "Գրանցումն իրականացվում է առցանց"
+
+#: CRM/Event/DAO/Event.php
+msgid "If true, include registration link on Event Info page."
+msgstr "Եթե ճիշտ է, ապա գրանցման հղումը ներառել միջոցառման տեղեկատվական էջում։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Event Registration Link Text"
+msgstr "Միջոցառման գրանցման հղման տեքստը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Text for link to Event Registration form which is displayed on Event "
+"Information screen when is_online_registration is true."
+msgstr "Միջոցառման գրանցման ձևաթղթի հղման տեքստը, որը ներկայացված է Միջոցառման տեղեկատվական էջում, երբ \"առցանց գրանցման\" տարբերակը ճիշտ է։  "
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that online registration starts."
+msgstr "Առցանց գրանցման մեկնարկի ամսաթիվը և ժամը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that online registration ends."
+msgstr "Առցանց գրանցման ավարտի ամսաթիվը և ժամը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Maximum number of registered participants to allow. After max is reached, a "
+"custom Event Full message is displayed. If NULL, allow unlimited number of "
+"participants."
+msgstr " Մասնակիցների գրանցման առավելագույն թույլատրելի քանակը: Առավելագույնին հասնելուց հետո ցուցադրվում է միջոցառման մասնակիցների թիվը լրացած է: Եթե դա բացակայում է, ապա հնարավոր է անսահմանափակ թվով մասնակիցներ գրանցել:"
+
+#: CRM/Event/DAO/Event.php templates/CRM/Event/Form/Registration/Confirm.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Event Information"
+msgstr "Տեղեկատվություն միջոցառման վերաբերյալ"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Message to display on Event Information page and INSTEAD OF Event "
+"Registration form if maximum participants are signed up. Can include email "
+"address/info about getting on a waiting list, etc. Text and html allowed."
+msgstr "Հաղորդագրություն, որը կցուցադրվի միջոցառման տեղեկատվական էջում և միջոցառման գրանցման ձևաթղթի ՓՈԽԱՐԵՆ, եթե գրանցված լինեն առավելագույն թվով մասնակիցներ: Այն կարող է ներառել էլ.փոստի հասցե / տեղեկատվություն հերթացուցակում ընդգրկվելու վերաբերյալ և այլն: Թույլատրվում է կիրառել տեքստ և html:"
+
+#: CRM/Event/DAO/Event.php
+msgid "Is this a PAID event?"
+msgstr "Սա վճարովի միջոցառում է՞"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"If true, one or more fee amounts must be set and a Payment Processor must be"
+" configured for Online Event Registration."
+msgstr "Եթե այո, ապա անհրաժեշտ է սահմանել մեկ կամ մի քանի վճարման սահմանաչափեր, և կոնֆիգուրացնել վճարման օպերատոր՝ միջոցառման համար առցանց գրանցում իրականացնելու նպատակով։ "
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Financial type assigned to paid event registrations for this event. Required"
+" if is_monetary is true."
+msgstr "Այս միջոցառման համար սահմանված վճարովի միջոցառման գրանցման  ֆինանսական տեսակը: Պահանջվում է, եթե կիրառվում է \"դրամական\" տարբերակը։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Payment Processors configured for this Event (if is_monetary is true)"
+msgstr "Այս միջոցառման համար կազմաձևված վճարման օպերատորները (եթե կիրառվում է \"դրամական\" տարբերակը)"
+
+#: CRM/Event/DAO/Event.php
+msgid "Map Enabled"
+msgstr "Քարտեզն ակտիվացված է"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Include a map block on the Event Information page when geocode info is "
+"available and a mapping provider has been specified?"
+msgstr "Միջոցառման տեղեկատվական էջում ներառեք քարտեզ, եթե առկա են գեոկոդի տվյալները և նշված է քարտեզագրում իրականացնողը:"
+
+#: CRM/Event/DAO/Event.php
+msgid "Is this Event enabled or disabled/cancelled?"
+msgstr "Այս միջոցառումն ակտիվացված է՞, թե՞ ապաակտիվացված/չեղարկված։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "show location"
+msgstr "ցույց տալ վայրը"
+
+#: CRM/Event/DAO/Event.php
+msgid "If true, show event location."
+msgstr "Եթե ճիշտ է, ապա ցույց տալ միջոցառման վայրը։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "FK to Location Block ID"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Default Role"
+msgstr "Բազային դեր"
+
+#: CRM/Event/DAO/Event.php CRM/Event/DAO/Participant.php
+msgid ""
+"Participant role ID. Implicit FK to civicrm_option_value where option_group "
+"= participant_role."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Introductory message for Event Registration page. Text and html allowed. "
+"Displayed at the top of Event Registration form."
+msgstr "Ներածական ուղերձ միջոցառման գրանցման էջում: Թույլատրելի է տեքստային և HTML ձևաչափ: Ցուցադրվում է միջոցառման գրանցման ձևաթղթի վերին մասում:"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Footer message for Event Registration page. Text and html allowed. Displayed"
+" at the bottom of Event Registration form."
+msgstr "Միջոցառման գինացման էջատակու ներկայացված հաղորդագրություն․ Թույլատրելի է տեքստային և HTML ձևաչափ: Ցուցադրվում է միջոցառման գրանցման ձևաթղթի ներքևի հատվածում։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "Confirmation Title"
+msgstr "Հաստատման վերնագիր"
+
+#: CRM/Event/DAO/Event.php
+msgid "Title for Confirmation page."
+msgstr "Վերնագիր հաստատման էջի համար"
+
+#: CRM/Event/DAO/Event.php
+msgid "Confirm Text"
+msgstr "Հաստատման տեքստ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Is confirm email"
+msgstr "Էլ․ նամակակով հնարավոր է՞ հաստատել"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"If true, confirmation is automatically emailed to contact on successful "
+"registration."
+msgstr "Եթե այո, ապա կոնտակտին անմիջապես ավտոմատ կերպով էլ․ նամակով հաստատում է ուղարկվում հաջողությամբ իրականացված գրանցման վերաբերյալ "
+
+#: CRM/Event/DAO/Event.php
+msgid "Confirmation Email Text"
+msgstr "Հաստատման էլ․ նամակի տեքստը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"text to include above standard event info on confirmation email. emails are "
+"text-only, so do not allow html for now"
+msgstr "Հաստատման էլ․նամակի տեքստը ներառում է միջոցառման վերաբերյալ ստանդարտ տեղեկատվություն։ էլ. նամակները միայն տեքստային տարբերակով են html տարբերակն ընդունելի չէ։ "
+
+#: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
+msgid "Confirm From Name"
+msgstr "Հաստատել -------- անունից"
+
+#: CRM/Event/DAO/Event.php
+msgid "FROM email name used for confirmation emails."
+msgstr "ՈՒՂԱՐԿՈՂ-ի էլ․նամակի անունը, որն օգտագործվում է հաստատող էլ․նամակների համար"
+
+#: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
+msgid "Confirm From Email"
+msgstr "Հաստատել ուղարկողի էլ․ փոստի հասցեն"
+
+#: CRM/Event/DAO/Event.php
+msgid "FROM email address used for confirmation emails."
+msgstr "ՈւՂԱՐԿՈՂԻ էլ․ փոստի հասցեն, որը կիրառվում է հաստատման էլ․ նամակների համար"
+
+#: CRM/Event/DAO/Event.php
+msgid "Cc Confirm"
+msgstr "Հաստատման նամակի պատճեն"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"comma-separated list of email addresses to cc each time a confirmation is "
+"sent"
+msgstr "ստորակետներով միմյանցից առանձնացված էլ.փոստի հասցեների ցանկ, որոնց անհրաժեշտ է ուղարկել նամակի պատճեն՝ յուրաքանչյուր անգամ հաստատման նամակ ուղարկելիս"
+
+#: CRM/Event/DAO/Event.php
+msgid "Bcc Confirm"
+msgstr "Հաստատման նամակի ծածկապատճեն"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"comma-separated list of email addresses to bcc each time a confirmation is "
+"sent"
+msgstr "ստորակետներով միմյանցից առանձնացված էլ.փոստի հասցեների ցանկ, որոնց անհրաժեշտ է ուղարկել նամակի ծածկապատճեն՝ յուրաքանչյուր անգամ հաստատման նամակ ուղարկելիս "
+
+#: CRM/Event/DAO/Event.php
+msgid "Default Fee ID"
+msgstr "Բազային վճարի նույնականացուցիչ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Default Discount Fee ID"
+msgstr "Կանխադրված զեղչված վճարի նույնականացուցիչ"
+
+#: CRM/Event/DAO/Event.php
+msgid "ThankYou Title"
+msgstr "Շնորհակալագրի վերնագիր"
+
+#: CRM/Event/DAO/Event.php
+msgid "Title for ThankYou page."
+msgstr "Շնորհակալագրի էջի վերնագիր"
+
+#: CRM/Event/DAO/Event.php
+msgid "ThankYou Text"
+msgstr "Շնորհակալական նամակի տեքստ"
+
+#: CRM/Event/DAO/Event.php
+msgid "ThankYou Text."
+msgstr "Շնորհակալական նամակի տեքստ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Footer message."
+msgstr "Էջատակում զետեղված հաղորդագրություն"
+
+#: CRM/Event/DAO/Event.php
+msgid "Pay Later Allowed"
+msgstr "Տրվում է վճարումը հետագայում կատարելու թույլտվություն"
+
+#: CRM/Event/DAO/Event.php
+msgid "Pay Later Receipt Text"
+msgstr "Հետվճարային անդորրագրի տեքստ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Partial Payments Enabled"
+msgstr "Ակտիվացված է մաս-մաս վճարումներ կատարելու գործառույթը"
+
+#: CRM/Event/DAO/Event.php
+msgid "is partial payment enabled for this event"
+msgstr "Տվյալ միջոցառման համար ակտիվացված է մաս-մաս վճարումներ կատարելու գործառույթը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Minimum Initial Amount"
+msgstr "Նվազագույն նախնական գումար"
+
+#: CRM/Event/DAO/Event.php
+msgid "Allow Multiple Registrations"
+msgstr "Թույլատրվում է կատարել բազմակի գրանցումներ"
+
+#: CRM/Event/DAO/Event.php
+msgid "if true - allows the user to register multiple participants for event"
+msgstr "Եթե ճիշտ է, ապա օգտատիրոջը թույլ է տալիս  մի քանի մասնակից գրանցել միջոցառման համար"
+
+#: CRM/Event/DAO/Event.php
+msgid "Maximum number of additional participants per registration"
+msgstr "Յուրաքանչյուր գրանցման ժամանակ թույլատրվող հավելյալ մասնակիցների առավելագույն թիվը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Maximum number of additional participants that can be registered on a single"
+" booking"
+msgstr "Հավելյալ մասնակիցների առավելագույն քանակը, որոնց հնարավոր է գրանցել մեկ ամրագրման ժամանակ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Does Event allow multiple registrations from same email address?"
+msgstr "Միջոցառումը թույլ տալիս է՞ մի քանի մասնակից գրանցել միևնույն էլ․ փոստի հասցեից։"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"if true - allows the user to register multiple registrations from same email"
+" address."
+msgstr "եթե այո, ապա օգտատիրոջը թույլատրվում է մի քանի մասնակից գրանցել նույն էլ․ փոստի հասցեից։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "Waitlist Enabled"
+msgstr "Հերթացուցակն ակտիվացված է"
+
+#: CRM/Event/DAO/Event.php
+msgid "Whether the event has waitlist support."
+msgstr "Միջոցառումն ունի՞ հերթացուցակում գրանցվելու տարբերակ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Requires Approval"
+msgstr "Պահանջվում է հաստատում"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Whether participants require approval before they can finish registering."
+msgstr "Նախքան գրանցումն ավարտելը մասնակիցները պետք է՞ հաստատում ստանան:"
+
+#: CRM/Event/DAO/Event.php
+msgid "Expiration Time"
+msgstr "Ժամկետի ավարտ"
+
+#: CRM/Event/DAO/Event.php
+msgid "Expire pending but unconfirmed registrations after this many hours."
+msgstr "Որոշակի ժամանակից (այսքան ժամից) հետո սպասման մեջ գտնվող, սակայն չհաստատված գրանցումների ժամանակը սպառվում է։ "
+
+#: CRM/Event/DAO/Event.php
+msgid "Allow Self-service Cancellation or Transfer"
+msgstr "Թույլ է տալիս ինքնուրույն չեղարկել կամ փոխանցել"
+
+#: CRM/Event/DAO/Event.php
+msgid "Allow self service cancellation or transfer for event?"
+msgstr "Թույլ տալիս է՞ միջոցառման համար ինքնուրույն չեղարկում կամ փոխանցում կատարել"
+
+#: CRM/Event/DAO/Event.php
+msgid "Self-service Cancellation or Transfer Time"
+msgstr "Ինքնուրույն կատարվող չեղարկման կամ փոխանցման ժամկետը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Number of hours prior to event start date to allow self-service cancellation"
+" or transfer."
+msgstr "Միջոցառման մեկնարկից քանի ժամ առաջ կարելի է ինքնուրույնաբար չեղարկել կամ փոխանցում կատարել:"
+
+#: CRM/Event/DAO/Event.php templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Waitlist Text"
+msgstr "Հերթացուցակի տեքստը"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Text to display when the event is full, but participants can signup for a "
+"waitlist."
+msgstr "Եթե միջոցառման տեղերը լրացած են, ապա այդ ինֆորմացիան պետք է արտացոլվի տեքստում, սակայն մասնակիցները կարող են գրանցվել հերթացուցակում։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Approval Req Text"
+msgstr "Հաստատման տեքստ"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Text to display when the approval is required to complete registration for "
+"an event."
+msgstr "Տեքստում պետք է արտացոլված լինի, թե երբ է անհրաժեշտ հաստատում ունենալ՝ միջոցառման համար գրանցումն ավարտելու համար։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Is an Event Template"
+msgstr "Սա միջոցառման ձևանմուշն է՞"
+
+#: CRM/Event/DAO/Event.php
+msgid "whether the event has template"
+msgstr "միջոցառումը ձևանմուշ ունի՞"
+
+#: CRM/Event/DAO/Event.php
+msgid "Event Template Title"
+msgstr "Միջոցառման ձևանմուշի վերնագիրը"
+
+#: CRM/Event/DAO/Event.php
+msgid "FK to civicrm_contact, who created this event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Event Created Date"
+msgstr "Միջոցառման ստեղծման ամսաթիվը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that event was created."
+msgstr "Միջոցառման ստեղծման ամսաթիվը և ժամը"
+
+#: CRM/Event/DAO/Event.php
+msgid "The campaign for which this event has been created."
+msgstr "Քարոզարշավը, որի համար ստեղծվել է այս միջոցառումը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Can people share the event through social media?"
+msgstr "Մարդիկ կարող ե՞ն միջոցառման վերաբերյալ տեղեկատվությունը տարածել սոցիալական ցանցերի միջոցով։"
+
+#: CRM/Event/DAO/Event.php
+msgid "Is the booking confirmation screen enabled?"
+msgstr "Ամրագրման հաստատման էկրանն ակտիվացված է՞։"
+
+#: CRM/Event/DAO/Event.php
+msgid "If false, the event booking confirmation screen gets skipped"
+msgstr "Եթե սխալ է, ապա միջոցառման ամրագրման հաստատման էկրանը շրջանցվում է"
+
+#: CRM/Event/DAO/Event.php
+msgid "Parent Event ID"
+msgstr "Մայր միջոցառման նույնականացուցիչը"
+
+#: CRM/Event/DAO/Event.php
+msgid "Implicit FK to civicrm_event: parent event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Subevent Slot Label ID"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Subevent slot label. Implicit FK to civicrm_option_value where option_group "
+"= conference_slot."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Rule to use when matching registrations for this event"
+msgstr "Կանոն, որը պետք է կիրառվի այս միջոցառման համար համապատասխան գրանցումների ժամանակ"
+
+#: CRM/Event/DAO/Event.php
+msgid "if true than billing block is required this event"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "Participant Id"
+msgstr "Մասնակցի նույնականացուցիչը"
+
+#: CRM/Event/DAO/Participant.php
+msgid ""
+"Participant status ID. FK to civicrm_participant_status_type. Default of 1 "
+"should map to status = Registered."
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "Register date"
+msgstr "Գրանցման ամսաթիվը"
+
+#: CRM/Event/DAO/Participant.php
+msgid "When did contact register for event?"
+msgstr "Ե՞րբ է կոնտակտը գրանցվել այս միջոցառման համար։"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Participant Source"
+msgstr "Մասնակիցների աղբյուր"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Source of this event registration."
+msgstr "Այս միջոցառման գրանցման աղբյուրը"
+
+#: CRM/Event/DAO/Participant.php
+msgid ""
+"Populate with the label (text) associated with a fee level for paid events with multiple levels. Note that\n"
+"      we store the label value and not the key\n"
+"    "
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "Registered By ID"
+msgstr "Գրանցված է ---նույնականացուցիչով"
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to Participant ID"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to Discount ID"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "3 character string, value derived from config setting."
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "The campaign for which this participant has been registered."
+msgstr "Քարոզարշավը, որի համար գրանցվել է այս մասնակիցը:"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Discount Amount"
+msgstr "Զեղչի գումարը"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Event Cart ID"
+msgstr "Միջոցառման զամբյուղի նույնականացուցիչը"
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to civicrm_event_carts"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "Must Wait on List"
+msgstr "Անհրաժեշտ է սպասել հերթում"
+
+#: CRM/Event/DAO/Participant.php
+msgid "On Waiting List"
+msgstr "Հերթացուցակում է"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Transferred to Contact ID"
+msgstr "Փոխանցվել է կոնտակտի նույնականացուցիչին"
+
+#: CRM/Event/DAO/ParticipantPayment.php
+msgid "Participant Payment Id"
+msgstr "Մասնակցի վճարման նույնականացուցիչը"
+
+#: CRM/Event/DAO/ParticipantPayment.php
+msgid "Participant Id (FK)"
+msgstr "Մասնակցի նույնականացուցիչը (FK)"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Type ID"
+msgstr "Մասնակցի կարգավիճակի տեսակի նույնականացուցիչը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "unique participant status type id"
+msgstr "Եզակի մասնակցի կարգավիճակի տեսակի նույնականացուցիչ"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "non-localized name of the status type"
+msgstr "կարգավիճակի տեսակի չտեղայնացված անունը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Label"
+msgstr "Մասնակցի կարգավիճակի պիտակ"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "localized label for display of this status type"
+msgstr "տեղայնացված պիտակ կարգավիճակի այս տեսակի ցուցադրման համար "
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Class"
+msgstr "Մասնակցի կարգավիճակի դասը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "the general group of status type this one belongs to"
+msgstr "կարգի կարգավիճակի տեսակի ընդհանուր խումբը, որին պատկանում է այս մեկը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Is Reserved?>"
+msgstr "Մասնակցի կարգավիճակն ամրագրված է՞>"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this is a status type required by the system"
+msgstr "արդյոք սա կարգավիճակի տեսակը պահանջվում է համակարգի կողմից"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status is Active"
+msgstr "Մասնակցի կարգավիճակն ակտիվ է"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this status type is active"
+msgstr "արդյոք այս կարգավիճակի տեսակն ակտիվ է"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Counts?"
+msgstr "Մասնակցի կարգավիճակը հաշվի առնվում է՞։"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this status type is counted against event size limit"
+msgstr "արդյո՞ք այս կարգավիճակի տեսակի հաշվարկն իրականացվում է միջոցառման սահմանաչափի համեմատ"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "controls sort order"
+msgstr "վերահսկում է տեսակավորման կարգը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "Participant Status Visibility"
+msgstr "Մասնակցի կարգավիճակի տեսանելիությունը"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid ""
+"whether the status type is visible to the public, an implicit foreign key to"
+" option_value.value related to the `visibility` option_group"
+msgstr "կախված նրանից, թե կարգավիճակի տեսակը հանրության համար տեսանելի է, option_value.value- ի ենթադրյալ արտաքին բանալին կապված է « տեսանելիության »option_group- ի հետ:"
+
+#: CRM/Event/Form/EventFees.php templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid "Discount Set"
+msgstr "Զեղչային համակարգ"
+
+#: CRM/Event/Form/EventFees.php
+msgid "Record Payment?"
+msgstr "Վճարումը գրանցե՞լ "
+
+#: CRM/Event/Form/EventFees.php CRM/Event/Form/ManageEvent/Fee.php
+#: CRM/Event/Form/Registration/Register.php
+msgid "Event Fee(s)"
+msgstr "Միջոցառման վճար(ներ)"
+
+#: CRM/Event/Form/EventFees.php CRM/Event/Form/ParticipantFeeSelection.php
+msgid "Send Confirmation?"
+msgstr "Հաստատում ուղարկե՞լ"
+
+#: CRM/Event/Form/ManageEvent/Conference.php
+msgid "Parent Event"
+msgstr "Մայր միջոցառում"
+
+#: CRM/Event/Form/ManageEvent/Conference.php
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+msgid "Conference Slots"
+msgstr "Համաժողովների միջև ընկած ժամանակահատվածը"
+
+#: CRM/Event/Form/ManageEvent/Delete.php CRM/Event/Page/ManageEvent.php
+msgid "Delete Event"
+msgstr "Ջնջել միջոցառումը"
+
+#: CRM/Event/Form/ManageEvent/Delete.php
+msgid ""
+"This event cannot be deleted because there are participant records linked to"
+" it. If you want to delete this event, you must first find the participants "
+"linked to this event and delete them. You can use use <a href='%1'> "
+"CiviEvent >> Find Participants page </a>."
+msgstr "Այս միջոցառումը հնարավոր չէ ջնջել, քանի որ գոյություն ունեն դրա հետ կապված մասնակցների գրառումներ։  Եթե ցանկանում եք ջնջել այս միջոցառումը, ապա նախ պետք է գտնել այս միջոցառման հետ կապված մասնակիցներին և ջնջել նրանց: Դուք կարող եք օգտվել <a href='%1'> CiviEvent >> Գտնել մասնակիցների էջը</a>-ից:"
+
+#: CRM/Event/Form/ManageEvent/Delete.php
+msgid "'%1' has been deleted."
+msgstr "'%1' ջնջվել է "
+
+#: CRM/Event/Form/ManageEvent/Delete.php
+msgid "Template Deleted"
+msgstr "Ձևանմուշը ջնջված է"
+
+#: CRM/Event/Form/ManageEvent/Delete.php
+msgid "Event Deleted"
+msgstr "Միջոցառումը ջնջված է"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "This event is currently full."
+msgstr "Ներկայումս այս միջոցառման տեղերը սպառված են "
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"This event is currently full. However you can register now and get added to "
+"a waiting list. You will be notified if spaces become available."
+msgstr "Այս միջոցառման տեղերը սպառված են, սակայն Դուք կարող եք գրանցվել հիմա և Ձեր անունը կընդգրկվի հերթացուցակում։ Եթե տեղ ազատվի՝ Ձեզ կտեղեկացնեն այդ մասին։"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid ""
+"If you find that you are creating multiple events with similar settings, you"
+" may want to use the <a href=\"%1\">Event Templates</a> feature to "
+"streamline your workflow."
+msgstr "Եթե գտնում եք, որ նմանատիպ պարամետրերով բազմաթիվ միջոցառումներ եք ստեղծում, գուցե ցանկանաք օգտագործել <a href=\"%1\">Event Templates</a> գործառույթը` Ձեր աշխատանքային հոսքն ուղղորդելու համար:"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "From Template"
+msgstr "Ձևանմուշից"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Complete Description"
+msgstr "Լիարժեք նկարագրություն"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Include Map to Event Location"
+msgstr "Միջոցառման անցկացման հասցեին ավելացնել  քարտեզ "
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Max Number of Participants"
+msgstr "Մասնակիցների առավելագույն թիվը"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Max participants should be a positive number"
+msgstr "Մասնակիցների առավելագույն թիվը պետք է լինի դրական"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Offer a Waitlist?"
+msgstr "Առաջարկել գրանցել հերթացուցակում"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Waitlist Message"
+msgstr "Մասնակիցների առավելագույն թիվը պետք է լինի դրական"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Message if Event Is Full"
+msgstr "Հաղորդագրություն, եթե միջոցառման մասնակիցների թիվը լրացած է"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Is this Event Active?"
+msgstr "Այս միջոցառումն ակտիվ է՞"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Please do not use '/' in Event Title."
+msgstr "Խնդրում ենք միջոցառման վերնագրում չօգտագործել '/' ։"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Event Information and Settings"
+msgstr "Տեղեկատվություն միջոցառման վերաբերյալ և կարգավորումներ"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Enable Pay Later option?"
+msgstr "Ակտիվացնել վճարումն ավելի ուշ կատարելու տարբերակը"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Pay Later Label"
+msgstr "Վճարումն ավելի ուշ կատարելու պիտակ"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please enter a valid money value for this field (e.g. %1)."
+msgstr "Խնդրում ենք մուտքագրել  դրամական միավորով արտահայտված արժեքը (օրինակ `% 1) տվյալ դաշտի համար:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Discounts by Signup Date?"
+msgstr "Գոյություն ունե՞ն չեղչեր՝ պայմանավորված անդամագրման ամսաթվով։"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Add Discount Set to Fee Table"
+msgstr "Վճարների աղյուսակում ավելացնել զեղչերի վերաբերյալ տեղեկատվություն"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "The discount end date cannot be prior to the start date."
+msgstr "Զեղչի ավարտի ամսաթիվը չի կարող լինել նախքան մեկնարկի ամսաթիվը"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please specify either start date or end date."
+msgstr "Խնդրում ենք նշել կամ մեկնարկի ամսաթիվը կամ ավարտի ամսաթիվը:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Select non-overlapping discount start date."
+msgstr "Ընտրել զեղչի մեկնարկի չհամընկնող ամսաթիվ"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Select either of the dates."
+msgstr "Ընտրել ամսաթվերից որևէ մեկը"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "%1 is already used for Discount Name."
+msgstr "%1 արդեն կիրառվում է զեղչի անվան համար"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid ""
+"At least one fee should be entered for your Discount Set. If you do not see "
+"the table to enter discount fees, click the \"Add Discount Set to Fee "
+"Table\" button."
+msgstr "Ձեր զեղչային համակարգի համար անհրաժեշտ է մուտքագրել առնվազն մեկ վճարում: Եթե զեղչերը մուտքագրելու համար աղյուսակ չեք տեսնում ՝ սեղմեք «Վճարումների ցուցակում ավելացնել զեղչային համակարգ» կոճակը:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please select financial type."
+msgstr "Խնդրում ենք ընտրել ներդրման տեսակը"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please enter the fee label for the paid event."
+msgstr "Խնդրում ենք մուտքագրել վճարման վերնագիրը վճարովի միջոցառման համար  "
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please select an appropriate option as default."
+msgstr "Խնդրում ենք ընտրել համապատասխան բազային տարբերակ:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please enter a label for at least one fee level."
+msgstr "Խնդրում ենք պիտակ ավելացնել մասնակցավճարի առնվազն մեկ մակարդակի համար"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please enter an amount for at least one fee level."
+msgstr "Խնդրում ենք ավելացնել գումարը մասնակցավճարի առնվազն մեկ մակարդակի համար"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid ""
+"Please enter the Pay Later prompt to be displayed on the Registration form."
+msgstr "Խնդրում ենք  ավելացնել \"Վճարել ավելի ուշ\" հուշումը, որպեսզի այն երևա գրանցման ձևաթղթում:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid "Please enter the Pay Later instructions to be displayed to your users."
+msgstr "Խնդրում ենք մուտքագրել ավելի ուշ վճարում կատարելու ցուցումները, որոնք տեսանելի կլինեն Ձեր օգտատերերի համար:"
+
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid ""
+"You have indicated that this is a paid event, but no payment option has been"
+" selected. If this is not a paid event, please select the \"No\" option at "
+"the top of the page. If this is a paid event, please select at least one "
+"payment processor and/or enable the pay later option."
+msgstr "Դուք նշել եք, որ սա վճարովի միջոցառում է, սակայն վճարման որևէ տարբերակ ընտրված չէ: Եթե սա վճարովի միջոցառում չէ, ապա ընտրեք «Ոչ» տարբերակը էջի վերին մասում: Եթե սա վճարովի միջոցառում է՝ խնդրում ենք ընտրել առնվազն մեկ վճարման օպերատոր և / կամ ակտիվացնել վճարումն ավելի ուշ կատարելու տարբերակը:"
+
+#: CRM/Event/Form/ManageEvent/Location.php
+msgid "Create new location"
+msgstr "Ստեղծել նոր տեղադրվածք"
+
+#: CRM/Event/Form/ManageEvent/Location.php
+msgid "Use existing location"
+msgstr "Օգտագործել առկա վայրը"
+
+#: CRM/Event/Form/ManageEvent/Location.php
+msgid "Choose Location"
+msgstr "Ընտրել վայրը"
+
+#: CRM/Event/Form/ManageEvent/Location.php
+msgid "Use Location"
+msgstr "Օգտագործել վայրը"
+
+#: CRM/Event/Form/ManageEvent/Location.php
+msgid "Show Location?"
+msgstr "Ցույց տա՞լ վայրը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Profile for Additional Participants"
+msgstr "Պրոֆիլ լրացուցիչ մասնակիցների համար"
+
+#: CRM/Event/Form/ManageEvent/Registration.php CRM/Event/Page/EventInfo.php
+msgid "Register Now"
+msgstr "Գրանցվել հիմա"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Confirm Your Registration Information"
+msgstr "Հաստատեք Ձեր գրանցման տվյալները"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Thank You for Registering"
+msgstr "Շնորհակալություն գրանցման համար"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"Participation in this event requires approval. Submit your registration "
+"request here. Once approved, you will receive an email with a link to a web "
+"page where you can complete the registration process."
+msgstr "Այս միջոցառման մասնակցության համար պահանջվում է հաստատում: Մուտքագրեք գրանցման հայտն այստեղ: Հաստատվելուց հետո Դուք կստանաք էլ․ նամակ, որում նշված կլինի ինտերներտային էջի հղում, որտեղ էլ կարող եք ավարտին հասցնել գրանցման գործընթացը:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration Link Text"
+msgstr "Գրացման հղումի տեքստը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Register multiple participants?"
+msgstr "Գրանցել մի քանի մասնակի՞ց"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Maximum additional participants"
+msgstr "Առավելագույն թվով լրացուցիչ անդամներ"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Same email address?"
+msgstr "Էլ․ փոստի հասցեն նույնն է՞"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Duplicate matching rule"
+msgstr "Պատճենել համապատասխանեցման կանոնը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Require participant approval?"
+msgstr "Պահանջե՞լ մասնակցի հաստատումը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Approval message"
+msgstr "Հաստատման հաղորդագրություն"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Pending participant expiration (hours)"
+msgstr "Մասնակցի սպասման ժամանակահատվածի ավարտ (ժամ)"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Please enter the number of hours (as an integer)."
+msgstr "Խնդրում ենք մուտքագրել ժամերի քանակը (ամբողջ թվով):"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Allow self-service cancellation or transfer?"
+msgstr "Ինքնուրույն չեղարկելու կամ փոխանցելու հնարավորություն տա՞լ/տրվում է՞"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Cancellation or transfer time limit (hours)"
+msgstr "Չեղարկման կամ փոխանցման ժամկետ (ժամ)"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Introductory Text"
+msgstr "Ներածական տեքստ"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Use a confirmation screen?"
+msgstr "Հաստատման էկրան կիրառե՞լ "
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Send Confirmation Email?"
+msgstr "Հաստատում ուղարկե՞լ էլ․ փոստով"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "CC Confirmation To"
+msgstr "Հաստատման համանման պատճենն (CC) ուղարկել ---ին"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "BCC Confirmation To"
+msgstr "Հաստատման անտեսանելի համանման պատճեն (BCC) ուղարկել -------ին"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Please enter a Title for the registration Confirmation Page"
+msgstr "Խնդրում ենք մուտքագրել գրանցման հաստատման էջի անվանումը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Please enter a Title for the registration Thank-you Page"
+msgstr "Խնդրում ենք մուտքագրել \"Շնորհակալության\" էջի անվանումը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Please enter Confirmation Email FROM Name."
+msgstr "Խնդրում ենք մուտքագրել հաստատման էլ․ նամակ ուղարկողի անունը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Please enter Confirmation Email FROM Email Address."
+msgstr "Խնդրում ենք մուտքագրել հաստատման էլ․ նամակ ուղարկողի էլ․ փոստի հասցեն"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration end date should be after Registration start date"
+msgstr "Գրանցման վերջնաժամկետը պետք է լինի գրանցման մեկնարկի ամսաթվից հետո "
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"Please add a profile with an email address if 'Send Confirmation Email?' is "
+"selected"
+msgstr "Խնդրում ենք ավելացնել պրոֆիլ էլ․փոստի հասցեով, եթե ընտրված է \"Ուղարկել հաստատում էլ. նամակով\" տարբերակը"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"Allow multiple registrations from the same email address requires a profile "
+"of type 'Individual'"
+msgstr "Միևնույն էլ․ փոստի հասցեից բազմաթիվ գրանցումներ կատարելու թույլտվության համար անհրաժեշտ է ունենալ \"Անհատ\" տեսակի պրոֆիլ"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"Please include a Profile for online registration that contains an Email "
+"Address field and / or First Name + Last Name fields."
+msgstr "Առցանց գրանցման համար խնդրում ենք ներառել պրոֆիլ, որը պարունակում է      էլ․փոստի հասցեի դաշտ և/կամ \"Անուն + Ազգանուն\" դաշտեր:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"Please include a Profile for online registration of additional participants "
+"that contains an Email Address field and / or First Name + Last Name fields."
+msgstr "Լրացուցիչ մասնակիցների առցանց գրանցման համար խնդրում ենք ավելացնել պրոֆիլ, որը պարունակում է Էլ․փոստի հասցե դաշտ և / կամ \"Անուն + Ազգանուն\" դաշտեր:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"The selected profiles do not contain the fields necessary to match "
+"registrations with existing contacts.  This means all anonymous "
+"registrations will result in a new contact."
+msgstr "Ընտրված պրոֆիլները չեն պարունակում գրանցումներն առկա կոնտակտների հետ համապատասխանեցնելու համան անհրաժեշտ դաշտեր: Սա նշանակում է, բոլոր անանուն գրանցվողները կհամարվեն նոր կոնտակտ:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"The selected profiles can collect enough information to match registrations "
+"with existing contacts, but not all of the relevant fields are required.  "
+"Anonymous registrations may result in duplicate contacts."
+msgstr "Ընտրված պրոֆիլները կարող են հավաքել բավականաչափ տեղեկություններ` գրանցումներն առկա կոնտակտների հետ համապատասխանեցնելու համար, սակայն ոչ բոլոր համապատասխան դաշտերն են պարտադիր: Անանուն գրանցումների արդյունքում հնարավոր է, որ կոնտանտները կրկնվեն:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"The selected profiles do not contain the fields necessary to match "
+"additional participants with existing contacts.  This means all additional "
+"participants will result in a new contact."
+msgstr "Ընտրված պրոֆիլները չեն պարունակում դաշտեր, որոնք անհրաժեշտ են լրացուցիչ մասնակիցներին առկա մասնակիցների հետ համապատասխանեցնելու համար: Սա նշանակում է, բոլոր լրացուցիչ մասնակիցները կհամարվեն նոր կոնտակտ:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid ""
+"The selected profiles can collect enough information to match additional "
+"participants with existing contacts, but not all of the relevant fields are "
+"required.  This may result in duplicate contacts."
+msgstr "Ընտրված պրոֆիլները կարող են հավաքել բավականաչափ տեղեկատվություն` լրացուցիչ մասնակիցներին առկա կոնտակտների հետ  համապատասխանեցնելու համար, սակայն ոչ բոլոր համապատասխան դաշտերն են պարտադիր: Դրա արդյունքում հնարավոր է որ կոնտակտները կրկնվեն:"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Online Registration"
+msgstr "Առցանց գրանցում"
+
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+msgid "Info and Settings"
+msgstr "Տեղեկատվություն և կարգավորումներ"
+
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+msgid "Schedule Reminders"
+msgstr "Կազմել հիշեցումների ժամանակացույց "
+
+#: CRM/Event/Form/ManageEvent.php
+msgid "Configure Event"
+msgstr "Կազմաձևել միջոցառում"
+
+#: CRM/Event/Form/ManageEvent.php
+msgid "New Event Template"
+msgstr "Նոր միջոցառման ձևանմուշ"
+
+#: CRM/Event/Form/ManageEvent.php templates/CRM/Event/Page/DashBoard.tpl
+msgid "New Event"
+msgstr "Նոր միջոցառում"
+
+#: CRM/Event/Form/ManageEvent.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Manage Events"
+msgstr "Կառավարել միջոցառումներ"
+
+#: CRM/Event/Form/ManageEvent.php
+msgid "Manage Event Templates"
+msgstr "Միջոցառումների կառավարման ձևանմուշներ"
+
+#: CRM/Event/Form/Participant.php
+msgid "Event Registration for %1"
+msgstr "Միջոցառման գրանցում %1 -ի համար"
+
+#: CRM/Event/Form/Participant.php
+msgid "CiviEvent Dashboard"
+msgstr "CiviEvent-ի վահանակ"
+
+#: CRM/Event/Form/Participant.php
+msgid ""
+"This Participant is linked to a contribution. You must have 'delete in "
+"CiviContribute' permission in order to delete this record."
+msgstr "Մասնակիցը կապված է ներդրման հետ: Դուք պետք է ունենաք «CiviContribute-ում ջնջելու» թույլտվություն՝ այս գրանցումը ջնջելու համար:"
+
+#: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
+msgid ""
+"Delete this participant record along with associated participant record(s)."
+msgstr "Ջնջել այս մասնակցի գրանցումը, ինչպես նաև նրա հետ կապված մասնակիցների գրանցում(ներ)ը:"
+
+#: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
+msgid "Delete only this participant record."
+msgstr "Ջնջել միայն այս մասնակցի գրանցումը:"
+
+#: CRM/Event/Form/Participant.php
+msgid "Send Notification"
+msgstr "Ուղարկել ծանուցում"
+
+#: CRM/Event/Form/Participant.php
+msgid "Please enter the associated Financial Type"
+msgstr "Խնդրում ենք մուտքագրել համապատասխան ֆինանսական տեսակը"
+
+#: CRM/Event/Form/Participant.php
+msgid "This contact has already been assigned to this event."
+msgstr "Այս կոնտակտը արդեն կցվել է այս իրադարձությանը:"
+
+#: CRM/Event/Form/Participant.php
+msgid "Selected participant was deleted successfully."
+msgstr "Ընտրված մասնակիցը հաջողությամբ ջնջվել է:"
+
+#: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
+msgid ""
+"The following participants no longer have an event fee recorded. You can "
+"edit their registration and record a replacement contribution by clicking "
+"the links below:"
+msgstr "Հետևյալ մասնակիցների համար միջոցառման վճարման որևէ գրանցում գոյություն չունի: Դուք կարող եք խմբագրել նրանց գրանցման տվյալները և գրանցել նոր ներդրում` սեղմելով ստորև բերված հղումները:"
+
+#: CRM/Event/Form/Participant.php
+msgid "Group Payment Deleted"
+msgstr "Խմբային վճարումը ջնջված է"
+
+#: CRM/Event/Form/Participant.php
+msgid ""
+"%1 contacts have already been assigned to this event. They were not added a "
+"second time."
+msgstr "Այս միջոցառման համար նախատեսված է %1 կոնտակտ։ Նրանց չեն ավելացրել երկրորդ անգամ։ "
+
+#: CRM/Event/Form/Participant.php
+msgid "No participants were added."
+msgstr "Մասնակիցներ չեն ավելացվել։"
+
+#: CRM/Event/Form/Participant.php
+msgid "Selected Event is not Paid Event "
+msgstr "Ընտրված միջոցառումը վճարովի չէ։"
+
+#: CRM/Event/Form/Participant.php
+msgid "Offline Registration for Event: %2 by: %1"
+msgstr "Օֆլայն ռեժիմով գրանցում միջոցառման համար․ %2 ում կողմից: %1"
+
+#: CRM/Event/Form/Participant.php
+msgid "%1 : Offline registration (by %2)"
+msgstr "%1 : Օֆլայն ռեժիմով գրանցում (%2 կողմից)"
+
+#: CRM/Event/Form/Participant.php CRM/Event/Form/SelfSvcTransfer.php
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Event registration information for %1 has been updated."
+msgstr "Միջոցառման գրանցման վերաբերյալ տեղեկատվությունը թարմացվել է %1-ի համար:"
+
+#: CRM/Event/Form/Participant.php
+msgid "A confirmation email has been sent to %1"
+msgstr "Հաստատման նամակ է ուղարկվել % 1-ին։"
+
+#: CRM/Event/Form/Participant.php
+msgid "Event registration for %1 has been added."
+msgstr "%1-ի համար ավելացվել է միջոցառման գրանցում։"
+
+#: CRM/Event/Form/Participant.php CRM/Event/Form/SelfSvcTransfer.php
+msgid "A confirmation email has been sent to %1."
+msgstr "Հաստատման նամակ է ուղարկվել % 1-ին։"
+
+#: CRM/Event/Form/Participant.php
+msgid "Total Participant(s) added to event: %1."
+msgstr "Միջոցառմանն ավելացված մասնակից(ներ)ի ընդհանուր թիվը․ % 1 :"
+
+#: CRM/Event/Form/Participant.php
+msgid ""
+"Email has NOT been sent to %1 contact(s) - communication preferences specify"
+" DO NOT EMAIL OR valid Email is NOT present. "
+msgstr "% 1 կոնտակտ (ներ)ին էլ․ նամակ ՉԻ ուղարկվել․ հետադարձ կապի նախընտրելի միջոցների մեջ նշված է ԷԼ․ ՆԱՄԱԿ ՉՈՒՂԱՐԿԵԼ կամ նշված ՉԷ էլ․ փոստի գործող հասցե։ "
+
+#: CRM/Event/Form/Participant.php
+msgid "A confirmation email has been sent to ALL participants"
+msgstr "ԲՈԼՈՐ մասնակիցներին ուղարկվել է հաստատման նամակ"
+
+#: CRM/Event/Form/ParticipantFeeSelection.php
+msgid "Change selections for %1"
+msgstr "Փոփոխել ընտրանքները %1-ի համար"
+
+#: CRM/Event/Form/ParticipantFeeSelection.php
+msgid "Save and Record Payment"
+msgstr "Պահպանել և գրանցել վճարումը"
+
+#: CRM/Event/Form/ParticipantFeeSelection.php
+msgid "The fee selection has been changed for this participant"
+msgstr "Վճարման ընտրությունը փոխվել է տվյալ մասնակցի համար"
+
+#: CRM/Event/Form/ParticipantView.php
+msgid ""
+"The requested participant record does not exist (possibly the record was "
+"deleted)."
+msgstr "Հարցվող մասնակիցի գրառում գոյություն չունի (հնարավոր է, որ գրառումը ջնջվել է):"
+
+#: CRM/Event/Form/ParticipantView.php
+msgid "View Event Registration for"
+msgstr "Դիտել միջոցառման գրանցում -------ի համար"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "Register Participant %1 of %2"
+msgstr "Գրանցել մասնակից  %2 -ից %1 "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks like you are now registering a group of %1 participants. The event "
+"has %2 available spaces (you will not be wait listed). Registration for this"
+" event requires approval. You will receive an email once your registration "
+"has been reviewed."
+msgstr "Կարծես Դուք այժմ գրանցում եք % 1 մասնակիցների խումբ: Միջոցառումն ունի % 2 ազատ տեղ (Ձեզ հերթացուցակում չեն գրանցի): Այս միջոցառման համար գրանցվելու համար հաստատում է անհրաժեշտ: Դուք կստանաք էլեկտրոնային նամակ երբ Ձեր գրանցումը վերանայվի: Դուք կստանաք էլեկտրոնային նամակ երբ Ձեր գրանցումը վերանայվի:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks like you are now registering a group of %1 participants. The event "
+"has %2 available spaces (you will not be wait listed)."
+msgstr "Կարծես Դուք այժմ գրանցում եք % 1 մասնակիցների խումբ: Միջոցառումն ունի% 2 ազատ տեղ (Ձեզ հերթացուցակում չեն գրանցի): "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks like you are now registering a group of %1 participants. The event "
+"has %2 available spaces (you will not be wait listed). Please go back to the"
+" main registration page and reduce the number of additional people. You will"
+" also need to complete payment information."
+msgstr "Կարծես Դուք այժմ գրանցում եք % 1 մասնակիցների խումբ: Միջոցառումն ունի% 2 ազատ տեղ (Ձեզ հերթացուցակում չեն գրանցի): Խնդրում ենք վերադառնալ հիմնական գրանցման էջին և նվազեցնել հավելյալ անձանց թիվը: Դուք պետք է նաև լրացնեք վճարման համար անհրաժեշտ տեղեկատվությունը:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "Registration Error"
+msgstr "Գրանցման սխալ"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"If you skip this participant there will be enough spaces in the event for "
+"your group (you will not be wait listed). Registration for this event "
+"requires approval. You will receive an email once your registration has been"
+" reviewed."
+msgstr "Եթե դուրս թողնեք այս մասնակիցին, ապա բավականաչափ տեղեր  կլինեն Ձեր խմբի համար (Ձեզ չեն գրանցի հերթացուցակում): Այս միջոցառմանը գրանցվելու համար պահանջվում է հաստատում: Ձեր գրանցումը վերանայվելուց հետո կստանաք էլեկտրոնային նամակ:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"If you skip this participant there will be enough spaces in the event for "
+"your group (you will not be wait listed)."
+msgstr "Եթե դուրս թողնեք այս մասնակիցին, ապա բավականաչափ տեղեր կլինեն Ձեր խմբի համար (Ձեզ չեն գրանցի հերթացուցակում): "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"If you skip this participant there will be enough spaces in the event for "
+"your group (you will not be wait listed). Please go back to the main "
+"registration page and reduce the number of additional people. You will also "
+"need to complete payment information."
+msgstr "Եթե դուրս թողնեք այս մասնակիցին, ապա բավականաչափ տեղեր կլինեն Ձեր խմբի համար (Ձեզ չեն գրանցի հերթացուցակում): Խնդրում ենք վերադառնալ հիմնական գրանցման էջին և նվազեցնել հավելյալ անձանց թիվը: Դուք պետք է նաև լրացնեք վճարման համար անհրաժեշտ տեղեկատվությունը:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"This event is currently full. You are registering for the waiting list. You "
+"will be notified if spaces become available."
+msgstr "Տվյալ միջոցառման տեղերը սպառված են։ Դուք գրանցվում եք հերթացուցակում։ Մենք Ձեզ կտեղեկացնենք, եթե տեղեր ազատվեն։ "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks like you are registering more participants then there are spaces "
+"available. All participants will be added to the waiting list. You will be "
+"notified if spaces become available."
+msgstr "Կարծես, թե դուք ավելի շատ մասնակիցներ եք գրանցում, քան ազատ տեղերն են: Բոլոր մասնակիցները կներառվեն հերթացուցակում: Ձեզ կտեղեկացվի, եթե տարածքները հասանելի լինեն: Մենք Ձեզ կտեղեկացնենք, եթե տեղեր ազատվեն։ "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks like there are enough spaces in this event for your group (you will"
+" not be wait listed)."
+msgstr "Կարծես, թե այս միջոցառմանը բավականաչափ տեղ կա ձեր խմբի համար (Ձեզ չեն գրանցի հերթացուցակում)։"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"It looks there are enough spaces in this event for your group (you will not "
+"be wait listed). Registration for this event requires approval. You will "
+"receive an email once your registration has been reviewed."
+msgstr "Կարծես, թե այս միջոցառմանը բավականաչափ տեղ կա ձեր խմբի համար (Ձեզ չեն գրանցի հերթացուցակում)։ Այս միջոցառմանը գրանցվելու համար պահանջվում է հաստատում: Դուք կստանաք էլեկտրոնային նամակ երբ Ձեր գրանցումը վերանայվի:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"Please go back to the main registration page, to complete payment "
+"information."
+msgstr "Խնդրում ենք վերադառնալ հիմնական գրանցման էջին և լրացնել վճարման համար անհրաժեշտ տեղեկատվությունը:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "Skip Participant"
+msgstr "Դուրս թողնել մասնակցի"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "A person is already registered for this event."
+msgstr "Այս միջողառման համար արդեն մարդ է գրանցվել։"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "A person with this email address is already registered for this event."
+msgstr "Տվյալ էլ․ փոստի հասցեատերն արդեն գրանցված է այս միջոցառման համար։ "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "The email address must be unique for each participant."
+msgstr "Յուրաքանչյուր մասնակից պետք է ունենա ինքնօրինակ էլ․ փոստի հասցե։"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "The first name and last name must be unique for each participant."
+msgstr "Յուրաքանչյուր մասնակցի անունը և ազգանունը պետք է յուրօրինակ լինի։ "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"Your event registration will be confirmed. Please go back to the main "
+"registration page, to complete payment information."
+msgstr "Ձեր միջոցառման գրանցումը կհաստատվի: Խնդրում ենք վերադառնալ հիմնական գրանցման էջին՝ վճարման համար անհրաժեշտ տեղեկատվությունը լրացնելու համար:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"Sorry, it looks like this event only has %2 spaces available, and you are "
+"trying to register %1 participants. Please change your selections "
+"accordingly."
+msgstr "Ներեցեք, կարծես այս միջոցառման համար գոյություն ունի %2 ազատ տեղ, իսկ դուք փորձում եք գրանցել %1 մասնակից։ Խնդրում ենք փոխել Ձեր ընտրանքն ըստ այդմ։"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"You are going to skip the last participant, your event registration will be "
+"confirmed. Please go back to the main registration page, to complete payment"
+" information."
+msgstr "Դուք պետք է բաց թողնեք վերջին մասնակցին, Ձեր միջոցառման գրանցումը կհաստատվի: Խնդրում ենք վերադառնալ հիմնական գրանցման էջին՝ վճարման համար անհրաժեշտ տեղեկատվությունը լրացնելու համար:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"Your payment information looks incomplete. Please go back to the main "
+"registration page, to complete payment information."
+msgstr "Ձեր վճարման համար անհրաժեշտ տեղեկատվությունը թերի է: Խնդրում ենք վերադառնալ հիմնական գրանցման էջին՝ վճարման տեղեկատվությունը լրացնելու համար:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"You have skipped last participant and which result into event having enough "
+"spaces, but your registration require approval, Once your registration has "
+"been reviewed, you will receive an email with a link to a web page where you"
+" can complete the registration process."
+msgstr " Դուք բաց եք թողել վերջին մասնակցին, որի արդյունքում բավարար տեղեր կան, սակայն Ձեր գրանցման համար պահանջվում է հաստատում։ Երբ Ձեր գրանցումը վերանայվի դուք էլեկտրոնային փոստով կստանաք այն վեբ կայքի հղումը, որտեղ դուք կարող եք ավարտին հասցնել գրանցման գործընթացը: "
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid ""
+"You have skipped last participant and which result into event having enough "
+"spaces, hence your group become as register participants though you selected"
+" on wait list."
+msgstr "Դուք բաց եք թողել վերջին մասնակցին, որի արդյունքում բավարար տեղեր կան, հետևաբար, Ձեր խմբի համար կարծես իրականացվում է մասնակիցների գրանցում, չնայած որ Դուք ընտրել էիք հերաթացուցակը։"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "Registration information for participant %1 has been saved."
+msgstr "1% մասնակցի գրանցման տվյալները պահպանվել են:"
+
+#: CRM/Event/Form/Registration/AdditionalParticipant.php
+msgid "Registration Saved"
+msgstr "Գրանցումը պահպանվել է"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid ""
+"You have been returned to the start of the registration process and any sold"
+" out events have been removed from your selections. You will not be able to "
+"continue until you review your booking and select different events if you "
+"wish."
+msgstr "Դուք վերադարձել եք գրանցման գործընթացի սկիզբ, և ամբողջովին վաճառված բոլոր իրադարձությունները հանվել են Ձեր ընտրանքային ցանկից: Դուք չեք կարողանա շարունակել, մինչև չվերանայեք ձեր ամրագրումը և, ցանկության դեպքում, ընտրեք այլ միջոցառումներ:"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid ""
+"Unfortunately some of your options have now sold out for one or more "
+"participants."
+msgstr "Ցավոք, Ձեր որոշ ընտրած տարբերակներ ամբողջովին վաճառվել են մեկ կամ ավելի մասնակիցների համար:"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid ""
+"Please note that the options which are marked or selected are sold out for "
+"participant being viewed."
+msgstr "Խնդրում ենք նկատի ունենալ, որ նշված կամ ընտրված տարբերակներն ամբողջովին վաճառված են դիտարկվող մասնակցի համար:"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid "Sold out:"
+msgstr "Ամբողջովին վաճառված է"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid ""
+"The system did not record payment details for this payment and so could not "
+"process the transaction. Please report this error to the site administrator."
+msgstr "Համակարգն այս վճարման մանրամասները չի գրանցել, ուստի չի կարողացել  գործարքն իրականացնել: Խնդրում ենք այս սխալի մասին տեղեկացնել  կայքի ադմինիստրատորին:"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid " (multiple participants)"
+msgstr "(բազմաթիվ մասնակիցներ)"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"You do not have permission to access this event registration. Contact the "
+"site administrator if you need assistance."
+msgstr "Դուք այս իրադարձության գրանցման թույլտվություն չունեք: Կապվեք կայքի ադմինիստրատորի հետ, եթե Ձեզ օգնություն է անհրաժեշտ:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"Oops, it looks like there are currently no available spaces for the %1 "
+"event."
+msgstr "Օհ, կարծես, ներկայումս% 1 միջոցառման համար ազատ տեղեր չկան:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"Your Credit Card transaction was not successful. No money has yet been "
+"charged to your card."
+msgstr "Ձեր վարկային քարտի միջոցով գործարքը չի հաջողվել իրականացնել: Ձեր քարտից առայժմ գումար չի գանձվել:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"Click the \"Confirm Registration\" button to complete your registration in "
+"%1, or click \"Cancel Registration\" if you are no longer interested in "
+"attending this event."
+msgstr "Սեղմեք «Հաստատել գրանցումը» կոճակը՝ % 1-ում Ձեր գրանցումն ավարտելու համար կամ «Չեղարկել գրանցումը», եթե այլևս հետաքրքրված չեք այս միջոցառման մասնակցությամբ:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid "Confirm your registration for %1."
+msgstr "Հաստատեք Ձեր գրանցումը% 1-ի համար:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"Click the \"Confirm Registration\" button to begin, or click \"Cancel "
+"Registration\" if you are no longer interested in attending this event."
+msgstr "Սեղմեք «Հաստատել գրանցումը» կոճակը՝ սկսելու համար կամ «Չեղարկել գրանցումը», եթե այլևս հետաքրքրված չեք այս միջոցառման մասնակցությամբ:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+#: templates/CRM/Event/Page/UserDashboard.tpl
+msgid "Confirm Registration"
+msgstr "Հաստատել գրանցումը"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid "Are you sure you want to cancel your registration for this event?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք չեղարկել Ձեր գրանցումն այս միջոցառման համար:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid "Cancel Registration"
+msgstr "Չեղարկել գրանցումը"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"You can cancel your registration for %1 by clicking \"Cancel Registration\"."
+msgstr "Դուք կարող եք չեղարկել ձեր գրանցումը % 1-ի համար սեղմելով «Չեղարկել գրանցումը» կոճակը:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid ""
+"Oops, it looks like your registration for %1 has already been cancelled."
+msgstr "Օհ, կարծես % 1- ի համար գրանցումը արդեն չեղարկվել է:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid "%1 Event registration(s) have been cancelled."
+msgstr "% 1 Միջոցառման գրանցում(ներ) ը չեղարկվել են:"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+#: xml/templates/message_templates/participant_cancelled_html.tpl
+#: xml/templates/message_templates/participant_cancelled_text.tpl
+msgid "Your Event Registration has been cancelled."
+msgstr "Ձեր գրանցումը միջոցառմանը չեղարկվել է։"
+
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
+msgid "Email has been sent to : %1"
+msgstr "Էլ․ նամակ է ուղարկվել % 1-ին"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "How many people are you registering?"
+msgstr "Քանի՞ մարդ եք գրանցում:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"This event has only %1 space(s) left. If you continue and register more than"
+" %1 people (including yourself ), the whole group will be wait listed. Or, "
+"you can reduce the number of people you are registering to %1 to avoid being"
+" put on the waiting list."
+msgstr "Այս միջոցառման համար մնացել է միայն% 1 տեղ(եր): Եթե շարունակեք և գրանցեք ավելի քան %1-ից ավել մարդ (ներառյալ Ձեզ), ապա ամբողջ խումբը կընդգրկվի հերթացուցակում, կամ Դուք կարող եք նվազեցնել Ձեր կողմից գրանցվող մարդկանց թիվը մինչև 1% -ի, որպեսզի խուսափեք հերթացուցակում ընդգրկվելուց:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"Registration for this event requires approval. Once your registration(s) "
+"have been reviewed, you will receive an email with a link to a web page "
+"where you can complete the registration process."
+msgstr "Այս միջոցառմանը գրանցվելու համար պահանջվում է հաստատում: Երբ Ձեր գրանցում(ներ)ը վերանայվի, դուք էլեկտրոնային փոստով կստանաք այն վեբ կայքի հղումը, որտեղ դուք կարող եք ավարտին հասցնել գրանցման գործընթացը: "
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"Registration for this event requires approval. Once your registration has "
+"been reviewed, you will receive an email with a link to a web page where you"
+" can complete the registration process."
+msgstr "Այս միջոցառմանը գրանցվելու համար պահանջվում է հաստատում: Երբ Ձեր գրանցումը վերանայվի, դուք էլեկտրոնային փոստով կստանաք այն վեբ կայքի հղումը, որտեղ դուք կարող եք ավարտին հասցնել գրանցման գործընթացը: "
+
+#: CRM/Event/Form/Registration/Register.php
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "Register"
+msgstr "Գրանցվել"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Fee Level is a required field."
+msgstr "Գումարի չափը պարտադիր դաշտ է"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "There is only enough space left on this event for %1 participant(s)."
+msgstr "Այս միջոցառմանը բավարար տեղ է մնացել միայն % 1 մասնակց(իցներ)ի համար:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"Oops. It looks like you are trying to increase the number of additional "
+"people you are registering for. You can confirm registration for a maximum "
+"of %1 additional people."
+msgstr "Օհ, Կարծես, թե փորձում եք ավելացնել Ձեր կողմից գրանցվող հավելյալ մարդկանց թիվը: Դուք կարող եք հաստատել գրանցումն առավելագույնը 1% հավելյալ մարդկանց համար:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"Oops. There are enough available spaces in this event. You can not add "
+"yourself to the waiting list."
+msgstr "Օհ, Այս միջոցառման համար բավականաչափ ազատ տեղեր կան: Դուք չեք կարող Ձեզ հերթացուցակում ընդգրկել:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Please enter a whole number for Number of additional people."
+msgstr "Խնդրում ենք հավելյալ մարդկանց համար մուտքագրել ամբողջական թիվ"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Only %1 Registrations available."
+msgstr "Միայն % 1 գրանցումներն են հասանելի:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"Event Fee(s) can not be less than zero. Please select the options "
+"accordingly"
+msgstr "Միջոցառման վճար(ներ)ի գումարը չի կարող լինել զրոյից պակաս: Խնդրում ենք ընտրել համապատասխան տարբերակները"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "A minimum amount of %1 should be selected from Event Fee(s)."
+msgstr "Միջոցառման վճարից(ներ)ի տարբերակներից անհրաժեշտ է ընտրել նվազագույն գումարը %1։"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Please select a Payment Method"
+msgstr "Խնդրում ենք ընտրել վճարման եղանակը"
+
+#: CRM/Event/Form/Registration/Register.php CRM/Event/Form/SelfSvcTransfer.php
+msgid ""
+"Mandatory fields (first name and last name, OR email address) are missing "
+"from this form."
+msgstr "Այս ձևաթղթում բացակայում են պարտադիր դաշտերը (անունը և ազգանունը, կամ էլ-փոստի հասցեն):"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Registration information for participant 1 has been saved."
+msgstr "Մասնակից 1-ի համար պահպանվել են գրանցման տվյալները:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"It looks like you are already registered for this event. If you want to "
+"change your registration, or you feel that you've received this message in "
+"error, please contact the site administrator."
+msgstr "Դուք կարծես արդեն գրանցված եք այս միջոցառման համար: Եթե ցանկանում եք փոխել ձեր գրանցումը, կամ կարծում եք, որ այս հաղորդագրությունը սխալմամբ եք ստացել՝, խնդրում ենք դիմել կայքի ադմինիստրատորին:"
+
+#: CRM/Event/Form/Registration/Register.php CRM/Event/Page/EventInfo.php
+msgid "You can also <a href=\"%1\">register another participant</a>."
+msgstr "Դուք կարող եք նաև <a href=\"%1\"> գրանցել մեկ այլ մասնակից </a>:"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid "Oops."
+msgstr "Օհ"
+
+#: CRM/Event/Form/Registration/Register.php
+msgid ""
+"It looks like this participant is already registered for this event. If you "
+"want to change your registration, or you feel that you've received this "
+"message in error, please contact the site administrator."
+msgstr "Կարծես այս մասնակիցն արդեն գրանցված է այս միջոցառման համար: Եթե ցանկանում եք փոխել ձեր գրանցումը, կամ զգում եք, որ այս հաղորդագրությունը  սխալմամբ եք ստացել՝ խնդրում ենք դիմել կայքի ադմինիստրատորին:"
+
+#: CRM/Event/Form/Registration/ThankYou.php
+msgid "Thank You Page"
+msgstr "\"Շնորհակալության\" էջ"
+
+#: CRM/Event/Form/Registration.php
+msgid ""
+"No Fee Level(s) or Price Set is configured for this event.<br />Click <a "
+"href='%1'>CiviEvent >> Manage Event >> Configure >> Event Fees</a> to "
+"configure the Fee Level(s) or Price Set for this event."
+msgstr "Այս միջոցառման համար վճարումների կամ գնային սանդղակ(ներ) կազմվաձևած չէ։ <br />Սեղմեք<a href='%1'>CiviEvent >> Manage Event >> Configure >> Event Fees</a>վճարումային կամ գնային սանդղակ(ներ)ը կազմաձևելու համար։ "
+
+#: CRM/Event/Form/Registration.php
+msgid "Select at least one option from Event Fee(s)."
+msgstr "Միջոցառման վարձավճար(ներ)ի տարբերակներից ընտրել առնվազն մեկը։"
+
+#: CRM/Event/Form/Registration.php
+msgid "Sorry, currently only a single space is available for this option."
+msgstr "Ներեցեք, այս տարբերակի համար ներկայումս միայն մեկ ազատ տեղ կա:"
+
+#: CRM/Event/Form/Registration.php
+msgid "Sorry, currently only %1 spaces are available for this option."
+msgstr "Ներեցեք, այս տարբերակի համար ներկայումս միայն %1 ազատ տեղեր կան:"
+
+#: CRM/Event/Form/Registration.php CRM/Event/Page/EventInfo.php
+msgid ""
+"The event you requested is currently unavailable (contact the site "
+"administrator for assistance)."
+msgstr "Ձեզ հետաքրքրող միջոցառումը ներկայումս  առկա չէ (դիմեք կայքի ադմինիստրատորին):"
+
+#: CRM/Event/Form/Registration.php
+msgid ""
+"Online registration is not currently available for this event (contact the "
+"site administrator for assistance)."
+msgstr "Այս միջոցառման համար առցանց գրանցումը ներկայումս հնարավոր չէ (դիմեք կայքի ադմինիստրատորին):"
+
+#: CRM/Event/Form/Registration.php
+msgid "Registration for this event begins on %1"
+msgstr "Այս միջոցառման գրանցումը սկսվում է% 1-ից։"
+
+#: CRM/Event/Form/Registration.php
+msgid "Registration for this event ended on %1"
+msgstr "Այս միջոցառման համար գրանցումն ավարտվել է % 1-ին"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Name or Email"
+msgstr "Մասնակցի անունը կամ էլ․ փոստը"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Tag(s)"
+msgstr "Մասնակցի նշապիտակ(ներ)ը"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Group(s)"
+msgstr "Մասնակիցների խմբ(եր)ը"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Contact Type"
+msgstr "Մասնակցի կոնտակտային տեսակը"
+
+#: CRM/Event/Form/Search.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Find Participants"
+msgstr "Գտնել մասնակիցներին"
+
+#: CRM/Event/Form/SearchEvent.php
+msgid "Show Current and Upcoming Events"
+msgstr "Ցույց տալ ընթացիկ և առաջիկա միջոցառումները"
+
+#: CRM/Event/Form/SearchEvent.php
+msgid "Search All or by Date Range"
+msgstr "Որոնել բոլորը կամ ըստ ամսաթվերի միջակայքի"
+
+#: CRM/Event/Form/SearchEvent.php
+msgid "Events by Dates"
+msgstr "Միջոցառումներն ըստ ամսաթվերի"
+
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"You do not have sufficient permission to transfer/cancel this participant."
+msgstr "Դուք բավարար թույլտվություն չունեք այս մասնակիցի փոխանցման / չեղարկման համար:"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To Email"
+msgstr "Ստացողի էլ․ փոստի հասցեն"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To Last Name"
+msgstr "Ստացողի ազգանունը"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To First Name"
+msgstr "Ստացողի անունը"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Transfer Registration"
+msgstr "Փոխանցել գրանցումը"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Enter valid email address."
+msgstr "Մուտքագրել վավեր էլ․ փոստի հասցե"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid " is already registered for this event"
+msgstr "արդեն գրանցված է այս միջոցառման համար"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Contact does not exist."
+msgstr "Կոնտակտ գոյություն չունի"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Registration Transferred"
+msgstr "Գրանցումը փոխանցված է"
+
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "A cancellation email has been sent to %1."
+msgstr "Չեղարկման վերաբերյալ էլ․ նամակ է ուղարկվել %1-ին "
+
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Thanks"
+msgstr "Շնորհակալություն"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"Registration for this event cannot be cancelled or transferred once the "
+"event has begun. Contact the event organizer if you have questions."
+msgstr "Այս միջոցառման համար գրանցումը հնարավոր չէ չեղյալ համարել կամ փոխանցել եթե միջոցառումն արդեն սկսել է: Հարցերի դեպքում կապվեք միջոցառման կազմակերպչի հետ:"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"Registration for this event cannot be cancelled or transferred less than %1 "
+"hours prior to the event's start time. Contact the event organizer if you "
+"have questions."
+msgstr "Այս միջոցառման գրանցումը չի կարող չեղյալ համարվել կամ փոխանցվել, եթե միջոցառման մեկնարկին մնացել է %1 ժամից պակաս ժամանակ: Հարցերի դեպքում կապվեք միջոցառման կազմակերպչի հետ:"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Transfer or Cancel Registration"
+msgstr "Փոխանցել կամ չեղարկել գրանցումը"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Transfer"
+msgstr "Փոխանցել"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Please select Transfer OR Cancel action."
+msgstr "Խնդրում ենք ընտրել \"Փոխանցում\" կամ \"Չեղարկում\" գործողությունը:"
+
+#: CRM/Event/Form/Task/Badge.php
+msgid "Make Name Badges"
+msgstr "Պատրաստել անվանական բեյջեր "
+
+#: CRM/Event/Form/Task/Batch.php CRM/Event/Form/Task/PickProfile.php
+#: CRM/Event/Task.php
+msgid "Update multiple participants"
+msgstr "Թարմացնել մի քանի մասնակիցների"
+
+#: CRM/Event/Form/Task/Batch.php
+msgid "Update Participant(s)"
+msgstr "Թարմացնել մասնակից(ներ)ին"
+
+#: CRM/Event/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple participants."
+msgstr "Ընտրված պրոֆիլում ֆայլերի տեսակի դաշտ(եր)ը չի ապահովվում մի \"Թարմացնել բազմաթիվ մասնակիցներ\" գործառույթը:"
+
+#: CRM/Event/Form/Task/Batch.php
+msgid "The updates have been saved."
+msgstr "Թարմացումները պահպանվել են"
+
+#: CRM/Event/Form/Task/Cancel.php
+msgid "Cancel Registration for Event Participation"
+msgstr "Չեղարկել միջոցառման մասնակցի գրանցումը"
+
+#: CRM/Event/Form/Task/Cancel.php
+msgid "Cancel Registrations"
+msgstr "Չեղարկել գրանցումները"
+
+#: CRM/Event/Form/Task/Delete.php
+msgid "Delete Participations"
+msgstr "Ջնջել մասնակցությունները"
+
+#: CRM/Event/Form/Task/Delete.php
+msgid "%count participant deleted."
+msgid_plural "%count participants deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Event/Form/Task/ParticipantStatus.php
+msgid "Change All Statuses"
+msgstr "Փոխել բոլոր կարգավիճակները"
+
+#: CRM/Event/Form/Task/ParticipantStatus.php
+msgid "- select status -"
+msgstr "- ընտրել կարգավիճակ -"
+
+#: CRM/Event/Form/Task/Print.php
+msgid "Print Participant List"
+msgstr "Տպել մասնակիցների ցանկը"
+
+#: CRM/Event/Import/Form/DataSource.php
+msgid "On Duplicate Entries"
+msgstr "Կրկնվող գրանցումների դեպքում"
+
+#: CRM/Event/Import/Form/MapField.php
+msgid "Missing required field: Provide Participant ID"
+msgstr "Պարտադիր դաշտը բացակայում է․ Ներկայացնել մասնակցի նույնականացուցիչը"
+
+#: CRM/Event/Import/Form/MapField.php
+msgid "Or Provide Contact ID or External ID."
+msgstr "Կամ ներկայացնել կոնտակտի նույնականացուցիչը կամ արտաքին նույնականացուցիչը"
+
+#: CRM/Event/Import/Form/MapField.php
+msgid "Duplicate Import Participant Mapping Name"
+msgstr ""
+
+#: CRM/Event/Import/Parser/Participant.php
+msgid "Select either EventID OR Event Title"
+msgstr "Ընտրել միջոցառման նույնականացուցիչը կամ միջոցառման անվանումը"
+
+#: CRM/Event/Import/Parser/Participant.php
+msgid "Invalid value for Event ID"
+msgstr "Սխալ նշանակություն միջոցառման նույնականացուցչի համար"
+
+#: CRM/Event/Import/Parser.php
+msgid "View Participant URL"
+msgstr "Դիտել մասնակցի URL-ն"
+
+#: CRM/Event/Info.php
+msgid "CiviCRM Event Engine"
+msgstr "CiviCRM միջոցառման մեխանիզմ"
+
+#: CRM/Event/Info.php
+msgid "access CiviEvent"
+msgstr "մուտք գործել CiviCRM"
+
+#: CRM/Event/Info.php
+msgid ""
+"Create events, view all events, and view participant records (for visible "
+"contacts)"
+msgstr "Ստեղծել միջոցառումներ, դիտել բոլոր միջոցառումները և դիտել մասնակցի գրառումները (տեսանելի կոնտակտների պարագայում)"
+
+#: CRM/Event/Info.php
+msgid "edit event participants"
+msgstr "խմբագրել միջոցառման մասնակիցներին"
+
+#: CRM/Event/Info.php
+msgid "Record and update backend event registrations"
+msgstr "Գրանցել և թարմացնել միջոցառման եզրափակիչ գրանցումները"
+
+#: CRM/Event/Info.php
+msgid "edit all events"
+msgstr "խմբագրել բոլոր միջոցառումները"
+
+#: CRM/Event/Info.php
+msgid "Edit events even without specific ACL granted"
+msgstr "Գրանցել միջոցառումները նույնիսկ առանց կոնկրետ ACL-ի "
+
+#: CRM/Event/Info.php
+msgid "register for events"
+msgstr "գրանցվել միջոցառումներին"
+
+#: CRM/Event/Info.php
+msgid "Register for events online"
+msgstr "Գրանցվել միջոցառումներին առցանց"
+
+#: CRM/Event/Info.php
+msgid "view event info"
+msgstr "դիտել միջոցառման վերաբերյալ տեղեկատվությունը"
+
+#: CRM/Event/Info.php
+msgid "View online event information pages"
+msgstr "Առցանց տարբերակով դիտել միջոցառման վերաբերյալ տեղեկատվությունը"
+
+#: CRM/Event/Info.php
+msgid "view event participants"
+msgstr "դիտել միջոցառման մասնակիցներին"
+
+#: CRM/Event/Info.php
+msgid "delete in CiviEvent"
+msgstr "ջնջել CiviEvent-ում"
+
+#: CRM/Event/Info.php
+msgid "Delete participants and events that you can edit"
+msgstr "Ջնջել մասնակիցներին և միջոցառումները, որոնց կարող եք խմբագրել"
+
+#: CRM/Event/Info.php
+msgid "manage event profiles"
+msgstr "վարել միջոցառումների պրոֆիլները"
+
+#: CRM/Event/Info.php
+msgid ""
+"Allow users to create, edit and copy event-related profile forms used for "
+"online event registration."
+msgstr "Թույլատրել օգտատերերին ստեղծել, խմբագրել և պատճենել միջոցառումների հետ կապված պրոֆիլների ձեւերը, որոնք օգտագործվում են միջոցառման առցանց  գրանցման համար:"
+
+#: CRM/Event/Info.php
+msgid "Your Event(s)"
+msgstr "Ձեր միջոցառում(ներ)ը "
+
+#: CRM/Event/Page/DashBoard.php
+msgid "events"
+msgstr "միջոցառումներ"
+
+#: CRM/Event/Page/EventInfo.php
+msgid "You do not have permission to view this event"
+msgstr "Դուք այս միջոցառումը դիտելու թույլտվություն չունեք"
+
+#: CRM/Event/Page/EventInfo.php
+msgid ""
+"It looks like you are already registered for this event.  You may proceed if"
+" you want to create an additional registration."
+msgstr "Կարծես դուք արդեն գրանցված եք այս միջոցառման համար: Դուք կարող եք շարունակել, եթե ցանկանում եք ստեղծել լրացուցիչ գրանցում:"
+
+#: CRM/Event/Page/EventInfo.php
+msgid ""
+"It looks like you are already registered for this event. If you want to "
+"change your registration, or you feel that you've gotten this message in "
+"error, please contact the site administrator."
+msgstr "Կարծես դուք արդեն գրանցված եք այս միջոցառման համար: Եթե ցանկանում եք փոխել ձեր գրանցումը, կամ կարծում եք, որ այս հաղորդագրությունը սխալմամբ եք ստացել՝ խնդրում ենք դիմել կայքի ադմինիստրատորին:"
+
+#: CRM/Event/Page/EventInfo.php
+msgid ""
+"Event is currently full, but you can register and be a part of waiting list."
+msgstr "Միջոցառման բոլոր տեղերը զբաղված են, սակայն դուք կարող եք գրանցվել հերթացուցակում։"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Are you sure you want to make a copy of this Event?"
+msgstr "Վստահ ե՞ք, որ ցանկանում ենք ստեղծել այս միջոցառման պատճեն։"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Are you sure you want to delete this Event?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք ջնջել այս միջոցառումը։"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Disable Event"
+msgstr "Ապաակտիվացնել միջոցառումը"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Enable Event"
+msgstr "Ակտիվացնել միջոցառումը"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Copy Event"
+msgstr "Պատճենել միջոցառումը"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Register Participant"
+msgstr "Մասնակցի գրանցում"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Registration (Test-drive)"
+msgstr "Գրանցում (փորձնական)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Online Registration (Test-drive)"
+msgstr "Առցանց գրանցում (փորձնական)"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Registration (Live)"
+msgstr "Գրանցում (իրական)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Online Registration (Live)"
+msgstr "Առցանց գրանցում (իրական)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Event Links"
+msgstr "Միջոցառման հղումները"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Search Events"
+msgstr "Միջոցառումների որոնում"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Event %%StatusMessage%%"
+msgstr "Միջոցառման %%StatusMessage%%"
+
+#: CRM/Event/Page/ParticipantListing/NameStatusAndDate.php
+#: CRM/Event/Page/ParticipantListing.php
+msgid ""
+"The Participant Listing feature is not currently enabled for this event."
+msgstr "Մասնակիցների ցանկի կազմման ֆունկցիան այս միջոցառման համար միացված չէ:"
+
+#: CRM/Event/Page/ParticipantListing/NameStatusAndDate.php
+#: CRM/Event/Page/ParticipantListing/Simple.php
+#: CRM/Event/Page/ParticipantListing.php
+msgid "%1 - Participants"
+msgstr "%1 - մասնակիցներ"
+
+#: CRM/Event/Page/ParticipantListing.php
+msgid "Participant listing code file cannot be '%1'"
+msgstr "մասնակցի ցանկի կոդի ֆայլը չի կարող լինել '% 1'"
+
+#: CRM/Event/Page/Tab.php
+msgid "View Participant"
+msgstr "Դիտել մասնակցին"
+
+#: CRM/Event/Page/Tab.php
+msgid "Delete Participant"
+msgstr "Ջնջել մասնակցին"
+
+#: CRM/Event/PseudoConstant.php
+msgid "Positive"
+msgstr "Հաստատված է"
+
+#: CRM/Event/PseudoConstant.php
+msgid "Waiting"
+msgstr "Սպասման մեջ է"
+
+#: CRM/Event/PseudoConstant.php
+msgid "Negative"
+msgstr "Մերժված է"
+
+#: CRM/Event/Selector/Search.php
+msgid "View Participation"
+msgstr "Դիտել մասնակցությունը"
+
+#: CRM/Event/Selector/Search.php
+msgid "Edit Participation"
+msgstr "Խմբագրել մասնակցությունը"
+
+#: CRM/Event/Selector/Search.php
+msgid "Delete Participation"
+msgstr "Ջնջել մասնակցությունը"
+
+#: CRM/Event/Selector/Search.php templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Transfer or Cancel"
+msgstr "Փոխանցել կամ չեղարկել"
+
+#: CRM/Event/Selector/Search.php templates/CRM/Event/Page/UserDashboard.tpl
+msgid "Event Date(s)"
+msgstr "Միջոցառման ամսաթիվը(ամսաթվերը)"
+
+#: CRM/Event/Selector/Search.php
+msgid "CiviCRM Event Search"
+msgstr "CiviCRM միջոցառման որոնում"
+
+#: CRM/Event/Task.php
+msgid "Delete participants from event"
+msgstr "Ջնջել միջոցառման մասնակիցներին"
+
+#: CRM/Event/Task.php
+msgid "Export participants"
+msgstr "Արտահանել մասնակիցներին"
+
+#: CRM/Event/Task.php
+msgid "Cancel registration"
+msgstr "Չեղարկել գրանցումը"
+
+#: CRM/Event/Task.php
+msgid "Participant status - change"
+msgstr "Մասնակցի կարգավիճակը - փոխել"
+
+#: CRM/Event/Task.php
+msgid "Name badges - print"
+msgstr "Անվանական բեյջեր - տպել"
+
+#: CRM/Event/Task.php
+msgid "PDF letter - print for participants"
+msgstr "PDF ֆորմատի նամակ - տպել մասնակիցների համար"
+
+#: CRM/Event/Tokens.php
+msgid "Event Contact (Email)"
+msgstr "Միջոցառման կոնտակտ (էլ․ փոստի հասցե)"
+
+#: CRM/Event/Tokens.php
+msgid "Event Contact (Phone)"
+msgstr "Միջոցառման կոնտակտը (հեռախոսահամար)"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
+msgid "Choose Events For %1 (%2)"
+msgstr "Ընտրեք միջոցառումներ% 1 (% 2)-ի համար"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
+msgid "Session is Full"
+msgstr "Աշխատաշրջանը լրացված է"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
+msgid "more info"
+msgstr "հավելյալ տեղեկություն"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
+msgid "No description available for this event"
+msgstr "Տվյալ միջոցառման նկարագրությունն առկա չէ"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
+#: templates/CRM/Event/Form/Registration/Register.tpl
+msgid "Click here to register a different person for this event."
+msgstr "Սեղմեք այստեղ` այս միջոցառման համար այլ անձ գրանցելու համար:"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
+#: templates/CRM/Event/Form/Registration/Register.tpl
+msgid "Not %1, or want to register a different person"
+msgstr "%1 չէ, կամ ցանկանում եք գրանցել մեկ այլ մարդու"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
+msgid "Add Another Participant"
+msgstr "Ավելացնել մեկ այլ մասնակից"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
+msgid "There is no charge for this event."
+msgstr "Այս միջոցառումը վճարովի չէ"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
+msgid "Error adding a participant at"
+msgstr "Մասնակից ավելացնելիս սխալ է տեղի ունեցել"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+msgid "Waitlisted:"
+msgstr "Ընդգրկվել է հերթացուցակում"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+msgid "Subtotal:"
+msgstr "Ենթագումար"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+msgid "Total:"
+msgstr "Ընդամենը"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+msgid "Staff use only"
+msgstr "Միայն անձնակազմի օգտագործման համար"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+msgid "Note that will be sent to the billing customer."
+msgstr "Ծանուցում, որը կուղարկվի վճարողին"
+
+#: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
+msgid "Description of this transaction."
+msgstr "Այս գործարքի նկարագիրը"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+msgid ""
+"This is your receipt of payment made for the following event registration."
+msgstr "Սա հետևյալ միջոցառմանը գրանցվելու համար Ձեր կատարած վճարման անդորրագիրն է:"
+
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+msgid ""
+"Your order number is <strong>#%1</strong>. Please print this confirmation "
+"for your records. You will receieve a confirmation email with the "
+"information below.  Information about the workshops will be sent separately "
+"to each participant. Here's a summary of your transaction placed on %2:"
+msgstr "Ձեր պատվերի համարը <strong> #% 1</strong> է: Խնդրում ենք տպել այս հաստատումը Ձեզ մոտ ունենալու համար: Դուք էլ․ փոստով կստանաք հաստատման նամակ` ստորև ներկայացված տեղեկատվությամբ: Յուրաքանչյուր մասնակցի առանձին կուղարկվի աշխատաժողովի վերաբերյալ տեղեկատվությունը: Ահա% 2-ին տեղադրված Ձեր գործարքի ամփոփագիրը."
+
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+msgid ""
+"If you have questions about the status of your registration or purchase "
+"please contact us."
+msgstr "Եթե ունեք հարցեր Ձեր գրանցման կամ պատվերի կարգավիճակի վերաբերյալ, ապա դիմեք մեզ:"
+
+#: templates/CRM/Event/Cart/Form/viewCartLink.tpl
+msgid "<a href='%1'>Return to Cart</a>"
+msgstr "<a href='%1'>Վերադառնալ զամբյուղ</a>"
+
+#: templates/CRM/Event/Cart/Page/ViewCart.tpl
+#: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
+#: templates/CRM/Event/Form/Selector.tpl
+#: templates/CRM/Event/Page/DashBoard.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "View event info page"
+msgstr "Դիտել միջոցառման տեղեկատվական էջը"
+
+#: templates/CRM/Event/Cart/Page/ViewCart.tpl
+msgid "Check Out"
+msgstr "Ձևակերպել գնումը"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Selections"
+msgstr "Ընտրանք"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Event Level"
+msgstr "Միջոցառման մակարդակը"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Change Selections"
+msgstr "Փոխել ընտրանքը"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid "No active price fields found for this event!"
+msgstr "Այս միջոցառման համար գների ակտիվ դաշտեր չեն գտնվել:"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: xml/templates/message_templates/event_registration_receipt_text.tpl
+msgid "Payment Information"
+msgstr "Տեղեկություն վճարման մասին"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid "Registration Confirmation and Receipt"
+msgstr "Գրանցման հաստատում և անդորրագիր"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: xml/templates/message_templates/event_online_receipt_subject.tpl
+msgid "Registration Confirmation"
+msgstr "Գրանցման հաստատում"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid "Send Confirmation and Receipt"
+msgstr "Ուղարկել հաստատում և անդորրագիր"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid "Send Confirmation"
+msgstr "Ուղարկել հաստատում"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid "Automatically email a confirmation and receipt to %1?"
+msgstr "Ավտոմատ կերպով էլ․ փոստով հաստատման նամակը և անդորրագիրն ուղարկել      % 1-ին:"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid "Automatically email a confirmation to %1?"
+msgstr "Ավտոմատ կերպով էլ․ փոստով հաստատման նամակն ուղարկել % 1-ին:"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid ""
+"Enter a message you want included at the beginning of the confirmation "
+"email. EXAMPLE: 'Thanks for registering for this event.'"
+msgstr "Մուտքագրեք այն հաղորդագրությունը, որը ցանկանում եք որ ներառված լինի էլ․ փոստով ուղարկվող հաստատման նամակի սկզբնամասում: ՕՐԻՆԱԿ՝ «Շնորհակալություն այս միջոցառմանը գրանցվելու համար»:"
+
+#: templates/CRM/Event/Form/EventFees.tpl
+msgid ""
+"The Payment Status for this participant is Completed. The Participant Status"
+" is set to Pending (pay later). Click Cancel if you want to review or modify"
+" these values before saving this record"
+msgstr "Այս մասնակցի համար վճարման կարգավիճակը լրացված է: Մասնակիցի կարգավիճակը սահմանված է որպես \"սպասման մեջ\" (վճարել ավելի ուշ): Սեղմել \"Չեղարկել\", եթե ցանկանում եք նախքան այս գրառումը պահպանելը վերանայել կամ փոփոխել այս տվյալերը"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "How should this change affect others in the series?"
+msgstr "Ինչպե՞ս պետք է այս փոփոխությունը ազդի շարքում մյուսների վրա:"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Only this %1"
+msgstr "Միայն այս %1 "
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "All others in the series will remain unchanged."
+msgstr "Այս շարքում մյուս բոլորը կմնան անփոփոխ"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "This %1 onwards"
+msgstr "Այս % 1-ը և դրանից հետո"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Change applies to this %1 and all that come after it."
+msgstr "Փոփոխությունը վերաբերում է այս % 1-ին և այն ամենին, որ գալիս է դրանից հետո:"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Every %1"
+msgstr "Յուրաքանչյուր %1  "
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Change applies to every %1 in the series."
+msgstr "Փոփոխությունը վերաբերում է շարքի յուրաքանչյուր% 1-ին:"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid ""
+"Changes to date or time will <em>not</em> be applied to others in the "
+"series."
+msgstr "Ամսաթվի կամ ժամանակի փոփոխությունները <em>չի</em> կիրառվի շարքի մյուսներ բաղադրիչների համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Update repeating %1"
+msgstr "Թարմացնել կրկնվող %1-ը"
+
+#: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
+msgid "Mode could not be updated, save only this %1?"
+msgstr "Ռեժիմը հնարավոր չէ թարմացնել, պահպանեք միայն այս % 1-ը :"
+
+#: templates/CRM/Event/Form/ManageEvent/Delete.tpl
+msgid ""
+"Warning: Deleting this event template will also delete associated Event "
+"Registration Page and Event Fee configurations."
+msgstr "Զգուշացում. Այս միջոցառման ձևանմուշը ջնջելու պարագայում կջնջվի նաև դրան առնչվող միջոցառման գրանցման էջի և միջոցառումների մասնակցավճարների կոնֆիգուրացիաները:"
+
+#: templates/CRM/Event/Form/ManageEvent/Delete.tpl
+msgid ""
+"Warning: Deleting this event will also delete associated Event Registration "
+"Page and Event Fee configurations."
+msgstr "Զգուշացում. Այս միջոցառումը ջնջելու պարագայում կջնջվի նաև դրան առնչվող միջոցառման գրանցման էջի և միջոցառումների մասնակցավճարների կոնֆիգուրացիաները:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"This is the title that users will see when they are selecting an event "
+"template to clone for a new event. It is <em>not</em> the title of the event"
+" itself."
+msgstr "Սա այն վերնագիրն է, որը օգտատերերը կտեսնեն, երբ նրանք միջոցառման ձևանմուշ են ընտրում, որպեսզի կիրառեն նոր միջոցառման համար, սակայն դա միջոցառման վերնագիրը <em>չէ</em>:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You can select an existing Event Template as the basis for the new template "
+"you are creating, or you can create the template from scratch."
+msgstr "Դուք կարող եք ընտրել միջոցառման առկա ձևանմուշ, որի հիման վրա դուք կարող եք ստեղծել նոր ձևանմուշ, կամ կարող եք զրոյից ստեղծել ձևանմուշ։"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You can select a pre-configured Event Template to streamline setting up your"
+" new event. The information and configuration settings from the selected "
+"template will be automatically copied to this new event. You can then add "
+"and modify as needed for this specific event instance. Event templates do "
+"NOT store the event date and time - so you will definitely need to set those"
+" on this page."
+msgstr "Ձեր նոր միջոցառման կազմաձևումը հեշտացնելու նպատակով կարող եք ընտրել նախապես կազմաձևված միջոցառման ձևանմուշ: Ընտրված ձևանմուշից ստացված տեղեկատվությունը և կարգավորումներն ինքնաբերաբար կպատճենվեն են այս նոր միջոցառման մեջ: Այնուհետև, անհրաժեշտության դեպքում, Դուք կարող եք ավելացում և փոփոխություն կատարել տվյալ միջոցառման համար: Միջոցառումների ձևանմուշներում ՉԵՆ պահպանվում միջոցառման ամսաթիվը և ժամը, ուստի Դուք դրանք անպայման պետք է այդ պարամետրերը նշեք այս էջում:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"The Role you select here is automatically assigned to people when they "
+"register online for this event (usually the default 'Attendee' role)."
+msgstr "Այստեղ Ձեր ընտրած դերն ավտոմատ կերպով վերագրվում է մարդկանց, երբ նրանք առցանց գրանցվում են այս միջոցառման համար (սովորաբար ստանդարտ «Մասնակցի» դերը):"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You can also allow people to choose a Role by creating a Profile with the "
+"Participant Role field. Then include that Profile when you configure the "
+"Online Registration page for this event."
+msgstr "Կարող եք նաև մարդկանց հնարավորություն տալ ընտել դերակատարում ՝ ստեղծելով պրոֆիլ \"Մասնակցի դերը\" դաշտով: Այնուհետև տվյալ միջոցառման առցանց գրանցման էջը կազմաձևելիս ներառեք այդ պրոֆիլը:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"To allow users to see a listing of participants, set this field to 'Name' "
+"(list names only), 'Name and Email', or 'Name, Status and Register Date'."
+msgstr "Այս դաշտում տեղադրեք «Անուն» (միայն ցանկում առկա անունները), «Անուն և էլ․փոստի հասցե» կամ «Անուն, կարգավիճակ և գրանցման ամսաթիվ» պարամետրերը, որպեսզի օգտատերերին հնարավորություն տրվի տեսնել մասնակիցների ցանկը:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You will need to set Access Control permissions to include 'view event "
+"participants' for any Roles you want to access this listing."
+msgstr "Ձեզ հարկավոր է սահմանել Մուտքի հսկողության թույլտվություններ` ներառելու համար «Դիտելու միջոցառման մասնակիցներին» ֆունկցիան ցանկացած դերի համար, որ ցանկանում եք տեսնել այս ցուցակում:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Create links to the listing page by copying the following URL, and adding it"
+" to the Event Description below and / or as a menu item or links elsewhere "
+"on your site:"
+msgstr "Ստեղծեք ցուցակների էջի հղումներ ՝ պատճենելով հետևյալ URL- ն և այն ավելացնելով ստորև ներկայացված միջոցառման նկարագրությանը և /կամ որպես ցանկի տարր կամ Ձեր կայքի որևէ այլ հղում։"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"After adding your event, create links to the listing page by copying the URL"
+" provided in the 'Participant Listing' section of the Configure Event page."
+msgstr "Ձեր միջոցառումն ավելացնելուց հետո ստեղծեք ցանկերի էջի հղումներ` պատճենելով միջոցառման կազմաձևման էջի« Մասնակից ցուցակագրում» բաժնում նշված URL-ն:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Then create front-end links to the Participant Listing page using the Menu "
+"Manager. Select <strong>Participant Listing Page</strong> and enter "
+"<strong>%1</strong> for the Event ID."
+msgstr "Այնուհետև ստեղծեք մասնակիցների ցուցակագրման էջի ինտերֆեյսի հղումները՝ կիրառեելով Menu Manager-ը: Ընտրեք <strong>Մասնակիցների ցուցակագրման էջը</strong> և մուտքագրեք <strong>% 1</strong>՝ որպես միջոցառման նույնականացուցիչ:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Maximum Participants"
+msgstr "Մասնակիցների առավելագույն թիվը"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Optionally set a maximum number of participants for this event."
+msgstr "Ցանկության դեպքում սահմանեք մասնակիցների առավելագույն քանակը  տվյալ միջոցառման համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You may allow users to join a waitlist when the event is full (by checking "
+"the box below)."
+msgstr "Դուք կարող եք թույլ տալ, որպեսզի օգտատերերն ընդգրկվեն հերթացուցակում, եթե միջոցառման բոլոր տեղերը զբաղված են  (դրա համար նշում կատարեք ստորև ներկայացված վանդակը)"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You may allow users to join a waitlist when the event is full. To enable "
+"this feature you must first enable the Participant Statuses used by the "
+"waitlist work-flow (click the wrench icon, or navigate to Administer » "
+"CiviEvent » Participant Statuses). Then reload this form and check 'Offer a "
+"Waitlist?'."
+msgstr "Դուք կարող եք թույլ տալ, որպեսզի օգտատերերն ընդգրկվեն հերթացուցակում, եթե միջոցառման բոլոր տեղերը զբաղված են։ Այս գործառույթն ակտիվացնելու համար դուք նախ պետք է ակտիվացնեք \"Մասնակիցների կարգավիճակները\", որոնք օգտագործվում են հերթացուցակի աշխատանքային ընթացակարգով (սեղմեք wrench պատկերանշանին կամ տեղափոխվեք կառավարել »CiviEvent» մասնակցի կարգավիճակը): Այնուհետև վերաբեռնեք այս ձևաթուղթը և նշեք «Առաջարկե՞լ հերթացուցակ»:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Otherwise, the registration link is hidden and the &quot;Event Full "
+"Message&quot' is displayed when the maximum number of registrations is "
+"reached. Only participants with status types marked as 'counted' are "
+"included when checking if the event is full."
+msgstr "Հակառակ դեպքում, գրանցման հղումը թաքնված է, և ցուցադրվում է &quot;Event Full Message&quot', երբ գրանցումների թիվը հասնում է առավելագույնին: Միջոցառման ազատ տեղերը ստուգելիս ներառված են լինում միայն \"հաշվի առնված\" կարգավիճակ ունեցող մասնակիցները:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Event-Full Message"
+msgstr "Հաղորդագրություն միջոցառման բոլոր տեղերը զբաղված լինելու մասին"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Text displayed on the Event Information page when the maximum number of "
+"registrations is reached (unless you are offering a waitlist). If online "
+"registration is enabled, this message will also be displayed if users "
+"attempt to register."
+msgstr "Միջոցառումների մասին տեղեկատվության էջում ցուցադրված տեքստը, երբ  առավելագույն թվով գրանցումներ են կատարվել (եթե դուք չեք առաջարկում հերթացուցակ): Եթե առցանց գրանցման հնարավորությունն ակտիվացված է, այս հաղորդագրությունը նույնպես կցուցադրվի, եթե օգտվողները փորձեն գրանցվել:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Waitlist"
+msgstr "Հերթացուցակ"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Check this box to allow users to join a waitlist if the event is full. If a "
+"space becomes available, the first participant from the waitlist will move "
+"to 'Pending from waitlist' status, and will be sent an email with a link to "
+"complete their registration (including paying event fees - if any)."
+msgstr "Նշեք այս վանդակը, որպեսզի օգտատերերին թույլ տրվի ընդգրկվել հերթացուցակում, եթե միջոցառման բոլոր տեղերը զբաղված են: Եթե տեղ ազատվի՝ հերթացուցակի առաջին տեղը զբաղեցնող մասնակիցը կարգավիճակը կդառնա «Հերթացուցակից սպասման մեջ գտնվող», և նրան նամակ կուղարկվի էլ.փոստով,  որտեղ ներառված կլինի հղում՝ իրենց գրանցումն ավարտին հասցնելու համար (ներառյալ միջոցառման մասնակցավճարների վճարումը, եթե այդպիսին կա):"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"This message is displayed on the event information and event registration "
+"pages when the event is full AND the waitlist feature is enabled."
+msgstr "Այս հաղորդագրությունը ցուցադրվում է միջոցառման տեղեկատվական և միջոցառման գրանցման էջերում, երբ միջոցառման բոլոր տեղերը զբաղված են ԵՎ ակտիվացված է հերթացուցակը:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Include map presenting event location on event information page? (A map "
+"provider must be configured under <a href='%1'>Administer > System Settings "
+"> Mapping and Geocoding</a>)"
+msgstr "Միջոցառման տեղեկատավական էջում ներառե՞լ քարտեզ, որտեղ նշված է միջոցառման անցկացման վայրը: (Քարտեզի մատակարարը պետք է կազմաձևված լինի <a href='%1'>Administer > System Settings > Mapping and Geocoding</a>) "
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid "Public Events"
+msgstr "Հանրային միջոցառումներ"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"When enabled, this event will be included in iCalendar feeds and displayed "
+"on your site's \"Upcoming Events\" block."
+msgstr "Երբ ակտիվացվի, այս միջոցառումը կներառվի iCalendar-ի թարմացումների մեջ և կցուցադրվի Ձեր կայքի «Գալիք միջոցառումներ» բլոկում:"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"When enabled, links allowing people to share this event with their social "
+"network will be displayed (e.g. Facebook \"Like\", Google+, and Twitter)."
+msgstr "Ակտիվացվելիս կցուցադրվեն հղումներ, որոնք մարդկանց թույլ կտան այս միջոցառումը տարածել իրենց սոցիալական ցանցով (օրինակ ՝ Facebook- ի «Like», Google+ և Twitter):"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"Social media links will be included on the Event Info page, Thank-you page, "
+"Tell-a-Friend page (if enabled), and in event confirmation emails."
+msgstr "Սոցիալական ցանցերի հղումները կցուցադրվեն միջոցառումների  տեղեկատվական էջում, \"Շնորհակալության\" էջում, \"Տեղեկացրու ընկերոջդ\" էջում (եթե միացված է), և միջոցառումների հաստատման էլ. նամակներում։"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
+msgid ""
+"Please use only alphanumeric, spaces, hyphens and dashes for event names."
+msgstr "Միջոցառման անունները նշելիս կիրառել տառեր, թվեր, բացատներ և գծիկներ։   "
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
+msgid "Edit Participant Status Options"
+msgstr "Խմբագրել մասնակիցների կարգավիճակի ընտրանքները"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
+msgid ""
+"When this Event is active, create links to the Event Information page by "
+"copying and pasting the following URL:"
+msgstr "Երբ այս միջոցառումն ակտիվ է, ստեղծեք միջոցառման տեղեկատվական էջի հղումներ` պատճենելով և տեղադրելով հետևյալ URL- ն."
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
+msgid ""
+"When this Event is active, create front-end links to the Event Information "
+"page using the Menu Manager. Select <strong>Event Info Page</strong> and "
+"enter <strong>%1</strong> for the Event ID."
+msgstr "Երբ այս միջոցառումն ակտիվ է՝ ստեղծեք միջոցառման տեղեկատվական էջի ինտերֆեյսի հղումները՝ կիրառեելով Menu Manager-ը: Ընտրեք <strong>Միջոցառման տեղեկատվական էջը</strong> և մուտքագրեք <strong>% 1</strong>՝ որպես միջոցառման նույնականացուցիչ:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"No Payment Processor has been configured / enabled for your site. If this is"
+" a <strong>paid event</strong> AND you want users to be able to "
+"<strong>register and pay online</strong>, you will need to <a "
+"href='%1'>configure a Payment Processor</a> first. Then return to this "
+"screen and assign the processor to this event."
+msgstr "Ձեր կայքի համար ոչ մի վճարման օպերատոր կազմաձևած /ակտիվացված չէ: Եթե սա <strong>վճարովի միջոցառում է</strong> և ցանկանում եք, որպեսզի օգտատերերը կարողանան <strong>գրանցվել և վճարել առցանց </strong>, ապա Ձեզ նախ հարկավոր է <a href='%1'> կազմաձևել վճարման օպերատոր </a>, այնուհետև վերադառնալ այս էկրանին և այս միջոցառման համար օպերատոր նշանակել:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid "Select the currency to be used for event registration."
+msgstr "Ընտրեք այն արժույթը, որը պետք է օգտագործվի միջոցառման գրանցման համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"If this is a paid event and you want users to be able to register and pay "
+"online, select a payment processor to use."
+msgstr "Եթե սա վճարովի միջոցառում է և Դուք ցանկանում եք, որպեսզի օգտատերերը կարողանան գրանցվել և վճարումը կատարել առցանց տարբերակով, ապա ընտրեք վճարման պրոցեսոր:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"NOTE: Alternatively, you can enable the <strong>Pay Later</strong> feature "
+"below without setting up a payment processor. All users will then be asked "
+"to submit payment offline (e.g. mail in a check, call in a credit card, "
+"etc.)."
+msgstr "Նշում. Դուք կարող եք նաև ակտիվացնել ներքևում գտնվող <strong>Pay Later</strong> գործառույթը ՝ առանց վճարային օպերատոր տեղադրելու: Այնուհետև բոլոր օգտատերերին կխնդրվի վճարում կատարել ոչ առցանց ռեժիմով (օրինակ ՝ փոստով չեկ ուղարկել, վարկային քարտով՝ զանգահարելու միջոցով և այլն):"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Instructions added to Confirmation and Thank-you pages when the user selects"
+" the 'pay later' option (e.g. 'Mail your check to ... within 3 business "
+"days.')."
+msgstr "«Հաստատման» կամ  «Շնորհակալության»  էջերին ավելացված ցուցումներ, երբ օգտատերն ընտրում է «վճարել ավելի ուշ» տարբերակը (օրինակ ՝ «Ուղարկել Ձեր չեկը ...-ին  3 աշխատանքային օրվա ընթացքում»:):"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"This label is displayed with the list of event fees. When using a Price Set,"
+" this label is the title for the section containing the price fields."
+msgstr "Այս պիտակը ցուցադրվում է միջոցառումների վճարների ցանկի հետ միասին: Գնացուցակ օգտագործելիս այս պիտակը գների դաշտեր պարունակող հատվածի վերնագիրն է:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"This financial type will be assigned to payments made by participants when "
+"they register online. If using a price set below note that the contribution "
+"record will have this financial type, however line items will be processed "
+"using the actual financial type selected for the price set item."
+msgstr "Ֆինանսական այս տեսակը կսահմանվի այն մասնակիցների կողմից կատարված վճարումների համար, ովքեր առցանց են գրանցվում: Եթե ստորև նշված գինը օգտագործեք, նշեք, որ ներդրման գրառումը կունենա այս ֆինանսական տեսակը, սակայն տողերում նշված տեղեկատվությունը կվերամշակվի` կիրառելով փաստացի ֆինանսական տեսակը, որն ընտրված է սահմանված գնուվ պարագայի համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"No Price Set has been configured / enabled for your site. Price sets allow "
+"you to meet the complex demands of your event registration structure.(e.g. "
+"\"Pay $15 more for lunch.\"). Click <a href='%1'>here</a> if you want to "
+"configure price sets for your site."
+msgstr "Ձեր կայքի համար ոչ մի գնային սանդղակ չի կազմաձևվել / ակտիվացվել:  Գնային սանդղակները հնարավորություն են տալիս բավարարել միջոցառման գրանցման  կառուցվածքի բարդ պահանջները (օրինակ ՝ «Լանչի համար վճարեք ևս 15 դոլար»): Սեղմեք <a href='%1'>այստեղ</a>, եթե ցանկանում եք գնային սանդղակ կազմել Ձեր կայքի համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Select a pre-configured Price Set to offer multiple individually priced "
+"options for event registrants. Otherwise, select &quot;-none-&quot; and "
+"enter one or more fee levels in the table below. Create or edit Price Sets "
+"<a href='%1'>here</a>."
+msgstr "Ընտրեք նախապես կազմաձևված «Գնային սանդղակ», որում առաջարկվում է  մի շարք անհատական գնային տարբերակներ միջոցառումների համար գրանցվողների համար: Հակառակ դեպքում ընտրեք &quot;-none-&quot;  և ստորև ներկայացված աղյուսակում մուտքագրեք վճարման մեկ կամ մի քանի մակարդակներ: Ստեղծեք կամ խմբագրեք գնային սանդղակներն <a href='%1'>այստեղ</a>:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid "Regular Fees"
+msgstr "Կանոնավոր վճարներ"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Use the table below to enter descriptive labels and amounts for up to ten "
+"event fee levels. These will be presented as a list of radio button options."
+" Both the label and dollar amount will be displayed. You can also configure "
+"one or more sets of discounted fees by checking \"Discounts by Signup Date\""
+" below."
+msgstr "Ստորև ներկայացված աղյուսակն օգտագործեք մինչև տասը միջոցառումների գնային մակարդակների համար նկարագրական պիտակներ և գումարներ մուտքագրելու համար: Դրանք կներկայացվեն որպես ռադիոյի կոճակի ընտրանքների ցուցակ: Կցուցադրվեն ինչպես պիտակը, այնպես էլ դոլարով արտահայտված գումարը: Դուք կարող եք նաև կազմաձևել մեկ կամ մի քանի զեղչային տարբերակ՝ ստորև նշելով« Զեղչեր ըստ գրանցման ամսաթվի»:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Click <a id='quickconfig' href='#'>here</a> if you want to configure the "
+"Regular Fees below as part of a Price Set, with the added flexibility and "
+"complexity that entails."
+msgstr "Սեղմեք <a id='quickconfig' href='#'>այստեղ</a>, եթե ցանկանում եք կարգաբերել ստորև գտնվող \"կանոնավոր վճարները\" ՝ դրանից բխող հավելյալ ճկունությամբ և բարդությամբ:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Check this box if you want to offer discounted fees based on registration "
+"date (e.g. 'early-registration discounts')."
+msgstr "Նշեք այս վանդակը, եթե ցանկանում եք առաջարկել զեղչված վճարներ՝ ելնելով գրանցման ամսաթվից (օրինակ ՝ «վաղ գրանցման զեղչեր»):"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid "another discount set"
+msgstr "զեղչերի մեկ այլ համակարգ"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid "Discounted Fees"
+msgstr "Զեղչված վճարներ"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"Use the table below to enter descriptive labels and amounts for up to ten "
+"discounted event fees for each discount set. <strong>Don't forget to click "
+"'Save' when you are finished.</strong>"
+msgstr "Օգտագործեք ստորև ներկայացված աղյուսակը  նկարագրական պիտակները և զեղչերի յուրաքանչյուր լրակազմի համար մինչև տասը զեղչված միջոցառումների գումարները մուտքագրելու համար: <strong>Չմոռանաք սեղմել «Պահպանել» կոճակը, երբ ավարտեք։</strong>"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"If you uncheck \"Discounts by Signup Date\" and Save this form, any existing"
+" discount sets will be deleted."
+msgstr "Եթե դուք հանեք «Զեղչեր ըստ գրանցման ամսաթվի» նշումը և պահպանեք այս ձևը, ապա առկա ցանկացած զեղչի հավաքածուն կջնջվի:"
+
+#: templates/CRM/Event/Form/ManageEvent/Fee.tpl
+msgid ""
+"If this is NOT what you want to do, you can check \"Discounts by Signup "
+"Date\" again."
+msgstr "Եթե սա այն չէ, ինչ ցանկանում եք անել, կարող եք կրկին նշել «Զեղչեր ըստ գրանցման ամսաթվի» տարբերակը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid ""
+"Use this form to configure the location and optional contact information for"
+" the event. This information will be displayed on the Event Information "
+"page. It will also be included in online registration pages and confirmation"
+" emails if these features are enabled."
+msgstr "Օգտագործեք այս ձևաթուղթը` միջոցառման վայրը և կամընտրովի կոնտակտային տվյալները կազմաձևելու համար: Այս տեղեկատվությունը կտեղադրվի միջոցառումների տեղեկատվական էջում: Եթե այդ գործառույթներն ակտիվացվեն, ապա այն կներառվի նաև առցանց գրանցման էջերում և հաստատման էլ.նամակներում։"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Email 1:"
+msgstr "Էլ․ փոստի հասցե 1` "
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Email 2:"
+msgstr "Էլ․ փոստի հասցե 2` "
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Phone 1:"
+msgstr "Հեռախոսահամար 1՝"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Phone 2:"
+msgstr "Հեռախոսահամար 2՝"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid ""
+"This location is used by %1 other events. Modifying location information "
+"will change values for all events."
+msgstr "Այս վայրն օգտագործվում է  % 1 այլ միջոցառումների համար: Միջոցառման անցկացման վայրի մասին տեղեկատվության փոփոխման արդյունքում կփոխվեն բոլոր միջոցառումների տվյալները:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"If you want to provide an Online Registration page for this event, check the"
+" first box below and then complete the fields on this form. You can offer "
+"online registration for both Paid and Free events. Paid events require that "
+"you have configured a <a href=\"%1\">payment processor</a> for your site."
+msgstr "Եթե ցանկանում եք այս միջոցառման համար առցանց գրանցման էջ ունենալ՝ նշեք ստորև ներկայացված առաջին վանդակը, ապա լրացրեք այս ձևաթղթի դաշտերը: Առցանց գրանցման հնարավորություն կարող եք առաջարկել ինչպես վճարովի, այնպես էլ անվճար միջոցառումների համար: Վճարովի միջոցառումների համար անհրաժեշտ է, որպեսզի Դուք Ձեր կայքի համար կազմաձևեք <a href=\"%1\"> վճարման օպերատոր </a>:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"You may also configure events to require administrative approval prior to "
+"participants completing the registration process. To enable this feature you"
+" must first enable the Participant Statuses used by the approval work-flow "
+"(Administer » CiviEvent » Participant Statuses). Then reload this form and "
+"check 'Require participant approval?'."
+msgstr "Կարող եք նաև միջոցառումներն այնպես կազմաձևել, որպեսզի նախքան գրանցումն իրականացնելը մասնակիցները պարտադիր ստանան ադմինիստրատորի հաստատումը: Այս գործառույթն ակտիվացնելու համար Դուք նախ պետք է ակտիվացնեք մասնակիցների կարգավիճակները, որոնք օգտագործվում են հաստատման գործընթացում (Կառավարում »CiviEvent» Մասնակիցների կարգավիճակների): Այնուհետև վերաբեռնեք այս ձևաթուղթըը և նշեք «Պահանջվում է՞ մասնակցի հաստատումը» տարբերակը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"If you want collect additional information during event registration, you "
+"will need to configure one or more CiviCRM Profiles - which are collections "
+"of standard or custom fields. For event registration, you often want to "
+"collect an email address and / or participants' first and last names. You "
+"may also need to collect additional information specific to a person's "
+"<strong>participation</strong> in an Event. Examples include meal and/or "
+"volunteer preferences."
+msgstr "Եթե ցանկանում եք լրացուցիչ տեղեկություններ հավաքել միջոցառումների գրանցման ընթացքում, ապա Ձեզ հարկավոր է կազմաձևել մեկ կամ մի քանի CiviCRM պրոֆիլներ, որոնք ստանդարտ կամ հարմարեցված դաշտերի հավաքածուներ են: Միջոցառումներին գրանցվելու համար հաճախ անհրաժեշտ է, որպեսզի նշվի մասնակիցների  էլ․փոստի հասցեն և / կամ անուն և ազգանունները: Հնարավոր է նաև, որ Ձեզ անհրաժեշտ լինի միջոցառմանը որևէ անձի <strong>մասնակցության</strong>հետ կապված որևէ լրացուցիչ տեղեկատվություն ստանալ։ Օրինակ՝ սննդի և (կամ) կամավոր աշխատանքների հետ կապված  նախասիրությունները:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"If you haven't already configured custom fields and a profile for this, you "
+"can save this screen without selecting a Profile, complete the steps below "
+"and then return to <strong>Manage Events</strong> and select your new "
+"profile."
+msgstr "Եթե դուք դրա համար դեռևս չեք կազմաձևել համապատասխանեցված դաշտերը և պրոֆիլը, ապա կարող եք պահպանել այս էկրանը ՝ առանց պրոֆիլն ընտրելու, կատարել ստորև նշված քայլերը, ապա վերադառնալ <strong>Միջոցառումների կառավարում</strong> և ընտրել ձեր նոր պրոֆիլը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Create a custom field group which is 'Used for' "
+"<strong>Participants</strong>."
+msgstr "Ստեղծեք համապատասխանեցված դաշտեր, որոնք 'օգտագործվում են' <strong> մասնակիցների</strong> համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Add your field(s) this custom field group."
+msgstr ""
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Create a profile (e.g. 'Participant Information')."
+msgstr "Ստեղծեք պրոֆիլ (օր. ՝ «Մասնակիցների վերաբերյալ տեղեկություն»):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Add your custom field(s) to this profile as profile fields."
+msgstr "Ձեր կողմից համապատասխանեցված դաշտերը որպես պրոֆիլի դաշտեր(եր) ավելացրեք  այս պրոֆիլին:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Return to this screen (<strong>Administer CiviCRM &raquo; CiviEvent &raquo; "
+"Manage Events &raquo; Configure &raquo; Online Registration</strong>) and "
+"select your profile."
+msgstr "Վերադարձեք այս էկրանին (<strong> Կառավարում CiviCRM & raquo; CiviEvent & raquo; Միջոցառումների կառավարում & raquo; Կազմաձևում & raquo; Առցանց գրանցում </strong>) և ընտրեք ձեր պրոֆիլը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Registration Link"
+msgstr "Գրանցման էջի հղում"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Display text for link from Event Information to Event Registration pages "
+"(e.g. 'Register Now!')."
+msgstr "Ցուցադրել հղման տեքստը, որով Միջոցառումների տեղեկատվական էջից անցում է կատարվում դեպի Միջոցառումների գրանցման էջ (օրինակ` «Գրանցվեք հիմա»):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Multiple Participants"
+msgstr "Մի քանի մասնակից"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box to allow users to register themselves AND additional "
+"participants for an event. When this feature is enabled, users have the "
+"option to specify the number of additional participants they are registering"
+" for. If this is a paid event, they can select a different event fee for "
+"each participant and will be charged the total of those fees. If a profile "
+"is included, they will complete the profile information for each "
+"participant."
+msgstr "Նշեք այս վանդակը, որպեսզի օգտատերերը հնարավորություն ունենան որևէ միջոցառման համար գրանցել իրենց ԵՎ լրացուցիչ մասնակիցների: Երբ այս գործառույթն ակտիվացված է, օգտագործողները հնարավորություն ունեն նշելու լրացուցիչ մասնակիցների թիվը, որոնց համար գրանցում են իրականացնում: Եթե սա վճարովի միջոցառում է, ապա նրանք կարող են յուրաքանչյուր մասնակիցի համար ընտրել միջոցառուման տարբեր մասնակցավճարներ և նրանցից կգանձվ այդ վճարների ընդհանուր գումարը: Եթե պրոֆիլը ներառված է, ապա նրանք պետք է յուրաքանչյուր մասնակցի համար լրացնեն պրոֆիլի տեղեկատվությունը :"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"You can use different profile for the person who is registering than for "
+"\"Additional Participants\". For example, you may want to require an email "
+"address from the person entering the registration while not requiring (or "
+"even requesting) emails for additional participants (i.e. their \"guests\")."
+msgstr "Գրանցող անձի համար կարող եք օգտագործել մի պրոֆիլ, որը կտարբերվի «Լրացուցիչ մասնակիցների» պրոֆիլից: Օրինակ, հնարավոր է, որ էլ․ փոստի հասցե պահանջեք գրանցում իրականացնող գործող անձից, մինչդեռ չպահանջեք (կամ նույնիսկ չհարցնեք)լրացուցիչ մասնակիցների (այսինքն՝ «հյուրերի») էլ․փոստի հասցեները:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Maximum Additional Participants"
+msgstr "Լրացուցիչ մասնակիցների առավելագույն թիվը"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Limit the number of additional participants that can be registered in a "
+"single booking."
+msgstr "Սահմանափակեք մեկ ամրագրման ընթացքում գրանցվող լրացուցիչ մասնակիցների թիվը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Eg: if you choose '2' then the lead booker can bring 2 guests; there would "
+"be a limit of 3 participants in total per booking."
+msgstr "Օրինակ. Եթե ընտրում եք «2» -ը, ապա գլխավոր գրանցում իրականացնողը կարող է իր հեր բերել 2 հյուր. մեկ ամրագրման ընդհանուր մասնակիցների թիվը չպետք է գերազանցի 3-ը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Allow Shared Email"
+msgstr "Թույլատրել ընդհանուր էլ․ փոստի հասցե-ի տարբերակ"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box to allow a user to register multiple participants using the "
+"same email address. Alternatively, if you want additional participants to be"
+" registered <strong>without requiring an email address to be entered for "
+"each person</strong> - check the \"Register multiple participants\" option, "
+"AND include a profile in this registration form which <strong>includes First"
+" Name and Last Name fields</strong>."
+msgstr "Նշեք այս վանդակը, որպեսզի օգտագործողին հնարավորություն տրվի գրանցել բազմաթիվ մասնակիցներ՝ օգտագործելով միևնույն էլ․փոստի հասցեն: Այլապես, եթե ցանկանում եք, որպեսզի հավելյալ մասնակիցներ գրանցվեն <strong>չպահանջելով, որպեսզի յուրաքանչյուր անձի համար էլ․փոստի հասցե մուտքագրվի</strong>, ապա նշեք «Գրանցել մի քանի մասնակցի» տարբերակը, և գրանցման ձևաթղթում ներառեք այնպիսի պրոֆիլ, որը  <strong> պարունակում է \"Անուն\" և \"Ազգանուն\" դաշտերը</strong>:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Duplicate Matching Rule"
+msgstr "Պատճենել \"Համապատասխանեցման կանոնը\""
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"By default, your event will use the Unsupervised duplicate matching rule to "
+"match participants in anonymous registrations with existing individuals. You"
+" may select another rule to use for this event instead. Make sure that your "
+"included profile(s) contain the fields needed by your matching rule."
+msgstr "Ի սկզբանե, Ձեր միջոցառման համար կկիրառվի \"Չվերահսկվող կրկնօրինակների համապատասխանեցման կանոնը\"`  անանուն գրանցումների մասնակիցներին առկա մասնակիցների հետ համապատասխանեցնելու համար: Փոխարենը կարող եք ընտրել մեկ այլ կանոն ՝ այս միջոցառման համար օգտագործելու համար: Հավաստիացեք, որ Ձեր ներառած պրոֆիլը (ներ) ը պարունակում է ձեր համապատասխանեցման կանոնիհամար անհրաժեշտ դաշտերը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Require Approval"
+msgstr "Պահանջվում է հաստատում"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box to require administrative approval for all the participants "
+"who self-register, prior to being able to complete the registration process."
+" Participants will be placed in 'Awaiting Approval' status. You can review "
+"and approve participants from 'Find Participants' - select the 'Participant "
+"status - change' task. Approved participants will move to 'Pending from "
+"approval' status, and will be sent an email with a link to complete their "
+"registration (including paying event fees - if any). "
+msgstr "Նշեք այս վանդակը, որպեսզի նախքան իրենց գրանցումն իրականացնելը մասնակիցները պարտադիր ստանան ադմինիստրատորի հաստատումը: Մասնակիցների համար կսահմանվի «Սպասում է հաստատմանը» կարգավիճակ: Կարող եք վերանայել և հաստատել մասնակիցներին «Գտնել մասնակիցներին» բաժնում` ընտրելով « Մասնակցի կարգավիճակի փոփոխություն» գործառույթը: Հաստատված մասնակիցները կտեղափոխվեն «Ստորագրմանը սպասող» կարգավիճակը և նրանց գրանցումն ավարտելու համար էլ. համակով հղում կուղարկվի (ներառյալ միջոցառման գումարի վճարումը, եթե այդպիսին կա):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Time Limit"
+msgstr "Ժամանակային սահմանափակում"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Time limit <strong>in hours</strong> for confirming/finishing registration "
+"by participants with any of the pending statuses. Enter 0 (or leave empty) "
+"to disable this feature."
+msgstr "Սպասման ցանկացած կարգավիճակ ունեցող մասնակցի՝ գրանցումը հաստատելու/ավարտելու ժամկետը՝ արտահայտված <strong>ժամերով</strong>: Մուտքագրեք 0 (կամ դատարկ թողեք ) այս գործառույթն ապաակտիվացնելու համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Allow Self-service Cancellation or Transfer?"
+msgstr "Թույլ տա՞լ ինքնուրույնաբար չեղարկում կամ փոխանցում կատարել "
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box if you want to allow registered participants to either cancel"
+" their registration OR transfer it to another participant. If this feature "
+"is enabled, event confirmation emails will include a link to a Cancel or "
+"Transfer form."
+msgstr "Նշեք այս վանդակը, եթե ցանկանում եք թույլատրել գրանցված մասնակիցներին կամ չեղարկել իրենց գրանցումը, ԿԱՄ այն փոխանցել մեկ այլ մասնակցի: Եթե այս գործառույթն ակտիվացված է՝ միջոցառման հաստատման էլ.նամակներում  կներառվի հղում դեպի չեղարկման կամ փոխանցման ձևաթուղթ:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"<strong>Automated refunds for cancellations are NOT currently "
+"supported.</strong> Participants who have paid for an event will be notified"
+" that cancellations are not refundable."
+msgstr "<strong>Չեղարկումների համար ավտոմատ փոխհատուցումները ներկայումս չեն գործում:</strong> Միջոցառման համար վճարում կատարած մասնակիցներին կտեղեկացվի, որ չեղարկումների համար փոխհատուցում չի նախատեսվում:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Cancellation or Transfer Time Limit"
+msgstr "Չեղարկման կամ փոխանցման համար սահմանված ժամկետը"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Number of hours prior to event start date to allow self-service cancellation"
+" or transfer. Enter 0 (or leave empty) to allow cancellation or transfer up "
+"until the event has started."
+msgstr "Միջոցառման մեկնարկի ամսաթվից քանի ժամ առաջ է թույլատրվում ինքնություն կերպով չեղարկում կամ փոխանցումկատարել: Մուտքագրեք 0 (կամ դատարկ թողեք)՝ որպեսզի թույլ տրվի նախքան միջոցառման մեկնարկը չեղարկում կամ փոխանցում կատարել:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "remove profile"
+msgstr "ջնջել պրոֆիլը"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "add another profile (bottom of page)"
+msgstr "ավելացնել մեկ այլ պրոֆիլ (էջատակում)"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Change this if you want to use a different profile for additional "
+"participants."
+msgstr "Փոխեք սա, եթե ցանկանում եք այլ պրոֆիլ օգտագործել լրացուցիչ մասնակիցների համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Include additional fields on this registration form by selecting and "
+"configuring a CiviCRM Profile to be included at the bottom of the page."
+msgstr "Գրանցման այս ձևաթղթում լրացուցիչ դաշտեր ավելացրեք` ընտրելով և կազմաձևելով էջի ներքևի մասում ներառված CiviCRM պրոֆիլը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"If you want to provide an Online Registration page for this event, check the"
+" first box below and then complete the fields on this form."
+msgstr "Եթե ցանկանում եք այս միջոցառման համար տրամադրել առցանց գրանցման էջ՝ նշեք ստորև ներկայացված առաջին վանդակը, ապա լրացրեք այս ձևաթղթի դաշտերը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Online registration enabled?"
+msgstr "Առցանց գրանցման գործառույթն ակտիվացված է՞։ "
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Registration Screen"
+msgstr "Գրանցման էկրան"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Introductory message / instructions for online event registration page (may "
+"include HTML formatting tags)."
+msgstr "Ներածական ուղերձ / ցուցումներ առցանց իրադարձությունների գրանցման էջի համար (կարող է ներառել HTML ձևաչափման նշապիտակներ):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Optional footer text for registration screen."
+msgstr "Գրանցման էկրանի ստորին մասում տեղադրվող տեքստի տարբերակ"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Include additional fields on this registration form by selecting and "
+"configuring a CiviCRM Profile to be included at the top of the page "
+"(immediately after the introductory message)."
+msgstr "Ներառեք գրանցման այս ձևի լրացուցիչ դաշտերը `ընտրելով և կազմաձևելով CiviCRM պրոֆիլը, որը պետք է ընդգրկվի էջի վերևում (ներածական հաղորդագրությունից անմիջապես հետո):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Confirmation Screen"
+msgstr "Հաստատման էկրան"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Optionally hide the confirmation screen for free events."
+msgstr "Ցանկության դեպքում թաքցրեք անվճար միջոցառումների հաստատման էկրանը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Page title for screen where user reviews and confirms their registration "
+"information."
+msgstr "Էջի վերնագիր այն էկրանի համար, որտեղ օգտատերը վերանայում և հաստատում է գրանցման մասին տեղեկատվությունը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Optional instructions / message for Confirmation screen."
+msgstr "Ցանկության դեպքում՝ ցուցումներ / հաղորդագրություն հաստատման էկրանին:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Optional page footer text for Confirmation screen."
+msgstr "Հաստատման էկրանի ստորին մասում տեղադրվող տեքստի տարբերակ"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Thank-you Screen"
+msgstr "\"Շնորհակալական\" էկրան"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Page title for registration Thank-you screen."
+msgstr "Էջի վերնագիր գրանցման  \"Շնորհակալական\" էկրանի համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Optional message for Thank-you screen (may include HTML formatting)."
+msgstr "Կամընտրովի հաղորդագրություն \"Շնորհակալական\" էկրանի համար (կարող է ներառել HTML ձևաչափում):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Optional footer text for Thank-you screen (often used to include links to "
+"other pages/activities on your site)."
+msgstr "\"Շնորհակալական\" էկրանի ստորին հատվածում տեղադրվող տեքստի տարբերակ (հաճախ կիրառվում է Ձեր կայքի այլ էջերի / գործունեության հղումներ ներառելու համար):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Confirmation Email"
+msgstr "Հաստատման էլ․ նամակ"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"Do you want a registration confirmation email sent automatically to the "
+"user? This email includes event date(s), location and contact information. "
+"For paid events, this email is also a receipt for their payment."
+msgstr "Ցանկանու՞մ եք, որպեսզի ավտոմատ կերպով գրանցման հաստատման վերաբերյալ էլ.նամակ ուղարկվի օգտատիրոջը: Այդ էլ. նամակը պարունակում է միջոցառման  ամսաթիվ(եր)ը, անցկացման վայր և կոնտակտային տվյալները: Վճարովի միջոցառման համար այս էլ. նամակը հանդիսանում է նաև վճարման անդորրագիր:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "Additional message or instructions to include in confirmation email."
+msgstr "Լրացուցիչ հաղորդագրություն կամ հրահանգներ, որոնք պետք է ներառվեն հաստատման էլ․ նամակում:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "FROM name for email."
+msgstr "ՈՒՂԱՐԿՈՂԻ անունը էլ․ նամակի համար"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"FROM email address (this must be a valid email account with your SMTP email "
+"service provider)."
+msgstr "ՈՒՂԱՐԿՈՂԻ էլ․ փոստի հասցեն (դա պետք է լինի գործող հասցե՝ Ձեր SMTP էլ․ փոստի պրովայդերի կողմից ապահովող)"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"You can notify event organizers of each online registration by specifying "
+"one or more email addresses to receive a carbon copy (cc). Multiple email "
+"addresses should be separated by a comma (e.g. jane@example.org, "
+"paula@example.org)."
+msgstr "Դուք կարող եք միջոցառումների կազմակերպիչներին  տեղեկացնել յուրաքանչյուր առցանց գրանցման մասին՝ նշելով մեկ կամ մի քանի էլ. փոստի հասցե` նամակի պատճենն ուղարկելու համար (cc): էլ.փոստի հասցեները միմյանցից պետք է բաժանվեն ստորակետով (օրինակ ՝ jane@example.org, paula@example.org):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid ""
+"You may specify one or more email addresses to receive a blind carbon copy "
+"(bcc) of the confirmation email. Multiple email addresses should be "
+"separated by a comma (e.g. jane@example.org, paula@example.org)."
+msgstr "Դուք կարող եք նշել մեկ կամ մի քանի էլփոստի հասցե՝ հաստատման էլ.նամակի ծածկապատճենը (bcc) ստանալու համար: Մեկից ավել էլ.փոստի հասցեները միմյանցից պետք է բաժանվեն ստորակետով (օրինակ ՝ jane@example.org, paula@example.org):"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.tpl
+msgid "- same as for main contact -"
+msgstr "- նույնն է, ինչ հիմնական կոնտակտինը -"
+
+#: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
+msgid "Connected Repeating Events"
+msgstr "Կապակցված կրկնվող միջոցառումներ"
+
+#: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
+msgid "Event Link"
+msgstr "Միջոցառման հղում"
+
+#: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "ID:"
+msgstr "Նույնականացուցիչ/ID/"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Event Configuration"
+msgstr "Միջոցառման կազմաձևում"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Info &amp; Settings"
+msgstr " Տեղեկատվություն &amp; Կարգավորումներ "
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Set event title, type (conference, performance etc.), description, start and"
+" end dates, maximum number of participants, and activate the event. Enable "
+"the public participant listing feature."
+msgstr "Սահմանեք միջոցառման անվանումը, տեսակը (համաժողով, ներկայացում և այլն), նկարագրությունը, մեկնարկի և ավարտի ամսաթվերը, մասնակիցների առավելագույն քանակը և ակտիվացրեք միջոցառումը: Ակտիվացրեք հանրային մասնակիցների ցուցակագրման գործառույթը:"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Set event location and event contact information (email and phone)."
+msgstr "Նշեք միջոցառման անցկացման վայրը և միջոցառման կոնտակտային տվյալները (էլ. փոստի հասցե և հեռախոսահամար):"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Determine if the event is free or paid. For paid events, set the payment "
+"processor, fee level(s) and discounts. Give online registrants the option to"
+" 'pay later' (e.g. mail in a check, call in a credit card, etc.)."
+msgstr "Որոշեք ՝ միջոցառումը անվճար է, թե վճարովի: Վճարովի միջոցառումների համար սահմանեք վճարման օպերատոր, վճարների մակարդակը (ներ) և զեղչերը: Առցանց գրանցվողներին տվեք «հետագայում վճարեուլ» հնարավորություն (օրինակ` փոստով չեկ ուղարկել, վարկային քարտով հեռախոսի միջոցով վճարում կատարել և այլն):"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Determine whether an online registration page is available. If so, configure"
+" registration, confirmation and thank you page elements and confirmation "
+"email details."
+msgstr "Որոշեք, թե արդյոք առկա է առցանց գրանցման էջ: Եթե այո, ապա կազմաձևեք գրանցման, հաստատման և շնորհակալական էջի տարրերը և հաստատման էլ. նամակի մանրամասները:"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Make it easy for participants to spread the word about this event to friends"
+" and colleagues."
+msgstr "Մասնակիցների համար հեշտացնել այս միջոցառման մասին ընկերներին և գործընկերներին տեղեկացնելու գործընթացը։"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"The following URL will display a list of registered participants for this "
+"event to users whose role includes \"view event participants\" permission: "
+"<a href=\"%1\">%1</a>"
+msgstr "Հետևյալ URL-ն այս միջոցառման համար գրանցված մասնակիցների ցուցակը  ցույց կտա օգտատերերին, որոնց դերը ներառում է «դիտել միջոցառման մասնակիցներին» թույլտվություն <a href=\"%1\"> 1% </a>"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"The following URL will display a list of registered participants for this "
+"event: <a href=\"%1\">%1</a>"
+msgstr "Հետևյալ URL-ն ցույց կտա այս միջոցառման համար գրանցված մասնակիցների ցուցակը  <a href=\"%1\">1% </a>"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Participant Listing is not enabled for this event. You can enable it from"
+msgstr "Մասնակիցների ցուցակագրումն ակտիվացված չէ այս միջոցառման համար: Կարող եք այն ակտիվացնել -----ից"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"View the Event Information page as it will be displayed to site visitors."
+msgstr "Դիտել միջոցառումների տեղեկատվական էջը, որը հասանելի կլինի կայք մուտք գործողների համար:"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "Registration"
+msgstr "Գրանցում"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "test-drive"
+msgstr "փորձարկում"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Test-drive the entire online registration process - including custom fields,"
+" confirmation, thank-you page, and receipting. Fee payment transactions will"
+" be directed to your payment processor's test server. <strong>No live "
+"financial transactions will be submitted. However, a contact record will be "
+"created or updated and participant and contribution records will be saved to"
+" the database. Use obvious test contact names so you can review and delete "
+"these records as needed.</strong>"
+msgstr "Փորձարկեք առցանց գրանցման ողջ գործընթացը` ներառյալ համապատասխանեցված դաշտերը, հաստատումը, \"շնորհակալական\" էջը և անդորրագերը: Վճարների գանձման գործարքները կուղղվեն դեպի Ձեր վճարման օպերատորի փորձնական սերվեր: <strong> Ոչ մի իրական ֆինանսական գործարք չի մուտքագրվի: Այնուամենայնիվ, կստեղծվեն և կթարմացվեն կոնտակտային տվյալները, իսկ մասնակիցների և ներդրումների վերաբերյալ տվյալները կպահպանվեն տվյալների շտեմարանում: Օգտագործեք ակնհայտ թեստային/ոչ իրական կոնտակտային անուններ, որպեսզի անհրաժեշտության դեպքում կարողանաք վերանայել և ջնջել այդ տվյալները։</strong>"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid "live"
+msgstr "իրական"
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+msgid ""
+"Review your customized <strong>LIVE</strong> online event registration page "
+"here. Use the following URL in links and buttons on any website to send "
+"visitors to this live page"
+msgstr "Վերանայեք Ձեր՝ համապատասխանեցված <strong>LIVE</strong> առցանց միջոցառումների գրանցման էջն այստեղ: Ցանկացած կայքում օգտագործեք հետևյալ URL հղումները և կոճակները՝ այցելուներին իրական էջ ուղղորդելու համար "
+
+#: templates/CRM/Event/Form/ManageEvent/Tab.tpl
+#: templates/CRM/Event/Page/EventInfo.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Public Participant Listing"
+msgstr "Հանրային մասնակիցների ցանկ"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid "This Option is already full for this event."
+msgstr "Այս տարբերակն արդեն լրացած է տվյալ միջոցառման համար։"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid ""
+"Payment amount is less than the amount owed. Expected participant status is "
+"'Partially paid'. Are you sure you want to set the participant status to %1?"
+" Click OK to continue, Cancel to change your entries."
+msgstr "Վճարման գումարը պահանջվածից պակաս է: Ակնկալվող մասնակցի կարգավիճակը «մասամբ վճարված է»: Համոզվա՞ծ եք, որ ցանկանում եք մասնակիցի կարգավիճակը սահմանել % 1:  Շարունակելու համար սեղմեք \"OK\", մուտքագրած տեղեկություն փոխելու համար սեղմեք \"Չեղարկել\":"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid ""
+"Use this form to submit an event registration on behalf of %1. <strong>A %2 "
+"transaction will be submitted</strong> using the selected payment processor."
+msgstr "Օգտագործեք այս ձևաթուղթը `% 1 անունից միջոցառման գրանցում մուտքագրելոււ համար: <strong>A% 2 գործարքը կմուտքագրվի</strong> ընտրված վճարման օպերատորի միջոցով:"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid ""
+"If you are accepting offline payment from this participant, check "
+"<strong>Record Payment</strong>. You will be able to fill in the payment "
+"information, and optionally send a receipt."
+msgstr "Եթե տվյալ մասնակցից ընդունում եք ուղղակի վճարում, ապա նշեք <strong>Record Payment/Վճարման գրանցում</strong>- ը: Դուք կկարողանաք լրացնել վճարման մասին տեղեկությունները և, անհրաժեշտության դեպքում,  ուղարկել անդորրագիրը:"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid ""
+"WARNING: Deleting this registration will result in the loss of related "
+"payment records (if any)."
+msgstr "ԶԳՈՒՇԱՈՒՄ. Այս գրանցումը ջնջելու հետևանքով կկորչեն հարակից վճարումների վերաբերյալ գրառումները (եթե այդպիսիք կան):"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid " There are %1 more Participant(s) registered by this participant."
+msgstr "Այս մասնակցի կողմից գրանցված է ևս  %1 մասնակից(ներ):"
+
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Also Registered by this Participant"
+msgstr "Գրանցված է նաև այս մասնակցի կողմից"
+
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "view additional participant"
+msgstr "դիտել հավելյալ մասնակիցներին"
+
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Registered By"
+msgstr "Գրանցված է -------ի կողմից"
+
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "view primary participant"
+msgstr "դիտել հիմնական մասնակցին"
+
+#: templates/CRM/Event/Form/Participant.tpl
+msgid "Source for this registration (if applicable)."
+msgstr "Այս գրանցման աղբյուրը (եթե կիրառելի է):"
+
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid "Current Selections"
+msgstr "Ընթացիկ ընտրանքներ"
+
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid "Updated Fee(s)"
+msgstr "Թարմացված մասնակցավճար(ներ)"
+
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid "Participant Confirmation"
+msgstr "Մասնակցի հաստատում"
+
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+msgid ""
+"Enter a message you want included at the beginning of the confirmation "
+"email. EXAMPLE: 'We have made the changes you requested to your "
+"registration.'"
+msgstr "Մուտքագրեք այն հաղորդագրությունը, որը ցանկանում եք, որպեսզի ներառված լինի էլ․ փոստով ուղարկվող հաստատման նամակի սկզբնամասում: ՕՐԻՆԱԿ՝ «Մենք կատարել ենք Ձեր գրանցման հետ կապված փոփոխությունը, որը դուք խնդրել եք  կատարել»:"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Print Name Badge"
+msgstr "Տպել անվանական բեյջ "
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Configure this event"
+msgstr "ԿԱԶՄԱԵՎԵԼ ԱՅՍ ՄԻՋՈՑԱՌՈՒՄԸ"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Registration Date and Time"
+msgstr "Գրանցման ամսաթիվը և ժամը"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "View this Participant"
+msgstr "Դիտել այս մասնակցին"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Event Source"
+msgstr "Միջոցառման աղբյուրը"
+
+#: templates/CRM/Event/Form/Registration/AdditionalParticipant.tpl
+msgid "Total Participants : %1"
+msgstr "Մացնակիցների ընդհանուր թիվը՝ %1"
+
+#: templates/CRM/Event/Form/Registration/AdditionalParticipant.tpl
+msgid "Event Availability : %1"
+msgstr "Միջոցառման ազատ տեղերի քանակը՝ %1"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Please verify the information below. <span class=\"bold\">Then click "
+"'Continue' to be added to the WAIT LIST for this event</span>. If space "
+"becomes available you will receive an email with a link to a web page where "
+"you can complete your registration."
+msgstr "Խնդրում ենք ստուգել ստորև նշված տեղեկատվությունը: <span class=\"bold\">Այնուհետև սեղմել «Շարունակել» կոճակը` այս այս միջոցառման ՀԵՐԹԱՑՈՒՑԱԿՈՒՄ ընդգրկվելու համար: Եթե տեղ ազատվի, դուք կստանաք էլ․նամակ, որտեղ նշված կլինի այն կայքի հղումը, որտեղ Դուք կարող եք ավարտել Ձեր գրանցումը:"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Please verify the information below. Then click 'Continue' to submit your "
+"registration. <span class=\"bold\">Once approved, you will receive an email "
+"with a link to a web page where you can complete the registration "
+"process.</span>"
+msgstr "Խնդրում ենք ստուգել ստորև նշված տեղեկատվությունը: Այնուհետև սեղմել «Շարունակել» կոճակը` Ձեր գրանցումը մուտքագրելու համար։ <span class=\"bold\">Հաստատվելուց հետո Դուք կստանաք էլ․նամակ, որտեղ նշված կլինի այն կայքի հղումը, որտեղ Դուք կարող եք ավարտել Ձեր գրանցման գործընթացը:"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Please verify the information below. Click the <strong>Go Back</strong> "
+"button below if you need to make changes."
+msgstr "Խնդրում ենք հաստատել ստորև նշված տեղեկատվությունը: Սեղմեք ներքևում գտնվող <strong>Վերադառնալ</strong> կոճակը, եթե Ձեզ անհրաժեշտ է փոփոխություններ կատարել:"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Click the <strong>Continue</strong> button to checkout to %1, where you will"
+" select your payment method and complete the registration."
+msgstr "Սեղմեք <strong>Շարունակել</strong> կոճակը ՝% 1 տեղափոխվելու համար, որտեղ դուք կարող եք ընտրել Ձեր վճարման եղանակը և ավարտել գրանցումը:"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Otherwise, click the <strong>Continue</strong> button below to complete your"
+" registration."
+msgstr "Հակառակ դեպքում սեղմեք ներքևում գտնվող <strong>Շարունակել</strong> կոճակը՝ Ձեր գրանցումն ավարտելու համար:"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Your registration will not be submitted until you click the "
+"<strong>Continue</strong> button. Please click the button one time only. If "
+"you need to change any details, click the Go Back button below to return to "
+"the previous screen."
+msgstr "Ձեր գրանցումը չի մուտքագրվի մինչև չսեղմեք <strong> Շարունակել</strong>կոճակը: Խնդրում ենք կոճակը միայն մեկ անգամ սեղմել : Եթե Ձեզ անհրաժեշտ է որևէ փոփոխություն կատարել, ապա սեղմեք ներքևում գտնվող «Վերադառնալ» կոճակը ՝ նախորդ էկրանին վերադառնալու համար:"
+
+#: templates/CRM/Event/Form/Registration/DisplayProfile.tpl
+msgid "Participant 1"
+msgstr "Մասնակից 1"
+
+#: templates/CRM/Event/Form/Registration/DisplayProfile.tpl
+msgid "Participant Information"
+msgstr "Տեղեկատվություն մասնակցի վերաբերյալ"
+
+#: templates/CRM/Event/Form/Registration/DisplayProfile.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Participant %1"
+msgstr "Մասնակից %1  "
+
+#: templates/CRM/Event/Form/Registration/EventInfoBlock.tpl
+msgid "View complete event information."
+msgstr "Դիտել միջոցառման վերաբերյալ ամբողջական տեղեկատվությունը"
+
+#: templates/CRM/Event/Form/Registration/EventInfoBlock.tpl
+msgid "Map this Address"
+msgstr "Քարտեզում նշել այս հասցեն"
+
+#: templates/CRM/Event/Form/Registration/EventInfoBlock.tpl
+msgid "Map this Location"
+msgstr "Քարտեզում նշել այս վայրը"
+
+#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
+msgid "Test-drive Your Event Registration Page"
+msgstr "Փորձարկեք Ձեր միջոցառման գրանցման էջը"
+
+#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
+msgid ""
+"This page is currently running in <strong>test-drive mode</strong>. If this "
+"is a paid event, transactions will be sent to your payment processor's test "
+"server. <strong>No live financial transactions will be submitted. However, a"
+" contact record will be created or updated and test event registration and "
+"contribution records will be saved to the database. Use obvious test contact"
+" names so you can review and delete these records as needed. </strong> Refer"
+" to your payment processor's documentation for information on values to use "
+"for test credit card number, security code, postal code, etc."
+msgstr "Այս էջը ներկայումս գործում է <strong> թեստային ռեժիմով </strong>։ Եթե սա վճարովի միջոցառում է,  ապա գործարքները կուղարկվեն ձեր վճարման օպերատորի թեստային սերվերին: <strong> Ոչ մի ֆինանսական գործարք չի մուտքագրվի: Սակայն  կստեղծվի կամ թարմացվի կոնտակտի գրառումը, և տվյալների բազայում կպահպանվեն փորձնական միջոցառման գրանցումների և վճարումների վերաբերյալ գրանցումները: Օգտագործեք ակնհայտ թեստային կոնտակտային անուններ, որպեսզի անհրաժեշտության դեպքում կարողանաք վերանայել և ջնջել այդ գրանցումները: </strong> Օգտվեք Ձեր վճարման օպերատորի փաստաթղթերից ՝ փորձնական վարկային քարտի համարի, անվտանգության կոդերի, փոստային կոդերի և այլ տվյալների վերաբերյալ տեղեկություններ ձեռք բերելու համար:"
+
+#: templates/CRM/Event/Form/Registration/Register.tpl
+msgid "(including yourself)"
+msgstr "(ներառյալ Ձեզ)"
+
+#: templates/CRM/Event/Form/Registration/Register.tpl
+msgid ""
+"Fill in your registration information on this page. If you are registering "
+"additional people, you will be able to enter their registration information "
+"after you complete this page and click &quot;Continue&quot;."
+msgstr "Լրացրեք Ձեր գրանցման համար անհրաժեշտ տվյալներն այս էջում: Լրացուցիչ անձանց գրանցելու պարագայում Դուք կկարողանաք նրանց գրանցման համար անհրաժեշտ տվյալները մուտքագրել  այս էջը լրացնելուց և սեղմել &quot;Շարունակել&quot;"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "You have been added to the WAIT LIST for this event."
+msgstr "Դուք ընդգրկվել եք այս միջոցառման ՀԵՐԹԱՑՈՒՑԱԿՈՒՄ։"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid ""
+"If space becomes available you will receive an email with a link to a web "
+"page where you can complete your registration."
+msgstr "Եթե տեղ ազատվի, դուք կստանաք էլ․նամակ, որտեղ նշված կլինի այն կայքի հղումը, որտեղ Դուք կարող եք ավարտել Ձեր գրանցումը:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Your registration has been submitted."
+msgstr "Ձեր գրանցումը մուտքագրվել է։"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid ""
+"Once your registration has been reviewed, you will receive an email with a "
+"link to a web page where you can complete the registration process."
+msgstr "Երբ Ձեր միջոցառումը վերանայվի, Եթե տեղ ազատվի, դուք կստանաք էլ․նամակ, որտեղ նշված կլինի այն կայքի հղումը, որտեղ Դուք կարող եք ավարտել գրանցման գործընթացը:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "An email with event details has been sent to %1."
+msgstr "Էլ․ նամակը, որը պարունակում է միջոցառման մանրամասներ, ուղարկվել% 1:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Your registration payment has been submitted to %1 for processing."
+msgstr "Ձեր գրանցման վճարը մուտքագրվել է %1, որպեսզի դրան ընթացք տրվի։"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid ""
+"A registration confirmation email will be sent to %1 once the transaction is"
+" processed successfully."
+msgstr "Երբ գործարքը հաջողությամբ իրականացվի, գրանցման հաստատման վերաբերյալ էլ-նամակ կուղարկվի % 1-ին:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Your registration has been processed successfully."
+msgstr "Ձեր գրանցումը հաջողությամբ իրականացվել է։"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "A registration confirmation email has also been sent to %1"
+msgstr "Գրանցման հաստատման վերաբերյալ էլ․ նամակ է ուղարկվել  %1-ին  "
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Tax Total"
+msgstr "Ընդամենը հարկեր"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Additional Participant Email(s)"
+msgstr "Լրացուցիչ մասնակցի էլ․ փոստի հասցե(ներ)"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid "Back to \"%1\" event information"
+msgstr "Վերադառնալ \"%1\" միջոցառման վերաբերյալ տեղեկատվությանը "
+
+#: templates/CRM/Event/Form/Search/EmptyResults.tpl
+msgid "if you are searching by participant name, check your spelling"
+msgstr "եթե որոնումն իրականացում եք մասնակցի անունով, ապա ստուգեք ուղղագրությունը"
+
+#: templates/CRM/Event/Form/Search/Results.hlp
+msgid "Actual Participant Count"
+msgstr "Մասնակիցների փաստացի թիվը"
+
+#: templates/CRM/Event/Form/Search/Results.hlp
+msgid ""
+"This is displayed for events which use Price Set field(s) to increment the "
+"number of participants counted against the event's maximum participant "
+"level. For example, someone may select a 'Table for 8' when registering for "
+"a fundraising dinner. This registration will increment the 'actual "
+"participant count' by 8, even though only one participant record is "
+"displayed in search results."
+msgstr "Սա ցուցադրվում է այն միջոցառումների համար, որոնք օգտագործում են Սահմանված Գնային դաշտը (եր)ը` ավելացնելու համար մասնակիցների թիվը  միջոցառման համար նախատեսված մասնակիցների առավելագույն թվի համեմատ: Օրինակ ՝ դրամահավաքի նպատակով կազմակերպվող ընթրիքին գրանցվելու ժամանակ ինչ-որ մեկը կարող է ընտրել «սեղան 8 հոգու համար»: Այս գրանցումը 8-ով կավելացնի «փաստացի մասնակիցների», չնայած որոնման արդյունքում ցուցադրվում է միայն մեկ մասնակից գրանցման տվյալներ:"
+
+#: templates/CRM/Event/Form/SearchEvent.tpl
+msgid "Find Events"
+msgstr "Գտնել միջոցառումներ"
+
+#: templates/CRM/Event/Form/SearchEvent.tpl
+msgid "Complete OR partial Event name."
+msgstr "Միջոցառման լիարժեք կամ ոչ լիարժեք անունը"
+
+#: templates/CRM/Event/Form/Selector.tpl
+msgid "List participants for this event (all statuses)"
+msgstr "Այս միջոցառման մասնակիցների ցուցակը (բոլոր կարգավիճակներով)"
+
+#: templates/CRM/Event/Form/Selector.tpl
+msgid "participants"
+msgstr "մասնակիցներ"
+
+#: templates/CRM/Event/Form/Selector.tpl
+#: templates/CRM/Event/Form/Task/Print.tpl
+msgid "(no fee)"
+msgstr "(անվճար)"
+
+#: templates/CRM/Event/Form/Selector.tpl
+msgid "Find more event participants"
+msgstr "Գտնել միջոցառման այլ մասնակիցներ"
+
+#: templates/CRM/Event/Form/Selector.tpl
+msgid "View all events for this contact"
+msgstr "Դիտել տվյալ կոնտակտի բոլոր միջոցառումները"
+
+#: templates/CRM/Event/Form/SelfSvcTransfer.tpl
+msgid "Current<br />Participant"
+msgstr "Ներկայիս <br />անդամ"
+
+#: templates/CRM/Event/Form/SelfSvcUpdate.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Cancellations are not refundable."
+msgstr "Չեղարկումների դեպքում գումարը չի փոխհատուցվում։"
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"Update the status for each participant individually below, or change all "
+"statuses to:"
+msgstr "Առանձին-առանձին թարմացրեք ստորև ներկայացված յուրաքանչյուր մասնակիցի  կարգավիճակը կամ բոլոր կարգավիճակները փոխեք և դարձրեք․․․."
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"This form <strong>will send email</strong> to contacts only in certain "
+"circumstances:"
+msgstr "Այս ձևը կոնտակտներին միայն որոշակի հանգամանքներում.<strong> էլ․ նամակ </strong> կուղարկի․"
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"<strong>Resolving \"Pay Later\" registrations for online "
+"registrations:</strong> Participants who registered online whose status is "
+"changed from <em>Pending Pay Later</em> to <em>Registered</em> or "
+"<em>Attended</em> will receive a confirmation email and their payment status"
+" will be set to completed. If this is not you want to do, you can change "
+"their participant status by editing their event registration record "
+"directly."
+msgstr "<strong> Առցանց գրանցումների համար «Հետվճարային» տարբերակով գրանցումներ . </strong> Առցանց գրանցված մասնակիցներ, որոնց կարգավիճակը <em>Սպասման մեջ՝ հետվճարային </em>-ից փոխվել է <em> Գրանցված </em> կամ <em> Մասնակցած</em>կարգավիճակի, կստանան հաստատման էլ.նամակ և նրանց վճարման կարգավիճակը կսահմանվի որպես ավարտված: Եթե սա այն չէ, ինչ դուք ցանկանում եք անել, ապա կարող եք փոխել մասնակցի կարգավիճակն՝ ուղղակիորեն խմբագրելով միջոցառմանը գրանցման նրանց տվյալները:"
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"<strong>Special statuses:</strong> Participants whose status is changed to "
+"any of the following will be automatically notified via email: %1"
+msgstr "<strong> Հատուկ կարգավիճակ. </strong> Այն մասնակիցներ, որոնց կարգավիճակը փոխվում է հետևյալ կարգավիճակներից որևէ մեկի, այդ մասին ավտոմատ կերպով կտեղեկացվեն էլ. նամակի միջոցով.% 1"
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"Update field values for each participant as needed. To set a field to the same value for ALL rows, enter that value for the first participation and then click the\n"
+"        <strong>Copy icon</strong>\n"
+"        (next to the column title)."
+msgstr "Անհրաժեշտության դեպքում յուրաքանչյուր մասնակիցի համար թարմացրեք դաշտի պարամետրերը: Բոլոր տողերի համար միևնույն նշանակության դաշտ կարգավորելու համար մուտքագրեք առաջին մասնակցության պարամետրը, այնուհետև սեղմեք <strong>Copy icon</strong> (սյունակի վերնագրի կողքը):"
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"Click <strong>Update Participant(s)</strong> below to save all your changes."
+msgstr "Սեղմեք ներքևում գտնվող <strong>Թարմացնել մասնակցի (մասնակիցների) տվյալները</strong>կոճակը՝ Ձեր կատարած բոլոր փոփոխությունները պահպանելու համար։"
+
+#: templates/CRM/Event/Form/Task/Cancel.tpl
+msgid ""
+"Are you sure you want to set status to Cancelled for the selected "
+"participants?"
+msgstr "Համոզված ե՞ք, որ նշված մասնակիցների կարգավիճակը ցանկանում եք դարձնել \"Չեղարկված\""
+
+#: templates/CRM/Event/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected participations? This delete "
+"operation cannot be undone and will delete all transactions and activity "
+"associated with these participations."
+msgstr "Համոզված ե՞ք, որ ցանկանում եք ջնջել ընտրված մասնակցությունները: Ջնջման այս գործողությունը հնարավոր չէ չեղարկվել և կջնջի այս մասնակցությունների հետ կապված բոլոր գործարքները և գործողությունները:"
+
+#: templates/CRM/Event/Form/Task/ParticipantStatus.hlp
+msgid "Enabling Waitlisting and Registration Approval"
+msgstr "Հերթացուցակի ակտիվացում և գրանցման հաստատում"
+
+#: templates/CRM/Event/Form/Task/ParticipantStatus.hlp
+msgid ""
+"This screen is particularly useful for managing events with Waitlisting and "
+"/ or Registration Approval features enabled. In order to use these features "
+"you must first enable the related Participant Statuses (Administer &raquo; "
+"CiviEvent &raquo; Participant Statuses)."
+msgstr "Այս էկրանը հատկապես օգտակար է այն միջոցառումների կառավարման համար, որոնց հերթացուցակի և /կամ գրանցման հաստատման գործառույթներն ակտիվացված են: Այս հատկանիշներն գործառույթները կիրառելու համար անհրաժեշտ է նախ ակտիվացնել հարակից մասնակիցների կարգավիճակները (Կառավարում & raquo; CiviEvent & raquo; Մասնակիցների կարգավիճակներ):"
+
+#: templates/CRM/Event/Form/Task/ParticipantStatus.hlp
+msgid "Tip: Managing waitlisted participants"
+msgstr "Հուշում. Հերթացուցակում ընդգրկված մասնակիցների կառավարում"
+
+#: templates/CRM/Event/Form/Task/ParticipantStatus.hlp
+msgid ""
+"If you are moving participants from \"On waitlist\" to \"Pending from "
+"waitlist\" status, make sure there are available spaces for the event. An "
+"email with a link to confirm their registration will be automatically sent. "
+"However, they will only be allowed to complete their registration if the "
+"event is not full (e.g. the number of registered participants is less than "
+"the maximum number of participants configured for the event)."
+msgstr "Եթե մասնակիցներին տեղափոխում եք «Հերթացուցակի»-ից դեպի  «Հերթացուցակից սպասման մեջ գտնվող» կարգավիճակի, ապա հավաստիացեք, որ միջոցառման համար ազատ տեղեր կան: Ավտոմատ կերպող կուղարկվի նրանց գրանցումը հաստատելու համար հղում պարունակող էլ-նամակը: Այնուամենայնիվ, նրանց կթույլատրվի ավարտել իրենց գրանցումը միայն այն դեպքում, երբ միջոցառման ոչ բոլոր տեղերն են զբաղված (օր. գրանցված մասնակիցների թիվն ավելի քիչ է, քան միջոցառման համար նախատեսված մասնակիցների առավելագույն քանակը):"
+
+#: templates/CRM/Event/Form/Task/Print.tpl
+msgid "Event Date"
+msgstr "Միջոցառման ամսաթիվը"
+
+#: templates/CRM/Event/Form/Task/SaveSearch.tpl
+msgid ""
+"NOTE: Contacts selected on the search results are not relevant here; all "
+"contacts that meet the following criteria will be in the group."
+msgstr "ՆՇՈՒՄ. Որոնման արդյունքների հիման վրա ընտրված կոնտակտներն այստեղի չափանիշներին չեն համապատասխանում․ հետևյալ չափանիշներին համապատասխանող բոլոր կոնտրակտները կընդգկվեն խմբում:"
+
+#: templates/CRM/Event/Form/Task.tpl
+msgid "Number of selected participants: %1"
+msgstr "Ընտրված մասնակիցների թիվը՝ %1"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid "Required Participant Data"
+msgstr "Մասնակցի վերաբերյալ անհրաժեշտ տվյալներ"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid "Participant import data MUST include the following columns:"
+msgstr "Մասնակցի վերաբերյալ ներմուծվող տվյալները ՊԵՏՔ Է ներառեն հետևյալ սյունակները՝"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"Event Title OR Event ID (a unique integer assigned by CiviEvent, displayed "
+"in the Manage Events listing)"
+msgstr "Միջոցառման անվանում կամ միջոցառման նույնականացուցիչ (յուրահատուկ ամբողջ թիվ, որը սահմանվել է CiviEvent- ի կողմից և որը ցուցադրվում է «Միջոցառումների կառավարում» բաժնի ցանկում)"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid "Participant Status (ie. Registered, Attended, Cancelled, etc.)"
+msgstr "Մասնակցի կարգավիճակը (օրինակ՝ գրանցված, մասնակցած, չեղարկված և այլն)"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"The event's default Participant Role (usually Attendee) will be assigned if "
+"you do not include a value for role. Valid values for Status and Role can be"
+" found in the CiviEvent section of the Administer CiviCRM screen. You can "
+"also import Fee Level, Registration Date and any other standard or custom "
+"Participant fields."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid "Contact Records for Event Participants"
+msgstr "Կոնտակտային տվյալների գրանցում միջոցառման մասնակիցների համար"
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"Participant import requires that each person, household or organization "
+"already exists as a contact record in your CiviCRM database. If you need to "
+"import participant information for contact records which haven't been added "
+"to CiviCRM yet - you will do this in 2 steps. First, use <strong>Import "
+"Contacts</strong> to add the contact records. If possible, include a unique "
+"'External ID' for each new contact which you can then use to match "
+"participant info such as event registration to the corresponding contact "
+"record. Then return to this screen and import the participant records."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid "Matching Participant Data to Contacts"
+msgstr "Մասնակիցների տվյալների համապատասխանեցում կոնտակտներին "
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"Participant import files must contain data needed to <strong>match the "
+"participant to a contact record in your CiviCRM database</strong>. This "
+"'matching' can be handled in several different ways:"
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"If you've stored a unique <strong>External Identifier</strong> for each "
+"contact in CiviCRM, you can include that value as a column in your import "
+"file. Participant data will then be matched to contact records using their "
+"External ID. Please note that you must use an \"On Duplicate Entries\" "
+"setting of \"Skip\" or \"No Duplicate Checking\" to be able to upload using "
+"the External ID field."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"Save the CSV file with your participant data and 'contact matching' data to "
+"your local hard drive (or an accessible drive on your network) - and you are"
+" now ready for step 1 (Upload Data)."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"For each import, you can either INSERT new event registration (participant) "
+"records, or UPDATE existing records. You can not do both types of operations"
+" in a single import session."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"If you are INSERTING new participant records, you will need to include a "
+"column in your data file containing the values used to link the event "
+"registration to an existing contact. You can use the 'Internal Contact ID', "
+"an 'External Identifier' (if you are using those in your contact records), "
+"OR the property defined in your Unsupervised Duplicate Matching rule (which "
+"is Email Address by default)."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.hlp
+msgid ""
+"If you are UPDATING existing participants, you will need to include a column"
+" containing the unique CiviCRM-assigned participant ID to match to the "
+"existing participant record."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.tpl
+msgid ""
+"The Event Import Wizard allows you to easily upload event participation data"
+" such as event registrations from other applications into CiviCRM."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.tpl
+msgid ""
+"Files to be imported must be in the 'comma-separated-values' format (CSV) "
+"and must contain data needed to match the participant data to an existing "
+"contact in your CiviCRM database."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Individual' if you are importing event participation data for "
+"individual persons."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Organization' or 'Household' if you are importing event "
+"participation data for contacts of that type. (NOTE: Some built-in contact "
+"types may not be enabled for your site.)"
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Preview.tpl
+msgid ""
+"CiviCRM has detected %1 records with conflicting participant IDs within this"
+" data file. If you continue, these records will be skipped. OR, you can "
+"download a file with just these problem records - <a href='%2'>Download "
+"Conflicts</a>. Then correct them in the original import file, cancel this "
+"import and begin again at step 1."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Preview.tpl
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid "Total rows (participant records) in uploaded file."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Preview.tpl
+msgid ""
+"Rows with conflicting participant IDs within this file. These rows will be "
+"skipped (not imported)."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected a mismatched participant ID. This record has not been "
+"updated."
+msgid_plural ""
+"CiviCRM has detected mismatched participant IDs. These records have not been"
+" updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"You can <a href=\"%1\">Download Mismatched Participants</a>. You may then "
+"correct them, and import the new file with the corrected data."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record with conflicting participant ID within this "
+"data file or relative to existing participant records. This record has not "
+"been imported."
+msgid_plural ""
+"CiviCRM has detected %count records with conflicting participant IDs within "
+"this data file or relative to existing participant records. These records "
+"have not been imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"You can <a href=\"%1\">Download Conflicts</a>. You may then review these "
+"records to determine if they are actually conflicts, and correct the "
+"participant IDs for those that are not."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record which is a duplicate of existing CiviCRM "
+"participant record."
+msgid_plural ""
+"CiviCRM has detected %count records which are duplicates of existing CiviCRM"
+" participant records."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid ""
+"You can <a href=\"%1\">Download Duplicates</a>. You may then review these "
+"records to determine if they are actually duplicates, and correct the "
+"participant IDs for those that are not."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid "Rows with mismatched participant IDs... (NOT updated)."
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid "Download Mismatched participants"
+msgstr ""
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid "Rows with conflicting participant IDs (NOT imported)."
+msgstr "Տողեր հակասական մասնակիցների նույնականացուցիչներով (ներմուծված ՉԷ):"
+
+#: templates/CRM/Event/Import/Form/Summary.tpl
+msgid "Rows which are duplicates of existing CiviCRM participant records."
+msgstr "Տողեր, որոնք առկա են CiviCRM մասնակցի վերաբերյալ գրառումների կրկնօրինակներն են:"
+
+#: templates/CRM/Event/Page/DashBoard.hlp
+msgid "Event Dashboard"
+msgstr "Միջոցառումների վահանակ"
+
+#: templates/CRM/Event/Page/DashBoard.hlp
+msgid ""
+"CiviEvent allows you to create customized page(s) for constituents to learn "
+"about events and optionally register online. You can create <a "
+"href='%1'><strong>new events</strong></a> and <a href='%2'><strong>manage "
+"existing events</strong></a>."
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.hlp
+msgid ""
+"You can also input and track offline Events. To enter events manually for "
+"individual contacts, use <a href='%1'>Find Contacts</a> to locate the "
+"contact. Then click <strong>View</strong> to go to their summary page and "
+"click on the <strong>New Event</strong> link. You can also <a "
+"href='%2'><strong>import batches of participants</strong></a> from other "
+"sources."
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.hlp
+msgid ""
+"The Event Summary table provides a summary of up to ten scheduled and recent"
+" <strong>Events</strong>. Click the <strong>Event name</strong> to view the "
+"event as it will be displayed to site visitors. Click the "
+"<strong>Participants count</strong> to see a list of participants. To run "
+"your own customized searches - click <a href='%1'>Find Participants</a>. You"
+" can search by Participant Name, Event, Date Range and Status."
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "HTML listing of current and future public events."
+msgstr "Ընթացիկ և ապագա հանրային միջոցառումների HTML ցանկը"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Get RSS 2.0 feed for current and future public events."
+msgstr "Ստացեք RSS 2.0 հոսք ընթացիկ և ապագա հանրային միջոցառումների համար:"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Download iCalendar file for current and future public events."
+msgstr "Ներբեռնեք iCalendar ֆայլը ընթացիկ և հետագա հանրային միջոցառումների համար:"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Get iCalendar feed for current and future public events."
+msgstr "Ստացեք iCalendar- ի թարմացումներ՝ ընթացիկ և հետագա հանրային միջոցառումների համար:"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Repeating Event"
+msgstr "Կրկնվող միջոցառում"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Child"
+msgstr "Երեխա"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "List %1 participants"
+msgstr "Ցուցակագրել %1 մասնակից"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Not&nbsp;Counted"
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Not&nbsp;Counted&nbsp;Due&nbsp;To&nbsp;Status"
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Not&nbsp;Counted&nbsp;Due&nbsp;To&nbsp;Role"
+msgstr ""
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "(max %1)"
+msgstr "(առավելագույն %1) "
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Map event location"
+msgstr "Քարտեզում նշել միջոցառման անցկացման վայրը"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Browse more events"
+msgstr "Դիտել այլ միջոցառումներ"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "There are no active Events to display."
+msgstr "Ակտիվ միջոցառումներ չկան, որոնք կարող են ցուցադրվել "
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "You can <a href=\"%1\">Create a New Event</a> now."
+msgstr "Այժմ կարող եք ստեղծել<a href=\"%1\"> նոր միջոցառումն</a>:"
+
+#: templates/CRM/Event/Page/DashBoard.tpl
+msgid "Recent Registrations"
+msgstr "Վերջին գրանցումները"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "Registration is closed for this event"
+msgstr "Այս միջոցառման համար գրանցումն ավարտված է"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "Configure this event."
+msgstr "ԿԱԶՄԱԵՎԵԼ ԱՅՍ ՄԻՋՈՑԱՌՈՒՄԸ"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "Participant listing links."
+msgstr "Մասնակիցների ցանկերի հղումները"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "List counted participants"
+msgstr "Հաշվարկված մասնակիցների ցանկը"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "List uncounted participants"
+msgstr "Չհաշվարկված մասնակիցների ցանկը"
+
+#: templates/CRM/Event/Page/EventInfo.tpl
+msgid "Show large map"
+msgstr "Ցույց տալ մեծ քարտեզը"
+
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "Category"
+msgstr "Կատեգորիա"
+
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "details..."
+msgstr "մանրամասներ"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid "ICalendar Downloads and Feeds"
+msgstr "ICalendar-ի ներբեռնումները և նյութերը"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"iCalendar is a standard format for representing information about "
+"calendaring and scheduling. CiviEvent allows you to output your current and "
+"upcoming 'public' events in the iCalendar format - so this information can "
+"be shared with other iCalendar-enabled applications."
+msgstr "iCalendar- ը ստանդարտ ձևաչափ է` օրացույցի և ժամանակացույցի կազմման վերաբերյալ տեղեկատվություն ներկայացնելու համար: CiviEvent- ը թույլ է տալիս  Ձեր ընթացիկ և նախատեսվող 'հանրային' միջոցառումները iCalendar ձևաչափով տեղադրել այնպես, որ այդ տեղեկատվությամբ հնարավոր լինի կիսվել iCalendar- ին միացված այլ ծրագրերով։"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid "Depending on how you want to use the iCalendar data - you can:"
+msgstr "Կախված նրանից, թե ինչպես եք ցանկանում օգտագործել iCalendar տվյալները, Դուք կարող եք."
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"Download an iCalendar file (with a *.ics extension) to your local computer."
+msgstr "Ներբեռնեք iCalendar ֆայլը (* .ics ընդլայնմամբ) ձեր տեղական համակարգչում:"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"Access the data using an HTTP GET request from a specific URL. (This is the "
+"'ICAL' icon on the Manage Events page.)"
+msgstr "Մուտք գործեք տվյալներ՝ օգտագործելով HTTP GET հարցումը հատուկ URL- ից: (Սա «ICAL» պատկերակն է «Միջոցառումների կառավարում» էջում):"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid "The iCalendar Feed URL for CiviEvent on this site:"
+msgstr "CiviEvent- ի համար ICalendar-ի նյութերի URL-ն  այս կայքում."
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"By default, both methods get all events whose starting date is greater than "
+"or equal to the current date. However, you can modify this by passing "
+"additional parameters in the URL:"
+msgstr "Սովորաբար երկու մեթոդներն էլ ստանում են բոլոր միջոցառումները, որոնց մեկնարկի ամսաթիվը մեծ կամ հավասար է ընթացիկ ամսաթվին: Այնուամենայնիվ, դուք կարող եք դա փոփոխել `URL- ում անցնելով լրացուցիչ պարամետրեր."
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"start=YYYYMMDD - Specify a different starting date range for the events to "
+"be listed."
+msgstr "Սկիզբ = տարի/ամիս/օր - Նախատեսվող միջոցառումների համար նշեք մեկնարկի տարբեր  ամսաթիվ "
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"type=N - Specify a particular Event Type using the event_type_id value. (You"
+" can find these values by browsing the listing at Administer &raquo; "
+"CiviEvent &raquo; Event Types.)"
+msgstr "Տեսակը = N - Նշեք միջոցառման տեսակը՝ օգտագործելով event_type_id նշանակությունը: (Դուք կարող եք գտնել այս նշանակությունները՝ զննարկելով ցուցակները Administer & raquo; CiviEvent & raquo; միջոցառումների տեսակներում):"
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"EXAMPLE: Given the default event types, this URL will retrieve all events "
+"with start dates on or after January 1, 2007 whose event type is "
+"'Fundraiser':"
+msgstr "ՕՐԻՆԱԿ՝ ելնելով միջոցառումների հիմնական տեսակից, այս URL- ն կգտնի այն բոլոր միջոցառումները, որոնք մեկնարկում են 2007թ․ հունվարի 1-ին կամ դրանից հետո և որոնց տեսակը «Միջոցների հավաքագրում»-ն է."
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid "HTML Listing"
+msgstr "HTML Ցանկ "
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"CiviEvent provides a page which lists your current and future public events "
+"in a table layout for display in a browser. Point people to this page using "
+"the following URL:"
+msgstr ""
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"You can add links to this page in your Drupal or Joomla menus and on any "
+"content page. You can also use the additional parameters shown above to "
+"filter the events included on the page."
+msgstr ""
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid "RSS 2.0 Feeds"
+msgstr ""
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"CiviEvent also creates an RSS 2.0 formatted feed which can be subscribed to "
+"people using RSS readers and can be displayed in most modern browsers. The "
+"RSS Feed URL for CiviEvent on this site:"
+msgstr ""
+
+#: templates/CRM/Event/Page/ManageEvent.hlp
+msgid ""
+"You can also use the additional parameters shown above to filter the events "
+"included in the RSS feed."
+msgstr ""
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Add Event"
+msgstr "Ավելացնել միջոցառում"
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "No available Events match your search criteria. Suggestions:"
+msgstr "Ոչ մի միջոցառում չկա չի համապատասխանում է Ձեր որոնման չափանիշներին: Առաջարկություններ՝"
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Try \"Search All or by Date Range\"."
+msgstr "Փորձեք «Որոնել բոլորը կամ ըստ ամսաթվերի միջակայքի»:"
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Or you can <a href='%1'>browse all available Current Events</a>."
+msgstr "Կամ դուք կարող եք <a href='%1'>զննարկել առկա բոլոր ընթացիկ միջոցառումները</a>:"
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid ""
+"There are no events scheduled for the date range. You can <a href='%1'>add "
+"one</a>."
+msgstr "Տվյալ ժամանակային միջակայքում նախատեսված միջոցառումներ չկան: Դուք կարող եք <a href='%1'> ավելացնել միջոցառում</a>:"
+
+#: templates/CRM/Event/Page/ParticipantListing/Name.tpl
+#: templates/CRM/Event/Page/ParticipantListing/NameAndEmail.tpl
+#: templates/CRM/Event/Page/ParticipantListing/NameStatusAndDate.tpl
+msgid "There are currently no participants registered for this event."
+msgstr "Այս միջոցառման համար ներկայումս գրանցված մասնակիցներ չկան:"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid "This page lists all event registrations for %1 since inception."
+msgstr "Այս էջում ներկայացված են այն միջոցառումները որոնց համար գրանցվել է %1 մեկնարկի պահից ի վեր։"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid ""
+"Click <a %1>Add Event Registration</a> to register this contact for an "
+"event."
+msgstr "Միջոցառմանը մասնակցելու նպատակով այս կոնտակտին գրանցելու համար սեղմեք <a %1> Միջոցառման համար մասնակիցների գրանցում </a>:"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid ""
+"Click <a %1>Submit Credit Card Event Registration</a> to process a new New "
+"Registration on behalf of the participant using their credit card."
+msgstr "Սեղմեք <a %1>Հաստատել միջոցառման համար գրանցումը վարկային քարտի միջոցով</a> ՝ վարկային քարտի միջոցով մասնակցի անունից նոր միջոցառման համար գրանցվելու նպատակով:"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid "Add Event Registration"
+msgstr "Ավելացնել միջոցառման գրանցում"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid "Submit Credit Card Event Registration"
+msgstr "Հաստատեկ միջոցառման համար գրանցումը վարկային քարտի օգնույթամբ"
+
+#: templates/CRM/Event/Page/Tab.tpl
+msgid "No event registrations have been recorded for this contact."
+msgstr "Այս կոնտակտի համար ոչ մի միջոցառման համար գրանցում չի արձանագրվել"
+
+#: templates/CRM/Event/Page/UserDashboard.tpl
+msgid "Click on the event name for more information."
+msgstr "Լրացուցիչ տեղեկության համար սեղմեք միջոցառման անունը։"
+
+#: templates/CRM/Event/Page/UserDashboard.tpl
+msgid "You are not registered for any current or upcoming Events."
+msgstr "Դուք գրանցված չեք որևէ ընթացիկ կամ նախատեսվող միջոցառման համար:"
+
+#: templates/CRM/Event/Page/iCalLinks.tpl
+msgid "Download iCalendar entry for this event."
+msgstr "Ներբեռնեք iCalendar- ի գրառումն այս միջոցառման համար:"
+
+#: templates/CRM/Event/Page/iCalLinks.tpl
+msgid "iCalendar feed for this event."
+msgstr "iCalendar- ի թարմացում այս իրադարձության համար:"
+
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_cancelled_html.tpl
+#: xml/templates/message_templates/participant_cancelled_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
+msgid "Event Information and Location"
+msgstr "Միջոցառման վերաբերյալ տեղեկատվություն և դրա անցկացման վայրը"
+
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_cancelled_html.tpl
+#: xml/templates/message_templates/participant_cancelled_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
+msgid "Event Contacts:"
+msgstr "Միջոցառման կոնտակտներ"
+
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+msgid "Download iCalendar File"
+msgstr "Ներբեռնեք iCalendar-ի ֆայլը"
+
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Participant Information - Participant %1"
+msgstr "Մասնակիցների վերաբերյալ տեղեկատվություն - մասնակից % 1"
+
+#: xml/templates/message_templates/event_offline_receipt_subject.tpl
+msgid "Event Confirmation"
+msgstr "Միջոցառման հաստատում"
+
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Download iCalendar File:"
+msgstr "Ներբեռնեք iCalendar-ի ֆայլը"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Thank you for your participation."
+msgstr "Շնորհակալություն մասնակցության համար"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to <strong> %1</strong>."
+msgstr "Սույն նամակով հաստատվում է, որ Ձեր գրանցման հայտը ստացվել է, և Ձեր կարգավիճակը թարմացվել է <strong>% 1</strong>:"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to <strong>waitlisted</strong>."
+msgstr "Սույն նամակով հաստատվում է, որ Ձեր գրանցման հայտը ստացվել է, և Ձեր կարգավիճակը թարմացվել և դարձել է <strong>հերթացուցակում ընդգրկված</strong>:"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to <strong>registered<strong>."
+msgstr "Սույն նամակով հաստատվում է, որ Ձեր գրանցման հայտն ստացվել է, և Ձեր կարգավիճակը թարմացվել և դարձել է <strong>գրանցված<strong>:"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Your schedule:"
+msgstr "Ձեր ժամանակացույցը"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid "You were registered by:"
+msgstr "Դուք գրանցվել եք ----- միջոցով"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Participant Total"
+msgstr "Մասնակիցների ընդհանուր թիվը"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid " Amount Before Tax: "
+msgstr "Գումարն առանց հարկերի"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid ""
+"You may transfer your registration to another participant or cancel your "
+"registration up to %1 hours before the event."
+msgstr "Դուք կարող եք Ձեր գրանցումը փոխանցել մեկ այլ մասնակիցի կամ չեղարկել գրանցումը միջոցառումից մինչև 1% ժամ առաջ:"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+msgid "Click here to transfer or cancel your registration."
+msgstr "Սեղմեք այստեղ Ձեր գրանցումը փոխանցելու կամ չեղարկելու համար։ "
+
+#: xml/templates/message_templates/event_online_receipt_subject.tpl
+msgid "Wait List Confirmation"
+msgstr "Հերթացուցակի հաստատում"
+
+#: xml/templates/message_templates/event_online_receipt_subject.tpl
+msgid "Registration Request Confirmation"
+msgstr "Գրանցման հայտի հաստատում"
+
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to %1."
+msgstr "Սույն նամակը հաստատում է, որ Ձեր գրանցման հայտն ընդունված է, և Ձեր կարգավիճակը թարմացվել է % 1:"
+
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to waitlisted."
+msgstr "Սույն նամակը հաստատում է, որ Ձեր գրանցման հայտն ընդունված է, և Ձեր կարգավիճակը թարմացվել է, համաձայն որի Դուք ընդգրկվել եք հերթացուցակում:"
+
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid ""
+"This letter is a confirmation that your registration has been received and "
+"your status has been updated to registered."
+msgstr "Սույն նամակը հաստատում է, որ Ձեր գրանցման հայտն ընդունված է, և Ձեր կարգավիճակը թարմացվել է, համաձայն որի Դուք գրանցված եք:"
+
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Transfer or cancel your registration:"
+msgstr "Փոխանցել կամ չեղարկել Ձեր գրանցումը․ "
+
+#: xml/templates/message_templates/participant_cancelled_html.tpl
+#: xml/templates/message_templates/participant_cancelled_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
+msgid "Please contact us at %1 or send email to %2 if you have questions."
+msgstr "Հարցերի դեպքում խնդրում ենք կապվել մեզ հետ % 1-ով կամ էլ.նամակ ուղարկել %2-ին։"
+
+#: xml/templates/message_templates/participant_cancelled_subject.tpl
+msgid "Event Registration Cancelled for %1"
+msgstr "Միջոցառման գրանցումը չեղարկվել է % 1-ի համար"
+
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Confirm Your Registration"
+msgstr "Հաստատեք Ձեր գրանցումը"
+
+#: xml/templates/message_templates/participant_confirm_html.tpl
+msgid "Self service cancel transfer"
+msgstr "Ինքնուրույնաբար չեղարկել փոխանցումը"
+
+#: xml/templates/message_templates/participant_confirm_subject.tpl
+msgid "Confirm your registration for %1"
+msgstr "Հաստատեք Ձեր գրանցումը  %1 -ի համար"
+
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+msgid ""
+"Your pending event registration for %1 has expired\n"
+"because you did not confirm your registration."
+msgstr " %1 -ի համար Ձեր՝ միջոցառման սպասման մեջ գտնվող գրանցման ժամկետը լրացել է, քանի որ դուք չեք հաստատել ձեր գրանցումը:"
+
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+msgid ""
+"Please contact us at %1 or send email to %2 if you have questions\n"
+"or want to inquire about reinstating your registration for this event."
+msgstr "Եթե ունեք հարցեր կամ ցանկանում եք տեղեկանալ, թե ինչպես կարող եք վերականգնել տվյալ միջոցառման համար Ձեր գրանցումը՝ խնդրում ենք կապվել մեզ հետ % 1-ով կամ էլ․նամակ ուղարկել % 2-ին:"
+
+#: xml/templates/message_templates/participant_expired_subject.tpl
+msgid "Event registration has expired for %1"
+msgstr "Միջոցառման գրանցման ժամկետը լրացել է %1-ի համար"
+
+#: xml/templates/message_templates/participant_transferred_html.tpl
+msgid "Your Event Registration has been Transferred to %1."
+msgstr "Միջոցառման Ձեր գրանցումը փոխանցվել է %1-ին։"
+
+#: xml/templates/message_templates/participant_transferred_subject.tpl
+msgid "Event Registration Transferred for %1"
+msgstr "Միջոցառման գրանցումը փոխանցվել է %1-ի համար"
+
+#: xml/templates/message_templates/participant_transferred_text.tpl
+msgid "Your Event Registration has been transferred to %1."
+msgstr "Միջոցառման Ձեր գրանցումը փոխանցվել է %1-ին։"
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Start Date and Time are required fields"
+msgstr "Մեկնարկի ամսաթիվը և ժամը պարտադիր դաշտեր են"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You may allow users to join a waitlist when the event is full. To enable "
+"this feature you must first enable the Participant Statuses used by the "
+"waitlist work-flow (click the pencil icon, or navigate to Administer » "
+"CiviEvent » Participant Statuses). Then reload this form and check 'Offer a "
+"Waitlist?'."
+msgstr "Եթե միջոցառման բոլոր տեղերը զբաղված են՝ Դուք կարող եք օգտատերերին թույլ տալ ընդգրկվել հերթացուցակում: Այս գործառույթն ակտիվացնելու համար Դուք նախ պետք է ակտիվացնեք \"Մասնակիցների կարգավիճակները\", որոնք օգտագործվում են հերթացուցակի աշխատանքային ընթացակարգի միջոցով (սեղմել \"մատիտ\" պատկերակին կամ տեղափոխվեք դեպի Կառավարել »CiviEvent» Մասնակցի կարգավիճակներ): Այնուհետև վերաբեռնեք այս ձևաթուղթըը և նշեք «Առաջարկել հերթացուցակ»:"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box to allow users to register themselves AND additional "
+"participants for an event. When this feature is enabled, users have the "
+"option to specify the number of additional participants they are registering"
+" for. If this is a paid event, they can select a different event fees for "
+"each participant - and will be charged the total of those fees. If a profile"
+" is included - they will complete the profile information for each "
+"participant."
+msgstr "Նշեք այս վանդակը, որպեսզի օգտագործողներին հնարավորություն տրվի գրանցել իրենց և լրացուցիչ մասնակիցների որևէ միջոցառման համար: Երբ այս գործառույթն ակտիվացված է, օգտատերերը հնարավորություն ունեն նշելու այն լրացուցիչ մասնակիցների թիվը, որոնց համար գրանցում են կատարում: Եթե սա վճարովի միջոցառում է, ապա նրանք կարող են յուրաքանչյուր մասնակցի համար ընտրել միջոցառումների տարբեր մասնակցավճարներ, և նրանցից կգանձվի այդ մանսակցավճարների ընդհանուր գումարը: Եթե պրոֆիլը ներառված է՝ նրանք պետք է յուրաքանչյուր մասնակցի համար պրոֆիլային տեղեկատվություն լրացնեն :"
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Click the <strong>%1</strong> button to checkout to Google, where you will "
+"select your payment method and complete the registration."
+msgstr "Սեղմեք<strong>% 1</strong> կոճակը՝ Google տեղափոխվելու համար, որտեղ Դուք կընտրեք Ձեր վճարման եղանակը և կավարտեք գրանցումը:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid ""
+"Your registration payment has been submitted to %1 for processing. Please "
+"print this page for your records."
+msgstr "Ձեր գրանցման վճարը մուտքագրվել է % 1-ին` որպեսզի դրան ընթացք տրվի: Խնդրում ենք տպել այս էջը Ձեր փաստաթղթավարության համար:"
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid ""
+"Your registration has been processed successfully. Please print this page "
+"for your records."
+msgstr "Ձեր գրանցումը հաջողությամբ մշակվել է: Խնդրում ենք տպել այս էջը Ձեր փաստաթղթավարության համար:"
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Don't see your event listed? Try \"Search All or by Date Range\" above."
+msgstr "Չե՞ք տեսնում Ձեր միջոցառումների ցանկը: Փորձեք վերը նշված  «Որոնել բոլորը կամ ըստ ամսաթվի միջակայքի» գործառույթը:"

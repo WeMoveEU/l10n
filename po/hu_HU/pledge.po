@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Piotr Szotkowski <chastell@chastell.net>, 2011
-# Szabo Attila <atekka@gmail.com>, 2013
-# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2016
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2016,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 19:18+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-10 13:51+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -45,6 +45,20 @@ msgstr "Fizetés dátuma"
 msgid "Pledge Payment Status"
 msgstr "Pénzbeli felajánlások státusza"
 
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "Felajánlás gyakoriságának egysége"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "Felajánlás gyakoriságának időköze"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
+msgstr "Felajánlás adományoldal azonosító"
+
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2 (overdue)"
 msgstr "%1 - esedékes %2 (túllépés)"
@@ -70,9 +84,29 @@ msgstr "Szeretnék tenni egy egyszeri felajánlást"
 msgid "I pledge to contribute this amount every"
 msgstr "Szeretném felajánlati ezt az összeget adomáynként minden"
 
-#: CRM/Pledge/BAO/PledgeBlock.php CRM/Pledge/DAO/Pledge.php
-msgid "Pledge Frequency Interval"
-msgstr "Felajánlás gyakoriságának időköze"
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
+msgstr "Gyakoriság időközök"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
+msgstr "Gyakoriság egysége"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "Első részletfizetés"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "Részletfizetés napja "
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "Felajánlás köszönetnyilvánításelküldve"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "Felajánlás köszönetnyilvánítás nincs elküldve"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test"
@@ -87,12 +121,20 @@ msgid "Financial Page - %1"
 msgstr "Pénzügyi oldal - %1"
 
 #: CRM/Pledge/BAO/Query.php
-msgid "Contact ID %1 %2"
-msgstr "Kapcsolat azonosító %1 %2"
-
-#: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test?"
 msgstr "Teszt felajánlás?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "Köszönetnyilvánítás elküldve?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "Kérem adjon meg egy számot"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "Kérem adja meg a számot."
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter valid Pledge Frequency Interval"
@@ -103,44 +145,100 @@ msgid "Pledge Frequency"
 msgstr "Felajánlások státusza"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
+msgstr "civicrm_contact.id FK."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Contribution Page"
 msgstr "Felajánlás adományoldala"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
+msgstr "Teljes felajánlott összeg."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Original Installment Amount"
 msgstr "Eredeti részletfizetési összeg"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
+msgstr "Az egyes részletek eredetileg felajánlott összegei."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Currency"
 msgstr "Felajánlás pénzneme"
 
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Frequency Unit"
-msgstr "Felajánlás gyakoriságának egysége"
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
+msgstr "A felajánlott befizetések ismétlődési idő egysége."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
+msgstr "A felajánlott befizetések ismétlődési idő egységek száma."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge day"
 msgstr "Felajánlás napja"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
+msgstr "A felajánlott periódusban lévő nap, amikor a befizetés esedékes. Hónap első napja, 15-ik napja, stb. Használja a befizetés ütemezés beállításához."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Number of Installments"
 msgstr "Felajánlás részletfizetések száma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr "A tervezett befizetések tejes száma."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr "Az első ütemezett felajánlás napja."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
+msgstr "A felajánlási rekord létrehozási ideje."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Acknowledged"
 msgstr "Visszaigazolt felajánlás"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
+msgstr "A felajánlás jóváhagyási üzenet elküldése az adományozóhoz. "
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Modified Date"
 msgstr "Felajánlás módosítási dátuma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
+msgstr "A felajánlási rekord utolsó frissítési dátuma."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Cancelled Date"
 msgstr "Felajánlás törlési dátuma"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr "Ezen felajánlás adományozó általi törlés dátuma."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
+msgstr "A felajánlás sikeres befejeződésnek dátuma ( a felajánlott összeg egyenlő vagy nagyobb mint a felajánlott összeg)."
+
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Maximum Number of Reminders"
 msgstr "Emlékeztetők maximális száma"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
+msgstr "Bármely befizetéshez elküldött figyelmeztető értesítések maximális száma."
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
@@ -148,32 +246,111 @@ msgid "Initial Reminder Day"
 msgstr "Emlékeztetők kezdőnapja"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
+msgstr "Előzetes értesítő küldése ennyi nappal a befizetés esedékessége előtt."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Additional Reminder Days"
 msgstr "Emlékeztetők pótnapjai"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
+msgstr "Kiegészítő értesítés küldése ennyi nappal az utolsó elküldött után, a maximális emlékeztető számig."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Status Id"
 msgstr "Felajánlás státusz azonosítója"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr "A civicrm_option_values értékéhez pledge_status option group csoportban tartozó közvetlen FK."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr "A kampány amelyhez ez a felajánlás kezdeményezésre került."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "Felajánlás blokk azonosítója"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
+msgstr "a felajánláshoz kapcsolt egyed fizikai tábla neve, pl. civicrm_contact"
+
 #: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Entity Id"
 msgstr "Entitás azonosítója"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr "A támogatott frekvencia egységek elhatárolt listája"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "Mutassa a gyakorisági időközet"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr "Adomány űrlapon a frekvencia intervallum megjelenített-e "
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr "Ha igaz - az ismétlődés kezdő dátuma kijelzett"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "Ismétlődő adomány kezdőnap szerkesztésének engedélyezése?"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr "Ha igaz - az ismétlődés kezdő dátuma szerkeszthető"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
+msgstr "A felajánlás tábla FK"
 
 #: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
 msgid "Scheduled Amount"
 msgstr "Ütemezett összeg"
 
 #: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
+msgstr "Ehhez a befizetéshez tartozó felajánlott összeg (az aktuális adomány összege ettől eltérő lehet)."
+
+#: CRM/Pledge/DAO/PledgePayment.php
 msgid "Actual Amount"
 msgstr "Jelenlegi összeg"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr "A felajánlási befizetés aktuális összege, ami befizetésre került."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
+msgstr "A felajánlási befizetés várható bekövetkezési dátuma."
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Last Reminder"
 msgstr "Utolsó emlékeztető"
 
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
+msgstr "Az utolsó aktuális befizetési értesítő elküldési dátuma."
+
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Reminders Sent"
 msgstr "Emlékeztetők kiküldve"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
+msgstr "A kiküldött befizetési értesítők száma."
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Edit Scheduled Pledge Payment"
@@ -215,7 +392,7 @@ msgstr "Kérem adjon meg egy érévnyes fizetési határidőt."
 msgid "each"
 msgstr "mindegyik"
 
-#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
+#: CRM/Pledge/Form/Pledge.php
 msgid "Payments Start"
 msgstr "Kifizetések kezdődnek"
 
@@ -292,10 +469,22 @@ msgid "Pledger Name"
 msgstr "Felajánló neve"
 
 #: CRM/Pledge/Form/Search.php
+msgid "Pledger Tag(s)"
+msgstr "Felajánló Címke(ék) "
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr "Felajánló Csoport(ok)"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
+msgstr "Felajánló kapcsolat típus"
+
+#: CRM/Pledge/Form/Search.php
 msgid "Find Pledges"
 msgstr "Felajánlók keresése"
 
-#: CRM/Pledge/Form/Task/Delete.php CRM/Pledge/Task.php
+#: CRM/Pledge/Form/Task/Delete.php
 msgid "Delete Pledges"
 msgstr "Felajánlások törlése"
 
@@ -333,7 +522,7 @@ msgstr "Felajánlások létrehozása és szerkesztése"
 msgid "delete in CiviPledge"
 msgstr "törlés a CiviFelajánlásban"
 
-#: CRM/Pledge/Info.php
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
 msgid "Delete pledges"
 msgstr "Felajánlások törlése"
 
@@ -386,7 +575,7 @@ msgid "Pledge Search"
 msgstr "Felajánlás keresése"
 
 #: CRM/Pledge/Task.php
-msgid "Export Pledges"
+msgid "Export pledges"
 msgstr "Felajánlások exportálása"
 
 #: templates/CRM/Pledge/Form/Payment.tpl
@@ -491,20 +680,8 @@ msgid "Maximum Reminders Send"
 msgstr "A maximálisan számú emlékeztető elküldve"
 
 #: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payment Scheduled"
-msgstr "Felajánlás ütemezve"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Amounts"
 msgstr "Felajánlások összege"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Start Date"
-msgstr "Kifizetések indulási dátuma"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Ended Date"
-msgstr "Kifizetések befejezési dátuma"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
@@ -523,14 +700,6 @@ msgid "Click arrow to view pledge payments."
 msgstr "Kattintson a nyílra a felajánlott befizetések megtekintésére."
 
 #: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Show payments"
-msgstr "Mutassa a befizetéseket"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Hide payments"
-msgstr "Befizetések elrejtése"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Find more pledges"
 msgstr "Felajánlások keresése"
 
@@ -546,8 +715,8 @@ msgid "To Be Paid"
 msgstr "Kifizetendő"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Begining Date"
-msgstr "Indulási dátum"
+msgid "Beginning Date"
+msgstr "Kezdési dátum"
 
 #: templates/CRM/Pledge/Form/Task.tpl
 msgid "Number of selected pledges: %1"
@@ -777,51 +946,3 @@ msgstr "Köszönjük a nagylelkü támogatásod."
 #: xml/templates/message_templates/pledge_reminder_subject.tpl
 msgid "Pledge Payment Reminder"
 msgstr "Felajánlással kapcsolatos kifizetési emlékeztető"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "First installment payment"
-msgstr "Első részletfizetés"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "Day of month installments paid"
-msgstr "Részletfizetés napja "
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement Sent"
-msgstr "Felajánlás köszönetnyilvánításelküldve"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement  Not Sent"
-msgstr "Felajánlás köszönetnyilvánítás nincs elküldve"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Acknowledgement sent?"
-msgstr "Köszönetnyilvánítás elküldve?"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter a number"
-msgstr "Kérem adjon meg egy számot"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter number."
-msgstr "Kérem adja meg a számot."
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Block ID"
-msgstr "Felajánlás blokk azonosítója"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Expose Frequency Interval?"
-msgstr "Mutassa a gyakorisági időközet"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Allow Edits to Recurring Donation Start Date?"
-msgstr "Ismétlődő adomány kezdőnap szerkesztésének engedélyezése?"
-
-#: CRM/Pledge/Task.php
-msgid "Export pledges"
-msgstr "Felajánlások exportálása"
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Beginning Date"
-msgstr "Kezdési dátum"

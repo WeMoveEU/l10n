@@ -1,0 +1,1317 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zaruhi Andreasyan <zandreasyan@yahoo.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
+#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Client"
+msgstr "Պատվիրատու"
+
+#: CRM/Case/BAO/Case.php
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "View activity"
+msgstr "Դիտել գործողությունը"
+
+#: CRM/Case/BAO/Case.php
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Edit activity"
+msgstr "Խմբագրել գործողությունը"
+
+#: CRM/Case/BAO/Case.php
+msgid "Move To Case"
+msgstr "Տեղափոխել գործի մեջ"
+
+#: CRM/Case/BAO/Case.php
+msgid "Copy To Case"
+msgstr "Արտագրել գործի մեջ"
+
+#: CRM/Case/BAO/Case.php
+msgid "%1 - copy sent to %2"
+msgstr ""
+
+#: CRM/Case/BAO/Case.php
+msgid "File %1 does not exist or is not readable"
+msgstr "Ֆայլ %1 գոյություն չունի կամ ընթեռնելի չէ"
+
+#: CRM/Case/BAO/Case.php
+msgid "Invalid case ID ( %1 ) in TO: field."
+msgstr "Գործի սխալ նույնականացման տվյալ ( %1 ) ՈՒՄ դաշտում"
+
+#: CRM/Case/BAO/Case.php
+msgid ""
+"FROM email contact %1 doesn't have a relationship to the referenced case."
+msgstr "ՈՒՄԻՑ էլ․ փոստի կոնտակտային անձը %1 առնչություն չունի տվյալ գործի հետ"
+
+#: CRM/Case/BAO/Case.php
+msgid "Role in Case"
+msgstr "Գործում ունեցած դերակատարումը"
+
+#: CRM/Case/BAO/Case.php
+msgid "View Case"
+msgstr "Դիտել գործը"
+
+#: CRM/Case/BAO/Case.php
+msgid "Case %1 reassigned client from %2 to %3. New Case ID is %4."
+msgstr "Գործը %1 պատվիրատուին վերանշանակել է %2-ից %3։ Նոր գործի նույնականացման տվյալը %4 է։ "
+
+#: CRM/Case/BAO/Case.php
+msgid ""
+"Case %1 copied from contact id %2 to contact id %3 via merge. New Case ID is"
+" %4."
+msgstr "Գործը %1 պատճենվել է կոնտակտային անձի նույնականացման տվյալ %2-ից %3՝ միավորման միջոցով։ Նոր գործի նույնականացման տվյալը %4 է։ "
+
+#: CRM/Case/BAO/Case.php
+msgid "Case %1 merged into case %2"
+msgstr "Գործ %1-ն ընդգրկվել է գործ  %2-ի մեջ "
+
+#: CRM/Case/BAO/CaseType.php
+msgid ""
+"You can not delete this case type -- it is assigned to %1 existing case "
+"record(s). If you do not want this case type to be used going forward, "
+"consider disabling it instead."
+msgstr "Դուք չեք կարող ջնջել այս գործը․ այն վերագրվում է գործի վերաբերյալ առկա գրառումներ(ներ)ին։ Եթե չեք ցանկանում հետագայում շարունակել այս տեսակի գործի կիրառումը, ապա կարող եք այն արգելափակել։ "
+
+#: CRM/Case/BAO/Query.php
+msgid "Case %1 My Cases"
+msgstr "Գործ  %1 Իմ գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case %1 All Cases"
+msgstr "Գործ %1 Բոլոր գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Find Deleted Cases"
+msgstr "Գտնել ջնջված գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Subject %1 '%2'"
+msgstr "Գործունեության թեմա %1 '%2' "
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Subject %1 '%2'"
+msgstr "Գործի թեմա %1 '%2' "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Reporter %1 '%2'"
+msgstr "Գործունեության վերաբերյալ զեկուցող %1 '%2' "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Actual Date %1 %2"
+msgstr "Գործողության փաստացի ամսաթիվը %1 '%2' "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Schedule Date %1 %2"
+msgstr "Գործողությունների իրականացման նախատեսված ամսաթիվը %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Type %1 %2"
+msgstr "Գործողության տեսակը  %1 %2 "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Duration %1 %2"
+msgstr "Գործողության տևողությունը %1 %2 "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Medium %1 %2"
+msgstr "Գործունեության միջոց %1 %2 "
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Details %1 '%2'"
+msgstr "Գործողության մանրամասները %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Auto Genrated %1 '%2'"
+msgstr "Ինքնագեներացվող գործողություն %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Role in Case  %1 '%2'"
+msgstr "Գործ  %1 '%2'-ում ունեցած դերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tags %1"
+msgstr "Գործի համարանիշ %1 "
+
+#: CRM/Case/BAO/Query.php
+msgid "Search All Cases"
+msgstr "Որոնել բոլոր գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Only My Cases"
+msgstr "Միայն իմ գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Search Cases with Upcoming Activities"
+msgstr "Որոնել գալիք գործողություններ պարունակող գործերը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tag(s)"
+msgstr "Գործի համարանիշ(ներ)ը"
+
+#: CRM/Case/BAO/Query.php
+msgid "Deleted Cases"
+msgstr "Ջնջված գործեր"
+
+#: CRM/Case/DAO/Case.php
+msgid "Unique Case ID"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "FK to civicrm_case_type.id"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Short name of the case."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case starts."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case ends."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Details about the meeting (agenda, notes, etc)."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Id of case status."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Case is in the Trash"
+msgstr "Գործն աղբարկղի մեջ է"
+
+#: CRM/Case/DAO/Case.php
+msgid "When was the case was created."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid ""
+"When was the case (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case Activity ID"
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Unique case-activity association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Activity ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case Contact ID"
+msgstr "Գործի կոնտակտային անձի նույնականացման տվյալները"
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Unique case-contact association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case ID of case-contact association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Contact ID of contact record given case belongs to."
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type ID"
+msgstr "Գործի կատեգորիայի նույնականացման տվյալները"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Autoincremented type id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Name"
+msgstr "Գործի կատեգորիայի անվանումը"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Machine name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Title"
+msgstr "Գործի կատեգորիայի վերնագիրը"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Natural language name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Description"
+msgstr "Գործի կատեգորիայի նկարագրություն"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Description of the Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Is Active"
+msgstr "Գործի կատեգորիան ակտիվ է "
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Is Reserved"
+msgstr "Գործի տեսակը վերապահված է"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Is this case type a predefined system type?"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Ordering of the case types"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Definition"
+msgstr "Գործի կատեգորիայի սահմանումը"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "xml definition of case type"
+msgstr ""
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+#: CRM/Case/Form/Activity/ChangeCaseStatus.php
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Case Id not found."
+msgstr "Գործը չի գտնվել"
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Expected one case-type"
+msgstr "Սպասվում է գործի մեկ տեսակ"
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+msgid "New Start Date"
+msgstr "Մեկնարկի նոր ամսաթիվ "
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+msgid "Case Start Date changed successfully."
+msgstr "Գործի մեկնարկի ամսաթվի փոփոխությունն իրականացվել է"
+
+#: CRM/Case/Form/Activity/ChangeCaseStatus.php
+msgid "Case status changed from %1 to %2"
+msgstr "Գործի կարգավիճակը փոխվել է %1-ից %2 "
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Reset Case Timeline?"
+msgstr "Վերակարգավորել գործի ժամանակագրությունը"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Reset Start Date"
+msgstr "Վերափոխել մեկնարկի ամսաթիվը"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Case type changed from %1 to %2"
+msgstr "Գործի տեսակը փոխվել է %1-ից %2 "
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Case Type changed successfully."
+msgstr "Գործի տեսակի փոփոխությունը հաջողությամբ իրականացվել է"
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Link To Case"
+msgstr "Հղում գործին"
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Please select some other case to link."
+msgstr "Խնդրվում է ընտրել մեկ այլ գործ՝ հղում ստեղծելու համար"
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Selected case is already linked."
+msgstr "Ընտրված գործի հետ կապն արդեն ստեղծված է"
+
+#: CRM/Case/Form/Activity/OpenCase.php
+msgid "Case opened successfully."
+msgstr "Գործը հաջողությամբ բացվել է"
+
+#: CRM/Case/Form/Activity.php
+msgid "You do not have any active Case Types"
+msgstr "Դուք չունեք գործի ակտիվ  տեսակներ"
+
+#: CRM/Case/Form/Activity.php
+msgid "You can not add another '%1' activity to this case. %2"
+msgstr "Դուք չեք կարող մեկ այլ '%1'  գործողություն ավելացնել այս գործին %2"
+
+#: CRM/Case/Form/Activity.php
+msgid "Do you want to <a %1>edit the existing activity</a>?"
+msgstr "Դուք ցանկանում ե՞ք  խմբագրել առկա գործողությունը"
+
+#: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
+msgid "Reported By"
+msgstr "Հաղորդող"
+
+#: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
+msgid "Medium"
+msgstr "Կապի միջոց"
+
+#: CRM/Case/Form/Activity.php
+msgid ""
+"The selected activity has been moved to the Trash. You can view and / or "
+"restore deleted activities by checking \"Deleted Activities\" from the Case "
+"Activities search filter (under Manage Case).<br />"
+msgstr "Ընտրված գործողությունը տեղափոխվել է աղբարկղ։ Դուք կարող եք դիտել և/կամ վերականգնել ջնջված գործողությունները Գործողությունների որոնման ֆիլտրում նշելով \"Ջնջված գործողություններ\"-ը (Գործերի կառավարում բաժնում)"
+
+#: CRM/Case/Form/Activity.php
+msgid "Selected Activity cannot be deleted."
+msgstr "Ընտրված գործողությունը հնարավոր չէ ջնջել"
+
+#: CRM/Case/Form/Activity.php
+msgid "The selected activity has been restored.<br />"
+msgstr "Ընտրված գործողությունը վերականգնվել է"
+
+#: CRM/Case/Form/Activity.php
+msgid "A copy of the activity has also been sent to selected contacts(s)."
+msgstr "Գործողության պատճեն ուղարկվել է նաև ընտրված կոնտակտ(ներ)ին "
+
+#: CRM/Case/Form/Activity.php
+msgid "%1 Saved"
+msgstr "%1 պահպանվել է"
+
+#: CRM/Case/Form/ActivityToCase.php CRM/Case/XMLProcessor/Report.php
+msgid "With Contact(s)"
+msgstr "Կոնտակտային անձի(անձանց) հետ"
+
+#: CRM/Case/Form/ActivityView.php
+msgid "Activity Revision History"
+msgstr "Գործողության վերանայման պատմություն"
+
+#: CRM/Case/Form/ActivityView.php CRM/Case/Page/DashBoard.php
+msgid "CiviCase Dashboard"
+msgstr "CiviCase-ի ցուցավահանակ"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Case/Form/CaseView.php
+msgid "- select type -"
+msgstr "-ընտրել տեսակը-"
+
+#: CRM/Case/Form/AddToCaseAsRole.php
+msgid "Assign to"
+msgstr "Նշանակել"
+
+#: CRM/Case/Form/Case.php
+msgid "You do not have any active %1"
+msgstr "Դուք չունեք ակտիվ %1 "
+
+#: CRM/Case/Form/Case.php
+msgid ""
+"The Open Case activity type is missing or disabled. Please have your site "
+"administrator check Administer > Option Lists > Activity Types for the "
+"CiviCase component."
+msgstr "\"Բացել գործ\" գործողության տեսակը բացակայում է կամ արգելափակված է: Խնդրեք ձեր կայքի ադմինիստրատորին ստուգել CiviCase բաղադրիչի \"Կառավարում\" > \"Տարբերակների ցանկ\" > \"Գործողության տեսակ\" կարգավորումները"
+
+#: CRM/Case/Form/Case.php
+msgid "Client contact does not exist: %1"
+msgstr "Պատվիրատուի կոնտակտային տվյալները բացակայում են %1 "
+
+#: CRM/Case/Form/Case.php
+msgid ""
+"You can view and / or restore deleted cases by checking the \"Deleted "
+"Cases\" option under Find Cases."
+msgstr "Դուք կարող եք դիտել և/կամ վերականգնել ջնջված գործերը Գործերի որոնման ֆիլտրում \"Ջնջված գործեր\"-ի կարգավորումների միջոցով "
+
+#: CRM/Case/Form/Case.php
+msgid "Case Deleted"
+msgstr "Գործը ջնջված է"
+
+#: CRM/Case/Form/Case.php
+msgid "The selected case has been restored."
+msgstr "Ընտրված գործը վերականված է"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Related Cases"
+msgstr "Առնչվող գործեր"
+
+#: CRM/Case/Form/CaseView.php
+msgid "You do not have permission to access this case."
+msgstr ""
+
+#: CRM/Case/Form/CaseView.php
+msgid "%1 Related Case"
+msgid_plural "%1 Related Cases"
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Case/Form/CaseView.php
+msgid "Add Activity"
+msgstr "Ավելացնել գործողություն"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activity Audit"
+msgstr "Գործողության աուդիտ"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Add Timeline"
+msgstr "Ավելացնել ժամանակագրությունը"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activities from the %1 activity set have been added to this case."
+msgstr " %1 Գործողությունների խմբից գործողություններ են ավելացվել այս գործին"
+
+#: CRM/Case/Form/CaseView.php
+msgid " - any reporter - "
+msgstr "- ցանկացած զեկուցող-"
+
+#: CRM/Case/Form/CaseView.php templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Reporter/Role"
+msgstr "Զեկուցող/Դեր"
+
+#: CRM/Case/Form/CaseView.php
+msgid " - any status - "
+msgstr "- ցանկացած կարգավիճակ -"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activity Dates - From"
+msgstr "Գործողությունների ամսաթիվ - Սկսած"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Deleted Activities"
+msgstr "Ջնջված գործողություններ"
+
+#: CRM/Case/Form/CaseView.php
+msgid "(opened %1)"
+msgstr "(բացված %1)"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Select Case for Merge"
+msgstr "Ընտրել գործ միավորման համար"
+
+#: CRM/Case/Form/CaseView.php
+msgid "- select case -"
+msgstr "- ընտրել գործ -"
+
+#: CRM/Case/Form/EditClient.php
+msgid "Reassign Case"
+msgstr "Վերանշանակել գործը"
+
+#: CRM/Case/Form/EditClient.php
+msgid "Please select a different contact."
+msgstr "Խնդրում ենք ընտրել այլ կոնտակտ"
+
+#: CRM/Case/Form/Report.php
+msgid "All Activities"
+msgstr "Բոլոր գործողությունները"
+
+#: CRM/Case/Form/Report.php
+msgid "Exclude Completed Activities"
+msgstr "Բացառել ավարտված գործողությունները"
+
+#: CRM/Case/Form/Report.php
+msgid "Redact (hide) Client and Service Provider Data"
+msgstr "Հանել (թաքցնել) Պատվիրոտուի և Ծառայություններ մատուցողի տվյալները "
+
+#: CRM/Case/Form/Report.php
+msgid "Generate Report"
+msgstr "Կազմել հաշվետվություն"
+
+#: CRM/Case/Form/Search.php
+msgid "Client Name or Email"
+msgstr "Պատվիրատուի անունը կամ էլ․ փոստի հասցեն"
+
+#: CRM/Case/Form/Search.php templates/CRM/Case/Page/DashBoard.tpl
+msgid "Find Cases"
+msgstr "Գտնել գործեր"
+
+#: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
+msgid "Delete cases"
+msgstr "Ջնջել գործեր"
+
+#: CRM/Case/Form/Task/Delete.php
+msgid "%count case moved to trash."
+msgid_plural "%count cases moved to trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Case/Form/Task/Delete.php
+msgid "%count case permanently deleted."
+msgid_plural "%count cases permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Case/Form/Task/Print.php
+msgid "Print Case List"
+msgstr "Տպել գործերի ցուցակը"
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "Restore Cases"
+msgstr "Վերականգներ գործերը"
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "%count case restored from trash."
+msgid_plural "%count cases restored from trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "1 could not be restored."
+msgid_plural "%count could not be restored."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Case/Info.php
+msgid "CiviCase Engine"
+msgstr "CiviCase Շարժիչ"
+
+#: CRM/Case/Info.php
+msgid "delete in CiviCase"
+msgstr "ջնջել CiviCase-ում"
+
+#: CRM/Case/Info.php
+msgid "administer CiviCase"
+msgstr "վարել CiviCase-ը"
+
+#: CRM/Case/Info.php
+msgid "Define case types, access deleted cases"
+msgstr "Սահմանել գործերի տեսակները, մուտք գործել ջնջված գործերի մեջ"
+
+#: CRM/Case/Info.php
+msgid "access my cases and activities"
+msgstr "մուտք դեպի իմ գործերը և գործողությունները"
+
+#: CRM/Case/Info.php
+msgid "View and edit only those cases managed by this user"
+msgstr "Դիտել և խմբագրել միայն այս օգտագործողի կողմից կառավարվող գործերը"
+
+#: CRM/Case/Info.php
+msgid "access all cases and activities"
+msgstr "մուտք գործել բոլոր գործերի և գործողություններ մեջի"
+
+#: CRM/Case/Info.php
+msgid "View and edit all cases (for visible contacts)"
+msgstr "Դիտել և խմբագրել բոլոր գործերը (տեսանելի կոնտակտային անձանց համար)"
+
+#: CRM/Case/Info.php
+msgid "add cases"
+msgstr "ավելացնել գործեր"
+
+#: CRM/Case/Info.php
+msgid "Open a new case"
+msgstr "Բացել նոր գործ "
+
+#: CRM/Case/Info.php
+msgid "Do not redact emails"
+msgstr "Չխմբագրել էլեկտրոնային նամակները"
+
+#: CRM/Case/Info.php
+msgid "Redact emails"
+msgstr "Խմբագրել էլեկտրոնային նամակները"
+
+#: CRM/Case/Info.php
+msgid "Single client per case"
+msgstr "Մեկ պատվիրատու յուրաքանչյուր գործի համար"
+
+#: CRM/Case/Info.php
+msgid "Multiple client per case"
+msgstr "Բազմաթիվ պատվիրատուներ յուրաքանչյուր գործի համար"
+
+#: CRM/Case/Info.php
+msgid "Definition order"
+msgstr "Սահմանման կարգը"
+
+#: CRM/Case/Info.php
+msgid "Alphabetical order"
+msgstr "Այբբենական կարգ"
+
+#: CRM/Case/Page/DashBoard.php
+msgid "You are not authorized to access all cases and activities."
+msgstr "Դուք լիազորված չեք մուտք գործել բոլոր դեպքերն ու գործողությունները:"
+
+#: CRM/Case/Page/Tab.php
+msgid "Are you sure you want to delete this case?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք ջնջել այս գործը:"
+
+#: CRM/Case/Page/Tab.php CRM/Case/Selector/Search.php
+#: templates/CRM/Case/Form/Case.tpl
+msgid "Delete Case"
+msgstr "Ջնջել գործը"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Form/CaseView.tpl
+msgid "Assign to Another Client"
+msgstr "Փոխանցել մեկ այլ պատվիրատուի"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Form/Task/Print.tpl
+#: templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "My Role"
+msgstr "Իմ դերը"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "Next Sched."
+msgstr "Հաջորդն ըստ ծրագրի"
+
+#: CRM/Case/Selector/Search.php
+msgid "Case Search"
+msgstr "Գործի որոնում"
+
+#: CRM/Case/Task.php
+msgid "Export cases"
+msgstr "Արտահանել գործերը"
+
+#: CRM/Case/Task.php
+msgid "Restore cases"
+msgstr "Վերականգնել գործերը"
+
+#: CRM/Case/Task.php
+msgid "Update multiple cases"
+msgstr "Թարմացնել մի քանի գործ"
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid "Configuration file could not be retrieved for case type = '%1' %2."
+msgstr "Չհաջողվեց վերականգնել կոնֆիգուրացիոն ֆայլը = '%1' %2 տեսակի գործի համար"
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Unable to load configuration file for the referenced case type: '%1' %2."
+msgstr "Չհաջողվեց բեռնել կոնֆիգուրացիոն ֆայլը հղում կատարած գործի տեսակի համար '%1' %2"
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Relationship type %1, found in case configuration file, is not present in "
+"the database %2"
+msgstr "Կոնֆիգուրացիոն ֆայլում գտնված հարաբերության տեսակը %1 առկա չէ տվյալների շտեմարանում %2"
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Activity type %1, found in case configuration file, is not present in the "
+"database %2"
+msgstr "Կոնֆիգուրացիոն ֆայլում գտնված գործողության տեսակը %1 առկա չէ տվյալների շտեմարանում %2"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Housing Support"
+msgstr "Աջակցություն կացարանի հարցում"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Help homeless individuals obtain temporary and long-term housing"
+msgstr "Օգնություն անօթևան անձանց ձեռք բերել ժամանակավոր եւ երկարաժամկետ կացարաններ"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Adult Day Care Referral"
+msgstr "Տարեցների խնամք"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Arranging adult day care for senior individuals"
+msgstr "Տարեցների խնամքի կազմակերպում"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Medical evaluation"
+msgstr "Առողջական վիճակի գնահատում"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Mental health evaluation"
+msgstr "Հոգեկան առողջության գնահատում"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Secure temporary housing"
+msgstr "Ապահովել ժամանակավոր կացարան"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Income and benefits stabilization"
+msgstr "Եկամուտների կայունացում"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Long-term housing plan"
+msgstr "Կացարանով ապահովման երկարաժամկետ ծրագիր"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "ADC referral"
+msgstr "Տարեցների խնամք"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator is"
+msgstr "Անօթևան անձանց համար նախատեսված ծառայությունների համակարգող"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator"
+msgstr "Անօթևան անձանց համար նախատեսված ծառայությունների համակարգող"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator is"
+msgstr "Առողջապահական ոլորտի ծառայությունների համակարգողն է"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator"
+msgstr "Առողջապահական ոլորտի ծառայությունների համակարգող"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator is"
+msgstr "Տարեցների համար նախատեսված ծառայությունների համակարգողն է"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator"
+msgstr "Տարեցների համար նախատեսված ծառայություններ"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist is"
+msgstr "Նպաստների գծով մասնագետն է"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist"
+msgstr "Նպաստների գծով մասնագետ"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Case Resources"
+msgstr "Գործի ռեսուրսները"
+
+#: ang/crmCaseType/activityTypesTable.html
+msgid "Max Instances"
+msgstr "Առավելագույն դեպքեր"
+
+#: ang/crmCaseType/activityTypesTable.html
+msgid "Add activity type"
+msgstr "Ավելացնել գործողության տեսակ"
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "WARNING: The case type name includes deprecated characters."
+msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Գործի տեսակի անվանումը ներառում է ոչ արդիական նիշեր"
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid ""
+"WARNING: If any external files or programs reference the old \"Name\", then "
+"they must be updated manually."
+msgstr "ԶԳՈՒՇԱՑՈՒՄ․ Եթե որևէ արտաքին ֆայլի կամ ծրագրի հղում է կատարվում հին \"Անունով\", ապա դրանք պետք է ձեռքով թարմացվեն։ "
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Activity assignment settings"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Groups"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Website Users"
+msgstr ""
+
+#: ang/crmCaseType/edit.html ang/crmCaseType/list.html
+msgid "New Case Type"
+msgstr "Նոր գործի տեսակ"
+
+#: ang/crmCaseType/edit.html
+msgid ""
+"Use this screen to define or update the Case Roles, Activity Types, and "
+"Timelines for a case type."
+msgstr "Օգտագործել այս էկրանը գործերի դերը, գործունեության տեսակները և ժամանակագրությունը սահմանելու կամ թարմացնելու համար։ "
+
+#: ang/crmCaseType/edit.html
+msgid "Learn more..."
+msgstr "Իմանալ ավելին․․․"
+
+#: ang/crmCaseType/edit.html templates/CRM/Case/Audit/Report.tpl
+msgid "Case Roles"
+msgstr "Գործում ունեցած դերերը "
+
+#: ang/crmCaseType/edit.html
+msgid "Case Statuses"
+msgstr "Գործի կարգավիճակները"
+
+#: ang/crmCaseType/edit.html
+msgid "Add..."
+msgstr "Ավելացնել"
+
+#: ang/crmCaseType/edit.html
+msgid "Timeline"
+msgstr "Ժամանակագրություն"
+
+#: ang/crmCaseType/edit.html
+msgid "Sequence"
+msgstr "Հերթականություն"
+
+#: ang/crmCaseType/list.html
+msgid "Case Types"
+msgstr "Գործերի տեսակները"
+
+#: ang/crmCaseType/list.html
+msgid ""
+"A Case Type describes a group of related tasks, interactions, or processes."
+msgstr "Գործերի տեսակներ կատեգորիայում նկարագրվում են առնչվող խնդիրները, փոխազդեցությունները կամ գործընթացները"
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Assign to Creator"
+msgstr "Փոխանցել ստեղծողին"
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Is Manager"
+msgstr "Ղեկավարն է"
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Add role"
+msgstr "Ավելացնել դերակատարում"
+
+#: ang/crmCaseType/statusTable.html
+msgid "New Status"
+msgstr "Նոր կարգավիճակ"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Reference"
+msgstr "Հղում"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Offset"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Default assignee"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Newest"
+msgstr "Նորագույն"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Oldest"
+msgstr "Ամենահին"
+
+#: ang/crmCaseType.js
+msgid "new"
+msgstr "նոր"
+
+#: ang/crmCaseType.js
+msgid ""
+"The CiviCase XML file for this case-type prohibits editing the definition."
+msgstr "Տվյալ գործի կատեգորիայի համար CiviCase XML ֆայլը հնարավորություն չի տալիս խմբագրել սահմանումը"
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "Case Summary"
+msgstr "Գործի ամփոփագիր"
+
+#: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/Activity.tpl
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Case Role"
+msgstr "Դերակատարումը գործում"
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "(not assigned)"
+msgstr "(նշանակված չէ)"
+
+#: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/CaseView.tpl
+msgid "Client Relationship"
+msgstr "Հաճախորդի հարաբերությունները"
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "Case Activities"
+msgstr "Գործին առնչվող գործողությունները"
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"Selecting one or more groups here will limit the choices when assigning an "
+"activity."
+msgstr ""
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"This will limit the choices when selecting an activity assignee to contacts "
+"with a user account on this website."
+msgstr ""
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStartDate.tpl
+msgid "Current Start Date"
+msgstr "Մեկնարկի ընթացիկ ամսաթիվը"
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStatus.tpl
+msgid "Update Linked Cases Status?"
+msgstr "Թարմացնե՞լ առնչվող գործերի կարգավիճակը"
+
+#: templates/CRM/Case/Form/Activity/LinkCases.tpl
+msgid "Create link between %1 - %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
+msgstr "Ստեղծել կապ  %1 - %2 (Գործի ID: %3) -ի և %4 - %5 (Գործի ID: %6)-ի միջև "
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Click Delete to move this &quot;%1&quot; activity to the Trash."
+msgstr "Այլ կոնտակտային անձի(անց) հետ"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Click Restore to retrieve this &quot;%1&quot; activity from the Trash."
+msgstr ""
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With other contact(s)"
+msgstr "Այլ կոնտակտային անձի(անց) հետ"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With client"
+msgstr "Պատվիրատուի հետ"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With client(s)"
+msgstr "Կոնտակտային անձի(անց) հետ"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Send a Copy"
+msgstr "Ուղարկել պատճենը"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid ""
+"Email a complete copy of this activity record to other people involved with "
+"the case. Click the top left box to select all."
+msgstr "Այս գործողության վերաբերյալ գրառման լիարժեք օրինակն էլ․ փոստով ուղարկել այս գործում ներգրաված անձանց։ Ամբողջն ընտրելու համար սեղմել վերևի ձախ վանդակը։ "
+
+#: templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Search Filters"
+msgstr "Որոնել ֆիլտրերը"
+
+#: templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Reporter"
+msgstr "Զեկուցող"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "You can modify the activity subject before filing."
+msgstr "Դուք կարող եք փոփոխել գործողության թեման նախքան լրացնելը"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Move to Case"
+msgstr "Տեղափոխվել դեպի գործ"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Copy to Case"
+msgstr "Արտագրել գործի մեջ"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Please select a case from the list"
+msgstr "Խնդրում ենք ցանկից ընտրել գործը"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Unable to file on case."
+msgstr "Հնարավոր չէ գործ սկսել"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Activity has been filed to %1 case."
+msgstr ""
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "Created On"
+msgstr "Ստեղծվել է"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "View this revision of the activity record."
+msgstr "Դիտել գործողության վերաբերյալ գրառման այս վերանայված տարբերակը"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "List all revisions"
+msgstr "Ցուցակագրել բոլոր վերանայումները"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "(this is the current revision)"
+msgstr "(սա ընթացիկ տարբերակն է)"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "View current revision"
+msgstr "Դիտել ընթացիկ տարբերակը"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "(this is not the current revision)"
+msgstr "(սա ընթացիկ տարբերակը չէ)"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "Prompted by"
+msgstr "Հուշող՝"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Introduce yourself and your role within our organization."
+msgstr "Ներկայացրեք Ձեզ և Ձեր դերը կազմակերպությունում"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid ""
+"&quot;All of the information that you provide to us or any of our "
+"representatives and service providers will be held in strictest confidence. "
+"It will not be used for any purpose other than to help you, and for any "
+"other purpose that you authorize in writing, or which is required by "
+"law.&quot;"
+msgstr "&quot; Խստորեն կպահպանվի Ձեր կողմից մեզ, մեր որևէ ներկայացուցչին կամ ծառայություն մատուցողին տրամադրած տեղեկատվության գաղտնիությունը։  Այն կօգտագործվի բացառապես Ձեզ օգնելու նպատակով և ձեր գրավոր համաձայնությամբ կամ օրենքի պահանջով։ &quot; "
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "&quot;Please tell me what you would like to discuss.&quot;"
+msgstr "&quot;Խնդրում ենք մեզ ասել, թե ինչ կցանկանայիք քննարկել։&quot; "
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Reflect client's story back to them."
+msgstr "Պատվիրատուի պատմությունն իրեն վերարտադրեք։"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Guess client's feelings and needs."
+msgstr "Գուշակե՛ք պատվիրատուի զգացողությունները և կարիքները"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "&quot;May I now ask you some screening questions?&quot;"
+msgstr "&quot;Կարելի է՞ ձեզ մի քանի ստուգիչ հարց տալ։ &quot; "
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Record details about this activity here."
+msgstr "Այս գործողության վերաբերյալ մանրամասները գրանցել այստեղ։ "
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Provide a one-line summary of what this case is about."
+msgstr "Մեկ տողով ամփոփ ներկայացնել, թե ինչի մասին է այս գործը։ "
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid ""
+"Offer the appropriate service from the list. If the service requires "
+"coordination, contact the Director."
+msgstr "Ցանկից առաջարկել համապատասխան ծառայությունը։ Եթե անհրաժեշտ է, որպեսզի ծառայությունը համակարգվի, ապա կապ հաստատեք տնօրենի հետ։"
+
+#: templates/CRM/Case/Form/Case.tpl
+msgid ""
+"Click Delete to move this case and all associated activities to the Trash."
+msgstr "Սեղմել \"Ջնջել\" այս գործը և դրան առնչվող բոլոր գործողությունները աղբարկղ տեղափոխելու համար։"
+
+#: templates/CRM/Case/Form/Case.tpl
+msgid ""
+"Click Restore to retrieve this case and all associated activities from the "
+"Trash."
+msgstr "Սեղմել \"Վերականգնել\" աղբարկղից վերականգնելու այս գործը և բոլոր առնչվող գործունեությունները։"
+
+#: templates/CRM/Case/Form/CaseFilter.tpl
+msgid "Filter by Case"
+msgstr "Ֆիլտրել ըստ գործի"
+
+#: templates/CRM/Case/Form/CaseView.js
+msgid "Add the %1 set of scheduled activities to this case?"
+msgstr "Ավելացնե՞լ ծրագրված գործողություններն %1 այս գործին։"
+
+#: templates/CRM/Case/Form/CaseView.js
+msgid "Please select a value"
+msgstr "Խնդրում ենք ընտրել նշանակությունը"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Clients:"
+msgstr "Պատվիրատուներ՝"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add Client"
+msgstr "Ավելացնել պատվիրատու"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "DOB"
+msgstr "DOB "
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case type (creates activity record)"
+msgstr "Փոխել գործի տեսակը (ստեղծում է գործողության վերաբերյալ գրառում)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case status (creates activity record)"
+msgstr "Փոխել գործի կարգավիճակը  (ստեղծում է գործողության վերաբերյալ գրառում)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case start date (creates activity record)"
+msgstr "Փոխել գործի մեկնարկի ամսաթիվը  (ստեղծում է գործողության վերաբերյալ գրառում)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Export Document"
+msgstr "Արտահանել փաստաթուղթը"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Roles"
+msgstr "Դերեր"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add new role"
+msgstr "Ավելացնել նոր դեր"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Assign To"
+msgstr "Նշանակել"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change To"
+msgstr "Փոխել"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Are you sure you want to end this relationship?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք վերջ դնել այս հարաբերությանը։ "
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Other Relationships"
+msgstr "Այլ հարաբերություններ"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add client relationship"
+msgstr "Ավելացնել պատվիրատուի հարաբերությունը"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add members to %1"
+msgstr "Ավելացնել անդամներ %1-ին "
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "- select contacts -"
+msgstr "- ընտրել կոնտակտներ -"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Case Tags"
+msgstr "Գործի հաշվեպիտակ"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "There are no tags currently assigned to this case."
+msgstr "Ներկայումս այս գործին հաշվեպիտակ կցված չէ։"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add Tags"
+msgstr "Ավելացնել հաշվեպիտակ"
+
+#: templates/CRM/Case/Form/EditClient.tpl
+msgid "This is case is currently assigned to %1."
+msgstr "Այս գործը ներկայումս վերագրված է %1"
+
+#: templates/CRM/Case/Form/Report.tpl
+msgid "Report Parameters"
+msgstr "Հաշվետվության պարամետրեր"
+
+#: templates/CRM/Case/Form/Search/EmptyResults.tpl
+msgid "if you are searching by client name, check your spelling"
+msgstr "Եթե որոնումը կատարում եք պատվիրատուի անունով՝ ստուգեք ուղղագրությունը"
+
+#: templates/CRM/Case/Form/Selector.tpl
+msgid "Find more cases"
+msgstr "Գտնել այլ գործեր"
+
+#: templates/CRM/Case/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected cases? This will move the "
+"case(s) and all associated activities to the Trash."
+msgstr "Համոզված ե՞ք, որ ցանկանում եք ջնջել ընտրված գործերը։ Այսպիսով գործ(եր)ը և դրանց առնչվող բորոր գործողությունները կտեղափոխվեն Աղբարկղ։ "
+
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Most Recent Activity"
+msgstr "Ամենավերջին գործողությունը"
+
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Next Scheduled Activity"
+msgstr "Ծրագրված հաջորդ գործողությունը"
+
+#: templates/CRM/Case/Form/Task/Restore.tpl
+msgid ""
+"Are you sure you want to restore the selected cases? This operation will "
+"retrieve the case(s) and all associated activities from Trash."
+msgstr "Վստահ ե՞ք, որ ցանկանում եք վերականգնել ընտրված գործերը։ Այս գործողությունը Աղբարկղից ետ կբերի գործ(եր)ը և բոլոր առնչվող գործառույթները։ "
+
+#: templates/CRM/Case/Form/Task.tpl
+msgid "Number of selected cases: %1"
+msgstr "Ընտրված գործերի թիվը %1"
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid ""
+"You need to setup and load Case and Activity configuration files before you "
+"can begin using the CiviCase component."
+msgstr "Դուք պետք է կարգավորեք և բեռնեք Գործ և Գործողություն կոնֆիգուրացիոն ֆայլերը` նախքան CiviCase բաղադրիչն օգտագործելը:"
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid "Refer to the %1 to learn about this process."
+msgstr "Այս գործընթացին ծանոթանալու համար կարդացեք % 1:"
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid "CiviCase Setup documentation"
+msgstr "CiviCase կարգավորման փաստաթղթերը"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "Find My Cases"
+msgstr "Գտնել իմ Գործերը"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases with Upcoming Activities"
+msgstr "Բոլոր գործերը, որոնք նախատեսում են գործողություններ"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases with Upcoming Activities"
+msgstr "Իմ գործերը, որոնք նախատեսում են գործողություններ"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "Summary of All Cases"
+msgstr "Բոլոր գործերի ամփոփագիրը"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases With Upcoming Activities"
+msgstr "Իմ գործերը, որոնք նախատեսում են գործողություններ"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases With Upcoming Activities"
+msgstr "Բոլոր գործերը, որոնք նախատեսում են գործողություններ"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid ""
+"There are no open cases with activities scheduled in the next two weeks. Use"
+" %1 to expand your search."
+msgstr "Առաջիկա երկու շաբաթների ընթացքում նախատեսված գործողություններով գործեր չկան: Որոնումն ընդլայնելու համար օգտագործեք% 1:"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases With Recently Performed Activities"
+msgstr "Իմ գործերը, որոնց հետ կապված գործողություններ են իրականացվել վերջերս"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases With Recently Performed Activities"
+msgstr "Բոլոր գործերը, որոնց հետ կապված գործողություններ են իրականացվել վերջերս"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid ""
+"There are no cases with activities scheduled in the past two weeks. Use %1 "
+"to expand your search."
+msgstr "Նախորդ երկու շաբաթների ընթացքում նախատեսված գործողություններով գործեր չկան: Որոնումն ընդլայնելու համար օգտագործեք% 1:"
+
+#: templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "Manager"
+msgstr "Ղեկավար"
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Oops, It looks like there are no active case types."
+msgstr "Վա՜յ, կարծես գործի ակտիվ տեսակները բացակայում են:"
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Enable <a href='%1'>case types</a>."
+msgstr "Ակտիվացնել 1գործի տեսակներ1 "
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "This page lists all case records for %1."
+msgstr "Այս էջում ներառված են գործերի վերաբերյալ բոլոր գրառումները %1. "
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Click <a %1>Add Case</a> to add a case record for this contact."
+msgstr "Սեղմել \"Ավելացնել Գործ\" այս կոնտակտի համար գործի վերաբերյալ գրառում ավելացնելու համար"
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "There are no case records for this contact."
+msgstr "Այս կոնտակտի համար գործի վերաբերյալ գրառում գոյություն չունի։"
+
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Activity Summary"
+msgstr "Գործունեության ամփոփագիր"
+
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Your Case Role(s)"
+msgstr "Ձեր դեր(եր)ը գործում"
+
+#: CRM/Case/BAO/Case.php CRM/Case/Selector/Search.php
+msgid "(deleted)"
+msgstr ""
+
+#: CRM/Case/Task.php
+msgid "Print/merge Document"
+msgstr "Տպել/միացնել փաստաթուղթը"

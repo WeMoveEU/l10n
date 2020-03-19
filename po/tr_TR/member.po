@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016,2018-2019
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # Selim Şumlu <selim@sum.lu>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-07 08:34+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-03 05:47+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -23,30 +23,13 @@ msgstr ""
 msgid "No valid membership status for given dates."
 msgstr "Belirtilen tarihler için geçerli bir üyelik durumu yok."
 
-#: CRM/Member/BAO/Membership.php
-msgid ""
-"The membership cannot be saved because the status cannot be calculated."
-msgstr "Durum hesaplanamadığı için üyelik kaydedilemiyor."
-
 #: CRM/Member/BAO/Membership.php CRM/Member/Form/MembershipView.php
 msgid "Membership Type:"
 msgstr "Üyelik Türü"
 
 #: CRM/Member/BAO/Membership.php
-msgid "Invalid Membership"
-msgstr "Üyelik Geçersiz"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Please select one of the memberships."
-msgstr "Lütfen bir üyelik seçin."
-
-#: CRM/Member/BAO/Membership.php
-msgid "Please renew my membership automatically."
-msgstr "Üyeliğim otomatik olarak yenilensin."
-
-#: CRM/Member/BAO/Membership.php
 msgid "do not import"
-msgstr "alma"
+msgstr "içe aktarılmasın"
 
 #: CRM/Member/BAO/Membership.php
 msgid "Membership Fields"
@@ -62,14 +45,6 @@ msgid ""
 " membership start and end dates for this membership. Contact the site "
 "administrator for assistance."
 msgstr "Maalesef bu üyelik için başlangıç ve bitiş tarihlerine karşı gelen geçerli bir üyelik durumu bulunamadı. Yardım almak için site yöneticisi ile görüşün."
-
-#: CRM/Member/BAO/Membership.php
-msgid "Could not find a system table"
-msgstr "Bir sistem tablosu bulunamadı"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Online Contribution:"
-msgstr "Çevrim İçi Katkı:"
 
 #: CRM/Member/BAO/Membership.php
 msgid ""
@@ -116,16 +91,40 @@ msgid "Source %2 %1"
 msgstr "Kaynak %2 %1"
 
 #: CRM/Member/BAO/Query.php
+msgid "Is a current member"
+msgstr "Şu anda üye"
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a non-current member"
+msgstr "Şu anda üye değil"
+
+#: CRM/Member/BAO/Query.php
 msgid "Membership is a Test"
 msgstr "Deneme Üyeliği"
 
 #: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew"
-msgstr "Üyelik Otomatik Yenileniyor"
-
-#: CRM/Member/BAO/Query.php
 msgid "Membership is NOT Auto-Renew"
 msgstr "Üyelik Otomatik YenilenMİYOR"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and In Progress"
+msgstr "Üyelik Otomatik Yenileniyor ve Güncel"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Failed"
+msgstr "Üyelik Otomatik Yenileniyor ve İşlem Yapılamadı"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Cancelled"
+msgstr "Üyelik Otomatik Yenileniyor ve İptal Edildi"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Ended"
+msgstr "Üyelik Otomatik Yenileniyor ve Sona Ermiş"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew"
+msgstr "Üyelik Otomatik Yenileniyor"
 
 #: CRM/Member/BAO/Query.php
 msgid "Membership is Pay Later"
@@ -144,8 +143,16 @@ msgid "Related Members Only"
 msgstr "Yalnız İlişkili Üyeler"
 
 #: CRM/Member/BAO/Query.php
-msgid "Membership Type(s)"
-msgstr "Üyelik Türleri"
+msgid "Membership Status Is Overriden"
+msgstr "Üyelik Durumu Değiştirilebilir"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is NOT Overriden"
+msgstr "Üyelik Durumu DeğiştirileMEZ"
+
+#: CRM/Member/BAO/Query.php
+msgid "Current Member?"
+msgstr "Şu Anda Üye mi?"
 
 #: CRM/Member/BAO/Query.php
 msgid "Primary Member?"
@@ -156,40 +163,110 @@ msgid "Pay Later?"
 msgstr "Sonradan Ödeme"
 
 #: CRM/Member/BAO/Query.php
-msgid "Auto-Renew?"
-msgstr "Otomatik Yenileme"
+msgid "Auto-Renew Subscription Status?"
+msgstr "Otomatik Yenilenen Abonelik Durumu"
+
+#: CRM/Member/BAO/Query.php
+msgid "- None -"
+msgstr "- Yok -"
+
+#: CRM/Member/BAO/Query.php
+msgid "Ended"
+msgstr "Sona Ermiş"
 
 #: CRM/Member/BAO/Query.php
 msgid "Membership is a Test?"
 msgstr "Deneme Üyeliği"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden?"
+msgstr "Üyelik Durumu Değiştirilebilir"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipBlock.php
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Id"
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Membership Type Id"
 msgstr "Üyelik Türü Kodu"
 
 #: CRM/Member/DAO/Membership.php
+msgid "Beginning of initial membership period (member since...)."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of current uninterrupted membership period."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
 msgid "Membership Expiration Date"
 msgstr "Üyelik Bitiş Tarihi"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Current membership period expire date."
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Membership Status Id"
 msgstr "Üyelik Durum Kodu"
 
 #: CRM/Member/DAO/Membership.php
+msgid "FK to Membership Status"
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
 msgid "Status Override"
 msgstr "Durum Değişikliği"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Admin users may set a manual status which overrides the calculated status. "
+"When this flag is true, automated status update scripts should NOT modify "
+"status for the record."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php CRM/Member/Form/Membership.php
+msgid "Status Override End Date"
+msgstr "Durum Değişikliği Bitiş Tarihi"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Then end date of membership status override if 'Override until selected "
+"date' override type is selected."
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Primary Member ID"
 msgstr "Birincil Üye Kodu"
 
-#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipLog.php
+#: CRM/Member/DAO/Membership.php
+msgid "Optional FK to Parent Membership."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipType.php
 msgid "Max Related"
 msgstr "En Fazla İlişkili"
 
 #: CRM/Member/DAO/Membership.php
-msgid "Memberhip Recurring Contribution"
+msgid "Maximum number of related memberships (membership_type override)."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Recurring Contribution"
 msgstr "Yinelenen Üyelik Katkısı"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Conditional foreign key to civicrm_contribution_recur id. Each membership in"
+" connection with a recurring contribution carries a foreign key to the "
+"recurring contribution record. This assumes we can track these processor "
+"initiated events."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "The campaign for which this membership is attached."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block ID"
@@ -199,49 +276,150 @@ msgstr "Üyelik Bloğu Kodu"
 msgid "Membership Block Entity Table"
 msgstr "Üyelik Bloğu Varlık Tablosu"
 
+#: CRM/Member/DAO/MembershipBlock.php CRM/Member/DAO/MembershipStatus.php
+msgid "Name for Membership Status"
+msgstr ""
+
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Entity ID"
 msgstr "Üyelik Bloğu Varlık Kodu"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "FK to civicrm_contribution_page.id"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Membership Types"
 msgstr "Üyelik Bloğu Üyelik Türleri"
 
 #: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership types to be exposed by this block"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Default Type"
 msgstr "Üyelik Bloğu Varsayılan Tür"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Optional foreign key to membership_type"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Display Minimum Fee"
 msgstr "Üyelik Bloğu En Düşük Ücret Görüntülensin"
 
 #: CRM/Member/DAO/MembershipBlock.php
+msgid "Display minimum membership fee"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Is Separate Payment"
 msgstr "Üyelik Bloğu Ayrı Ödeme"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Should membership transactions be processed separately"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block New Title"
 msgstr "Üyelik Bloğu Yeni Üyelik Başlığı"
 
 #: CRM/Member/DAO/MembershipBlock.php
+msgid "Title to display at top of block"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block New Text"
 msgstr "Üyelik Bloğu Yeni Üyelik Metni"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display below title"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Renewal Title"
 msgstr "Üyelik Bloğu Yenileme Başlığı"
 
 #: CRM/Member/DAO/MembershipBlock.php
+msgid "Title for renewal"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Renewal Text"
 msgstr "Üyelik Bloğu Yenileme Metni"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display for member renewal"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Is Required"
 msgstr "Zorunlu"
 
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is membership sign up optional"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is this membership_block enabled"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log ID"
+msgstr "Üyelik Günlüğü Kodu"
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipPayment.php
+msgid "FK to Membership table"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid ""
+"New status assigned to membership by this action. FK to Membership Status"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log Start Date"
+msgstr "Üyelik Günlüğü Başlangıç Tarihi"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period start date"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log End Date"
+msgstr "Üyelik Günlüğü Bitiş Tarihi"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period expiration date."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log modified By"
+msgstr "Üyelik Günlüğünü Değiştiren"
+
 #: CRM/Member/DAO/MembershipLog.php
 msgid "Membership Change Date"
 msgstr "Üyelik Değişikliği Tarihi"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Date this membership modification action was logged."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Type ID"
+msgstr "Üyelik Türü Kodu"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "FK to Membership Type."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Maximum Related Memberships"
+msgstr "En Fazla İlişkili Üyelik Sayısı"
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Maximum number of related memberships."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipPayment.php
 msgid "Membership Payment ID"
@@ -251,18 +429,34 @@ msgstr "Üyelik Ödemesi Kodu"
 msgid "Membership Status ID"
 msgstr "Üyelik Durumu Kodu"
 
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Label for Membership Status"
+msgstr ""
+
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 #: templates/CRM/Member/Page/MembershipStatus.tpl
 msgid "Start Event"
 msgstr "Başlangıç Etkinliği"
 
 #: CRM/Member/DAO/MembershipStatus.php
+msgid "Event when this status starts."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
 msgid "Start Event Adjust Unit"
 msgstr "Başlangıç Etkinliği Ayarlama Birimi"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from start_event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "Start Event Adjust Interval"
 msgstr "Başlangıç Etkinliği Ayarlama Aralığı"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range begins this many units from start_event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 #: templates/CRM/Member/Page/MembershipStatus.tpl
@@ -270,72 +464,164 @@ msgid "End Event"
 msgstr "Bitiş Etkinliği"
 
 #: CRM/Member/DAO/MembershipStatus.php
+msgid "Event after which this status ends."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
 msgid "End Event Adjust Unit"
 msgstr "Bitiş Etkinliği Ayarlama Birimi"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from the ending event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "End Event Adjust Interval"
 msgstr "Bitiş Etkinliği Ayarlama Aralığı"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range ends this many units from end_event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "Current Membership?"
 msgstr "Geçerli Üyelik"
 
 #: CRM/Member/DAO/MembershipStatus.php
-msgid "Admin Assigned Only?"
-msgstr "Yalnızca Yönetici Atayabilir"
+msgid ""
+"Does this status aggregate to current members (e.g. New, Renewed, Grace "
+"might all be TRUE... while Unrenewed, Lapsed, Inactive would be FALSE)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Administrator Only?"
+msgstr "Yalnız Yönetici"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this status for admin/manual assignment only."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php
 msgid "Default Status?"
 msgstr "Varsayılan Durum"
 
 #: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Assign this status to a membership record if no other status match is found."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status enabled."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
 msgid "Is Reserved"
 msgstr "Ayrılmış"
 
-#: CRM/Member/DAO/MembershipType.php
-msgid "Membership Type ID"
-msgstr "Üyelik Türü Kodu"
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status reserved."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Domain"
 msgstr "Üyelik Türü Etki Alanı"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid "Name of Membership Type"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Description"
 msgstr "Üyelik Türü Açıklaması"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Description of Membership Type"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Organization"
 msgstr "Üyelik Türü Kuruluşu"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid "Owner organization for this membership type. FK to Contact ID"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Financial Type"
 msgstr "Üyelik Mali Türü"
 
 #: CRM/Member/DAO/MembershipType.php
-msgid "membership Type Minimum Fee"
-msgstr "Üyelik Türü En Düşük Ücret"
+msgid ""
+"If membership is paid by a contribution - what financial type should be "
+"used. FK to civicrm_financial_type.id"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Minimum Fee"
+msgstr "En Düşük Üyelik Türü Ücreti"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Minimum fee for this membership (0 for free/complimentary memberships)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Minimum Fee"
+msgstr "En Düşük Ücret"
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Duration Unit"
 msgstr "Üyelik Türü Süre Birimi"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid "Unit in which membership period is expressed."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Duration Interval"
 msgstr "Üyelik Türü Süre Aralığı"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Number of duration units in membership period (e.g. 1 year, 12 months)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Plan"
 msgstr "Üyelik Türü Planı"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Rolling membership period starts on signup date. Fixed membership periods "
+"start on fixed_period_start_day."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, month and day (mmdd) on which "
+"subscription/membership will start. Period start is back-dated unless after "
+"rollover day."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php CRM/Member/Form/MembershipType.php
 msgid "Fixed Period Rollover Day"
 msgstr "Sabit Vadeli Yenileme Günü"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, signups after this day (mmdd) rollover to next"
+" period."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Relationship"
 msgstr "Üyelik Türü İlişkisi"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "FK to Relationship Type ID"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Max Related Members for Type"
@@ -350,8 +636,38 @@ msgid "Membership Type Receipt Text"
 msgstr "Üyelik Türü Alındı Metni"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership signup"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Renewal Text"
 msgstr "Üyelik Türü Yenileme Metni"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership renewal"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"0 = No auto-renew option; 1 = Give option, but not required; 2 = Auto-renew "
+"required;"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Is this membership_type enabled"
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Consider modifying the membership status instead if you want to maintain an "
+"audit trail and avoid losing payment data. You can set the status to "
+"Cancelled by editing the membership and clicking the Status Override "
+"checkbox."
+msgstr "Denetim yapıyorsanız ve verileri kaybetmek istemiyorsanız, kaydı silmek yerine üyelik durumunu değiştirmeyi düşünün. Üyelik durumunu düzenleyerek Durum Değişikliği seçeneğine tıklayıp İptal Edildi şeklinde değiştirebilirsiniz."
+
+#: CRM/Member/Form/Membership.php
+msgid "Click 'Delete' if you want to continue."
+msgstr "Devam etmek istiyorsanız 'Sil' üzerine tıklayın."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
@@ -359,18 +675,7 @@ msgid ""
 "CiviContribute' permission in order to delete this record."
 msgstr "Bu üyelik bir katkı ile bağlantılı. Bu kaydı silebilmek için size 'CiviContribute silme izni' verilmiş olmalıdır."
 
-#: CRM/Member/Form/Membership.php
-msgid ""
-"There are no configured membership statuses. You cannot add this membership "
-"until your membership statuses are correctly configured"
-msgstr "Henüz ayarlanmış bir üyelik durumu yok. Üyelik durumları doğru şekilde ayarlanana kadar bu üyelik eklenemez."
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Membership renewed automatically"
-msgstr "Üyelik otomatik yenileniyor"
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
-#: templates/CRM/Member/Form/MembershipView.tpl
+#: CRM/Member/Form/Membership.php templates/CRM/Member/Form/MembershipView.tpl
 msgid "Max related"
 msgstr "En fazla ilişkili"
 
@@ -404,6 +709,14 @@ msgid "Select at most one option associated with the same membership type."
 msgstr "Aynı üyelik türüyle ilişkili en çok bir seçenek seçilebilir."
 
 #: CRM/Member/Form/Membership.php
+msgid "Select at least one membership option."
+msgstr "En az bir üyelik seçeneği seçin."
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment is required when you use a price set."
+msgstr "Fiyat paketi kullanıldığında üyelik ödemesinin kaydedilmesi zorunludur."
+
+#: CRM/Member/Form/Membership.php
 msgid "Please select a membership type."
 msgstr "Lütfen bir üyelik türü seçin."
 
@@ -411,23 +724,15 @@ msgstr "Lütfen bir üyelik türü seçin."
 msgid "Please enter an integer for the number of terms."
 msgstr "Lütfen dönem olarak bir tamsayı yazın."
 
-#: CRM/Member/Form/Membership.php
-msgid "Select at least one membership option."
-msgstr "En az bir üyelik seçeneği seçin."
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
+msgid "Please enter the financial Type."
+msgstr "Lütfen mali türü yazın."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
 "Please do not select more than one membership associated with the same "
 "organization."
 msgstr "Lütfen aynı kuruluş ile ilişkilendirilmiş birden fazla üyelik seçmeyin."
-
-#: CRM/Member/Form/Membership.php
-msgid "Record Membership Payment is required when you using price set."
-msgstr "Fiyat paketi kullanıldığında üyelik ödemesinin kaydedilmesi zorunludur."
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
-msgid "Please enter the financial Type."
-msgstr "Lütfen mali türü yazın."
 
 #: CRM/Member/Form/Membership.php
 msgid "Please Select a Soft Credit Type"
@@ -448,8 +753,9 @@ msgstr "Lütfen geçerli üyelik durumlarından farklı bir durum yazın."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
-"This must be checked because you set an End Date for a lifetime membership"
-msgstr "Ömür boyu üyelik için bir Bitiş Tarihi yazdığınızdan bu seçenek işaretlenmelidir"
+"Because you set an End Date for a lifetime membership, This must be set to "
+"\"Override Permanently\""
+msgstr "Ömür boyu bir üyelik için bir Bitiş Tarihi yazdığınız için bu seçenek 'Kalıcı Olarak Değiştir\" olmalıdır"
 
 #: CRM/Member/Form/Membership.php
 msgid "Start date must be set if end date is set."
@@ -472,8 +778,10 @@ msgid ""
 msgstr "Maalesef, belirtilen üyelik tarihleri için geçerli bir üyelik durumu bulunamadı. İsterseniz <a href=\"%1\">Üyelik Durumu Kurallarını Ayarlayabilirsiniz</a>."
 
 #: CRM/Member/Form/Membership.php
-msgid "OR You can sign up by setting Status Override? to true."
-msgstr "YA DA durum değişikliğini seçerek kayıt olabilirsiniz."
+msgid ""
+"OR You can sign up by setting Status Override? to something other than "
+"\"NO\"."
+msgstr "YA DA \"NO\" yerine başka bir Durum Değişikliği yaparak kayıt olmak ister misiniz?"
 
 #: CRM/Member/Form/Membership.php
 msgid "Membership Status Error"
@@ -484,8 +792,12 @@ msgid "Please enter the Member Since."
 msgstr "Lütfen üyelik başlangıcı tarihini belirtin."
 
 #: CRM/Member/Form/Membership.php
-msgid "Please enter the status."
-msgstr "Lütfen durumu belirtin."
+msgid "Please enter the Membership status."
+msgstr "Lütfen Üyelik durumunu yazın."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership override end date."
+msgstr "Lütfen Üyelik değişikliği bitiş tarihini yazın."
 
 #: CRM/Member/Form/Membership.php
 msgid "Please enter the contribution."
@@ -496,12 +808,28 @@ msgid "%1 Membership: Offline signup (by %2)"
 msgstr "%1 Üyelik: Çevrimdışı kayıt (%2 tarafından)"
 
 #: CRM/Member/Form/Membership.php
-msgid "Office Credit Card Membership Signup Contribution"
-msgstr "Ofis Kredi Kartı Üyelik Kaydı Katkısı"
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"signup"
+msgstr "Katkı üyenin kayıt sırasında kullandığı kredi kartı kullanılarak bir ekip üyesi tarafından gönderildi"
 
 #: CRM/Member/Form/Membership.php
 msgid "%1 Membership Signup: Credit card or direct debit (by %2)"
 msgstr "%1 Üyelik Kaydı: Kredi kartı ya da borç (%2 tarafından)"
+
+#: CRM/Member/Form/Membership.php
+msgid "A membership confirmation and receipt has been sent to %1."
+msgstr "%1 adresine üyelik onay ve alındısı gönderildi."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Associated recurring contribution cannot be updated on membership type "
+"change."
+msgstr "İlgili yinelenen katkı üyelik türü değişiminde güncellenemez."
+
+#: CRM/Member/Form/Membership.php
+msgid "Associated contribution is updated on membership type change."
+msgstr "İlgili katkı üyelik türü değişiminde güncellenir."
 
 #: CRM/Member/Form/Membership.php
 msgid "Membership for %1 has been updated."
@@ -512,10 +840,6 @@ msgid "The membership End Date is %1."
 msgstr "Üyelik bitiş tarihi %1."
 
 #: CRM/Member/Form/Membership.php
-msgid "A confirmation and receipt has been sent to %1."
-msgstr "%1 adresine onay ve alındı gönderildi."
-
-#: CRM/Member/Form/Membership.php
 msgid "%1 membership for %2 has been added."
 msgstr "%2 için %1 üyeliği eklendi."
 
@@ -524,8 +848,17 @@ msgid "The new membership End Date is %1."
 msgstr "Yeni üyelik bitiş tarihi %1."
 
 #: CRM/Member/Form/Membership.php
-msgid "A membership confirmation and receipt has been sent to %1."
-msgstr "%1 adresine üyelik onay ve alındısı gönderildi."
+msgid ""
+"The financial types associated with the old and new membership types are "
+"different. You may want to edit the contribution associated with this "
+"membership to adjust its financial type."
+msgstr "Eski ve yeni üyelik türlerine atanmış mali türler birbirinden farklı. Bu üyelik için atanmış mali türü değiştirmek isteyebilirsiniz."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The cost of the old and new membership types are different. You may want to "
+"edit the contribution associated with this membership to adjust its amount."
+msgstr "Eski ve yeni üyelik türlerine atanmış maliyetler birbirinden farklı. Bu üyelik için atanmış katkıyı değiştirmek isteyebilirsiniz."
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid "Membership Section Enabled?"
@@ -574,7 +907,7 @@ msgstr "Seçenek sunulsun"
 #: CRM/Member/Form/MembershipBlock.php
 #: templates/CRM/Member/Form/MembershipBlock.tpl
 #: templates/CRM/Member/Form/MembershipView.tpl
-#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+#: templates/CRM/Member/Page/Tab.tpl
 msgid "Auto-renew"
 msgstr "Otomatik yenileme"
 
@@ -592,21 +925,13 @@ msgid ""
 "user to select BOTH an auto-renew AND a non-auto-renew membership. This "
 "requires submitting multiple processor transactions, and is not supported "
 "for one or more of the payment processors enabled under the Amounts tab."
-msgstr "Bu çevrimiçi katkı ile ilişkilendirilmiş fiyat paketi kullanıcının HEM otomatik yenilenen HEM DE otomatik yenilenmeyen üyelikler seçebilmesine izin veriyor. Bu durum birden çok ödeme hareketinin gönderilmesine neden olur ancak Tutarlar sekmesi altında kullandığınız bir ya da bir kaç ödeme aracısı bu özelliği desteklemiyor."
+msgstr "Bu çevrimiçi katkı ile ilişkilendirilmiş fiyat paketi kullanıcının HEM otomatik yenilenen HEM DE otomatik yenilenmeyen üyelikler seçebilmesine izin veriyor. Bu durum birkaç ödeme hareketinin gönderilmesine neden olur ancak Tutarlar sekmesi altında kullandığınız bir ya da bir kaç ödeme aracısı bu özelliği desteklemiyor."
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid ""
 "You cannot enable both Membership Signup and a Contribution Price Set on the"
 " same online contribution page."
 msgstr "Aynı çevrimiçi katkı sayfasında hem Üyelik Kaydı hem Katkı Fiyat Paketi etkinleştirilemez."
-
-#: CRM/Member/Form/MembershipBlock.php
-msgid ""
-"You cannot use Membership Price Sets with the Contribution Amounts section. "
-"However, a membership price set may include additional fields for non-"
-"membership options that requires an additional fee (e.g. magazine "
-"subscription) or an additional voluntary contribution."
-msgstr "Üyelik fiyat paketleri Katkı Tutarları bölümünde kullanılamaz. Bununla birlikte bir üyelik fiyat paketinde ek bir ücret karşılığı üyelik dışı seçenekleri içeren ek alanlar (örneğin dergi aboneliği gibi) ya da gönüllü katılımı bulunabilir."
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid ""
@@ -648,7 +973,7 @@ msgstr "Bu seçeneği kullanabilmek için lütfen katkı tutarı bölümünü et
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 #: templates/CRM/Member/Page/DashBoard.tpl
 msgid "Renew"
-msgstr "Yenileyin"
+msgstr "Yenile"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid ""
@@ -670,16 +995,16 @@ msgid "Date Renewal Entered"
 msgstr "Yazılan Yenileme Tarihi"
 
 #: CRM/Member/Form/MembershipRenewal.php
-msgid "Record Renewal Payment?"
-msgstr "Yenileme Ödemesi Kaydedilsin"
-
-#: CRM/Member/Form/MembershipRenewal.php
 msgid "Extend Membership by"
 msgstr "Üyeliğin Uzatılacağı Süre"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Please enter a whole number for how many periods to renew."
 msgstr "Lütfen yenilemede uzatılacak toplam dönem sayısını yazın."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Record Renewal Payment?"
+msgstr "Yenileme Ödemesi Kaydedilsin"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Renewal Message"
@@ -690,14 +1015,18 @@ msgid ""
 "Oops. It looks like you are trying to change the membership type while "
 "renewing the membership. Please click the \"change membership type\" link, "
 "and select a Membership Organization."
-msgstr "Maalesef, üyeliğinizi yenilerken üyelik türünü değiştirmeye çalışıyorsunuz gibi görünüyor. Lütfen \"Üyelik Türünü Değiştirin\" bağlantısına tıklayarak bir Üyelik Kuruluşu seçin."
+msgstr "Maalesef, üyeliğinizi yenilerken üyelik türünü değiştirmeye çalışıyorsunuz gibi görünüyor. Lütfen \"Üyelik Türünü Değiştir\" bağlantısına tıklayarak bir Üyelik Kuruluşu seçin."
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid ""
 "Oops. It looks like you are trying to change the membership type while "
 "renewing the membership. Please click the \"change membership type\" link "
 "and select a Membership Type from the list."
-msgstr "Maalesef, üyeliğinizi yenilerken üyelik türünü değiştirmeye çalışıyorsunuz gibi görünüyor. Lütfen \"Üyelik Türünü Değiştirin\" bağlantısına tıklayarak listeden bir Üyelik Türü seçin."
+msgstr "Maalesef, üyeliğinizi yenilerken üyelik türünü değiştirmeye çalışıyorsunuz gibi görünüyor. Lütfen \"Üyelik Türünü Değiştir\" bağlantısına tıklayarak listeden bir Üyelik Türü seçin."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal date must be the same or later than Member since (Join Date)."
+msgstr "Yenileme tarihi Üyelik Tarihi (Katılma Tarihi) ile aynı ya da daha sonra olmalıdır."
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Please select a Financial Type."
@@ -708,16 +1037,45 @@ msgid "Please enter a Contribution Amount."
 msgstr "Lütfen bir Katkı Tutarı yazın."
 
 #: CRM/Member/Form/MembershipRenewal.php
-msgid "Office Credit Card Membership Renewal Contribution"
-msgstr "Ofis Kredi Kartı Üyelik Yenileme Katkısı"
-
-#: CRM/Member/Form/MembershipRenewal.php
 msgid "%1 membership for %2 has been renewed."
 msgstr "%2 için %1 üyeliği yenilendi."
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "A renewal confirmation and receipt has been sent to %1."
 msgstr "Yenileme onayı ve alındı %1 adresine gönderildi."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"renewal"
+msgstr "Katkı üyenin yenileme sırasında kullandığı kredi kartı kullanılarak bir ekip üyesi tarafından gönderildi"
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Display name for this Membership status (e.g. New, Current, Grace, "
+"Expired...)."
+msgstr "Bu Üyelik Durumu için görüntülenecek ad (Yeni, Geçerli, Ek Süre, Sonlanmış...)."
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Check this box if this status is for use by administrative staff only. If "
+"checked, this status is never automatically assigned by CiviMember. It is "
+"assigned to a contact's Membership by checking the <strong>Status "
+"Override</strong> flag when adding or editing the Membership record. Start "
+"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
+" setting can be useful for special case statuses like 'Non-expiring', "
+"'Barred' or 'Expelled', etc."
+msgstr "Bu durum yalnızca yöneticiler tarafından kullanılacak ise bu seçeneği işaretleyin. Bu seçenek işaretlendiğinde, bu durum asla CiviMember tarafından otomatik olarak atanmaz. Ancak bir kişinin üyelik kaydı eklenir ya da düzenlenirken <strong>Durum Değişikliği</strong> seçeneği işaretlenerek atanabilir. Yönetici durumları için Başlangıç Etkinliği ve Bitiş Etkinliği ayarları yok sayılır. Örneğin, bu seçenek 'Süresiz', 'Yasaklı' ya da 'Çıkarıldı' gibi özel durumlar için kullanılabilir."
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"You will not be able to delete this membership status if there are existing "
+"memberships with this status. You will need to check all your membership "
+"status rules afterwards to ensure that a valid status will always be "
+"available."
+msgstr "Bu durumu kullanan üyelikler varsa bu üyelik durumu silinemez. Üyelik durumunu sildikten sonra tüm üyelik durumu kurallarındaki durumların kullanılabilir olduğundan emin olun."
 
 #: CRM/Member/Form/MembershipStatus.php
 msgid ""
@@ -734,10 +1092,6 @@ msgid "End Event Adjustment"
 msgstr "Bitiş Etkinliği Ayarı"
 
 #: CRM/Member/Form/MembershipStatus.php
-msgid "Administrator Only?"
-msgstr "Yalnız Yönetici"
-
-#: CRM/Member/Form/MembershipStatus.php
 msgid "Delete Failed"
 msgstr "Silinemedi"
 
@@ -750,15 +1104,98 @@ msgid "The membership status '%1' has been saved."
 msgstr "'%1' üyelik durumu kaydedildi."
 
 #: CRM/Member/Form/MembershipType.php
+msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
+msgstr "örneğin 'Öğrenci', 'Kıdemli', 'Şeref Topluluğu'..."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Description of this membership type for internal use. May include "
+"eligibility, benefits, terms, etc."
+msgstr "İç kullanım için üyelik türü açıklaması. Yararlılık, şartlar, ilişkiler gibi."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Members assigned this membership type belong to which organization (e.g. "
+"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
+" organization/group/chapter must exist as a CiviCRM Organization type "
+"contact."
+msgstr "Bu üyelik türüne atanmış üyelerin bulunduğu kuruluş (örneğin bu üyelik 'Mersin'deki Akdeniz Foklarını Kurtarın' kuruluşu içindir). Not: Bu kuruluş/grup/birim için kuruluş türünde bir CiviCRM kişi kaydı bulunmalıdır."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Minimum fee required for this membership type. For free/complimentary "
+"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
+"process sales taxes this should be the tax exclusive amount."
+msgstr "Bu üyelik türü için ödenebilecek en düşük tutar. Ücretsiz/Karşılıksız üyelikler için en düşük tutarı sıfır (0) olarak ayarlayın. Not: Satış vergileri CiviCRM tarafından hesaplanıyorsa bu tutar vergilerden hariç olmalıdır."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select the financial type assigned to fees for this membership type (for "
+"example 'Membership Fees'). This is required for all membership types - "
+"including free or complimentary memberships."
+msgstr "Bu üyelik türünün ücretlerine atanacak mali türü seçin ('Üyelik Ücretleri' gibi). Bu atama ücretsiz ve karşılıksız olanlar da dahil tüm üyelik türleri için yapılmalıdır. "
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You will need to select and configure a supported payment processor "
+"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
+"to offer automatically renewing memberships."
+msgstr "Üyeliklerin otomatik olarak yenilenebilmesi için, desteklenen bir ödeme aracısı seçip ayarlamanız gerekir (şu anda Authorize.Net, PayPal Pro ya da PayPal Websitesi Standard)."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
+msgstr "Bu üyeliğin süresi (30 gün, 2 ay, 5 yıl, 1 ömür boyu gibi)"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date."
+msgstr "Üyelik süreleri kayıt tarihinde başlıyor ise 'Yuvarlanan', belirli bir takvim tarihinde başlıyor ise 'Sabit' seçin."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Month and day on which a <strong>fixed</strong> period membership or "
+"subscription begins. Example: A fixed period membership with Start Day set "
+"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
+"anyone signing up during 2006."
+msgstr "<strong>Sabit</strong> üyelik ya da abonelik süresinin başlayacağı ay ve gün. Örneğin 01 Ocak taraihinde başlayacak sabit bir üyelik için 2015 yılı içinde kayıt olan herkes için üyelik süresi 1 Ocak 2015 - 31 Aralık 2015 arasında olur."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this date cover the following calendar year "
+"as well. Example: If the rollover day is November 30, membership period for "
+"signups during December will cover the following year."
+msgstr "Bu tarihten sonra yapılan üyelik kayıtları sonraki yıl için geçerli olur. Örneğin yuvarlanma günü 30 Kasım ise, Aralık ayı boyunca kaydedilen üyelikler sonraki yılı kapsar."
+
+#: CRM/Member/Form/MembershipType.php templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Maximum number of related memberships (leave blank for unlimited)."
+msgstr "En fazla ilgili üyelik sayısı (sınırsız olması için boş bırakın)."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Can this membership type be used for self-service signups ('Public'), or is "
+"it only for CiviCRM users with 'Edit Contributions' permission ('Admin')."
+msgstr "Bu üyelik türü kendi kendine oturum açmak için ('Herkese Açık') ya da yalnız 'Katkıları Düzenleyebilir' iznine sahip CiviCRM kullanıcıları tarafından ('Yöneticilere Açık') kullanılabilir."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"WARNING: Deleting this option will result in the loss of all membership "
+"records of this type."
+msgstr "UYARI: Bu seçenek silindiğinde bu türdeki tüm üyelik kayıtları kaybolacak."
+
+#: CRM/Member/Form/MembershipType.php
 msgid ""
 "A membership type with this name already exists. Please select another name."
 msgstr "Aynı adlı bir üyelik türü zaten var. Lütfen başka bir ad seçin."
-
-#: CRM/Member/Form/MembershipType.php
-#: templates/CRM/Member/Page/MembershipType.tpl
-#: templates/CRM/Member/Page/Tab.tpl
-msgid "Minimum Fee"
-msgstr "En Düşük Ücret"
 
 #: CRM/Member/Form/MembershipType.php
 msgid "Please enter a monetary value for the Minimum Fee."
@@ -821,7 +1258,7 @@ msgstr "'%1' üyelik türü kaydedildi."
 
 #: CRM/Member/Form/MembershipView.php
 msgid "Cancel Related Membership"
-msgstr "İlişkili Üyeliği İptal Edin"
+msgstr "İlişkili Üyeliği İptal Et"
 
 #: CRM/Member/Form/MembershipView.php
 msgid "Create Related Membership"
@@ -837,7 +1274,7 @@ msgstr "Üyelik Silindi"
 
 #: CRM/Member/Form/MembershipView.php
 msgid "Manual Assignment of Related Membership"
-msgstr "İlişkili Üyeliği El İle Atayın"
+msgstr "İlişkili Üyeliği El İle Ata"
 
 #: CRM/Member/Form/MembershipView.php
 msgid "Related membership for %1 has been created."
@@ -865,29 +1302,48 @@ msgstr "%1 kullanılabilir"
 
 #: CRM/Member/Form/MembershipView.php
 msgid "View Membership for"
-msgstr "Şu Üyeliği Görüntüleyin"
+msgstr "Şu Üyeliği Görüntüle"
 
 #: CRM/Member/Form/Search.php
 msgid "Member Name or Email"
 msgstr "Üye Adı ya da E-postası"
 
 #: CRM/Member/Form/Search.php
+msgid "Member Tag(s)"
+msgstr "Üye Etiketleri"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Group(s)"
+msgstr "Üye Grupları"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Contact Type"
+msgstr "Üye Kişi Türü"
+
+#: CRM/Member/Form/Search.php
 msgid "Find Memberships"
 msgstr "Üyelikleri Bulun"
 
-#: CRM/Member/Form/Task/Batch.php
-msgid "Batch Update for Members"
-msgstr "Üyeleri Toplu Güncelleyin"
+#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
+#: CRM/Member/Task.php
+msgid "Update multiple memberships"
+msgstr "Birden çok üyeliği güncelle"
 
 #: CRM/Member/Form/Task/Batch.php
 msgid "Update Members(s)"
-msgstr "Üyeleri Güncelleyin"
+msgstr "Üyeleri Güncelle"
+
+#: CRM/Member/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple memberships."
+msgstr "Seçilmiş profil için Dosya alan türlerinde birkaç üyeliğin Güncellenmesi desteklenmiyor."
 
 #: CRM/Member/Form/Task/Batch.php
 msgid "Update Memberships"
-msgstr "Üyelikleri Güncelleyin"
+msgstr "Üyelikleri Güncelle"
 
-#: CRM/Member/Form/Task/Delete.php CRM/Member/Task.php
+#: CRM/Member/Form/Task/Delete.php
 msgid "Delete Memberships"
 msgstr "Üyelikleri Silin"
 
@@ -905,38 +1361,44 @@ msgstr "Her üyelik için bir etiket basılsın (her kişi yerine)"
 msgid ""
 "As you are printing one label per membership your merge settings are being "
 "ignored"
-msgstr "Her üyelik için bir etiket basıldığından birleştirme ayarlarınız yoksayılacak"
-
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Profile Update for Membership"
-msgstr "Üyelik İçin Toplu Profil Güncellemesi"
+msgstr "Her üyelik için bir etiket basıldığından birleştirme ayarlarınız yok sayılacak"
 
 #: CRM/Member/Form/Task/PickProfile.php
 msgid ""
-"The maximum number of members you can select for Batch Update is %1. You "
-"have selected %2. Please select fewer members from your search results and "
-"try again."
-msgstr "Toplu güncelleme için seçilebilecek en fazla üye sayısı %1. Siz %2 üye seçmişsiniz. Lütfen arama sonuçlarından daha az sayıda üye seçerek yeniden deneyin."
+"The maximum number of members you can select for Update multiple memberships"
+" is %1. You have selected %2. Please select fewer members from your search "
+"results and try again."
+msgstr "Toplu üyelik güncelleme için seçilebilecek en fazla üye sayısı %1. Siz %2 üye seçmişsiniz. Lütfen arama sonuçlarından daha az sayıda üye seçerek yeniden deneyin."
 
 #: CRM/Member/Form/Task/PickProfile.php
 msgid ""
 "You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Batch Update via Profile. Navigate to Administer CiviCRM "
-">> CiviCRM Profile to configure a Profile. Consult the online Administrator "
-"documentation for more information."
-msgstr "Profile göre toplu güncelleme işlemini yapmadan önce düzenlemek istediğiniz %1 alanı içeren bir profil oluşturmalısınız. Bir profil ayarlamak için Yönetim > CiviCRM Profili bölümüne gidin. Ayrıntılı bilgi almak için Çevrimiçi Yönetici belgelerine bakın."
+"before you can use Update multiple memberships. Navigate to Administer "
+"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
+"Administrator documentation for more information."
+msgstr "Profile göre toplu üyelik güncelleme işlemini yapmadan önce düzenlemek istediğiniz %1 alanı içeren bir profil oluşturmalısınız. Bir profil ayarlamak için Yönetim > CiviCRM Profili bölümüne gidin. Ayrıntılı bilgi almak için Çevrimiçi Yönetici belgelerine bakabilirsiniz."
 
 #: CRM/Member/Form/Task/Print.php
 msgid "Print Members"
-msgstr "Üyeleri Yazdırın"
+msgstr "Üyeleri Yazdır"
+
+#: CRM/Member/Form.php
+msgid ""
+"There are no configured membership statuses. You cannot add this membership "
+"until your membership statuses are correctly configured"
+msgstr "Henüz ayarlanmış bir üyelik durumu yok. Üyelik durumları doğru şekilde ayarlanana kadar bu üyelik eklenemez."
+
+#: CRM/Member/Form.php
+msgid "Membership renewed automatically"
+msgstr "Üyelik otomatik yenileniyor"
 
 #: CRM/Member/Import/Form/DataSource.php
 msgid "Insert new Membership"
-msgstr "Yeni Üyelik Ekleyin"
+msgstr "Yeni Üyelik Ekle"
 
 #: CRM/Member/Import/Form/DataSource.php
 msgid "Update existing Membership"
-msgstr "Varolan Üyeliği Güncelleyin"
+msgstr "Var Olan Üyeliği Güncelle"
 
 #: CRM/Member/Import/Form/MapField.php
 msgid "(OR Membership ID if update mode.)"
@@ -944,11 +1406,15 @@ msgstr "(YA DA güncelleme kipinde ise Üyelik Kodu)"
 
 #: CRM/Member/Import/Form/MapField.php
 msgid "Duplicate Import Membership Mapping Name"
-msgstr "Çift Alma Üyelik Eşleşmesi Adı"
+msgstr "Çift İçe Aktarma Üyelik Eşleşmesi Adı"
 
 #: CRM/Member/Import/Parser.php
 msgid "View Membership URL"
-msgstr "Üyelik İnternet Adresine Bakın"
+msgstr "Üyelik Adresini Görüntüle"
+
+#: CRM/Member/Info.php
+msgid "CiviCRM Membership Engine"
+msgstr "CiviCRM Üyelik Motoru"
 
 #: CRM/Member/Info.php
 msgid "access CiviMember"
@@ -970,7 +1436,7 @@ msgstr "Üyelik ekleme ve güncelleyebilme"
 msgid "delete in CiviMember"
 msgstr "CiviMember üzerinde silme"
 
-#: CRM/Member/Info.php
+#: CRM/Member/Info.php CRM/Member/Task.php
 msgid "Delete memberships"
 msgstr "Üyelikleri silebilme"
 
@@ -992,15 +1458,15 @@ msgstr "Üye"
 #: CRM/Member/Page/MembershipStatus.php
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid "Edit Membership Status"
-msgstr "Üyelik Durumunu Düzenleyin"
+msgstr "Üyelik Durumunu Düzenle"
 
 #: CRM/Member/Page/MembershipStatus.php
 msgid "Disable Membership Status"
-msgstr "Üyelik Durumunu Devre Dışı Bırakın"
+msgstr "Üyelik Durumunu Devre Dışı Bırak"
 
 #: CRM/Member/Page/MembershipStatus.php
 msgid "Enable Membership Status"
-msgstr "Üyelik Durumunu Etkinleştirin"
+msgstr "Üyelik Durumunu Etkinleştir"
 
 #: CRM/Member/Page/MembershipStatus.php
 #: templates/CRM/Member/Form/MembershipStatus.tpl
@@ -1009,15 +1475,15 @@ msgstr "Üyelik Durumunu Silin"
 
 #: CRM/Member/Page/MembershipType.php CRM/Member/Page/Tab.php
 msgid "Edit Membership Type"
-msgstr "Üyelik Türünü Düzenleyin"
+msgstr "Üyelik Türünü Düzenle"
 
 #: CRM/Member/Page/MembershipType.php
 msgid "Disable Membership Type"
-msgstr "Üyelik Türünü Devre Dışı Bırakın"
+msgstr "Üyelik Türünü Devre Dışı Bırak"
 
 #: CRM/Member/Page/MembershipType.php
 msgid "Enable Membership Type"
-msgstr "Üyelik Türünü Etkinleştirin"
+msgstr "Üyelik Türünü Etkinleştir"
 
 #: CRM/Member/Page/MembershipType.php
 msgid "Delete Membership Type"
@@ -1037,15 +1503,15 @@ msgstr "Kullanılamaz"
 
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "View Membership"
-msgstr "Üyeliğe Bakın"
+msgstr "Üyeliği Görüntüle"
 
 #: CRM/Member/Page/Tab.php
 msgid "Create Membership"
-msgstr "Üyelik Ekleyin"
+msgstr "Üyelik Ekle"
 
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Edit Membership"
-msgstr "Üyeliği Düzenleyin"
+msgstr "Üyeliği Düzenle"
 
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Renew-Credit Card"
@@ -1053,7 +1519,7 @@ msgstr "Yenileme-Kredi Kartı"
 
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Renew Membership Using Credit Card"
-msgstr "Üyeliği Kredi Kartı Kullanarak Yenileyin"
+msgstr "Üyeliği Kredi Kartı Kullanarak Yenile"
 
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Delete Membership"
@@ -1066,9 +1532,9 @@ msgid ""
 " the current membership status will not be affected."
 msgstr "UYARI: Bu üyelik ile ilişkili yenilenen katkıyı iptal ederseniz, üyelik artık otomatik olarak yenilenmez. Bu değişiklik geçerli üyelik durumunu etkilemez."
 
-#: CRM/Member/Page/Tab.php
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Cancel Auto Renew Subscription"
-msgstr "Otomatik Abonelik Yenilemeyi İptal Edin"
+msgstr "Otomatik Abonelik Yenilemeyi İptal Et"
 
 #: CRM/Member/Page/Tab.php
 msgid "Members"
@@ -1078,17 +1544,21 @@ msgstr "Üyeler"
 msgid "Auto-renew?"
 msgstr "Otomatik Yenileme"
 
-#: CRM/Member/Task.php
-msgid "Export Members"
-msgstr "Üyeleri Verin"
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Permanently"
+msgstr "Kalıcı Olarak Değiştir"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Until Selected Date"
+msgstr "Belirtilen Tarihe Kadar Değiştir"
 
 #: CRM/Member/Task.php
-msgid "Batch Update Members Via Profile"
-msgstr "Profile Göre Toplu Üye Güncelleme"
+msgid "Export members"
+msgstr "Üyeleri Dışa Aktar"
 
 #: CRM/Member/Task.php
-msgid "Print PDF Letters for Memberships"
-msgstr "Üyelikler için PDF mektupları yazdırın"
+msgid "Print/merge document for memberships"
+msgstr "Üyelik belgesini yazdır/birleştir"
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid ""
@@ -1108,7 +1578,7 @@ msgid ""
 "If this recurring payment uses a processor which has support for integrated "
 "cancellation, click \"Cancel\" on this form, and use the \"Cancel Auto-renew"
 " Subscription\" action (click \"more\" in the membership listing row)."
-msgstr "Bu yinelenen ödeme için, tümleşik iptal etme özelliğini destekleyen bir ödeme aracısı kullanılıyor ise, bu form üzerindeki \"İptal\" üzerine tıklayın ve \"Otomatik Yenileme Aboneliği İptal Edin\" işlemini kullanın (üyelik listesi satırındaki \"diğer\" üzerine tıklayın)."
+msgstr "Bu yinelenen ödeme için, tümleşik iptal etme özelliğini destekleyen bir ödeme aracısı kullanılıyor ise, bu form üzerindeki \"İptal\" üzerine tıklayın ve \"Otomatik Yenileme Aboneliği İptal Et\" işlemini kullanın (üyelik listesi satırındaki \"diğer\" üzerine tıklayın)."
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid ""
@@ -1116,7 +1586,7 @@ msgid ""
 "need to cancel the associated Recurring Contribution record from the "
 "Contributions tab. <strong>In this case you must also manually cancel the "
 "recurring payment from the payment processor website</strong>."
-msgstr "\"Otomatik Yenilenen Aboneliği İptal Edin\" işlemini göremiyorsanız, Katkılar sekmesinden ilgili yinelenen katkı kaydını iptal etmeniz gerekir. <strong>Bu durumda yinelenen ödemeyi ayrıca el ile ödeme aracısının web sitesinden iptal etmeniz gerekir.</strong>."
+msgstr "\"Otomatik Yenilenen Aboneliği İptal Et\" işlemini göremiyorsanız, Katkılar sekmesinden ilgili yinelenen katkı kaydını iptal etmeniz gerekir. <strong>Bu durumda yinelenen ödemeyi ayrıca el ile ödeme aracısının web sitesinden iptal etmeniz gerekir.</strong>."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1125,7 +1595,7 @@ msgid ""
 "receipt to be sent when this Membership is recorded, click Cancel and then "
 "click Edit from the Summary tab to add an email address before recording the"
 " Membership."
-msgstr "Bu kişi için bir e-posta adresi kaydedilmemiş olduğundan, bu üyelik için otomatik bir e-posta alındısı gönderilemez. Alındı göndermek istiyorsanız, İptal düğmesine tıkladıktan sonra Özet sekmesinden Düzenleyin üzerine tıklayarak bir e-posta adresi ekleyin ve ardından üyelik kaydını yapın."
+msgstr "Bu kişi için bir e-posta adresi kaydedilmemiş olduğundan, bu üyelik için otomatik bir e-posta alındısı gönderilemez. Alındı göndermek istiyorsanız, İptal düğmesine tıkladıktan sonra Özet sekmesinden Düzenle üzerine tıklayarak bir e-posta adresi ekleyin ve ardından üyelik kaydını yapın."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1134,32 +1604,13 @@ msgid ""
 msgstr "%1 adına üyelik kaydını yapmak için bu formu kullanın. Seçilmiş ödeme aracısı kullanılarak <strong>bir %2 hareketi gönderilecek</strong>"
 
 #: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"WARNING: Deleting this membership will also delete any related payment "
-"(contribution) records."
-msgstr "UYARI: Bu üyelik silindiğinde ilgili ödeme (katkı) kayıtları da silinir."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"Consider modifying the membership status instead if you want to maintain an "
-"audit trail and avoid losing payment data. You can set the status to "
-"Cancelled by editing the membership and clicking the Status Override "
-"checkbox."
-msgstr "Denetim yapıyorsanız ve verileri kaybetmek istemiyorsanız, kaydı silmek yerine üyelik durumunu değiştirmeyi düşünün. Üyelik durumunu düzenleyerek Durum Değişikliği seçeneğine tıklayıp İptal Edildi şeklinde değiştirebilirsiniz."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid "Click 'Delete' if you want to continue."
-msgstr "Devam etmek istiyorsanız 'Silin' düğmesine tıklayın."
+msgid "submit credit card membership"
+msgstr "kredi kartı üyeliği gönder"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Select Membership Organization and then Membership Type."
 msgstr "Üyelik Kuruluşunu ve Üyelik Türünü seçin."
-
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid "Maximum number of related memberships (leave blank for unlimited)."
-msgstr "En fazla ilgili üyelik sayısı (sınırsız olması için boş bırakın)."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1193,18 +1644,14 @@ msgstr "Süren üyelik döneminin son günü. Bir tarih seçilmez ise, bitiş ta
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
-"If <strong>Status Override</strong> is checked, the selected status will "
-"remain in force (it will NOT be modified by the automated status update "
-"script)."
-msgstr "<strong>Durum Değişikliği</status> seçildiğinde, seçilen durum kalıcı olur (otomatik durum değişikliği güncelleme betikleri tarafından değiştirilmez)."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid "Membership payment amount."
-msgstr "Üyelik ödeme tutarı."
+"When <strong>Status Override</strong> is active, the selected status will "
+"remain in force (it will NOT be subject to membership status rules) until it"
+" is cancelled or become inactive."
+msgstr "<strong>Durum Değişikliği</status> seçildiğinde, iptal edilene ya da devre dışı kalana kadar seçilen durum sabitlenir (üyelik durumu kuralları tarafından değiştirilmez)."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Update Payment Status"
-msgstr "Ödeme Durumunu Güncelleyin"
+msgstr "Ödeme Durumunu Güncelle"
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1217,15 +1664,20 @@ msgid "Membership Payment and Receipt"
 msgstr "Üyelik Ödemesi ve Alındı"
 
 #: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid ""
-"Membership payment amount. A contribution record will be created for this "
-"amount."
-msgstr "Üyelik ödeme tutarı. Bu tutar için bir katkı kaydı oluşturulacak."
+"Automatically email a membership confirmation and receipt to %1? OR if the "
+"payment is from a different contact, this email will only go to them."
+msgstr "Otomatik üyelik onayı ve alındı e-postası %1 adresine gönderilsin mi? YA DA ödeme formu başka bir kişi içinse bu e-posta yalnız onlara gider."
 
 #: templates/CRM/Member/Form/Membership.tpl
-msgid "Automatically email a membership confirmation and receipt to %1 ?"
-msgstr "Üyelik onayı ve alındısı %1 e-posta adresine gönderilsin"
+msgid ""
+"For auto-renewing memberships the emails are sent when each payment is "
+"received"
+msgstr "Otomatik yenilenen üyeliklerde her ödeme alındığında e-posta gönderilir"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Automatically email a membership confirmation and receipt to "
+msgstr "Otomatik üyelik onayı ve alındı e-postası şuraya gönderilsin"
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1234,20 +1686,11 @@ msgid ""
 msgstr "YA DA ödeme farklı bir kişiden alınmış ise bu e-posta yalnız onlara gönderilsin"
 
 #: templates/CRM/Member/Form/Membership.tpl
-msgid "Automatically email a membership confirmation and receipt to "
-msgstr "Otomatik üyelik onayı ve alındı e-postası şuraya gönderilsin"
-
-#: templates/CRM/Member/Form/Membership.tpl
 msgid ""
 "If you need to include a special message for this member, enter it here. "
 "Otherwise, the confirmation email will include the standard receipt message "
 "configured under System Message Templates."
 msgstr "Bu üyeye göndermek istediğiniz özel bir ileti varsa buraya yazın. Yoksa, onay e-postasında Sistem İletileri Kalıpları altından ayarlanmış standart alındı iletisi gönderilir."
-
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipView.tpl
-msgid "Related Contributions"
-msgstr "İlişkili Katkılar"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipView.tpl
@@ -1267,12 +1710,12 @@ msgstr "Bu kişinin %2 üzerinde %3 ile %4 durumunda %1 üyeliği var."
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
 msgid "Renew the existing membership instead"
-msgstr "Bunun yerine varolan üyelik yenilensin"
+msgstr "Bunun yerine var olan üyelik yenilensin"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
 msgid "View all existing and / or expired memberships for this contact"
-msgstr "Bu kişinin tüm geçmiş ve varolan üyeliklerine bakın"
+msgstr "Bu kişinin tüm geçmiş ve var olan üyeliklerini görüntüle"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
@@ -1327,12 +1770,6 @@ msgid ""
 " then a single transaction is processed for their contribution amount which "
 "must at least cover the selected membership fee."
 msgstr "Bu seçenek işaretlenmemiş iken Katkı Tutarı bölümü eklenmiş ise, katkı tutarı için en azından seçilmiş üyelik ücretini içeren tek bir hareket oluşturulur."
-
-#: templates/CRM/Member/Form/MembershipBlock.hlp
-msgid ""
-"NOTE: This option is NOT available for PayPal Website Payments Standard and "
-"Google Checkout."
-msgstr "NOT: Bu seçenek PayPal Standart Web Sitesi Ödemesi ve Google Checkout için geçerli değildir."
 
 #: templates/CRM/Member/Form/MembershipBlock.hlp
 msgid "Display Fee"
@@ -1402,7 +1839,7 @@ msgid ""
 "options, including allowing constituents to sign up for multiple memberships"
 " at the same time. Click <a href='%1'>here</a> if you want to configure "
 "price sets for your site."
-msgstr "Siteniz için henüz bir Üyelik Fiyat Paketi ayarlanmamış ya da etkinleştirilmemiş. Fiyat paketlerini kullanarak daha ayrıntılı üyelik kaydı ve yenileme seçenekleri sunabilir, aynı anda birden çok üyelik kaydı yapabilirsiniz. Fiyat paketlerini ayarlamak için <a href='%1'>buraya tıklayın</a>."
+msgstr "Siteniz için henüz bir Üyelik Fiyat Paketi ayarlanmamış ya da etkinleştirilmemiş. Fiyat paketlerini kullanarak daha ayrıntılı üyelik kaydı ve yenileme seçenekleri sunabilir, aynı anda birkaç üyelik kaydı yapabilirsiniz. Fiyat paketlerini ayarlamak için <a href='%1'>buraya tıklayın</a>."
 
 #: templates/CRM/Member/Form/MembershipBlock.tpl
 msgid ""
@@ -1445,6 +1882,16 @@ msgid ""
 "Renewal."
 msgstr "Kendi kendine üyelik hesabı açma/yenileme işlemi yapabilmek için 'Herkese Açık' görünürlüğe sahip en az bir  <a href=\"%1\">Üyelik Türü</a> bulunmalıdır."
 
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid ""
+"Membership payment amount. A contribution record will be created for this "
+"amount."
+msgstr "Üyelik ödeme tutarı. Bu tutar için bir katkı kaydı oluşturulacak."
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid "Membership payment amount."
+msgstr "Üyelik ödeme tutarı."
+
 #: templates/CRM/Member/Form/MembershipRelated.tpl
 msgid "Related Contacts/Memberships"
 msgstr "İlişkili Kişiler/Üyelikler"
@@ -1464,7 +1911,7 @@ msgid ""
 "you want a receipt to be sent when this Membership is recorded, click Cancel"
 " and then click Edit from the Summary tab to add an email address before "
 "Renewal the Membership."
-msgstr "Bu kişi için kayıtlı bir e-posta adresi bulunmadığından bu üyelik yenilemesi için otomatik bir e-posta alındısı gönderilemeyecek. Bu üyelik kaydı yapıldığında bir alındı gönderilmesi için, üyeliği yenilemeden önce İptal düğmesine tıkladıktan sonra Özet sekmesinde Düzenleyin üzerine tıklayın ve bir e-posta adresi ekleyin."
+msgstr "Bu kişi için kayıtlı bir e-posta adresi bulunmadığından bu üyelik yenilemesi için otomatik bir e-posta alındısı gönderilemeyecek. Bu üyelik kaydı yapıldığında bir alındı gönderilmesi için, üyeliği yenilemeden önce İptal düğmesine tıkladıktan sonra Özet sekmesinde Düzenle üzerine tıklayın ve bir e-posta adresi ekleyin."
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid ""
@@ -1484,15 +1931,11 @@ msgstr "Yenileme süresi, Geçerli ya da Ek Süre durumundaki üyeler için norm
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "change membership type"
-msgstr "üyelik türünü değiştirin"
+msgstr "üyelik türünü değiştir"
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Status of this membership."
 msgstr "Bu üyeliğin durumu."
-
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-msgid "Renewal Payment and Receipt"
-msgstr "Yenileme Ödemesi ve Alındısı"
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Renewal extends membership end date by one membership period"
@@ -1500,7 +1943,7 @@ msgstr "Yenileme işlemi, üyelik bitiş tarihini bir üyelik dönemi kadar uzat
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "change"
-msgstr "değiştirin"
+msgstr "değiştir"
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "membership periods"
@@ -1511,6 +1954,10 @@ msgid ""
 "Extend the membership end date by this many membership periods. Make sure "
 "the appropriate corresponding fee is entered below."
 msgstr "Üyelik bitiş tarihini belirtilen üyelik dönemi kadar uzatır. Bunun için aşağıya uygun ücretin yazıldığından emin olun."
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal Payment and Receipt"
+msgstr "Yenileme Ödemesi ve Alındısı"
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Automatically email a membership confirmation and receipt to %1?"
@@ -1525,18 +1972,6 @@ msgstr "E-posta ile gönderilen alındının başlangıcına eklenmesini istedi�
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid "New Membership Status"
 msgstr "Yeni Üyelik Durumu"
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
-"WARNING: Deleting this option will result in the loss of all membership "
-"records of this status."
-msgstr "UYARI: Bu seçenek silindiğinde bu durumu kullanan tüm üyelik verileri kaybolacak."
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
-"Display name for this Membership status (e.g. New, Current, Grace, "
-"Expired...)."
-msgstr "Bu Üyelik Durumu için görüntülenecek ad (Yeni, Geçerli, Ek Süre, Sonlanmış...)."
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
@@ -1571,17 +2006,6 @@ msgstr "Bu durum geçerli üyelik durumunun kapsamını belirler. Örneğin: Yen
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
-"Check this box if this status is for use by administrative staff only. If "
-"checked, this status is never automatically assigned by CiviMember. It is "
-"assigned to a contact's Membership by checking the <strong>Status "
-"Override</strong> flag when adding or editing the Membership record. Start "
-"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
-" setting can be useful for special case statuses like 'Non-expiring', "
-"'Barred' or 'Expelled', etc."
-msgstr "Bu durum yalnızca yöneticiler tarafından kullanılacak ise bu seçeneği işaretleyin. Bu seçenek işaretlendiğinde, bu durum asla CiviMember tarafından otomatik olarak atanmaz. Ancak bir kişinin üyelik kaydı eklenir ya da düzenlenirken <strong>Durum Değişikliği</strong> seçeneği işaretlenerek atanabilir. Yönetici durumları için Başlangıç Etkinliği ve Bitiş Etkinliği ayarları yoksayılır. Örneğin, bu seçenek 'Süresiz', 'Yasaklı' ya da 'Çıkarıldı' gibi özel durumlar için kullanılabilir."
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
 "Weight sets the order of precedence for automatic assignment of status to a "
 "membership. It also sets the order for status displays. EXAMPLE: The default"
 " 'New' and 'Current' statuses have overlapping ranges. Memberships that meet"
@@ -1597,77 +2021,6 @@ msgstr "Bir üyelilk ile eşleşen bir durum kuralı olmadığında varsayılan 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid "Is this status enabled."
 msgstr "Durum etkin."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"WARNING: Deleting this option will result in the loss of all membership "
-"records of this type."
-msgstr "UYARI: Bu seçenek silindiğinde bu türdeki tüm üyelik kayıtları kaybolacak."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
-msgstr "örneğin 'Öğrenci', 'Kıdemli', 'Şeref Topluluğu'..."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Description of this membership type for internal use. May include "
-"eligibility, benefits, terms, etc."
-msgstr "İç kullanım için üyelik türü açıklaması. Yararlılık, şartlar, ilişkiler gibi."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Members assigned this membership type belong to which organization (e.g. "
-"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
-" organization/group/chapter must exist as a CiviCRM Organization type "
-"contact."
-msgstr "Bu üyelik türüne atanmış üyelerin bulunduğu kuruluş (örneğin bu üyelik 'Mersin'deki Akdeniz Foklarını Kurtarın' kuruluşu içindir). Not: Bu kuruluş/grup/birim için kuruluş türünde bir CiviCRM kişi kaydı bulunmalıdır."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Minimum fee required for this membership type. For free/complimentary "
-"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
-"process sales taxes this should be the tax exclusive amount."
-msgstr "Bu üyelik türü için ödenebilecek en düşük tutar. Ücretsiz/Karşılıksız üyelikler için en düşük tutarı sıfır (0) olarak ayarlayın. Not: Satış vergileri CiviCRM tarafından hesaplanıyorsa bu tutar vergilerden hariç olmalıdır."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Select the financial type assigned to fees for this membership type (for "
-"example 'Membership Fees'). This is required for all membership types - "
-"including free or complimentary memberships."
-msgstr "Bu üyelik türünün ücretlerine atanacak mali türü seçin ('Üyelik Ücretleri' gibi). Bu atama ücretsiz ve karşılıksız olanlar da dahil tüm üyelik türleri için yapılmalıdır. "
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"You will need to select and configure a supported payment processor "
-"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
-"to offer automatically renewing memberships."
-msgstr "Üyeliklerin otomatik olarak yenilenebilmesi için, desteklenen bir ödeme aracısı seçip ayarlamanız gerekir (şu anda Authorize.Net, PayPal Pro ya da PayPal Websitesi Standard)."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
-msgstr "Bu üyeliğin süresi (30 gün, 2 ay, 5 yıl, 1 ömür boyu gibi)"
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Select 'rolling' if membership periods begin at date of signup. Select "
-"'fixed' if membership periods begin on a set calendar date."
-msgstr "Üyelik süreleri kayıt tarihinde başlıyor ise 'Yuvarlanan', belirli bir takvim tarihinde başlıyor ise 'Sabit' seçin."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Month and day on which a <strong>fixed</strong> period membership or "
-"subscription begins. Example: A fixed period membership with Start Day set "
-"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
-"anyone signing up during 2006."
-msgstr "<strong>Sabit</strong> üyelik ya da abonelik süresinin başlayacağı ay ve gün. Örneğin 01 Ocak taraihinde başlayacak sabit bir üyelik için 2015 yılı içinde kayıt olan herkes için üyelik süresi 1 Ocak 2015 - 31 Aralık 2015 arasında olur."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Membership signups on or after this date cover the following calendar year "
-"as well. Example: If the rollover day is November 30, membership period for "
-"signups during December will cover the following year."
-msgstr "Bu tarihten sonra yapılan üyelik kayıtları sonraki yıl için geçerli olur. Örneğin yuvarlanma günü 30 Kasım ise, Aralık ayı boyunca kaydedilen üyelikler sonraki yılı kapsar."
 
 #: templates/CRM/Member/Form/MembershipType.tpl
 msgid ""
@@ -1688,12 +2041,6 @@ msgid ""
 msgstr "Bir ilişki türü seçilerek üyeliklerin otomatik olarak ilişkili kişilere bağlanması sağlanabilir."
 
 #: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Is this membership type available for self-service signups ('Public') or "
-"assigned by CiviCRM 'staff' users only ('Admin')"
-msgstr "Bu üyelik türünü kimlerin kullanabileceği. Kendi kendine atanabilir ('Herkese Açık') ya da yalnız CiviCRM 'ekibindeki' kullanıcılar tarafından atanabilir ('Yöneticilere Açık')"
-
-#: templates/CRM/Member/Form/MembershipType.tpl
 msgid "Renewal Reminders"
 msgstr "Yenileme Anımsatıcıları"
 
@@ -1706,7 +2053,7 @@ msgstr "Üyelik yenileme anımsatıcıları <a href=\"%1\">Zamanlanmış Anımsa
 
 #: templates/CRM/Member/Form/MembershipView.tpl
 msgid "View contact summary"
-msgstr "Kişi özetine bakın"
+msgstr "Kişi özetini görüntüle"
 
 #: templates/CRM/Member/Form/MembershipView.tpl
 msgid "By Relationship"
@@ -1714,7 +2061,11 @@ msgstr "İlişkiye Göre"
 
 #: templates/CRM/Member/Form/MembershipView.tpl
 msgid "View primary member contact summary"
-msgstr "Birincil üye özetine bakın"
+msgstr "Birincil üye özetini görüntüle"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Contributions and Recurring Contributions"
+msgstr "İlgili Katkılar ve Yinelenen Katkılar"
 
 #: templates/CRM/Member/Form/Search/EmptyResults.tpl
 msgid "if you are searching by member name, check your spelling"
@@ -1742,21 +2093,87 @@ msgid ""
 "direct member or inherit it through a relationship,"
 msgstr "İlişkiden devir alınan ve doğrudan atanmış tüm üyeleri doğrudan görüntülemek için hiç birini seçmeyin, "
 
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Membership Status Is Override?"
+msgstr "Üyelik Durumu Değiştirilebilir"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only membership with Status Override set "
+"(membership is manually forced to a specific status)"
+msgstr "Evet olarak seçildiğinde, yalnız durumu değiştirilmiş üyelikler görüntülenir (üyelik belirli bir duruma atanır)."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only memberships without Status Override set "
+"(membership is subject to the normal status rules)"
+msgstr "Hayır olarak seçildiğinde, yalnız durumu değiştirilmemiş üyelikler görüntülenir (üyelik normal durum kurallarına göre atanır)."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select neither to show all memberships"
+msgstr "Tüm üyelikleri görüntülemek için hiç biri olarak seçin"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Auto-Renew Subscription Status"
+msgstr "Otomatik Yenileme Abonelik Durumu"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"None\" to display memberships that have never had an auto-renew "
+"subscription."
+msgstr "Asla otomatik yenilenen bir aboneliği olmaya üyeleri görüntülemek için \"Yok\" seçin."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"In Progress\" to display memberships with current auto-renew "
+"subscriptions."
+msgstr "Güncel otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"Güncel\" seçin."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select \"Failed\" to display memberships with failed subscription payment."
+msgstr "İşlemi yapılamayan otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"İşlem Yapılamadı\" seçin."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Cancelled\" to display memberships with cancelled auto-renew "
+"subscriptions."
+msgstr "İptal edilmiş otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"İptal\" seçin."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Ended\" to display memberships with an ended auto-renew "
+"subscription."
+msgstr "Sona ermiş otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"Sona Ermiş\" seçin."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Any\" to display memberships with auto-renew subscription "
+"irrespective of their status."
+msgstr "Durumundan bağımsız olarak tüm otomatik yenilenen aboneliği olan üyeleri görüntülemek için \"Tümü\" seçin."
+
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "by relationship"
 msgstr "ilişkiye göre"
 
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew active"
+msgstr "Otomatik yenileme etkin"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew error"
+msgstr "Otomatik yenileme sorunu"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "View Primary member record"
-msgstr "Birincil Üye Kaydına Bakın"
+msgstr "Birincil Üye Kaydını Görüntüle"
 
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "View Primary"
-msgstr "Birincile Bakın"
+msgstr "Birincili Görüntüle"
 
 #: templates/CRM/Member/Form/Selector.tpl
 msgid "View all memberships for this contact"
-msgstr "Bu kişinin tüm üyeliklerine bakın"
+msgstr "Bu kişinin tüm üyeliklerini görüntüle"
 
 #: templates/CRM/Member/Form/Selector.tpl
 msgid "Find more members"
@@ -1768,7 +2185,7 @@ msgid ""
 "Memberships</strong> below to save all your changes. To set a field to the "
 "same value for ALL rows, enter that value for the first member and then "
 "click the <strong>Copy icon</strong> (next to the column title)."
-msgstr "Her bir üye için alan değelerini gerekli şekilde güncelleyin. Yaptığınız tüm değişiklikleri kaydetmek için <strong>Üyelikleri Güncelleyin</strong> üzerine tıklayın. Tüm satırlar için aynı değeri yazmak istiyorsanız, bu değeri ilk üyeye yazın ve <strong>Kopyalayın Simgesi</strong> üzerine tıklayın (sütun başlığının yanında)."
+msgstr "Her bir üye için alan değelerini gerekli şekilde güncelleyin. Yaptığınız tüm değişiklikleri kaydetmek için <strong>Üyelikleri Güncelle</strong> üzerine tıklayın. Tüm satırlar için aynı değeri yazmak istiyorsanız, bu değeri ilk üyeye yazın ve <strong>Kopyala Simgesi</strong> üzerine tıklayın (sütun başlığının yanında)."
 
 #: templates/CRM/Member/Form/Task/Delete.tpl
 msgid ""
@@ -1799,7 +2216,7 @@ msgid ""
 "'External ID' for each new contact which you can then use to match "
 "memberships to contacts. Then return to this screen and import the "
 "membership records."
-msgstr "Üyelikleri alabilmek için, önceden CiviCRM veri tabanında her bir kişi, hane halkı ya da kuruluşla ilgili bir kişi kaydı bulunmalıdır. Henüz CiviCRm üzerinde kişi kaydı bulunmayan üyelikleri almanız gerekiyorsa, bu işlemi 2 adımda yapabilirsiniz. Önce kişi kayıtlarını eklemek için <strong>Kişileri Alın</strong>. Olabiliyorsa her kişi kaydına üyelikler ile kişileri eşleştirebilmek için bir 'Dış Kod' ekleyin. Ardından bu sayfaya geri dönerek üyelik kayıtlarını alın."
+msgstr "Üyelikleri içe aktarabilmek için, önceden CiviCRM veri tabanında her bir kişi, hane halkı ya da kuruluşla ilgili bir kişi kaydı bulunmalıdır. Henüz CiviCRM üzerinde kişi kaydı bulunmayan üyelikleri içe aktarmanız gerekiyorsa, bu işlemi 2 adımda yapabilirsiniz. Önce kişi kayıtlarını eklemek için <strong>Kişileri İçe Aktarın</strong>. Olabiliyorsa her kişi kaydına üyelikler ile kişileri eşleştirebilmek için bir 'Dış Kod' ekleyin. Ardından bu sayfaya geri dönerek üyelik kayıtlarını içe aktarın."
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid "Matching Memberships to Contacts"
@@ -1810,7 +2227,7 @@ msgid ""
 "Membership import files must contain data needed to <strong>match the "
 "membership to the contact record</strong>. This 'matching' can be handled in"
 " several different ways:"
-msgstr "Üyelik bilgilerinin alınacağı dosyada <strong>üyelik kayıtları ile kişi kayıtlarını eşleştirecek</strong> bir veri bulunmalıdır. Bu 'eşleştirme' bir kaç şekilde yapılabilir:"
+msgstr "Üyelik bilgilerinin içe aktarılacağı dosyada <strong>üyelik kayıtları ile kişi kayıtlarını eşleştirecek</strong> bir veri bulunmalıdır. Bu 'eşleştirme' bir kaç şekilde yapılabilir:"
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid ""
@@ -1818,7 +2235,7 @@ msgid ""
 "contact in CiviCRM, you can include that value as a column in your import "
 "file. Memberships will then be matched to contact records using their "
 "External ID."
-msgstr "CiviCRM içinde her bir kişi kaydı için bir <strong>Dış Kod</strong> değeri varsa, bu değeri alacağınız dosyada bi sütuna ekleyebilirsiniz. Üyelik kayıtları ile kişi kayıtları bu dış koda göre eşleştirilerek alınır."
+msgstr "CiviCRM içinde her bir kişi kaydı için bir <strong>Dış Kod</strong> değeri varsa, bu değeri içe aktaracağınız dosyada bir sütuna ekleyebilirsiniz. Üyelik kayıtları ile kişi kayıtları bu dış koda göre eşleştirilerek içe aktarılır."
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid ""
@@ -1832,7 +2249,7 @@ msgid ""
 "For each import, you can either INSERT new membership records, or UPDATE "
 "existing records. You can not do both types of operations in a single import"
 " session."
-msgstr "Her bir alma işleminde ya yeni üyelik kayıtları EKLENEBİLİR ya da varolan kayıtlar GÜNCELLENEBİLİR. Tek bir alma işleminde iki işlem türü birden yapılamaz."
+msgstr "Her bir içe aktarma işleminde yeni üyelik kayıtları EKLENEBİLİR ya da var olan kayıtlar GÜNCELLENEBİLİR. Tek bir içe aktarma işleminde iki işlem türü birden yapılamaz."
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid ""
@@ -1842,44 +2259,44 @@ msgid ""
 "Identifier' (if you are using those in your contact records), OR the "
 "property defined in your Unsupervised Duplicate Matching rule (which is "
 "Email Address by default)."
-msgstr "Yeni üyelik kayıtları EKLİYORSANIZ, verileri eşleştirebilmek için alınacak veri dosyası içinde bir sütunda, üyelik ile varolan kişi kaydını eşleştirmek için bir değer bulunmalıdır. Bu değer, 'İç Kişi Kodu', bir 'Dış Kod' (bu verileri kişi kayıtlarınız olarak kullanıyorsanız) YA DA Yönetilmeyen Çift Kayıt Uyuşma kuralında tanımlanmış bir özellik (varsayılan olarak e-posta adresi) olabilir."
+msgstr "Yeni üyelik kayıtları EKLİYORSANIZ, verileri eşleştirebilmek için alınacak veri dosyası içinde bir sütunda, üyelik ile var olan kişi kaydını eşleştirmek için bir değer bulunmalıdır. Bu değer, 'İç Kişi Kodu', bir 'Dış Kod' (bu verileri kişi kayıtlarınız olarak kullanıyorsanız) YA DA Yönetilmeyen Çift Kayıt Uyuşma kuralında tanımlanmış bir özellik (varsayılan olarak e-posta adresi) olabilir."
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid ""
 "If you are UPDATING existing memberships, you will need to include a column "
 "containing the unique CiviCRM-assigned membership ID to match to the "
 "existing membership records."
-msgstr "Varolan üyelikleri GÜNCELLİYORSANIZ, verileri eşleştirebilmek için alınacak veri dosyası içinde bir sütunda, varolan CiviCRM üyelik kayıtlarına atanmış eşsiz üyelik kodu değerleri bulunmalıdır. "
+msgstr "Var olan üyelikleri GÜNCELLİYORSANIZ, verileri eşleştirebilmek için alınacak veri dosyası içinde bir sütunda, var olan CiviCRM üyelik kayıtlarına atanmış eşsiz üyelik kodu değerleri bulunmalıdır. "
 
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "The Membership Import Wizard allows you to easily upload memberships from "
 "other applications into CiviCRM."
-msgstr "Üyelik Alma Yardımcısı, başka uygulamalardan CiviCRM üzerine üyelik bilgilerinin kolayca yüklenmesini sağlar."
+msgstr "Üyelik İçe Aktarma Yardımcısı, başka uygulamalardan CiviCRM üzerine üyelik bilgilerinin kolayca yüklenmesini sağlar."
 
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "Files to be imported must be in the 'comma-separated-values' format (CSV) "
 "and must contain data needed to match the membership data to an existing "
 "contact in your CiviCRM database."
-msgstr "Alınacak dosyalar 'virgül ile ayrılmış değerler' (CSV) biçiminde olmalı ve üyelik bilgilerini CiviCRM üzerinde varolan kişi kayıtları ile eşleştirecek veriyi içermelidir."
+msgstr "İçe aktarılacak dosyalar 'virgül ile ayrılmış değerler' (CSV) biçiminde olmalı ve üyelik bilgilerini CiviCRM üzerinde var olan kişi kayıtları ile eşleştirecek veriyi içermelidir."
 
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "Select 'Individual' if you are importing memberships for individual persons."
-msgstr "Bireysel üyelik verilerini alıyorsanız 'Birey' olarak seçin."
+msgstr "Bireysel üyelik verilerini içe aktarıyorsanız 'Birey' olarak seçin."
 
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "Select 'Organization' or 'Household' if you are importing memberships made "
 "by contacts of that type. (NOTE: Some built-in contact types may not be "
 "enabled for your site.)"
-msgstr "Kurumsal ya da topluluk üyelik verilerini alıyorsanız 'Kuruluş' ya da 'Hane Halkı' olarak seçin (Not: Sitenizde bazı iç kişi türleri etkinleştirilmemiş olabilir)."
+msgstr "Kurumsal ya da topluluk üyelik verilerini içe aktarıyorsanız 'Kuruluş' ya da 'Hane Halkı' olarak seçin (Not: Sitenizde bazı iç kişi türleri etkinleştirilmemiş olabilir)."
 
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "If you want to use a previously saved import field mapping - select it here."
-msgstr "Kaydedilmiş bir veri alma alan eşleştirmesini kullanmak istiyorsanız buradan seçebilirsiniz."
+msgstr "Kaydedilmiş bir veri içe aktarma alan eşleştirmesini kullanmak istiyorsanız buradan seçebilirsiniz."
 
 #: templates/CRM/Member/Import/Form/Preview.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
@@ -1900,7 +2317,7 @@ msgstr[1] "Eşleşmeyen üyelik kodları bulundu. Bu kayıtlar güncellenmeyecek
 msgid ""
 "You can <a href='%1'>Download Mismatched Memberships</a>. You may then "
 "correct them, and import the new file with the corrected data."
-msgstr "<a href='%1'>Eşleşmeyen Üyelikleri İndirin</a> ve sorunları düzelterek oluşturacağınız yeni dosyadaki verileri yeniden alın."
+msgstr "<a href='%1'>Eşleşmeyen Üyelikleri İndirin</a> ve sorunları düzelterek oluşturacağınız yeni dosyadaki verileri yeniden içe aktarın."
 
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid ""
@@ -1911,8 +2328,8 @@ msgid_plural ""
 "CiviCRM has detected %count records with conflicting transaction IDs within "
 "this data file or relative to existing membership records. These records "
 "have not been imported."
-msgstr[0] "Hareket kodu bu veri dosyası içinde ya da CiviCRM veri tabanında varolan verilerle çakışan bir kayıt bulundu"
-msgstr[1] "Hareket kodu bu veri dosyası içinde ya da CiviCRM veri tabanında varolan verilerle çakışan %count kayıt bulundu"
+msgstr[0] "Hareket kodu bu veri dosyası içinde ya da CiviCRM veri tabanında varolan verilerle çakışan bir kayıt bulundu. Bu kayıt içe aktarılmadı."
+msgstr[1] "Hareket kodu bu veri dosyası içinde ya da CiviCRM veri tabanında var olan verilerle çakışan %count kayıt bulundu. Bu kayıtlar içe aktarılmadı."
 
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid ""
@@ -1922,7 +2339,7 @@ msgid_plural ""
 "CiviCRM has detected %count records which are duplicates of existing CiviCRM"
 " membership records."
 msgstr[0] "Varolan bir üyelik kaydı ile çift olan bir kayıt bulundu"
-msgstr[1] "Varolan üyelik kayıtları ile çift olan %count kayıt bulundu"
+msgstr[1] "Var olan üyelik kayıtları ile çift olan %count kayıt bulundu"
 
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "Rows with mismatched membership IDs... (NOT updated)."
@@ -1930,11 +2347,11 @@ msgstr "Üyelik kodları eşleşmeyen satırlar... (güncellenmedi)."
 
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "Download Mismatched Memberships"
-msgstr "Eşleşmeyen Üyelikleri İndirin"
+msgstr "Eşleşmeyen Üyelikleri İndir"
 
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "Rows which are duplicates of existing CiviCRM membership records."
-msgstr "Varolan CiviCRM üyelik kayıtları ile çift olan satırlar."
+msgstr "Var olan CiviCRM üyelik kayıtları ile çift olan satırlar."
 
 #: templates/CRM/Member/Page/DashBoard.hlp
 msgid "Member Dashboard"
@@ -1946,7 +2363,7 @@ msgid ""
 "page(s) for online membership sign-up and renewal. Administrators can create"
 " or modify Membership Types <a href='%2'>here</a>, and configure Online "
 "Contribution Pages which include membership sign-up <a href='%1'>here</a>."
-msgstr "CiviMember bileşeni özel üyelik türleri ile çevrimiçi üyelik kayıt ve yenileme sayfaları oluşturulmasını sağlar. Yöneticiler Üyelik Türlerini <a href='%2'>buradan</a>, üyelik kaydını da içeren Çevrimiçi Katkı Sayfalarını <a href='%1'>buradan</a> oluşturup düzenleyebilir."
+msgstr "CiviMember bileşeni özel üyelik türleri ile çevrimiçi üyelik kayıt ve yenileme sayfaları oluşturulmasını sağlar. Yöneticiler Üyelik Türlerini <a href='%2'>buraya tıklayarak</a>, üyelik kaydını da içeren Çevrimiçi Katkı Sayfalarını <a href='%1'>buraya tıklayarak</a> oluşturup düzenleyebilir."
 
 #: templates/CRM/Member/Page/DashBoard.hlp
 msgid ""
@@ -1965,15 +2382,11 @@ msgid ""
 "to their summary page and click on the <strong>New Membership</strong> link."
 " You can also <a href=\"%2\">import batches of membership records</a> from "
 "other sources."
-msgstr "Ayrıca üyelik kayıtları çevrimdışı olarak yapılıp izlenebilir. Üyeliklerini el ile kaydetmek için, kişiyi <a href=\"%1\">Kişi Bulma</a> özelliği ile seçin. Ardından özet sayfasını açmak için <strong>Bakın</strong> üzerine tıkladıktan sonra <strong>Üyelik Ekleyin</strong> üzerine tıklayın. Ayrıca diğer kaynaklardan <a href=\"%2\">üyelik kayıtları toplu olarak alınabilir</a>."
+msgstr "Ayrıca üyelik kayıtları çevrimdışı olarak yapılıp izlenebilir. Üyeliklerini el ile kaydetmek için, kişiyi <a href=\"%1\">Kişi Bulma</a> özelliği ile seçin. Ardından özet sayfasını açmak için <strong>Görüntüle</strong> üzerine tıkladıktan sonra <strong>Üyelik Ekle</strong> üzerine tıklayın. Ayrıca diğer kaynaklardan <a href=\"%2\">üyelik kayıtları toplu olarak içe aktarılabilir</a>."
 
 #: templates/CRM/Member/Page/DashBoard.hlp
 msgid "Refer to the online user guide for more information."
-msgstr "Ayrıntılı bilgi almak için çevrimiçi kullanıcı kitabına bakın."
-
-#: templates/CRM/Member/Page/DashBoard.tpl
-msgid "Membership Summary"
-msgstr "Üyelik Özeti"
+msgstr "Ayrıntılı bilgi almak için çevrimiçi kullanıcı kitabına bakabilirsiniz."
 
 #: templates/CRM/Member/Page/DashBoard.tpl
 msgid "Members by Type"
@@ -2037,13 +2450,13 @@ msgstr "Hazırdaki durum kuralları kuruluşunuz için yeterli olabilir. Bununla
 
 #: templates/CRM/Member/Page/MembershipStatus.tpl
 msgid "Add Membership Status"
-msgstr "Üyelik Durumu Ekleyin"
+msgstr "Üyelik Durumu Ekle"
 
 #: templates/CRM/Member/Page/MembershipStatus.tpl
 msgid ""
 "There are no custom membership status entered. You can <a href='%1'>add "
 "one</a>."
-msgstr "Henüz özel bir üyelik durumu yok. <a href='%1'>Buradan ekleyebilirsiniz</a>."
+msgstr "Henüz özel bir üyelik durumu yok. <a href='%1'>Buraya tıklayarak ekleyebilirsiniz</a>."
 
 #: templates/CRM/Member/Page/MembershipType.hlp
 msgid ""
@@ -2150,12 +2563,12 @@ msgstr "İlişkili"
 
 #: templates/CRM/Member/Page/MembershipType.tpl
 msgid "Add Membership Type"
-msgstr "Üyelik Türü Ekleyin"
+msgstr "Üyelik Türü Ekle"
 
 #: templates/CRM/Member/Page/MembershipType.tpl
 msgid ""
 "There are no membership types entered. You can <a href='%1'>add one</a>."
-msgstr "Henüz bir üyelik türü eklenmemiş.<a href='%1'>Buradan ekleyebilirsiniz</a>. "
+msgstr "Henüz bir üyelik türü eklenmemiş.<a href='%1'>Buraya tıklayarak ekleyebilirsiniz</a>. "
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Override Status"
@@ -2165,16 +2578,20 @@ msgstr "Durum Değiştirilsin"
 msgid ""
 "Membership status is normally assigned and updated automatically based on "
 "your configured membership status rules. However, if you want to assign a "
-"status manually and bypass automated status setting, check this box. Then "
-"you can select from the available status options."
-msgstr "Üyelik durumu, normal olarak ayarladığınız üyelik durumu kurallarına göre otomatik olarak atanır. Bununla birlikte otomatik durum ayarlarının görmezden gelinerek el ile bir durum atanabilmesi için bu seçeneği işaretleyin. Ardından kullanılabilecek bir durum seçilebilir."
+"status manually and bypass automated status setting, choose either "
+"\"Override Permanently\" or \"Override Until Selected Date\", Then you can "
+"select from the available status options."
+msgstr "Üyelik durumu, normal olarak ayarladığınız üyelik durumu kurallarına göre otomatik olarak atanır. Bununla birlikte otomatik durum ayarlarının görmezden gelinerek el ile bir durum atanabilmesi için \"Geçici Olarak Değiştir\" ya da \"Seçilmiş Tarihe Kadar Değiştir\" olarak seçin. Ardından el ile bir durum seçilebilir."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
-"The status you assign will remain in force, unless it is again modified on "
-"this screen. As long as the Status Override flag is checked, the automated "
-"membership status update script will NOT update this membership record."
-msgstr "Atanan durum bu sayfadan değiştirilene kadar sabit kalır. Durum Değişikliği seçeneğinin işaretli kaldığı süre boyuna otomatik üyelik durumu güncelleme betiği bu üyelik kaydını GÜNCELLEMEZ."
+"If you select \"Override Permanently\", The status you assign will remain in"
+" force, unless it is again modified on this screen. If you select \"Override"
+" Until Selected Date\", it will behave same as \"Override Permanently\" but "
+"will revert to \"No\" once the selected date is reached. As long as the "
+"Membership Override is active, the automated membership status update script"
+" will NOT update this membership record."
+msgstr "\"Kalıcı Olarak Değiştirilsin\" seçildiğinde, atanan durum bu sayfadan değiştirilene kadar sabit kalır. \"Seçilmiş Tarihe Kadar Değiştirilsin\" seçildiğinde, \"Kalıcı Olarak Değiştirilsin\" seçeneği gibi davranır ancak belirtilen tarih geldiğinde \"Hayır\" olarak ayarlanır. Durum Değişikliği seçeneği etkin kaldıkça, otomatik üyelik durumu güncelleme betiği bu üyelik kaydını GÜNCELLEMEZ."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
@@ -2184,7 +2601,7 @@ msgid ""
 "select an existing contact or enter a new one. The resulting contribution "
 "record will be linked to the payer, and a soft credit for that contribution "
 "will be linked to this contact (the member)."
-msgstr "Bu seçenek etkinleştirildiğinde, üyelik ücretini üyenin kendisinden başka bir kişi ödüyorsa (hediye üyelik ya da abonelik gibi) ödeme işlemi ödemeyi yapan kişi ile ilişkilendirilir. Varolan bir kişi seçilebilir ya da yeni bir kişi eklenebilir. Oluşturulan katkı kaydı ödemeyi yapan kişi ile ilişkilendirilirken, bu katkı ile ilgili bir sanal kredi bu kişi (üye) ile ilişkilendirilir."
+msgstr "Bu seçenek etkinleştirildiğinde, üyelik ücretini üyenin kendisinden başka bir kişi ödüyorsa (hediye üyelik ya da abonelik gibi) ödeme işlemi ödemeyi yapan kişi ile ilişkilendirilir. Var olan bir kişi seçilebilir ya da yeni bir kişi eklenebilir. Oluşturulan katkı kaydı ödemeyi yapan kişi ile ilişkilendirilirken, bu katkı ile ilgili bir sanal kredi bu kişi (üye) ile ilişkilendirilir."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Override End Date for Auto-renew Memberships"
@@ -2202,13 +2619,13 @@ msgstr "CiviCRM üzerindeki üyelik bitiş tarihi, ödeme aracısı ödemeyi al�
 
 #: templates/CRM/Member/Page/Tab.tpl
 msgid "Click <a %1>Add Membership</a> to record a new membership."
-msgstr "Yeni bir üyelik eklemek için <a %1>Üye Ekleyin</a> üzerine tıklayın."
+msgstr "Yeni bir üyelik eklemek için <a %1>Üye Ekle</a> üzerine tıklayın."
 
 #: templates/CRM/Member/Page/Tab.tpl
 msgid ""
 "Click <a %1>Submit Credit Card Membership</a> to process a Membership on "
 "behalf of the member using their credit card."
-msgstr "Kendi kredi kartlarını kullanan üyelerin üyeliklerini işlemek için <a href='%1'>Kredi Kartı Üyeliği Gönderin</a> üzerine tıklayın."
+msgstr "Kendi kredi kartlarını kullanan üyelerin üyeliklerini işlemek için <a href='%1'>Kredi Kartı Üyeliği Gönder</a> üzerine tıklayın."
 
 #: templates/CRM/Member/Page/Tab.tpl
 msgid "Current and inactive memberships for %1 are listed below."
@@ -2216,7 +2633,7 @@ msgstr "%1 için geçerli ve etkin olmayan üyelikleri aşağıda görebilirsini
 
 #: templates/CRM/Member/Page/Tab.tpl
 msgid "Submit Credit Card Membership"
-msgstr "Kredi Kartı Üyeliğini Gönderin"
+msgstr "Kredi Kartı Üyeliğini Gönder"
 
 #: templates/CRM/Member/Page/Tab.tpl
 msgid "No memberships have been recorded for this contact."
@@ -2236,11 +2653,11 @@ msgid ""
 "<strong>Members</strong> for a listing of all contacts who have memberships "
 "of that type. Click <strong>Edit</strong> to modify the settings for that "
 "type."
-msgstr "Aşağıda bu kuruluş ile ilişkili üyelik türlerini görebilirsiniz. Bu üyelik türüne sahip tüm üyelere bakmak için <strong>Üyeler</strong> üzerine tıklayın. Bu türün ayarlarını düzenlemek için <strong>Düzenleyin</strong> üzerine tıklayın."
+msgstr "Aşağıda bu kuruluş ile ilişkili üyelik türlerini görebilirsiniz. Bu üyelik türüne sahip tüm üyelere bakmak için <strong>Üyeler</strong> üzerine tıklayın. Bu türün ayarlarını düzenlemek için <strong>Düzenle</strong> üzerine tıklayın."
 
 #: templates/CRM/Member/Page/UserDashboard.tpl
 msgid "Renew Now"
-msgstr "Şimdi Yenileyin"
+msgstr "Şimdi Yenile"
 
 #: templates/CRM/Member/Page/UserDashboard.tpl
 msgid "Expired / Inactive Memberships"
@@ -2284,205 +2701,17 @@ msgstr "%1 Üyeliği"
 msgid "NO"
 msgstr "NO"
 
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "This membership will be renewed automatically."
+msgstr ""
+
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "You can cancel the auto-renewal option by visiting this web page: %1."
+msgstr ""
+
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid ""
 "This membership will be renewed automatically. You can cancel the auto-"
 "renewal option by visiting this web page: %1."
 msgstr "Bu üyelik otomatik yenilenecek. Otomatik yenileme seçeneğini iptal etmek için şuraya bakın: %1."
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and In Progress"
-msgstr "Üyelik Otomatik Yenileniyor ve Güncel"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Failed"
-msgstr "Üyelik Otomatik Yenileniyor ve İşlem Yapılamadı"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Cancelled"
-msgstr "Üyelik Otomatik Yenileniyor ve İptal Edildi"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Ended"
-msgstr "Üyelik Otomatik Yenileniyor ve Sona Ermiş"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is Overriden"
-msgstr "Üyelik Durumu Değiştirilebilir"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is NOT Overriden"
-msgstr "Üyelik Durumu DeğiştirileMEZ"
-
-#: CRM/Member/BAO/Query.php
-msgid "Auto-Renew Subscription Status?"
-msgstr "Otomatik Yenilenen Abonelik Durumu"
-
-#: CRM/Member/BAO/Query.php
-msgid "- None -"
-msgstr "- Yok -"
-
-#: CRM/Member/BAO/Query.php
-msgid "Ended"
-msgstr "Sona Ermiş"
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is Overriden?"
-msgstr "Üyelik Durumu Değiştirilebilir"
-
-#: CRM/Member/DAO/Membership.php
-msgid "Membership Recurring Contribution"
-msgstr "Yinelenen Üyelik Katkısı"
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log ID"
-msgstr "Üyelik Günlüğü Kodu"
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log Start Date"
-msgstr "Üyelik Günlüğü Başlangıç Tarihi"
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log End Date"
-msgstr "Üyelik Günlüğü Bitiş Tarihi"
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log modified By"
-msgstr "Üyelik Günlüğünü Değiştiren"
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Maximum Related Memberships"
-msgstr "En Fazla İlişkili Üyelik Sayısı"
-
-#: CRM/Member/Form/Membership.php
-msgid "Record Membership Payment is required when you use a price set."
-msgstr "Fiyat paketi kullanıldığında üyelik ödemesinin kaydedilmesi zorunludur."
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"Contribution submitted by a staff person using member's credit card for "
-"signup"
-msgstr "Katkı üyenin kayıt sırasında kullandığı kredi kartı kullanılarak bir ekip üyesi tarafından gönderildi"
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"The financial types associated with the old and new membership types are "
-"different. You may want to edit the contribution associated with this "
-"membership to adjust its financial type."
-msgstr "Eski ve yeni üyelik türlerine atanmış mali türler birbirinden farklı. Bu üyelik için atanmış mali türü değiştirmek isteyebilirsiniz."
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"The cost of the old and new membership types are different. You may want to "
-"edit the contribution associated with this membership to adjust its amount."
-msgstr "Eski ve yeni üyelik türlerine atanmış maliyetler birbirinden farklı. Bu üyelik için atanmış katkıyı değiştirmek isteyebilirsiniz."
-
-#: CRM/Member/Form/MembershipRenewal.php
-msgid ""
-"Contribution submitted by a staff person using member's credit card for "
-"renewal"
-msgstr "Katkı üyenin yenileme sırasında kullandığı kredi kartı kullanılarak bir ekip üyesi tarafından gönderildi"
-
-#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
-#: CRM/Member/Task.php
-msgid "Update multiple memberships"
-msgstr "Birden çok üyeliği güncelleyin"
-
-#: CRM/Member/Form/Task/Batch.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple memberships."
-msgstr "Seçilmiş profil için Dosya ya da Otomatik Seçim alan türlerinde birden çok üyeliğin Güncellenmesi desteklenmiyor."
-
-#: CRM/Member/Form/Task/PickProfile.php
-msgid ""
-"The maximum number of members you can select for Update multiple memberships"
-" is %1. You have selected %2. Please select fewer members from your search "
-"results and try again."
-msgstr "Toplu üyelik güncelleme için seçilebilecek en fazla üye sayısı %1. Siz %2 üye seçmişsiniz. Lütfen arama sonuçlarından daha az sayıda üye seçerek yeniden deneyin."
-
-#: CRM/Member/Form/Task/PickProfile.php
-msgid ""
-"You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Update multiple memberships. Navigate to Administer "
-"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
-"Administrator documentation for more information."
-msgstr "Profile göre toplu üyelik güncelleme işlemini yapmadan önce düzenlemek istediğiniz %1 alanı içeren bir profil oluşturmalısınız. Bir profil ayarlamak için Yönetim > CiviCRM Profili bölümüne gidin. Ayrıntılı bilgi almak için Çevrimiçi Yönetici belgelerine bakın."
-
-#: CRM/Member/Task.php
-msgid "Export members"
-msgstr "Üyeleri Verin"
-
-#: CRM/Member/Task.php
-msgid "Print/merge document for memberships"
-msgstr "Üyelik belgesini yazdır/birleştir"
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"Automatically email a membership confirmation and receipt to %1? OR if the "
-"payment is from a different contact, this email will only go to them."
-msgstr "Otomatik üyelik onayı ve alındı e-postası %1 adresine gönderilsin mi? YA DA ödeme formu başka bir kişi içinse bu e-posta yalnız onlara gider."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"For auto-renewing memberships the emails are sent when each payment is "
-"received"
-msgstr "Otomatik yenilenen üyeliklerde her ödeme alındığında e-posta gönderilir"
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Membership Status Is Override?"
-msgstr "Üyelik Durumu Değiştirilebilir"
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Yes\" to display only membership with Status Override set "
-"(membership is manually forced to a specific status)"
-msgstr "Evet olarak seçildiğinde, yalnız durumu değiştirilmiş üyelikler görüntülenir (üyelik belirli bir duruma atanır)."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"No\" to display only memberships without Status Override set "
-"(membership is subject to the normal status rules)"
-msgstr "Hayır olarak seçildiğinde, yalnız durumu değiştirilmemiş üyelikler görüntülenir (üyelik normal durum kurallarına göre atanır)."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Select neither to show all memberships"
-msgstr "Tüm üyelikleri görüntülemek için hiç biri olarak seçin"
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Auto-Renew Subscription Status"
-msgstr "Otomatik Yenileme Abonelik Durumu"
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"None\" to display memberships that have never had an auto-renew "
-"subscription."
-msgstr "Asla otomatik yenilenen bir aboneliği olmaya üyeleri görüntülemek için \"Yok\" seçin."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"In Progress\" to display memberships with current auto-renew "
-"subscriptions."
-msgstr "Güncel otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"Güncel\" seçin."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Select \"Failed\" to display memberships with failed subscription payment."
-msgstr "İşlemi yapılamayan otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"İşlem Yapılamadı\" seçin."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Cancelled\" to display memberships with cancelled auto-renew "
-"subscriptions."
-msgstr "İptal edilmiş otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"İptal\" seçin."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Ended\" to display memberships with an ended auto-renew "
-"subscription."
-msgstr "Sona ermiş otomatik yenilenen bir aboneliği olan üyeleri görüntülemek için \"Sona Ermiş\" seçin."
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Any\" to display memberships with auto-renew subscription "
-"irrespective of their status."
-msgstr "Durumundan bağımsız olarak tüm otomatik yenilenen aboneliği olan üyeleri görüntülemek için \"Tümü\" seçin."

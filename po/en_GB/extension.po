@@ -3,13 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2013,2015-2016
+# Andi Chandler <andi@gowling.com>, 2013,2015-2016,2018
+# Mikey O'Toole <mikey@mjco.me.uk>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-05-16 10:51+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-16 12:46+0000\n"
+"Last-Translator: Mikey O'Toole <mikey@mjco.me.uk>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/civicrm/civicrm/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,22 +32,8 @@ msgstr "Your extensions cache directory (%1) is not web server writable. Please 
 msgid ""
 "The CiviCRM public extensions directory at %1 could not be contacted - "
 "please check your webserver can make external HTTP requests or contact "
-"CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>.<br "
-"/>"
-msgstr "The CiviCRM public extensions directory at %1 could not be contacted - please check your webserver can make external HTTP requests or contact CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>.<br />"
-
-#: CRM/Extension/Browser.php
-msgid "Connection Error"
-msgstr "Connection Error"
-
-#: CRM/Extension/Browser.php
-msgid ""
-"There are currently no extensions on the CiviCRM public extension directory "
-"which are compatible with version %2 (<a href=\"%1\">requested extensions "
-"from here</a>). If you want to install an extension which is not marked as "
-"compatible, you may be able to <a href=\"%3\">download and install "
-"extensions manually</a> (depending on access to your web server).<br />"
-msgstr "There are currently no extensions on the CiviCRM public extension directory which are compatible with version %2 (<a href=\"%1\">requested extensions from here</a>). If you want to install an extension which is not marked as compatible, you may be able to <a href=\"%3\">download and install extensions manually</a> (depending on access to your web server).<br />"
+"CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>."
+msgstr "The CiviCRM public extensions directory at %1 could not be contacted - please check your webserver can make external HTTP requests or contact CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>."
 
 #: CRM/Extension/Container/Basic.php CRM/Extension/Container/Default.php
 msgid "Invalid Base Directory"
@@ -158,9 +145,10 @@ msgstr "A copy of the extension (%1) is in a system folder (%2). The system copy
 msgid "Selected option value has been deleted."
 msgstr "Selected option value has been deleted."
 
-#: CRM/Extension/Browser.php
-msgid ""
-"The CiviCRM public extensions directory at %1 could not be contacted - "
-"please check your webserver can make external HTTP requests or contact "
-"CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>."
-msgstr "The CiviCRM public extensions directory at %1 could not be contacted - please check your webserver can make external HTTP requests or contact CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>."
+#: CRM/Extension/System.php
+msgid "Disabled (Missing)"
+msgstr "Disabled (Missing)"
+
+#: CRM/Extension/System.php
+msgid "Enabled (Missing)"
+msgstr "Enabled (Missing)"

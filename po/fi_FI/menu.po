@@ -8,8 +8,10 @@
 # Tukea <nokoa@live.fi>, 2016
 # Jaakko Helleranta <jaakko@helleranta.com>, 2016
 # Joona Soininen <joonasoininen@gmail.com>, 2012
+# Lasse Miettinen, 2016-2018
 # Otto Kekäläinen <otto@seravo.fi>, 2013
 # Otto Kekäläinen <otto@seravo.fi>, 2013
+# Pinja-Liina Jalkanen <pinjaliina@iki.fi>, 2016
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # Tero Kankaanperä <tero@terokankaanpera.fi>, 2013
 # Tomi Toivio <tomi@sange.fi>, 2013
@@ -18,9 +20,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2018-09-11 10:33-0400\n"
+"PO-Revision-Date: 2018-09-11 15:11+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Finnish (http://www.transifex.com/civicrm/civicrm/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,6 +168,11 @@ msgstr "Tapauksen yksityiskohdat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Case Types"
 msgstr "Tapauksen tyyppi"
 
@@ -185,26 +192,26 @@ msgstr ""
 
 msgctxt "menu"
 msgid "CiviContribute Dashboard"
-msgstr "CiviLahjoita-kojelauta"
+msgstr "CiviMaksun kojelauta"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Contribution"
-msgstr "Uusi lahjoitus"
+msgstr "Uusi maksu"
 
 msgctxt "menu"
 msgid "Contribution Summary - Chart View"
-msgstr "Avustusyhteenveto - kaavionäkymä"
+msgstr "Maksujen yhteenveto - kaavionäkymä"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "CiviContribute"
-msgstr "CiviLahjoita"
+msgstr "CiviMaksu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Contribution Pages"
-msgstr "Hallitse tuottojen sivuja"
+msgstr "Hallitse maksusivuja"
 
 msgctxt "menu"
 msgid "Title and Settings"
@@ -212,7 +219,7 @@ msgstr "Otsikko ja asetukset"
 
 msgctxt "menu"
 msgid "Contribution Amounts"
-msgstr "Lahjoitussummat"
+msgstr "Maksusummat"
 
 msgctxt "menu"
 msgid "Membership Section"
@@ -224,7 +231,7 @@ msgstr "Sisällytä profiilit"
 
 msgctxt "menu"
 msgid "Thank-you and Receipting"
-msgstr "Kiitos ja kuitti"
+msgstr "Kiitosviesti ja kuitti"
 
 msgctxt "menu"
 msgid "Tell a Friend"
@@ -245,7 +252,7 @@ msgstr "Lisää tuotteita tälle sivulle"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Contribution Page"
-msgstr "Uusi lahjoitussivu"
+msgstr "Uusi maksusivu"
 
 msgctxt "menu"
 msgid "Manage Premiums"
@@ -254,7 +261,7 @@ msgstr "Hallitse etuja"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Financial Types"
-msgstr "Taloudelliset tyypit"
+msgstr "Maksutyypit"
 
 msgctxt "menu"
 msgid "New Payment"
@@ -267,8 +274,8 @@ msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "Maksuvälineet"
+msgid "Payment Methods"
+msgstr "Maksutavat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -283,12 +290,12 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contributions"
-msgstr "Avustukset"
+msgstr "Maksut"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Recurring Contributions"
-msgstr "Toistuvat lahjoitukset"
+msgstr "Toistuvat maksut"
 
 msgctxt "menu"
 msgid "Additional Info"
@@ -297,12 +304,12 @@ msgstr "Lisätieto"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Contributions"
-msgstr "Etsi lahjoituksia"
+msgstr "Etsi maksuja"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Import Contributions"
-msgstr "Tuo lahjoitukset"
+msgstr "Tuo maksut"
 
 msgctxt "menu"
 msgid "AdditionalInfo Form"
@@ -344,7 +351,7 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "CiviContribute Component Settings"
-msgstr ""
+msgstr "CiviMaksun asetukset"
 
 msgctxt "menu"
 msgid "PDF Invoice"
@@ -352,7 +359,15 @@ msgstr "PDF-lasku"
 
 msgctxt "menu"
 msgid "Email Invoice"
-msgstr "Lähetä lasku sähköpostilla"
+msgstr "Sähköpostilasku"
+
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr ""
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -375,7 +390,7 @@ msgstr "Näytä aktiviteetti"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Activities"
-msgstr "Haku aktiviteeteista"
+msgstr "Etsi aktiviteetteja"
 
 msgctxt "menu"
 msgid "Custom Data"
@@ -432,23 +447,13 @@ msgstr "Profiiliasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "Luokat (kategoriat)"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "Uusi luokka"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
 msgid "Activity Types"
 msgstr "Aktiviteettiluokat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Relationship Types"
-msgstr "Yhteystyypit"
+msgstr "Yhteyssuhdetyypit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -483,21 +488,21 @@ msgstr "Verkkosivutyypit"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Instant Messenger Services"
-msgstr "Pikaviesti (IM) palvelut"
+msgstr "Pikaviestin- eli IM-palvelut"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mobile Phone Providers"
-msgstr "Matkapuhelin operaattorit"
+msgstr "Matkapuhelinoperaattorit"
 
 msgctxt "menu"
 msgid "Phone Type"
-msgstr "Puhelun tyyppi"
+msgstr "Puhelintyyppi"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Display Preferences"
-msgstr "Näyttöasetukset"
+msgstr "Kontakteista näytettävät tiedot"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -507,7 +512,7 @@ msgstr "Hakuasetukset"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Date Preferences"
-msgstr ""
+msgstr "Päivämääräasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -527,12 +532,12 @@ msgstr "Hallitse räätälöityjä hakuja"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Organization Address and Contact Info"
-msgstr "Organisaation osoite ja kontaktit"
+msgstr "Yhteisön osoite ja yhteystiedot"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "From Email Addresses"
-msgstr "Sähköpostiosoitteista"
+msgstr "Sähköpostin lähetysosoitteet"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -562,7 +567,7 @@ msgstr "Tulostettavan sivun (PDF) muodot"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Communication Style Options"
-msgstr ""
+msgstr "Yhteydenottojen tyylivaihtoehdot"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -577,7 +582,7 @@ msgstr "Postitervehdysten muodot"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Addressee Formats"
-msgstr "Osoitteen haltijan muotoilut"
+msgstr "Vastaanottajan nimen esitystavat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -592,7 +597,7 @@ msgstr "Osoitteen asetukset"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Date Formats"
-msgstr "Päivämäärän asetukset"
+msgstr "Päivämäärän esitystavat"
 
 msgctxt "menu"
 msgid "Preferred Languages"
@@ -616,15 +621,13 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "Asetuksien tarkistuslista"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "Ota käyttöön CiviCRM-komponentit"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
-msgstr "Hallitse laajennoksia"
+msgstr "Hallitse laajennuksia"
 
 msgctxt "menu"
 msgid "Database Upgrades"
@@ -635,13 +638,13 @@ msgid "Outbound Email Settings"
 msgstr "Lähtevän sähköpostin asetukset"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "Maksun välittäjä"
+msgid "Settings - Payment Processor"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mapping and Geocoding"
-msgstr "Kartoitus ja Koordinaatit"
+msgstr "Kartoitus ja koordinaatit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -670,17 +673,17 @@ msgstr "Sisällönhallintajärjestelmän tietokannan integraatio"
 
 msgctxt "menu"
 msgid "Safe File Extension Options"
-msgstr "Turvalliset tiedostomuodot (.xxx)"
+msgstr "Turvalliset tiedostopäätteet (.xxx)"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Option Groups"
-msgstr "Vaihtoehtoisia ryhmiä"
+msgstr "Monivalintaryhmät"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Import/Export Mappings"
-msgstr "Tuo/Vie koordinaatit"
+msgstr "Tuo/vie koordinaatit"
 
 msgctxt "menu"
 msgid "Debugging"
@@ -708,7 +711,7 @@ msgstr "CiviJäsenyyden komponenttien asetukset"
 
 msgctxt "menu"
 msgid "View Date Preferences"
-msgstr ""
+msgstr "Näytä päivämääräasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -726,15 +729,15 @@ msgstr "Avustusten tyypit"
 
 msgctxt "menu"
 msgid "Payment Processor Type"
-msgstr "Maksun välittäjän tyyppi"
+msgstr "Maksunvälittäjän tyyppi"
 
 msgctxt "menu"
 msgid "Administer CiviCRM"
-msgstr "CiviCRM-hallinnointi"
+msgstr "CiviCRM:n hallinnointi"
 
 msgctxt "menu"
 msgid "Price Sets"
-msgstr "Hinnat"
+msgstr "Hintaryhmät"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -762,6 +765,10 @@ msgid "Badge Layout"
 msgstr ""
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr ""
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -776,7 +783,7 @@ msgstr "CiviCRM-työpöytävimpaimet"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Contacts"
-msgstr "Etsi kontakteista"
+msgstr "Etsi kontakteja"
 
 msgctxt "menu"
 msgid "Process Uploaded Images"
@@ -789,12 +796,12 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Advanced Search"
-msgstr "Täsmällisempi haku"
+msgstr "Laaja haku"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Search Builder"
-msgstr "Hakujen määrittely"
+msgstr "Itse määritelty haku"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -830,7 +837,7 @@ msgstr "Yhdistä kontakti"
 
 msgctxt "menu"
 msgid "Email a Contact"
-msgstr "Lähetä sähköpostia"
+msgstr "Lähetä sähköpostia kontaktille"
 
 msgctxt "menu"
 msgid "Map Location(s)"
@@ -846,7 +853,7 @@ msgstr "Yhteenveto kontakteista"
 
 msgctxt "menu"
 msgid "Delete Contact"
-msgstr "Poista yhteys"
+msgstr "Poista kontakti"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -856,7 +863,7 @@ msgstr "Aktiviteetit"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Relationships"
-msgstr "Kontaktisuhteet"
+msgstr "Yhteyssuhteet"
 
 msgctxt "menu"
 msgid "Groups"
@@ -867,20 +874,16 @@ msgid "Smart Groups"
 msgstr "Älykkäät ryhmät"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "Päivä"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "Muistiinpanot"
 
 msgctxt "menu"
 msgid "Tags"
-msgstr "Luokat"
+msgstr "Avainsanat"
 
 msgctxt "menu"
 msgid "Contact Dashboard"
-msgstr "Kontakti yhteenveto"
+msgstr ""
 
 msgctxt "menu"
 msgid "Activity Dashlet"
@@ -890,8 +893,9 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "CiviCRM-blogi"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
+msgid "CiviCRM Resources"
 msgstr ""
 
 msgctxt "menu"
@@ -911,6 +915,10 @@ msgstr ""
 msgctxt "menu"
 msgid "Find and Merge Duplicate Contacts"
 msgstr "Etsi ja yhdistä identtiset kontaktit"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr ""
 
 msgctxt "menu"
 msgid "Dedupe Exceptions"
@@ -965,6 +973,10 @@ msgid "Export Contacts"
 msgstr "Tuo kontaktit"
 
 msgctxt "menu"
+msgid "Export"
+msgstr ""
+
+msgctxt "menu"
 msgid "ACL Roles"
 msgstr "Käyttöoikeuksien roolit"
 
@@ -982,7 +994,7 @@ msgstr "Käyttöoikeudet"
 
 msgctxt "menu"
 msgid "Registration Page"
-msgstr "Rekisteröinnin sivu"
+msgstr "Rekisteröintisivu"
 
 msgctxt "menu"
 msgid "Browse Uploaded files"
@@ -994,10 +1006,10 @@ msgstr ""
 
 msgctxt "menu"
 msgid "Log out"
-msgstr "Kirjaudu Ulos"
+msgstr "Kirjaudu ulos"
 
 msgctxt "menu"
-msgid "CiviCRM API"
+msgid "CiviCRM API v3"
 msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
@@ -1015,11 +1027,29 @@ msgstr "Profiilin muokkain"
 
 msgctxt "menu"
 msgid "Confirm dates"
+msgstr "Vahvista päivämäärät"
+
+msgctxt "menu"
+msgid "Insert CiviCRM Content"
 msgstr ""
 
 msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "CiviCRM Määritä profiili"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Avainsanat (kategoriat)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Uusi avainsana"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr ""
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1105,7 +1135,7 @@ msgstr "Tapahtuman sijainti"
 
 msgctxt "menu"
 msgid "Event Fees"
-msgstr "Tapahtuman hinta"
+msgstr "Tapahtuman hinnat"
 
 msgctxt "menu"
 msgid "Event Online Registration"
@@ -1135,6 +1165,14 @@ msgid "Manage Price Sets"
 msgstr "Hallitse hintaluokkia"
 
 msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr ""
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr ""
+
+msgctxt "menu"
 msgid "Add Event To Cart"
 msgstr "Lisää tapahtuma ostoskoriin"
 
@@ -1161,7 +1199,7 @@ msgstr "CiviGrant-kojelauta"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Grants"
-msgstr "Etsi Avustuksia"
+msgstr "Etsi avustuksia"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1196,7 +1234,7 @@ msgstr "Uusi viesti"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Mailings"
-msgstr "Hae postituksista"
+msgstr "Etsi postituksia"
 
 msgctxt "menu"
 msgid "Unsubscribe"
@@ -1224,7 +1262,7 @@ msgstr "Esikatsele viestiä"
 
 msgctxt "menu"
 msgid "Mailing Report"
-msgstr "Sähköpostin raportti"
+msgstr "Postitusraportti"
 
 msgctxt "menu"
 msgid "Forward Mailing"
@@ -1236,11 +1274,7 @@ msgstr "Lähetää viestiä"
 
 msgctxt "menu"
 msgid "Mailing Event"
-msgstr "Sähköpostin tapahtumat"
-
-msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "Ajasta postitus"
+msgstr ""
 
 msgctxt "menu"
 msgid "View Mailing"
@@ -1262,12 +1296,12 @@ msgstr "Uusi jäsenyys"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Membership Types"
-msgstr "Jäsenyyden luokat"
+msgstr "Jäsenyystyypit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Membership Status Rules"
-msgstr "Jäsenyyden tilojen säännöt"
+msgstr "Jäsenyyden tilan määrittelysäännöt"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1277,7 +1311,7 @@ msgstr "Jäsenyydet"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Memberships"
-msgstr "Hae jäsenyyksistä"
+msgstr "Etsi jäsenyyksiä"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1286,26 +1320,26 @@ msgstr "Tuo jäsenyydet"
 
 msgctxt "menu"
 msgid "CiviPledge Dashboard"
-msgstr "CiviLahjoitus-kojelauta"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Pledges"
-msgstr "Etsi lahjoituksia"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledges"
-msgstr "Lahjoitukset"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New Pledge"
-msgstr "Uusi lahjoitus"
+msgstr ""
 
 msgctxt "menu"
 msgid "Pledge Payments"
-msgstr "Lahjoitusten maksut"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1343,11 +1377,6 @@ msgstr "Listaa raportit"
 msgctxt "menu"
 msgid "CiviCRM News"
 msgstr "CiviCRM-uutiset"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Getting Started"
-msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1392,7 +1421,7 @@ msgstr "Uusi sähköposti"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Tags (Categories)"
-msgstr "Hallitse luokkia (Kategoriat)"
+msgstr "Hallitse avainsanoja (kategorioita)"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1402,12 +1431,12 @@ msgstr "Kojelauta"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contribution Reports"
-msgstr "Avustusraportit"
+msgstr "Maksuraportit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledge Reports"
-msgstr "Lahjoitusraportit"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1482,7 +1511,7 @@ msgstr "Uusi SMS"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Find Mass SMS"
-msgstr "Etsi ryhmätekstiviesti"
+msgstr "Etsi ryhmätekstiviestejä"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1566,8 +1595,13 @@ msgstr "Hallintakonsoli"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
-msgstr "Muokkaa tietoja ja näkymiä"
+msgstr "Muokkaa dataa ja näkymiä"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1577,7 +1611,7 @@ msgstr "Lisäkentät"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Dropdown Options"
-msgstr "Pudotusvalikon asetukset"
+msgstr "Pudotusvalikot"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1587,12 +1621,12 @@ msgstr "Puhelintyypit"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Communications"
-msgstr "Viestintä"
+msgstr "Viestintäasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "FROM Email Addresses"
-msgstr "Lähetyksen sähköpostiosoitteet"
+msgstr "Sähköpostin lähettäjäasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1602,7 +1636,7 @@ msgstr "Lokalisointi"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Preferred Language Options"
-msgstr "Toivottujen kielten valinta"
+msgstr "Kieliasetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1621,8 +1655,23 @@ msgstr "Järjestelmän asetukset"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
 msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Virheiden jäljitys ja korjaus"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1632,17 +1681,12 @@ msgstr "Lähtevä sähköposti (SMTP/Sendmail)"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Payment Processors"
-msgstr "Maksujen välittäjät"
+msgstr "Maksunvälittäjät"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "Turvalliset tiedostopäätteet"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "Virheiden jäljitys ja korjaus"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1766,6 +1810,11 @@ msgstr "Raportit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "My Reports"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Constituent Summary"
 msgstr ""
 
@@ -1774,7 +1823,7 @@ msgctxt "menu"
 msgid ""
 "Provides a list of address and telephone information for constituent records"
 " in your system."
-msgstr "Näyttää listan järjestelmäsi tietueista, joissa on sidosryhmien osoitteet ja puhelinnumerot."
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1786,7 +1835,12 @@ msgctxt "menu"
 msgid ""
 "Provides contact-related information on contributions, memberships, events "
 "and activities."
-msgstr "Tiedot kontaktien avustuksista, jäsenyyksistä, tapahtumista ja aktiviteeteista."
+msgstr "Tiedot kontaktien maksuista, jäsenyyksistä, tapahtumista ja aktiviteeteista."
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Details"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1814,8 +1868,18 @@ msgstr "Näyttää tiedot kahden kontaktin välisestä suhteesta"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Summary"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Contribution Summary"
-msgstr "Avustuksen yhteenveto"
+msgstr "Maksujen yhteenveto"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1827,7 +1891,7 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contribution Details"
-msgstr "Avustuksen yksityiskohdat"
+msgstr "Maksujen yksityiskohtaiset tiedot"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1879,7 +1943,7 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contributions by Organization"
-msgstr "Avustukset organisaation mukaan"
+msgstr "Maksut yhteisöittäin"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1891,7 +1955,7 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contributions by Household"
-msgstr "Avustukset kotitalouden mukaan"
+msgstr "Maksut kotitalouksittain"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1934,7 +1998,7 @@ msgctxt "menu"
 msgid ""
 "List contact's donation history, grouped by year, along with contributions "
 "attributed to any of the contact's related contacts."
-msgstr "Listaa kontaktin lahjoitusten historian, ryhmitettynä vuosittain, minkä lisäksi nähtävillä kontaktiin liitettyjen kontaktien lahjoitukset."
+msgstr "Listaa kontaktin lahjoitushistorian ryhmitettynä vuosittain. Sen lisäksi nähtävillä ovat kontaktiin yhteydessä olevien kontaktien lahjoitukset."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1950,25 +2014,25 @@ msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr "Lahjoitusten yhteenveto"
+msgid "Pledge Detail"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr "Yhteenveto lahjoituksista, sisältää lahjoituksen summan, lahjoituksen tilan, seuraavan maksupäivämäärän, auki olevan summan, maksetun kokonaismäärän jne."
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledged But not Paid"
-msgstr "Luvattu ja maksamaton lahjoitus"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledged but not Paid Report"
-msgstr "Raportti luvatuista ja maksamattomista lahjoituksista"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2008,12 +2072,12 @@ msgid ""
 "Provides a list of members along with their membership status and membership"
 " details (Join Date, Start Date, End Date). Can also display contributions "
 "(payments) associated with each membership."
-msgstr "Näyttää listan jäsenistä, heidän jäsenyytensä tilasta ja jäsenyyden yksityiskohdista (liittymispäivä, aloituspäivä, päättymispäivä). Voi myös näyttää avustukset (maksut), jotka liittyvät jokaiseen jäsenyyteen."
+msgstr "Näyttää listan jäsenistä, heidän jäsenyytensä tilasta ja jäsenyyden yksityiskohdista (liittymispäivä, alkamispäivä, päättymispäivä). Voi myös näyttää jokaiseen jäsenyyteen liittyvät jäsenmaksut."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contribution and Membership Details"
-msgstr "Yksityiskohdat jäsenyyksistä ja avustuksista"
+msgstr "Yksityiskohdat jäsenyyksistä ja maksuista."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2021,7 +2085,7 @@ msgid ""
 "Contribution details for any type of contribution, plus associated "
 "membership information for contributions which are in payment for "
 "memberships."
-msgstr "Avustuksien yksityiskohdat jokaiselle avustustyypille, lisäksi niihin liittyvät jäsentiedot avustuksille, jotka ovat jäsenmaksuja."
+msgstr "Maksujen yksityiskohdat jokaiselle maksutyypille sekä jäsenmaksuihin liittyvät jäsenyystiedot."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2078,7 +2142,7 @@ msgstr "Tarjoaa listoja tapahtuman osallistujista."
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Grant Details"
-msgstr "Lahjoituksen yksityskohdat"
+msgstr "Avustuksen yksityskohdat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2098,17 +2162,17 @@ msgstr ""
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mail Bounces"
-msgstr "Palanneita sähköposteja"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Bounce Report for mailings"
-msgstr "Takaisin palanneiden postituksien raportti"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mailing Summary"
-msgstr "Sähköpostin yhteenveto"
+msgstr "Postituksen yhteenveto"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2118,27 +2182,27 @@ msgstr "Postitustilastojen yhteenveto"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mail Opened"
-msgstr "Sähköposteja avattu"
+msgstr "Sähköposti avattu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Display contacts who opened emails from a mailing"
-msgstr "Näyttää kontaktit, jotka avasivat sähköpostin postituksesta"
+msgstr "Näyttää kontaktit, jotka avasivat sähköpostin"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mail Clickthroughs"
-msgstr "Sähköpostin napsautuksia"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Display clicks from each mailing"
-msgstr "Näytä jokaisen postituksen napsautukset."
+msgstr "Näytä klikkaukset jokaisesta postituksesta"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mailing Details"
-msgstr "Postityksen yksityskohdat"
+msgstr "Postituksen yksityskohdat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2156,86 +2220,4 @@ msgstr "Kyselyn yksityiskohdat"
 msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
-msgstr "Yksityiskohtainen raportti esittelypöytää, puhelinhaastatteluja, ovelta ovelle -listoja ja muita haastattelumuotoja varten."
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr ""
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr ""
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr ""
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr ""
+msgstr "Yksityiskohtainen raportti ovelta ovelle -kampanjointia, puhelinkampanjointia ja muita ihmisten kontaktoinnin tapoja varten."

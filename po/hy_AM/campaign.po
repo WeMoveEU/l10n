@@ -1,0 +1,1289 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zaruhi Andreasyan <zandreasyan@yahoo.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-11-11 05:42+0000\n"
+"Last-Translator: Zaruhi Andreasyan <zandreasyan@yahoo.com>\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Current Campaigns"
+msgstr "Ընթացիկ քարոզարշավներ"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Past Campaigns"
+msgstr "Նախորդ քարոզարշավներ"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr ""
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "No survey sid parameter. Cannot process signature."
+msgstr ""
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "Petition Id and/or Activity Id is not of the type Positive."
+msgstr ""
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey - %1"
+msgstr "Հարցում - %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Status - %1"
+msgstr "Հարցման կարգավիճակ- %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Interviewer - %1"
+msgstr "Հարցում իրականացվող - %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Interviewer"
+msgstr "Հարցում կատարող"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Could not find survey for %1 respondents."
+msgstr " Հնարավոր չէ հարցում գտնել %1 հարցվողների համար։ "
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
+#: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
+msgid "Reserve Respondents"
+msgstr "Ընտրել հարցվողներին"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Page/Vote.php
+msgid "Interview Respondents"
+msgstr "Հարցազրույց անցկացնել հարցվողների հետ"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Task.php templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Release Respondents"
+msgstr "Հարցում չկատարել"
+
+#: CRM/Campaign/BAO/Survey.php
+msgid "View Survey Report"
+msgstr "Դիտել հարցման վերաբերյալ հաշվետվությունը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr "Քարոզարշավի անվանումը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Description"
+msgstr "Քարոզարշավի նկարագիրը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Start Date"
+msgstr "Քարոզարշավի մեկնարկի ամսաթիվը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign End Date"
+msgstr "Քարոզարշավի ավարտի ամսաթիվը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign External ID"
+msgstr "Քարոզարշավի արտաքին ID"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Parent Campaign"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is Campaign Active?"
+msgstr "Քարոզարշավն ակտիվ է՞"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Created By"
+msgstr "Քարոզարշավը մշակել է"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
+msgid "Campaign Created Date"
+msgstr "Քարոզարշավի ստեղծման ամսաթիվը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified By"
+msgstr "Քարոզարշավը փոփոխել է"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified Date"
+msgstr "Քարոզարշավի փոփոխության ամսաթիվը"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
+msgid "Campaign Goals"
+msgstr "Քարոզարշավի նպատակները"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Goal Revenue"
+msgstr "Նպատակային եկամուտ"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "Քարոզարշավ իրականացնող խմբի ID"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "Քարոզարշավ իրականացնող խմբի տեսակը"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey ID"
+msgstr "Հարցման ID"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Campaign ID"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Follow up Interval"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Instructions"
+msgstr "Հրահանգներ"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Hold Duration"
+msgstr "Հարցման դադարեցման տևողությունը"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts"
+msgstr "Կոնտակտային անձանց առավելագույն թիվը"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts"
+msgstr "Կոնտակտային անձանց կանխադրված թիվը"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Is Active"
+msgstr "Հարցումն ակտիվ է"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is Default Survey"
+msgstr "Այս հարցումը կանխադրված է"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Created By"
+msgstr "Հարցաշարը կազմվել է"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified"
+msgstr "Հարցաշարը փոփոխվել է"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified On"
+msgstr "Հարցումը փոփոխել է"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "No Email Verification"
+msgstr "Էլ․ փոստի հասցեի հաստատում չի պահանջվում"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr ""
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Edit Campaign"
+msgstr "Խմբագրել քարոզարշավը"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "- select Parent -"
+msgstr ""
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Revenue Goal"
+msgstr "Նպատակային եկամուտ"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign has been deleted."
+msgstr "Քարոզարշավը հեռացվել է"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign %1 has been saved."
+msgstr "Քարոզարշավի %1 պահպանվել է։"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid " You can add another Campaign."
+msgstr "Դուք կարող եք ավելացնել ևս մեկ քարոզարշավ։"
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Search.php
+#: CRM/Campaign/Form/Task/Interview.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Survey(s)"
+msgstr "Հարցում(ներ)"
+
+#: CRM/Campaign/Form/Gotv.php
+msgid "GOTV (Voter Tracking)"
+msgstr ""
+
+#: CRM/Campaign/Form/Gotv.php
+msgid ""
+"Oops. It looks like no surveys have been created. <a href='%1'>Click here to"
+" create a new survey.</a>"
+msgstr "Օհ, կարծես հարցումներ չեն ստեղծվել։ Սեղմել այստեղ նոր հարցում ստեղծելու համար։ "
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Survey."
+msgstr "Չհաջողվեց գտնել հարցումը"
+
+#: CRM/Campaign/Form/Petition/Signature.php
+msgid "Sign the Petition"
+msgstr "Ստորագրել խնդրագիրը"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Survey"
+msgstr "Խմբագրել հարցումը"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Delete Survey"
+msgstr "Ջնջել հարցումը"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Petition"
+msgstr "Խմբագրել խնդրագիրը"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Page/DashBoard.php
+msgid "Delete Petition"
+msgstr "Ջնջել խնդրանգիրը"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Dashboard"
+msgstr "Խնդրագրերի վահանակ"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Title"
+msgstr "Խնդրագրի վերնագիր"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Contact Profile"
+msgstr "Կոնտակտային անձի պրոֆիլը"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Activity Profile"
+msgstr "Գործունեության պրոֆիլ"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Bypass email confirmation"
+msgstr "Շրջանցել էլ․ փոստի հաստատումը"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Is Default?"
+msgstr "Կանխադրված է՞"
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected activity type. Please "
+"specify a unique title."
+msgstr "Այս վերնագիրն արդեն ասոցացվում է ընտրված գործունեության տեսակի հետ: Խնդրում ենք նշել յուրօրինակ վերնագիր:"
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected campaign and activity "
+"type. Please specify a unique title."
+msgstr "Այս վերնագիրն արդեն ասոցացվում է ընտրված քարոզարշավի և գործունեության տեսակի հետ: Խնդրում ենք նշել յուրօրինակ վերնագիր:"
+
+#: CRM/Campaign/Form/Petition.php
+msgid " Petition has been deleted."
+msgstr "Խնդրագիրը ջնջվել է։"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition has been saved."
+msgstr "Խնդրագիրը պահպանվել է։"
+
+#: CRM/Campaign/Form/Petition.php
+msgid " You can add another Petition."
+msgstr "Դուք կարող եք ավելացնել մեկ այլ խնդրագիր։"
+
+#: CRM/Campaign/Form/Search/Campaign.php
+msgid "Find Campaigns"
+msgstr "Գտնել քարոզարշավներ"
+
+#: CRM/Campaign/Form/Search/Petition.php
+msgid "Find Petition"
+msgstr "Գտնել խնդրագիր"
+
+#: CRM/Campaign/Form/Search/Survey.php
+msgid "Find Survey"
+msgstr "Գտնել հարցում"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents To %1"
+msgstr "Գտնել հարցվողներ %1"
+
+#: CRM/Campaign/Form/Search.php CRM/Campaign/Form/Task/Interview.php
+msgid "Record %1 Responses"
+msgstr "Գրանցել %1 պատասխանները"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents"
+msgstr "Գտնել հարցվողներ"
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "'%1' survey has been deleted."
+msgstr "%1' հարցումը ջնջվել է։"
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "Delete action is missing expected survey ID."
+msgstr ""
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Configure Survey"
+msgstr "Կազմաձևել հարցումը"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Survey Dashboard"
+msgstr "Հարցման վահանակ"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Instructions for interviewers"
+msgstr "Հրահանգներ հարցազրուցավարների համար"
+
+#: CRM/Campaign/Form/Survey/Main.php
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Release Frequency"
+msgstr "Թողարկման հաճախականությունը"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Release Frequency interval should be a positive number."
+msgstr "Թողարկման հաճախականության միջակայքը պետք է լինի դրական թիվ"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time"
+msgstr "Մեկ անգամվա համար ընտրվածների առավելագույն թիվը"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time should be a positive number"
+msgstr "Մեկ անգամվա համար ընտրվածների առավելագույն թիվը պետք է լինի դրական"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved per interviewer"
+msgstr "Յուրաքանչյուր հարցազրուցավարի համար ընտրվածների ընդհանուր թիվը"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved contacts should be a positive number"
+msgstr "Ընտրված կոնտակտային անձանց ընդհանուր թիվը պետք է լինի դրական"
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid ""
+"There are no custom data sets for activity type \"%1\". To create one, <a "
+"href=\"%2\" target=\"%3\">click here</a>."
+msgstr ""
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid "Contact Info"
+msgstr "Հետադարձ կապ"
+
+#: CRM/Campaign/Form/Survey/Questions.php
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Questions"
+msgstr "Հարցեր"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Create new result set"
+msgstr "Ստեղծել նոր արդյունքների խումբ"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Use existing result set"
+msgstr "Օգտագործել առկա արդյունքների խումբը"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Select Result Set"
+msgstr "Ընտրել արդյունքների խումբը"
+
+#: CRM/Campaign/Form/Survey/Results.php
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Recontact Interval"
+msgstr "Կրկնակի կապի միջակայք"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Enter at least one result option."
+msgstr "Մուտքագրել տվյալի առնվազն մեկ տարբերակ "
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Please select a Survey Result Set."
+msgstr "Խնդրում ենք ընտրել հարցման արդյունքների խումբը"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "A Survey Detail Report <a href='%1'>%2</a> has been created."
+msgstr "Կազմվել է հարցման վերաբերյալ մանրամասն հաշվետվություն t %2"
+
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Main Information"
+msgstr "Հիմնական տեղեկություններ"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "Configure Survey - %1"
+msgstr "Ձևակազմել հարցումը  - %1"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "'%1' have been saved."
+msgstr "'%1' պահպանվել է։"
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "Selected Survey type has been deleted."
+msgstr "Ընտրված հարցման տեսակը ջնջվել է։"
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "The Survey type '%1' has been saved."
+msgstr "Հարցման տեսակը  '%1' պահպանվել է։"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Interviewer."
+msgstr "Հնարավոր չէր գտնել հարցազրույց անցկացնողին։"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "No respondents are currently reserved for you to interview."
+msgstr "Տվյալ պահին չկան նախատեսված հարցվողներ, որոնց հետ դուք կարող եք հարցում անցկացնել։"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Oops. It looks like there is no response option configured."
+msgstr "Կարծես պատասխանի ոչ մի տարբերակ չի կոնֆիգուրացվել։"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Order By >>"
+msgstr "Դասավորել ըստ>>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Release Respondents >>"
+msgstr "Արձակել պատասխանողներին >> "
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Reserve More Respondents >>"
+msgstr "Նախատեսել այլ հարցվողներ >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Respondent Interview"
+msgstr "Հարցազրույց հարցվողի հետ"
+
+#: CRM/Campaign/Form/Task/Print.php CRM/Campaign/Task.php
+msgid "Print Respondents"
+msgstr "Տպել պատասխանողների ցանկը"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Please search with 'Survey', to apply this action."
+msgstr "Այս գործողությունը կիրառելու համար խնդրում ենք որոնել \"Հարցում\"-ով։"
+
+#: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
+msgid "Missing Interviewer contact."
+msgstr "Բացակայում է հարցազրուցավարի կոնտակտային տվյալը։"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Could not find respondents to release."
+msgstr "Հնարավոր չէ հարցվողներ գտնել ազատ արձակելու համար։"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "We could not found respondent for this survey to release."
+msgstr "Մենք չենք կարողացել այս հարցման համար հարցվողներ գտնել ազատ արձակելու համար։"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Respondent has been released."
+msgid_plural "%count respondents have been released."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Released"
+msgstr "Ազատ թողնված"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "1 respondent did not release."
+msgid_plural "%count respondents did not release."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find Survey Id."
+msgstr "Հնարավոր չէ գտնել հարցման ID-ն։"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find contacts for reservation."
+msgstr "Չհաջողվեց կոնտակտներ գտնել ամրագրելու համար։"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid ""
+"The maximum number of contacts is already reserved for this interviewer."
+msgstr "Այս հարցազրուցավարի համար արդեն նախատեսված է առավելագույն թվով կոնտակներ։"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "You can reserve a maximum of %count contact at a time for this survey."
+msgid_plural ""
+"You can reserve a maximum of %count contacts at a time for this survey."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to existing group(s)"
+msgstr "Հարվող(ներ) ավելացնել գոյություն ունեցող խմբ(եր)ում"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Reserve"
+msgstr "Ամրագրել"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reserve and Interview"
+msgstr "Ամրագրել և հարցազրույց անկացնել"
+
+#: CRM/Campaign/Form/Task/Reserve.php CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reservation"
+msgstr "Հարցվողների ամրագրում"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "%count contact has been reserved."
+msgid_plural "%count contacts have been reserved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "They have been added to %1."
+msgstr "Նրանք ավելացվել են %1-ին։"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation Added"
+msgstr "Ավելացվել է ամրագրում"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation did not add for %count contact."
+msgid_plural "Reservation did not add for %count contacts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr "CiviCRM քարոզարշավի մեխանիզմ"
+
+#: CRM/Campaign/Info.php
+msgid "administer CiviCampaign"
+msgstr "Կառավարել CiviCampaign -ը"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaign, survey and petition types and their status"
+msgstr "Ստեղծել քարոզարշավի, հարցման և խնդրագրի նոր տեսակներ և դրանց կարգավիճակներ"
+
+#: CRM/Campaign/Info.php
+msgid "manage campaign"
+msgstr "Կառավարել քարոզարշավը"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaigns, surveys and petitions, reserve respondents"
+msgstr "Ստեղծել նոր քարոզարշավներ, հարցումներ և խնդրագրեր, ամրագրել հարցվողներ"
+
+#: CRM/Campaign/Info.php
+msgid "reserve campaign contacts"
+msgstr "Ամրագրել կոնտակտային անձանց քարոզավի համար"
+
+#: CRM/Campaign/Info.php
+msgid "Reserve campaign contacts for surveys and petitions"
+msgstr "Ամրագրել կոնտակտային անձանց հարցումների և խնդրագրերի համար"
+
+#: CRM/Campaign/Info.php
+msgid "release campaign contacts"
+msgstr "Ազատ արձակել քարոզարշավի կոնտակտային անձանց"
+
+#: CRM/Campaign/Info.php
+msgid "Release reserved campaign contacts for surveys and petitions"
+msgstr "Ազատ արձակել քարոզարշավի կոնտակտային անձանց հարցումների և խնդրագրերի համար"
+
+#: CRM/Campaign/Info.php
+msgid "interview campaign contacts"
+msgstr "Հարցազրույց անցկացնել քարոզարշավի կոնտակտային անձանց հետ"
+
+#: CRM/Campaign/Info.php
+msgid "Record survey and petition responses from their reserved contacts"
+msgstr "Գրի առնել ամրագրված կոնտակտային անձանց հարցման և խնդրանգրի պատասխանները"
+
+#: CRM/Campaign/Info.php
+msgid "GOTV campaign contacts"
+msgstr "GOTV քարոզարշավի կոնտակտային անձինք"
+
+#: CRM/Campaign/Info.php
+msgid "Record that contacts voted"
+msgstr "Գրանցել քվեարկած կոնտակտային անձանց տվյալները"
+
+#: CRM/Campaign/Info.php
+msgid "sign CiviCRM Petition"
+msgstr "ստորագրել CiviCRM խնդրագիրը"
+
+#: CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reserved."
+msgstr "Հարցվողներն ամրագրված ենք"
+
+#: CRM/Campaign/Page/AJAX.php templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Recorded."
+msgstr "Քվեն գրացված է"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Campaign"
+msgstr "Թարմազնել քարոզարշավը "
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Campaign"
+msgstr "Անջատել քարոզարշավը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Campaign"
+msgstr "Միացնել քարոզարշավը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Survey"
+msgstr "Թարմացնել հարցումը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Survey"
+msgstr "Ապաակտիվացնել հարցումը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Survey"
+msgstr "Ակտիվացնել հարցումը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Petition"
+msgstr "Թարմացնել խնդրագիրը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Petition"
+msgstr "Ապաակտիվացնել խնդրագիրը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Petition"
+msgstr "Ակտիվացնել Խնդրագիրը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign"
+msgstr "ստորագրել"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign Petition"
+msgstr "Ստորագրել խնդրագիրը"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Signatures"
+msgstr "ստորագրություններ"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "List the signatures"
+msgstr "Ստորագրությունների ցուցակ"
+
+#: CRM/Campaign/Page/DashBoard.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Search Campaigns"
+msgstr "Որոնել քարոզարշավներ"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Survey"
+msgstr "Որոնել հարցում"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "1 Day"
+msgid_plural "%count Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "view result set"
+msgstr "դիտել արդյունքները"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Incomplete. Click to configure result set."
+msgstr "Թերի է․ սեղմել կոճակը արդյունքները կարգավորելու համար։"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Petition"
+msgstr "Որոնել խնդրագիր "
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Surveys"
+msgstr "Հարցումներ"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Petitions"
+msgstr "Խնդրագրեր"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "Respondents"
+msgstr "Հարցվողներ"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "CiviCRM Respondent Search"
+msgstr "CiviCRM հարցվողների որոնում"
+
+#: CRM/Campaign/Task.php
+msgid "Record Respondents Interview"
+msgstr "Գրանցել հարցվողի հետ անցկացվող հարցազրույցը "
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք ջնջել այս քարոզարշավը:"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Interview Conducted?"
+msgstr "Հարցազրույց անց է՞ կացվել"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Voted?"
+msgstr "Քվեարկել է՞"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Reserved?"
+msgstr "Ամրագրված է՞"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as voted."
+msgstr "Պահպանել որպես քվեարկած"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as non voted."
+msgstr "Պահպանել որպես չքվեարկած"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Cancelled."
+msgstr "Քվեն չեղարկվել է"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Reserved."
+msgstr "Ամրագրված"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Released."
+msgstr "Ազատ արձակված"
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "You have already signed this petition."
+msgstr "Դուք արդեն ստորագրել եք այս խնդրագիրը։"
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"You have already signed this petition but you still <b>need to verify your "
+"email address</b>."
+msgstr "Դուք արդեն ստորագրել եք այս խնդրագիրը, սակայն դեռևս պետք է հաստատեք ձեր էլ․փոստի հասցեն։"
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"Please check your email inbox for the confirmation email. If you don't find "
+"it, verify if it isn't in your spam folder."
+msgstr "Խնդրում ենք ստուգել ձեր էլ․ փոստարկղում, ստացել եք արդյող հաստատող նամակ։ Չգտնելու դեպքում ստուգեք ձեր սպամի թղթապանակը։"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Are you sure you want to delete this Petition?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք ջնջել այս խնդրագիրը։"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Use this form to Add new Survey. You can create a new Activity type, "
+"specific to this Survey or select an existing activity type for this Survey."
+msgstr "Կիրառել այս ձևաթուղթը նոր հարցում ավելացնելու համար։ Դուք կարող եք ստեղծել այս հարցմանը բնորոշ նոր գործունեության տեսակ կամ ընտրել այս հարցման համար գոյություն ունեցող գործունեության տեսակ։"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the contact you want to collect."
+msgstr "Կոնտակտային անձի համար լրացվելիք տվյալների դաշտերը"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the petition."
+msgstr "Խնդրագրի վերաբերյալ դաշտ"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Click here for new profile"
+msgstr "Սեղմել այստեղ նոր բնութագրի համար"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "This title will be displayed at the top of the thank-you page."
+msgstr "Այս վերնագիրը կերևա \"Շնորհակալություն\" էջի վերին մասում"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid ""
+"Enter text (and optional HTML layout tags) for the thank-you message that "
+"will appear at the top of the thank-you page."
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Disable the email confirmation for unverified contacts?"
+msgstr "Ապաակտիվացնե՞լ չհաստատված կոնտակտների էլ․փոստի հաստատումը։"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this petition active?"
+msgstr "Այս խնդրագիրն ակտիվ է՞։"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this the default petition?"
+msgstr "Սա բազային խնդրագիր է՞։"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"You can create new result options for this survey, or select an existing "
+"survey result set which you've already created for another survey."
+msgstr "Այս հարցման համար դուք կարող եք ստեղծել արդյունքների նոր տարբերակներ կամ ընտրել գոյություն ունեցող հարցման արդյունքները, որը դուք արդեն ստեղծել եք մեկ այլ հարցման համար։"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid "Result Options"
+msgstr "Արդյունքների տարբերակներ"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"Enter up to ten (10) multiple choice options in this table (click 'another "
+"choice' for each additional choice).You can use existing result set options "
+"by selecting survey result set."
+msgstr "Այս աղյուսակում մուտքագրեք մինչև (10) բազմակի ընտրանքով տարբերակ (սեղմել \"այլ տարբերակ\" յուրաքանչյուր հավելյալ տարբերակի համար)։ Դուք կարող եք օգտագործել գոյություն ունեցող արդյուքները՝ ընտրելով հարցման արդյունքները։"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Add Campaign"
+msgstr "Ավելացնել քարոզարշավ"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Type ID"
+msgstr "Տեսակի ID-ն"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Status ID"
+msgstr "Կարգավիճակի ID-ն"
+
+#: templates/CRM/Campaign/Form/Search/EmptyResults.tpl
+msgid "if you are searching by respondent name, check your spelling"
+msgstr "Եթե որոնումը կատարում եք հարցվողի անունով, ապա ստուգեք ուղղագրությունը"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Add Petition"
+msgstr "Ավելացնել խնդրագիր"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition ID"
+msgstr "Խնդրագրի ID-ն"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type ID"
+msgstr "Խնդրագրի տեսակի ID-ն"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type"
+msgstr "նդրագրի տեսակը"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Search Petitions"
+msgstr "Որոնել խնդրագրերը"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Add Survey"
+msgstr "Ավելացնել հարցում"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey Type ID"
+msgstr "Հարցման տեսակի ID-ն"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Survey Type"
+msgstr "Հարցման տեսակը"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Reserve Each Time"
+msgstr "Ամրագրել ամեն անգամ"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Total Reserve"
+msgstr "Ընդհանուր ամրագրում"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Search Surveys"
+msgstr "Որոնել հարցումները"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Result Set for"
+msgstr "Արդյունքներ"
+
+#: templates/CRM/Campaign/Form/Survey/Delete.tpl
+msgid "Are you sure you want to delete the %1 survey?"
+msgstr "Վստահ ե՞ք, որ ցանկանում եք ջնջել %1 հարցումը։"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Title of the survey."
+msgstr "Հարցման վերնագիր"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the campaign for which survey is created."
+msgstr "Ընտրել այն քարոզարշավը, որի համար մշակվել է հարցումը"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the Activity Type."
+msgstr "Ընտրել գործունեության տեսակը"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum number of contacts that can be reserved for an interviewer at one "
+"time."
+msgstr "Հարցազրույց անցկացնողի կողմից մեկ անգամվա համար ամրագրված կոնտակտային անձանց առավելագույն թիվը։"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum total number of contacts that can be in a reserved state for an "
+"interviewer."
+msgstr "Հարցազրույց անցկացնողի համար ամրագրված կոնտակտային անձանց առավելագույն թիվը։"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Reserved respondents are released if they haven't been surveyed within this "
+"number of days. The Respondent Processor script must be run periodically to "
+"release respondents."
+msgstr "Ամրագրված հարցվողները ազատ են թողնվում, եթե նրանց հետ հարցախույզ չի անցկացվում նշված օրերի ընթացքում։ Անհրաժեշտ է պարբերաբար գործարկել հարցվողների պրոցեսորի ծրագիրը՝ հարցվողներին ազատ արձակելու համար;"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this survey active?"
+msgstr "Այս հարցումն ակտիվ է՞"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this the default survey?"
+msgstr "Սա հիմնական հարցում է՞"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed."
+msgstr "Սեղմել \"գրանցել պատասխանը\" կոճակը՝ անհրաժեշտության դեպքում յուրաքանչյուր հարցվողի տվյալները թարմացնելու համար։"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed. <br />Click <strong>Release Respondents >></strong> "
+"button below to release any respondents for whom you haven't recorded a "
+"response. <br />Click <strong>Reserve More Respondents >></strong> button if"
+" you need to get more respondents to interview."
+msgstr "Սեղմել \"Գրանցել պատասխանը\" կոճակը՝ անհրաժեշտության դեպքում յուրաքանչյուր հարցվողի տվյալները թարմացնելու համար։ Սեղմել \"Ազատել պատասխանողներին\"  կոճակը՝ հանելու համար այն հարցվողներին, որոնց պատասխանը դուք չեք գրանցել։ Սեղմել \"Ամրագրել այլ հարցվողներ\" կոճակը, եթե Ձեզ անհրաժեշտ է այլ հարցվողների հետ ևս հարցազրույց անցկացնել։"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Survey Report"
+msgstr "Հարցման վերաբերյալ հաշվետվություն"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Vote"
+msgstr "Քվեարկել"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Record Responses for All"
+msgstr "Գրանցել բոլորի պատասխանները"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "record response"
+msgstr "գրանցել պատասխանը"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Release"
+msgstr "Ազատել"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "release"
+msgstr "ազատել"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Response Saved."
+msgstr "Պատասխանը պահպանված է։"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Response"
+msgstr "Թարմացնել պատասխանը"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Responses for All"
+msgstr "Թարմացնել բոլորի պատասխանները"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr "Խնդում ենք ուղղել հետևյալ սխալները ստորև ներկայացված հարցման դաշտում"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "reserve"
+msgstr "ամրագրել"
+
+#: templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Do you want to release respondents for '%1' ?"
+msgstr "Դուք ցանկանում ե՞ք ազատել հարցվողներին '%1'-ի համար"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add Respondent Reservation(s)"
+msgstr "ԱՎելացնել հարցվողների ամրագում(ներ)"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Do you want to reserve respondents for '%1' ?"
+msgstr "Դուք ցանկանում ե՞ք ամրագրել հարցվողներ '%1'-ի համար։"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to a new group"
+msgstr "Հարցվող(ներ) ավելացնել նոր խմբում"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.hlp
+msgid ""
+"Your organization can use Campaigns to track all constituent interactions "
+"related to a particular fund-raising or engagement effort. You can link "
+"activities, contributions, event participation, mailings, membership "
+"signups, and pledges to a particular campaign."
+msgstr "Ձեր կազմակերպությունը կարող է օգտվել Քարոզարշավներից՝ վերահսկելու համար որոշակի դրամական միջոցների հայթայթման կամ ներգրավվածության ջանքերի հետ կապված բոլոր բոլոր ընտրողների փոխհարաբերությունները: Դուք կարող եք գործունեությունը, ներդրումները,  մասնակցությունը  միջոցառումներին, փոստային առաքումները, անդամակցությունները և  պարտավորությունները կապել կոնկրետ քարոզարշավի հետ:"
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"<strong>%1 - your email address '%2' has been successfully "
+"verified.</strong>"
+msgstr "1%1 - Ձեր էլ․ փոստի հասցեն '%2' հաջողությամբ վավերացվել է.1 "
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"Oops. We encountered a problem in processing your email verification. Please"
+" contact the site administrator."
+msgstr "Օհ, Ձեր էլ․ փոստի վավերականության ստուգման գործընթացում խնդիր առաջացավ: Խնդրում ենք դիմել կայքի ադմինիստրատորին:"
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid "Thank you for signing the petition."
+msgstr "Շնորհակալություն այս խնդրագիրը ստորագրելու համար։"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "STEP 2: Please Check Your Email"
+msgstr "ՔԱՅԼ 2․ Խնդրում ենք ստուգել ձեր էլեկտրոնային փոստը"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"To complete and confirm your signature, please follow the activation "
+"instructions sent to the email address you provided."
+msgstr "Ձեր ստորագրությունը լրացնելու և հաստատելու համար հետևեք ձեր տրամադրած էլփոստի հասցեին ուղարկված ակտիվացման հրահանգներին:"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "IMPORTANT"
+msgstr "ԿԱՐԵՎՈՐ"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your bulk folder."
+msgstr "Որպեսզի Ձեզ հնարավորություն տրվի դնել Ձեր ստորագրությունը, Դուք պետք է հաստատեք Ձեր էլ․ փոստի հասցեն՝ հաստատող էլ․ նամակում սեղմելով ակտիվացում հղումը։ Երբեմն հաստատող էլ․ նամակները նշվում են որպես անցանկալի նամակ և ուղարկվում են Ձեր հիմնական թղթապանակ։ "
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email within a few minutes, please check your "
+"spam folder."
+msgstr "Եթե մի քանի րոպեի ընթացքում էլեկտրոնային փոստով նամակ չստանաք՝ խնդրում ենք ստուգել ձեր սպամի թղթապանակը"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"You have already signed this petition but we<strong>need to confirm your "
+"email address</strong>."
+msgstr "Դուք արդեն ստորագրել եք խնդրագիրը, սակայն մենք 1պետք է հաստատենք Ձեր էլ․ փոստի հասցեն1 "
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your spam folder."
+msgstr "Որպեսզի Ձեզ հնարավորություն տրվի դնել Ձեր ստորագրությունը, Դուք պետք է հաստատեք Ձեր էլ․ փոստի հասցեն՝ հաստատող էլ․ նամակում սեղմելով ակտիվացում հղումը։ Երբեմն հաստատող էլ․ նամակները նշվում են որպես անցանկալի նամակ և ուղարկվում են Ձեր հիմնական թղթապանակ։ "
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email from us, check your spam folder, it might "
+"have been wrongly classified."
+msgstr "Եթե դուք մեզանից էլ նամակ չեք ստացել՝ ստուգեք ձեր սպամի թղթապանակը․ հնարավոր է, որ այն սխալ է դասակարգվել:"
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Max Number Of Contacts"
+msgstr "Կոնտակտային անձանց առավելագույն թիվը"
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Default Number Of Contacts"
+msgstr "Կոնտակտային անձանց բազային թիվը"
+
+#: templates/CRM/Campaign/Page/SurveyType.tpl
+msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
+msgstr "Որևէ հարցման տեսակ մուտքագրված չէ։ Դուք կարող եք 1ավելացնել որևէ տեսակ1. "
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr "Առանձին պատուհանից բացվում է նոր քարոզարշավ։"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "նոր քարոզարշավ"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "Այս ընտրված ցուցակում ցույց տալ նախորդ քարոզարշավ(ներ)ը:"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "Տվյալ պահին ակտիվ քարոզարշավներ չկան"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
+msgstr "Եթե ցանկանում եք այս գրանռումը համակցել որևէ քարոզարշավի հետ՝ Դուք կարող եք  1ստեղծել քարոզարշավ այստեղ1.  "

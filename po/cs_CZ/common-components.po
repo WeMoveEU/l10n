@@ -4,43 +4,46 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # iv0 <ivo.zlabek@gmail.com>, 2011
+# Karel Hennhofer <khennhofer@kam.cz>, 2019
 # Marek Boček <marek.bocek@iqrs.cz>, 2014
+# Nikola Cieslarová <nikola.cieslarova@gmail.com>, 2017
 # Piotr Szotkowski <chastell@chastell.net>, 2011
+# Tereza Zahradníková <tereza.zahradnikova@centrum.cz>, 2017
 # Tass <vanatomas@fastmail.net>, 2014,2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Czech (http://www.transifex.com/civicrm/civicrm/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: CRM/Admin/Form/CMSUser.php templates/CRM/Financial/Form/Search.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: CRM/Admin/Form/ContactType.php templates/CRM/Admin/Form/Setting/Url.hlp
 #: CRM/Contribute/Form/ManagePremiums.php
 msgid "Image URL"
-msgstr ""
+msgstr "URL obrázku"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Name"
-msgstr ""
+msgstr "Název písma"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Size"
-msgstr ""
+msgstr "Velikost písma"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Style"
-msgstr ""
+msgstr "Styl písma"
 
 #: CRM/Admin/Form/LocationType.php templates/CRM/Admin/Page/LabelFormats.tpl
 #: templates/CRM/Admin/Page/LocationType.tpl
@@ -51,7 +54,6 @@ msgstr ""
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Financial/Form/FinancialAccount.php
@@ -59,24 +61,44 @@ msgstr ""
 #: CRM/Mailing/Form/Component.php templates/CRM/Mailing/Page/Component.tpl
 #: CRM/Member/Form/MembershipStatus.php
 msgid "Default?"
-msgstr ""
+msgstr "Výchozí?"
+
+#: CRM/Admin/Form/MessageTemplates.php CRM/Campaign/Form/Survey.php
+#: CRM/Contribute/Form/ContributionPage.php CRM/Event/Form/ManageEvent.php
+msgid "Save and Done"
+msgstr "Uložit a ukončit"
+
+#: CRM/Admin/Form/MessageTemplates.php
+#: templates/CRM/Admin/Page/MessageTemplates.hlp ang/crmMailing/Templates.js
+msgid "Message Templates"
+msgstr "Šablony zpráv"
+
+#: CRM/Admin/Form/Navigation.php CRM/Report/Form/Instance.php
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Permission"
+msgstr "Oprávnění"
 
 #: CRM/Admin/Form/Navigation.php templates/CRM/Event/Page/DashBoard.tpl
 msgid "Parent"
-msgstr ""
+msgstr "Nadřazené"
 
 #: CRM/Admin/Form/Options.php CRM/Financial/Form/BatchTransaction.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Opened.php
 msgid "Opened"
-msgstr ""
+msgstr "Otevřeno"
 
 #: CRM/Admin/Form/Options.php CRM/Admin/Form/PaymentProcessor.php
 #: templates/CRM/Admin/Page/PaymentProcessor.tpl
+#: CRM/Financial/DAO/EntityFinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
 #: CRM/Financial/Form/FinancialTypeAccount.php
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Financial Account"
-msgstr ""
+msgstr "Finanční účet"
+
+#: CRM/Admin/Form/Options.php templates/CRM/Case/Audit/Audit.tpl
+msgid "Incomplete"
+msgstr "Nedokončeno"
 
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
 msgid "Selected %1 type has not been deleted."
@@ -86,48 +108,63 @@ msgstr "Zvolený druh %1 nebyl smazán."
 msgid "The %1 '%2' has been saved."
 msgstr "%1 '%2' byl uložen."
 
-#: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/BAO/PaymentProcessor.php
-msgid "Could not find payment processor meta information"
-msgstr ""
-
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Site URL"
-msgstr ""
+msgstr "URL stránky"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Recurring Payments URL"
-msgstr ""
+msgstr "URL opakovaných plateb"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Button URL"
-msgstr ""
+msgstr "Tlačítko URL"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "API URL"
-msgstr ""
+msgstr "API URL"
 
 #: CRM/Admin/Form/PaymentProcessorType.php
 #: CRM/Financial/DAO/PaymentProcessorType.php
 msgid "Billing Mode"
-msgstr ""
+msgstr "Způsob účtování"
 
 #: CRM/Admin/Form/Preferences/Contribute.php
 #: templates/CRM/Pledge/Page/Payment.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Due Date"
-msgstr ""
+msgstr "Datum splatnosti"
+
+#: CRM/Admin/Form/RelationshipType.php
+#: templates/CRM/Admin/Form/LocationType.tpl
+#: templates/CRM/Admin/Form/OptionGroup.tpl
+#: templates/CRM/Admin/Form/Options.tpl templates/CRM/Badge/Form/Layout.tpl
+#: templates/CRM/Batch/Form/Batch.tpl
+#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"This may mean the loss of a substantial amount of data, and the action "
+"cannot be undone."
+msgstr "To může znamenat ztrátu podstatného množství dat a tuto akci nebude možno vzít zpět. Prosím projděte si informace o rozšíření níže, než se konečně rozhodnete."
 
 #: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type A"
-msgstr ""
+msgstr "Typ kontaktu A"
 
 #: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type B"
-msgstr ""
+msgstr "Typ kontaktu B"
+
+#: CRM/Admin/Form/ScheduleReminders.php ang/crmCxn/PermTable.html
+#: templates/CRM/Admin/Page/APIExplorer.js
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/PCP/DAO/PCPBlock.php
+#: templates/CRM/PCP/Form/Event.hlp
+msgid "Entity"
+msgstr "Objekt"
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Pledge/BAO/Query.php
 #: CRM/Pledge/Form/Pledge.php CRM/Pledge/Form/PledgeView.php
@@ -136,14 +173,15 @@ msgstr ""
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/Form/Pledge.php CRM/Report/Form.php
 msgid "Frequency"
-msgstr ""
+msgstr "Frekvence"
 
 #: CRM/Admin/Form/ScheduleReminders.php templates/CRM/Admin/Page/Reminders.tpl
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
 msgid "Repeat"
-msgstr ""
+msgstr "Opakovat"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
@@ -156,19 +194,31 @@ msgstr "každý(ch)"
 
 #: CRM/Admin/Form/ScheduleReminders.php templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "until"
-msgstr ""
+msgstr "až do"
+
+#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
+msgid "From Email"
+msgstr "Od emailu"
 
 #: CRM/Admin/Form/ScheduleReminders.php ang/crmMailing/BlockMailing.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/BlockSetup.html
 #: ang/crmMailingAB/EditCtrl/report.html templates/CRM/Mailing/Page/Report.tpl
 #: templates/CRM/Mailing/Page/Tab.tpl
 msgid "Recipients"
-msgstr ""
+msgstr "Příjemci"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: CRM/Event/Form/ManageEvent/ScheduleReminders.php
 msgid "Scheduled Reminder"
-msgstr ""
+msgstr "Naplánované připomenutí"
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "Add >>"
+msgstr "Přidat >>"
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "<< Remove"
+msgstr "<< Odstranit"
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Contribute/Info.php CRM/Contribute/Page/DashBoard.php
@@ -178,45 +228,35 @@ msgstr "CiviPříspěvky"
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Member/Info.php CRM/Member/Page/DashBoard.php
 msgid "CiviMember"
-msgstr "CiviMember"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Event/Info.php CRM/Event/Page/DashBoard.php
-msgid "CiviEvent"
-msgstr "CiviAkce"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Mailing/Info.php
-msgid "CiviMail"
-msgstr "CiviMail"
+msgstr "CiviČlenství"
 
 #: CRM/Admin/Page/Admin.php CRM/Report/Info.php
 msgid "CiviReport"
-msgstr ""
+msgstr "CiviReporty"
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Campaign/Info.php
 msgid "CiviCampaign"
-msgstr ""
+msgstr "CiviKampaň"
 
 #: CRM/Admin/Page/EventTemplate.php CRM/Event/Form/ManageEvent.php
 msgid "Edit Event Template"
-msgstr ""
+msgstr "Upravit šablonu události"
 
 #: CRM/Admin/Page/EventTemplate.php CRM/Event/Form/ManageEvent/Delete.php
 msgid "Delete Event Template"
-msgstr ""
+msgstr "Smazat šablou události"
 
 #: CRM/Admin/Page/Extensions.php CRM/Batch/BAO/Batch.php
 msgid "Download"
-msgstr ""
+msgstr "Stáhnout"
 
-#: CRM/Admin/Page/MessageTemplates.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailingAB/BlockMailing.html
+#: CRM/Admin/Page/MessageTemplates.php ang/crmMailingAB/BlockMailing.html
 msgid "Message Template"
-msgstr ""
+msgstr "Šablona zprávy"
 
 #: CRM/Admin/Page/Options.php templates/CRM/Admin/Page/APIExplorer.tpl
+#: templates/CRM/Admin/Page/CKEditorConfig.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -225,25 +265,21 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Option"
-msgstr ""
+msgstr "Možnost"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 msgid "%1 Options"
-msgstr ""
+msgstr "%1 Možnosti"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 #: CRM/Report/Page/Options.php
 msgid "Enable %1"
-msgstr ""
+msgstr "Povolit %1"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 #: CRM/Report/Page/Options.php
 msgid "Delete %1 Type"
-msgstr ""
-
-#: CRM/Admin/Page/ParticipantStatusType.php CRM/Case/BAO/Case.php
-msgid "Edit Status"
-msgstr ""
+msgstr "Smazat %1 typ"
 
 #: CRM/Admin/Page/Persistent.php CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Event/Page/DashBoard.tpl
@@ -252,63 +288,43 @@ msgid "Configure"
 msgstr "Konfigurovat"
 
 #: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: CRM/Contribute/DAO/Widget.php
 #: CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "About"
-msgstr ""
+msgstr "O aplikaci"
 
-#: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: ang/crmCxn/ConfirmReconnectCtrl.html ang/crmCaseType/edit.html
-msgid "Advanced"
-msgstr ""
-
-#: templates/CRM/Admin/Form/LocationType.tpl
-#: templates/CRM/Admin/Form/OptionGroup.tpl
-#: templates/CRM/Admin/Form/Options.tpl
-#: templates/CRM/Admin/Form/RelationshipType.tpl
-#: templates/CRM/Badge/Form/Layout.tpl templates/CRM/Batch/Form/Batch.tpl
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"This may mean the loss of a substantial amount of data, and the action "
-"cannot be undone."
-msgstr ""
-
-#: templates/CRM/Admin/Page/APIExplorer.tpl
-#: templates/CRM/Admin/Page/OptionGroup.tpl CRM/Contribute/DAO/Product.php
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/Contribute/DAO/Product.php
 #: CRM/Contribute/Form/ManagePremiums.php
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Options"
-msgstr ""
+msgstr "Možnosti"
 
 #: templates/CRM/Admin/Page/ConfigTaskList.tpl CRM/Pledge/Info.php
 #: CRM/Pledge/Page/DashBoard.php
 msgid "CiviPledge"
-msgstr "CiviPledge"
+msgstr "CiviZávazky"
 
 #: templates/CRM/Admin/Page/ConfigTaskList.tpl CRM/Grant/Info.php
 msgid "CiviGrant"
-msgstr ""
+msgstr "CiviGrant"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Public Event"
-msgstr ""
+msgstr "Veřejná událost"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Paid Event"
-msgstr ""
+msgstr "Placená událost"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Allow Online Registration"
-msgstr ""
+msgstr "Povolit online registraci"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl CRM/Campaign/Form/Campaign.php
-#: CRM/Campaign/Form/Petition.php
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Search/Campaign.php
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
@@ -316,68 +332,63 @@ msgstr ""
 msgid "Is Active?"
 msgstr "Je aktivní?"
 
-#: templates/CRM/Admin/Page/MessageTemplates.tpl
-#: ang/crmCaseType/activitySetDetails.html
-msgid "Workflow"
-msgstr ""
-
-#: templates/CRM/Admin/Page/Navigation.tpl
-#: CRM/Financial/Form/FinancialType.php
-msgid "Cannot Delete"
-msgstr ""
+#: templates/CRM/Admin/Page/ExtensionDetails.tpl
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "(not available)"
+msgstr "(není dostupné)"
 
 #: templates/CRM/Admin/Page/Options.hlp ang/crmCaseType/edit.html
 msgid "Activity Types"
-msgstr ""
+msgstr "Typy aktivit"
 
 #: templates/CRM/Admin/Page/Options.tpl templates/CRM/Report/Page/Options.tpl
 msgid ""
 "The existing option choices for %1 group are listed below. You can add, edit"
 " or delete them from this screen."
-msgstr ""
+msgstr "Existující možnosti výběru pro %1 skupinu nastavení najdete níže. Můžete je sem přidávat, upravovat nebo je odsud odstraňovat."
 
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "Add %1"
-msgstr ""
+msgstr "Přidat %1"
 
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
 #: templates/CRM/Event/Page/DashBoard.tpl
 msgid "Counted"
-msgstr ""
+msgstr "Spočítáno"
 
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
-#: CRM/Report/Form/Register.php
+#: ang/crmCaseType/statusTable.html CRM/Report/Form/Register.php
 msgid "Class"
-msgstr ""
+msgstr "Třída"
 
 #: CRM/Badge/Form/Layout.php CRM/Financial/DAO/PaymentToken.php
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: CRM/Badge/Form/Layout.php CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "Save and Preview"
-msgstr ""
+msgstr "Uložit a zobrazit náhled"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Close Batch"
-msgstr ""
+msgstr "Zavřít dávku"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Form/Export.php templates/CRM/Financial/Form/Export.tpl
 msgid "Export Batch"
-msgstr ""
+msgstr "Exportovat dávku"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/Search.php
 msgid "Re-open"
-msgstr ""
+msgstr "Znovu otevřít"
 
 #: CRM/Batch/BAO/Batch.php templates/CRM/Financial/Form/Search.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Current Total"
-msgstr ""
+msgstr "Aktuální součet"
 
 #: CRM/Batch/DAO/Batch.php CRM/Batch/Form/Batch.php
 #: templates/CRM/Batch/Form/Search.tpl CRM/Contribute/BAO/Contribution.php
@@ -388,127 +399,149 @@ msgstr ""
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Batch Name"
-msgstr ""
+msgstr "Jméno dávky"
 
 #: CRM/Batch/DAO/Batch.php CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Summary.php
 msgid "Batch Title"
+msgstr "Nadpis dávky"
+
+#: CRM/Batch/DAO/Batch.php CRM/Mailing/DAO/MailingAB.php
+msgid "When was this item created"
 msgstr ""
 
 #: CRM/Batch/Form/Batch.php CRM/Financial/Form/Search.php
 msgid "Number of Items"
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php CRM/Mailing/Form/Group.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Save & Continue Later"
-msgstr ""
+msgstr "Množství položek"
 
 #: CRM/Batch/Form/Entry.php CRM/Member/Form/MembershipRenewal.php
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Renew Membership"
-msgstr ""
+msgstr "Obnovit členství"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/Contribution.php
 #: CRM/Pledge/Form/Payment.php
 msgid "Adjust Pledge Payment Schedule?"
-msgstr ""
+msgstr "Upravit plán úhrady závazku"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/Contribution.php
 #: CRM/Pledge/Form/Payment.php
 msgid "Adjust Total Pledge Amount?"
-msgstr ""
+msgstr "Upravit celkovou částku příspěvku"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/SoftCredit.php
 msgid "Please enter the soft credit amount."
-msgstr ""
+msgstr "Prosím zadejte částku soft kreditu"
 
 #: CRM/Batch/Page/Batch.php CRM/Financial/Page/Batch.php
 msgid "Search Batches"
-msgstr ""
+msgstr "Hledat dávky"
 
 #: templates/CRM/Batch/Form/Search.tpl templates/CRM/Financial/Form/Search.tpl
 msgid "Item Count"
+msgstr "Počet položek"
+
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "(filtered from _MAX_ total entries)"
 msgstr ""
 
-#: CRM/Campaign/DAO/Campaign.php
-#: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Campaign Name"
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Form/Search.tpl
+msgid "Search:"
+msgstr "Hledat:"
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Contribute/BAO/Contribution.php
+msgid "Campaign Title"
+msgstr "Nadpis kampaně"
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Title for Thank-you page (header title tag, and display at the top of the "
+"page)."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
 msgid "Thank-you Text"
+msgstr "Text poděkování"
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid "text and html allowed. displayed above result on success page"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php CRM/Event/DAO/Event.php
 msgid "Is shared through social media"
-msgstr ""
+msgstr "Je sdíleno skrze sociální média"
 
-#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/Campaign.php
-#: CRM/Campaign/Page/DashBoard.php CRM/PCP/Form/PCP.php
+#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/PCP/Form/PCP.php
 msgid "Delete Campaign"
-msgstr ""
+msgstr "Odstranit kampaň"
 
 #: CRM/Campaign/Form/Campaign.php CRM/Contribute/BAO/Query.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php CRM/Grant/BAO/Query.php
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter a valid money value (e.g. %1)."
-msgstr ""
+msgstr "Zadejte prosím platnou částku (např. %1)."
 
 #: CRM/Campaign/Form/Petition.php
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid "Thank-you Page Title"
-msgstr ""
+msgstr "Nadpis stránky s poděkováním"
 
 #: CRM/Campaign/Form/Petition.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Allow sharing through social media?"
-msgstr ""
+msgstr "Povolit sdílení skrze sociální média?"
 
 #: CRM/Campaign/Form/Survey/Results.php
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Survey Responses"
-msgstr ""
+msgstr "Odpovědi na průzkum"
 
 #: CRM/Campaign/Form/Survey/Results.php
 #: templates/CRM/Campaign/Form/Survey/Results.tpl CRM/Report/Form.php
 msgid "Create Report"
-msgstr ""
+msgstr "Vytvořit report"
 
 #: CRM/Campaign/Form/Survey/Results.php CRM/Report/Form/Instance.php
 msgid "Report Title"
-msgstr ""
+msgstr "Nadpis reportu"
 
 #: CRM/Campaign/Form/Survey/TabHeader.php ang/crmMailingAB/ListCtrl.html
 msgid "Results"
-msgstr ""
-
-#: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
-#: CRM/Event/Form/ManageEvent.php
-msgid "Save and Done"
-msgstr "Uložit a ukončit"
+msgstr "Výsledky"
 
 #: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
 msgid "Save and Next"
-msgstr ""
+msgstr "Uložit a Další"
 
 #: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
 msgid "Order by Column"
-msgstr ""
+msgstr "Seřazeno podle sloupce"
 
 #: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
 msgid "Order by Order"
-msgstr ""
+msgstr "Seřazeno podle pořadí"
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Ascending"
+msgstr "Vzestupně"
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Descending"
+msgstr "Sestupně"
 
 #: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Contribute/Form/AbstractEditPayment.php
-#: CRM/Contribute/Form/ManagePremiums.php CRM/Mailing/Form/Upload.php
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Notice"
-msgstr ""
+msgstr "Oznámení"
 
 #: CRM/Campaign/Page/DashBoard.php
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
@@ -526,7 +559,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 msgid "Thank you for your support."
-msgstr ""
+msgstr "Děkujeme za vaši podporu."
 
 #: templates/CRM/Campaign/Form/Search/EmptyResults.tpl
 #: templates/CRM/Contribute/Form/Search/EmptyResults.tpl
@@ -538,35 +571,41 @@ msgstr ""
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "Column"
-msgstr ""
+msgstr "Sloupec"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "another column"
-msgstr ""
+msgstr "další sloupec"
 
-#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
-#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
-#: templates/CRM/Case/Form/Task/Print.tpl CRM/Report/Form/Case/Summary.php
-msgid "Client"
-msgstr ""
-
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: CRM/Report/Form/Case/Summary.php CRM/Report/Form/Extended.php
 msgid "Case Subject"
 msgstr ""
 
-#: CRM/Case/DAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Page/AJAX.php templates/CRM/Case/Form/Search/Common.tpl
-#: CRM/Report/Form/Extended.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php
+#: CRM/Case/Form/Activity/OpenCase.php CRM/Case/Page/AJAX.php
+#: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case Start Date"
 msgstr ""
 
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case End Date"
 msgstr ""
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Submit"
+msgstr ""
+
+#: CRM/Case/Form/EditClient.php CRM/Event/Form/SelfSvcTransfer.php
+msgid "Select Contact"
+msgstr ""
+
+#: CRM/Case/Form/Task/Batch.php CRM/Contribute/Form/Task/Batch.php
+#: CRM/Member/Form/Task/Batch.php
+msgid "Your updates have been saved."
+msgstr "Vaše aktualizace byly uloženy."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -576,9 +615,13 @@ msgstr ""
 msgid "View contact record"
 msgstr ""
 
-#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form.php
-msgid "Print Report"
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form/Mailing/Opened.php
+msgid "Open Date"
 msgstr ""
+
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/BAO/ReportInstance.php
+msgid "Print Report"
+msgstr "Vytisknout report"
 
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 #: templates/CRM/Event/Form/Search/EmptyResults.tpl
@@ -587,19 +630,122 @@ msgstr ""
 msgid "if you are searching within a date range, try a wider range of values"
 msgstr ""
 
-#: CRM/Contribute/BAO/Contribution/Utils.php
-#: CRM/Event/Form/Registration/Confirm.php
-msgid ""
-"The system did not record payment details for this payment and so could not "
-"process the transaction. Please report this error to the site administrator."
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Receive Date"
+msgstr ""
+
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Cancel Date"
 msgstr ""
 
 #: CRM/Contribute/BAO/Contribution.php CRM/Member/BAO/Membership.php
 msgid "(match to contact)"
 msgstr ""
 
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/PremiumsProduct.php
+#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Task/Print.tpl
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Premium"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit For"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Soft Credit Amount"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Name"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Email"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Phone"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/PCP/DAO/PCP.php
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Personal Campaign Page Title"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Event/Form/Registration/Confirm.php
+#: CRM/Event/Form/Registration/Register.php
+msgid "Online Event Registration"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Submit Credit Card payment"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Record Payment"
+msgstr "Záznam platby"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Record Refund"
+msgstr ""
+
 #: CRM/Contribute/BAO/ContributionPage.php CRM/Event/BAO/Event.php
 msgid "Copy of"
+msgstr ""
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Financial/DAO/PaymentToken.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Page/BatchTransaction.tpl
+msgid "Contribution Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Search/Common.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancelled / Refunded Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Number"
 msgstr ""
 
 #: CRM/Contribute/BAO/Query.php CRM/Report/Form/Contribute/Detail.php
@@ -610,19 +756,56 @@ msgstr ""
 msgid "Soft Credits Only"
 msgstr ""
 
-#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialType.php
-msgid "Financial Type ID"
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/Widget.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The Contribution Page which triggered this contribution"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "actual processor fee if known - may be 0."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialTrxn.php
+msgid ""
+"actual funds transfer amount. total less fees. if processor does not report "
+"actual fee during transaction, this is set to total_amount."
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Cancel Date"
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Reference"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/DAO/ContributionSoft.php CRM/Contribute/DAO/Product.php
+#: CRM/Event/DAO/Event.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Grant/DAO/Grant.php CRM/PCP/DAO/PCP.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "3 character string, value from config setting or input via user."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancellation / Refund Reason"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Report/Form/Contribute/Detail.php
+msgid "Thank-you Date"
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
 #: CRM/Member/DAO/Membership.php
 msgid "Is Pay Later"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Recognition Date"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Report/Form/Contribute/PCP.php
@@ -631,14 +814,18 @@ msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/AbstractEditPayment.php
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: CRM/Contribute/Form/Contribution.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl CRM/Event/DAO/Event.php
-#: CRM/Event/Form/ManageEvent/Fee.php CRM/Event/Form/Participant.php
-#: CRM/Financial/DAO/FinancialTrxn.php CRM/Financial/DAO/PaymentProcessor.php
-#: CRM/Member/Form.php
+#: CRM/Event/Form/ManageEvent/Fee.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Report/Form/Contribute/Recur.php
 msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "if true - allows the user to send payment directly to the org later"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
@@ -646,29 +833,48 @@ msgid "Pay Later Text"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The text displayed to the user in the main form"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The receipt sent to the user instead of the normal receipt text"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Label"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount label for partial payment"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Help Text"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionPage.php
-#: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount help text for partial payment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Minimum initial amount for partial payment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "FK to civicrm_option_value."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
 msgid "Maximum Amount"
-msgstr ""
+msgstr "Maximální částka"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: templates/CRM/Contribute/Form/ContributionPage/Settings.hlp
 #: CRM/PCP/DAO/PCP.php CRM/Report/Form/Contribute/PCP.php
 msgid "Goal Amount"
-msgstr ""
+msgstr "Cílová částka"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/AdditionalPayment.php
@@ -687,14 +893,24 @@ msgstr "Text v zápatí"
 msgid "Is billing block required"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionProduct.php CRM/Report/Form/Extended.php
+#: CRM/Contribute/DAO/ContributionProduct.php
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+#: CRM/Report/Form/Extended.php
 msgid "Quantity"
-msgstr ""
+msgstr "Množství"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Contribute/DAO/Product.php
+#: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Contribute/Form/ManagePremiums.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Frequency Unit"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/UpdateSubscription.php
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Number of Installments"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Financial/DAO/PaymentToken.php
@@ -709,6 +925,16 @@ msgstr ""
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Member/DAO/MembershipType.php
 #: templates/CRM/Member/Form/Membership.hlp
 msgid "Auto Renew"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php CRM/Pledge/DAO/Pledge.php
+msgid "FK to Financial Type"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionSoft.php
+#: CRM/Event/DAO/ParticipantPayment.php CRM/Member/DAO/MembershipPayment.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to contribution table."
 msgstr ""
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
@@ -728,20 +954,15 @@ msgstr ""
 msgid "Fixed Period Start Day"
 msgstr ""
 
-#: CRM/Contribute/DAO/Product.php CRM/Member/Form/MembershipType.php
-msgid "Duration Interval"
-msgstr ""
-
 #: CRM/Contribute/DAO/Product.php CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency Interval"
 msgstr ""
 
-#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Contribute/Form/Task/Print.tpl
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Premium"
-msgstr ""
+#: CRM/Contribute/Form/AbstractEditPayment.php
+#: CRM/Contribute/Form/ContributionView.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "View Payment"
+msgstr "Zobrazit platbu"
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl CRM/PCP/Form/Event.php
@@ -759,38 +980,6 @@ msgid "receipt"
 msgstr ""
 
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Pledge/Page/Payment.tpl
-msgid "View Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
-#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: xml/templates/message_templates/event_registration_receipt_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
-#: xml/templates/message_templates/membership_offline_receipt_html.tpl
-#: xml/templates/message_templates/membership_offline_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-msgid "Credit Card Information"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Payment Amount"
 msgstr ""
@@ -798,7 +987,7 @@ msgstr ""
 #: CRM/Contribute/Form/AdditionalPayment.php CRM/Event/Form/EventFees.php
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "Confirmation Message"
-msgstr ""
+msgstr "Potvrzovací zpráva"
 
 #: CRM/Contribute/Form/CancelSubscription.php CRM/Member/Page/Tab.php
 #: CRM/Member/Selector/Search.php
@@ -815,6 +1004,11 @@ msgid ""
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Confirm.php
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Make Payment"
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Confirm.php
 #: CRM/Event/Cart/Form/Checkout/ConferenceEvents.php
 #: CRM/Event/Cart/Form/Checkout/Payment.php
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
@@ -824,23 +1018,18 @@ msgstr "Zpět"
 
 #: CRM/Contribute/Form/Contribution/Main.php CRM/PCP/BAO/PCP.php
 msgid "Include my name and message"
-msgstr ""
+msgstr "Zahrnout mé jméno a zprávu"
 
 #: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-#: CRM/PCP/BAO/PCP.php
-msgid "Personal Note"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/BAO/Query.php
 msgid "Every"
 msgstr "Každý(ch)"
+
+#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment Method is a required field."
+msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Event/Form/Registration/Register.php
@@ -858,22 +1047,20 @@ msgstr ""
 msgid "Premium Information"
 msgstr ""
 
+#: CRM/Contribute/Form/Contribution.php CRM/Event/Form/EventFees.php
+#: CRM/Member/Form/Membership.php
+msgid "You do not have all the permissions needed for this page."
+msgstr ""
+
 #: CRM/Contribute/Form/Contribution.php
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: CRM/Member/Form/Membership.php templates/CRM/Member/Form/Membership.tpl
 msgid "Choose price set"
 msgstr ""
 
-#: CRM/Contribute/Form/ContributionBase.php CRM/Member/BAO/Membership.php
-msgid ""
-"Oops. The membership you're trying to renew appears to be invalid. Contact "
-"your site administrator if you need assistance. If you continue, you will be"
-" issued a new membership."
-msgstr ""
-
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Page/EventInfo.php
 msgid "The page you requested is currently unavailable."
-msgstr ""
+msgstr "Zvolená stránka je v tuto chvíli nedostupná."
 
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Form/Registration.php
 msgid "Some of the profile fields cannot be configured for this page."
@@ -882,11 +1069,16 @@ msgstr ""
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Pay Later Instructions"
-msgstr ""
+msgstr "Instrukce pro pozdější platby"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Billing address required"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Show Recurring Donation Start Date?"
 msgstr ""
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
@@ -902,12 +1094,12 @@ msgstr ""
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "(top of page)"
-msgstr ""
+msgstr "(horní část stránky)"
 
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "(bottom of page)"
-msgstr ""
+msgstr "(spodní část stránky)"
 
 #: CRM/Contribute/Form/ContributionPage/Premium.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php CRM/Event/DAO/Event.php
@@ -927,18 +1119,18 @@ msgstr ""
 #: CRM/Contribute/Form/ContributionPage.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php CRM/Event/Form/ManageEvent.php
 msgid "'%1' information has been saved."
-msgstr ""
+msgstr "'%1' informací bylo uloženo."
 
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Receipt"
-msgstr ""
+msgstr "Potvrzení o platbě"
 
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 #: CRM/Event/Form/ManageEvent/TabHeader.php
 msgid "Personal Campaigns"
-msgstr ""
+msgstr "Osobní kampaně"
 
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 #: CRM/Member/Form/Membership.php
@@ -957,29 +1149,20 @@ msgstr ""
 
 #: CRM/Contribute/Form/Search.php CRM/Financial/Form/BatchTransaction.php
 msgid "Contributor Name or Email"
-msgstr ""
+msgstr "Jméno nebo email přispěvatele"
 
 #: CRM/Contribute/Form/Search.php CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor Name"
+msgstr "Jméno přispěvatele"
+
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Tag(s)"
 msgstr ""
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Unsupported Field Type"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Member/Form/Task/Batch.php
-msgid "Your updates have been saved."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "No updates have been saved."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Not Saved"
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Group(s)"
 msgstr ""
 
 #: CRM/Contribute/Form/Task/Invoice.php CRM/Contribute/Form/Task/PDF.php
@@ -987,12 +1170,20 @@ msgstr ""
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: ang/crmMailing/services.js CRM/Report/Form.php
 msgid "Sent"
-msgstr ""
+msgstr "Odesláno"
 
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Update Error"
-msgstr ""
+#: CRM/Contribute/Form/Task/Status.php
+#: templates/CRM/Contribute/Form/Task/Status.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: CRM/Financial/Form/PaymentEdit.php CRM/Financial/Page/AJAX.php
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Date"
+msgstr "Datum transakce"
 
 #: CRM/Contribute/Form/UpdateBilling.php
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
@@ -1008,19 +1199,13 @@ msgid "Import mode"
 msgstr ""
 
 #: CRM/Contribute/Import/Parser/Contribution.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Pledge ID"
 msgstr ""
 
 #: CRM/Contribute/Info.php CRM/Event/Info.php CRM/Member/Info.php
 msgid "credit card"
-msgstr ""
-
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/Contribution/PreviewHeader.tpl
-#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
-#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
-msgid "Test-drive"
-msgstr ""
+msgstr "kreditní karta"
 
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Page/DashBoard.tpl
@@ -1036,20 +1221,17 @@ msgstr ""
 #: CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Page/BatchTransaction.php
 msgid "View Contribution"
-msgstr ""
+msgstr "Zobrazit příspěvek"
 
 #: CRM/Contribute/Selector/Search.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-#: CRM/Event/Selector/Search.php
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "test"
 msgstr ""
 
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Summary.php
-msgid "Soft Credit Amount"
-msgstr ""
-
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Detail.php
-msgid "Soft Credit For"
+#: CRM/Contribute/Tokens.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Payment Instrument"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
@@ -1067,14 +1249,9 @@ msgstr ""
 msgid "Balance Owed"
 msgstr ""
 
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Pledge/Form/Pledge.tpl
-msgid "loading"
-msgstr ""
-
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1097,6 +1274,12 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Installment Amount"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "Contribution Honor Roll"
 msgstr ""
@@ -1111,25 +1294,25 @@ msgstr ""
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "anonymously"
-msgstr ""
+msgstr "anonymně"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "under the name"
-msgstr ""
+msgstr "pod jménem"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "With the personal note"
-msgstr ""
+msgstr "S osobní poznámkou"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "With no personal note"
-msgstr ""
+msgstr "Bez osobní poznámky"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
@@ -1162,26 +1345,6 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Expires"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Checkout with Google"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Click the Google Checkout button to continue."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Checkout with PayPal"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Click the PayPal button to continue."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
@@ -1218,7 +1381,7 @@ msgstr "Možnosti platby"
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Transaction #"
-msgstr ""
+msgstr "Transakce #"
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
@@ -1231,21 +1394,17 @@ msgstr ""
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Contributor"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-msgid "(test)"
-msgstr ""
+msgstr "Přispěvatel"
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Alternatively, you can use a price set."
 msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "loading"
+msgstr "nahrávání"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1300,7 +1459,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "profiles"
-msgstr ""
+msgstr "profily"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Event.hlp
@@ -1326,6 +1485,11 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Notification Email"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid ""
 "Notification will be sent to this email address whenever a Personal Campaign"
@@ -1346,7 +1510,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid "Tell-a-Friend"
-msgstr ""
+msgstr "Řekni příteli"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1397,11 +1561,32 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "This is a TEST transaction"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Recurring Contribution"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: CRM/Pledge/BAO/PledgeBlock.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Installments"
 msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Personal Note"
+msgstr "Osobní poznámka"
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
@@ -1418,7 +1603,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid "Tell people why this campaign is important to you."
-msgstr ""
+msgstr "Řekněte lidem, proč je tato kampaň pro Vás důležitá."
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
@@ -1430,7 +1615,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/PCP/Delete.tpl
 #: templates/CRM/PCP/Form/PCP/Delete.tpl
 msgid "Delete Campaign Page "
-msgstr ""
+msgstr "Odstranit stránku kampaně."
 
 #: templates/CRM/Contribute/Form/PCP/Delete.tpl
 #: templates/CRM/PCP/Form/PCP/Delete.tpl
@@ -1440,7 +1625,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/PCP/PCP.tpl
 #: templates/CRM/PCP/Form/PCP/PCP.tpl
 msgid "Find Campaign Pages"
-msgstr ""
+msgstr "Najít stránky kampaně."
 
 #: templates/CRM/Contribute/Form/PCP/PCPAccount.tpl
 #: templates/CRM/PCP/Form/PCPAccount.tpl
@@ -1456,41 +1641,16 @@ msgstr ""
 msgid "Profile is not configured with Email address."
 msgstr ""
 
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Tag(s)"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Group(s)"
-msgstr ""
+#: templates/CRM/Contribute/Form/Selector.tpl
+#: templates/CRM/Contribute/Page/PaymentInfo.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+#: templates/CRM/Pledge/Form/Selector.tpl
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "view payments"
+msgstr "zobrazit platby"
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
-"Available email addresses are configurable by users with Administer CiviCRM "
-"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
-"Email Addresses</a> to add or edit email addresses. Make sure these email "
-"addresses are valid email accounts with your email service provider."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Contact your site administrator if you need to use a \"FROM\" Email Address "
-"which is not in the dropdown list."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You can choose to send BOTH an <strong>HTML</strong> and a plain "
 "<strong>TEXT</strong> version of your mailing, OR you can send a "
@@ -1498,7 +1658,7 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "If you create only an <strong>HTML</strong> version, CiviMail will "
 "automatically create a <strong>TEXT</strong> version for your recipients who"
@@ -1506,12 +1666,12 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "Required Elements"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "CiviMail email messages must include an <strong>opt-out</strong> link (\"Opt"
 " out via web page\"), and the <strong>postal address</strong> of your "
@@ -1520,36 +1680,6 @@ msgid ""
 "re-usable <strong>message footer</strong>. Refer to the online documentation"
 " for details on how to include required links and contact information as "
 "well as sample messages."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"You can use your favorite editor to create content on your local computer "
-"and then <strong>Upload</strong> the files. OR you can "
-"<strong>Compose</strong> content directly on the screen."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
-"what-you-get) editor is provided which you can use create simple HTML "
-"messages. However, if you are planning on creating HTML messages with "
-"complex layouts - it is best to use an HTML editor on your local computer. "
-"Then locate and upload the saved file(s) by clicking the "
-"<strong>Browse</strong> button."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Status.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: CRM/Financial/DAO/FinancialItem.php
-#: CRM/Report/Form/Contribute/Bookkeeping.php
-msgid "Transaction Date"
 msgstr ""
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
@@ -1641,33 +1771,27 @@ msgstr ""
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Cancelled Date"
-msgstr ""
+msgstr "Datum zrušení"
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Failure Count"
-msgstr ""
+msgstr "Počet selhání"
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Failure Retry Date"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Total Soft Credits"
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Related Contributions"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: templates/CRM/PCP/Page/PCP.tpl
-msgid "View Personal Campaign Page"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Total Soft Credit Amount"
-msgstr ""
+msgstr "Celková částka soft kreditu"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
@@ -1705,24 +1829,43 @@ msgstr ""
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Total Paid"
-msgstr ""
+msgstr "Celkem zaplaceno"
 
 #: templates/CRM/Contribute/Page/PaymentInfo.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_text.tpl
 #: CRM/Pledge/Selector/Search.php CRM/Report/Form/Event/ParticipantListing.php
 msgid "Balance"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/PaymentInfo.tpl
-#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
-msgid "view payments"
-msgstr ""
+msgstr "Zůstatek"
 
 #: templates/CRM/Contribute/Page/PcpUserDashboard.tpl
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "ongoing"
-msgstr ""
+msgstr "průběžný"
+
+#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/event_registration_receipt_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Credit Card Information"
+msgstr "Informace o kreditní kartě"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Adjust Pledge Payment Schedule"
@@ -1761,7 +1904,7 @@ msgstr ""
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1783,7 +1926,33 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Each"
+msgstr "Každý"
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Total Tax Amount"
 msgstr ""
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+msgid "Paid By"
+msgstr "Zaplaceno (kým)"
 
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
@@ -1792,7 +1961,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Amount before Tax"
-msgstr ""
+msgstr "Částka před zdaněním"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1820,6 +1989,8 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Registered Email"
@@ -1844,7 +2015,7 @@ msgstr ""
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "On Behalf Of"
-msgstr ""
+msgstr "Jménem"
 
 #: xml/templates/message_templates/contribution_recurring_billing_html.tpl
 #: xml/templates/message_templates/contribution_recurring_billing_text.tpl
@@ -1860,6 +2031,8 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -1873,14 +2046,14 @@ msgstr ""
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 msgid "If you have questions please contact us at %1"
-msgstr ""
+msgstr "Pokud máte nějaké otázky, kontaktujte nás na %1"
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid ""
-"This membership will be renewed automatically. You can cancel the auto-"
-"renewal option by <a href=\"%1\">visiting this web page</a>."
+"You can cancel the auto-renewal option by <a href=\"%1\">visiting this web "
+"page</a>."
 msgstr ""
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
@@ -1892,33 +2065,45 @@ msgid ""
 "<a href=\"%1\">visiting this web page</a>."
 msgstr ""
 
+#: CRM/Event/BAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Note"
+msgstr ""
+
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Fee.php
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/Summary.php CRM/Report/Form/Extended.php
 msgid "Fee Label"
-msgstr ""
+msgstr "Štítek poplatku"
 
 #: CRM/Event/DAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
 msgid "Fee Currency"
-msgstr ""
+msgstr "Měna poplatku"
 
 #: CRM/Event/DAO/ParticipantPayment.php CRM/Pledge/DAO/PledgePayment.php
 msgid "Payment ID"
-msgstr ""
+msgstr "ID platby"
 
 #: CRM/Event/Form/EventFees.php CRM/Member/Form/Membership.php
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Transaction ID already exists in Database."
-msgstr ""
+msgstr "ID transakce už v databázi existuje."
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php CRM/Mailing/BAO/Mailing.php
 msgid "Template Title"
-msgstr ""
+msgstr "Nadpis šablony"
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Tip"
 msgstr ""
+
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Member/Summary.php
+msgid "Fees"
+msgstr "Poplatky"
 
 #: CRM/Event/Form/Participant.php
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1931,30 +2116,27 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
 msgid "Registration Date"
-msgstr ""
-
-#: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
-#: CRM/Member/Form/MembershipRenewal.php
-msgid "Paid By is a required field."
-msgstr ""
+msgstr "Datum registrace"
 
 #: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
 msgid "Please select a valid payment status before updating."
 msgstr ""
 
 #: CRM/Event/Form/Search.php templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Participant Name"
-msgstr ""
+msgstr "Jméno účastníka"
 
-#: CRM/Event/Selector/Search.php templates/CRM/Pledge/Page/Payment.tpl
-msgid "Record Payment"
+#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "-select-"
 msgstr ""
 
 #: templates/CRM/Event/Form/EventFees.tpl
@@ -1965,15 +2147,14 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Event/Form/EventFees.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
+#: templates/CRM/Member/Form/MembershipCommon.tpl
 msgid "Select the appropriate financial type for this payment."
 msgstr ""
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 #: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
 msgid "Template"
-msgstr ""
+msgstr "Šablona"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl templates/CRM/PCP/Page/PCP.tpl
@@ -1993,12 +2174,21 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "SubTotal"
-msgstr ""
+msgstr "Mezisoučet"
 
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "Amount Before Tax:"
+msgstr "Částka před zdaněním:"
+
+#: CRM/Financial/BAO/PaymentProcessor.php CRM/Mailing/Event/BAO/Bounce.php
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: CRM/Financial/DAO/FinancialItem.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Financial Item ID"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessor.php
@@ -2007,10 +2197,10 @@ msgstr ""
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php
 msgid "Payment Type"
-msgstr ""
+msgstr "Typ platby"
 
-#: CRM/Financial/Form/Export.php CRM/Report/Form.php
-msgid "Export to CSV"
+#: CRM/Grant/BAO/Query.php CRM/Report/Form/Grant/Detail.php
+msgid "Grant Decision Date"
 msgstr ""
 
 #: CRM/Grant/BAO/Query.php CRM/Grant/DAO/Grant.php
@@ -2025,25 +2215,26 @@ msgstr "Stav grantu"
 #: templates/CRM/Grant/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
 msgid "Amount Requested"
-msgstr ""
+msgstr "Vyžadovaná částka"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
-#: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Detail.php
+#: templates/CRM/Grant/Form/GrantView.tpl
+#: templates/CRM/Grant/Form/Task/Print.tpl CRM/Report/Form/Grant/Detail.php
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Application Received"
-msgstr ""
+msgstr "Žádost přijata"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Form/Task/Update.php
 #: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Decision"
-msgstr ""
+msgstr "Rozhodnutí o grantu"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
 #: templates/CRM/Grant/Form/GrantView.tpl
 #: templates/CRM/Grant/Form/Task/Print.tpl
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Money Transferred"
-msgstr ""
+msgstr "Peníze přesunuty"
 
 #: CRM/Grant/Form/Grant.php templates/CRM/Grant/Form/GrantView.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
@@ -2065,50 +2256,71 @@ msgstr "Přidělená částka"
 
 #: CRM/Grant/Selector/Search.php CRM/Report/Form/Grant/Statistics.php
 msgid "Report Received"
-msgstr ""
+msgstr "Report přijat"
 
 #: CRM/Mailing/BAO/Mailing.php CRM/Report/Form/Mailing/Detail.php
 msgid "Reply"
+msgstr "Odpověď"
+
+#: CRM/Mailing/BAO/Query.php CRM/Mailing/DAO/Mailing.php
+#: CRM/Mailing/Tokens.php CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing ID"
 msgstr ""
 
 #: CRM/Mailing/BAO/Query.php CRM/Report/Form/Mailing/Detail.php
 msgid "Delivery Status"
 msgstr ""
 
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/Event/DAO/Bounce.php
+#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Type"
+msgstr ""
+
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Search.php
 #: CRM/Mailing/Selector/Browse.php CRM/Mailing/Selector/Search.php
-#: ang/crmMailing/BlockReview.html ang/crmMailing/BlockSummary.html
-#: ang/crmMailingAB/EditCtrl/report.html
+#: CRM/Mailing/Tokens.php ang/crmMailing/BlockReview.html
+#: ang/crmMailing/BlockSummary.html ang/crmMailingAB/EditCtrl/report.html
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: templates/CRM/Mailing/Page/Browse.hlp templates/CRM/Mailing/Page/Report.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Name"
-msgstr ""
+msgstr "Název mailingu"
 
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Selector/Event.php
 #: CRM/Report/Form/Mailing/Bounce.php
 msgid "Bounce Reason"
 msgstr ""
 
-#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Type"
-msgstr ""
+#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Started"
+msgstr "Zahájeno"
 
 #: CRM/Mailing/Selector/Event.php templates/CRM/Mailing/Page/Report.tpl
-#: CRM/Report/Form/Register.php templates/CRM/Report/Page/Options.tpl
+#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Register.php
+#: templates/CRM/Report/Page/Options.tpl
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
 #: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
 msgid "Intended Recipients"
 msgstr ""
 
+#: CRM/Mailing/Selector/Search.php CRM/Mailing/Tokens.php
+#: templates/CRM/Mailing/Form/Task/Print.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing Subject"
+msgstr "Předmět mailingu"
+
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Search.tpl
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Status"
-msgstr ""
+msgstr "Stav mailingu"
 
 #: ang/crmMailing/BlockReview.html
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
@@ -2119,12 +2331,47 @@ msgstr ""
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid "Approval"
+msgstr "Schválení"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
+"Available email addresses are configurable by users with Administer CiviCRM "
+"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
 msgstr ""
 
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Clicks"
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
+"Email Addresses</a> to add or edit email addresses. Make sure these email "
+"addresses are valid email accounts with your email service provider."
 msgstr ""
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Contact your site administrator if you need to use a \"FROM\" Email Address "
+"which is not in the dropdown list."
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Opens"
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Total Opens"
+msgstr "Celkem otevření"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
+msgid "Clicks"
+msgstr "Kliky"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Clicks"
+msgstr "Unikátní kliky"
 
 #: CRM/Member/Form/MembershipBlock.php templates/CRM/Member/Page/Tab.tpl
 #: CRM/Report/Form/Extended.php CRM/Report/Form/Member/ContributionDetail.php
@@ -2136,45 +2383,50 @@ msgstr "Druhy členství"
 #: CRM/Member/Form/Search.php CRM/Report/Form/Member/Lapse.php
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Member Name"
+msgstr "Jméno člena"
+
+#: templates/CRM/Member/Page/DashBoard.tpl CRM/Report/Form/Member/Summary.php
+msgid "Membership Summary"
 msgstr ""
 
 #: templates/CRM/Member/Page/MembershipType.tpl CRM/Report/Form.php
 msgid "Max"
-msgstr ""
+msgstr "Max"
+
+#: templates/CRM/PCP/Page/PCP.tpl CRM/Report/Form/Contribute/PCP.php
+msgid "Page Title"
+msgstr "Nadpis stránky"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Supporter"
-msgstr ""
+msgstr "Podporovatel"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 #: CRM/Report/Form/Member/Lapse.php
 msgid "Current Status"
-msgstr ""
+msgstr "Aktuální stav"
 
-#: CRM/Pledge/BAO/Query.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Status"
-msgstr ""
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-msgid "Total Pledged"
-msgstr ""
+#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Pbnp.php
+msgid "Next Payment Amount"
+msgstr "Částka příští platby"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
+msgid "Total Pledged"
+msgstr "Celkem závazků"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Pledge Start Date"
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/Form/Pledge.php
-#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
+#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/PledgeView.tpl
 #: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Pledge Made"
@@ -2199,99 +2451,40 @@ msgstr ""
 msgid "Balance Due"
 msgstr ""
 
-#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
-msgid "From Email"
+#: CRM/Campaign/DAO/Campaign.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Campaign Name"
+msgstr "Název kampaně"
+
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+#: templates/CRM/Mailing/Form/Upload.hlp
+msgid ""
+"You can use your favorite editor to create content on your local computer "
+"and then <strong>Upload</strong> the files. OR you can "
+"<strong>Compose</strong> content directly on the screen."
 msgstr ""
 
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Ascending"
-msgstr ""
-
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Descending"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionRecur.php
-#: CRM/Contribute/Form/UpdateSubscription.php
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Number of Installments"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-#: templates/CRM/Pledge/Page/UserDashboard.tpl
-msgid "Make Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Payment Method is a required field."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php CRM/Member/Form/Membership.php
-msgid "You do not have all the permissions needed for this page."
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Show Recurring Donation Start Date?"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Update multiple records error"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Installment Amount"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Notification Email"
+#: templates/CRM/Contribute/Page/ContributionSoft.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Total Soft Credits"
 msgstr ""
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Median"
-msgstr ""
+msgstr "Medián"
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Mode"
-msgstr ""
+msgstr "Mód"
 
-#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
-#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Fees"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "-select-"
-msgstr ""
-
-#: CRM/Mailing/DAO/Mailing.php CRM/Report/Form/Mailing/Summary.php
-msgid "Mailing ID"
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
-msgid "Started"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Opens"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Total Opens"
-msgstr ""
-
-#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Next Payment Amount"
+#: xml/templates/message_templates/contribution_recurring_notify_html.tpl
+#: xml/templates/message_templates/contribution_recurring_notify_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid ""
+"This membership will be renewed automatically. You can cancel the auto-"
+"renewal option by <a href=\"%1\">visiting this web page</a>."
 msgstr ""

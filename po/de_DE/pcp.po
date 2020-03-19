@@ -3,15 +3,16 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Benny Bepunkt, 2016
 # Birdiebln <birdiebln@gmail.com>, 2014
 # Detlev Sieber <detlev.sieber@foebud.org>, 2012,2014
 # pantteri, 2013
 # Ettore Atalan <atalanttore@googlemail.com>, 2016
-# Fabian <schuttenberg@systopia.de>, 2015-2016
+# Fabian <schuttenberg@systopia.de>, 2015-2016,2018
 # Frederik Bugglin <frederik.bugglin@gmail.com>, 2016
-# Michal Seidler, 2012
+# Michal Seidler <info@euroconsults.eu>, 2012
 # Jo <jo@caj-augsburg.de>, 2012
-# Martin Peth <peth@systopia.de>, 2014-2016
+# Martin Peth <peth@systopia.de>, 2014-2017
 # Martin Peth <peth@systopia.de>, 2012
 # Fabian <schuttenberg@systopia.de>, 2013
 # Sven <sven.lorkowski@freenet.de>, 2015
@@ -19,9 +20,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-08-16 08:24+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,15 +64,15 @@ msgstr "Freigabe erforderlich"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Owner Email Notification"
-msgstr ""
+msgstr "Eigentümerbenachrichtigung per Mail"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Allow 'Tell a friend' functionality"
-msgstr "erlaube die \"Sage es Freunden\"-Funktion"
+msgstr "\"Weitersagen\"-Funktion aktivieren."
 
 #: CRM/PCP/BAO/PCP.php
 msgid "'Tell a friend' maximum recipients limit"
-msgstr "maximale Anzahl der Adressaten zur \"Sage es Freunden\"-Funktion"
+msgstr "Max. Adressaten für \"Weitersagen\"-Funktion"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Please enter a valid limit."
@@ -155,7 +156,7 @@ msgstr "Der Status von %1 wurde nun auf %2 erhöht. "
 
 #: CRM/PCP/BAO/PCP.php
 msgid "A notification email has been sent to the supporter."
-msgstr "Eine Email Benachrichtigung wurde an den Unterstützer geschickt. "
+msgstr "Eine E-Mail Benachrichtigung wurde an den Unterstützer geschickt. "
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Email Sent"
@@ -181,11 +182,6 @@ msgstr "Persönliche Kampagnen-Seiten ID"
 msgid "Personal Campaign Page Status"
 msgstr "Status der Seite der persönlichen Kampagne"
 
-#: CRM/PCP/DAO/PCP.php xml/templates/message_templates/pcp_notify_html.tpl
-#: xml/templates/message_templates/pcp_notify_text.tpl
-msgid "Personal Campaign Page Title"
-msgstr "Titel der Seite der persönlichen Kampagne"
-
 #: CRM/PCP/DAO/PCP.php
 msgid "Intro Text"
 msgstr "Einleitungstext"
@@ -199,24 +195,134 @@ msgid "Donate Link Text"
 msgstr "Unterstützer-Linktext "
 
 #: CRM/PCP/DAO/PCP.php
+msgid "The Contribution or Event Page which triggered this pcp"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
 msgid "PCP Page Type"
 msgstr "PKP-Seitentyp"
 
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity Type"
-msgstr "Zielentitätstyp"
+#: CRM/PCP/DAO/PCP.php
+msgid "The type of PCP this is: contribute or event"
+msgstr ""
 
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Owner Notification"
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Block"
+msgstr "PCP Block"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The pcp block that this pcp page was created from"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Use Thermometer?"
+msgstr "Benutze Thermometer?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Show Honor Roll?"
+msgstr "Zeige Ehrentafel?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Goal amount of this Personal Campaign Page."
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Is Personal Campaign Page enabled/active?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify Owner?"
+msgstr "Besitzer benachrichtigen?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify owner via email when someone donates to page?"
 msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Tellfriend Limit"
-msgstr "\"Sage es meinen Freunden\" Limit "
+msgid "PCP Block ID"
+msgstr "PCP Block ID"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP block Id"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_contribution_page.id OR civicrm_event.id"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity"
+msgstr "Zielentität"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The type of entity that this pcp targets"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity ID"
+msgstr "Zielentitäts-ID"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The entity that this pcp targets"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"FK to civicrm_uf_group.id. Does Personal Campaign Page require manual "
+"activation by administrator? (is inactive by default after setup)?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Owner Notification"
+msgstr "Eigentümerbenachrichtigung"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_option_group with name = PCP owner notifications"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Approval Required?"
+msgstr "Freigabe erforderlich?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"Does Personal Campaign Page require manual activation by administrator? (is "
+"inactive by default after setup)?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell a Friend Enabled?"
+msgstr "\"Weitersagen\" aktiviert?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Does Personal Campaign Page allow using tell a friend?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell A Friend Limit"
+msgstr "Limit für \"einem Freund weitersagen\""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Maximum recipient fields allowed in tell a friend"
+msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php templates/CRM/PCP/Form/Event.hlp
 msgid "Link Text"
 msgstr "Linktext"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Link text for PCP."
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Is Personal Campaign Page Block enabled/active?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"If set, notification is automatically emailed to this email-address on "
+"create/update Personal Campaign Page"
+msgstr ""
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Setup a Personal Campaign Page - Step 2"
@@ -264,7 +370,7 @@ msgstr "Ehrentafel"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Notify me via email when someone donates to my page"
-msgstr ""
+msgstr "Benachrichtigen Sie mich per E-Mail, wenn jemand auf meiner Seite spendet."
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Goal Amount should be a numeric value greater than zero."
@@ -564,7 +670,7 @@ msgid ""
 "to send emails to people inviting them to visit their page and register or "
 "contribute? NOTE: Tell a Friend emails will automatically include a link to "
 "the sender's campaign page."
-msgstr "Kann der/die \"Eigentümer/in\" einer persönlichen Kampagnenseite die Funktion \"Einem Freund oder einer Freundin weitererzählen\" benutzen, um jemanden mittels E-Mail dazu einzuladen, diese Seite zu besuchen und eine Zuwendung zu tätigen? HINWEIS: E-Mails, die mit der Funktion \"Einem Freund oder einer Freundin weitererzählen\" verschickt werden, enthalten automatisch einen Link zur Kampagnenseite des Erstellers bzw. der Erstellerin der E-Mail."
+msgstr "Kann der/die \"Eigentümer/in\" einer persönlichen Kampagnenseite die Funktion \"Einem Freund oder einer Freundin weiterersagen\" benutzen, um jemanden mittels E-Mail dazu einzuladen, diese Seite zu besuchen und eine Zuwendung zu tätigen? HINWEIS: E-Mails, die mit der Funktion \"Einem Freund oder einer Freundin weitererzählen\" verschickt werden, enthalten automatisch einen Link zur Kampagnenseite des Erstellers bzw. der Erstellerin der E-Mail."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -642,12 +748,12 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/PCP/Page/PCP.tpl
-msgid "Page Title"
-msgstr "Seitentitel"
-
-#: templates/CRM/PCP/Page/PCP.tpl
 msgid "Contribution Page / Event"
 msgstr "Spendenseite / Event"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "View Personal Campaign Page"
+msgstr ""
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "View page"
@@ -746,17 +852,17 @@ msgstr "Seite anzeigen"
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "Linked to Contribution Page"
-msgstr ""
+msgstr "Verlinkt auf Spendenseite"
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid "You have received a donation at your personal page"
-msgstr ""
+msgstr "Sie haben eine Spende auf Ihrer persönlichen Seite erhalten."
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid "Your fundraising total has been updated."
-msgstr ""
+msgstr "Ihr Fundraisingbetrag wurde aktualisiert."
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
@@ -929,43 +1035,3 @@ msgstr "Klicke diesen Link an oder kopiere ihn in den Browser und befolge die Au
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser"
 msgstr "Klicke diesen Link an oder kopiere ihn in den Browser "
-
-#: CRM/PCP/DAO/PCP.php
-msgid "PCP Block"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Use Thermometer?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Show Honor Roll?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Notify Owner?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "PCP Block ID"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity ID"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Approval Required?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell a Friend Enabled?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell A Friend Limit"
-msgstr ""

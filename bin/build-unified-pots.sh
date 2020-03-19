@@ -66,12 +66,14 @@ for rel in $releases; do
 
   echo "Copying $root ($rel) to $temp/$rel ..."
   cd $root
+  git fetch
   git checkout $rel
   git archive $rel | tar -xC $temp/$rel
 
-  echo "Copying $root/drupal (7x-$rel) to $temp/$rel/drupal ..."
+  echo "Copying $root/drupal (7.x-$rel) to $temp/$rel/drupal ..."
   mkdir -p $temp/$rel/drupal
   cd $root/drupal
+  git fetch
   git checkout 7.x-$rel
   git archive 7.x-$rel | tar -xC $temp/$rel/drupal
 
@@ -79,6 +81,7 @@ for rel in $releases; do
     echo "Copying $root/joomla ($rel) to $temp/$rel/joomla ..."
     mkdir -p $temp/$rel/joomla
     cd $root/joomla
+    git fetch
     git checkout $rel
     git archive $rel | tar -xC $temp/$rel/joomla
   else
@@ -90,6 +93,7 @@ for rel in $releases; do
     echo "Copying $root/wordpress ($rel) to $temp/$rel/wordpress ..."
     mkdir -p $temp/$rel/wordpress
     cd $root/wordpress
+    git fetch
     git checkout $rel
     git archive $rel | tar -xC $temp/$rel/wordpress
   else
@@ -100,6 +104,7 @@ for rel in $releases; do
   echo "Copying $root/packages ($rel) to $temp/$rel/packages ..."
   mkdir -p $temp/$rel/packages
   cd $root/packages
+  git fetch
   git checkout $rel
   git archive $rel | tar -xC $temp/$rel/packages
 
@@ -158,7 +163,7 @@ for pot in $pots; do
   rm $common
 done
 
-rm -r $temp
+rm -rf $temp
 
 cat <<EOT
 
@@ -169,12 +174,13 @@ You are strongly encouraged to use the "patience" algorightm otherwise
 the diffs will seem bigger than they actually are:
 
     $ git status
-    $ git diff --patience
+    $ git diff --patience | ./bin/diff-check.php
 
 If it all looks good, commit the changes:
 
     $ git add po/pot/*
-    $ git tag 4.3.1
+    $ git commit -m "New strings for version 5.xx"
+    $ git tag 5.21
     $ git push --tags
 
 After that, you can push the source pot files to Transifex:
@@ -187,8 +193,5 @@ that was created), it needs to be added to Transifex. For example:
     $ tx set --auto-local -r civicrm.pcp 'po/<lang>.po' --source-lang en --source-file po/pot/pcp.pot --execute
     $ tx push -s -r civicrm.pcp
     $ tx pull -a -r civicrm.pcp
-
-NB: use the "patience" diff algorithm from git to generate cleaner diffs:
-    $ git config --global diff.algorithm patience
 
 EOT

@@ -3,333 +3,471 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Bojana Bozovic <bojana.terzic@gmail.com>, 2017
+# Đorđe Kolaković <djordje@catalystbalkans.org>, 2016-2017,2019
+# Marinela Panić <marinela@catalystbalkans.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
-"Language-Team: Serbian (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS/)\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-20 11:43+0000\n"
+"Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>\n"
+"Language-Team: Serbian (Latin) (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr_RS\n"
+"Language: sr_RS@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "You do not have permission to Delete Report."
+msgstr "Nemate dozvolu za brisanje izveštaja."
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Selected report has been deleted."
+msgstr "Odabrani izveštaj je obrisan"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Save a copy..."
+msgstr "Sačuvaj kopiju..."
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "(Copy) "
+msgstr "(Kopija)"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Print to PDF"
+msgstr "Štampa u PDF"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Export as CSV"
+msgstr "Eksport kao CSV"
+
+#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
+msgid "Delete report"
+msgstr "Obriši izveštaj"
+
+#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
+msgid ""
+"Are you sure you want delete this report? This action cannot be undone."
+msgstr "Da li ste sigurni da želite da obrišete ovaj izveštaj? Ova akcija je nepovratna."
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance ID"
-msgstr ""
+msgstr "ID instance izveštaja"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Domain ID"
+msgstr "ID domena instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Which Domain is this instance for"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Title"
+msgstr "Naslov instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Report Instance Title."
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report template ID"
+msgstr "ID šablona izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "FK to civicrm_option_value for the report template"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report instance Name"
+msgstr "Ime instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "when combined with report_id/template uniquely identifies the instance"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Arguments"
+msgstr "Argumenti instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "arguments that are passed in the url when invoking the instance"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance description"
+msgstr "Opis instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Report Instance description."
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Permissions"
+msgstr "Dozvole instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "permission required to be able to run this instance"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Assigned to Roles"
+msgstr "Instanca izveštaja dodeljena ulogama"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "role required to be able to run this instance"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Submitted form values for this report"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance is Active"
-msgstr ""
+msgstr "Instanca izveštaja je aktivna"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Created By"
-msgstr ""
+msgstr "Autor instance izveštaja"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Owned By"
-msgstr ""
+msgstr "Vlasnik instance izveštaja"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance email Subject"
-msgstr ""
+msgstr "Predmet emaila sa izveštajem"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Subject of email"
+msgstr "Predmet emaila"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Email Report Instance To"
+msgstr "Primalac email poruke sa instancom izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "comma-separated list of email addresses to send the report to"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "cc Email Report Instance To"
-msgstr ""
+msgstr "cc primalac email poruke sa instancom izveštaja"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Header"
-msgstr ""
+msgstr "Zaglavlje instance izveštaja"
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Footer"
+msgstr "Podnožje instance izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "FK to navigation ID"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Drilldown Report ID"
+msgstr "ID dubinske analize izveštaja"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "FK to instance ID drilldown to"
 msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Instance is Reserved"
-msgstr ""
+msgstr "Intanca je rezervisana"
 
 #: CRM/Report/Form/Activity.php
-msgid "Source Contact Name"
-msgstr ""
+msgid "Source Name"
+msgstr "Ime izvora"
 
 #: CRM/Report/Form/Activity.php
-msgid "Assignee Contact Name"
-msgstr ""
+msgid "Assignee Name"
+msgstr "Ime asignata"
 
 #: CRM/Report/Form/Activity.php
-msgid "Target Contact Name"
-msgstr ""
+msgid "Target Name"
+msgstr "Ime ciljanog kontakta"
 
 #: CRM/Report/Form/Activity.php
 msgid "Limit To Current User"
-msgstr ""
+msgstr "Ograniči na trenutnog korisnika"
 
 #: CRM/Report/Form/Activity.php
-msgid "Source Contact Email"
-msgstr ""
+msgid "Source Email"
+msgstr "Email izvora"
 
 #: CRM/Report/Form/Activity.php
-msgid "Assignee Contact Email"
-msgstr ""
+msgid "Assignee Email"
+msgstr "Email asignata"
 
 #: CRM/Report/Form/Activity.php
-msgid "Target Contact Email"
-msgstr ""
+msgid "Target Email"
+msgstr "Email ciljanog kontakta"
+
+#: CRM/Report/Form/Activity.php
+msgid "Source Phone"
+msgstr "Telefon izvora"
+
+#: CRM/Report/Form/Activity.php
+msgid "Assignee Phone"
+msgstr "Telefon asignata"
+
+#: CRM/Report/Form/Activity.php
+msgid "Target Phone"
+msgstr "Telefon ciljanog kontakta"
 
 #: CRM/Report/Form/Activity.php
 msgid "Include Case Activities"
-msgstr ""
+msgstr "Uključi aktivnosti iz predmeta"
 
 #: CRM/Report/Form/Activity.php
 msgid "Current filter criteria didn't have any target contact to add to group"
-msgstr ""
+msgstr "Trenutni kriterijumi za filtriranje nisu dali nijedan ciljani kontakt koji bi bio dodat u grupu"
 
 #: CRM/Report/Form/Activity.php CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form.php
 msgid "Listed contact(s) have been added to the selected group."
-msgstr ""
+msgstr "Kontakt(i) sa liste su dodati u odabranu grupu."
 
 #: CRM/Report/Form/Activity.php CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form.php
 msgid "Contacts Added"
-msgstr ""
+msgstr "Kontakti dodati"
 
 #: CRM/Report/Form/Activity.php CRM/Report/Form.php
 msgid "The listed records(s) cannot be added to the group."
-msgstr ""
+msgstr "Kontakt(i) sa liste ne mogu biti dodati u grupu."
 
 #: CRM/Report/Form/Activity.php
 msgid ""
 "Please enable 'Include Case Activities' to filter with Case Activity types."
-msgstr ""
+msgstr "Aktivirajte \"Uključi aktivnosti predmeta\" da biste postavili filter za tip aktivnosti predmeta."
 
 #: CRM/Report/Form/Activity.php CRM/Report/Form/ActivitySummary.php
-#: CRM/Report/Form/Case/Detail.php CRM/Report/Form/Contact/Detail.php
+#: CRM/Report/Form/Case/Detail.php
 msgid "View Contact Summary for this Contact"
-msgstr ""
+msgstr "Pogledajte kratak opis za ovaj kontakt."
 
 #: CRM/Report/Form/Activity.php
 msgid "View Activity Record"
-msgstr ""
+msgstr "Vidi zapis aktivnosti"
 
 #: CRM/Report/Form/ActivitySummary.php
-msgid "Total Duration"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Activity Count"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Please select GroupBy 'Contact' to display Contact Fields"
-msgstr ""
+msgid "Total Activities"
+msgstr "Ukupno aktivnosti"
 
 #: CRM/Report/Form/ActivitySummary.php
 msgid "Please do not select GroupBy 'Activity Date' with GroupBy 'Contact'"
-msgstr ""
+msgstr "Ne birajte grupisanje po 'Datumu aktivnosti' sa grupisanjem 'Kontakt'"
 
 #: CRM/Report/Form/ActivitySummary.php
 msgid "Please do not select any Contact Fields with GroupBy 'Activity Date'"
-msgstr ""
+msgstr "Ne birajte polja kontakata sa grupisanjem po 'Datumu aktivnsoti'"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid ""
+"You cannot use \"Add Contacts to Group\" action unless contacts fields are "
+"selected."
+msgstr "Ne možete koristiti \"Dodaj kontakte u grupu\" akciju ukoliko polja sa kontaktima nisu izabrana."
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Types"
+msgstr "Ukupno tipova"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Number of Activities"
+msgstr "Ukupan broj aktivnosti"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Duration (in Minutes)"
+msgstr "Ukupno trajanje (minuta)"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "List all activity(s) for this row."
+msgstr "Lista svih aktivnosti u ovom redu."
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Interviewed"
-msgstr ""
+msgstr "Intervjuisao/la"
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Interviewer Name"
-msgstr ""
+msgstr "Ime anketara"
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "- any interviewer -"
-msgstr ""
+msgstr "- bilo koji anketar -"
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Respondent Name"
-msgstr ""
-
-#: CRM/Report/Form/Campaign/SurveyDetails.php
-msgid "Odd / Even Street Number"
-msgstr ""
+msgstr "Ime ispitanika"
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Respondent Status"
-msgstr ""
+msgstr "Status ispitanika"
 
 #: CRM/Report/Form/Case/Demographics.php
 msgid "Birthdate"
-msgstr ""
+msgstr "Datum rođenja"
 
 #: CRM/Report/Form/Case/Demographics.php
 msgid "Case Start"
-msgstr ""
+msgstr "Početak predmeta"
 
 #: CRM/Report/Form/Case/Demographics.php
 msgid "Case End"
-msgstr ""
+msgstr "Kraj predmeta"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Case/TimeSpent.php
 msgid "Cases?"
-msgstr ""
+msgstr "Predmeti?"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Case/TimeSpent.php
 msgid "Exclude non-case"
-msgstr ""
+msgstr "Isključi ne-predmete"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Case/TimeSpent.php
 msgid "Exclude cases"
-msgstr ""
+msgstr "Isključi predmete"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Case/TimeSpent.php
 msgid "Include Both"
-msgstr ""
+msgstr "Uključi oba"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Contact/Log.php
-#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form/Mailing/Bounce.php
-#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Mailing/Detail.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 msgid "View Contact details for this contact."
-msgstr ""
+msgstr "Pregledajte detalje za ovaj kontakt."
 
 #: CRM/Report/Form/Case/Detail.php CRM/Report/Form/Case/Summary.php
 msgid "Deleted?"
-msgstr ""
+msgstr "Obrisan?"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Case Role(s)"
-msgstr ""
+msgstr "Predmet - Uloga(uloge)"
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Active Role?"
+msgstr "Aktivna uloga?"
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Subject of the last activity in the case"
+msgstr "Subjekat poslednje aktivnosti u predmetu"
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Activity type of the last activity"
+msgstr "Tip poslednje aktivnosti"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Last Action Date"
-msgstr ""
+msgstr "Datum poslednje akcije"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Subject of the last completed activity in the case"
-msgstr ""
+msgstr "Subjekat poslednje aktivnosti u predmetu"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Activity type of the last completed activity"
-msgstr ""
+msgstr "Tip aktivnosti odabran za poslednju kompletiranu aktivnost"
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Last Completed Action Date"
+msgstr "Datum završetka poslednje akcije"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "My Cases"
-msgstr ""
+msgstr "Moji predmeti"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "List of all dates of activities of Type"
-msgstr ""
+msgstr "Lista svih datuma aktivnosti tipa"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Total Number of Cases "
-msgstr ""
+msgstr "Ukupan broj predmeta"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "Total Number of Countries "
-msgstr ""
+msgstr "Ukupan broj zemalja"
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "View Details of Case."
-msgstr ""
+msgstr "Vidi detalje predmeta"
 
 #: CRM/Report/Form/Case/Summary.php CRM/Report/Form/Extended.php
 msgid "Duration (Days)"
-msgstr ""
+msgstr "Trajanje (dana)"
 
 #: CRM/Report/Form/Case/Summary.php
 msgid "Staff Member"
-msgstr ""
+msgstr "Zaposleni/a"
 
 #: CRM/Report/Form/Case/Summary.php
 msgid "Staff Relationship"
-msgstr ""
+msgstr "Odnos zaposlenog"
+
+#: CRM/Report/Form/Case/Summary.php
+msgid "Active Relationship?"
+msgstr "Aktivna veza?"
+
+#: CRM/Report/Form/Case/Summary.php
+msgid "- Select -"
+msgstr "- Izaberi -"
 
 #: CRM/Report/Form/Case/Summary.php
 msgid ""
 "Either filter on at least one relationship type, or de-select Staff Member "
 "and Relationship from the list of fields."
-msgstr ""
+msgstr "Ili filtrirajte bar jedan tip odnosa-veze, ili deselektujte Zaposleni/a i Osnos-veza iz liste sa poljima."
 
 #: CRM/Report/Form/Case/Summary.php
 msgid ""
 "To filter on Staff Member or Relationship, please also select Staff Member "
 "and Relationship from the list of fields."
-msgstr ""
+msgstr "Da biste isfiltrirali Zaposlenog/u, iz liste sa poljima izaberite Zaposleni/a i Odnos-veza."
 
 #: CRM/Report/Form/Case/TimeSpent.php
 msgid "Totals Only"
-msgstr ""
+msgstr "Samo ukupne vrednosti"
 
 #: CRM/Report/Form/Case/TimeSpent.php
 msgid "Month/Year"
-msgstr ""
+msgstr "Mesec/godina"
 
 #: CRM/Report/Form/Case/TimeSpent.php
 msgid "# Activities"
-msgstr ""
+msgstr "# Aktivnosti"
 
 #: CRM/Report/Form/Case/TimeSpent.php
 msgid "To view totals please select all of activity id, date and duration."
-msgstr ""
+msgstr "Da vidite sume, izaberite sve ID aktivnosti, datuma i trajanja."
 
 #: CRM/Report/Form/Contact/CurrentEmployer.php
 msgid "Employer Name"
-msgstr ""
+msgstr "Ime poslodavca"
 
 #: CRM/Report/Form/Contact/CurrentEmployer.php
 msgid "Employee Name"
-msgstr ""
+msgstr "Ime zaposlenog"
 
 #: CRM/Report/Form/Contact/CurrentEmployer.php
 msgid "Employee Since"
-msgstr ""
+msgstr "Zaposlen od"
+
+#: CRM/Report/Form/Contact/CurrentEmployer.php
+#: CRM/Report/Form/Contact/Relationship.php
+#: CRM/Report/Form/Contact/Summary.php
+msgid "View Contact Detail Report for this contact"
+msgstr "Pogledajte detaljni izveštaj o kontaktu"
 
 #: CRM/Report/Form/Contact/Detail.php CRM/Report/Form/Contact/Summary.php
 #: CRM/Report/Form/Contribute/Bookkeeping.php
-#: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Repeat.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
@@ -338,206 +476,249 @@ msgstr ""
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
 #: CRM/Report/Form/Member/Detail.php
 msgid "Last Name, First Name"
-msgstr ""
+msgstr "Prezime, ime"
+
+#: CRM/Report/Form/Contact/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Membership Source"
+msgstr "Izvor članstva"
 
 #: CRM/Report/Form/Contact/Detail.php
 msgid "Relationship With"
-msgstr ""
+msgstr "Veza sa"
+
+#: CRM/Report/Form/Contact/Detail.php
+msgid "View Contact Record"
+msgstr "Pogledajte zapis kontakta"
 
 #: CRM/Report/Form/Contact/Detail.php
 msgid "View Event Income details for this Event."
-msgstr ""
+msgstr "Pregledaj detalje o prihodu za ovaj događaj"
 
 #: CRM/Report/Form/Contact/Log.php
 msgid "Touched Contact"
-msgstr ""
+msgstr "Dodirnuti kontakt"
 
 #: CRM/Report/Form/Contact/Log.php
 msgid "Touched Activity"
-msgstr ""
+msgstr "Dodirnuta aktivnost"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "Extra information to control grouping"
+msgstr "Dodatne informacije koje kontrolišu grupisanje"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Log Type"
-msgstr ""
+msgstr "Tip loga"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
 msgid "Altered Contact"
-msgstr ""
+msgstr "Izmenjen kontakt"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Log Type Table"
-msgstr ""
+msgstr "Tabela sa tipovima logova"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
+msgid "Log Date (When)"
+msgstr "Datum logovanja (Kada)"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Altered By"
-msgstr ""
+msgstr "Izmenio/la"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
+msgid "Altered by"
+msgstr "Izmenio/la"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Go to contact summary"
-msgstr ""
+msgstr "Idi na kratak pregled kontakta"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "Contact Merge"
+msgstr "Spajanje kontakata"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Delete (to trash)"
-msgstr ""
+msgstr "Brisanje (u kantu)"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "View details for this update"
+msgstr "Vidite detalje o ovom ažuriranju"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact A Full Name"
-msgstr ""
+msgstr "Kontakt A ime i prezime"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type (Contact A)"
-msgstr ""
+msgstr "Tip kontakta (Kontakt A)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Subtype (Contact A)"
-msgstr ""
+msgstr "Podtip kontakta (Kontakt A)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact B Full Name"
-msgstr ""
+msgstr "Kontakt B ime i prezime"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type (Contact B)"
-msgstr ""
+msgstr "Tip kontakta (Kontakt B)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Subtype (Contact B)"
-msgstr ""
+msgstr "Podtip kontakta (Kontakt B)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Email (Contact A)"
-msgstr ""
+msgstr "Email (Kontakt A)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Email (Contact B)"
-msgstr ""
+msgstr "Email (Kontakt B)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Phone (Contact A)"
-msgstr ""
+msgstr "Telefon (Kontakt A)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Phone Ext (Contact A)"
-msgstr ""
+msgstr "Tel. lokal (Kontakt A)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Phone (Contact B)"
-msgstr ""
+msgstr "Telefon (Kontakt B)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Phone Ext (Contact B)"
-msgstr ""
+msgstr "Tel. lokal (Kontakt B)"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Relationship A-B "
-msgstr ""
+msgstr "Odnos A-B"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Relationship B-A "
-msgstr ""
+msgstr "Odnos B-A"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Relationship A-B"
+msgstr "Odnos/veza A-B"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Relationship B-A"
+msgstr "Odnos/veza B-A"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Permission A has to access B"
+msgstr "Dozvola - A ima pristup B"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Permission B has to access A"
+msgstr "Dozvola - B ima pristup A"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Rel ID"
-msgstr ""
+msgstr "ID veze"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Relationship Dates Validity"
-msgstr ""
+msgstr "Važenje datuma odnosa"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Not expired"
-msgstr ""
+msgstr "Nije isteklo"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Does contact A have permission over contact B?"
+msgstr "Da li kontakt A ima dozvole nad kontaktom B?"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Does contact B have permission over contact A?"
+msgstr "Da li kontakt B ima dozvole nad kontaktom A?"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Is equal to Active"
+msgstr "Je jednako aktivnom"
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Is equal to Inactive"
+msgstr "Je jednako neaktivnom"
+
+#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form.php
+msgid "Is one of"
+msgstr "Je jedan od"
+
+#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form.php
+msgid "Is not one of"
+msgstr "Nije jedan od"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Edit this relationship."
-msgstr ""
-
-#: CRM/Report/Form/Contact/Summary.php
-msgid "View Constituent Detail Report for this contact."
-msgstr ""
+msgstr "Uredi ovu vezu."
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Membership #"
-msgstr ""
+msgstr "Članstvo #"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Code - Debit"
-msgstr ""
+msgstr "Kod finansijskog računa - Debit"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Account Owner - Debit"
+msgstr "Finansijski račun u vlasništvu - Debit"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Code - Credit"
-msgstr ""
+msgstr "Kod finansijskog računa - Kredit"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Account Owner - Credit"
+msgstr "Finansijski račun u vlasništvu - Kredit"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Name - Debit"
-msgstr ""
+msgstr "Ime finansijskog računa - Debit"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Name - Credit"
-msgstr ""
+msgstr "Ime finansijskog računa - Kredit"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Contribution #"
-msgstr ""
+msgstr "Donacija #"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Cheque #"
-msgstr ""
+msgstr "Ček #"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Trans #"
-msgstr ""
+msgstr "Trans #"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
-#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/PCP.php
-#: CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Event/ParticipantListCount.php
-#: CRM/Report/Form/Event/ParticipantListing.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-#: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Summary.php
-msgid "View Contact Summary for this Contact."
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Lybunt.php
-#: CRM/Report/Form/Contribute/Sybunt.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Donor Name"
-msgstr ""
-
 #: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Donor Email"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Donor Phone"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Contribution OR Soft Credit?"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Contribution Ordinality"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Total Amount (Contributions)"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/History.php
+#: CRM/Report/Form/Contribute/HouseholdSummary.php
+#: CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/OrganizationSummary.php
+#: CRM/Report/Form/Contribute/PCP.php CRM/Report/Form/Contribute/Recur.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
-#: CRM/Report/Form/Contribute/Summary.php CRM/Report/Form/Member/Summary.php
-msgid "Total Contributions"
-msgstr ""
+#: CRM/Report/Form/Contribute/Summary.php
+#: CRM/Report/Form/Contribute/Sybunt.php
+#: CRM/Report/Form/Contribute/TopDonor.php
+msgid "Credit Card Type"
+msgstr "Tip kreditne kartice"
 
-#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Transaction Status"
+msgstr "Status finansijske transakcije"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Repeat.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
 #: CRM/Report/Form/Contribute/Summary.php
 #: CRM/Report/Form/Contribute/TopDonor.php
@@ -547,1348 +728,1731 @@ msgstr ""
 #: CRM/Report/Form/Member/Summary.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
 msgid "Average"
+msgstr "Prosek"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/PCP.php
+#: CRM/Report/Form/Contribute/Recur.php
+#: CRM/Report/Form/Event/ParticipantListCount.php
+#: CRM/Report/Form/Grant/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+#: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Summary.php
+msgid "View Contact Summary for this Contact."
+msgstr "Pogledajte kratak opis za ovaj kontakt."
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction"
+msgstr "Transakcija"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Amount"
+msgstr "Iznos transakcije"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Current month's revenue?"
+msgstr "Trenutni mesečni prihod?"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Account"
 msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Account ID"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Accounting Code"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Financial Account"
+msgstr "Finansijski nalog za odloženo plaćanje"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Account"
+msgstr "Račun za prihod"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Account ID"
+msgstr "ID računa za prihod"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Accounting code"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Transaction Amount"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Transaction Date"
+msgstr "Odložen datum transakcije"
+
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Donor Email"
+msgstr "Email donatora"
+
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Donor Phone"
+msgstr "Telefon donatora"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Contribution OR Soft Credit?"
+msgstr "Donacija ILI zasluga?"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit amount"
+msgstr "Iznos zasluge"
+
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Contribution Ordinality"
+msgstr "Ordinalnost donacije"
+
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/Sybunt.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Donor Name"
+msgstr "Ime donatora"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid ""
+"You cannot group by soft credit when displaying contributions only.  Please "
+"uncheck \"Soft Credit\" in the Grouping tab."
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Total Amount (Contributions)"
+msgstr "Ukupan iznos (donacija)"
+
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php CRM/Report/Form/Member/Summary.php
+msgid "Total Contributions"
+msgstr "Ukupno donacija"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Net"
+msgstr "Neto"
 
 #: CRM/Report/Form/Contribute/Detail.php
 msgid "Total Amount (Soft Credits)"
-msgstr ""
+msgstr "Ukupan iznos (zasluge)"
 
 #: CRM/Report/Form/Contribute/Detail.php
 msgid "Average (Soft Credits)"
+msgstr "Prosek (Zasluge)"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid ""
+"Is it not possible to filter on soft contribution type when not including "
+"soft credits."
 msgstr ""
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "View Contribution Details"
+msgstr "Pregledajte detalje donacije"
 
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "View Details of this Contribution."
-msgstr ""
+msgstr "Pregledajte detalje za ovu donaciju."
 
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
 #: CRM/Report/Form/Contribute/TopDonor.php CRM/Report/Form/Member/Summary.php
 msgid "Amount Statistics"
-msgstr ""
+msgstr "Statistike iznosa"
 
 #: CRM/Report/Form/Contribute/History.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Aggregate Amount"
-msgstr ""
+msgstr "Sakupljeni iznos"
+
+#: CRM/Report/Form/Contribute/History.php
+#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
+msgid "This Year"
+msgstr "Ove godine"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Other Years"
-msgstr ""
+msgstr "Ostale godine"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Up To %1 Donation"
-msgstr ""
+msgstr "Do %1 donacije"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "%1 Donation"
-msgstr ""
+msgstr "%1 donacija"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Primary Contact(s) Listed"
-msgstr ""
+msgstr "Primarni kontakt(i) izlistani"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Total Primary Contact(s)"
-msgstr ""
+msgstr "Ukupno primarnog kontakta(kontakata)"
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Value for filters 'This Year' and 'Other Years' can not be same."
-msgstr ""
+msgstr "Vrednost za filtere 'Ove godine' i 'Ostalih godina' ne može biti ista."
 
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
 msgid "Is Calendar Year"
-msgstr ""
+msgstr "Je kalendarska godina"
 
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
 msgid "Fiscal Year Starting"
-msgstr ""
+msgstr "Fiskalna godina - početak"
 
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
 msgid "View Contribution Details for this Contact."
-msgstr ""
+msgstr "Vidi detalje donacije za ovaj kontakt"
 
 #: CRM/Report/Form/Contribute/HouseholdSummary.php
 #: CRM/Report/Form/Contribute/OrganizationSummary.php
 msgid "Amount Between"
-msgstr ""
+msgstr "Iznos između"
 
 #: CRM/Report/Form/Contribute/HouseholdSummary.php
 msgid "View contact summary for this househould"
-msgstr ""
+msgstr "Pogledajte kratak opis kontakta ovog domaćinstva."
 
 #: CRM/Report/Form/Contribute/HouseholdSummary.php
 #: CRM/Report/Form/Contribute/OrganizationSummary.php
 msgid "View contribution details for this individual"
-msgstr ""
+msgstr "Vidi detalje donacije za ovog pojedinca"
 
 #: CRM/Report/Form/Contribute/HouseholdSummary.php
 #: CRM/Report/Form/Contribute/OrganizationSummary.php
 msgid "View this contribution."
-msgstr ""
+msgstr "Pregledajte ovu donaciju."
 
-#: CRM/Report/Form/Contribute/LoggingSummary.php
-msgid "View details for this update"
-msgstr ""
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Email on hold"
+msgstr "Email zadržan"
 
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
 msgid "contactId"
-msgstr ""
+msgstr "contactId"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Last Year Total"
+msgstr "Ukupno prošle godnie"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Lifetime Total"
+msgstr "Ukupno"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Lifetime total"
+msgstr "ukupno"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total amount last year"
+msgstr "Ukupan iznos prošle godine"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total for "
+msgstr "Ukupno za"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total for Fiscal Year "
+msgstr "Ukupno za fiskalnu godinu"
+
+#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
+msgid "Total LifeTime"
+msgstr "Ukupni životni vek"
 
 #: CRM/Report/Form/Contribute/Lybunt.php
 msgid "Lybunt Report"
-msgstr ""
+msgstr "Lybunt izveštaj"
 
 #: CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/Summary.php
+#: CRM/Report/Form/Contribute/Sybunt.php
 msgid "Amount (%1)"
-msgstr ""
+msgstr "Iznos (%1)"
 
 #: CRM/Report/Form/Contribute/OrganizationSummary.php
 msgid "View contact summary for this organization."
-msgstr ""
+msgstr "Pogledajte kratak opis kontakta ove organizacije."
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Supporter Contact Type"
-msgstr ""
+msgstr "Tip kontakta pristalice"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Supporter Contact Subtype"
-msgstr ""
+msgstr "Podtip kontakta pristalice"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Supporter Name"
-msgstr ""
+msgstr "Ime pristalice"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Personal Campaign Title"
-msgstr ""
+msgstr "Naslov lične kampanje"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Committed Amount"
-msgstr ""
+msgstr "Opredeljeni iznos"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Amount Received"
-msgstr ""
+msgstr "Primljena suma"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Number of Donors"
-msgstr ""
+msgstr "Broj donatora"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Most Recent Contribution"
-msgstr ""
+msgstr "Poslednja donacija"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Goal Total"
-msgstr ""
+msgstr "Cilj - ukupno"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Total Committed"
-msgstr ""
+msgstr "Ukupno opredeljeno"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Total Received"
-msgstr ""
+msgstr "Ukupno primljeno"
 
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Total Donors"
-msgstr ""
+msgstr "Ukupno donatora"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Last name, First name"
-msgstr ""
+msgstr "Prezime, ime"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Amount Contributed to Date"
-msgstr ""
+msgstr "Ukupan iznos do sada"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Total Amount Contributed"
-msgstr ""
+msgstr "Ukupan iznos donacija"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency interval"
-msgstr ""
+msgstr "Interval učestalosti"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency unit"
-msgstr ""
+msgstr "Jedinica učestalosti"
+
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Last Contribution Processed"
+msgstr "Poslednja obrađena donacija"
 
 #: CRM/Report/Form/Contribute/Recur.php
 msgid ""
 "Calculated end date (either end date or date all installments will be made)"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Addressee Name"
-msgstr ""
+msgstr "Izračunati datum kraja (datum kraja ili datum kada će sve rate biti isplaćene)"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Percentage Change"
-msgstr ""
+msgstr "Procentualna promena"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Range One Stat"
-msgstr ""
+msgstr "Raspon jedan statistike"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Range Two Stat"
-msgstr ""
+msgstr "Raspon dva statistike"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Initial Date Range"
-msgstr ""
+msgstr "Početni raspon datuma"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Second Date Range"
-msgstr ""
+msgstr "Drugi raspon datuma"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Range One Amount"
-msgstr ""
+msgstr "Raspon jedan iznos"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Range Two Amount"
-msgstr ""
+msgstr "Raspon dva iznos"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Please select at least one Group by field."
-msgstr ""
+msgstr "Izaberite barem jednu grupu po polju."
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid ""
 "You can not use other Group by with Financial type or Contribution source."
-msgstr ""
+msgstr "Ne možete da koristite drugo 'Grupisanje po' sa finansijskim tipom ili izvorom donacije."
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Do not select field %1 with Group by %2."
-msgstr ""
+msgstr "Nemojte birati polje %1 sa grupom po %2"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Filter with Group only allow with group by Contact"
-msgstr ""
+msgstr "Filtriraj po grupi je dozvoljeno samo za Grupisanje po kontaktu"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Select valid date range"
-msgstr ""
+msgstr "Izaberite validan raspon datuma."
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% New Donors"
+msgstr "% Novih donatora"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Lapsed Donors"
+msgstr "% Neaktivnih donatora"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Upgraded Donors"
+msgstr "% "
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Downgraded Donors"
+msgstr "% donatori vraćeni na niži nivo"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Maintained Donors"
+msgstr "% Održanih donatora"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Initial Date Range:"
+msgstr "Početni raspon datuma:"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Total Donations"
+msgstr "Ukupno donacija"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Second Date Range:"
+msgstr "Drugi raspon datuma:"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Skipped Donation"
-msgstr ""
+msgstr "Preskočena donacija"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "New Donor"
-msgstr ""
+msgstr "Novi donator"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Change"
+msgstr "% promena"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "View contributions for this Country."
-msgstr ""
+msgstr "Vidi donacije za ovu zemlju."
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "View repeatDetails for this state."
-msgstr ""
+msgstr "Prikažite repeatDetails za ovo stanje."
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "View Contribution details for this contact"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Name"
-msgstr ""
+msgstr "Vidi detalje donacije za ovaj kontakt"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Soft Credit Id"
-msgstr ""
+msgstr "Zasluga - ID"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Const Id"
-msgstr ""
+msgstr "ID aktiviste"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 #: CRM/Report/Form/Contribute/Sybunt.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Age at Event"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Email"
-msgstr ""
+msgstr "Starost na događaju"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor's Email"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Phone"
-msgstr ""
+msgstr "Email donatora"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor's Phone"
-msgstr ""
+msgstr "Telefon donatora"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "List all direct contribution(s) from this contact."
-msgstr ""
+msgstr "Izlistaj direktne donacije(direktnu donaciju) ovog kontakta."
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "view contact summary"
-msgstr ""
+msgstr "vidi kratak pregled kontakta"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Contribution Amount Stats"
-msgstr ""
+msgstr "Statistike iznosa donacije"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Contribution Avg"
-msgstr ""
+msgstr "Prosečan iznos donacije"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Soft Credit Amount Stats"
-msgstr ""
+msgstr "Zasluga - statistike iznosa"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Soft Credit Aggregate"
-msgstr ""
+msgstr "Prikupljene zasluge"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Soft Credit Avg"
-msgstr ""
+msgstr "Zasluga - prosek"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Soft Credits Count"
-msgstr ""
+msgstr "Zasluga - broj"
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Week Beginning"
+msgstr "Početak nedelje"
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Year Beginning"
+msgstr "Početak godine"
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Fiscal Year Beginning"
+msgstr "Početak fiskalne godine"
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Month Beginning"
+msgstr "Početak meseca"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Please select the Amount Statistics"
-msgstr ""
+msgstr "Izaberite statistike o iznosu"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Average Soft Credit"
-msgstr ""
+msgstr "Prosečna zasluga"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Contributions and Soft Credits"
-msgstr ""
+msgstr "Donacije i zasluge"
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "List all contribution(s) for this date unit."
-msgstr ""
+msgstr "Izlistaj svaku donaciju (sve donacije) za ovu jedinicu datuma."
 
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Lists detailed contribution(s) for this record."
-msgstr ""
+msgstr "Izlistava detaljnu donaciju(e) za ovaj zapis."
+
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "Up To %1"
+msgstr "Do %1"
+
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "LifeTime"
+msgstr "Životni vek"
+
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "Sybunt Report"
+msgstr "Sybunt izveštaj"
 
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Donations"
-msgstr ""
+msgstr "Donacije"
 
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Show no. of Top Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/TopDonor.php
-msgid "Rank"
-msgstr ""
+msgstr "Prikaži broj Top donatora"
 
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Please select 'Is equal to' OR 'Is Less than or equal to' operator"
-msgstr ""
+msgstr "Izaberite operater 'Je jednak' ILI 'Je manji ili jednak'"
 
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Please enter positive number"
-msgstr ""
+msgstr "Molimo unesite pozitivan broj"
+
+#: CRM/Report/Form/Event/Income.php
+msgid "Event Income"
+msgstr "Prihod od događaja"
+
+#: CRM/Report/Form/Event/Income.php
+msgid "Registered Participant"
+msgstr "Registrovani učesnik"
 
 #: CRM/Report/Form/Event/Income.php
 msgid "Records %%StatusMessage%%"
-msgstr ""
+msgstr "Beleži %%StatusMessage%%"
 
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/Summary.php CRM/Report/Form/Extended.php
 msgid "Capacity"
-msgstr ""
+msgstr "Kapacitet"
 
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 msgid "Income Statistics"
-msgstr ""
+msgstr "Statistike o prihodu"
 
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 msgid "Income"
-msgstr ""
+msgstr "Prihod"
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+#: CRM/Report/Form/Event/ParticipantListCount.php
+#: CRM/Report/Form/Event/Summary.php
+msgid "Total Income"
+msgstr "Ukupan prihod"
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+msgid "Participants Summary"
+msgstr "Kratak pregled učesnika"
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+msgid "Participants : %1"
+msgstr "Učesnici: %1"
 
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 msgid "View Event Participants For this Event"
-msgstr ""
+msgstr "Vidi učesnike za ovaj događaj"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Participant E-mail"
-msgstr ""
+msgstr "Email učesnika"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 msgid "Phone No"
-msgstr ""
+msgstr "Broj telefona"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 msgid "Event Type "
-msgstr ""
+msgstr "Tip događaja"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Blank column at the Begining"
-msgstr ""
+msgstr "Prazna kolona na početku"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Blank column at the End"
-msgstr ""
+msgstr "Prazna kolona na kraju"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "One"
-msgstr ""
+msgstr "Jedan"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Two"
-msgstr ""
+msgstr "Dva"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Three"
-msgstr ""
+msgstr "Tri"
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 msgid "View Participant Record for this Contact."
-msgstr ""
+msgstr "Vidi zapis učesnika za ovaj kontakt."
 
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "View Event Income Details for this Event"
+msgstr "Pregledaj detalje o prihodu za ovaj događaj"
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Registered by Participant ID"
+msgstr "Registracija po IDu učesnika"
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Registered by Participant Name"
 msgstr ""
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Fee"
+msgstr "Kotizacija"
 
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Payment Date"
-msgstr ""
+msgstr "Datum plaćanja"
 
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Transaction Fee"
-msgstr ""
+msgstr "Provizija transakcije"
 
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Contribution Currency"
+msgstr "Valuta donacije"
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "View Contact Summary for Contact that registered the participant."
 msgstr ""
 
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "View Participant Record"
-msgstr ""
+msgstr "Vidi zapis učesnika"
+
+#: CRM/Report/Form/Event/Summary.php
+msgid "Total Amount (%1)"
+msgstr "Ukupan iznos (%1)"
 
 #: CRM/Report/Form/Event/Summary.php
 msgid "View Event Income For this Event"
-msgstr ""
+msgstr "Pregledajte prihod od ovog događaja"
 
 #: CRM/Report/Form/Extended.php
 msgid "Total Quantity Selected"
-msgstr ""
+msgstr "Ukupna odabrana količina"
 
 #: CRM/Report/Form/Extended.php
 msgid "Total of Line Items"
-msgstr ""
+msgstr "Ukupno stavki reda"
 
 #: CRM/Report/Form/Extended.php
 msgid "Individual Line Item"
-msgstr ""
+msgstr "Pojedinačna stavka reda"
 
 #: CRM/Report/Form/Extended.php
 msgid "Price Field Value Label"
-msgstr ""
+msgstr "Oznaka vrednosti polja za cenu"
 
 #: CRM/Report/Form/Extended.php
 msgid "Price Fields Value Label"
-msgstr ""
+msgstr "Oznaka vrednosti polja za cenu"
 
 #: CRM/Report/Form/Extended.php
 msgid "Price Field Label"
-msgstr ""
+msgstr "Oznaka polja za cenu"
 
 #: CRM/Report/Form/Extended.php CRM/Report/Form/Member/Lapse.php
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Current Cycle Start Date"
-msgstr ""
+msgstr "Datum početka trenutnog ciklusa"
 
 #: CRM/Report/Form/Extended.php
 msgid "Current Membership Cycle End Date"
-msgstr ""
+msgstr "Datum kraja aktuelnog ciklusa članstva"
 
 #: CRM/Report/Form/Extended.php
 msgid "Individual Contribution"
-msgstr ""
+msgstr "Pojedinačna donacija"
 
 #: CRM/Report/Form/Extended.php
 msgid "Case Deleted?"
-msgstr ""
+msgstr "Predmet obrisan?"
 
 #: CRM/Report/Form/Extended.php CRM/Report/Form.php
 msgid "%1 for this country."
-msgstr ""
+msgstr "%1 za ovu zemlju."
 
 #: CRM/Report/Form/Extended.php CRM/Report/Form.php
 msgid "%1 for this county."
-msgstr ""
+msgstr "%1 za ovaj okrug."
 
 #: CRM/Report/Form/Extended.php CRM/Report/Form.php
 msgid "%1 for this state."
-msgstr ""
+msgstr "%1 za ovu državu."
 
 #: CRM/Report/Form/Grant/Detail.php
 msgid "Money Transfer Date"
-msgstr ""
-
-#: CRM/Report/Form/Grant/Detail.php
-msgid "Grant Decision Date"
-msgstr ""
+msgstr "Datum transfera novca"
 
 #: CRM/Report/Form/Grant/Detail.php
 msgid "Grant Report Received"
-msgstr ""
+msgstr "Izveštaj o grantu primljen"
 
 #: CRM/Report/Form/Grant/Detail.php
 msgid "Application Received Date"
-msgstr ""
-
-#: CRM/Report/Form/Grant/Detail.php
-msgid "View contact details for this record."
-msgstr ""
+msgstr "Datum prijema aplikacije"
 
 #: CRM/Report/Form/Grant/Statistics.php
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "Summary Statistics"
-msgstr ""
+msgstr "Kratak pregled statistika"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By Grant Type"
-msgstr ""
+msgstr "Po tipu granta"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By Gender"
-msgstr ""
+msgstr "Po polu"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By Contact Type"
-msgstr ""
+msgstr "Po tipu kontakta"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By World Region"
-msgstr ""
+msgstr "Po regionu"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By Country"
-msgstr ""
+msgstr "Po zemlji"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By Region"
-msgstr ""
+msgstr "Po regionu"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "By %1"
-msgstr ""
+msgstr "Po %1"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Requests Received"
-msgstr ""
+msgstr "Primljeno zahteva za grant"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Grants Awarded"
-msgstr ""
+msgstr "Grantova dodeljeno"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Reports Received"
-msgstr ""
+msgstr "Grant izveštaja primljeno"
 
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Number of Grants"
-msgstr ""
+msgstr "Broj grantova"
 
 #: CRM/Report/Form/Instance.php
 msgid "You do not have permission to access this report."
-msgstr ""
+msgstr "Nemate dozvolu za pristup ovom izveštaju."
 
 #: CRM/Report/Form/Instance.php
 msgid "Report Description"
-msgstr ""
+msgstr "Opis izveštaja"
 
 #: CRM/Report/Form/Instance.php
 msgid "Limit Dashboard Results"
-msgstr ""
+msgstr "Limit rezultata za kontrolnu tablu"
 
 #: CRM/Report/Form/Instance.php
 msgid "Report Header"
-msgstr ""
+msgstr "Zaglavlje izveštaja"
 
 #: CRM/Report/Form/Instance.php
 msgid "Report Footer"
-msgstr ""
+msgstr "Footer izveštaja"
 
 #: CRM/Report/Form/Instance.php
 msgid "Include Report in Navigation Menu?"
-msgstr ""
+msgstr "Uključi izveštaj na navigacionom meniju?"
+
+#: CRM/Report/Form/Instance.php
+msgid "Configure link to..."
+msgstr "Konfiguriši link ka..."
+
+#: CRM/Report/Form/Instance.php templates/CRM/Report/Page/InstanceList.tpl
+msgid "View Results"
+msgstr "Vidi rezultate"
+
+#: CRM/Report/Form/Instance.php
+msgid "Show Criteria"
+msgstr "Priikaži kriterijume"
 
 #: CRM/Report/Form/Instance.php
 msgid "Available for Dashboard?"
-msgstr ""
+msgstr "Dostupno na kontrolnoj tabli?"
+
+#: CRM/Report/Form/Instance.php
+msgid "Cache dashlet for"
+msgstr "Keširaj komponentu kontrolne table za"
+
+#: CRM/Report/Form/Instance.php
+msgid "Add to My Reports?"
+msgstr "Dodaj u Moje izveštaje?"
 
 #: CRM/Report/Form/Instance.php
 msgid "Reserved Report?"
-msgstr ""
+msgstr "Rezervisan izveštaj?"
 
 #: CRM/Report/Form/Instance.php
 msgid "Everyone (includes anonymous)"
-msgstr ""
+msgstr "Svi (uključuje i anonimne)"
 
 #: CRM/Report/Form/Instance.php
 msgid "ACL Group/Role"
-msgstr ""
+msgstr "ACL grupa/uloga"
 
 #: CRM/Report/Form/Instance.php
 msgid "Parent Menu"
-msgstr ""
+msgstr "Nadređeni meni"
 
 #: CRM/Report/Form/Instance.php
 msgid "Save Report"
-msgstr ""
+msgstr "Snimi izveštaj"
 
 #: CRM/Report/Form/Instance.php
 msgid "\"%1\" report has been updated."
-msgstr ""
+msgstr "\"%1\" izveštaj je ažuriran."
 
 #: CRM/Report/Form/Instance.php
 msgid ""
 "Your report has been successfully copied as \"%1\". You are currently "
 "viewing the new copy."
-msgstr ""
+msgstr "Vaš izveštaj je uspešno kopiran kao \"%1\". Trenutno gledate kopiju."
 
 #: CRM/Report/Form/Instance.php
 msgid ""
 "\"%1\" report has been successfully created. You are currently viewing the "
 "new report instance."
-msgstr ""
+msgstr "\"%1\" izveštaj je uspešno kreiran. Trenutno gledate novi izveštaj."
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Date"
+msgstr "Datum odbijanja"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "On hold"
+msgstr "Zadržan"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "Hold date"
+msgstr "Datum zadržavanja"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "Hold reset date"
+msgstr "Datum reseta zadržavanja"
 
 #: CRM/Report/Form/Mailing/Bounce.php
 msgid "Bounce Count"
-msgstr ""
+msgstr "Broj odbijenih"
 
 #: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Summary.php
 msgid "Bounce"
-msgstr ""
+msgstr "Odbijen"
 
 #: CRM/Report/Form/Mailing/Bounce.php
 msgid "Mail Bounce: %1"
-msgstr ""
+msgstr "Mail odbijen: %1"
+
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php
+msgid "Email address deleted."
+msgstr "Email adresa obrisana."
 
 #: CRM/Report/Form/Mailing/Clicks.php
 msgid "Click through URL"
-msgstr ""
+msgstr "URL klikova"
+
+#: CRM/Report/Form/Mailing/Clicks.php
+msgid "Click Date"
+msgstr "Datum klikova"
 
 #: CRM/Report/Form/Mailing/Clicks.php
 msgid "Click Count"
-msgstr ""
+msgstr "Broj klikova"
 
 #: CRM/Report/Form/Mailing/Clicks.php
 msgid "Clicks: %1"
-msgstr ""
+msgstr "Klikovi: %1"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Odjava"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Opted-out"
-msgstr ""
+msgstr "Isključen/a"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Replied"
-msgstr ""
+msgstr "Odgovora"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Forwarded to Email"
-msgstr ""
+msgstr "Prosleđeno na email"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Forwarded"
-msgstr ""
+msgstr "Prosleđeno"
 
 #: CRM/Report/Form/Mailing/Opened.php
 msgid "Opened Count"
-msgstr ""
+msgstr "Broj otvaranja"
 
 #: CRM/Report/Form/Mailing/Opened.php
 msgid "Mail Opened: %1"
-msgstr ""
+msgstr "Mail otvoren: %1"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Date Created"
-msgstr ""
+msgstr "Kreirano datuma"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Delivered"
-msgstr ""
+msgstr "Dostavljeno"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Accepted Rate"
-msgstr ""
+msgstr "Stopa prihvatanja"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Bounce Rate"
-msgstr ""
+msgstr "Stopa odbijenih mailova"
 
 #: CRM/Report/Form/Mailing/Summary.php
-msgid "Confirmed Open Rate"
-msgstr ""
+msgid "Unique Open Rate"
+msgstr "Stopa jednistvenih otvaranja"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Total Open Rate"
+msgstr "Stopa ukupnih otvaranja"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Click through Rate"
-msgstr ""
+msgstr "Stopa klikova"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Click to Open Rate"
-msgstr ""
+msgstr "Stopa klikova naspram otvaranja"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Opt-outs"
+msgstr "Isključenja"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Groups Included in Mailing"
+msgstr "Grupe uključene u mailing"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "For Chart view, please select at least one field from %1 OR %2."
-msgstr ""
+msgstr "Za prikaz ćaskanja, izaberite najmanje jedno polje iz %1 ILI %2."
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mail Summary"
-msgstr ""
+msgstr "Kratak pregled maila"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Statistics"
-msgstr ""
+msgstr "Statistike"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "View Mailing details for this mailing"
+msgstr "Pogledaj detalje ovog mailinga"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "No Bulk Email(Is Opt Out)"
-msgstr ""
+msgstr "Bez masovnih mailova (isključio se)"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "First Contribution Date"
-msgstr ""
+msgstr "Datum prve donacije"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "First Contribution Amount"
-msgstr ""
+msgstr "Iznos prve donacije"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Recurring Contribution Id"
-msgstr ""
+msgstr "ID Periodične donacije"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Premium Option"
-msgstr ""
+msgstr "Opcija premije"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Premium Fulfilled Date"
-msgstr ""
+msgstr "Datum ispunjavanja premije"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php
 msgid "Join Date"
-msgstr ""
-
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Membership Source"
-msgstr ""
+msgstr "Datum pristupa"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Member/Summary.php
 msgid "Membership Owner ID"
+msgstr "ID vlasnika članstva"
+
+#: CRM/Report/Form/Member/Detail.php
+msgid "Is Deleted"
+msgstr "je obrisano"
+
+#: CRM/Report/Form/Member/Detail.php
+msgid "Primary/Inherited?"
 msgstr ""
 
 #: CRM/Report/Form/Member/Detail.php
 msgid "Payment Amount (most recent)"
-msgstr ""
+msgstr "Iznos uplate (poslednji)"
 
 #: CRM/Report/Form/Member/Detail.php
 msgid "Membership Detail Report"
-msgstr ""
+msgstr "Detaljni izveštaj o članstvu"
 
 #: CRM/Report/Form/Member/Lapse.php
 msgid "Membership Lapse Date"
-msgstr ""
+msgstr "Datum isticanja članstva"
+
+#: CRM/Report/Form/Member/Lapse.php
+msgid "Lapsed Memberships"
+msgstr "Neaktivnih članstava"
 
 #: CRM/Report/Form/Member/Lapse.php
 msgid "View Membership Detail for this Contact."
-msgstr ""
+msgstr "Vidi detalje članstva za ovaj kontakt."
 
 #: CRM/Report/Form/Member/Summary.php
 msgid "Total Payments Made"
-msgstr ""
+msgstr "Ukupno uplata"
 
 #: CRM/Report/Form/Member/Summary.php
 msgid "Member Count"
-msgstr ""
+msgstr "Broj članova"
 
 #: CRM/Report/Form/Member/Summary.php
 msgid "Total Members"
-msgstr ""
+msgstr "Ukupno članova"
+
+#: CRM/Report/Form/Member/Summary.php
+msgid "Member Since / Member Type"
+msgstr "Član od / Tip članstva"
 
 #: CRM/Report/Form/Member/Summary.php
 msgid "Lists Summary of Memberships for this date unit."
-msgstr ""
+msgstr "Izlistaj pregled članstava za ovu jedinicu datuma."
 
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Current Cycle End Date"
-msgstr ""
+msgstr "Datum kraja aktuelnog ciklusa"
 
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Membership Summary Report"
-msgstr ""
+msgstr "Izveštaj - kratak pregled članstva"
 
 #: CRM/Report/Form/Membership/Summary.php CRM/Report/Form.php
 msgid "Row(s) Listed"
-msgstr ""
+msgstr "Red(ova) izlistano"
 
 #: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Pledge Made Date"
-msgstr ""
+msgstr "Obaveza datuma"
 
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Pledged Amount"
-msgstr ""
+msgstr "Iznos obaveze"
 
 #: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Total Amount Paid"
-msgstr ""
+msgstr "Ukupan plaćen iznos"
 
-#: CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Total No Pledges"
-msgstr ""
+msgstr "Ukupan broj obaveza"
+
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+msgid "Next Payment Due"
+msgstr "Rok za sledeću uplatu"
 
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Constituent Name"
-msgstr ""
-
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Next Payment Due"
-msgstr ""
+msgstr "Ime aktiviste"
 
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "View Pledge Details for this contact"
-msgstr ""
+msgstr "Vidite detalje o obavezi ovog kontakta"
 
 #: CRM/Report/Form/Pledge/Summary.php
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: CRM/Report/Form/Pledge/Summary.php
 msgid "Aggregate Amount Pledged"
-msgstr ""
+msgstr "Sakupljeni iznos obaveza"
 
 #: CRM/Report/Form/Register.php
 msgid "Url already exists in Database."
-msgstr ""
+msgstr "URL već postoji u bazi podataka."
 
 #: CRM/Report/Form/Register.php
 msgid "Class already exists in Database."
-msgstr ""
+msgstr "Klasa već postoji u bazi podataka."
 
 #: CRM/Report/Form/Register.php
 msgid "Selected %1 Report has been deleted."
-msgstr ""
+msgstr "Odabrani %1 izveštaj je obrisan."
+
+#: CRM/Report/Form.php
+msgid " (copy created by %1 on %2)"
+msgstr "(Kopiju kreirao %1, %2)"
 
 #: CRM/Report/Form.php
 msgid "Report Templates"
-msgstr ""
+msgstr "Šabloni izveštaja"
 
 #: CRM/Report/Form.php
 msgid "Select Columns"
-msgstr ""
+msgstr "Odaberi kolone"
 
 #: CRM/Report/Form.php
 msgid "Columns"
-msgstr ""
+msgstr "Kolone"
 
 #: CRM/Report/Form.php
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: CRM/Report/Form.php
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: CRM/Report/Form.php
 msgid "March"
-msgstr ""
+msgstr "Mart"
 
 #: CRM/Report/Form.php
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: CRM/Report/Form.php
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
 #: CRM/Report/Form.php
 msgid "June"
-msgstr ""
+msgstr "Jun"
 
 #: CRM/Report/Form.php
 msgid "July"
-msgstr ""
+msgstr "Jul"
 
 #: CRM/Report/Form.php
 msgid "August"
-msgstr ""
+msgstr "Avgust"
 
 #: CRM/Report/Form.php
 msgid "September"
-msgstr ""
+msgstr "Septembar"
 
 #: CRM/Report/Form.php
 msgid "October"
-msgstr ""
+msgstr "Oktobar"
 
 #: CRM/Report/Form.php
 msgid "November"
-msgstr ""
+msgstr "Novembar"
 
 #: CRM/Report/Form.php
 msgid "December"
-msgstr ""
+msgstr "Decembar"
 
 #: CRM/Report/Form.php
 msgid "Operator:"
-msgstr ""
+msgstr "Operater"
 
 #: CRM/Report/Form.php
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #: CRM/Report/Form.php
 msgid "Filters"
-msgstr ""
+msgstr "Filteri"
+
+#: CRM/Report/Form.php
+msgid "Developer"
+msgstr "Developer"
 
 #: CRM/Report/Form.php
 msgid "Display Options"
-msgstr ""
+msgstr "Opcije prikaza"
 
 #: CRM/Report/Form.php
 msgid "Chart"
-msgstr ""
+msgstr "Grafikon"
 
 #: CRM/Report/Form.php
 msgid "Group by columns"
-msgstr ""
+msgstr "Grupiši po kolonama"
 
 #: CRM/Report/Form.php
 msgid "Sorting"
-msgstr ""
+msgstr "Sortiranje"
 
 #: CRM/Report/Form.php
 msgid "Order by Section"
-msgstr ""
+msgstr "Poređaj po sekciji"
 
 #: CRM/Report/Form.php templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "Page Break"
-msgstr ""
+msgstr "Prelom stranice"
 
 #: CRM/Report/Form.php
-msgid "Update Report"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "PDF"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Print Preview"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Preview PDF"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Preview CSV"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Preview Report"
-msgstr ""
+msgid "Add Contacts to Group"
+msgstr "Dodaj kontakte u grupu"
 
 #: CRM/Report/Form.php
 msgid "Is less than or equal to"
-msgstr ""
+msgstr "je manje ili jednako od"
 
 #: CRM/Report/Form.php
 msgid "Is greater than or equal to"
-msgstr ""
+msgstr "je veće ili jednako od"
 
 #: CRM/Report/Form.php
 msgid "Is between"
-msgstr ""
+msgstr "je između"
 
 #: CRM/Report/Form.php
 msgid "Is equal to"
-msgstr ""
+msgstr "je jednako"
 
 #: CRM/Report/Form.php
 msgid "Is less than"
-msgstr ""
+msgstr "je manje od"
 
 #: CRM/Report/Form.php
 msgid "Is greater than"
-msgstr ""
+msgstr "je veće od"
 
 #: CRM/Report/Form.php
 msgid "Is not equal to"
-msgstr ""
+msgstr "nije jednako"
 
 #: CRM/Report/Form.php
 msgid "Is not between"
-msgstr ""
+msgstr "nije između"
 
 #: CRM/Report/Form.php
 msgid "Is empty (Null)"
-msgstr ""
+msgstr "je prazno (null)"
 
 #: CRM/Report/Form.php
 msgid "Is not empty (Null)"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Is one of"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Is not one of"
-msgstr ""
+msgstr "nije prazno (null)"
 
 #: CRM/Report/Form.php
 msgid "Contains"
-msgstr ""
+msgstr "Sadrži"
 
 #: CRM/Report/Form.php
 msgid "Starts with"
-msgstr ""
+msgstr "Počinje sa"
 
 #: CRM/Report/Form.php
 msgid "Ends with"
-msgstr ""
+msgstr "Završava se sa"
 
 #: CRM/Report/Form.php
 msgid "Does not contain"
-msgstr ""
+msgstr "Ne sadrži"
+
+#: CRM/Report/Form.php
+msgid "Grand Total"
+msgstr "Konačan zbir"
 
 #: CRM/Report/Form.php
 msgid "Total Row(s)"
-msgstr ""
+msgstr "Ukupno redova"
 
 #: CRM/Report/Form.php
 msgid "Grouping(s)"
-msgstr ""
+msgstr "Grupisanje(Grupisanja)"
 
 #: CRM/Report/Form.php
 msgid "Between %1 and %2"
-msgstr ""
+msgstr "Između %1 i %2"
 
 #: CRM/Report/Form.php
 msgid "Is Not"
-msgstr ""
+msgstr "Nije"
 
 #: CRM/Report/Form.php
 msgid "Is"
-msgstr ""
+msgstr "Jeste"
 
 #: CRM/Report/Form.php
 msgid "Report URL"
-msgstr ""
+msgstr "URL izveštaja"
 
 #: CRM/Report/Form.php
 msgid "The report is attached as a CSV file."
-msgstr ""
+msgstr "Izveštaj je u prilogu kao CSV fajl."
 
 #: CRM/Report/Form.php
 msgid "The report is attached as a PDF file."
-msgstr ""
+msgstr "Izveštaj je u prilogu kao PDF fajl."
 
 #: CRM/Report/Form.php
 msgid "Report mail has been sent."
-msgstr ""
+msgstr "Mail sa izveštajem je poslat."
 
 #: CRM/Report/Form.php
 msgid "Report mail could not be sent."
-msgstr ""
+msgstr "Mail sa izveštajem nije moguće poslati."
 
 #: CRM/Report/Form.php
 msgid "Mail Error"
-msgstr ""
+msgstr "Mail greška"
 
 #: CRM/Report/Form.php
 msgid "Records"
-msgstr ""
+msgstr "Zapisi"
 
 #: CRM/Report/Form.php
 msgid "Supplementary Address Field 1"
-msgstr ""
+msgstr "Dopunska adresa polje 1"
 
 #: CRM/Report/Form.php
 msgid "Supplementary Address Field 2"
+msgstr "Dopunska adresa polje 2"
+
+#: CRM/Report/Form.php
+msgid "Supplementary Address Field 3"
+msgstr "Dopunsko polje za adresu 3"
+
+#: CRM/Report/Form.php
+msgid "Odd / Even Street Number"
+msgstr "Paran / Neparan broj ulice"
+
+#: CRM/Report/Form.php
+msgid "%1 for this %2."
+msgstr "%1 za ovaj %2."
+
+#: CRM/Report/Form.php
+msgid "View Contact Summary for Employer."
 msgstr ""
 
 #: CRM/Report/Form.php
 msgid "Contact Prefix"
-msgstr ""
+msgstr "Prefiks kontakta"
 
 #: CRM/Report/Form.php
 msgid "Nick Name"
-msgstr ""
+msgstr "Nadimak"
 
 #: CRM/Report/Form.php
 msgid "Contact Suffix"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Address Greeting"
-msgstr ""
+msgstr "Sufiks kontakta"
 
 #: CRM/Report/Form.php
 msgid "Contact Job title"
-msgstr ""
+msgstr "Radno mesto kontakta"
 
 #: CRM/Report/Form.php
 msgid "Contact identifier from external system"
-msgstr ""
+msgstr "Identifikator kontakta iz ekternog sistema"
 
 #: CRM/Report/Form.php
-msgid "%1 for this %2."
-msgstr ""
+msgid "Contact Modified"
+msgstr "Kontakt modifikovan"
+
+#: CRM/Report/Form.php
+msgid "Do not SMS"
+msgstr "Ne šalji SMS"
+
+#: CRM/Report/Form.php
+msgid "Do not bulk email"
+msgstr "Ne šalji masovne emailove"
+
+#: CRM/Report/Form.php
+msgid "Refresh results"
+msgstr "Osveži rezultate"
+
+#: CRM/Report/Form.php
+msgid "View results"
+msgstr "Vidi rezultate"
+
+#: CRM/Report/Form.php
+msgid "Contact Name (in sort format)"
+msgstr "Ime kontakta (u formatu za sortiranje)"
+
+#: CRM/Report/Form.php
+msgid "Contact Sub Type"
+msgstr "Podtip kontakta"
+
+#: CRM/Report/Form.php
+msgid "Is deleted"
+msgstr "Obrisan/a"
+
+#: CRM/Report/Form.php
+msgid "Is deceased"
+msgstr "Preminuo/la"
+
+#: CRM/Report/Info.php
+msgid "CiviCRM Report Engine"
+msgstr "CiviCRM Report Engine"
 
 #: CRM/Report/Info.php
 msgid "access CiviReport"
-msgstr ""
+msgstr "pristup CiviReport-u"
 
 #: CRM/Report/Info.php
 msgid "View reports"
-msgstr ""
+msgstr "Pogledaj izveštaje"
 
 #: CRM/Report/Info.php
 msgid "access Report Criteria"
-msgstr ""
+msgstr "Pristup kriterijumu izveštaja"
 
 #: CRM/Report/Info.php
 msgid "Change report search criteria"
-msgstr ""
+msgstr "Izmeni kriterijume pretrage izveštaja"
+
+#: CRM/Report/Info.php
+msgid "Save report search criteria"
+msgstr "Sačuvaj kriterijume pretrage izveštaja"
+
+#: CRM/Report/Info.php
+msgid "administer private reports"
+msgstr "Administracija privatnih izveštaja"
+
+#: CRM/Report/Info.php
+msgid "Edit all private reports"
+msgstr "Uredi sve privatne izveštaje"
 
 #: CRM/Report/Info.php
 msgid "administer reserved reports"
-msgstr ""
+msgstr "administracija rezervisanih izveštaja"
 
 #: CRM/Report/Info.php
 msgid "Edit all reports that have been marked as reserved"
-msgstr ""
+msgstr "Uredi sve izveštaje koji su obeleženi kao rezervisani"
 
 #: CRM/Report/Info.php
 msgid "administer Reports"
-msgstr ""
+msgstr "administriraj izveštaje"
 
 #: CRM/Report/Info.php
 msgid "Manage report templates"
-msgstr ""
+msgstr "Menadžment šablona izveštaja"
 
-#: CRM/Report/Page/Instance.php
-msgid "You do not have permission to Delete Report."
-msgstr ""
+#: CRM/Report/Info.php
+msgid "view report sql"
+msgstr "vidi sql izveštaj"
 
-#: CRM/Report/Page/Instance.php
-msgid "Selected report has been deleted."
-msgstr ""
+#: CRM/Report/Info.php
+msgid "View sql used in CiviReports"
+msgstr "Vidi sql korišćen u CiviReports"
 
 #: CRM/Report/Page/Instance.php
 msgid "Could not find template for the instance."
-msgstr ""
+msgstr "Šablon za instancu nije pronađen."
 
 #: CRM/Report/Page/Instance.php CRM/Report/Page/Report.php
 msgid "Template Not Found"
-msgstr ""
+msgstr "Šablon nije pronađen"
 
 #: CRM/Report/Page/InstanceList.php
 msgid "Report(s) created from the template: %1"
-msgstr ""
+msgstr "Izveštaj(a) kreirano iz šablona: %1"
 
 #: CRM/Report/Page/InstanceList.php
 msgid "%1 Reports"
-msgstr ""
+msgstr "%1 izveštaji"
 
 #: CRM/Report/Page/InstanceList.php
 msgid "New %1 Report"
-msgstr ""
+msgstr "Novi %1 izveštaj"
 
 #: CRM/Report/Page/InstanceList.php
 msgid "New Report"
-msgstr ""
+msgstr "Novi izveštaj"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "View as pdf"
+msgstr "Vidi kao PDF"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "Print report"
+msgstr "Štampa izveštaja"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "Export to csv"
+msgstr "Eksport u CSV"
 
 #: CRM/Report/Page/Options.php
 msgid "Registered Templates"
-msgstr ""
+msgstr "Registrovanih šablona"
 
 #: CRM/Report/Page/Report.php
 msgid "%1 - Template"
-msgstr ""
+msgstr "%1 - šablon"
 
 #: CRM/Report/Page/Report.php
 msgid ""
 "Could not find the report template. Make sure the report template is "
 "registered and / or url is correct."
-msgstr ""
+msgstr "Šablon izvetaja nije pronađen. Proverite da li je šablon izveštaja registrovan i da li je url ispravan."
 
 #: templates/CRM/Report/Form/Actions.tpl
 msgid "Existing report(s) from this template"
-msgstr ""
+msgstr "Postojeći izveštaj(i) iz ovog šablona"
 
 #: templates/CRM/Report/Form/Actions.tpl
 msgid "Add all contacts to %1 group?"
-msgstr ""
+msgstr "Dodaj sve kontakte u grupu %1?"
 
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
 msgid "Cover Sheet for %1"
-msgstr ""
+msgstr "Naslovna strana za %1"
 
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
 msgid "Survey Title = %1"
-msgstr ""
+msgstr "Naslov ankete "
 
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
 msgid "Response Codes"
-msgstr ""
+msgstr "Šifre odgovora"
 
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
 msgid "Q%1 = %2"
-msgstr ""
+msgstr "Q%1 = %2 "
 
 #: templates/CRM/Report/Form/Event/Income.tpl
 msgid "%1 Breakdown"
-msgstr ""
+msgstr "%1 pregled"
 
 #: templates/CRM/Report/Form/Event/Income.tpl
 msgid "% of Total"
-msgstr ""
+msgstr "% od ukupnog"
 
 #: templates/CRM/Report/Form/Fields.tpl
 msgid "Title and Format"
-msgstr ""
+msgstr "Naslov i format"
 
 #: templates/CRM/Report/Form/Fields.tpl
 msgid "Email Delivery"
-msgstr ""
+msgstr "Email dostava"
 
 #: templates/CRM/Report/Form/Fields.tpl
 msgid "Access"
-msgstr ""
+msgstr "Pristup"
 
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "Report Filters"
-msgstr ""
+msgstr "Filteri izveštaja"
 
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "All Grants"
-msgstr ""
+msgstr "Svi grantovi"
 
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "Statistics Breakdown"
-msgstr ""
+msgstr "Statistike - pregled"
+
+#: templates/CRM/Report/Form/Grant/Statistics.tpl
+msgid "Number of Grants (%)"
+msgstr "Broj grantova (%)"
+
+#: templates/CRM/Report/Form/Grant/Statistics.tpl
+msgid "Total Amount (%)"
+msgstr "Ukupan iznos (%)"
 
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "Unassigned"
-msgstr ""
+msgstr "Nedodeljeno"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "Delete Report Template"
-msgstr ""
+msgstr "Obriši šablon izveštaja"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "Edit Report Template"
-msgstr ""
+msgstr "Uredi šablon izveštaja"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "New Report Template"
-msgstr ""
+msgstr "Novi šablon izveštaja"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid ""
 "WARNING: Deleting this option will result in the loss of all Report related "
 "records which use the option. This may mean the loss of a substantial amount"
 " of data, and the action cannot be undone. Do you want to continue?"
-msgstr ""
+msgstr "Upozorenje: Brisanjem ove opcije će doći do gubitka svih zapisa povezanih sa izveštajima koji koriste ovu opciju. Ovo može značiti gubitak znatne količine podataka, a ova operacija je nepovratna. Da li želite da nastavite?"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "Report title appear in the display screen."
-msgstr ""
+msgstr "Naslov izveštaja se prikazuje na ekranu."
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "Report description appear in the display screen."
-msgstr ""
+msgstr "Opis izveštaja se prikazuje na ekranu."
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid "Report Url must be like \"contribute/summary\""
-msgstr ""
+msgstr "Url izveštaja mora biti u obliku \"donacije/kratak pregled\""
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid ""
 "Report Class must be present before adding the report here, e.g. "
 "'CRM_Report_Form_Contribute_Summary'"
-msgstr ""
+msgstr "Klasa izveštaja mora da bude prisutna pre nego što dodate izveštaj ovde, npr. 'CRM_Report_Form_Contribute_Summary'"
 
 #: templates/CRM/Report/Form/Register.tpl
 msgid ""
 "Specify the Report if it is belongs to any component like \"CiviContribute\""
-msgstr ""
+msgstr "Precizirajte da li izveštaj pripada nekoj od komponenata, npr. \"CiviContribute\""
+
+#: templates/CRM/Report/Form/Tabs/Developer.tpl
+msgid "Class used"
+msgstr "Klasa"
+
+#: templates/CRM/Report/Form/Tabs/Developer.tpl
+msgid "SQL Modes"
+msgstr "SQL Modes"
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid "Email Delivery Settings"
-msgstr ""
+msgstr "Podešavanja dostavljanja emaila"
+
+#: templates/CRM/Report/Form/Tabs/Instance.tpl
+msgid "Link to "
+msgstr "Link ka"
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
 "All report instances are automatically included in the Report Listing page. "
 "Check this box to also add this report to the navigation menu."
-msgstr ""
+msgstr "Sve instance izveštaja automatski su uključene u stranicu Lista izveštaja. Štiklirajte ovu kućicu da biste ovaj izveštaj dodali i u navigacioni meni."
+
+#: templates/CRM/Report/Form/Tabs/Instance.tpl
+msgid ""
+"If set to Yes, this report will appear in the My Reports section of the "
+"reports listing page and will only be visible by you."
+msgstr "Ukoliko je ova opcija podešena na Da, ovaj izveštaj će se prikazivati u sekciji Moji izveštaji stranice listinga izveštaja i biće vidljiv samo vama."
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
 "If reserved, only users with 'administer reserved reports' permission can "
 "modify this report instance."
-msgstr ""
+msgstr "Ukoliko je rezervisan, samo korisnici sa dozvolom 'administracija rezervisanih izveštaja' mogu modifikovati ovaj izveštaj."
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
 "Users with appropriate permissions can add this report to their dashboard."
-msgstr ""
+msgstr "Korisnici sa odgovarajućim dozvolama mogu dodati ovaj izveštaj na svoju kontrolnu tablu."
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid ""
-"You have chosen to include this report in the Navigation Menu without "
-"selecting a Parent Menu item from the dropdown. This will add the report to "
-"the top level menu bar. Are you sure you want to continue?"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "(copy)"
-msgstr ""
+msgid "rows"
+msgstr "redova"
 
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "Section Header / Group By"
-msgstr ""
+msgstr "Zaglavlje odeljka / Grupiši po"
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid "Email Settings"
-msgstr ""
+msgstr "Email podešavanja"
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1897,7 +2461,7 @@ msgid ""
 "Subject of the email containing the report, as well as the recipient list "
 "(To and Cc fields). Separate multiple 'To' or 'CC' email addresses with "
 "commas."
-msgstr ""
+msgstr "Kopija ovog izveštaja se može automatski generisati i dostaviti emailom navedenim primaocima. Iskoristite podešavanja u ovoj sekciji da kontrolišete Subjekat emaila koji sarži izveštaj, kao i listu primaoca (ka i cc polja). Odvojite više adresa u \"ka\" i \"cc\" zarezom."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1906,7 +2470,7 @@ msgid ""
 "invoked, this job will deliver email to the recipients specified for the "
 "report. The report can be attached to the email as a PDF file (default), as "
 "a CSV file, or included in HTML format."
-msgstr ""
+msgstr "Administrator sajta će morati da podesi instancu \"izveštaja pošte\" zakazanog posla da bi se aktiviralo kreiranje i isporuka svakog izveštaja. Kada se pozove, ovaj posao će isporučiti email primaocima navedenim za izveštaj. Izveštaj može da se priloži uz email poruku kao PDF fajl (podrazumevana postavka), kao CSV fajl ili može da bude uključen u HTML format."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1914,7 +2478,7 @@ msgid ""
 "reports list when they click the 'Reports Listing' menu. The title should "
 "reflect the report's default criteria. EXAMPLE: Activity Report - Current "
 "Month"
-msgstr ""
+msgstr "Ovaj naslov i opis će se prikazivati korisnicima u listi izveštaja kada kliknu na meni 'Listing izveštaja'. Naslov treba da se odnosi na podrazumevane kriterijume izveštaja. Primer: Izveštaj aktivnosti - tekući mesec"
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1925,14 +2489,14 @@ msgid ""
 "Report'). You can include a logo by adding an &lt;img&gt; tag. You can also "
 "modify the look and feel of the printed report by including a custom CSS "
 "file (instead of print.css)."
-msgstr ""
+msgstr "Zaglavlje izveštaja sadrži HTML kôd koji će biti prikazan na početku dokumenta svaki put kada se ovaj izveštaj odštampa ili preuzme u PDF formatu. Podrazumevane vrednosti funkcionisaće za većinu situacija. Međutim, možda ćete želeti da unesete stvarni naslov izveštaja u oznaku &lt;title&gt; (zamenjujući 'CiviCRM izveštaj'). Možete da obuhvatite logotip dodavanjem oznake &lt;img&gt;. Možete i da izmenite izgled i doživljaj odštampanog izveštaja tako što ćete obuhvatiti prilagođeni CSS fajl (umesto fajla print.css)."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
 "The Report Footer HTML code will be output at the end of the document. You "
 "can add any additional footer text, replace the CiviCRM logo, or make other "
 "changes as needed."
-msgstr ""
+msgstr "HTML kôd podnožja izveštaja prikazaće se na kraju dokumenta. Možete da dodate bilo koji dodatni tekst podnožja, da zamenite CiviCRM logotip ili unesete druge izmene po potrebi."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1944,7 +2508,7 @@ msgid ""
 "filters for reports by NOT giving them <em>access Report Criteria</em> "
 "permission. Those users will be able to run the report - but only with the "
 "criteria and filters that you've established for them."
-msgstr ""
+msgstr "Pristup ovom izveštaju možete da kontrolišete tako što ćete sa liste izabrati 'Dozvola' ili jednu ili više uloga. Na primer, možete da izaberete dozvolu <em>pristup CiviContribute</em> za izveštaje o donacijama (npr. isti ljudi koji vide podatke o donaciji imali bi pristup i izveštaju). Možete i da sprečite da korisnici menjaju podrazumevane kriterijume i filtere izveštaja tako što im NEĆETE dati dozvolu pristup kriterijumima izveštaja. Ti korisnici će moći da pokrenu izveštaj<em>, ali samo sa kriterijumima i filterima koje ste ustanovili za njih."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1957,18 +2521,18 @@ msgid ""
 "dashlets (and you can choose to NOT include them in the navigation menu if "
 "you want to distinguish these from the reports that users typically utilize "
 "in full screen mode)."
-msgstr ""
+msgstr "Štiklirajte ovu kućicu da biste korisnicima omogućili da ovu instancu izveštaja uključe u svoju 'CiviCRM kontrolnu tablu na početnoj strani'. Korisnici sa odgovarajućim dozvolama videće izveštaj u polju 'Dostupne komponente kontrolne table' kada 'konfigurišu' svoju kontrolnu tablu. Ako želite da grafička verzija izveštaja bude dostupna, izaberite željeni 'Prikaz', a zatim kliknite na 'Ažuriraj izveštaj'. Možda ćete želeti da kreirate set instanci izveštaja koji će se namenski koristiti kao komponente kontrolone table (a možete i da odaberete da ih NE uključite u navigacioni meni ako želite da iz razdvojite od izveštaja koje korisnici obično koriste u režimu preko čitavog ekrana). "
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
 "If you need to make a dashlet NOT available, AND remove it from existing "
 "user dashboards - you can do that from the 'Configure' screen on your "
 "dashboard. Click the 'x' on the right side of the dashlet's icon."
-msgstr ""
+msgstr "Ukoliko treba da učinite komponente kontrolne tabele NEdostupnim, I da ih uklonite iz postojećih kontrolnih tabli - to možete učiniti na ekranu 'Konfiguracija' na vašoj kontrolnoj tabli. Kliknite na dugme 'x' sa desne strane ikonice komponenata kontrolne tabele."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid "Limit Rows per Page in Dashboard"
-msgstr ""
+msgstr "Ograniči broj redova po stranici na kontrolnoj tabli"
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1977,7 +2541,18 @@ msgid ""
 "can reduce the number of rows included in each page when the report is part "
 "of the Dashboard by entering the desired row count here. Users will still be"
 " able to navigate through the full report using a pager."
-msgstr ""
+msgstr "Podrazumevani broj redova po stranici za većinu izveštaja je 50. Međutim, ovo može biti previše za izveštaj koji će se nalaziti na 'NAslovnoj kontrolnoj tabli'. Možete smanjiti broj redova koji će se nalaziti na svakoj strani kada je izveštaj deo kontrolne table, tako što ćete ovde uneti željeni broj redova. Korisnici će i dalje moći da se kreću kroz ceo izveštaj koristeći deo za kontrolu stranica."
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Dashboard Caching"
+msgstr "Kešing kontrolne table"
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid ""
+"How often should the contents of this dashlet be automatically refreshed? "
+"Users can manually reload by clicking the refresh button on their "
+"dashboards."
+msgstr "Koliko često komponente kontrolnte table treba da se automatski učitavaju? Korisnici mogu ručno da učitaju klikom na dugme za osvežavanje na njihovoj kontrolnoj tabli."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
@@ -1987,448 +2562,82 @@ msgid ""
 " instances whose criteria affect the data available on non-report screens. "
 "For example, the display columns configured for the  Contact Logging Summary"
 " affect the columns shown under each contact's Change Log tab."
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "View All Reports"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Contribution Reports"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Reports"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Run this report"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Are you sure you want delete this report?"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "No %1 reports have been created."
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid ""
-"You can create reports by selecting from the <a href=\"%1\">list of report "
-"templates here.</a>"
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Contact your site administrator for help creating reports."
-msgstr ""
-
-#: templates/CRM/Report/Page/Options.tpl
-msgid "Register New %1"
-msgstr ""
-
-#: templates/CRM/Report/Page/Options.tpl
-msgid "There are no option values entered. You can <a href=\"%1\">add one</a>."
-msgstr ""
-
-#: templates/CRM/Report/Page/TemplateList.tpl
-msgid ""
-"Create reports for your users from any of the report templates listed below."
-" Click on a template title to get started. Click Existing Report(s) to see "
-"any reports that have already been created from that template."
-msgstr ""
-
-#: templates/CRM/Report/Page/TemplateList.tpl
-msgid "Create report from this template"
-msgstr ""
-
-#: templates/CRM/Report/Page/TemplateList.tpl
-msgid "Existing Report(s)"
-msgstr ""
-
-#: templates/CRM/Report/Page/TemplateList.tpl
-msgid "There are currently no Report Templates."
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Save a copy..."
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "(Copy) "
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Print to PDF"
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Export as CSV"
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
-msgid "Delete report"
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
-msgid ""
-"Are you sure you want delete this report? This action cannot be undone."
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Name"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Name"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Name"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Email"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Email"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Email"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Phone"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Phone"
-msgstr ""
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Phone"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Activities"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid ""
-"You cannot use \"Add Contacts to Group\" action unless contacts fields are "
-"selected."
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Types"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Number of Activities"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Duration (in Minutes)"
-msgstr ""
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "List all activity(s) for this row."
-msgstr ""
-
-#: CRM/Report/Form/Contact/LoggingSummary.php
-msgid "Extra information to control grouping"
-msgstr ""
-
-#: CRM/Report/Form/Contact/LoggingSummary.php
-msgid "Contact Merge"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/DeferredRevenue.php
-msgid "Deferred Financial Account"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Net"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "View Contribution Details"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Email on hold"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Last Year Total"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Lifetime Total"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Lifetime total"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total amount last year"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total for "
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total for Fiscal Year "
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
-msgid "Total LifeTime"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Last Contribution Processed"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% New Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Lapsed Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Upgraded Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Downgraded Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Maintained Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Initial Date Range:"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Total Donations"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Second Date Range:"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Change"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Week Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Year Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Fiscal Year Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Month Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Sybunt.php
-msgid "Up To %1"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Sybunt.php
-msgid "LifeTime"
-msgstr ""
-
-#: CRM/Report/Form/Event/IncomeCountSummary.php
-#: CRM/Report/Form/Event/ParticipantListCount.php
-#: CRM/Report/Form/Event/Summary.php
-msgid "Total Income"
-msgstr ""
-
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "Registered by Participant ID"
-msgstr ""
-
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "Participant Fee"
-msgstr ""
-
-#: CRM/Report/Form/Instance.php
-msgid "Configure link to..."
-msgstr ""
-
-#: CRM/Report/Form/Instance.php templates/CRM/Report/Page/InstanceList.tpl
-msgid "View Results"
-msgstr ""
-
-#: CRM/Report/Form/Instance.php
-msgid "Show Criteria"
-msgstr ""
-
-#: CRM/Report/Form/Instance.php
-msgid "Cache dashlet for"
-msgstr ""
-
-#: CRM/Report/Form/Instance.php
-msgid "Add to My Reports?"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Date"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "On hold"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Hold date"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Hold reset date"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "--Please Select--"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Open Rate"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Total Open Rate"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Opt-outs"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Groups Included in Mailing"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "View Mailing details for this mailing"
-msgstr ""
-
-#: CRM/Report/Form/Member/Lapse.php
-msgid "Lapsed Memberships"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid " (copy created by %1 on %2)"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Developer"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Grand Total"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Contact Modified"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Do not SMS"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Do not bulk email"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Refresh results"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "View results"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "administer private reports"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "Edit all private reports"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "view report sql"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "View sql used in CiviReports"
-msgstr ""
-
-#: CRM/Report/Page/InstanceList.php
-msgid "View as pdf"
-msgstr ""
-
-#: CRM/Report/Page/InstanceList.php
-msgid "Print report"
-msgstr ""
-
-#: CRM/Report/Page/InstanceList.php
-msgid "Export to csv"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "Link to "
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid ""
-"If set to Yes, this report will appear in the My Reports section of the "
-"reports listing page and will only be visible by you."
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "rows"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid "Dashboard Caching"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid ""
-"How often should the contents of this dashlet be automatically refreshed? "
-"Users can manually reload by clicking the refresh button on their "
-"dashboards."
-msgstr ""
+msgstr "Korisnici sa dozvolom 'administriraj rezervisane izveštaje' mogu da onače instancu izveštaja kao rezervisanu, što sprečava druge korisnike da pristupe ili izmene kriterijume izveštaja i podešavanja izveštaja. Ovo je naročito korisno za intance izveštaja čiji kriterijumi utiču na podatke dostupne na izveštaje koji nisu namenjeni izveštajima. Na primer, kolone za prikaz konfigurisane za kratak pregled logovanja kontakta utiču na kolone prikazane na kartici Promena loga svakog kontakta."
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid "Add to My Reports"
-msgstr ""
+msgstr "Dodaj u Moje izveštaje"
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
 "Selecting Yes will set the report to be visible only to the user\n"
 "  that clicked this option and saved the report settings form. If this is\n"
 "  enabled, the permissions configuration for this report will be disabled."
-msgstr ""
+msgstr "Ako izaberete Da, izveštaj će biti vidljiv samo korisniku\nkoji je kliknuo na ovu opciju i sačuvao formular za podešavanja izveštaja. Ukoliko je ovo\naktivirano, podešavanja dozvola za ovaj izveštaj će biti isključena."
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid "View All Reports"
+msgstr "Pregledaj sve izveštaje"
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid "Contribution Reports"
+msgstr "Izveštaji o donacijama"
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid "Run this report"
+msgstr "Pokreni ovaj izveštaj"
 
 #: templates/CRM/Report/Page/InstanceList.tpl
 msgid ""
 "You do not have any private reports. To add a report to this section, edit "
 "the Report Settings for a report and set 'Add to My Reports' to Yes."
-msgstr ""
+msgstr "Nemate privatnih izveštaja. Da biste dodali izveštaj u ovu sekciju, uredite podešavanja izveštaja i podesite \"Dodaj u Moje izveštaje\" na Da."
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid "No %1 reports have been created."
+msgstr "Nema kreiranih izveštaja za %1."
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid ""
+"You can create reports by selecting from the <a href=\"%1\">list of report "
+"templates here.</a>"
+msgstr "Možete kreirati izveštaje tako što ćete ih odabrati iz <a href=\"%1\">liste šablona izveštaja ovde.</a>"
+
+#: templates/CRM/Report/Page/InstanceList.tpl
+msgid "Contact your site administrator for help creating reports."
+msgstr "Kontaktirajte administratora vašeg sajta za pomoć oko kreiranja izveštaja."
+
+#: templates/CRM/Report/Page/Options.tpl
+msgid "Register New %1"
+msgstr "Registruj nov %1"
+
+#: templates/CRM/Report/Page/Options.tpl
+msgid "There are no option values entered. You can <a href=\"%1\">add one</a>."
+msgstr "Nema unetih vrednosti opcija. Možete ih  <a href=\"%1\">dodati</a>."
+
+#: templates/CRM/Report/Page/TemplateList.tpl
+msgid ""
+"Create reports for your users from any of the report templates listed below."
+" Click on a template title to get started. Click Existing Report(s) to see "
+"any reports that have already been created from that template."
+msgstr "Kreirajte izveštaje za vaše korisnike koristeći neki od šablona ispod. Kliknite na naslov šablona da počnete. Kliknite na Postojeće izveštaj(e) da vidite izveštaje koji su već kreirani na osnovu tog šablona."
+
+#: templates/CRM/Report/Page/TemplateList.tpl
+msgid "Create report from this template"
+msgstr "Kreiraj izveštaj iz ovog šablona"
+
+#: templates/CRM/Report/Page/TemplateList.tpl
+msgid "Existing Report(s)"
+msgstr "Postojeći izveštaj(i)"
+
+#: templates/CRM/Report/Page/TemplateList.tpl
+msgid "There are currently no Report Templates."
+msgstr "Trenutno nema šablona izveštaja."
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Addressee Name"
+msgstr "Ime primaoca"
+
+#: CRM/Report/Form/Grant/Detail.php
+msgid "View contact details for this record."
+msgstr "Vidi detalje o kontaktu za ovaj zapis"

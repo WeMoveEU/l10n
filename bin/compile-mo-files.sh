@@ -38,8 +38,8 @@ fi
 # This makes it easier to configure crons on civi infrastructure,
 # while still making it possible to use this script in other places.
 if [ ! -d "po" ]; then
-  if [ -d "$HOME/repositories/civicrm-l10n-core/po" ]; then
-    cd $HOME/repositories/civicrm-l10n-core
+  if [ -d "$HOME/l10n/civicrm-l10n-core/po" ]; then
+    cd $HOME/l10n/civicrm-l10n-core
   else
     echo "ERROR: Could not find the location of the civicrm-l10n repository."
     echo ""
@@ -65,25 +65,26 @@ else
   # check that we are running as the l10n user.
   user=`whoami`
 
-  if [ "$user" = "l10n" ]; then
+  if [ "$user" = "jenkins" -o "$user" = "publisher" ]; then
+    mkdir -p $WORKSPACE/publish
+
+    # Copy over the .mo files included in the daily tar.gz
     for i in $(cat conf/distributed_languages.txt); do
       mkdir -p workdir/l10n/$i/LC_MESSAGES
       cp workdir/mo/$i/civicrm.mo workdir/l10n/$i/LC_MESSAGES/
     done
 
     pushd workdir
-    tar cfz civicrm-l10n-daily.tar.gz l10n
-    md5sum civicrm-l10n-daily.tar.gz > civicrm-l10n-daily.tar.gz.MD5SUMS
-
-    echo -n "Rsync civicrm-l10n-daily.tar.gz to download.civicrm.org ... "
-    cp civicrm-l10n-daily.tar.gz /var/www/download.civicrm.org/public/civicrm-l10n-core/archives/
-    cp civicrm-l10n-daily.tar.gz.MD5SUMS /var/www/download.civicrm.org/public/civicrm-l10n-core/archives/
-
-    echo -n "Rsync all .mo files to download.civicrm.org ... "
-    rsync --delete -ra mo /var/www/download.civicrm.org/public/civicrm-l10n-core/
-    echo "done!"
-
-    rm civicrm-l10n-daily.tar.gz*
+    mkdir -p $WORKSPACE/publish/archives
+    tar cfz $WORKSPACE/publish/archives/civicrm-l10n-daily.tar.gz l10n
+    md5sum $WORKSPACE/publish/archives/civicrm-l10n-daily.tar.gz > $WORKSPACE/publish/archives/civicrm-l10n-daily.tar.gz.MD5SUMS
     popd
+
+    # Copy over the .mo files to publish on gcloud
+    # The jenkins job picks up the files in this directory and takes care of pushing.
+    for lang in $langs; do
+      mkdir -p $WORKSPACE/publish/mo/$lang
+      cp workdir/mo/$lang/civicrm.mo $WORKSPACE/publish/mo/$lang/civicrm.mo
+    done
   fi
 fi

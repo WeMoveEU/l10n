@@ -4,6 +4,7 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # bigeyex <bigeyex@gmail.com>, 2013
+# biz phoenix <verygood1980@163.com>, 2018
 # Carleigh Zhang <carleigh.zhang@gmail.com>, 2015
 # carollaw <carol_law@live.cn>, 2011
 # civicrm.cn <civicrm@afanti.org>, 2012
@@ -21,17 +22,18 @@
 # Qi Zhang <todayhill@gmail.com>, 2011-2012
 # Rockman Lau <im@rockman.us>, 2013
 # Summer <mordbiz@foxmail.com>, 2015
+# Rockers <sumorock@hotmail.com>, 2018
 # Tony Hong <humanhong1001@gmail.com>, 2015
 # walkenaway <ashkandilothar@gmail.com>, 2015
 # zhiyong zhou <jxsky2002@163.com>, 2011
 # 兆锋 刘 <liuzf@jahome.net>, 2012
-# 陆西德 <hqcm2013@gmail.com>, 2016
+# vld irg <hqcm2013@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:43+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/civicrm/civicrm/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,15 +55,15 @@ msgstr "查看/添加到批发交易"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Re-open Batch"
-msgstr ""
+msgstr "重新打开处理"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Delete Batch"
-msgstr ""
+msgstr "批量删除"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Download Batch"
-msgstr ""
+msgstr "批量下载"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Enter records"
@@ -81,23 +83,31 @@ msgstr ""
 
 #: CRM/Batch/BAO/Batch.php
 msgid "No export format selected."
-msgstr ""
+msgstr "无导出格式被选。"
+
+#: CRM/Batch/DAO/Batch.php CRM/Batch/DAO/EntityBatch.php
+msgid "Batch ID"
+msgstr "批次 ID"
 
 #: CRM/Batch/DAO/Batch.php
-msgid "Batch ID"
+msgid "Variable name/programmatic handle for this batch."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Description"
+msgstr "批次描述"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Description of this batch set."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Created By"
-msgstr ""
+msgstr "批次创建者"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Created Date"
-msgstr ""
+msgstr "批次创建日期"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Modified By"
@@ -112,7 +122,27 @@ msgid "Batch Smart Group"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
+msgid "FK to Saved Search ID"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Status options in civicrm_option_values"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Type options in civicrm_option_values"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch mode options in civicrm_option_values"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
 msgid "Batch Total"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Total amount for this batch."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
@@ -120,20 +150,44 @@ msgid "Batch Number of Items"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Instrument"
+msgid "Number of items in a batch."
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Batch Payment Method"
+msgstr "批量支付方法"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Payment Instrument options in civicrm_option_values"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Exported Date"
-msgstr ""
+msgstr "批量导出日期"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Data"
+msgstr "批次数据"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "cache entered data"
+msgstr ""
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch ID"
+msgstr "EntityBatch ID"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch Table"
+msgstr "EntityBatch 列表"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "FK to civicrm_batch"
 msgstr ""
 
 #: CRM/Batch/Form/Batch.php
 msgid "Batch Deleted"
-msgstr ""
+msgstr "批量删除"
 
 #: CRM/Batch/Form/Entry.php
 msgid "Profile for bulk data entry is missing."
@@ -158,6 +212,20 @@ msgstr "是否忽略不匹配现象并继续输入这一批？"
 #: CRM/Batch/Form/Entry.php
 msgid "Validate & Process the Batch"
 msgstr "验证并处理这一批"
+
+#: CRM/Batch/Form/Entry.php
+msgid "Save & Continue Later"
+msgstr ""
+
+#: CRM/Batch/Form/Entry.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple records."
+msgstr ""
+
+#: CRM/Batch/Form/Entry.php
+msgid "Transaction ID must be unique within the database"
+msgstr ""
 
 #: CRM/Batch/Form/Entry.php
 msgid "Soft credit amount should not be greater than the total amount"
@@ -205,9 +273,18 @@ msgstr "警告：删除这一批任务将丢失此批输入的全部数据。"
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid ""
 "Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time. Go to Administer > Customize"
-" Data and Screens > Profiles > Reserved Profiles > to add, remove or change "
-"the order of columns."
+"You can also Save & Continue Later at any time."
+msgstr ""
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Add, remove or change the order of columns by editing the corresponding <a "
+"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
+msgstr ""
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Custom fields and a Personal Campaign Page field can be added if needed."
 msgstr ""
 
 #: templates/CRM/Batch/Form/Entry.tpl
@@ -220,6 +297,10 @@ msgstr "输入的总额"
 
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid "Open Pledges (Due Date - Amount)"
+msgstr ""
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid "Attached"
 msgstr ""
 
 #: templates/CRM/Batch/Form/Search.tpl
@@ -240,43 +321,4 @@ msgstr ""
 
 #: templates/CRM/Batch/Form/Search.tpl
 msgid "No Data Entry Batches have been created for this site."
-msgstr ""
-
-#: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Method"
-msgstr ""
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch ID"
-msgstr ""
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch Table"
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple records."
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php
-msgid "Transaction ID must be unique within the database"
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time."
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Add, remove or change the order of columns by editing the corresponding <a "
-"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Custom fields and a Personal Campaign Page field can be added if needed."
 msgstr ""

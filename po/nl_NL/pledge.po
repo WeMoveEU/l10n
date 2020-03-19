@@ -3,7 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2013-2017
+# HanV <han.velthuis@home.nl>, 2013-2017,2019
 # HanV <han.velthuis@home.nl>, 2012
 # HanV <han.velthuis@home.nl>, 2011-2012
 # Jeroen Groothuismink <jeroengroothuismink@gmail.com>, 2012
@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-09 14:34+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-11-21 16:07+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,21 @@ msgstr "Betaaldatum"
 #: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/Query.php
 #: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Payment Status"
-msgstr "Betaalstatus toezegging"
+msgstr "Betalingsstatus toezegging"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "Frequentie-eenheid toezegging"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "Frequentieinterval toezegging"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
+msgstr "Toezegging bijdragepagina-id"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2 (overdue)"
@@ -67,15 +81,35 @@ msgstr "Betaling(en) doen:"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "I want to make a one-time contribution"
-msgstr "Ik wil een eenmalige bijdrage doen."
+msgstr "Ik wil een eenmalige bijdrage doen"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "I pledge to contribute this amount every"
 msgstr "Ik zeg toe dit bedrag bij elke"
 
-#: CRM/Pledge/BAO/PledgeBlock.php CRM/Pledge/DAO/Pledge.php
-msgid "Pledge Frequency Interval"
-msgstr "Frequentieinterval toezegging"
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
+msgstr "Frequentie-intervallen"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
+msgstr "Frequentie-eenheden"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "Eerste termijnbetaling"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "Betaaldag van de maandtermijn"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "Bevestiging toezegging verzonden"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "Bevestiging toezegging niet verzonden"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test"
@@ -90,60 +124,124 @@ msgid "Financial Page - %1"
 msgstr "Financiële Pagina - %1"
 
 #: CRM/Pledge/BAO/Query.php
-msgid "Contact ID %1 %2"
-msgstr "Contact-ID %1 %2"
-
-#: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test?"
 msgstr "Is de toezegging een test?"
 
 #: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "Ontvangstbevestiging verzonden?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "Voer een nummer in"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "Voer een getal in."
+
+#: CRM/Pledge/BAO/Query.php
 msgid "Please enter valid Pledge Frequency Interval"
-msgstr "Vul a.u.b. een geldig interval toegezegde betalingen in."
+msgstr "Vul een geldig interval in voor toegezegde betalingen"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge Frequency"
 msgstr "Frequentie toezegging"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
+msgstr "FK naar civicrm_contact.id "
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Contribution Page"
 msgstr "Bijdragepagina toezegging"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
+msgstr "Totaalbedrag toezeggingen."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Original Installment Amount"
 msgstr "Oorspronkelijk termijnbedrag"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
+msgstr "Origineel bedrag voor elk van de termijnen."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Currency"
 msgstr "Toezegging valuta"
 
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Frequency Unit"
-msgstr "Frequentie-eenheid toezegging"
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
+msgstr "Tijdseenheid voor herhaling van betaling van toezegging."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
+msgstr "Aantal tijdseenheden voor herhaling van betaling van een toezegging."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge day"
 msgstr "Dag toezegging"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
+msgstr "Dag in de periode waarop de betaling is toegezegd, bijvoorbeeld 1e of 15e van de maand . Hiermee worden de datums van de betalingen ingepland."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Number of Installments"
 msgstr "Aantal perioden van toezegging"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr "Aantal betalingen dat wordt gedaan."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr "De datum van de eerstvolgende geplande betaling."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
+msgstr "Aanmaakdatum van het record van de toezegging."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Acknowledged"
 msgstr "Bevestiging toezegging"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
+msgstr "Wanneer er een bevestiging van de toezegging verzonden is naar de gever."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Modified Date"
 msgstr "Wijzigingsdatum toezegging"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
+msgstr "Laatste wijzigingsdatum van dit toezeggings-record."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Cancelled Date"
 msgstr "Beëindigingsdatum toezegging"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr "Datum waarop de toezegging is ingetrokken door de gever."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
+msgstr "Datum waarop de toezegging is voldaan (totaal betaald bedrag is gelijk of hoger dan toegezegd bedrag)."
+
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Maximum Number of Reminders"
 msgstr "Maximum aantal herinneringen"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
+msgstr "Het maximaal aantal herinneringen dat verzonden wordt per betaling."
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
@@ -151,32 +249,111 @@ msgid "Initial Reminder Day"
 msgstr "Eerste herinneringsdatum"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
+msgstr "Aantal dagen dat een initiële herinnering voor de vervaldatum van een betaling verzonden moet worden."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Additional Reminder Days"
 msgstr "Extra herinneringstermijn in dagen"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
+msgstr "Aantal dagen na een herinnering dat een eventueel nodige volgende herinnering moet worden verzonden, dit met de beperking van het gestelde maximum aantal herinneringen per betaling."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Status Id"
 msgstr "Statusnummer toezegging"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr "Impliciete FK naar civicrm_option_values in the pledge_status option group."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr "De campagne die voor deze toezegging is gestart."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "Toezegging blok-id"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
+msgstr "fysieke tabelnaam van de entiteit gekoppeld aan toezegging, bijv. civicrm_contact"
+
 #: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Entity Id"
 msgstr "Entiteit-ID"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr "Lijst met ondersteunde frequentie-eenheden"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "Frequentie-interval weergeven?"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr "Wordt het frequentie-interval getoond op de bijdragepagina."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr "Indien true, de begindatum van de herhalingen wordt getoond."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "Wijzigen van startdatum van periodieke donaties toestaan?"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr "Indien true, de begindatum herhalingen kan gewijzigd worden."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
+msgstr "FK naar Pledge-tabel"
 
 #: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
 msgid "Scheduled Amount"
 msgstr "Gepland bedrag"
 
 #: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
+msgstr "Toegezegd bedrag van deze betaling (dit hoeft niet het nu betaalde bedrag te zijn)."
+
+#: CRM/Pledge/DAO/PledgePayment.php
 msgid "Actual Amount"
 msgstr "Feitelijk bedrag"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr "Huidig bedrag dat is betaald als toegezegd bedrag van de termijnen."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
+msgstr "De verwachtte datum waarop een betaling van deze toezegging wordt gedaan."
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Last Reminder"
 msgstr "Laatste herinnering"
 
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
+msgstr "Datum waarop de meest recente betalingsherinnering is verzonden."
+
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Reminders Sent"
 msgstr "Herinneringen verzonden"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
+msgstr "Het aantal verzonden betalingsherinneringen."
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Edit Scheduled Pledge Payment"
@@ -218,7 +395,7 @@ msgstr "Voer een geldige vervaldag van de betaling in."
 msgid "each"
 msgstr "alle"
 
-#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
+#: CRM/Pledge/Form/Pledge.php
 msgid "Payments Start"
 msgstr "Betalingen beginnen"
 
@@ -280,11 +457,11 @@ msgstr "Als er nu een betaling vervalt, kunt u <a href='%1'>een cheque, overboek
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Payment Due"
-msgstr "betaling verschuldigd"
+msgstr "Betaling verschuldigd"
 
 #: CRM/Pledge/Form/PledgeView.php
 msgid "View Pledge by"
-msgstr "Toon toezeggingen door "
+msgstr "Toon toezeggingen door"
 
 #: CRM/Pledge/Form/Search.php
 msgid "Pledger Name or Email"
@@ -295,10 +472,22 @@ msgid "Pledger Name"
 msgstr "Naam Gever"
 
 #: CRM/Pledge/Form/Search.php
+msgid "Pledger Tag(s)"
+msgstr "Kenmerk(en) Gever"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr "Groep(en) Gever"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
+msgstr "Contacttype Gever"
+
+#: CRM/Pledge/Form/Search.php
 msgid "Find Pledges"
 msgstr "Toezeggingen zoeken"
 
-#: CRM/Pledge/Form/Task/Delete.php CRM/Pledge/Task.php
+#: CRM/Pledge/Form/Task/Delete.php
 msgid "Delete Pledges"
 msgstr "Toezeggingen verwijderen"
 
@@ -336,7 +525,7 @@ msgstr "Aanmaken en wijzigen toezeggingen"
 msgid "delete in CiviPledge"
 msgstr "verwijderen in CiviPledge"
 
-#: CRM/Pledge/Info.php
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
 msgid "Delete pledges"
 msgstr "Verwijderen toezeggingen"
 
@@ -389,7 +578,7 @@ msgid "Pledge Search"
 msgstr "Toezeggingen zoeken"
 
 #: CRM/Pledge/Task.php
-msgid "Export Pledges"
+msgid "Export pledges"
 msgstr "Toezeggingen exporteren"
 
 #: templates/CRM/Pledge/Form/Payment.tpl
@@ -407,7 +596,7 @@ msgstr "U kunt geen ontvangstbevestiging voor deze toezegging verzenden omdat er
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "WARNING: Deleting this pledge will also delete any related pledge payments."
-msgstr "WAARSCHUWING: Met het verwijderen van deze toezegging worden ook alle gerelateerde betalingen daarop verwijderd."
+msgstr "Waarschuwing: Met het verwijderen van deze toezegging worden ook alle gerelateerde betalingen daarop verwijderd."
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
@@ -427,7 +616,7 @@ msgstr "Toezegging van"
 msgid ""
 " Pledge total has changed due to payment adjustments. Original pledge amount"
 " was %1."
-msgstr "Totale toezegging is gewijzigd ten gevolge van aanpassingen in de betalingen. Het oorspronkelijk toegezegde bedrag was %1."
+msgstr " Totale toezegging is gewijzigd ten gevolge van aanpassingen in de betalingen. Het oorspronkelijk toegezegde bedrag was %1."
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
@@ -494,20 +683,8 @@ msgid "Maximum Reminders Send"
 msgstr "Max. aantal herinneringen"
 
 #: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payment Scheduled"
-msgstr "Betaling gepland"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Amounts"
 msgstr "Toezeggingsbedragen"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Start Date"
-msgstr "Betaling startdatum"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Ended Date"
-msgstr "Betaling einddatum"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
@@ -526,14 +703,6 @@ msgid "Click arrow to view pledge payments."
 msgstr "Klik op de pijl om de betalingen van de toezegging te bekijken."
 
 #: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Show payments"
-msgstr "Toon betalingen"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Hide payments"
-msgstr "Verberg betalingen"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Find more pledges"
 msgstr "Meer toezeggingen zoeken"
 
@@ -549,7 +718,7 @@ msgid "To Be Paid"
 msgstr "Te betalen"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Begining Date"
+msgid "Beginning Date"
 msgstr "Begindatum"
 
 #: templates/CRM/Pledge/Form/Task.tpl
@@ -629,13 +798,13 @@ msgid ""
 "Your site administrator must configure the scheduled job (Administer > "
 "System Settings > Scheduled Jobs) which updates pledge payment statuses and "
 "sends the reminders."
-msgstr "Uw sitebeheerder moet de taak configureren (Beheer > Systeeminstellingen > Geplande taken) die de status van de betaling van de toezegging wijzigt en de herinneringen verstuurd."
+msgstr "Uw beheerder moet de taak configureren (Beheer > Systeeminstellingen > Geplande taken) die de status van de betaling van de toezegging wijzigt en de herinneringen verstuurd."
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
 "Your site administrator must also configure a \"cron job\" (scheduled server"
 " task) to run this script."
-msgstr "Uw sitebeheerder moet ook een zogenaamde \"cronjob\" (geplande servertaak) configureren om dit script uit te voeren."
+msgstr "Uw beheerder moet ook een zogenaamde \"cronjob\" (geplande servertaak) configureren om dit script uit te voeren."
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
@@ -655,7 +824,7 @@ msgstr "Klik op <a %1>Toezegging toevoegen</a> om een nieuwe toezegging van dit 
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "No pledges have been recorded from this contact."
-msgstr "Er van dit contact geen toezeggingen vastgelegd."
+msgstr "Er zijn van dit contact geen toezeggingen vastgelegd."
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "Contributions made in honor of %1"
@@ -712,7 +881,7 @@ msgstr "Toezegging ontvangen"
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "Payment Schedule"
-msgstr "betaalschema"
+msgstr "Betaalschema"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -780,51 +949,3 @@ msgstr "Dank u voor uw genereuze steun."
 #: xml/templates/message_templates/pledge_reminder_subject.tpl
 msgid "Pledge Payment Reminder"
 msgstr "Toezegging betaalherinnering"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "First installment payment"
-msgstr "Eerste termijnbetaling"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "Day of month installments paid"
-msgstr "Betaaldag van de maandtermijn "
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement Sent"
-msgstr "Bevestiging toezegging verzonden"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement  Not Sent"
-msgstr "Bevestiging toezegging niet verzonden"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Acknowledgement sent?"
-msgstr "Ontvangstbevestiging verzonden?"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter a number"
-msgstr "Voer een nummer in"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter number."
-msgstr "Voer een getal in."
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Block ID"
-msgstr "Toezegging blok-id"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Expose Frequency Interval?"
-msgstr "Frequentie-interval weergeven?"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Allow Edits to Recurring Donation Start Date?"
-msgstr "Wijzigen van startdatum van periodieke donaties toestaan?"
-
-#: CRM/Pledge/Task.php
-msgid "Export pledges"
-msgstr "Toezeggingen exporteren"
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Beginning Date"
-msgstr "Begindatum"

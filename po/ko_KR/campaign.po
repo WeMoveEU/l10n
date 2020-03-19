@@ -5,14 +5,14 @@
 # Translators:
 # baram204 <baram204@gmail.com>, 2011
 # Josh Kim <joshkkim@gmail.com>, 2014
-# Min-kwon Jo <minkwon007@gmail.com>, 2016
+# 조민권 <minkwon007@gmail.com>, 2016
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-07-28 09:46+0000\n"
-"Last-Translator: Min-kwon Jo <minkwon007@gmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/civicrm/civicrm/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,6 +27,22 @@ msgstr "현재 캠페인"
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Past Campaigns"
 msgstr "지난 캠페인"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr ""
 
 #: CRM/Campaign/BAO/Petition.php
 msgid "No survey sid parameter. Cannot process signature."
@@ -56,10 +72,6 @@ msgstr "인터뷰"
 msgid "Could not find survey for %1 respondents."
 msgstr "%1 응답자에 대한 설문 조사를 찾을 수 없습니다."
 
-#: CRM/Campaign/BAO/Query.php
-msgid "Campaigns %1"
-msgstr "캠페인 %1"
-
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
 msgid "Reserve Respondents"
@@ -79,16 +91,52 @@ msgid "View Survey Report"
 msgstr "질의응답 보고서 보기"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Description"
 msgstr "캠페인 설명"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Start Date"
 msgstr "캠페인 시작일"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign End Date"
 msgstr "캠페인 종료일"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign External ID"
@@ -99,84 +147,212 @@ msgid "Parent Campaign"
 msgstr "부모 캠페인"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Is Campaign Active?"
 msgstr "캠페인은 활성화 상태입니까?"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Created By"
 msgstr "캠페인 생성자"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
 msgid "Campaign Created Date"
 msgstr "캠페인 작성 날짜"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified By"
 msgstr "캠페인 수정자"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified Date"
 msgstr "캠페인 수정 일자"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
 msgid "Campaign Goals"
 msgstr "캠페인 목표"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Goal Revenue"
 msgstr "목표 수익"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "캠페인 그룹 아이디"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "캠페인 그룹 유형"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey ID"
 msgstr "설문 조사 ID"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Campaign ID"
 msgstr "설문조사 캠페인 아이디"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Follow up Interval"
 msgstr "후속조치 간격"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Instructions"
 msgstr "지침"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Hold Duration"
 msgstr "설문조사 시행 기간"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Maximum number of contacts"
 msgstr "연락처 최대숫자"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Default number of contacts"
 msgstr "연락처의 기본 번호"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Is Active"
 msgstr "설문조사가 활성화상태 입니다."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Is Default Survey"
 msgstr "기본 설문조사입니까?"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Created By"
 msgstr "설문조사 생성자"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified"
 msgstr "설문조사 수정됨"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified On"
 msgstr "설문조사 수정됨"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "No Email Verification"
 msgstr "이메일 검증 안됨"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr ""
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Edit Campaign"
@@ -231,7 +407,7 @@ msgid "Edit Survey"
 msgstr "편집 설문 조사"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Delete Survey"
 msgstr "설문 조사 삭제"
 
@@ -338,7 +514,6 @@ msgstr "면접을위한 지침"
 #: CRM/Campaign/Form/Survey/Main.php
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Release Frequency"
 msgstr "출시 주기"
 
@@ -545,6 +720,10 @@ msgid_plural "Reservation did not add for %count contacts."
 msgstr[0] "예약은 %count 연락처들을 위해 추가하지 않았습니다."
 
 #: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr ""
+
+#: CRM/Campaign/Info.php
 msgid "administer CiviCampaign"
 msgstr "Civi캠페인 관리"
 
@@ -604,31 +783,27 @@ msgstr "응답자 소유."
 msgid "Vote Recorded."
 msgstr "기록 투표."
 
-#: CRM/Campaign/Page/Campaign.php templates/CRM/Campaign/Form/Campaign.tpl
-msgid "Are you sure you want to delete this Campaign?"
-msgstr "당신은이 캠페인을 삭제하시겠습니까?"
-
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Campaign"
 msgstr "캠페​​인 업데이트"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Campaign"
 msgstr "캠페인을 해제"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Campaign"
 msgstr "캠페인 활성화"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Survey"
 msgstr "설문 조사 업데이트"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Survey"
 msgstr "설문 조사 기능을 해제"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Survey"
 msgstr "설문 조사 사용"
 
@@ -705,6 +880,10 @@ msgstr "CiviCRM 응답자 검색"
 #: CRM/Campaign/Task.php
 msgid "Record Respondents Interview"
 msgstr "기록 응답자 면접"
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "당신은이 캠페인을 삭제하시겠습니까?"
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Is Interview Conducted?"
@@ -819,7 +998,6 @@ msgid ""
 msgstr "최대 10개의 다중선택 옵션을 이 표에 입력하세요.(추가 옵션을 입력하시려면 '다른 선택'을 클릭하세요). 당신은 존재하는 결과 집합 옵션을 설문조사 결과 집합을 선택함으로서 사용할 수 있습니다."
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: templates/CRM/Campaign/Page/Campaign.tpl
 msgid "Add Campaign"
 msgstr "캠페인 추가"
 
@@ -857,7 +1035,6 @@ msgstr "검색 탄원서"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Add Survey"
 msgstr "설문 조사 추가"
 
@@ -867,7 +1044,6 @@ msgstr "설문 조사 유형 ID"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Survey Type"
 msgstr "설문 조사 유형"
 
@@ -894,14 +1070,6 @@ msgstr "%1 설문조사를 삭제하려고합니다. 확신하십니까?"
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Title of the survey."
 msgstr "설문 조사의 제목입니다."
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "Opens New Campaign form in a separate window"
-msgstr "별도의 창에서 새 캠페인을 여세요."
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "new campaign"
-msgstr "새 캠페인"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Select the campaign for which survey is created."
@@ -990,6 +1158,10 @@ msgid "Update Responses for All"
 msgstr "모든 업데이트 응답"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "reserve"
 msgstr "예약"
 
@@ -1016,20 +1188,6 @@ msgid ""
 "activities, contributions, event participation, mailings, membership "
 "signups, and pledges to a particular campaign."
 msgstr "당신의 단체는 특정한 모금활동이나 참여 노력과 관련된 모든 구성원간의 상호작용을 추적하기 위해 캠페인을 사용할 수 있습니다. 당신은 활동, 기여, 이벤트 참여, 편지, 회원 가입 그리고 특정 캠페인에 서약한 것들을 연결할 수 있습니다."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "Show past campaign(s) in this select list."
-msgstr "이 선택 목록에 지난 캠페인 (들)을 표시합니다."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "There are currently no active Campaigns."
-msgstr "더 적극적인 캠페인은 현재 없습니다."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid ""
-"If you want to associate this record with a campaign, you can <a %1>create a"
-" campaign here</a>."
-msgstr "당신이 캠페인과 레코드를 연결기 원한다면 <a %1>여기서 켐페인을 만드실 수 있습니다.</a>"
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid ""
@@ -1094,27 +1252,35 @@ msgid ""
 msgstr "우리가 보낸 이메일을 받지 못하셨다면 스펨메일함을 확인해보세요. 잘못 분류되었을 수 있습니다."
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Max Number Of Contacts"
 msgstr "연락처 최대 개수"
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Default Number Of Contacts"
 msgstr "연락처의 기본 개수"
 
 #: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey type entered. You can <a href='%1'>add one</a>."
-msgstr "설문조사 유형이 입력되지 않았습니다. <a href='%1'>당신은 추가할 수 있습니다.</a>"
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group ID"
-msgstr "캠페인 그룹 아이디"
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group Type"
-msgstr "캠페인 그룹 유형"
-
-#: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
 msgstr "설문조사 유형이 입력되지 않았습니다. <a href='%1'>당신은 추가할 수 있습니다.</a>"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr "별도의 창에서 새 캠페인을 여세요."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "새 캠페인"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "이 선택 목록에 지난 캠페인 (들)을 표시합니다."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "더 적극적인 캠페인은 현재 없습니다."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
+msgstr "당신이 캠페인과 레코드를 연결기 원한다면 <a %1>여기서 켐페인을 만드실 수 있습니다.</a>"

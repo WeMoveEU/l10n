@@ -7,12 +7,14 @@
 # Francesc Bassas i Bullich <francesc@babu.cat>, 2014,2016
 # Francesc Bassas i Bullich <francesc@babu.cat>, 2013
 # Francesc Bassas i Bullich <francesc@babu.cat>, 2017
+# Josep Maria Huguet <jhuguet@aalba.cat>, 2017
+# Marti Prat <m.prat@ixiam.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-02-27 22:05+0000\n"
-"Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,52 +66,104 @@ msgstr "No s'han seleccionat lots."
 msgid "No export format selected."
 msgstr "No s'ha seleccionat cap format d'exportació."
 
-#: CRM/Batch/DAO/Batch.php
+#: CRM/Batch/DAO/Batch.php CRM/Batch/DAO/EntityBatch.php
 msgid "Batch ID"
+msgstr "Identificador de lot"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Variable name/programmatic handle for this batch."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Description"
+msgstr "Descripció del lot"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Description of this batch set."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Created By"
-msgstr ""
+msgstr "Lot creat per"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Created Date"
-msgstr ""
+msgstr "Data de creació del lot"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Modified By"
-msgstr ""
+msgstr "Lot modificat per"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Modified Date"
-msgstr ""
+msgstr "Data de modificació del lot"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Smart Group"
+msgstr "Lot de grup intel·ligent"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "FK to Saved Search ID"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Status options in civicrm_option_values"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Type options in civicrm_option_values"
+msgstr ""
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch mode options in civicrm_option_values"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Total"
+msgstr "Lot total"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Total amount for this batch."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Number of Items"
+msgstr "Nombre d'ítems del lot"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Number of items in a batch."
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Instrument"
+msgid "Batch Payment Method"
+msgstr "Mètode de pagament del lot"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Payment Instrument options in civicrm_option_values"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Exported Date"
-msgstr ""
+msgstr "Data d'exportació del lot"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Data"
+msgstr "Data del lot"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "cache entered data"
+msgstr ""
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch ID"
+msgstr "ID de lots d'entitats"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch Table"
+msgstr "Taula de lots d'entitats"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "FK to civicrm_batch"
 msgstr ""
 
 #: CRM/Batch/Form/Batch.php
@@ -130,7 +184,7 @@ msgstr "Introducció de dades per lots de pertinences"
 
 #: CRM/Batch/Form/Entry.php
 msgid "Batch Data Entry for Pledge Payments"
-msgstr ""
+msgstr "Entrada de dades per al pagament de compromís per lots"
 
 #: CRM/Batch/Form/Entry.php
 msgid "Ignore Mismatch & Process the Batch?"
@@ -139,6 +193,20 @@ msgstr "Ignorar la discordança i processar el lot?"
 #: CRM/Batch/Form/Entry.php
 msgid "Validate & Process the Batch"
 msgstr "Validar i processar el lot "
+
+#: CRM/Batch/Form/Entry.php
+msgid "Save & Continue Later"
+msgstr "Desa i continua més tard"
+
+#: CRM/Batch/Form/Entry.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple records."
+msgstr ""
+
+#: CRM/Batch/Form/Entry.php
+msgid "Transaction ID must be unique within the database"
+msgstr "La ID de la transacció ha de ser únic dins la base de dades."
 
 #: CRM/Batch/Form/Entry.php
 msgid "Soft credit amount should not be greater than the total amount"
@@ -150,7 +218,7 @@ msgstr "El tipus de pertinença és un camp obligatori."
 
 #: CRM/Batch/Form/Entry.php
 msgid "You can not record two payments for the same pledge in a single batch."
-msgstr ""
+msgstr "No podeu guardar dos pagaments pel mateix compromís en un únic lot."
 
 #: CRM/Batch/Form/Entry.php templates/CRM/Batch/Form/Entry.tpl
 msgid ""
@@ -186,10 +254,19 @@ msgstr "Atenció: L'eliminació d'aquest lot donarà com a resultat la pèrdua d
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid ""
 "Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time. Go to Administer > Customize"
-" Data and Screens > Profiles > Reserved Profiles > to add, remove or change "
-"the order of columns."
-msgstr "Feu clic en validar i processar un cop hagueu introduït tots els elements en el lot. També podeu seleccionar desar i continuar després en qualsevol moment. Aneu a Administra > Personalitza dades i pantalles > Perfils reservats > per afegir, eliminar o canviar l'ordre de les columnes. "
+"You can also Save & Continue Later at any time."
+msgstr "Feu clic en validar i processar un cop hagueu introduït tots els elements en el lot. També podeu seleccionar desar i continuar després en qualsevol moment."
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Add, remove or change the order of columns by editing the corresponding <a "
+"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
+msgstr "Afegir, eliminar o canviar l'ordre de les columnes editant el corresponent <a href=\"%1\" target=\"_blanck\">Perfil d'entrada massiu</a>."
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Custom fields and a Personal Campaign Page field can be added if needed."
+msgstr "Es poden afegir Camps personalitzats i una pàgina de Campanya Personal si són necessaris."
 
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid "Total amount expected"
@@ -201,7 +278,11 @@ msgstr "Quantitat total introduïda"
 
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid "Open Pledges (Due Date - Amount)"
-msgstr ""
+msgstr "Obir compromís de pagament (Data de Venciment - Import)"
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid "Attached"
+msgstr "Adjunt"
 
 #: templates/CRM/Batch/Form/Search.tpl
 msgid "Data Entry Batches"
@@ -222,42 +303,3 @@ msgstr "No teniu cap lot d'introducció de dades obert."
 #: templates/CRM/Batch/Form/Search.tpl
 msgid "No Data Entry Batches have been created for this site."
 msgstr "No han estat creats lots d'ingrés de dades per aquest lloc."
-
-#: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Method"
-msgstr ""
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch ID"
-msgstr ""
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch Table"
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple records."
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php
-msgid "Transaction ID must be unique within the database"
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time."
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Add, remove or change the order of columns by editing the corresponding <a "
-"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
-msgstr ""
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Custom fields and a Personal Campaign Page field can be added if needed."
-msgstr ""

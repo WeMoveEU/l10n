@@ -1,0 +1,1317 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Branko Dokuzovski <branko@horus.mk>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Macedonian (http://www.transifex.com/civicrm/civicrm/language/mk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
+#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Client"
+msgstr ""
+
+#: CRM/Case/BAO/Case.php
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "View activity"
+msgstr "Преглед на активност"
+
+#: CRM/Case/BAO/Case.php
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Edit activity"
+msgstr "Уреди активност"
+
+#: CRM/Case/BAO/Case.php
+msgid "Move To Case"
+msgstr "Премести во предмет"
+
+#: CRM/Case/BAO/Case.php
+msgid "Copy To Case"
+msgstr "Копирај во предмет"
+
+#: CRM/Case/BAO/Case.php
+msgid "%1 - copy sent to %2"
+msgstr ""
+
+#: CRM/Case/BAO/Case.php
+msgid "File %1 does not exist or is not readable"
+msgstr "Фајлот %1 не постои или не е читлив"
+
+#: CRM/Case/BAO/Case.php
+msgid "Invalid case ID ( %1 ) in TO: field."
+msgstr "Невалиден ID ( %1 ) на предмет во ДО: полето."
+
+#: CRM/Case/BAO/Case.php
+msgid ""
+"FROM email contact %1 doesn't have a relationship to the referenced case."
+msgstr "ОД контактот за е-пошта нема врска до посочениот предмет."
+
+#: CRM/Case/BAO/Case.php
+msgid "Role in Case"
+msgstr "Улога во предмет"
+
+#: CRM/Case/BAO/Case.php
+msgid "View Case"
+msgstr "Преглед на предмет"
+
+#: CRM/Case/BAO/Case.php
+msgid "Case %1 reassigned client from %2 to %3. New Case ID is %4."
+msgstr "Предмет %1 - клиентот е повторно доделен од %2 на %3. Нов ID на предметот е %4."
+
+#: CRM/Case/BAO/Case.php
+msgid ""
+"Case %1 copied from contact id %2 to contact id %3 via merge. New Case ID is"
+" %4."
+msgstr "Предметот %1 копиран од контактот ID %2 во контактот ID %3 преку поврзување. ID на новиот предмет е %4."
+
+#: CRM/Case/BAO/Case.php
+msgid "Case %1 merged into case %2"
+msgstr "Предметот %1 е споен со предметот %2"
+
+#: CRM/Case/BAO/CaseType.php
+msgid ""
+"You can not delete this case type -- it is assigned to %1 existing case "
+"record(s). If you do not want this case type to be used going forward, "
+"consider disabling it instead."
+msgstr "Не можете да го избришете овој тип на предмет - доделен е на %1 постоечки запис(и) за предмет. Доколку не сакате овој тип на предмет да се користи и понатаму, можете да го исклучите."
+
+#: CRM/Case/BAO/Query.php
+msgid "Case %1 My Cases"
+msgstr "Предмет %1 Мои предмети"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case %1 All Cases"
+msgstr "Предмет %1 Сите предмети"
+
+#: CRM/Case/BAO/Query.php
+msgid "Find Deleted Cases"
+msgstr "Пронајди избришани предмети"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Subject %1 '%2'"
+msgstr "Субјект на активност %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Subject %1 '%2'"
+msgstr "Субјект на предмет  %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Reporter %1 '%2'"
+msgstr "Известувач на активност %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Actual Date %1 %2"
+msgstr "Датум на активноста %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Schedule Date %1 %2"
+msgstr "Закажан датум на активноста %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Type %1 %2"
+msgstr "Вид на активност %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Duration %1 %2"
+msgstr "Траење на активноста %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Medium %1 %2"
+msgstr "Медиум на активноста %1 %2"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Details %1 '%2'"
+msgstr "Детали за активноста %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Activity Auto Genrated %1 '%2'"
+msgstr "Автоматски генерирана активност %1 '%2'"
+
+#: CRM/Case/BAO/Query.php
+msgid "Role in Case  %1 '%2'"
+msgstr "Улога во предмет "
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tags %1"
+msgstr "Белези на предмети %1"
+
+#: CRM/Case/BAO/Query.php
+msgid "Search All Cases"
+msgstr "Пребарај ги сите предмети"
+
+#: CRM/Case/BAO/Query.php
+msgid "Only My Cases"
+msgstr "Само моите предмети"
+
+#: CRM/Case/BAO/Query.php
+msgid "Search Cases with Upcoming Activities"
+msgstr ""
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tag(s)"
+msgstr "Белег (белези) за предмет"
+
+#: CRM/Case/BAO/Query.php
+msgid "Deleted Cases"
+msgstr "Избришани предмети"
+
+#: CRM/Case/DAO/Case.php
+msgid "Unique Case ID"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "FK to civicrm_case_type.id"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Short name of the case."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case starts."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case ends."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Details about the meeting (agenda, notes, etc)."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Id of case status."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Case is in the Trash"
+msgstr "Предмет во отпад"
+
+#: CRM/Case/DAO/Case.php
+msgid "When was the case was created."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid ""
+"When was the case (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case Activity ID"
+msgstr "ID на активност на предмет"
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Unique case-activity association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Activity ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case Contact ID"
+msgstr "ID на контакт на предмет"
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Unique case-contact association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case ID of case-contact association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Contact ID of contact record given case belongs to."
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type ID"
+msgstr "ID на тип на предмет"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Autoincremented type id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Name"
+msgstr "Име на тип на предмет"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Machine name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Title"
+msgstr "Наслов на тип на предмет"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Natural language name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Description"
+msgstr "Опис на тип на предмет"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Description of the Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Is Active"
+msgstr "Типот на предмет е активен"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Is Reserved"
+msgstr "Типот на предмет е резервиран"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Is this case type a predefined system type?"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Ordering of the case types"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Case Type Definition"
+msgstr "Дефиниција на тип на предмет"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "xml definition of case type"
+msgstr ""
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+#: CRM/Case/Form/Activity/ChangeCaseStatus.php
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Case Id not found."
+msgstr "Не е пронајден ID на предмет."
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Expected one case-type"
+msgstr "Очекуван тип на предмет"
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+msgid "New Start Date"
+msgstr "Нов почетен датум"
+
+#: CRM/Case/Form/Activity/ChangeCaseStartDate.php
+msgid "Case Start Date changed successfully."
+msgstr "Датумот за почеток на предмет е успешно изменет."
+
+#: CRM/Case/Form/Activity/ChangeCaseStatus.php
+msgid "Case status changed from %1 to %2"
+msgstr "Статусот на предметот е изменет од %1 во %2"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Reset Case Timeline?"
+msgstr "Ресетирај ја временската рамка на предметот?"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Reset Start Date"
+msgstr "Ресетирај го почетниот датум"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Case type changed from %1 to %2"
+msgstr "Типот на предметот е изменет од %1 во %2"
+
+#: CRM/Case/Form/Activity/ChangeCaseType.php
+msgid "Case Type changed successfully."
+msgstr "Типот на предметот е успешно изменет."
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Link To Case"
+msgstr "Врска кон предмет"
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Please select some other case to link."
+msgstr "Изберете други предмети за поврзување."
+
+#: CRM/Case/Form/Activity/LinkCases.php
+msgid "Selected case is already linked."
+msgstr "Избраниот предмет е веќе поврзан."
+
+#: CRM/Case/Form/Activity/OpenCase.php
+msgid "Case opened successfully."
+msgstr "Предметот е успешно отворен."
+
+#: CRM/Case/Form/Activity.php
+msgid "You do not have any active Case Types"
+msgstr "Немате активнит типови на предмети."
+
+#: CRM/Case/Form/Activity.php
+msgid "You can not add another '%1' activity to this case. %2"
+msgstr "Не можете да додадете уште една '%1' активност во овој предмет. %2"
+
+#: CRM/Case/Form/Activity.php
+msgid "Do you want to <a %1>edit the existing activity</a>?"
+msgstr "Дали сакате да ја <a %1>уредите постоечката активност</a>?"
+
+#: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
+msgid "Reported By"
+msgstr "Известил/а"
+
+#: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
+msgid "Medium"
+msgstr "Медиум"
+
+#: CRM/Case/Form/Activity.php
+msgid ""
+"The selected activity has been moved to the Trash. You can view and / or "
+"restore deleted activities by checking \"Deleted Activities\" from the Case "
+"Activities search filter (under Manage Case).<br />"
+msgstr "Избраната активност е префрлена во отпад. Можете да ги прегледате или повратите избришаните активности така што ќе ги вклучите „избришаните активности“ во филтерите за пребараување на активности (под менаџмент на предмет).<br />"
+
+#: CRM/Case/Form/Activity.php
+msgid "Selected Activity cannot be deleted."
+msgstr "Избраната активност не може да биде избришана."
+
+#: CRM/Case/Form/Activity.php
+msgid "The selected activity has been restored.<br />"
+msgstr "Избраната активност е повратена.<br />"
+
+#: CRM/Case/Form/Activity.php
+msgid "A copy of the activity has also been sent to selected contacts(s)."
+msgstr "Копија од активноста е испратена до избраниот контакт(и)."
+
+#: CRM/Case/Form/Activity.php
+msgid "%1 Saved"
+msgstr "%1 Зачувано"
+
+#: CRM/Case/Form/ActivityToCase.php CRM/Case/XMLProcessor/Report.php
+msgid "With Contact(s)"
+msgstr "Со контакт(и)"
+
+#: CRM/Case/Form/ActivityView.php
+msgid "Activity Revision History"
+msgstr "Историја на ревизија на активност"
+
+#: CRM/Case/Form/ActivityView.php CRM/Case/Page/DashBoard.php
+msgid "CiviCase Dashboard"
+msgstr "CiviCase контролен панел"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Case/Form/CaseView.php
+msgid "- select type -"
+msgstr "- избери тип -"
+
+#: CRM/Case/Form/AddToCaseAsRole.php
+msgid "Assign to"
+msgstr ""
+
+#: CRM/Case/Form/Case.php
+msgid "You do not have any active %1"
+msgstr "Немате активни %1"
+
+#: CRM/Case/Form/Case.php
+msgid ""
+"The Open Case activity type is missing or disabled. Please have your site "
+"administrator check Administer > Option Lists > Activity Types for the "
+"CiviCase component."
+msgstr "Типот на активност Отвори предмет недостасува или е исклучен. Побарајте од администраторот на вашиот сајт да провери во Администрација > Листа на опции > Типови на активности за оваа CiviCase компонента. "
+
+#: CRM/Case/Form/Case.php
+msgid "Client contact does not exist: %1"
+msgstr "Контактот на клиентот не постои: %1"
+
+#: CRM/Case/Form/Case.php
+msgid ""
+"You can view and / or restore deleted cases by checking the \"Deleted "
+"Cases\" option under Find Cases."
+msgstr ""
+
+#: CRM/Case/Form/Case.php
+msgid "Case Deleted"
+msgstr "Предметот е избришан"
+
+#: CRM/Case/Form/Case.php
+msgid "The selected case has been restored."
+msgstr ""
+
+#: CRM/Case/Form/CaseView.php
+msgid "Related Cases"
+msgstr "Поврзани предмети"
+
+#: CRM/Case/Form/CaseView.php
+msgid "You do not have permission to access this case."
+msgstr ""
+
+#: CRM/Case/Form/CaseView.php
+msgid "%1 Related Case"
+msgid_plural "%1 Related Cases"
+msgstr[0] "%1 Поврзан предмет"
+msgstr[1] "%1 Поврзани предмети"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Add Activity"
+msgstr "Додади активност"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activity Audit"
+msgstr "Ревизија на активност"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Add Timeline"
+msgstr "Додади временска рамка"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activities from the %1 activity set have been added to this case."
+msgstr "Активностите од сетот на %1 активности се додадени во овој предмет."
+
+#: CRM/Case/Form/CaseView.php
+msgid " - any reporter - "
+msgstr "- било кој известувач -"
+
+#: CRM/Case/Form/CaseView.php templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Reporter/Role"
+msgstr "Известувач/улога"
+
+#: CRM/Case/Form/CaseView.php
+msgid " - any status - "
+msgstr "- било кој статус -"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Activity Dates - From"
+msgstr "Датуми на активност - Од"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Deleted Activities"
+msgstr "Избришани активности"
+
+#: CRM/Case/Form/CaseView.php
+msgid "(opened %1)"
+msgstr "(отворено %1)"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Select Case for Merge"
+msgstr "Изберете предмет за поврзување"
+
+#: CRM/Case/Form/CaseView.php
+msgid "- select case -"
+msgstr ""
+
+#: CRM/Case/Form/EditClient.php
+msgid "Reassign Case"
+msgstr "Прераспореди предмет"
+
+#: CRM/Case/Form/EditClient.php
+msgid "Please select a different contact."
+msgstr "Изберете друг контакт"
+
+#: CRM/Case/Form/Report.php
+msgid "All Activities"
+msgstr "Сите активности"
+
+#: CRM/Case/Form/Report.php
+msgid "Exclude Completed Activities"
+msgstr "Исклучи комплетирани активности"
+
+#: CRM/Case/Form/Report.php
+msgid "Redact (hide) Client and Service Provider Data"
+msgstr "Редакција (криење) на податоците за клиентот и испорачателот на услугата."
+
+#: CRM/Case/Form/Report.php
+msgid "Generate Report"
+msgstr "Генерирај извештај"
+
+#: CRM/Case/Form/Search.php
+msgid "Client Name or Email"
+msgstr "Име или е-пошта на клиент"
+
+#: CRM/Case/Form/Search.php templates/CRM/Case/Page/DashBoard.tpl
+msgid "Find Cases"
+msgstr "Најди предмети"
+
+#: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
+msgid "Delete cases"
+msgstr "Избриши предмети"
+
+#: CRM/Case/Form/Task/Delete.php
+msgid "%count case moved to trash."
+msgid_plural "%count cases moved to trash."
+msgstr[0] "%count предмет е преместен во отпад."
+msgstr[1] "%count предмети се префрлени во отпад."
+
+#: CRM/Case/Form/Task/Delete.php
+msgid "%count case permanently deleted."
+msgid_plural "%count cases permanently deleted."
+msgstr[0] "%count предмет е трајно избришан."
+msgstr[1] "%count предмети се трајно избришани."
+
+#: CRM/Case/Form/Task/Print.php
+msgid "Print Case List"
+msgstr "Печати листа на случаи"
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "Restore Cases"
+msgstr "Поврати случаи"
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "%count case restored from trash."
+msgid_plural "%count cases restored from trash."
+msgstr[0] "%count предмет е повратен од отпад."
+msgstr[1] "%count случаи повратени од отпад."
+
+#: CRM/Case/Form/Task/Restore.php
+msgid "1 could not be restored."
+msgid_plural "%count could not be restored."
+msgstr[0] "1 не можеше да биде повратен."
+msgstr[1] "%count не можеа да бидат повратени."
+
+#: CRM/Case/Info.php
+msgid "CiviCase Engine"
+msgstr "CiviCase Engine"
+
+#: CRM/Case/Info.php
+msgid "delete in CiviCase"
+msgstr "Избриши во CiviCase"
+
+#: CRM/Case/Info.php
+msgid "administer CiviCase"
+msgstr "администрирај во CiviCase"
+
+#: CRM/Case/Info.php
+msgid "Define case types, access deleted cases"
+msgstr "Дефинирај типови на предмети, пристапи до избришани предмети"
+
+#: CRM/Case/Info.php
+msgid "access my cases and activities"
+msgstr "пристап до мои предмети и активности"
+
+#: CRM/Case/Info.php
+msgid "View and edit only those cases managed by this user"
+msgstr "Прегледај и уреди ги само оние предмети кои ги менаџира овој корисник"
+
+#: CRM/Case/Info.php
+msgid "access all cases and activities"
+msgstr "пристап до сите предмети и активности"
+
+#: CRM/Case/Info.php
+msgid "View and edit all cases (for visible contacts)"
+msgstr "Прегледај и уреди ги сите предмети (за видливи контакти)"
+
+#: CRM/Case/Info.php
+msgid "add cases"
+msgstr "додади предмети"
+
+#: CRM/Case/Info.php
+msgid "Open a new case"
+msgstr "Отвори нов предмет"
+
+#: CRM/Case/Info.php
+msgid "Do not redact emails"
+msgstr ""
+
+#: CRM/Case/Info.php
+msgid "Redact emails"
+msgstr ""
+
+#: CRM/Case/Info.php
+msgid "Single client per case"
+msgstr ""
+
+#: CRM/Case/Info.php
+msgid "Multiple client per case"
+msgstr ""
+
+#: CRM/Case/Info.php
+msgid "Definition order"
+msgstr ""
+
+#: CRM/Case/Info.php
+msgid "Alphabetical order"
+msgstr ""
+
+#: CRM/Case/Page/DashBoard.php
+msgid "You are not authorized to access all cases and activities."
+msgstr "Не сте авторизирани да пристапите до сите случаи и активности."
+
+#: CRM/Case/Page/Tab.php
+msgid "Are you sure you want to delete this case?"
+msgstr "Дали сте сигурни дека сакате да го избришете овој предмет?"
+
+#: CRM/Case/Page/Tab.php CRM/Case/Selector/Search.php
+#: templates/CRM/Case/Form/Case.tpl
+msgid "Delete Case"
+msgstr "Избриши предмет"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Form/CaseView.tpl
+msgid "Assign to Another Client"
+msgstr "Додели на друг клиент"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Form/Task/Print.tpl
+#: templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "My Role"
+msgstr "Моја улога"
+
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "Next Sched."
+msgstr "Следни закажани"
+
+#: CRM/Case/Selector/Search.php
+msgid "Case Search"
+msgstr "Пребарување на предмет"
+
+#: CRM/Case/Task.php
+msgid "Export cases"
+msgstr "Пренеси предмети"
+
+#: CRM/Case/Task.php
+msgid "Restore cases"
+msgstr "Поврати предмети"
+
+#: CRM/Case/Task.php
+msgid "Update multiple cases"
+msgstr ""
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid "Configuration file could not be retrieved for case type = '%1' %2."
+msgstr "Не е можно да се најде конфигурациски фајл за тип на случај = '%1' %2."
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Unable to load configuration file for the referenced case type: '%1' %2."
+msgstr "Не е можно да се вчита конфигурациски фајл за тип на случај = '%1' %2."
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Relationship type %1, found in case configuration file, is not present in "
+"the database %2"
+msgstr "Тип на врска %1, најден во конфигурацискиот фајл на предметот не е присутен во базата на податоци %2"
+
+#: CRM/Case/XMLProcessor/Process.php
+msgid ""
+"Activity type %1, found in case configuration file, is not present in the "
+"database %2"
+msgstr "Тип на активност %1, најден во конфигурацискиот фајл на предметот не е присутен во базата на податоци %2"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Housing Support"
+msgstr "Поддршка за сместување"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Help homeless individuals obtain temporary and long-term housing"
+msgstr "Помогнете им на бездомниците да најдат привремено или трајно сместување"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Adult Day Care Referral"
+msgstr "Упатување на дневна нега за возрасни"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Arranging adult day care for senior individuals"
+msgstr "Договарање на дневна нега за возрасни лица"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Medical evaluation"
+msgstr "Медицинска евалуација"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Mental health evaluation"
+msgstr "Евалуација на ментално здравје"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Secure temporary housing"
+msgstr "Обезбеди привремено сместување"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Income and benefits stabilization"
+msgstr "Стабилизирање на приход и бенефиции"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Long-term housing plan"
+msgstr "Долгорочен план за домување"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "ADC referral"
+msgstr "Упатување во центар за нега на стари лица"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator is"
+msgstr "Координатор на сервисот за бездомници е"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator"
+msgstr "Координатор на сервис за бездомници"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator is"
+msgstr "Координатор на здравствени сервиси е "
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator"
+msgstr "Координатор на здравствени сервиси"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator is"
+msgstr "Координатор на сервиси за повозрасни граѓани е"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator"
+msgstr "Координатор на сервиси за повозрасни граѓани"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist is"
+msgstr "Специјалист за бенефиции е"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist"
+msgstr "Специјалист за бенефиции"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Case Resources"
+msgstr "Ресурси на предмет"
+
+#: ang/crmCaseType/activityTypesTable.html
+msgid "Max Instances"
+msgstr "Максимален број на инстанци"
+
+#: ang/crmCaseType/activityTypesTable.html
+msgid "Add activity type"
+msgstr "Додади тип на активност"
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "WARNING: The case type name includes deprecated characters."
+msgstr "ПРЕДУПРЕДУВАЊЕ: Името на типот на предметот содржи застарени карактери."
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid ""
+"WARNING: If any external files or programs reference the old \"Name\", then "
+"they must be updated manually."
+msgstr " Предупредување: Доколку било кои екстерни фајлови или програми имаат во себе референца кон старото „име“, мора да бидат ажурирани."
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Activity assignment settings"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Groups"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Website Users"
+msgstr ""
+
+#: ang/crmCaseType/edit.html ang/crmCaseType/list.html
+msgid "New Case Type"
+msgstr "Нов тип на предмет."
+
+#: ang/crmCaseType/edit.html
+msgid ""
+"Use this screen to define or update the Case Roles, Activity Types, and "
+"Timelines for a case type."
+msgstr "На овој екран можете да ги дефинирате или ажурирате улогите во предметот, типовите на активности и временските линии за типот на предметот."
+
+#: ang/crmCaseType/edit.html
+msgid "Learn more..."
+msgstr "Дознајте повеќе"
+
+#: ang/crmCaseType/edit.html templates/CRM/Case/Audit/Report.tpl
+msgid "Case Roles"
+msgstr "Улоги во предмет"
+
+#: ang/crmCaseType/edit.html
+msgid "Case Statuses"
+msgstr ""
+
+#: ang/crmCaseType/edit.html
+msgid "Add..."
+msgstr "Додади..."
+
+#: ang/crmCaseType/edit.html
+msgid "Timeline"
+msgstr "Временска рамка"
+
+#: ang/crmCaseType/edit.html
+msgid "Sequence"
+msgstr "Секвенца"
+
+#: ang/crmCaseType/list.html
+msgid "Case Types"
+msgstr "Типови на предмети"
+
+#: ang/crmCaseType/list.html
+msgid ""
+"A Case Type describes a group of related tasks, interactions, or processes."
+msgstr "Тип на предмет опишува група на поврзани задачи, интеракции или процеси."
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Assign to Creator"
+msgstr "Додели на автор"
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Is Manager"
+msgstr "Е менаџер"
+
+#: ang/crmCaseType/rolesTable.html
+msgid "Add role"
+msgstr "Додади улога"
+
+#: ang/crmCaseType/statusTable.html
+msgid "New Status"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Reference"
+msgstr "Референца"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Offset"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Default assignee"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Newest"
+msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Oldest"
+msgstr ""
+
+#: ang/crmCaseType.js
+msgid "new"
+msgstr ""
+
+#: ang/crmCaseType.js
+msgid ""
+"The CiviCase XML file for this case-type prohibits editing the definition."
+msgstr "CiviCase XML фајлот за овој тип на предмети забранува уредување на дефиниција."
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "Case Summary"
+msgstr "Краток преглед на предмет"
+
+#: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/Activity.tpl
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Case Role"
+msgstr "Улога во предмет"
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "(not assigned)"
+msgstr "(не е назначен)"
+
+#: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/CaseView.tpl
+msgid "Client Relationship"
+msgstr "Врска со клиент"
+
+#: templates/CRM/Case/Audit/Report.tpl
+msgid "Case Activities"
+msgstr "Активности во предмет"
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"Selecting one or more groups here will limit the choices when assigning an "
+"activity."
+msgstr ""
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"This will limit the choices when selecting an activity assignee to contacts "
+"with a user account on this website."
+msgstr ""
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStartDate.tpl
+msgid "Current Start Date"
+msgstr "Улога во предмет"
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStatus.tpl
+msgid "Update Linked Cases Status?"
+msgstr ""
+
+#: templates/CRM/Case/Form/Activity/LinkCases.tpl
+msgid "Create link between %1 - %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
+msgstr "Креирајте линк помеѓу  %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Click Delete to move this &quot;%1&quot; activity to the Trash."
+msgstr "Кликнете на Избриши за да ја преместите оваа &quot;%1&quot; активност во отпад."
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Click Restore to retrieve this &quot;%1&quot; activity from the Trash."
+msgstr "Кликнете на Поврати за да ја повратите оваа &quot;%1&quot; активност од отпадот."
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With other contact(s)"
+msgstr "Со друг контакт(и)"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With client"
+msgstr "Со клиент"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "With client(s)"
+msgstr "Со клиент(и)"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid "Send a Copy"
+msgstr "Испрати копија"
+
+#: templates/CRM/Case/Form/Activity.tpl
+msgid ""
+"Email a complete copy of this activity record to other people involved with "
+"the case. Click the top left box to select all."
+msgstr "Испрати преку е-пошта целосна копија на записот за оваа активност до други лица инволвирани во предметот. Кликнете го горното лево поле за да ги селектирате сите."
+
+#: templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Search Filters"
+msgstr "Филтари за пребарување"
+
+#: templates/CRM/Case/Form/ActivityTab.tpl
+msgid "Reporter"
+msgstr "Известувач"
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "You can modify the activity subject before filing."
+msgstr "Можете да го измените субјектот на активноста пред архивирање."
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Move to Case"
+msgstr "Премести во предмет."
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Copy to Case"
+msgstr "Копирај во предмет."
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Please select a case from the list"
+msgstr "Изберете предмет од листата."
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Unable to file on case."
+msgstr "Не е можно да се заведе во предмет."
+
+#: templates/CRM/Case/Form/ActivityToCase.tpl
+msgid "Activity has been filed to %1 case."
+msgstr "Активноста е архивирана во %1 предмет."
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "Created On"
+msgstr "Креирано на"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "View this revision of the activity record."
+msgstr "Види ја оваа ревизија на записот за активноста."
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "List all revisions"
+msgstr "Излистај ги сите ревизии"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "(this is the current revision)"
+msgstr "(ова е тековна ревизија)"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "View current revision"
+msgstr "Види ја последната ревизија"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "(this is not the current revision)"
+msgstr "(ова не е последна ревизија)"
+
+#: templates/CRM/Case/Form/ActivityView.tpl
+msgid "Prompted by"
+msgstr "Побарано од"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Introduce yourself and your role within our organization."
+msgstr "Претставете се себеси и вашата улога во организацијата."
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid ""
+"&quot;All of the information that you provide to us or any of our "
+"representatives and service providers will be held in strictest confidence. "
+"It will not be used for any purpose other than to help you, and for any "
+"other purpose that you authorize in writing, or which is required by "
+"law.&quot;"
+msgstr "&quot;Сите информации кои ќе ни ги дадете нам или на било кој од нашите претставници добавувачи на услуги ќе се чуваат како строго доверливи. Нема да се користат во други цели, освен за давање на помош на вам, како и во други цели за кои ќе дадете писмено овластување или кои се задолжителни според закон&quot;"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "&quot;Please tell me what you would like to discuss.&quot;"
+msgstr "&quot;Кажете ми за што сакате да дискутираме.&quot;"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Reflect client's story back to them."
+msgstr "Прераскажете им ја на клиентите нивната приказна."
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Guess client's feelings and needs."
+msgstr "Проценете ги чувствата и потребите на клиентите."
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "&quot;May I now ask you some screening questions?&quot;"
+msgstr "&quot;Може ли сега да ви поставам неколку прашања за проценка?&quot;"
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Record details about this activity here."
+msgstr "Забележете ги деталите за оваа активност овде."
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid "Provide a one-line summary of what this case is about."
+msgstr "Краток опис на предметот, во еден ред."
+
+#: templates/CRM/Case/Form/Case.hlp
+msgid ""
+"Offer the appropriate service from the list. If the service requires "
+"coordination, contact the Director."
+msgstr "Понудете соодветна услуга од листата. Ако услугата бара соработка, обратете се на директорот."
+
+#: templates/CRM/Case/Form/Case.tpl
+msgid ""
+"Click Delete to move this case and all associated activities to the Trash."
+msgstr "Кликнете на Избриши да да го преместите овој предмет и сите поврзани активности во отпад."
+
+#: templates/CRM/Case/Form/Case.tpl
+msgid ""
+"Click Restore to retrieve this case and all associated activities from the "
+"Trash."
+msgstr "Кликнете на Поврати за да го повратите овој предмет и активноста од отпад."
+
+#: templates/CRM/Case/Form/CaseFilter.tpl
+msgid "Filter by Case"
+msgstr ""
+
+#: templates/CRM/Case/Form/CaseView.js
+msgid "Add the %1 set of scheduled activities to this case?"
+msgstr "Додади %1 сет од закажани активности на овој случај?"
+
+#: templates/CRM/Case/Form/CaseView.js
+msgid "Please select a value"
+msgstr "Ве молиме изберете вредност"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Clients:"
+msgstr "Клиенти:"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add Client"
+msgstr "Додади клиент"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "DOB"
+msgstr "Датум на раѓање"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case type (creates activity record)"
+msgstr "Смени тип на предмет (креира запис за активност)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case status (creates activity record)"
+msgstr "Смени статус на предмет (креира запис за активност)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change case start date (creates activity record)"
+msgstr "Смени почетен датум на предмет (креира запис за активност)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Export Document"
+msgstr "Пренеси документ"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Roles"
+msgstr "Улоги"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add new role"
+msgstr "Додади нова улога"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Assign To"
+msgstr "Додели"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Change To"
+msgstr "Смени во"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Are you sure you want to end this relationship?"
+msgstr "Дали сте сигурни дека сакате да ја завршите оваа врска?"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Other Relationships"
+msgstr "Други врски"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add client relationship"
+msgstr "Додади врска со клиент"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add members to %1"
+msgstr "Додади членови во %1"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "- select contacts -"
+msgstr "- селектирај контакти -"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Case Tags"
+msgstr "Белези на предмет"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "There are no tags currently assigned to this case."
+msgstr "Во моментов нема белези доделени на овој предмет."
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Add Tags"
+msgstr "Додади белези"
+
+#: templates/CRM/Case/Form/EditClient.tpl
+msgid "This is case is currently assigned to %1."
+msgstr "Овој предмет е во моментов доделен на %1."
+
+#: templates/CRM/Case/Form/Report.tpl
+msgid "Report Parameters"
+msgstr "Параметри за извештај"
+
+#: templates/CRM/Case/Form/Search/EmptyResults.tpl
+msgid "if you are searching by client name, check your spelling"
+msgstr "Ако пребарувате по име на клиент, проверете го вашиот внес"
+
+#: templates/CRM/Case/Form/Selector.tpl
+msgid "Find more cases"
+msgstr "Пронајди повеќе предмети"
+
+#: templates/CRM/Case/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected cases? This will move the "
+"case(s) and all associated activities to the Trash."
+msgstr " Дали сте сигурни дека сакате да ги избришете избраните предмети? Ова ќе ги отстрани предметите и сите поврзани активности."
+
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Most Recent Activity"
+msgstr "Најскорешна активност"
+
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Next Scheduled Activity"
+msgstr "Следна планирана активност"
+
+#: templates/CRM/Case/Form/Task/Restore.tpl
+msgid ""
+"Are you sure you want to restore the selected cases? This operation will "
+"retrieve the case(s) and all associated activities from Trash."
+msgstr "Дали сте сигурни дека сакате да ги повратите избраните предмети? Оваа операција ќе ги поврати предметите и сите поврзани активности од отпадот."
+
+#: templates/CRM/Case/Form/Task.tpl
+msgid "Number of selected cases: %1"
+msgstr "Број на селектирани предмети: %1"
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid ""
+"You need to setup and load Case and Activity configuration files before you "
+"can begin using the CiviCase component."
+msgstr "Морате да ги прилагодите и вчитате конфигурациските фајлови за предметите и активностите пред да почнете со користење на CiviCase компонентата."
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid "Refer to the %1 to learn about this process."
+msgstr "Погледнете %1 за да дознаете повеќе за овој процес."
+
+#: templates/CRM/Case/Page/ConfigureError.tpl
+msgid "CiviCase Setup documentation"
+msgstr "CiviCaseДокументација за прилагодување"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "Find My Cases"
+msgstr "Пронајди ги Моите предмети"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases with Upcoming Activities"
+msgstr "Сите предмети со претстојни активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases with Upcoming Activities"
+msgstr "Мои предмети со претстојни активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "Summary of All Cases"
+msgstr "Краток преглед на сите предмети"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases With Upcoming Activities"
+msgstr "Мои предмети со идни активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases With Upcoming Activities"
+msgstr "Сите предмети со идни активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid ""
+"There are no open cases with activities scheduled in the next two weeks. Use"
+" %1 to expand your search."
+msgstr "Нема отворени предмети со закажани активности во наредните две недели. Искористете %1 за да го проширите пребарувањето."
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "My Cases With Recently Performed Activities"
+msgstr "Мои предмети со неодамна реализирани активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid "All Cases With Recently Performed Activities"
+msgstr "Сите предмети со неодамна реализирани активности"
+
+#: templates/CRM/Case/Page/DashBoard.tpl
+msgid ""
+"There are no cases with activities scheduled in the past two weeks. Use %1 "
+"to expand your search."
+msgstr " Нема предмети со закажани активности во претходните две недели. Искористете %1 за да го проширите пребарувањето."
+
+#: templates/CRM/Case/Page/DashboardSelector.tpl
+msgid "Manager"
+msgstr "Менаџер"
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Oops, It looks like there are no active case types."
+msgstr "Изгледа дека нема активни типови на активности."
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Enable <a href='%1'>case types</a>."
+msgstr "Вклучи <a href='%1'>типови на активности</a>."
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "This page lists all case records for %1."
+msgstr "Оваа страница ги листа  сите записи во врска со предметот за %1."
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "Click <a %1>Add Case</a> to add a case record for this contact."
+msgstr "Кликнете на <a %1>Додади предмет</a> за да го додадете записот во врска со предметот за овој контакт."
+
+#: templates/CRM/Case/Page/Tab.tpl
+msgid "There are no case records for this contact."
+msgstr "Нема записи за предмет за овој контакт."
+
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Activity Summary"
+msgstr "Краток преглед на активност"
+
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Your Case Role(s)"
+msgstr "Ваша улога (улоги) во предметот."
+
+#: CRM/Case/BAO/Case.php CRM/Case/Selector/Search.php
+msgid "(deleted)"
+msgstr ""
+
+#: CRM/Case/Task.php
+msgid "Print/merge Document"
+msgstr "Печатење/спојување на документ"

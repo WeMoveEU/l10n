@@ -3,10 +3,10 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Adam Stachowicz <saibamenppl@gmail.com>, 2015
-# Dariusz Koryto <nowydako@gmail.com>, 2012
+# Saibamen <saibamenppl@gmail.com>, 2015
+# dk <nowydako@gmail.com>, 2012
 # Gimbus <maciek.dabrowski@wspolpracownia.pl>, 2013
-# Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2016
+# Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2016-2020
 # mrt, 2013
 # Piotr Kaczyński <www@skrzydla.lublin.pl>, 2015
 # Piotr Szotkowski <chastell@chastell.net>, 2011
@@ -14,15 +14,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-17 20:40+0000\n"
+"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: CRM/Pledge/BAO/Pledge.php CRM/Pledge/Form/PledgeView.php
 #: CRM/Pledge/Selector/Search.php
@@ -50,13 +50,27 @@ msgstr "Data płatności"
 msgid "Pledge Payment Status"
 msgstr "Status zadeklarowanych płatności "
 
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "%1 - due on %2 (overdue)"
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "Jednostka Częstotliwości Deklaracji"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "Częstotliwość deklarowanych wpłat"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
 msgstr ""
 
 #: CRM/Pledge/BAO/PledgeBlock.php
+msgid "%1 - due on %2 (overdue)"
+msgstr "%1 należne do %2 (przeterminowane)"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2"
-msgstr ""
+msgstr "%1 - należne %2"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid ""
@@ -75,9 +89,29 @@ msgstr "Chcę dokonać jednorazowej wpłaty."
 msgid "I pledge to contribute this amount every"
 msgstr "Deklaruję, że będę dokonywać płatności tej kwoty co"
 
-#: CRM/Pledge/BAO/PledgeBlock.php CRM/Pledge/DAO/Pledge.php
-msgid "Pledge Frequency Interval"
-msgstr "Częstotliwość deklarowanych wpłat"
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
+msgstr "Interwał częstotliwości"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
+msgstr ""
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "Płatność pierwszej raty"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "Dzień miesiąca płatności raty"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "Potwierdzenie deklaracji wysłane"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "Potwierdzenie deklaracji nie wysłane"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test"
@@ -92,12 +126,20 @@ msgid "Financial Page - %1"
 msgstr "Strona finansowa - 1%"
 
 #: CRM/Pledge/BAO/Query.php
-msgid "Contact ID %1 %2"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test?"
 msgstr "Testowa deklaracja płatności?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "Potwierdzenie wysłać?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "Proszę wprowadzić liczbę."
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "Proszę wprowadzić liczbę."
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter valid Pledge Frequency Interval"
@@ -108,44 +150,100 @@ msgid "Pledge Frequency"
 msgstr "Częstotliwość wpłat"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Contribution Page"
 msgstr "Strona deklaracji płatności"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
+msgstr "Łącznie zadeklarowana kwota"
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Original Installment Amount"
 msgstr "Pierwotna wysokość raty"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Currency"
 msgstr "Zestaw walut"
 
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Frequency Unit"
-msgstr "Jednostka Częstotliwości Deklaracji"
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
+msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge day"
 msgstr "Dzień deklarowania"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Number of Installments"
 msgstr "Deklarowana ilość rat"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
+msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Acknowledged"
 msgstr "Deklarowana wpłata potwierdzona"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Modified Date"
 msgstr "Data modyfikacji zadeklarowanej wpłaty"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
+msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Cancelled Date"
 msgstr "Data anulowania deklarowanej wpłaty"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
+msgstr ""
+
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Maximum Number of Reminders"
 msgstr "Maksymalna liczba przypomnień"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
+msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
@@ -153,32 +251,111 @@ msgid "Initial Reminder Day"
 msgstr "Pierwszy dzień przypomnienia"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Additional Reminder Days"
 msgstr "Dodatkowe dni przypomnień"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
+msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Status Id"
 msgstr "Identyfikator statusu deklaracji"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "ID bloku deklaracji"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
+msgstr ""
+
 #: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Entity Id"
 msgstr "Numer identyfikacyjny jednostki"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "Pokazać częstotliwość wpłat?"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "Pozwól na edycję daty rozpoczęcia wpłaty cyklicznej."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
+msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
 msgid "Scheduled Amount"
 msgstr "Zaplanowana kwota"
 
 #: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgePayment.php
 msgid "Actual Amount"
 msgstr "Kwota rzeczywista "
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
+msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Last Reminder"
 msgstr "Ostatnie przypomnienie"
 
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
+msgstr ""
+
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Reminders Sent"
 msgstr "Wysłane przypomnienia"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
+msgstr ""
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Edit Scheduled Pledge Payment"
@@ -218,9 +395,9 @@ msgstr "Proszę wprowadzić właściwą datę płatności."
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "each"
-msgstr "każdy/co"
+msgstr "co"
 
-#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
+#: CRM/Pledge/Form/Pledge.php
 msgid "Payments Start"
 msgstr "Początek płatności"
 
@@ -297,19 +474,32 @@ msgid "Pledger Name"
 msgstr "Osoba deklarująca"
 
 #: CRM/Pledge/Form/Search.php
+msgid "Pledger Tag(s)"
+msgstr ""
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr ""
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
+msgstr ""
+
+#: CRM/Pledge/Form/Search.php
 msgid "Find Pledges"
 msgstr "Znajdź deklarowane kwoty"
 
-#: CRM/Pledge/Form/Task/Delete.php CRM/Pledge/Task.php
+#: CRM/Pledge/Form/Task/Delete.php
 msgid "Delete Pledges"
 msgstr "Usuń zobowiązanie"
 
 #: CRM/Pledge/Form/Task/Delete.php
 msgid "%count pledge deleted."
 msgid_plural "%count pledges deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Usunięto %count deklarację"
+msgstr[1] "Usunięto %count deklaracji."
+msgstr[2] "Usunięto %count deklaracji."
+msgstr[3] "Usunięto %count deklaracji."
 
 #: CRM/Pledge/Form/Task/Print.php
 msgid "Print Pledge List"
@@ -339,7 +529,7 @@ msgstr "Utwórz i zaktualizuj deklaracje"
 msgid "delete in CiviPledge"
 msgstr "usuń w CiviDeklaracje"
 
-#: CRM/Pledge/Info.php
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
 msgid "Delete pledges"
 msgstr "Skasuj deklaracje"
 
@@ -392,12 +582,12 @@ msgid "Pledge Search"
 msgstr "Szukaj deklaracji"
 
 #: CRM/Pledge/Task.php
-msgid "Export Pledges"
-msgstr "Eksportuj deklarowane kwoty"
+msgid "Export pledges"
+msgstr "Eksportuj deklaracje"
 
 #: templates/CRM/Pledge/Form/Payment.tpl
 msgid "Adjust scheduled amount"
-msgstr ""
+msgstr "Ustaw zaplanowaną kwotę"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
@@ -482,7 +672,7 @@ msgstr "Deklarowane wpłaty są \"oczekujące\", aż pierwsza wpłata zostanie d
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "Click OK to save this Pledge record AND send an acknowledgment to %1 now."
-msgstr ""
+msgstr "Kliknij OK aby zapisać deklarację i WYSŁAĆ potwierdzenie do %1 teraz."
 
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Pledge By"
@@ -497,20 +687,8 @@ msgid "Maximum Reminders Send"
 msgstr "Maksymalna liczba przypomnień"
 
 #: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payment Scheduled"
-msgstr "Zaplanowana płatność"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Amounts"
 msgstr "Zadeklarowana kwota"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Start Date"
-msgstr "Początek płatności"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Ended Date"
-msgstr "Data zakończenia płatności"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
@@ -529,14 +707,6 @@ msgid "Click arrow to view pledge payments."
 msgstr "Kliknij strzałkę, aby wyświetlić płatności."
 
 #: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Show payments"
-msgstr "Pokaż płatności"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Hide payments"
-msgstr "Ukryj płatności"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Find more pledges"
 msgstr "Wyszukaj więcej deklarowanych wpłat"
 
@@ -552,12 +722,12 @@ msgid "To Be Paid"
 msgstr "Do zapłacenia"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Begining Date"
+msgid "Beginning Date"
 msgstr "Początkowa data"
 
 #: templates/CRM/Pledge/Form/Task.tpl
 msgid "Number of selected pledges: %1"
-msgstr "Liczba wybranych deklaracji: 1%"
+msgstr "Liczba wybranych deklaracji: %1"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Pledge Summary"
@@ -632,7 +802,7 @@ msgid ""
 "Your site administrator must configure the scheduled job (Administer > "
 "System Settings > Scheduled Jobs) which updates pledge payment statuses and "
 "sends the reminders."
-msgstr ""
+msgstr "Administrator Twojej strony musi najpierw skonfigurować zaplanowane zadania (Administracja > Ustawienia systemu > Zaplanowane zadania), które będzie aktualizować statusy płatności dla deklaracji i wysyłać przypomnienia."
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
@@ -654,7 +824,7 @@ msgstr "Wpłaty 1% otrzymane od początku."
 msgid ""
 "Click <a %1>Add Pledge</a> to record a new pledge received from this "
 "contact."
-msgstr ""
+msgstr "Kliknij <a %1>Dodaj deklarację</a> aby dodać nową deklarację dla tego kontaktu."
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "No pledges have been recorded from this contact."
@@ -674,7 +844,7 @@ msgstr "Brak zapisanych deklaracji"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Pledges made in your honor."
-msgstr "Wpłaty dokonane w twoim imnieniu/ na twoją cześć ...?\nnie wię"
+msgstr "Wpłaty dokonane w twoim imieniu."
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Pledger"
@@ -690,13 +860,13 @@ msgstr "Potwierdzenie wysłano"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 msgid "dear %1"
-msgstr "drogi 1%"
+msgstr "Drogi %1"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 msgid ""
 "thank you for your generous pledge. please print this acknowledgment for "
 "your records."
-msgstr "Dziękujemy za hojną wpłatę. Proszę wydrukować potwierdzenie dla dokumentacji."
+msgstr "Dziękujemy za hojną wpłatę. Proszę wydrukować potwierdzenie dla Twojej dokumentacji."
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -720,7 +890,7 @@ msgstr "Harmonogram płatności"
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "%1 every %2 %3 for %4 installments."
-msgstr "1% każdej raty 2% 3% 4%"
+msgstr "1% każdej raty %2 %3 %4"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -764,7 +934,7 @@ msgstr "Dziękujemy za hojną wpłatę. Proszę wydrukować potwierdzenie dla do
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "This is a reminder that the next payment on your pledge is due on %1."
-msgstr "Jest to przypomnienie, że następna deklarowana wpłata 1%  jest należna w dniu"
+msgstr "Jest to przypomnienie, że następna deklarowana wpłata %1  jest należna w dniu"
 
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 msgid "Go to a web page where you can make your payment online"
@@ -783,51 +953,3 @@ msgstr "Dziękujemy za Twoje hojne wsparcie"
 #: xml/templates/message_templates/pledge_reminder_subject.tpl
 msgid "Pledge Payment Reminder"
 msgstr "Przypomnienie deklarowanej płatności"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "First installment payment"
-msgstr ""
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "Day of month installments paid"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement Sent"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement  Not Sent"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Acknowledgement sent?"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter a number"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter number."
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Block ID"
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Expose Frequency Interval?"
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Allow Edits to Recurring Donation Start Date?"
-msgstr ""
-
-#: CRM/Pledge/Task.php
-msgid "Export pledges"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Beginning Date"
-msgstr "Początkowa data"

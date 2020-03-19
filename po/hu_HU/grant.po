@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Piotr Szotkowski <chastell@chastell.net>, 2011
-# Szabo Attila <atekka@gmail.com>, 2013
-# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2017
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-10 16:02+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-10 12:39+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,10 @@ msgid "Grant Application Received Date is NULL"
 msgstr "Támogatásra bejelentkezés beérkezési dátuma NULL"
 
 #: CRM/Grant/BAO/Query.php
+msgid "Grant Due Date"
+msgstr "Adomány határideje"
+
+#: CRM/Grant/BAO/Query.php
 msgid "Grant Due Date is NULL"
 msgstr "Támogatás határideje NULL "
 
@@ -39,53 +43,95 @@ msgstr "Támogatás határideje NULL "
 msgid "Grant Decision Date is NULL"
 msgstr "Adományozási döntés dátuma NULL"
 
-#: CRM/Grant/BAO/Query.php
-msgid "App. Received Date - From"
-msgstr "Jelentkezés megérkezett dátuma - tól"
+#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Form/Search/Common.tpl
+msgid "Grant Type(s)"
+msgstr "Támogatás típus(ok)"
+
+#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Form/Search/Common.tpl
+msgid "Grant Status(s)"
+msgstr "Támogatás állapota(ok)"
 
 #: CRM/Grant/BAO/Query.php
-msgid "Money Sent Date - From"
-msgstr "Pénz elutalva dátuma - tól"
+msgid "Grant Report Received = %1"
+msgstr "Támogatási jelentés megérkezett =%1"
 
 #: CRM/Grant/BAO/Query.php
-msgid "Report Due Date - From"
-msgstr "Beszámoló határidejének dátuma - tól"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date - From"
-msgstr "Adományozási döntés dátuma -tól"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant report received?"
-msgstr "Adományozási jelentés megérkezett?"
+msgid "Date is not set"
+msgstr "Dátum nincs megadva"
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant ID"
 msgstr "Adomány azonosítója"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Unique Grant id"
+msgstr "Egyedi támogatás azonosító"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Contact ID of contact record given grant belongs to."
+msgstr "A támogatást kapott kapcsolat rekord kapcsolat azonosítója. "
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Application received date"
 msgstr "Jelentkezés megérkezésének dátuma"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant application was received by donor."
+msgstr "A támogatóhoz beérkezett támogatási kérelem beérkezési dátuma. "
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Decision date"
 msgstr "Döntés dátuma"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant decision was made."
+msgstr "Támogatási döntés dátuma."
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Grant Money transfer date"
 msgstr "Pénz adomány átutalásának dátuma"
 
 #: CRM/Grant/DAO/Grant.php
-msgid "Grant Due Date"
-msgstr "Adomány határideje"
+msgid "Date on which grant money transfer was made."
+msgstr "A támogatás kifizetési dátuma."
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Grant Report Due Date"
+msgstr "Támogatási jelentés határideje"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant report is due."
+msgstr "Támogatási jelentés benyújtási határideje"
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant report received"
 msgstr "Adomány jelentés megérkezett"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Yes/No field stating whether grant report was received by donor."
+msgstr "Igen/Nem mező annak jelzésére, hogy a támogatási jelentést a támogató megkapta-e."
+
+#: CRM/Grant/DAO/Grant.php
+msgid ""
+"Type of grant. Implicit FK to civicrm_option_value in grant_type "
+"option_group."
+msgstr "Támogatás típusa. Közvetlen FK a ivicrm_option_value  a  grant_type option_group opció csoportban."
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Requested grant amount, in default currency."
+msgstr "A kért támogatás összege, az alapértelmezett pénznemben."
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Requested grant amount, in original currency (optional)."
+msgstr "A kért támogatás összege, az eredeti pénznemben (opcionális)."
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Amount granted"
 msgstr "Összeg adományozva "
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Granted amount, in default currency."
+msgstr "Megítélt összeg, alapértelmezett pénznemben."
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant Currency"
@@ -94,6 +140,14 @@ msgstr "Támogatás pénzneme"
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant Rationale"
 msgstr "Támogatás indoklása"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Grant rationale."
+msgstr "Támogatás indoklása."
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Id of Grant status."
+msgstr "Támogatás állapot azonosítója."
 
 #: CRM/Grant/Form/Grant.php templates/CRM/Grant/Form/GrantView.tpl
 msgid "Grant Report Received?"
@@ -111,7 +165,7 @@ msgstr "Jelentkező"
 msgid "Find Grants"
 msgstr "Támogatások keresése"
 
-#: CRM/Grant/Form/Task/Delete.php CRM/Grant/Task.php
+#: CRM/Grant/Form/Task/Delete.php
 msgid "Delete Grants"
 msgstr "Támogatások törlése"
 
@@ -125,7 +179,7 @@ msgstr[1] "%count támogatások törölve."
 msgid "Print Grant List"
 msgstr "Adomány lista kinyomtatása"
 
-#: CRM/Grant/Form/Task/Update.php CRM/Grant/Task.php
+#: CRM/Grant/Form/Task/Update.php
 msgid "Update Grants"
 msgstr "Adományok frissítése"
 
@@ -153,7 +207,7 @@ msgstr "Támogatások létrehozása és frissítése"
 msgid "delete in CiviGrant"
 msgstr "CiviTámogatás törlése"
 
-#: CRM/Grant/Info.php
+#: CRM/Grant/Info.php CRM/Grant/Task.php
 msgid "Delete grants"
 msgstr "Támogatások törlése"
 
@@ -182,8 +236,12 @@ msgid "Granted"
 msgstr "Támogatott"
 
 #: CRM/Grant/Task.php
-msgid "Export Grants"
+msgid "Export grants"
 msgstr "Adományok exportálása"
+
+#: CRM/Grant/Task.php
+msgid "Update grants"
+msgstr "Adományok frissítése"
 
 #: templates/CRM/Grant/Form/Grant.tpl
 msgid "Are you sure you want to delete this Grant?"
@@ -193,7 +251,7 @@ msgstr "Biztos hogy törölni akarod ezt az Adományt?"
 msgid "Amount requested for grant in original currency (if different)."
 msgstr "Az adományhoz kérvényezett összeg az eredeti pénznemben (ami különböző)."
 
-#: templates/CRM/Grant/Form/Grant.tpl templates/CRM/Grant/Form/Task/Update.tpl
+#: templates/CRM/Grant/Form/Grant.tpl
 msgid "Date on which the grant decision was finalized."
 msgstr "Mely napon született meg adománnyal kapcsolatos határozat. "
 
@@ -204,18 +262,6 @@ msgstr "Mely napon lett az adomány összege átutalva. "
 #: templates/CRM/Grant/Form/GrantView.tpl
 msgid "(original currency)"
 msgstr "(eredeti pénznem)"
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Grant Status(s)"
-msgstr "Támogatás állapota(ok)"
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Grant Type(s)"
-msgstr "Támogatás típus(ok)"
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Date is not set"
-msgstr "Dátum nincs megadva"
 
 #: templates/CRM/Grant/Form/Search/EmptyResults.tpl
 msgid "if you are searching by Contact name, check your spelling"
@@ -241,10 +287,6 @@ msgstr "Biztos hogy törölni akarod a kiválasztott adományokat? A törlést n
 #: templates/CRM/Grant/Form/Task/Print.tpl
 msgid "Amount Requested(orig. currency)"
 msgstr "Kért összeg (eredeti pénznem)"
-
-#: templates/CRM/Grant/Form/Task/Print.tpl
-msgid "Application Recieved"
-msgstr "Jelentkezést megkaptuk"
 
 #: templates/CRM/Grant/Form/Task/SearchTaskHookSample.tpl
 msgid "Decision Date"
@@ -312,10 +354,22 @@ msgstr "Kattinson az <a %1>Adomány hozzáadására</a>, hogy rögzítse az adom
 msgid "No grants have been recorded for this contact."
 msgstr "Nincsenek adományok rögzítve ehhez a kapcsolathoz."
 
-#: CRM/Grant/Task.php
-msgid "Export grants"
-msgstr "Adományok exportálása"
+#: CRM/Grant/BAO/Query.php
+msgid "App. Received Date - From"
+msgstr "Jelentkezés megérkezett dátuma - tól"
 
-#: CRM/Grant/Task.php
-msgid "Update grants"
-msgstr "Adományok frissítése"
+#: CRM/Grant/BAO/Query.php
+msgid "Money Sent Date - From"
+msgstr "Pénz elutalva dátuma - tól"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Report Due Date - From"
+msgstr "Beszámoló határidejének dátuma - tól"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Grant Decision Date - From"
+msgstr "Adományozási döntés dátuma -tól"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Grant report received?"
+msgstr "Adományozási jelentés megérkezett?"

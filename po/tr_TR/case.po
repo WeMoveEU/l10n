@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016,2018-2019
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-06 01:42+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-03 06:18+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -18,27 +18,36 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: CRM/Case/BAO/Case.php templates/CRM/Case/Page/DashboardSelector.tpl
+#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
+#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Client"
+msgstr "Müşteri"
+
+#: CRM/Case/BAO/Case.php
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "View activity"
-msgstr "İşlemlere bakın"
+msgstr "İşlemleri görüntüle"
 
 #: CRM/Case/BAO/Case.php
-msgid "no subject"
-msgstr "konu yok"
-
-#: CRM/Case/BAO/Case.php
-msgid "(multiple)"
-msgstr "(birden çok)"
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Edit activity"
+msgstr "İşlemi düzenle"
 
 #: CRM/Case/BAO/Case.php
 msgid "Move To Case"
-msgstr "Olayı Taşıyın"
+msgstr "Olayı Taşı"
 
 #: CRM/Case/BAO/Case.php
 msgid "Copy To Case"
-msgstr "Olayı Kopyalayın"
+msgstr "Olayı Kopyala"
+
+#: CRM/Case/BAO/Case.php
+msgid "%1 - copy sent to %2"
+msgstr ""
 
 #: CRM/Case/BAO/Case.php
 msgid "File %1 does not exist or is not readable"
@@ -51,7 +60,7 @@ msgstr "KİME: alanındaki olay kodu geçersiz (%1)."
 #: CRM/Case/BAO/Case.php
 msgid ""
 "FROM email contact %1 doesn't have a relationship to the referenced case."
-msgstr "%1 GÖNDEREN e-posta kişisinin belirtilen olay ile ilgisi yok."
+msgstr "%1 KİMDEN e-posta kişisinin belirtilen olay ile ilgisi yok."
 
 #: CRM/Case/BAO/Case.php
 msgid "Role in Case"
@@ -59,7 +68,7 @@ msgstr "Olaydaki Rol"
 
 #: CRM/Case/BAO/Case.php
 msgid "View Case"
-msgstr "Olaya Bakın"
+msgstr "Olayı Görüntüle"
 
 #: CRM/Case/BAO/Case.php
 msgid "Case %1 reassigned client from %2 to %3. New Case ID is %4."
@@ -80,7 +89,7 @@ msgid ""
 "You can not delete this case type -- it is assigned to %1 existing case "
 "record(s). If you do not want this case type to be used going forward, "
 "consider disabling it instead."
-msgstr "%1 varolan olay kaydına atanmış olduğundan bu işlem türünü silemezsiniz. Bu olay türünü kullanmayacaksanız silmek yerine devre dışı bırakmayı düşünün."
+msgstr "%1 var olan olay kaydına atanmış olduğundan bu işlem türünü silemezsiniz. Bu olay türünü kullanmayacaksanız silmek yerine devre dışı bırakmayı düşünün."
 
 #: CRM/Case/BAO/Query.php
 msgid "Case %1 My Cases"
@@ -151,28 +160,122 @@ msgid "Only My Cases"
 msgstr "Yalnız Olaylarımda "
 
 #: CRM/Case/BAO/Query.php
+msgid "Search Cases with Upcoming Activities"
+msgstr "Yaklaşan İşlemleri Bulunan Olayları Ara"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tag(s)"
+msgstr "Olay Etiketleri"
+
+#: CRM/Case/BAO/Query.php
 msgid "Deleted Cases"
 msgstr "Silinmiş Olaylarda"
 
 #: CRM/Case/DAO/Case.php
+msgid "Unique Case ID"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "FK to civicrm_case_type.id"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Short name of the case."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case starts."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case ends."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Details about the meeting (agenda, notes, etc)."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Id of case status."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
 msgid "Case is in the Trash"
 msgstr "Olay Çöp Kutusunda"
+
+#: CRM/Case/DAO/Case.php
+msgid "When was the case was created."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid ""
+"When was the case (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case Activity ID"
+msgstr "Olay İşlem Kodu"
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Unique case-activity association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Activity ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case Contact ID"
+msgstr "Olay kişi Kodu"
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Unique case-contact association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case ID of case-contact association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Contact ID of contact record given case belongs to."
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type ID"
 msgstr "Olay Türü Kodu"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Autoincremented type id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Name"
 msgstr "Olay Türü Adı"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Machine name for Case Type"
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Title"
 msgstr "Olay Türü Başlığı"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Natural language name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Description"
 msgstr "Olay Türü Açıklaması"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Description of the Case Type"
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Is Active"
@@ -183,8 +286,20 @@ msgid "Case Type Is Reserved"
 msgstr "Olay Türü Ayrılmış"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Is this case type a predefined system type?"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Ordering of the case types"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Definition"
 msgstr "Olay Türü Tanımı"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "xml definition of case type"
+msgstr ""
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
 #: CRM/Case/Form/Activity/ChangeCaseStatus.php
@@ -209,14 +324,6 @@ msgstr "Olay Başlangıç Tarihi değiştirildi."
 #: CRM/Case/Form/Activity/ChangeCaseStatus.php
 msgid "Case status changed from %1 to %2"
 msgstr "%1 olay durumu %2 olarak değiştirildi"
-
-#: CRM/Case/Form/Activity/ChangeCaseStatus.php
-msgid "Case Status changed successfully."
-msgstr "Olay durumu değiştirildi"
-
-#: CRM/Case/Form/Activity/ChangeCaseType.php ang/crmCaseType/list.html
-msgid "New Case Type"
-msgstr "Yeni Olay Türü"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Reset Case Timeline?"
@@ -260,7 +367,7 @@ msgstr "Bu olaya başka bir '%1' işlemi ekleyemezsiniz. %2"
 
 #: CRM/Case/Form/Activity.php
 msgid "Do you want to <a %1>edit the existing activity</a>?"
-msgstr "<a %1>Varolan işlemi düzenlemek</a> ister misiniz?"
+msgstr "<a %1>Var olan işlemi düzenlemek</a> ister misiniz?"
 
 #: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
 msgid "Reported By"
@@ -301,6 +408,18 @@ msgstr "Kişiler İle"
 msgid "Activity Revision History"
 msgstr "İşlem Sürümü Geçmişi"
 
+#: CRM/Case/Form/ActivityView.php CRM/Case/Page/DashBoard.php
+msgid "CiviCase Dashboard"
+msgstr "CiviCase Panosu"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Case/Form/CaseView.php
+msgid "- select type -"
+msgstr "- seçim türü -"
+
+#: CRM/Case/Form/AddToCaseAsRole.php
+msgid "Assign to"
+msgstr "Şuna ata"
+
 #: CRM/Case/Form/Case.php
 msgid "You do not have any active %1"
 msgstr "Herhangi bir etkin %1 ögeniz yok"
@@ -317,27 +436,26 @@ msgid "Client contact does not exist: %1"
 msgstr "Müşteri ilgilisi bulunamadı: %1"
 
 #: CRM/Case/Form/Case.php
-msgid "Select Tags"
-msgstr "Etiketleri Seçin"
-
-#: CRM/Case/Form/Case.php
 msgid ""
-"The selected case has been moved to the Trash. You can view and / or restore"
-" deleted cases by checking the \"Deleted Cases\" option under Find Cases.<br"
-" />"
-msgstr "Seçilmiş olay çöpe atıldı. Silinmiş olayları görmek ya da geri yüklemek için Olay Arama süzgecini 'Silinmiş Olaylar' olarak seçin."
+"You can view and / or restore deleted cases by checking the \"Deleted "
+"Cases\" option under Find Cases."
+msgstr "Silinmiş olayları görüntülemek ve geri yüklemek için Olay Arama bölümünde \"Silinmiş Olaylar\" seçeneğini işaretleyin."
 
 #: CRM/Case/Form/Case.php
 msgid "Case Deleted"
 msgstr "Olay Silindi"
 
 #: CRM/Case/Form/Case.php
-msgid "The selected case has been restored.<br />"
-msgstr "Seçilmiş olay geri yüklendi.<br />"
+msgid "The selected case has been restored."
+msgstr "Seçilmiş olay geri yüklendi."
 
 #: CRM/Case/Form/CaseView.php
 msgid "Related Cases"
 msgstr "İlgili Olaylar"
+
+#: CRM/Case/Form/CaseView.php
+msgid "You do not have permission to access this case."
+msgstr ""
 
 #: CRM/Case/Form/CaseView.php
 msgid "%1 Related Case"
@@ -347,7 +465,7 @@ msgstr[1] "%1 İlişkili Olay"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Add Activity"
-msgstr "İşlem Ekleyin"
+msgstr "İşlem Ekle"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activity Audit"
@@ -355,15 +473,7 @@ msgstr "İşlem Denetimi"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Add Timeline"
-msgstr "Zaman Akışı Ekleyin"
-
-#: CRM/Case/Form/CaseView.php
-msgid "Select Case for Merge"
-msgstr "Birleştirilecek Olayı Seçin"
-
-#: CRM/Case/Form/CaseView.php
-msgid "- select type -"
-msgstr "- seçim türü -"
+msgstr "Zaman Akışı Ekle"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activities from the %1 activity set have been added to this case."
@@ -389,13 +499,21 @@ msgstr "İşlem Tarihleri - Başlangıç"
 msgid "Deleted Activities"
 msgstr "Silinmiş İşlemler"
 
-#: CRM/Case/Form/EditClient.php
-msgid "Select Contact"
-msgstr "Kişi Seçin"
+#: CRM/Case/Form/CaseView.php
+msgid "(opened %1)"
+msgstr "(açılma %1)"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Select Case for Merge"
+msgstr "Birleştirilecek Olayı Seçin"
+
+#: CRM/Case/Form/CaseView.php
+msgid "- select case -"
+msgstr "- olay seçin -"
 
 #: CRM/Case/Form/EditClient.php
 msgid "Reassign Case"
-msgstr "Olayı Yeniden Atayın"
+msgstr "Olayı Yeniden Ata"
 
 #: CRM/Case/Form/EditClient.php
 msgid "Please select a different contact."
@@ -426,8 +544,8 @@ msgid "Find Cases"
 msgstr "Olay Arama"
 
 #: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete Cases"
-msgstr "Olayları Silin"
+msgid "Delete cases"
+msgstr "Olayları silin"
 
 #: CRM/Case/Form/Task/Delete.php
 msgid "%count case moved to trash."
@@ -443,11 +561,11 @@ msgstr[1] "%count olay kalıcı olarak silindi."
 
 #: CRM/Case/Form/Task/Print.php
 msgid "Print Case List"
-msgstr "Olay Listesini Yazdırın"
+msgstr "Olay Listesini Yazdır"
 
-#: CRM/Case/Form/Task/Restore.php CRM/Case/Task.php
+#: CRM/Case/Form/Task/Restore.php
 msgid "Restore Cases"
-msgstr "Olayları Geri Yükleyin"
+msgstr "Olayları Geri Yükle"
 
 #: CRM/Case/Form/Task/Restore.php
 msgid "%count case restored from trash."
@@ -474,30 +592,56 @@ msgid "administer CiviCase"
 msgstr "CiviCase yönetimi"
 
 #: CRM/Case/Info.php
+msgid "Define case types, access deleted cases"
+msgstr "Olay türleri tanımlayın, silinmiş olaylara erişin"
+
+#: CRM/Case/Info.php
 msgid "access my cases and activities"
 msgstr "olay ve işlemlerime erişim"
+
+#: CRM/Case/Info.php
+msgid "View and edit only those cases managed by this user"
+msgstr "Yalnız bu kullanıcı tarafından yönetilen olayları görüntüleyip düzenleyabilme"
 
 #: CRM/Case/Info.php
 msgid "access all cases and activities"
 msgstr "tüm olay ve işlemlere erişim"
 
 #: CRM/Case/Info.php
+msgid "View and edit all cases (for visible contacts)"
+msgstr "Tüm olayları görüp düzenleyebilme (görünen kişilerin)"
+
+#: CRM/Case/Info.php
 msgid "add cases"
 msgstr "olay ekleme"
 
 #: CRM/Case/Info.php
-msgid ""
-"Could not create the MySQL views for CiviCase. Your mysql user needs to have"
-" the 'CREATE VIEW' permission"
-msgstr "CiviCase için MySQL görünümleri oluşturulamadı. MySQL kullanıcınızın 'CREATE VIEW' iznine sahip olması gerekir"
+msgid "Open a new case"
+msgstr "Olay Ekle"
 
-#: CRM/Case/Page/AJAX.php
-msgid "closed"
-msgstr "kapalı"
+#: CRM/Case/Info.php
+msgid "Do not redact emails"
+msgstr "E-postalar düzeltilmesin"
 
-#: CRM/Case/Page/DashBoard.php
-msgid "CiviCase Dashboard"
-msgstr "CiviCase Panosu"
+#: CRM/Case/Info.php
+msgid "Redact emails"
+msgstr "E-postalar düzeltilsin"
+
+#: CRM/Case/Info.php
+msgid "Single client per case"
+msgstr "Her olayın bir müşterisi olabilsin"
+
+#: CRM/Case/Info.php
+msgid "Multiple client per case"
+msgstr "Her olayın bir kaç müşterisi olabilsin"
+
+#: CRM/Case/Info.php
+msgid "Definition order"
+msgstr "Açıklama sıralaması"
+
+#: CRM/Case/Info.php
+msgid "Alphabetical order"
+msgstr "Alfabetik sıralama"
 
 #: CRM/Case/Page/DashBoard.php
 msgid "You are not authorized to access all cases and activities."
@@ -514,16 +658,12 @@ msgstr "Olayı Silin"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Form/CaseView.tpl
 msgid "Assign to Another Client"
-msgstr "Başka Bir Müşteriye Atayın"
+msgstr "Başka Bir Müşteriye Ata"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Form/Task/Print.tpl
 #: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "My Role"
 msgstr "Rolüm"
-
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
-msgid "Most Recent"
-msgstr "Son İşlem"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Next Sched."
@@ -534,8 +674,16 @@ msgid "Case Search"
 msgstr "Olay Arama"
 
 #: CRM/Case/Task.php
-msgid "Export Cases"
-msgstr "Olayları Verin"
+msgid "Export cases"
+msgstr "Olayları Dışa Aktar"
+
+#: CRM/Case/Task.php
+msgid "Restore cases"
+msgstr "Olayı Geri Yükle"
+
+#: CRM/Case/Task.php
+msgid "Update multiple cases"
+msgstr "Birkaç olayı güncelle"
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid "Configuration file could not be retrieved for case type = '%1' %2."
@@ -599,6 +747,38 @@ msgid "ADC referral"
 msgstr "Bakıma Muhtaç Yaşlılar"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator is"
+msgstr "Evsizler Hizmet Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator"
+msgstr "Evsizler Hizmet Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator is"
+msgstr "Sağlık Hizmetleri Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator"
+msgstr "Sağlık Hizmetleri Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator is"
+msgstr "Yaşlılar Hizmetleri Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator"
+msgstr "Yaşlılar Hizmetleri Sorumlusu"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist is"
+msgstr "Yardım Uzmanı"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist"
+msgstr "Yardım Uzmanı"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Case Resources"
 msgstr "Olay Kaynakları"
 
@@ -608,7 +788,7 @@ msgstr "En Fazla Kopya"
 
 #: ang/crmCaseType/activityTypesTable.html
 msgid "Add activity type"
-msgstr "İşlem türü ekleyin"
+msgstr "İşlem türü ekle"
 
 #: ang/crmCaseType/caseTypeDetails.html
 msgid "WARNING: The case type name includes deprecated characters."
@@ -620,23 +800,43 @@ msgid ""
 "they must be updated manually."
 msgstr "UYARI: Eski \"Adı\" kullanan dış dosya ya da programlar varsa, bunlar el ile güncellenmelidir."
 
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Activity assignment settings"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Groups"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Website Users"
+msgstr ""
+
+#: ang/crmCaseType/edit.html ang/crmCaseType/list.html
+msgid "New Case Type"
+msgstr "Yeni Olay Türü"
+
 #: ang/crmCaseType/edit.html
 msgid ""
 "Use this screen to define or update the Case Roles, Activity Types, and "
 "Timelines for a case type."
-msgstr "Bir olay türü için Olay Rolleri, İşlem Türleri ve Zaman Akışları buradan ayarlanabilir."
+msgstr "Bir olay türü için Olay Rolleri, İşlem Türleri ve Zaman Akışları bu bölümden ayarlanabilir."
 
 #: ang/crmCaseType/edit.html
 msgid "Learn more..."
 msgstr "Ayrıntılı bilgi alın..."
 
-#: ang/crmCaseType/edit.html templates/CRM/Case/Form/CaseView.tpl
-msgid "Roles"
-msgstr "Roller"
+#: ang/crmCaseType/edit.html templates/CRM/Case/Audit/Report.tpl
+msgid "Case Roles"
+msgstr "Olay Rolleri"
+
+#: ang/crmCaseType/edit.html
+msgid "Case Statuses"
+msgstr "Olay Durumları"
 
 #: ang/crmCaseType/edit.html
 msgid "Add..."
-msgstr "Ekleyin..."
+msgstr "Ekle..."
 
 #: ang/crmCaseType/edit.html
 msgid "Timeline"
@@ -647,13 +847,17 @@ msgid "Sequence"
 msgstr "Sıralama"
 
 #: ang/crmCaseType/list.html
+msgid "Case Types"
+msgstr "Olay Türleri"
+
+#: ang/crmCaseType/list.html
 msgid ""
 "A Case Type describes a group of related tasks, interactions, or processes."
 msgstr "Bir Olay Türünde, ilişkili görev, iletişim ya da süreç grupları tanımlanır."
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Assign to Creator"
-msgstr "Oluşturana Atayın"
+msgstr "Oluşturana Ata"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Is Manager"
@@ -661,28 +865,44 @@ msgstr "Yönetici"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Add role"
-msgstr "Rol ekleyin"
+msgstr "Rol ekle"
+
+#: ang/crmCaseType/statusTable.html
+msgid "New Status"
+msgstr "Yeni Durum"
 
 #: ang/crmCaseType/timelineTable.html
 msgid "Reference"
 msgstr "Referans"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Offset"
+msgstr "Sapma"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Default assignee"
+msgstr "Varsayılan atanmış kişi"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Newest"
+msgstr "Yeni"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Oldest"
+msgstr "Eski"
+
+#: ang/crmCaseType.js
+msgid "new"
+msgstr "yeni"
 
 #: ang/crmCaseType.js
 msgid ""
 "The CiviCase XML file for this case-type prohibits editing the definition."
 msgstr "Bu olay türü için CiviCase XML dosyası açıklamanın düzenlenmesini engelliyor."
 
-#: templates/CRM/Case/Audit/Audit.tpl
-msgid "Incomplete"
-msgstr "Tamamlanmamış"
-
 #: templates/CRM/Case/Audit/Report.tpl
 msgid "Case Summary"
 msgstr "Olay Özeti"
-
-#: templates/CRM/Case/Audit/Report.tpl
-msgid "Case Roles"
-msgstr "Olay Rolleri"
 
 #: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/Activity.tpl
 #: templates/CRM/Case/Form/CaseView.tpl
@@ -701,9 +921,25 @@ msgstr "Müşteri İlişkileri"
 msgid "Case Activities"
 msgstr "Olay İşlemleri"
 
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"Selecting one or more groups here will limit the choices when assigning an "
+"activity."
+msgstr ""
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"This will limit the choices when selecting an activity assignee to contacts "
+"with a user account on this website."
+msgstr "Bu, işleme atanmış kişinin bu web sitesindeki bir kullanıcı hesabı ile ilişkili olması durumda seçenekleri sınırlar."
+
 #: templates/CRM/Case/Form/Activity/ChangeCaseStartDate.tpl
 msgid "Current Start Date"
 msgstr "Geçerli Başlangıç Tarihi"
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStatus.tpl
+msgid "Update Linked Cases Status?"
+msgstr "Bağlantılı Olayların Durumu Güncellensin mi?"
 
 #: templates/CRM/Case/Form/Activity/LinkCases.tpl
 msgid "Create link between %1 - %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
@@ -715,7 +951,7 @@ msgstr "Bu &quot;%1&quot; işlemini çöpe atmak için Silin üzerine tıklayın
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "Click Restore to retrieve this &quot;%1&quot; activity from the Trash."
-msgstr "Bu &quot;%1&quot; işlemini çöpten çıkarmak için Geri Yükleyin üzerine tıklayın."
+msgstr "Bu &quot;%1&quot; işlemini çöpten çıkarmak için Geri Yükle üzerine tıklayın."
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "With other contact(s)"
@@ -731,7 +967,7 @@ msgstr "Müşteriler ile"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "Send a Copy"
-msgstr "Bir Kopyasını Gönderin"
+msgstr "Bir Kopyasını Gönder"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid ""
@@ -744,9 +980,8 @@ msgid "Search Filters"
 msgstr "Arama Süzgeçleri"
 
 #: templates/CRM/Case/Form/ActivityTab.tpl
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "Reporter / Assignee"
-msgstr "Bildiren / Atanan"
+msgid "Reporter"
+msgstr "Raporlayan"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "You can modify the activity subject before filing."
@@ -758,7 +993,7 @@ msgstr "Olayı Taşıyın"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Copy to Case"
-msgstr "Olayı Kopyalayın"
+msgstr "Olayı Kopyala"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Please select a case from the list"
@@ -778,11 +1013,11 @@ msgstr "Oluşturulma"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "View this revision of the activity record."
-msgstr "İşlem kaydının bu sürümüne bakın."
+msgstr "İşlem kaydının bu sürümünü görüntüle."
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "List all revisions"
-msgstr "Tüm sürümlere bakın"
+msgstr "Tüm sürümleri görüntüle"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "(this is the current revision)"
@@ -790,7 +1025,7 @@ msgstr "(bu sürüm geçerli)"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "View current revision"
-msgstr "Geçerli sürüme bakın"
+msgstr "Geçerli sürümü görüntüle"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "(this is not the current revision)"
@@ -852,7 +1087,11 @@ msgstr "Bu olayı ve ilgili işlemleri çöpe atmak için Silin üzerine tıklay
 msgid ""
 "Click Restore to retrieve this case and all associated activities from the "
 "Trash."
-msgstr "Bu olayı ve ilgili işlemleri çöpten çıkarmak için Geri Yükleyin üzerine tıklayın."
+msgstr "Bu olayı ve ilgili işlemleri çöpten çıkarmak için Geri Yükle üzerine tıklayın."
+
+#: templates/CRM/Case/Form/CaseFilter.tpl
+msgid "Filter by Case"
+msgstr "Olaya Göre Süz"
 
 #: templates/CRM/Case/Form/CaseView.js
 msgid "Add the %1 set of scheduled activities to this case?"
@@ -868,7 +1107,7 @@ msgstr "Müşteriler:"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add Client"
-msgstr "Müşteri Ekleyin"
+msgstr "Müşteri Ekle"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "DOB"
@@ -876,23 +1115,27 @@ msgstr "Doğum Tarihi"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case type (creates activity record)"
-msgstr "Olay türünü değiştirin (işlem kaydı oluşturur)"
+msgstr "Olay türünü değiştir (işlem kaydı oluşturur)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case status (creates activity record)"
-msgstr "Olay durumunu değiştirin (işlem kaydı oluşturur)"
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Open Date"
-msgstr "Açılış Tarihi"
+msgstr "Olay durumunu değiştir (işlem kaydı oluşturur)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case start date (creates activity record)"
-msgstr "Olay başlangıç tarihini değiştirin (işlem kaydı oluşturur)"
+msgstr "Olay başlangıç tarihini değiştir (işlem kaydı oluşturur)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Export Document"
+msgstr "Belgeyi Dışa Aktar"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Roles"
+msgstr "Roller"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add new role"
-msgstr "Yeni rol ekleyin"
+msgstr "Yeni rol ekle"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Assign To"
@@ -903,8 +1146,8 @@ msgid "Change To"
 msgstr "Değiştirilecek"
 
 #: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to delete this case role?"
-msgstr "Bu olay rolünü silmek istediğinize emin misiniz?"
+msgid "Are you sure you want to end this relationship?"
+msgstr "Bu ilişkiyi bitirmek istediğinize emin misiniz?"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Other Relationships"
@@ -912,19 +1155,15 @@ msgstr "Diğer İlişkiler"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add client relationship"
-msgstr "Müşteri ilişkisi ekleyin"
+msgstr "Müşteri ilişkisi ekle"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add members to %1"
-msgstr "%1 içine üyeler ekleyin"
+msgstr "%1 içine üyeler ekle"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "- select contacts -"
 msgstr "- kişileri seçin -"
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "The group %1 has no members."
-msgstr "'%1' grubuna henüz bir üye eklenmemiş."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Case Tags"
@@ -936,7 +1175,7 @@ msgstr "Henüz olaya atanmış bir etiket yok."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add Tags"
-msgstr "Etiketler Ekleyin"
+msgstr "Etiketler Ekle"
 
 #: templates/CRM/Case/Form/EditClient.tpl
 msgid "This is case is currently assigned to %1."
@@ -946,26 +1185,13 @@ msgstr "%1 kişisine atanmış geçerli olaylar."
 msgid "Report Parameters"
 msgstr "Rapor Ayarları"
 
-#: templates/CRM/Case/Form/Search/Common.tpl
-msgid "Case Tag(s)"
-msgstr "Olay Etiketleri"
-
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 msgid "if you are searching by client name, check your spelling"
 msgstr "müşteri adına göre arıyorsanız, yazdığınız ifadeyi denetleyin"
 
 #: templates/CRM/Case/Form/Selector.tpl
-msgid "Show recent activities"
-msgstr "Son işlemlere bakın"
-
-#: templates/CRM/Case/Form/Selector.tpl
-msgid "Hide activities"
-msgstr "İşlemleri gizleyin"
-
-#: templates/CRM/Case/Form/Selector.tpl
-#: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Find more cases"
-msgstr "Diğer olayları arayın"
+msgstr "Diğer olayları ara"
 
 #: templates/CRM/Case/Form/Task/Delete.tpl
 msgid ""
@@ -990,10 +1216,6 @@ msgstr "Seçilmiş olayları geri yüklemek istediğinize emin misiniz? Bu işle
 #: templates/CRM/Case/Form/Task.tpl
 msgid "Number of selected cases: %1"
 msgstr "Seçilmiş olay sayısı: %1"
-
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "There are no activities defined for this case."
-msgstr "Bu olay için tanımlanmış bir işlem yok."
 
 #: templates/CRM/Case/Page/ConfigureError.tpl
 msgid ""
@@ -1057,19 +1279,13 @@ msgstr "Geçmiş iki hafta içinde zamanlanmış işlem görmüş bir olay yok. 
 msgid "Manager"
 msgstr "Yönetici"
 
-#: templates/CRM/Case/Page/DashboardSelector.tpl
-#: xml/templates/message_templates/case_activity_html.tpl
-#: xml/templates/message_templates/case_activity_text.tpl
-msgid "Edit activity"
-msgstr "İşlemi düzenleyin"
-
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Oops, It looks like there are no active case types."
 msgstr "Maalesef, etkin olay türü yok gibi görünüyor."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Enable <a href='%1'>case types</a>."
-msgstr "<a href='%1'>Olay türlerini</a> etkinleştirin."
+msgstr "<a href='%1'>Olay türlerini</a> etkinleştir."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "This page lists all case records for %1."
@@ -1077,7 +1293,7 @@ msgstr "Bu sayfada %1 için tüm olay kayıtları görüntüleniyor."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Click <a %1>Add Case</a> to add a case record for this contact."
-msgstr "Bu kişiye bir olay kaydı eklemek için <a %1>Olay Ekleyin</a> üzerine tıklayın."
+msgstr "Bu kişiye bir olay kaydı eklemek için <a %1>Olay Ekle</a> üzerine tıklayın."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "There are no case records for this contact."
@@ -1093,94 +1309,10 @@ msgstr "İşlem Özeti"
 msgid "Your Case Role(s)"
 msgstr "Olay Rolleriniz"
 
-#: CRM/Case/DAO/CaseActivity.php
-msgid "Case Activity ID"
-msgstr "Olay İşlem Kodu"
-
-#: CRM/Case/DAO/CaseContact.php
-msgid "Case Contact ID"
-msgstr "Olay kişi Kodu"
-
-#: CRM/Case/Form/CaseView.php
-msgid "(opened %1)"
-msgstr "(açılma %1)"
-
-#: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete cases"
-msgstr "Olayları silin"
-
-#: CRM/Case/Info.php
-msgid "Define case types, access deleted cases"
-msgstr "Olay türleri tanımlayın, silinmiş olaylara erişin"
-
-#: CRM/Case/Info.php
-msgid "View and edit only those cases managed by this user"
-msgstr "Yalnız bu kullanıcı tarafından yönetilen olayları görüntüleyip düzenleyabilme"
-
-#: CRM/Case/Info.php
-msgid "View and edit all cases (for visible contacts)"
-msgstr "Tüm olayları görüp düzenleyebilme (görünen kişilerin)"
-
-#: CRM/Case/Info.php
-msgid "Open a new case"
-msgstr "Olay Ekleyin"
-
-#: CRM/Case/Task.php
-msgid "Export cases"
-msgstr "Olayları Verin"
-
-#: CRM/Case/Task.php
-msgid "Restore cases"
-msgstr "Olayı Geri Yükleyin"
+#: CRM/Case/BAO/Case.php CRM/Case/Selector/Search.php
+msgid "(deleted)"
+msgstr ""
 
 #: CRM/Case/Task.php
 msgid "Print/merge Document"
 msgstr "Belgeyi Yazdır/Birleştir"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator is"
-msgstr "Evsizler Hizmet Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator"
-msgstr "Evsizler Hizmet Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator is"
-msgstr "Sağlık Hizmetleri Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator"
-msgstr "Sağlık Hizmetleri Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator is"
-msgstr "Yaşlılar Hizmetleri Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator"
-msgstr "Yaşlılar Hizmetleri Sorumlusu"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist is"
-msgstr "Yardım Uzmanı"
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist"
-msgstr "Yardım Uzmanı"
-
-#: ang/crmCaseType/list.html
-msgid "Case Types"
-msgstr "Olay Türleri"
-
-#: templates/CRM/Case/Form/ActivityTab.tpl
-msgid "Reporter"
-msgstr "Raporlayan"
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Export Document"
-msgstr "Belgeyi Verin"
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to end this relationship?"
-msgstr "Bu ilişkiyi bitirmek istediğinize emin misiniz?"

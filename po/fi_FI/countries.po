@@ -4,6 +4,7 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Joona Soininen <joonasoininen@gmail.com>, 2012
+# Lasse Miettinen, 2016
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # Tero Kankaanperä <tero@terokankaanpera.fi>, 2013
 # Tomi Toivio <tomi@sange.fi>, 2013
@@ -11,9 +12,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Finnish (http://www.transifex.com/civicrm/civicrm/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +32,7 @@ msgstr "Etelä-, Keski- ja Pohjois-Amerikka sekä Karibia"
 
 msgctxt "country"
 msgid "Middle East and North Africa"
-msgstr "Keski-itä ja Pohjois-Afrikka"
+msgstr "Lähi-itä ja Pohjois-Afrikka"
 
 msgctxt "country"
 msgid "Asia-Pacific"
@@ -39,7 +40,7 @@ msgstr "Aasia-Tyynimeri"
 
 msgctxt "country"
 msgid "Africa West, East, Central and Southern"
-msgstr "Afrikka Länsi-, Itä-, Keski- ja Etelä-"
+msgstr "Afrikka (Länsi-, Itä-, Keski- ja Etelä-)"
 
 msgctxt "country"
 msgid "unassigned"
@@ -47,7 +48,7 @@ msgstr "valitsematta"
 
 msgctxt "country"
 msgid "Afghanistan"
-msgstr "Afghanistan"
+msgstr "Afganistan"
 
 msgctxt "country"
 msgid "Albania"
@@ -258,7 +259,7 @@ msgid "Costa Rica"
 msgstr "Costa Rica"
 
 msgctxt "country"
-msgid "Côte d'Ivoire"
+msgid "Côte d’Ivoire"
 msgstr "Norsunluurannikko"
 
 msgctxt "country"
@@ -694,8 +695,8 @@ msgid "Palau"
 msgstr "Palau"
 
 msgctxt "country"
-msgid "Palestinian Territory, Occupied"
-msgstr "Palestiinalaisalueet, miehitetty"
+msgid "Palestine, State of"
+msgstr ""
 
 msgctxt "country"
 msgid "Panama"
@@ -846,8 +847,8 @@ msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard ja Jan Mayen"
 
 msgctxt "country"
-msgid "Swaziland"
-msgstr "Swazimaa"
+msgid "Eswatini"
+msgstr ""
 
 msgctxt "country"
 msgid "Sweden"
@@ -1050,21 +1051,5 @@ msgid "Saint Martin (French part)"
 msgstr ""
 
 msgctxt "country"
-msgid "Virgin Islands,British"
-msgstr ""
-
-msgctxt "country"
-msgid "Côte d’Ivoire"
-msgstr ""
-
-msgctxt "country"
-msgid "Iran, Islamic Republic Of"
-msgstr ""
-
-msgctxt "country"
-msgid "Macedonia, Republic Of"
-msgstr ""
-
-msgctxt "country"
-msgid "Palestinian Territory"
-msgstr ""
+msgid "Swaziland"
+msgstr "Swazimaa"

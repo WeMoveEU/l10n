@@ -3,23 +3,24 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Dariusz Koryto <dariusz@koryto.eu>, 2020
 # Marcin Cytawa <marcin.cytawa@gmail.com>, 2012
 # Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2017
-# Michał Mach <michau@gmail.com>, 2013
+# Michał Mach, 2013
 # Piotr Kaczyński <www@skrzydla.lublin.pl>, 2016
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-11 00:12+0000\n"
-"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-16 18:25+0000\n"
+"Last-Translator: Dariusz Koryto <dariusz@koryto.eu>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 msgctxt "country"
 msgid "Europe and Central Asia"
@@ -258,7 +259,7 @@ msgid "Costa Rica"
 msgstr "Kostaryka"
 
 msgctxt "country"
-msgid "Côte d'Ivoire"
+msgid "Côte d’Ivoire"
 msgstr "Wybrzeże Kości Słoniowej"
 
 msgctxt "country"
@@ -694,8 +695,8 @@ msgid "Palau"
 msgstr "Palau"
 
 msgctxt "country"
-msgid "Palestinian Territory, Occupied"
-msgstr "Terytorium Palestyńskie, okupowane"
+msgid "Palestine, State of"
+msgstr "Państwo Palestyna"
 
 msgctxt "country"
 msgid "Panama"
@@ -846,8 +847,8 @@ msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard i Jan Mayen"
 
 msgctxt "country"
-msgid "Swaziland"
-msgstr "Suazi"
+msgid "Eswatini"
+msgstr "Eswatini (Suazi) "
 
 msgctxt "country"
 msgid "Sweden"
@@ -1050,21 +1051,5 @@ msgid "Saint Martin (French part)"
 msgstr "Saint-Martin (część francuska)"
 
 msgctxt "country"
-msgid "Virgin Islands,British"
-msgstr "Wyspy Dziewicze, Wielka Brytania"
-
-msgctxt "country"
-msgid "Côte d’Ivoire"
-msgstr "Wybrzeże Kości Słoniowej"
-
-msgctxt "country"
-msgid "Iran, Islamic Republic Of"
-msgstr "Iran, Republika Islamska"
-
-msgctxt "country"
-msgid "Macedonia, Republic Of"
-msgstr "Republika Macedonii"
-
-msgctxt "country"
-msgid "Palestinian Territory"
-msgstr "Terytorium Palestyny"
+msgid "Swaziland"
+msgstr "Suazi"

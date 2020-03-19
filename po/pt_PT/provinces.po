@@ -4,16 +4,20 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Carlos Sousa <carlossoaresdesousa@gmail.com>, 2012
+# lupus <casadimagens@sapo.cv>, 2019
+# Nana, 2012
 # Nana, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # sbsbessa <sbsbessa@gmail.com>, 2013
+# sbsbessa <sbsbessa@gmail.com>, 2013
+# Waldir Pimenta <waldyrious@gmail.com>, 2011,2014
 # Waldir Pimenta <waldyrious@gmail.com>, 2011,2014
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2018-09-11 10:33-0400\n"
+"PO-Revision-Date: 2019-04-24 23:00+0000\n"
+"Last-Translator: lupus <casadimagens@sapo.cv>\n"
 "Language-Team: Portuguese (http://www.transifex.com/civicrm/civicrm/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -414,8 +418,8 @@ msgid "Tripura"
 msgstr "Tripura"
 
 msgctxt "province"
-msgid "Uttaranchal"
-msgstr "Uttaranchal"
+msgid "Uttarakhand"
+msgstr "Uttarakhand"
 
 msgctxt "province"
 msgid "Uttar Pradesh"
@@ -1034,12 +1038,12 @@ msgid "Kärnten"
 msgstr "Kärnten"
 
 msgctxt "province"
-msgid "Niederosterreich"
-msgstr "Niederosterreich"
+msgid "Niederösterreich"
+msgstr "Niederösterreich"
 
 msgctxt "province"
-msgid "Oberosterreich"
-msgstr "Oberosterreich"
+msgid "Oberösterreich"
+msgstr "Oberösterreich"
 
 msgctxt "province"
 msgid "Salzburg"
@@ -1883,7 +1887,7 @@ msgstr "Burgas"
 
 msgctxt "province"
 msgid "Dobrich"
-msgstr ""
+msgstr "Dobrich"
 
 msgctxt "province"
 msgid "Gabrovo"
@@ -1895,23 +1899,23 @@ msgstr "Haskovo"
 
 msgctxt "province"
 msgid "Yambol"
-msgstr ""
+msgstr "Yambol"
 
 msgctxt "province"
 msgid "Kardzhali"
-msgstr ""
+msgstr "Kardzhali"
 
 msgctxt "province"
 msgid "Kyustendil"
-msgstr ""
+msgstr "Kyustendil"
 
 msgctxt "province"
 msgid "Lovech"
-msgstr ""
+msgstr "Lovech"
 
 msgctxt "province"
-msgid "Pazardzik"
-msgstr "Pazardzik"
+msgid "Pazardzhik"
+msgstr "Pazardzhik"
 
 msgctxt "province"
 msgid "Pernik"
@@ -1943,7 +1947,7 @@ msgstr "Sliven"
 
 msgctxt "province"
 msgid "Smolyan"
-msgstr ""
+msgstr "Smolyan"
 
 msgctxt "province"
 msgid "Sofia"
@@ -1955,11 +1959,11 @@ msgstr "Stara Zagora"
 
 msgctxt "province"
 msgid "Shumen"
-msgstr ""
+msgstr "Shumen"
 
 msgctxt "province"
 msgid "Targovishte"
-msgstr ""
+msgstr "Targovishte"
 
 msgctxt "province"
 msgid "Varna"
@@ -1975,7 +1979,7 @@ msgstr "Vidin"
 
 msgctxt "province"
 msgid "Vratsa"
-msgstr ""
+msgstr "Vratsa"
 
 msgctxt "province"
 msgid "Al Hadd"
@@ -2208,10 +2212,6 @@ msgstr "Distrito Federal"
 msgctxt "province"
 msgid "Espirito Santo"
 msgstr "Espirito Santo"
-
-msgctxt "province"
-msgid "Fernando de Noronha"
-msgstr "Fernando de Noronha"
 
 msgctxt "province"
 msgid "Goias"
@@ -2839,7 +2839,7 @@ msgstr "Maule"
 
 msgctxt "province"
 msgid "Santiago Metropolitan"
-msgstr ""
+msgstr "Santiago Metropolitan"
 
 msgctxt "province"
 msgid "Tarapaca"
@@ -3398,8 +3398,8 @@ msgid "Zlínský kraj"
 msgstr "Zlínský kraj"
 
 msgctxt "province"
-msgid "Baden-Wuerttemberg"
-msgstr "Baden-Wuerttemberg"
+msgid "Baden-Württemberg"
+msgstr "Baden-Württemberg"
 
 msgctxt "province"
 msgid "Bayern"
@@ -3458,8 +3458,8 @@ msgid "Sachsen-Anhalt"
 msgstr "Sachsen-Anhalt"
 
 msgctxt "province"
-msgid "Thueringen"
-msgstr "Thueringen"
+msgid "Thüringen"
+msgstr "Thüringen"
 
 msgctxt "province"
 msgid "Ali Sabiah"
@@ -3942,64 +3942,64 @@ msgid "Zamora-Chinchipe"
 msgstr "Zamora-Chinchipe"
 
 msgctxt "province"
-msgid "Harjumsa"
-msgstr "Harjumsa"
+msgid "Harjumaa"
+msgstr "Harjumaa"
 
 msgctxt "province"
-msgid "Hitumea"
-msgstr "Hitumea"
+msgid "Hiiumaa"
+msgstr "Hiiumaa"
 
 msgctxt "province"
-msgid "Ida-Virumsa"
-msgstr "Ida-Virumsa"
+msgid "Ida-Virumaa"
+msgstr "Ida-Virumaa"
 
 msgctxt "province"
-msgid "Jogevamsa"
-msgstr "Jogevamsa"
+msgid "Jõgevamaa"
+msgstr "Jõgevamaa"
 
 msgctxt "province"
-msgid "Jarvamsa"
-msgstr "Jarvamsa"
+msgid "Järvamaa"
+msgstr "Järvamaa"
 
 msgctxt "province"
-msgid "Lasnemsa"
-msgstr "Lasnemsa"
+msgid "Läänemaa"
+msgstr "Läänemaa"
 
 msgctxt "province"
-msgid "Laane-Virumaa"
-msgstr "Laane-Virumaa"
+msgid "Lääne-Virumaa"
+msgstr "Lääne-Virumaa"
 
 msgctxt "province"
-msgid "Polvamea"
-msgstr "Polvamea"
+msgid "Põlvamaa"
+msgstr "Põlvamaa"
 
 msgctxt "province"
-msgid "Parnumsa"
-msgstr "Parnumsa"
+msgid "Pärnumaa"
+msgstr "Pärnumaa"
 
 msgctxt "province"
-msgid "Raplamsa"
-msgstr "Raplamsa"
+msgid "Raplamaa"
+msgstr "Raplamaa"
 
 msgctxt "province"
-msgid "Saaremsa"
-msgstr "Saaremsa"
+msgid "Saaremaa"
+msgstr "Saaremaa"
 
 msgctxt "province"
-msgid "Tartumsa"
-msgstr "Tartumsa"
+msgid "Tartumaa"
+msgstr "Tartumaa"
 
 msgctxt "province"
 msgid "Valgamaa"
 msgstr "Valgamaa"
 
 msgctxt "province"
-msgid "Viljandimsa"
-msgstr "Viljandimsa"
+msgid "Viljandimaa"
+msgstr "Viljandimaa"
 
 msgctxt "province"
-msgid "Vorumaa"
-msgstr "Vorumaa"
+msgid "Võrumaa"
+msgstr "Võrumaa"
 
 msgctxt "province"
 msgid "Ad Daqahllyah"
@@ -5531,11 +5531,11 @@ msgstr "Agio Oros"
 
 msgctxt "province"
 msgid "Alta Verapaz"
-msgstr ""
+msgstr "Alta Verapaz"
 
 msgctxt "province"
 msgid "Baja Verapaz"
-msgstr ""
+msgstr "Baja Verapaz"
 
 msgctxt "province"
 msgid "Chimaltenango"
@@ -5587,7 +5587,7 @@ msgstr "Quiche"
 
 msgctxt "province"
 msgid "Retalhuleu"
-msgstr ""
+msgstr "Retalhuleu"
 
 msgctxt "province"
 msgid "Sacatepequez"
@@ -5603,7 +5603,7 @@ msgstr "Santa Rosa"
 
 msgctxt "province"
 msgid "Sololá"
-msgstr ""
+msgstr "Sololá"
 
 msgctxt "province"
 msgid "Suchitepequez"
@@ -6035,7 +6035,7 @@ msgstr "Bali"
 
 msgctxt "province"
 msgid "Kepulauan Bangka Belitung"
-msgstr ""
+msgstr "Kepulauan Bangka Belitung"
 
 msgctxt "province"
 msgid "Banten"
@@ -6051,7 +6051,7 @@ msgstr "Gorontalo"
 
 msgctxt "province"
 msgid "Papua Barat"
-msgstr ""
+msgstr "Papua Barat"
 
 msgctxt "province"
 msgid "Jambi"
@@ -6143,7 +6143,7 @@ msgstr "Sumatera Utara"
 
 msgctxt "province"
 msgid "DKI Jakarta"
-msgstr ""
+msgstr "DKI Jakarta"
 
 msgctxt "province"
 msgid "Aceh"
@@ -6151,7 +6151,7 @@ msgstr "Aceh"
 
 msgctxt "province"
 msgid "DI Yogyakarta"
-msgstr ""
+msgstr "DI Yogyakarta"
 
 msgctxt "province"
 msgid "Cork"
@@ -7202,26 +7202,6 @@ msgid "Madaba"
 msgstr "Madaba"
 
 msgctxt "province"
-msgid "Nairobi Municipality"
-msgstr "Nairobi Municipality"
-
-msgctxt "province"
-msgid "Coast"
-msgstr "Coast"
-
-msgctxt "province"
-msgid "North-Eastern Kaskazini Mashariki"
-msgstr "North-Eastern Kaskazini Mashariki"
-
-msgctxt "province"
-msgid "Rift Valley"
-msgstr "Rift Valley"
-
-msgctxt "province"
-msgid "Western Magharibi"
-msgstr "Western Magharibi"
-
-msgctxt "province"
 msgid "Bishkek"
 msgstr "Bishkek"
 
@@ -7862,28 +7842,28 @@ msgid "Kauno Apskritis"
 msgstr "Kauno Apskritis"
 
 msgctxt "province"
-msgid "Klaipedos Apskritis"
-msgstr "Klaipedos Apskritis"
+msgid "Klaipėdos Apskritis"
+msgstr "Klaipėdos Apskritis"
 
 msgctxt "province"
-msgid "Marijampoles Apskritis"
-msgstr "Marijampoles Apskritis"
+msgid "Marijampolės Apskritis"
+msgstr "Marijampolės Apskritis"
 
 msgctxt "province"
-msgid "Panevezio Apskritis"
-msgstr "Panevezio Apskritis"
+msgid "Panevėžio Apskritis"
+msgstr "Panevėžio Apskritis"
 
 msgctxt "province"
-msgid "Sisuliu Apskritis"
-msgstr "Sisuliu Apskritis"
+msgid "Šiaulių Apskritis"
+msgstr "Šiaulių Apskritis"
 
 msgctxt "province"
-msgid "Taurages Apskritis"
-msgstr "Taurages Apskritis"
+msgid "Tauragės Apskritis"
+msgstr "Tauragės Apskritis"
 
 msgctxt "province"
-msgid "Telsiu Apskritis"
-msgstr "Telsiu Apskritis"
+msgid "Telšių Apskritis"
+msgstr "Telšių Apskritis"
 
 msgctxt "province"
 msgid "Utenos Apskritis"
@@ -7911,19 +7891,19 @@ msgstr "Jelgava"
 
 msgctxt "province"
 msgid "Jūrmala"
-msgstr ""
+msgstr "Jūrmala"
 
 msgctxt "province"
 msgid "Liepāja"
-msgstr ""
+msgstr "Liepāja"
 
 msgctxt "province"
 msgid "Rēzekne"
-msgstr ""
+msgstr "Rēzekne"
 
 msgctxt "province"
 msgid "Rīga"
-msgstr ""
+msgstr "Rīga"
 
 msgctxt "province"
 msgid "Ventspils"
@@ -9231,7 +9211,7 @@ msgstr "Zinder"
 
 msgctxt "province"
 msgid "Abuja Federal Capital Territory"
-msgstr ""
+msgstr "Abuja Federal Capital Territory"
 
 msgctxt "province"
 msgid "Abia"
@@ -9507,7 +9487,7 @@ msgstr "Hordaland"
 
 msgctxt "province"
 msgid "Møre og Romsdal"
-msgstr ""
+msgstr "Møre og Romsdal"
 
 msgctxt "province"
 msgid "Nordland"
@@ -9619,7 +9599,7 @@ msgstr "Tasman"
 
 msgctxt "province"
 msgid "Waikato"
-msgstr ""
+msgstr "Waikato"
 
 msgctxt "province"
 msgid "Wellington"
@@ -9898,8 +9878,8 @@ msgid "Basilan"
 msgstr "Basilan"
 
 msgctxt "province"
-msgid "Batasn"
-msgstr "Batasn"
+msgid "Bataan"
+msgstr "Bataan"
 
 msgctxt "province"
 msgid "Batanes"
@@ -10179,31 +10159,31 @@ msgstr "Zamboanga Sibiguey"
 
 msgctxt "province"
 msgid "Islamabad Federal Capital Area"
-msgstr ""
+msgstr "Território Federal da Capital Islamabad"
 
 msgctxt "province"
 msgid "Baluchistan"
-msgstr ""
+msgstr "Baluchistão"
 
 msgctxt "province"
 msgid "Khyber Pakhtun Khawa"
-msgstr ""
+msgstr "Khyber Pakhtun Khawa"
 
 msgctxt "province"
 msgid "Sindh"
-msgstr ""
+msgstr "Sindh"
 
 msgctxt "province"
 msgid "Federally Administered Tribal Areas"
-msgstr ""
+msgstr "Território Federal das Áreas Tribais"
 
 msgctxt "province"
 msgid "Azad Kashmir"
-msgstr ""
+msgstr "Azad Kashmir"
 
 msgctxt "province"
 msgid "Gilgit-Baltistan"
-msgstr ""
+msgstr "Gilgit-Baltistão"
 
 msgctxt "province"
 msgid "Aveiro"
@@ -10402,68 +10382,68 @@ msgid "Arad"
 msgstr "Arad"
 
 msgctxt "province"
-msgid "Arges"
-msgstr "Arges"
+msgid "Argeș"
+msgstr "Argeș"
 
 msgctxt "province"
-msgid "Bacau"
-msgstr "Bacau"
+msgid "Bacău"
+msgstr "Bacău"
 
 msgctxt "province"
 msgid "Bihor"
 msgstr "Bihor"
 
 msgctxt "province"
-msgid "Bistrita-Nasaud"
-msgstr "Bistrita-Nasaud"
+msgid "Bistrița-Năsăud"
+msgstr "Bistrița-Năsăud"
 
 msgctxt "province"
-msgid "Boto'ani"
-msgstr "Boto'ani"
+msgid "Botoșani"
+msgstr "Botoșani"
 
 msgctxt "province"
-msgid "Bra'ov"
-msgstr "Bra'ov"
+msgid "Brașov"
+msgstr "Brașov"
 
 msgctxt "province"
-msgid "Braila"
-msgstr "Braila"
+msgid "Brăila"
+msgstr "Brăila"
 
 msgctxt "province"
-msgid "Buzau"
-msgstr "Buzau"
+msgid "Buzău"
+msgstr "Buzău"
 
 msgctxt "province"
-msgid "Caras-Severin"
-msgstr "Caras-Severin"
+msgid "Caraș-Severin"
+msgstr "Caraș-Severin"
 
 msgctxt "province"
-msgid "Ca la ras'i"
-msgstr "Ca la ras'i"
+msgid "Călărași"
+msgstr "Călărași"
 
 msgctxt "province"
 msgid "Cluj"
 msgstr "Cluj"
 
 msgctxt "province"
-msgid "Constant'a"
-msgstr "Constant'a"
+msgid "Constanța"
+msgstr "Constanța"
 
 msgctxt "province"
 msgid "Covasna"
 msgstr "Covasna"
 
 msgctxt "province"
-msgid "Dambovit'a"
-msgstr "Dambovit'a"
+msgid "Dâmbovița"
+msgstr "Dâmbovița"
 
 msgctxt "province"
 msgid "Dolj"
 msgstr "Dolj"
 
 msgctxt "province"
-msgid "Galat'i"
-msgstr "Galat'i"
+msgid "Galați"
+msgstr "Galați"
 
 msgctxt "province"
 msgid "Giurgiu"
@@ -10482,32 +10462,32 @@ msgid "Hunedoara"
 msgstr "Hunedoara"
 
 msgctxt "province"
-msgid "Ialomit'a"
-msgstr "Ialomit'a"
+msgid "Ialomița"
+msgstr "Ialomița"
 
 msgctxt "province"
-msgid "Ias'i"
-msgstr "Ias'i"
+msgid "Iași"
+msgstr "Iași"
 
 msgctxt "province"
 msgid "Ilfov"
 msgstr "Ilfov"
 
 msgctxt "province"
-msgid "Maramures"
-msgstr "Maramures"
+msgid "Maramureș"
+msgstr "Maramureș"
 
 msgctxt "province"
-msgid "Mehedint'i"
-msgstr "Mehedint'i"
+msgid "Mehedinți"
+msgstr "Mehedinți"
 
 msgctxt "province"
-msgid "Mures"
-msgstr "Mures"
+msgid "Mureș"
+msgstr "Mureș"
 
 msgctxt "province"
-msgid "Neamt"
-msgstr "Neamt"
+msgid "Neamț"
+msgstr "Neamț"
 
 msgctxt "province"
 msgid "Olt"
@@ -10522,8 +10502,8 @@ msgid "Satu Mare"
 msgstr "Satu Mare"
 
 msgctxt "province"
-msgid "Sa laj"
-msgstr "Sa laj"
+msgid "Sălaj"
+msgstr "Sălaj"
 
 msgctxt "province"
 msgid "Sibiu"
@@ -10538,8 +10518,8 @@ msgid "Teleorman"
 msgstr "Teleorman"
 
 msgctxt "province"
-msgid "Timis"
-msgstr "Timis"
+msgid "Timiș"
+msgstr "Timiș"
 
 msgctxt "province"
 msgid "Tulcea"
@@ -10550,8 +10530,8 @@ msgid "Vaslui"
 msgstr "Vaslui"
 
 msgctxt "province"
-msgid "Valcea"
-msgstr "Valcea"
+msgid "Vâlcea"
+msgstr "Vâlcea"
 
 msgctxt "province"
 msgid "Vrancea"
@@ -10691,7 +10671,7 @@ msgstr "Chelyabinskaya oblast'"
 
 msgctxt "province"
 msgid "Zabaykalsky Krai'"
-msgstr ""
+msgstr "Zabaykalsky Krai'"
 
 msgctxt "province"
 msgid "Irkutskaya oblast'"
@@ -10711,7 +10691,7 @@ msgstr "Kaluzhskaya oblast'"
 
 msgctxt "province"
 msgid "Kamchatka Krai'"
-msgstr ""
+msgstr "Kamchatka Krai'"
 
 msgctxt "province"
 msgid "Kemerovskaya oblast'"
@@ -10783,7 +10763,7 @@ msgstr "Penzenskaya oblast'"
 
 msgctxt "province"
 msgid "Perm krai'"
-msgstr ""
+msgstr "Perm krai'"
 
 msgctxt "province"
 msgid "Pskovskaya oblast'"
@@ -10938,12 +10918,12 @@ msgid "Ruhengeri"
 msgstr "Ruhengeri"
 
 msgctxt "province"
-msgid "Al Batah"
-msgstr "Al Batah"
+msgid "Al Bahah"
+msgstr "Al Bahah"
 
 msgctxt "province"
-msgid "Al H,udd ash Shamallyah"
-msgstr "Al H,udd ash Shamallyah"
+msgid "Al Hudud Ash Shamaliyah"
+msgstr "Al Hudud Ash Shamaliyah"
 
 msgctxt "province"
 msgid "Al Jawf"
@@ -11114,88 +11094,88 @@ msgid "Warab"
 msgstr "Warab"
 
 msgctxt "province"
-msgid "Blekinge lan"
-msgstr "Blekinge lan"
+msgid "Blekinge län"
+msgstr "Blekinge län"
 
 msgctxt "province"
-msgid "Dalarnas lan"
-msgstr "Dalarnas lan"
+msgid "Dalarnas län"
+msgstr "Dalarnas län"
 
 msgctxt "province"
-msgid "Gotlands lan"
-msgstr "Gotlands lan"
+msgid "Gotlands län"
+msgstr "Gotlands län"
 
 msgctxt "province"
-msgid "Gavleborge lan"
-msgstr "Gavleborge lan"
+msgid "Gävleborgs län"
+msgstr "Gävleborgs län"
 
 msgctxt "province"
-msgid "Hallands lan"
-msgstr "Hallands lan"
+msgid "Hallands län"
+msgstr "Hallands län"
 
 msgctxt "province"
-msgid "Jamtlande lan"
-msgstr "Jamtlande lan"
+msgid "Jämtlands län"
+msgstr "Jämtlands län"
 
 msgctxt "province"
-msgid "Jonkopings lan"
-msgstr "Jonkopings lan"
+msgid "Jönkopings län"
+msgstr "Jönkopings län"
 
 msgctxt "province"
-msgid "Kalmar lan"
-msgstr "Kalmar lan"
+msgid "Kalmar län"
+msgstr "Kalmar län"
 
 msgctxt "province"
-msgid "Kronoberge lan"
-msgstr "Kronoberge lan"
+msgid "Kronobergs län"
+msgstr "Kronobergs län"
 
 msgctxt "province"
-msgid "Norrbottena lan"
-msgstr "Norrbottena lan"
+msgid "Norrbottens län"
+msgstr "Norrbottens län"
 
 msgctxt "province"
-msgid "Skane lan"
-msgstr "Skane lan"
+msgid "Skåne län"
+msgstr "Skåne län"
 
 msgctxt "province"
-msgid "Stockholms lan"
-msgstr "Stockholms lan"
+msgid "Stockholms län"
+msgstr "Stockholms län"
 
 msgctxt "province"
-msgid "Sodermanlands lan"
-msgstr "Sodermanlands lan"
+msgid "Södermanlands län"
+msgstr "Södermanlands län"
 
 msgctxt "province"
-msgid "Uppsala lan"
-msgstr "Uppsala lan"
+msgid "Uppsala län"
+msgstr "Uppsala län"
 
 msgctxt "province"
-msgid "Varmlanda lan"
-msgstr "Varmlanda lan"
+msgid "Värmlands län"
+msgstr "Värmlands län"
 
 msgctxt "province"
-msgid "Vasterbottens lan"
-msgstr "Vasterbottens lan"
+msgid "Västerbottens län"
+msgstr "Västerbottens län"
 
 msgctxt "province"
-msgid "Vasternorrlands lan"
-msgstr "Vasternorrlands lan"
+msgid "Västernorrlands län"
+msgstr "Västernorrlands län"
 
 msgctxt "province"
-msgid "Vastmanlanda lan"
-msgstr "Vastmanlanda lan"
+msgid "Västmanlands län"
+msgstr "Västmanlands län"
 
 msgctxt "province"
-msgid "Vastra Gotalands lan"
-msgstr "Vastra Gotalands lan"
+msgid "Västra Götalands län"
+msgstr "Västra Götalands län"
 
 msgctxt "province"
-msgid "Orebro lan"
-msgstr "Orebro lan"
+msgid "Örebro län"
+msgstr "Örebro län"
 
 msgctxt "province"
-msgid "Ostergotlands lan"
-msgstr "Ostergotlands lan"
+msgid "Östergötlands län"
+msgstr "Östergötlands län"
 
 msgctxt "province"
 msgid "Saint Helena"
@@ -11211,7 +11191,7 @@ msgstr "Tristan da Cunha"
 
 msgctxt "province"
 msgid "Ajdovščina"
-msgstr ""
+msgstr "Ajdovščina"
 
 msgctxt "province"
 msgid "Beltinci"
@@ -11247,7 +11227,7 @@ msgstr "Bovec"
 
 msgctxt "province"
 msgid "Braslovče"
-msgstr ""
+msgstr "Braslovče"
 
 msgctxt "province"
 msgid "Brda"
@@ -11259,7 +11239,7 @@ msgstr "Brezovica"
 
 msgctxt "province"
 msgid "Brežice"
-msgstr ""
+msgstr "Brežice"
 
 msgctxt "province"
 msgid "Cankova"
@@ -11287,15 +11267,15 @@ msgstr "Cerkvenjak"
 
 msgctxt "province"
 msgid "Črenšovci"
-msgstr ""
+msgstr "Črenšovci"
 
 msgctxt "province"
 msgid "Črna na Koroškem"
-msgstr ""
+msgstr "Črna na Koroškem"
 
 msgctxt "province"
 msgid "Črnomelj"
-msgstr ""
+msgstr "Črnomelj"
 
 msgctxt "province"
 msgid "Destrnik"
@@ -11303,7 +11283,7 @@ msgstr "Destrnik"
 
 msgctxt "province"
 msgid "Divača"
-msgstr ""
+msgstr "Divača"
 
 msgctxt "province"
 msgid "Dobje"
@@ -11335,7 +11315,7 @@ msgstr "Dolenjske Toplice"
 
 msgctxt "province"
 msgid "Domžale"
-msgstr ""
+msgstr "Domžale"
 
 msgctxt "province"
 msgid "Dornava"
@@ -11355,7 +11335,7 @@ msgstr "Gorenja vas-Poljane"
 
 msgctxt "province"
 msgid "Gorišnica"
-msgstr ""
+msgstr "Gorišnica"
 
 msgctxt "province"
 msgid "Gornja Radgona"
@@ -11383,15 +11363,15 @@ msgstr "Hajdina"
 
 msgctxt "province"
 msgid "Hoče-Slivnica"
-msgstr ""
+msgstr "Hoče-Slivnica"
 
 msgctxt "province"
 msgid "Hodoš"
-msgstr ""
+msgstr "Hodoš"
 
 msgctxt "province"
 msgid "Horjul"
-msgstr ""
+msgstr "Horjul"
 
 msgctxt "province"
 msgid "Hrastnik"
@@ -11411,11 +11391,11 @@ msgstr "Ig"
 
 msgctxt "province"
 msgid "Ilirska Bistrica"
-msgstr ""
+msgstr "Ilirska Bistrica"
 
 msgctxt "province"
 msgid "Ivančna Gorica"
-msgstr ""
+msgstr "Ivančna Gorica"
 
 msgctxt "province"
 msgid "Izola"
@@ -11431,7 +11411,7 @@ msgstr "Jezersko"
 
 msgctxt "province"
 msgid "Juršinci"
-msgstr ""
+msgstr "Juršinci"
 
 msgctxt "province"
 msgid "Kamnik"
@@ -11443,7 +11423,7 @@ msgstr "Kanal"
 
 msgctxt "province"
 msgid "Kidričevo"
-msgstr ""
+msgstr "Kidričevo"
 
 msgctxt "province"
 msgid "Kobarid"
@@ -11455,7 +11435,7 @@ msgstr "Kobilje"
 
 msgctxt "province"
 msgid "Kočevje"
-msgstr ""
+msgstr "Kočevje"
 
 msgctxt "province"
 msgid "Komen"
@@ -11487,11 +11467,11 @@ msgstr "Kranjska Gora"
 
 msgctxt "province"
 msgid "Križevci"
-msgstr ""
+msgstr "Križevci"
 
 msgctxt "province"
 msgid "Krško"
-msgstr ""
+msgstr "Krško"
 
 msgctxt "province"
 msgid "Kungota"
@@ -11503,7 +11483,7 @@ msgstr "Kuzma"
 
 msgctxt "province"
 msgid "Laško"
-msgstr ""
+msgstr "Laško"
 
 msgctxt "province"
 msgid "Lenart"
@@ -11535,11 +11515,11 @@ msgstr "Logatec"
 
 msgctxt "province"
 msgid "Loška dolina"
-msgstr ""
+msgstr "Loška dolina"
 
 msgctxt "province"
 msgid "Loški Potok"
-msgstr ""
+msgstr "Loški Potok"
 
 msgctxt "province"
 msgid "Lovrenc na Pohorju"
@@ -11547,7 +11527,7 @@ msgstr "Lovrenc na Pohorju"
 
 msgctxt "province"
 msgid "Luče"
-msgstr ""
+msgstr "Luče"
 
 msgctxt "province"
 msgid "Lukovica"
@@ -11555,7 +11535,7 @@ msgstr "Lukovica"
 
 msgctxt "province"
 msgid "Majšperk"
-msgstr ""
+msgstr "Majšperk"
 
 msgctxt "province"
 msgid "Maribor"
@@ -11571,7 +11551,7 @@ msgstr "Medvode"
 
 msgctxt "province"
 msgid "Mengeš"
-msgstr ""
+msgstr "Mengeš"
 
 msgctxt "province"
 msgid "Metlika"
@@ -11579,11 +11559,11 @@ msgstr "Metlika"
 
 msgctxt "province"
 msgid "Mežica"
-msgstr ""
+msgstr "Mežica"
 
 msgctxt "province"
 msgid "Miklavž na Dravskem polju"
-msgstr ""
+msgstr "Miklavž na Dravskem polju"
 
 msgctxt "province"
 msgid "Miren-Kostanjevica"
@@ -11591,7 +11571,7 @@ msgstr "Miren-Kostanjevica"
 
 msgctxt "province"
 msgid "Mirna Peč"
-msgstr ""
+msgstr "Mirna Peč"
 
 msgctxt "province"
 msgid "Mislinja"
@@ -11599,7 +11579,7 @@ msgstr "Mislinja"
 
 msgctxt "province"
 msgid "Moravče"
-msgstr ""
+msgstr "Moravče"
 
 msgctxt "province"
 msgid "Moravske Toplice"
@@ -11631,7 +11611,7 @@ msgstr "Nova Gorica"
 
 msgctxt "province"
 msgid "Novo mesto"
-msgstr ""
+msgstr "Novo mesto"
 
 msgctxt "province"
 msgid "Sveta Ana"
@@ -11639,7 +11619,7 @@ msgstr "Sveta Ana"
 
 msgctxt "province"
 msgid "Sveti Andraž v Slovenskih goricah"
-msgstr ""
+msgstr "Sveti Andraž v Slovenskih goricah"
 
 msgctxt "province"
 msgid "Sveti Jurij"
@@ -11647,59 +11627,59 @@ msgstr "Sveti Jurij"
 
 msgctxt "province"
 msgid "Šalovci"
-msgstr ""
+msgstr "Šalovci"
 
 msgctxt "province"
 msgid "Šempeter-Vrtojba"
-msgstr ""
+msgstr "Šempeter-Vrtojba"
 
 msgctxt "province"
 msgid "Šenčur"
-msgstr ""
+msgstr "Šenčur"
 
 msgctxt "province"
 msgid "Šentilj"
-msgstr ""
+msgstr "Šentilj"
 
 msgctxt "province"
 msgid "Šentjernej"
-msgstr ""
+msgstr "Šentjernej"
 
 msgctxt "province"
 msgid "Šentjur"
-msgstr ""
+msgstr "Šentjur"
 
 msgctxt "province"
 msgid "Škocjan"
-msgstr ""
+msgstr "Škocjan"
 
 msgctxt "province"
 msgid "Škofja Loka"
-msgstr ""
+msgstr "Škofja Loka"
 
 msgctxt "province"
 msgid "Škofljica"
-msgstr ""
+msgstr "Škofljica"
 
 msgctxt "province"
 msgid "Šmarje pri Jelšah"
-msgstr ""
+msgstr "Šmarje pri Jelšah"
 
 msgctxt "province"
 msgid "Šmartno ob Paki"
-msgstr ""
+msgstr "Šmartno ob Paki"
 
 msgctxt "province"
 msgid "Šmartno pri Litiji"
-msgstr ""
+msgstr "Šmartno pri Litiji"
 
 msgctxt "province"
 msgid "Šoštanj"
-msgstr ""
+msgstr "Šoštanj"
 
 msgctxt "province"
 msgid "Štore"
-msgstr ""
+msgstr "Štore"
 
 msgctxt "province"
 msgid "Tabor"
@@ -11707,7 +11687,7 @@ msgstr "Tabor"
 
 msgctxt "province"
 msgid "Tišina"
-msgstr ""
+msgstr "Tišina"
 
 msgctxt "province"
 msgid "Tolmin"
@@ -11715,7 +11695,7 @@ msgstr "Tolmin"
 
 msgctxt "province"
 msgid "Trbovlje"
-msgstr ""
+msgstr "Trbovlje"
 
 msgctxt "province"
 msgid "Trebnje"
@@ -11727,7 +11707,7 @@ msgstr "Trnovska vas"
 
 msgctxt "province"
 msgid "Tržič"
-msgstr ""
+msgstr "Tržič"
 
 msgctxt "province"
 msgid "Trzin"
@@ -11735,7 +11715,7 @@ msgstr "Trzin"
 
 msgctxt "province"
 msgid "Turnišče"
-msgstr ""
+msgstr "Turnišče"
 
 msgctxt "province"
 msgid "Velenje"
@@ -11747,11 +11727,11 @@ msgstr "Velika Polana"
 
 msgctxt "province"
 msgid "Velike Lašče"
-msgstr ""
+msgstr "Velike Lašče"
 
 msgctxt "province"
 msgid "Veržej"
-msgstr ""
+msgstr "Veržej"
 
 msgctxt "province"
 msgid "Videm"
@@ -11787,35 +11767,35 @@ msgstr "Zagorje ob Savi"
 
 msgctxt "province"
 msgid "Zavrč"
-msgstr ""
+msgstr "Zavrč"
 
 msgctxt "province"
 msgid "Zreče"
-msgstr ""
+msgstr "Zreče"
 
 msgctxt "province"
 msgid "Žalec"
-msgstr ""
+msgstr "Žalec"
 
 msgctxt "province"
 msgid "Železniki"
-msgstr ""
+msgstr "Železniki"
 
 msgctxt "province"
 msgid "Žetale"
-msgstr ""
+msgstr "Žetale"
 
 msgctxt "province"
 msgid "Žiri"
-msgstr ""
+msgstr "Žiri"
 
 msgctxt "province"
 msgid "Žirovnica"
-msgstr ""
+msgstr "Žirovnica"
 
 msgctxt "province"
 msgid "Žužemberk"
-msgstr ""
+msgstr "Žužemberk"
 
 msgctxt "province"
 msgid "Banskobystrický kraj"
@@ -12382,8 +12362,8 @@ msgid "Phra Nakhon Si Ayutthaya"
 msgstr "Phra Nakhon Si Ayutthaya"
 
 msgctxt "province"
-msgid "Phaket"
-msgstr "Phaket"
+msgid "Phuket"
+msgstr "Phuket"
 
 msgctxt "province"
 msgid "Prachin Buri"
@@ -13130,8 +13110,8 @@ msgid "Taoyuan County"
 msgstr "Município Taoyuan"
 
 msgctxt "province"
-msgid "Yunlin Conuty"
-msgstr "Município Yunlin"
+msgid "Yunlin County"
+msgstr "Yunlin County"
 
 msgctxt "province"
 msgid "Keelung City"
@@ -13602,8 +13582,8 @@ msgid "Palmyra Atoll"
 msgstr "Palmyra Atoll"
 
 msgctxt "province"
-msgid "Wake Ialand"
-msgstr "Wake Ialand"
+msgid "Wake Island"
+msgstr "Wake Island"
 
 msgctxt "province"
 msgid "Artigsa"
@@ -14350,8 +14330,8 @@ msgid "North Karelia"
 msgstr "North Karelia"
 
 msgctxt "province"
-msgid "Nothern Ostrobothnia"
-msgstr "Nothern Ostrobothnia"
+msgid "Northern Ostrobothnia"
+msgstr "Northern Ostrobothnia"
 
 msgctxt "province"
 msgid "Northern Savo"
@@ -14775,23 +14755,23 @@ msgstr "Manila Metropolitana"
 
 msgctxt "province"
 msgid "Yinchuan"
-msgstr ""
+msgstr "Yinchuan"
 
 msgctxt "province"
 msgid "Shizuishan"
-msgstr ""
+msgstr "Shizuishan"
 
 msgctxt "province"
 msgid "Wuzhong"
-msgstr ""
+msgstr "Wuzhong"
 
 msgctxt "province"
 msgid "Guyuan"
-msgstr ""
+msgstr "Guyuan"
 
 msgctxt "province"
 msgid "Zhongwei"
-msgstr ""
+msgstr "Zhongwei"
 
 msgctxt "province"
 msgid "Aizkraukles novads"
@@ -14887,339 +14867,339 @@ msgstr "Município de Raunas"
 
 msgctxt "province"
 msgid "Vecpiebalgas novads"
-msgstr ""
+msgstr "Vecpiebalgas novads"
 
 msgctxt "province"
 msgid "Daugavpils novads"
-msgstr ""
+msgstr "Daugavpils novads"
 
 msgctxt "province"
 msgid "Ilūkstes novads"
-msgstr ""
+msgstr "Ilūkstes novads"
 
 msgctxt "province"
 msgid "Dobeles novads"
-msgstr ""
+msgstr "Dobeles novads"
 
 msgctxt "province"
 msgid "Auces novads"
-msgstr ""
+msgstr "Auces novads"
 
 msgctxt "province"
 msgid "Tērvetes novads"
-msgstr ""
+msgstr "Tērvetes novads"
 
 msgctxt "province"
 msgid "Gulbenes novads"
-msgstr ""
+msgstr "Gulbenes novads"
 
 msgctxt "province"
 msgid "Jelgavas novads"
-msgstr ""
+msgstr "Jelgavas novads"
 
 msgctxt "province"
 msgid "Ozolnieku novads"
-msgstr ""
+msgstr "Ozolnieku novads"
 
 msgctxt "province"
 msgid "Jēkabpils novads"
-msgstr ""
+msgstr "Jēkabpils novads"
 
 msgctxt "province"
 msgid "Aknīstes novads"
-msgstr ""
+msgstr "Aknīstes novads"
 
 msgctxt "province"
 msgid "Viesītes novads"
-msgstr ""
+msgstr "Viesītes novads"
 
 msgctxt "province"
 msgid "Krustpils novads"
-msgstr ""
+msgstr "Krustpils novads"
 
 msgctxt "province"
 msgid "Salas novads"
-msgstr ""
+msgstr "Salas novads"
 
 msgctxt "province"
 msgid "Krāslavas novads"
-msgstr ""
+msgstr "Krāslavas novads"
 
 msgctxt "province"
 msgid "Dagdas novads"
-msgstr ""
+msgstr "Dagdas novads"
 
 msgctxt "province"
 msgid "Aglonas novads"
-msgstr ""
+msgstr "Aglonas novads"
 
 msgctxt "province"
 msgid "Kuldīgas novads"
-msgstr ""
+msgstr "Kuldīgas novads"
 
 msgctxt "province"
 msgid "Skrundas novads"
-msgstr ""
+msgstr "Skrundas novads"
 
 msgctxt "province"
 msgid "Alsungas novads"
-msgstr ""
+msgstr "Alsungas novads"
 
 msgctxt "province"
 msgid "Aizputes novads"
-msgstr ""
+msgstr "Aizputes novads"
 
 msgctxt "province"
 msgid "Durbes novads"
-msgstr ""
+msgstr "Durbes novads"
 
 msgctxt "province"
 msgid "Grobiņas novads"
-msgstr ""
+msgstr "Grobiņas novads"
 
 msgctxt "province"
 msgid "Pāvilostas novads"
-msgstr ""
+msgstr "Pāvilostas novads"
 
 msgctxt "province"
 msgid "Priekules novads"
-msgstr ""
+msgstr "Priekules novads"
 
 msgctxt "province"
 msgid "Nīcas novads"
-msgstr ""
+msgstr "Nīcas novads"
 
 msgctxt "province"
 msgid "Rucavas novads"
-msgstr ""
+msgstr "Rucavas novads"
 
 msgctxt "province"
 msgid "Vaiņodes novads"
-msgstr ""
+msgstr "Vaiņodes novads"
 
 msgctxt "province"
 msgid "Limbažu novads"
-msgstr ""
+msgstr "Limbažu novads"
 
 msgctxt "province"
 msgid "Alojas novads"
-msgstr ""
+msgstr "Alojas novads"
 
 msgctxt "province"
 msgid "Salacgrīvas novads"
-msgstr ""
+msgstr "Salacgrīvas novads"
 
 msgctxt "province"
 msgid "Ludzas novads"
-msgstr ""
+msgstr "Ludzas novads"
 
 msgctxt "province"
 msgid "Kārsavas novads"
-msgstr ""
+msgstr "Kārsavas novads"
 
 msgctxt "province"
 msgid "Zilupes novads"
-msgstr ""
+msgstr "Zilupes novads"
 
 msgctxt "province"
 msgid "Ciblas novads"
-msgstr ""
+msgstr "Ciblas novads"
 
 msgctxt "province"
 msgid "Madonas novads"
-msgstr ""
+msgstr "Madonas novads"
 
 msgctxt "province"
 msgid "Cesvaines novads"
-msgstr ""
+msgstr "Cesvaines novads"
 
 msgctxt "province"
 msgid "Lubānas novads"
-msgstr ""
+msgstr "Lubānas novads"
 
 msgctxt "province"
 msgid "Varakļānu novads"
-msgstr ""
+msgstr "Varakļānu novads"
 
 msgctxt "province"
 msgid "Ērgļu novads"
-msgstr ""
+msgstr "Ērgļu novads"
 
 msgctxt "province"
 msgid "Ogres novads"
-msgstr ""
+msgstr "Ogres novads"
 
 msgctxt "province"
 msgid "Ikšķiles novads"
-msgstr ""
+msgstr "Ikšķiles novads"
 
 msgctxt "province"
 msgid "Ķeguma novads"
-msgstr ""
+msgstr "Ķeguma novads"
 
 msgctxt "province"
 msgid "Lielvārdes novads"
-msgstr ""
+msgstr "Lielvārdes novads"
 
 msgctxt "province"
 msgid "Preiļu novads"
-msgstr ""
+msgstr "Preiļu novads"
 
 msgctxt "province"
 msgid "Līvānu novads"
-msgstr ""
+msgstr "Līvānu novads"
 
 msgctxt "province"
 msgid "Riebiņu novads"
-msgstr ""
+msgstr "Riebiņu novads"
 
 msgctxt "province"
 msgid "Vārkavas novads"
-msgstr ""
+msgstr "Vārkavas novads"
 
 msgctxt "province"
 msgid "Rēzeknes novads"
-msgstr ""
+msgstr "Rēzeknes novads"
 
 msgctxt "province"
 msgid "Viļānu novads"
-msgstr ""
+msgstr "Viļānu novads"
 
 msgctxt "province"
 msgid "Baldones novads"
-msgstr ""
+msgstr "Baldones novads"
 
 msgctxt "province"
 msgid "Ķekavas novads"
-msgstr ""
+msgstr "Ķekavas novads"
 
 msgctxt "province"
 msgid "Olaines novads"
-msgstr ""
+msgstr "Olaines novads"
 
 msgctxt "province"
 msgid "Salaspils novads"
-msgstr ""
+msgstr "Salaspils novads"
 
 msgctxt "province"
 msgid "Saulkrastu novads"
-msgstr ""
+msgstr "Saulkrastu novads"
 
 msgctxt "province"
 msgid "Siguldas novads"
-msgstr ""
+msgstr "Siguldas novads"
 
 msgctxt "province"
 msgid "Inčukalna novads"
-msgstr ""
+msgstr "Inčukalna novads"
 
 msgctxt "province"
 msgid "Ādažu novads"
-msgstr ""
+msgstr "Ādažu novads"
 
 msgctxt "province"
 msgid "Babītes novads"
-msgstr ""
+msgstr "Babītes novads"
 
 msgctxt "province"
 msgid "Carnikavas novads"
-msgstr ""
+msgstr "Carnikavas novads"
 
 msgctxt "province"
 msgid "Garkalnes novads"
-msgstr ""
+msgstr "Garkalnes novads"
 
 msgctxt "province"
 msgid "Krimuldas novads"
-msgstr ""
+msgstr "Krimuldas novads"
 
 msgctxt "province"
 msgid "Mālpils novads"
-msgstr ""
+msgstr "Mālpils novads"
 
 msgctxt "province"
 msgid "Mārupes novads"
-msgstr ""
+msgstr "Mārupes novads"
 
 msgctxt "province"
 msgid "Ropažu novads"
-msgstr ""
+msgstr "Ropažu novads"
 
 msgctxt "province"
 msgid "Sējas novads"
-msgstr ""
+msgstr "Sējas novads"
 
 msgctxt "province"
 msgid "Stopiņu novads"
-msgstr ""
+msgstr "Stopiņu novads"
 
 msgctxt "province"
 msgid "Saldus novads"
-msgstr ""
+msgstr "Saldus novads"
 
 msgctxt "province"
 msgid "Brocēnu novads"
-msgstr ""
+msgstr "Brocēnu novads"
 
 msgctxt "province"
 msgid "Talsu novads"
-msgstr ""
+msgstr "Talsu novads"
 
 msgctxt "province"
 msgid "Dundagas novads"
-msgstr ""
+msgstr "Dundagas novads"
 
 msgctxt "province"
 msgid "Mērsraga novads"
-msgstr ""
+msgstr "Mērsraga novads"
 
 msgctxt "province"
 msgid "Rojas novads"
-msgstr ""
+msgstr "Rojas novads"
 
 msgctxt "province"
 msgid "Tukuma novads"
-msgstr ""
+msgstr "Tukuma novads"
 
 msgctxt "province"
 msgid "Kandavas novads"
-msgstr ""
+msgstr "Kandavas novads"
 
 msgctxt "province"
 msgid "Engures novads"
-msgstr ""
+msgstr "Engures novads"
 
 msgctxt "province"
 msgid "Jaunpils novads"
-msgstr ""
+msgstr "Jaunpils novads"
 
 msgctxt "province"
 msgid "Valkas novads"
-msgstr ""
+msgstr "Valkas novads"
 
 msgctxt "province"
 msgid "Smiltenes novads"
-msgstr ""
+msgstr "Smiltenes novads"
 
 msgctxt "province"
 msgid "Strenču novads"
-msgstr ""
+msgstr "Strenču novads"
 
 msgctxt "province"
 msgid "Kocēnu novads"
-msgstr ""
+msgstr "Kocēnu novads"
 
 msgctxt "province"
 msgid "Mazsalacas novads"
-msgstr ""
+msgstr "Mazsalacas novads"
 
 msgctxt "province"
 msgid "Rūjienas novads"
-msgstr ""
+msgstr "Rūjienas novads"
 
 msgctxt "province"
 msgid "Beverīnas novads"
-msgstr ""
+msgstr "Beverīnas novads"
 
 msgctxt "province"
 msgid "Burtnieku novads"
@@ -15235,528 +15215,640 @@ msgstr "Município de Ventspils"
 
 msgctxt "province"
 msgid "Jēkabpils"
-msgstr ""
+msgstr "Jēkabpils"
 
 msgctxt "province"
 msgid "Valmiera"
-msgstr ""
+msgstr "Valmiera"
 
 msgctxt "province"
 msgid "Pieria"
-msgstr ""
+msgstr "Pieria"
 
 msgctxt "province"
 msgid "Arica y Parinacota"
-msgstr ""
+msgstr "Arica y Parinacota"
 
 msgctxt "province"
 msgid "Kalimantan Tengah"
-msgstr ""
+msgstr "Kalimantan Tengah"
 
 msgctxt "province"
 msgid "Sulawesi Barat"
-msgstr ""
+msgstr "Sulawesi Barat"
 
 msgctxt "province"
 msgid "Kalimantan Utara"
-msgstr ""
+msgstr "Kalimantan Utara"
 
 msgctxt "province"
 msgid "Ankaran"
-msgstr ""
+msgstr "Ankaran"
 
 msgctxt "province"
 msgid "Apače"
-msgstr ""
+msgstr "Apače"
 
 msgctxt "province"
 msgid "Cirkulane"
-msgstr ""
+msgstr "Cirkulane"
 
 msgctxt "province"
 msgid "Gorje"
-msgstr ""
+msgstr "Gorje"
 
 msgctxt "province"
 msgid "Kostanjevica na Krki"
-msgstr ""
+msgstr "Kostanjevica na Krki"
 
 msgctxt "province"
 msgid "Log-Dragomer"
-msgstr ""
+msgstr "Log-Dragomer"
 
 msgctxt "province"
 msgid "Makole"
-msgstr ""
+msgstr "Makole"
 
 msgctxt "province"
 msgid "Mirna"
-msgstr ""
+msgstr "Mirna"
 
 msgctxt "province"
 msgid "Mokronog-Trebelno"
-msgstr ""
+msgstr "Mokronog-Trebelno"
 
 msgctxt "province"
 msgid "Odranci"
-msgstr ""
+msgstr "Odranci"
 
 msgctxt "province"
 msgid "Oplotnica"
-msgstr ""
+msgstr "Oplotnica"
 
 msgctxt "province"
 msgid "Ormož"
-msgstr ""
+msgstr "Ormož"
 
 msgctxt "province"
 msgid "Osilnica"
-msgstr ""
+msgstr "Osilnica"
 
 msgctxt "province"
 msgid "Pesnica"
-msgstr ""
+msgstr "Pesnica"
 
 msgctxt "province"
 msgid "Piran"
-msgstr ""
+msgstr "Piran"
 
 msgctxt "province"
 msgid "Pivka"
-msgstr ""
+msgstr "Pivka"
 
 msgctxt "province"
 msgid "Podčetrtek"
-msgstr ""
+msgstr "Podčetrtek"
 
 msgctxt "province"
 msgid "Podlehnik"
-msgstr ""
+msgstr "Podlehnik"
 
 msgctxt "province"
 msgid "Podvelka"
-msgstr ""
+msgstr "Podvelka"
 
 msgctxt "province"
 msgid "Poljčane"
-msgstr ""
+msgstr "Poljčane"
 
 msgctxt "province"
 msgid "Polzela"
-msgstr ""
+msgstr "Polzela"
 
 msgctxt "province"
 msgid "Postojna"
-msgstr ""
+msgstr "Postojna"
 
 msgctxt "province"
 msgid "Prebold"
-msgstr ""
+msgstr "Prebold"
 
 msgctxt "province"
 msgid "Preddvor"
-msgstr ""
+msgstr "Preddvor"
 
 msgctxt "province"
 msgid "Prevalje"
-msgstr ""
+msgstr "Prevalje"
 
 msgctxt "province"
 msgid "Ptuj"
-msgstr ""
+msgstr "Ptuj"
 
 msgctxt "province"
 msgid "Puconci"
-msgstr ""
+msgstr "Puconci"
 
 msgctxt "province"
 msgid "Rače-Fram"
-msgstr ""
+msgstr "Rače-Fram"
 
 msgctxt "province"
 msgid "Radeče"
-msgstr ""
+msgstr "Radeče"
 
 msgctxt "province"
 msgid "Radenci"
-msgstr ""
+msgstr "Radenci"
 
 msgctxt "province"
 msgid "Radlje ob Dravi"
-msgstr ""
+msgstr "Radlje ob Dravi"
 
 msgctxt "province"
 msgid "Radovljica"
-msgstr ""
+msgstr "Radovljica"
 
 msgctxt "province"
 msgid "Ravne na Koroškem"
-msgstr ""
+msgstr "Ravne na Koroškem"
 
 msgctxt "province"
 msgid "Razkrižje"
-msgstr ""
+msgstr "Razkrižje"
 
 msgctxt "province"
 msgid "Rečica ob Savinji"
-msgstr ""
+msgstr "Rečica ob Savinji"
 
 msgctxt "province"
 msgid "Renče-Vogrsko"
-msgstr ""
+msgstr "Renče-Vogrsko"
 
 msgctxt "province"
 msgid "Ribnica"
-msgstr ""
+msgstr "Ribnica"
 
 msgctxt "province"
 msgid "Ribnica na Pohorju"
-msgstr ""
+msgstr "Ribnica na Pohorju"
 
 msgctxt "province"
 msgid "Rogaška Slatina"
-msgstr ""
+msgstr "Rogaška Slatina"
 
 msgctxt "province"
 msgid "Rogašovci"
-msgstr ""
+msgstr "Rogašovci"
 
 msgctxt "province"
 msgid "Rogatec"
-msgstr ""
+msgstr "Rogatec"
 
 msgctxt "province"
 msgid "Ruše"
-msgstr ""
+msgstr "Ruše"
 
 msgctxt "province"
 msgid "Selnica ob Dravi"
-msgstr ""
+msgstr "Selnica ob Dravi"
 
 msgctxt "province"
 msgid "Semič"
-msgstr ""
+msgstr "Semič"
 
 msgctxt "province"
 msgid "Šentrupert"
-msgstr ""
+msgstr "Šentrupert"
 
 msgctxt "province"
 msgid "Sevnica"
-msgstr ""
+msgstr "Sevnica"
 
 msgctxt "province"
 msgid "Sežana"
-msgstr ""
+msgstr "Sežana"
 
 msgctxt "province"
 msgid "Slovenj Gradec"
-msgstr ""
+msgstr "Slovenj Gradec"
 
 msgctxt "province"
 msgid "Slovenska Bistrica"
-msgstr ""
+msgstr "Slovenska Bistrica"
 
 msgctxt "province"
 msgid "Slovenske Konjice"
-msgstr ""
+msgstr "Slovenske Konjice"
 
 msgctxt "province"
 msgid "Šmarješke Toplice"
-msgstr ""
+msgstr "Šmarješke Toplice"
 
 msgctxt "province"
 msgid "Sodražica"
-msgstr ""
+msgstr "Sodražica"
 
 msgctxt "province"
 msgid "Solčava"
-msgstr ""
+msgstr "Solčava"
 
 msgctxt "province"
 msgid "Središče ob Dravi"
-msgstr ""
+msgstr "Središče ob Dravi"
 
 msgctxt "province"
 msgid "Starše"
-msgstr ""
+msgstr "Starše"
 
 msgctxt "province"
 msgid "Straža"
-msgstr ""
+msgstr "Straža"
 
 msgctxt "province"
 msgid "Sveta Trojica v Slovenskih goricah"
-msgstr ""
+msgstr "Sveta Trojica v Slovenskih goricah"
 
 msgctxt "province"
 msgid "Sveti Jurij v Slovenskih goricah"
-msgstr ""
+msgstr "Sveti Jurij v Slovenskih goricah"
 
 msgctxt "province"
 msgid "Sveti Tomaž"
-msgstr ""
+msgstr "Sveti Tomaž"
 
 msgctxt "province"
 msgid "Vodice"
-msgstr ""
+msgstr "Vodice"
 
 msgctxt "province"
 msgid "Abkhazia"
-msgstr ""
+msgstr "Abkhazia"
 
 msgctxt "province"
 msgid "Adjara"
-msgstr ""
+msgstr "Adjara"
 
 msgctxt "province"
 msgid "Tbilisi"
-msgstr ""
+msgstr "Tbilisi"
 
 msgctxt "province"
 msgid "Guria"
-msgstr ""
+msgstr "Guria"
 
 msgctxt "province"
 msgid "Imereti"
-msgstr ""
+msgstr "Imereti"
 
 msgctxt "province"
 msgid "Kakheti"
-msgstr ""
+msgstr "Kakheti"
 
 msgctxt "province"
 msgid "Kvemo Kartli"
-msgstr ""
+msgstr "Kvemo Kartli"
 
 msgctxt "province"
 msgid "Mtskheta-Mtianeti"
-msgstr ""
+msgstr "Mtskheta-Mtianeti"
 
 msgctxt "province"
 msgid "Racha-Lechkhumi and Kvemo Svaneti"
-msgstr ""
+msgstr "Racha-Lechkhumi and Kvemo Svaneti"
 
 msgctxt "province"
 msgid "Samegrelo-Zemo Svaneti"
-msgstr ""
+msgstr "Samegrelo-Zemo Svaneti"
 
 msgctxt "province"
 msgid "Samtskhe-Javakheti"
-msgstr ""
+msgstr "Samtskhe-Javakheti"
 
 msgctxt "province"
 msgid "Shida Kartli"
-msgstr ""
-
-msgctxt "province"
-msgid "Harjumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Hiiumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Ida-Virumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Jõgevamaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Järvamaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Läänemaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Lääne-Virumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Põlvamaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Pärnumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Raplamaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Saaremaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Tartumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Viljandimaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Võrumaa"
-msgstr ""
-
-msgctxt "province"
-msgid "Klaipėdos Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Marijampolės Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Panevėžio Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Šiaulių Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Tauragės Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Telšių Apskritis"
-msgstr ""
-
-msgctxt "province"
-msgid "Bataan"
-msgstr ""
-
-msgctxt "province"
-msgid "Al Bahah"
-msgstr ""
-
-msgctxt "province"
-msgid "Al Hudud Ash Shamaliyah"
-msgstr ""
-
-msgctxt "province"
-msgid "Blekinge län"
-msgstr ""
-
-msgctxt "province"
-msgid "Dalarnas län"
-msgstr ""
-
-msgctxt "province"
-msgid "Gotlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Gävleborgs län"
-msgstr ""
-
-msgctxt "province"
-msgid "Hallands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Jämtlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Jönkopings län"
-msgstr ""
-
-msgctxt "province"
-msgid "Kalmar län"
-msgstr ""
-
-msgctxt "province"
-msgid "Kronobergs län"
-msgstr ""
-
-msgctxt "province"
-msgid "Norrbottens län"
-msgstr ""
-
-msgctxt "province"
-msgid "Skåne län"
-msgstr ""
-
-msgctxt "province"
-msgid "Stockholms län"
-msgstr ""
-
-msgctxt "province"
-msgid "Södermanlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Uppsala län"
-msgstr ""
-
-msgctxt "province"
-msgid "Värmlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Västerbottens län"
-msgstr ""
-
-msgctxt "province"
-msgid "Västernorrlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Västmanlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Västra Götalands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Örebro län"
-msgstr ""
-
-msgctxt "province"
-msgid "Östergötlands län"
-msgstr ""
-
-msgctxt "province"
-msgid "Phuket"
-msgstr ""
-
-msgctxt "province"
-msgid "Wake Island"
-msgstr ""
-
-msgctxt "province"
-msgid "Northern Ostrobothnia"
-msgstr ""
+msgstr "Shida Kartli"
 
 msgctxt "province"
 msgid "Telangana"
-msgstr ""
+msgstr "Telangana"
 
 msgctxt "province"
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadeloupe"
 
 msgctxt "province"
 msgid "Martinique"
-msgstr ""
+msgstr "Martinique"
 
 msgctxt "province"
 msgid "Guyane"
-msgstr ""
+msgstr "Guyane"
 
 msgctxt "province"
 msgid "La Réunion"
-msgstr ""
+msgstr "La Réunion"
 
 msgctxt "province"
 msgid "Mayotte"
-msgstr ""
+msgstr "Mayotte"
+
+msgctxt "province"
+msgid "Baringo"
+msgstr "Baringo"
+
+msgctxt "province"
+msgid "Bomet"
+msgstr "Bomet"
+
+msgctxt "province"
+msgid "Bungoma"
+msgstr "Bungoma"
+
+msgctxt "province"
+msgid "Elgeyo/Marakwet"
+msgstr "Elgeyo/Marakwet"
+
+msgctxt "province"
+msgid "Embu"
+msgstr "Embu"
+
+msgctxt "province"
+msgid "Garissa"
+msgstr "Garissa"
+
+msgctxt "province"
+msgid "Homa Bay"
+msgstr "Homa Bay"
+
+msgctxt "province"
+msgid "Isiolo"
+msgstr "Isiolo"
+
+msgctxt "province"
+msgid "Kajiado"
+msgstr "Kajiado"
+
+msgctxt "province"
+msgid "Kakamega"
+msgstr "Kakamega"
+
+msgctxt "province"
+msgid "Kericho"
+msgstr "Kericho"
+
+msgctxt "province"
+msgid "Kiambu"
+msgstr "Kiambu"
+
+msgctxt "province"
+msgid "Kilifi"
+msgstr "Kilifi"
+
+msgctxt "province"
+msgid "Kirinyaga"
+msgstr "Kirinyaga"
+
+msgctxt "province"
+msgid "Kisii"
+msgstr "Kisii"
+
+msgctxt "province"
+msgid "Kisumu"
+msgstr "Kisumu"
+
+msgctxt "province"
+msgid "Kitui"
+msgstr "Kitui"
+
+msgctxt "province"
+msgid "Kwale"
+msgstr "Kwale"
+
+msgctxt "province"
+msgid "Laikipia"
+msgstr "Laikipia"
+
+msgctxt "province"
+msgid "Lamu"
+msgstr "Lamu"
+
+msgctxt "province"
+msgid "Machakos"
+msgstr "Machakos"
+
+msgctxt "province"
+msgid "Makueni"
+msgstr "Makueni"
+
+msgctxt "province"
+msgid "Mandera"
+msgstr "Mandera"
+
+msgctxt "province"
+msgid "Marsabit"
+msgstr "Marsabit"
+
+msgctxt "province"
+msgid "Meru"
+msgstr "Meru"
+
+msgctxt "province"
+msgid "Migori"
+msgstr "Migori"
+
+msgctxt "province"
+msgid "Mombasa"
+msgstr "Mombasa"
+
+msgctxt "province"
+msgid "Murang'a"
+msgstr "Murang'a"
+
+msgctxt "province"
+msgid "Nairobi City"
+msgstr "Nairobi City"
+
+msgctxt "province"
+msgid "Nakuru"
+msgstr "Nakuru"
+
+msgctxt "province"
+msgid "Nandi"
+msgstr "Nandi"
+
+msgctxt "province"
+msgid "Narok"
+msgstr "Narok"
+
+msgctxt "province"
+msgid "Nyamira"
+msgstr "Nyamira"
+
+msgctxt "province"
+msgid "Nyandarua"
+msgstr "Nyandarua"
+
+msgctxt "province"
+msgid "Nyeri"
+msgstr "Nyeri"
+
+msgctxt "province"
+msgid "Samburu"
+msgstr "Samburu"
+
+msgctxt "province"
+msgid "Siaya"
+msgstr "Siaya"
+
+msgctxt "province"
+msgid "Taita/Taveta"
+msgstr "Taita/Taveta"
+
+msgctxt "province"
+msgid "Tana River"
+msgstr "Tana River"
+
+msgctxt "province"
+msgid "Tharaka-Nithi"
+msgstr "Tharaka-Nithi"
+
+msgctxt "province"
+msgid "Trans Nzoia"
+msgstr "Trans Nzoia"
+
+msgctxt "province"
+msgid "Turkana"
+msgstr "Turkana"
+
+msgctxt "province"
+msgid "Uasin Gishu"
+msgstr "Uasin Gishu"
+
+msgctxt "province"
+msgid "Vihiga"
+msgstr "Vihiga"
+
+msgctxt "province"
+msgid "Wajir"
+msgstr "Wajir"
+
+msgctxt "province"
+msgid "West Pokot"
+msgstr "West Pokot"
+
+msgctxt "province"
+msgid "Chandigarh"
+msgstr "Chandigarh"
+
+msgctxt "province"
+msgid "Saint Kitts"
+msgstr "Saint Kitts"
+
+msgctxt "province"
+msgid "Nevis"
+msgstr "Nevis"
+
+msgctxt "province"
+msgid "Dushanbe"
+msgstr "Dushanbe"
+
+msgctxt "province"
+msgid "Nohiyahoi Tobei Jumhurí"
+msgstr "Nohiyahoi Tobei Jumhurí"
+
+msgctxt "province"
+msgid "Wallis-et-Futuna"
+msgstr "Wallis-et-Futuna"
+
+msgctxt "province"
+msgid "Nouvelle-Calédonie"
+msgstr "Nouvelle-Calédonie"
+
+msgctxt "province"
+msgid "Haute-Marne"
+msgstr "Haute-Marne"
+
+msgctxt "province"
+msgid "Saint George"
+msgstr "Saint George"
+
+msgctxt "province"
+msgid "Saint John"
+msgstr "Saint John"
+
+msgctxt "province"
+msgid "Saint Paul"
+msgstr "Saint Paul"
+
+msgctxt "province"
+msgid "Saint Peter"
+msgstr "Saint Peter"
+
+msgctxt "province"
+msgid "Saint Philip"
+msgstr "Saint Philip"
+
+msgctxt "province"
+msgid "Barbuda"
+msgstr "Barbuda"
+
+msgctxt "province"
+msgid "Redonda"
+msgstr "Redonda"
+
+msgctxt "province"
+msgid "Christ Church"
+msgstr "Christ Church"
+
+msgctxt "province"
+msgid "Saint Joseph"
+msgstr "Saint Joseph"
+
+msgctxt "province"
+msgid "Saint Lucy"
+msgstr "Saint Lucy"
+
+msgctxt "province"
+msgid "Saint Michael"
+msgstr "Saint Michael"
+
+msgctxt "province"
+msgid "Estuaire"
+msgstr "Estuaire"
+
+msgctxt "province"
+msgid "Haut-Ogooué"
+msgstr "Haut-Ogooué"
+
+msgctxt "province"
+msgid "Moyen-Ogooué"
+msgstr "Moyen-Ogooué"
+
+msgctxt "province"
+msgid "Ngounié"
+msgstr "Ngounié"
+
+msgctxt "province"
+msgid "Nyanga"
+msgstr "Nyanga"
+
+msgctxt "province"
+msgid "Ogooué-Ivindo"
+msgstr "Ogooué-Ivindo"
+
+msgctxt "province"
+msgid "Ogooué-Lolo"
+msgstr "Ogooué-Lolo"
+
+msgctxt "province"
+msgid "Ogooué-Maritime"
+msgstr "Ogooué-Maritime"
+
+msgctxt "province"
+msgid "Woleu-Ntem"
+msgstr "Woleu-Ntem"
+
+msgctxt "province"
+msgid "Monmouthshire"
+msgstr "Monmouthshire"

@@ -7,15 +7,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-02-22 16:31+0000\n"
-"Last-Translator: Robin Farrar <hogyndrwg@gmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Welsh (United Kingdom) (http://www.transifex.com/civicrm/civicrm/language/cy_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cy_GB\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Subscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Forward URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Reply (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Event Queue ID"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "CiviMail will not send email to a non-existent contact: %1"
@@ -33,13 +73,19 @@ msgstr "Mae maes \"%1\" yn angenrheidiol."
 msgid "Field \"body_html\" or \"body_text\" is required."
 msgstr "Mae angen maes \"body_html\" neu \"body_text\"."
 
-#: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Form/Upload.php
+#: CRM/Mailing/BAO/Mailing.php
 msgid "This message is missing a required token - {%1}: %2"
 msgstr "Mae tocyn sydd ei angen ar goll o'r neges - {%1}: %2"
 
 #: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Selector/Event.php
 msgid "Opt-Out"
 msgstr "Gadael y rhestr"
+
+#: CRM/Mailing/BAO/Mailing.php ang/crmMailing/BlockReview.html
+#: ang/crmMailingAB/EditCtrl/report.html
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Resubscribe"
+msgstr "Ail-danysgrifio"
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "You do not have permission to access this mailing report"
@@ -54,6 +100,10 @@ msgid "SMS Message"
 msgstr "Neges SMS"
 
 #: CRM/Mailing/BAO/Mailing.php
+msgid "Document Body"
+msgstr "Corff y ddogfen"
+
+#: CRM/Mailing/BAO/Mailing.php
 msgid "Use Template"
 msgstr "Defnyddio Templed"
 
@@ -66,18 +116,10 @@ msgid "Save As New Template"
 msgstr "Safio Fel Templed Newydd"
 
 #: CRM/Mailing/BAO/Mailing.php
-msgid "Select Template"
-msgstr "Dewis Templed"
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Your Letter"
-msgstr "Eich Llythyr"
-
-#: CRM/Mailing/BAO/Mailing.php
 msgid ""
 "The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in the online user and administrator guide</a>"
-msgstr "Nid yw <a href=\"%1\">blwch postio di-ofyn</a> wedi ei ffurfweddu. Mae <a href=\"%2\">rhagor o wybodaeth yn y canllaw ar-lein ar gyfer defnyddwyr a gweinyddwyr.</a>"
+"find <a href=\"%2\">more info in the online system administrator guide</a>"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "View Mailing"
@@ -86,10 +128,6 @@ msgstr "Gweld Postiad"
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "[CiviMail Draft]"
 msgstr "[Drafft CiviMail]"
-
-#: CRM/Mailing/BAO/MailingJob.php
-msgid "The mailing has been canceled."
-msgstr "Mae'r postiad wedi ei ganslo."
 
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "Not scheduled"
@@ -135,6 +173,10 @@ msgid "Forwards"
 msgstr "Wedi eu gyrru ymlaen"
 
 #: CRM/Mailing/BAO/Query.php
+msgid "Campaign %1 %2"
+msgstr "Ymgyrch %1 %2"
+
+#: CRM/Mailing/BAO/Query.php
 msgid "Mailing Name(s)"
 msgstr "Enw(au) Postiad"
 
@@ -158,54 +200,84 @@ msgstr "URLs y gellid eu tracio"
 msgid "Trackable Replies"
 msgstr "Ymatebion y Gellid eu Tracio"
 
+#: CRM/Mailing/BAO/Query.php templates/CRM/Mailing/Form/Search/Common.tpl
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "Mailing Date"
+msgstr "Dyddiad y Postiad"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "Bounce Pattern ID"
+msgstr "ID Patrwm Bownsio"
+
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/DAO/BounceType.php
+msgid "Type of bounce"
+msgstr ""
+
 #: CRM/Mailing/DAO/BouncePattern.php
 msgid "Pattern"
 msgstr "Patrwm"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "A regexp to match a message to a bounce type"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type ID"
+msgstr "ID Math o Fownsio"
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Name"
+msgstr "Enw Math o Fownsio"
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Description"
+msgstr "Disigrifiad Math o Fownsio"
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "A description of this bounce type"
+msgstr ""
 
 #: CRM/Mailing/DAO/BounceType.php
 msgid "Hold Threshold"
 msgstr "Trothwy Dal yn Ôl"
 
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component ID"
-msgstr "ID y Gydran Bostio"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Component Name"
-msgstr "Enw'r Gydran"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Type"
-msgstr "Math o Gydran Bostio"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Body HTML"
-msgstr "Corff HTML y Gydran Bostio"
-
-#: CRM/Mailing/DAO/Component.php CRM/Mailing/DAO/Mailing.php
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Body Text"
-msgstr "Corff Testun y Gydran Bostio"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component is Default?"
-msgstr "A yw'r Gydran yn Ddi-ofyn?"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Is Active?"
-msgstr "Cydran Bostio yn Weithredol?"
+#: CRM/Mailing/DAO/BounceType.php
+msgid ""
+"Number of bounces of this type required before the email address is put on "
+"bounce hold"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Domain"
 msgstr "Parth Postio"
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingAB.php
+msgid "Which site is this mailing for"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the header component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the footer component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Reply"
 msgstr "Ymateb Postio"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the auto-responder component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Unsubscribe"
 msgstr "Dad-danysgrifio Postio"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the unsubscribe component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Resubscribe"
@@ -216,20 +288,66 @@ msgid "Mailing Opt Out"
 msgstr "Gadael y Rhestr Bostio"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the opt-out component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Name."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Type"
 msgstr "Math o Bostiad"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"differentiate between standalone mailings, A/B tests, and A/B final-winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Name"
 msgstr "Enw Anfonwr Postiad"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Header of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Email"
 msgstr "Ebost Anfonwr Postiad"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Replyto Email"
 msgstr "Ebost Ateb i"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Reply-To Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Type"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "The language/processing system used for email templates."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Options (JSON)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Advanced options used by the email templating system. (JSON encoded)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingComponent.php
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Body Text"
+msgstr "Corff Testun y Gydran Bostio"
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Body Html"
@@ -239,22 +357,42 @@ msgstr "Html Corff"
 msgid "Url Tracking"
 msgstr "Tracio Url"
 
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track URL click-throughs for this mailing?"
+msgstr ""
+
 #: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockResponses.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Forward Replies"
 msgstr "Anfon Atebion Ymlaen"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we forward replies back to the author?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Auto Responder"
 msgstr "Ymatebwr Awtomatig"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we enable the auto-responder?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Track Mailing?"
 msgstr "Tracio'r Postiad?"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track when recipients open/read this mailing?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Completed"
 msgstr "Wedi Cwblhau'r Postiad"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Has at least one job associated with this mailing finished?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Message Template"
@@ -265,49 +403,106 @@ msgid "Override Verp"
 msgstr "Newid Verp"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we overrite VERP address in Reply-To"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Creator"
 msgstr "Crëwr Postiad"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who first created this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Created Date"
 msgstr "Dyddiad Creu Postiad"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was created."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"When the mailing (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who scheduled this mailing"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Scheduled Date"
 msgstr "Dyddiad Amseru Postiad"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was scheduled."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approved By"
 msgstr "Wedi ei Chymeradwyo Gan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who approved this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Approved Date"
 msgstr "Dyddiad Cymeradwyo'r Postiad"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was approved."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Approve.php
 msgid "Approval Status"
 msgstr "Statws Cymeradwyo"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The status of this mailing. Values: none, approved, rejected"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approval Note"
 msgstr "Nodyn Cymeradwyo"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Note behind the decision."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Is Mailing Archived?"
 msgstr "Ydy'r Postiad wedi ei Archifio?"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Settings.php
-#: ang/crmMailing/BlockPublication.html
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Is this mailing archived?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockPublication.html
 msgid "Mailing Visibility"
 msgstr "Gwelededd Postiad"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "In what context(s) is the mailing contents visible (online viewing)"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Campaign"
 msgstr "Ymgyrch Bostio"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The campaign for which this mailing has been initiated."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "No Duplicate emails?"
 msgstr "Dim ebyst wedi eu dyblygu?"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Remove duplicate emails?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing SMS Provider"
@@ -317,25 +512,62 @@ msgstr "Darparwr SMS Postiad"
 msgid "Mailing Hash"
 msgstr "Hash Postiad"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Group.php
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Key for validating requests related to this mailing."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "With email_selection_method, determines which email address to use"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Email Selection Method"
 msgstr "Dull Dewis Ebost"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"With location_type_id, determine how to choose the email address to use."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Language"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Language of the content of the mailing. Useful for tokens."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "MailingAB ID"
 msgstr "ID PostiadAB"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "Name of the A/B test"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (A)"
 msgstr "ID Postiad (A)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The first experimental mailing (\"A\" condition)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (B)"
 msgstr "ID Postiad (B)"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "The second experimental mailing (\"B\" condition)"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (C)"
 msgstr "ID Postiad (C)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The final, general mailing (derived from A or B)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Testing Criteria"
@@ -350,8 +582,16 @@ msgid "URL for Winner Criteria"
 msgstr "URL ar gyfer Meini Prawf Enillydd"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "What specific url to track"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Declaration Time"
 msgstr "Amser Datganiad"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "In how much time to declare winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Group Percentage"
@@ -365,13 +605,65 @@ msgstr "Crëwyd Prawf AB Gan"
 msgid "AB Test Created Date"
 msgstr "Dyddiad Creu Prawf AB"
 
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component ID"
+msgstr "ID y Gydran Bostio"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Component Name"
+msgstr "Enw'r Gydran"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "The name of this component"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Type"
+msgstr "Math o Gydran Bostio"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Type of Component."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Body HTML"
+msgstr "Corff HTML y Gydran Bostio"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in html format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in text format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component is Default?"
+msgstr "A yw'r Gydran yn Ddi-ofyn?"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Is this the default component for this component_type?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Is Active?"
+msgstr "Cydran Bostio yn Weithredol?"
+
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group ID"
 msgstr "ID Grŵp Postio"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The ID of a previous mailing to include/exclude recipients."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Type"
 msgstr "Math o Grŵp Postio"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "Are the members of the group included or excluded?."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Entity Table"
@@ -386,40 +678,88 @@ msgid "Mailing Group Search"
 msgstr "Chwilio Grŵp Postio"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The filtering search. custom search id or -1 for civicrm api search"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Search Arguments"
 msgstr "Newidynnau Chwiliad Grŵp Postio"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "The arguments to be sent to the search function"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job ID"
 msgstr "ID Tasg Bostio"
+
+#: CRM/Mailing/DAO/MailingJob.php CRM/Mailing/DAO/Recipients.php
+msgid "The ID of the mailing this Job will send."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was scheduled."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Start Date"
 msgstr "Dyddiad Cychwyn Tasg Bostio"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was started."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job End Date"
 msgstr "Dyddiad Diwedd Tasg Bostio"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job ended."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "The state of this job"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Is Test?"
 msgstr "Ai Prawf yw'r Tasg Bostio?"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Is this job for a test mail?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Type"
 msgstr "Math o Dasg Bostio"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Type of mailling job: null | child "
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Parent"
 msgstr "Rhiant y Dasg Bostio"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Parent job id"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Offset"
 msgstr "Atred Tasg Bostio"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Offset of the child job"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Limit"
 msgstr "Terfyn Tasg Bostio"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Queue size limit for each child job"
+msgstr ""
 
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Mailing Recipients ID"
@@ -429,37 +769,82 @@ msgstr "ID Derbynwyr y Postiad"
 msgid "Mailing Recipient"
 msgstr "Derbyniwr y Postiad"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "FK to Contact"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php CRM/Mailing/DAO/Spool.php
 msgid "Recipient Email"
 msgstr "Ebost y Derbyniwr"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Email"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Recipient Phone"
 msgstr "Rhif Ffôn y Derbyniwr"
+
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Phone"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Spool ID"
+msgstr "ID Sbŵl"
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Mailing Job"
+msgstr "Tasg Ebost"
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The ID of the Job ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The email of the receipients this mail is to be sent."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
 msgid "Headers"
 msgstr "Penynnau"
 
 #: CRM/Mailing/DAO/Spool.php
+msgid "The header information of this mailing ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
 msgid "Body"
 msgstr "Corff"
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Added At"
-msgstr "Ychwanegwyd At"
+msgid "The body of this mailing."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Removed At"
-msgstr "Dilëwyd At"
+msgid "date on which this job was added."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "date on which this job was removed."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "Trackable URL ID"
+msgstr "ID URL Tracio"
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "The URL to be tracked."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "FK to the mailing"
+msgstr ""
 
 #: CRM/Mailing/Event/BAO/Bounce.php
 msgid "Unknown bounce type: Could not parse bounce email"
 msgstr "Math anhysbys o fownsio: Doedd dim modd dosrannu'r ebost bownsio"
-
-#: CRM/Mailing/Event/BAO/Bounce.php
-msgid "Unknown"
-msgstr "Anhysbys"
 
 #: CRM/Mailing/Event/BAO/Subscribe.php
 msgid "You are already subscribed in %1, your subscription is %2."
@@ -479,11 +864,34 @@ msgid ""
 "Please contact the site administrator."
 msgstr "Cawsom broblem wrth brosesu eich cais tanysgrifio ar gyfer %1. Rydych wedi ceisio tanysgrifio i grŵp preifat a/neu roedd gwall bas data ar ein hochr ni. Cysylltwch â gweinyddwr y safle os gwelwch yn dda."
 
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "Bounce ID"
+msgstr "ID Bownsio"
+
+#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
+#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Event Queue"
+msgstr "Ciw Digwyddiadau"
+
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
 #: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Opened.php
 #: CRM/Mailing/Event/DAO/Reply.php CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Time Stamp"
-msgstr "Stamp Amser"
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "FK to EventQueue"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "What type of bounce was it?"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "The reason the email bounced."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "When this bounce event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Mailing Confirmation ID"
@@ -494,16 +902,80 @@ msgid "Mailing Subscribe ID"
 msgstr "ID Tanysgrifio Postiad"
 
 #: CRM/Mailing/Event/DAO/Confirm.php
+msgid "FK to civicrm_mailing_event_subscribe"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Confirm Timestamp"
 msgstr "Cadarnhau Stamp Amser"
+
+#: CRM/Mailing/Event/DAO/Confirm.php
+msgid "When this confirmation event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Delivered.php
+msgid "Delivered ID"
+msgstr "ID Anfon"
+
+#: CRM/Mailing/Event/DAO/Delivered.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "When this delivery event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Forward ID"
+msgstr "ID Anfon Ymlaen"
+
+#: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Mailing Event Queue"
+msgstr "Ciw Digwyddiadau Postio"
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Destination Queue"
+msgstr "Ciw Cyrchfan"
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "FK to EventQueue for destination"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "When this forward event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "Mailing Opened ID"
+msgstr "ID Agor Ebost"
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "When this open event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Queue.php
 msgid "Mailing Event Queue ID"
 msgstr "ID Ciw Digwyddiadau Postio"
 
 #: CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Job"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Queue.php
 msgid "Security Hash"
 msgstr "Hash Diogelwch"
+
+#: CRM/Mailing/Event/DAO/Queue.php CRM/Mailing/Event/DAO/Subscribe.php
+msgid "Security hash"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply ID"
+msgstr "ID Ymateb"
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply Timestamp"
+msgstr "Stamp Amser Ymateb"
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "When this reply event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Subscribe.php
 msgid "Mailing Subscribe Group"
@@ -521,17 +993,37 @@ msgstr "Hash Tanysgrifio Postiad"
 msgid "Mailing Subscribe Timestamp"
 msgstr "Stamp Amser Tanysgrifio Postiad"
 
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "When this subscription event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable URL Open ID"
+msgstr "ID Tracio URL Agor"
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable Url"
+msgstr "Url Tracio"
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "FK to TrackableURL"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "When this trackable URL open occurred."
+msgstr ""
+
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe ID"
 msgstr "ID dad-danysgrifio"
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
-msgid "Mailing Event Queue"
-msgstr "Ciw Digwyddiadau Postio"
-
-#: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe is for Organization?"
 msgstr "Dad-danysgrifio ar gyfer Sefydliad?"
+
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Unsubscribe at org- or group-level"
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe Timestamp"
@@ -544,6 +1036,10 @@ msgstr "Cymeradwyo/Gwrthod Postiad"
 #: CRM/Mailing/Form/Approve.php
 msgid "Approve/Reject Note"
 msgstr "Cymeradwyo/Gwrthod Nodyn"
+
+#: CRM/Mailing/Form/Browse.php CRM/Mailing/Page/Browse.php
+msgid "The mailing has been canceled."
+msgstr "Mae'r postiad wedi ei ganslo."
 
 #: CRM/Mailing/Form/Component.php
 msgid "Component Type"
@@ -578,6 +1074,10 @@ msgstr "Canfyddwyd y gwallau canlynol yn neges %1 :"
 msgid "More information on tokens..."
 msgstr "Rhagor o wybodaeth ynglŷn â thocynnau..."
 
+#: CRM/Mailing/Form/Component.php
+msgid "Please provide either HTML or TEXT format for the Body."
+msgstr "Darparwch fformat Testun neu HTML ar gyfer y Corff."
+
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Invalid form parameters."
 msgstr "Paramadrau ffurflen annilys."
@@ -585,10 +1085,6 @@ msgstr "Paramadrau ffurflen annilys."
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward Mailing: %1"
 msgstr "Gyrru'r Postiad ymlaen: %1"
-
-#: CRM/Mailing/Form/ForwardMailing.php
-msgid "Email %1"
-msgstr "Ebost %1"
 
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward"
@@ -609,76 +1105,6 @@ msgstr[0] "Anfonwyd y postiad ymlaen yn llwyddianus at %count cyfeiriad ebost."
 msgstr[1] "Anfonwyd y postiad ymlaen yn llwyddianus at %count gyfeiriad ebost."
 msgstr[2] "Anfonwyd y postiad ymlaen yn llwyddianus at %count cyfeiriad ebost."
 msgstr[3] "Anfonwyd y postiad ymlaen yn llwyddianus at %count cyfeiriad ebost."
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in our online user and administrator "
-"guide.</a>"
-msgstr "Nid yw'r <a href=\"%1\">blwch postio di-ofyn</a> wedi ei ffurfweddu. Mae <a href=\"%2\">rhagor o wybodaeth i'w gael yn ein canllaw ar-lein ar gyfer defnyddwyr a gweinyddwyr.</a>"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Name Your Mailing"
-msgstr "Enwi eich postiad"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Remove duplicate emails?"
-msgstr "Dileu ebyst wedi eu dyblygu?"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Unsubscription Group"
-msgstr "Grŵp Dad-danysgrifio"
-
-#: CRM/Mailing/Form/Group.php
-msgid "INCLUDE Recipients of These Mailing(s)"
-msgstr "CYNNWYS Derbyniwyr y Postiad(au) hyn"
-
-#: CRM/Mailing/Form/Group.php
-msgid "EXCLUDE Recipients of These Mailing(s)"
-msgstr "EITHRIO Derbyniwyr y Postiad(au) Yma"
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Settings.php
-#: CRM/Mailing/Form/Test.php CRM/Mailing/Form/Upload.php
-msgid ""
-"You can continue later by clicking the 'Continue' action to resume working "
-"on it.<br />From <a href='%1'>Draft and Unscheduled Mailings</a>."
-msgstr "Gallech barhau hwyrach trwy glicio gweithred 'Parhau' er mwyn ail-afael â gwaith arno. <br />O <a href='%1'>Postiadau Drafft a heb eu Hamserlennu</a>."
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Click the 'Continue' action to resume working on it."
-msgstr "Cliciwch ar weithred 'Parhau' er mwyn dechrau gweithio arno eto."
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Saved"
-msgstr "Safiwyd y Postiad"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Cannot have same mail in Include mailing(s) and Exclude mailing(s)."
-msgstr "Ni all yr un ebost fod yn y postiad(au) i'w Cynnwys a'r postiad(au) i'w Eithrio."
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a group to filter on"
-msgstr "Mae'n rhaid i chi ddewis grŵp i hidlo arno"
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a search to filter"
-msgstr "Mae'n rhaid i chi ddewis chwiliad i'w hidlo"
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Email Selection Method' is automatic, you are not allowed to choose any "
-"'Location Type'"
-msgstr "Os yw'r 'Dull Dewis Ebost' yn awtomatig, ni chewch ddewis unrhyw 'Fath o Leoliad'"
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Location Type' is not selected, you must set the 'Email Selection "
-"Method' to automatic as well."
-msgstr "Os na ddewisir 'Math o Leoliad,' mae'n rhaid i chi osod 'Dull Dewis Ebost' awtomatig hefyd."
 
 #: CRM/Mailing/Form/Optout.php CRM/Mailing/Form/Unsubscribe.php
 #: CRM/Mailing/Page/Common.php
@@ -707,26 +1133,6 @@ msgid ""
 "with this opt out request."
 msgstr "Nid yw'r cyfeiriad ebost: %1 rydych wedi ei ddarparu yn cyd-fynd a'r ebost sy'n gysylltiedig â'r cais hwn i adael y rhestr."
 
-#: CRM/Mailing/Form/Schedule.php
-msgid "Schedule Mailing"
-msgstr "Amseru Postiad"
-
-#: CRM/Mailing/Form/Schedule.php ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-#: ang/crmMailingAB/EditCtrl/edit.html
-msgid "Submit Mailing"
-msgstr "Cyflwyno Postiad"
-
-#: CRM/Mailing/Form/Schedule.php
-msgid ""
-"Your mailing has been saved. You can continue later by clicking the "
-"'Continue' action to resume working on it.<br />From <a href='%1'>Draft and "
-"Unscheduled Mailings</a>."
-msgstr "Mae eich postiad wedi ei safio. Gallech barhau hwyrach trwy glicio ar y weithred 'Parhau' er mwyn dechrau gweithio arno eto. <br />O <a href='%1'>Postiadau Drafft ac Heb eu Hamseru</a>."
-
 #: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
 msgid "SMS Name"
 msgstr "Enw SMS"
@@ -743,29 +1149,15 @@ msgstr "Drafft / Heb eu hamseru"
 msgid "Mailing is Archived"
 msgstr "Postiad wedi ei Archifio"
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Replies?"
-msgstr "Tracio Atebion?"
+#: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
+#: CRM/Mailing/Selector/Search.php ang/crmMailing/BlockMailing.html
+#: ang/crmMailing/BlockReview.html templates/CRM/Mailing/Page/Browse.hlp
+msgid "Language"
+msgstr ""
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Forward Replies?"
-msgstr "Anfon Atebion Ymlaen?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Click-throughs?"
-msgstr "Tracio Cliciadau drwodd?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Opens?"
-msgstr "Tracio Pan Gaiff ei Agor?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Auto-respond to Replies?"
-msgstr "Ateb yn Awtomatig i Ymatebion?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track and Respond"
-msgstr "Tracio ac Ymateb"
+#: CRM/Mailing/Form/Search.php
+msgid "- all languages -"
+msgstr ""
 
 #: CRM/Mailing/Form/Subscribe.php
 msgid "Subscribe to Mailing List - %1"
@@ -786,48 +1178,6 @@ msgstr "Tanysgrifio"
 #: CRM/Mailing/Form/Task/Print.php CRM/Mailing/Task.php
 msgid "Print Mailing Recipients"
 msgstr "Argraffu Derbynwyr y Postiad"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Address"
-msgstr "Anfon at y Cyfeiriad Hwn"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Group"
-msgstr "Anfon at y Grŵp Hwn"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send a Test Mailing"
-msgstr "Anfon Postiad Prawf"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Inform Scheduler"
-msgstr "Hysbysu'r Teclyn Amseru"
-
-#: CRM/Mailing/Form/Test.php
-msgid "You did not provide an email address or select a group."
-msgstr "Wnaethoch chi ddim rhoi cyfeiriad ebost neu dewis grŵp."
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test not sent."
-msgstr "Ni anfonwyd y prawf."
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"You can not schedule or send this mailing because there are currently no "
-"recipients selected. Click 'Previous' to return to the Select Recipients "
-"step, OR click 'Save & Continue Later'."
-msgstr "Gallech chi ddim ail-amseru neu anfon y postiad oherwydd nad oes derbynwyr wedi eu dewis eto. Cliciwch 'Blaenorol' er mwyn dychwelyd i gam Dewis Derbyniwyr, NEU clicliwch 'Safio a Pharhau Hwyrach'."
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"Click 'Next' when you are ready to Schedule or Send your live mailing (you "
-"will still have a chance to confirm or cancel sending this mailing on the "
-"next page)."
-msgstr "Cliciwch 'Nesaf' pan rydych yn barod i Amseru neu Anfon eich postiad byw (bydd dal cyfle gennych chi i gadarnhau neu ganslo'r postiad ar y dudalen nesaf)."
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test message sent"
-msgstr "Anfonwyd neges brawf"
 
 #: CRM/Mailing/Form/Unsubscribe.php
 msgid "Missing Parameters"
@@ -856,38 +1206,9 @@ msgid ""
 "with this unsubscribe request."
 msgstr "Nid yw'r cyfeiriad ebost: %1 rydych wedi ei ddarparu yn cyd-fynd a'r ebost sy'n gysylltiedig â'r cais hwn i ddad-danysgrifio."
 
-#: CRM/Mailing/Form/Upload.php
-msgid ""
-"There is no valid from email address present. You can add here <a "
-"href='%1'>Add From Email Address.</a>"
-msgstr "Nid oes cyfeiriad ebost \"oddi wrth\" dilys yn bresennol. Gallech ychwanegu yma <a href='%1'>Ychwanegu Ebsot Oddi Wrth.</a>"
-
-#: CRM/Mailing/Form/Upload.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailing/EmailAddrCtrl.js ang/crmMailingAB/BlockMailing.html
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "Reply-To"
-msgstr "Ateb-I"
-
-#: CRM/Mailing/Form/Upload.php CRM/Mailing/Selector/Search.php
-#: templates/CRM/Mailing/Form/Task/Print.tpl
-msgid "Mailing Subject"
-msgstr "Penawd y Postiad"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Upload HTML Message"
-msgstr "Uwchlwytho Neges HTML"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Please provide either a Text or HTML formatted message - or both."
-msgstr "Darparwch neges ar fformat Testun neu HTML - neu'r ddau."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "More information on required tokens..."
-msgstr "Rhagor o wybodaeth ynglŷn â thocynnau sydd eu hangen..."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Content"
-msgstr "Cynnwys y Postiad"
+#: CRM/Mailing/Info.php
+msgid "CiviCRM Mailing Engine"
+msgstr ""
 
 #: CRM/Mailing/Info.php
 msgid "access CiviMail"
@@ -926,9 +1247,31 @@ msgstr "amseru postiadau"
 msgid "approve mailings"
 msgstr "cymeradwyo postiadau"
 
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to send SMS"
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to view this page."
+msgstr ""
+
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Cancel Mailing"
 msgstr "Canslo Postiad"
+
+#: CRM/Mailing/Page/Browse.php
+msgid ""
+"The mailing has been paused. Active message deliveries may continue for a "
+"few minutes, but CiviMail will not begin delivery of any more batches."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "The mailing has been resumed."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "Resumed"
+msgstr ""
 
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Archive Mailing"
@@ -1061,7 +1404,7 @@ msgstr "Dim Ymateb"
 
 #: CRM/Mailing/Selector/Browse.php
 msgid "Mailings %%StatusMessage%%"
-msgstr "Postiadau %%StatusMessage%%"
+msgstr "%%StatusMessage%%Ebyst"
 
 #: CRM/Mailing/Selector/Browse.php
 msgid "Sent By"
@@ -1098,6 +1441,26 @@ msgstr "Parhau i bostio"
 #: CRM/Mailing/Selector/Browse.php
 msgid "Archive"
 msgstr "Archifio"
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Resume"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Resume mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Public View"
+msgstr "Gwedd Cyhoeddus"
 
 #: CRM/Mailing/Selector/Browse.php
 msgid "CiviMail Mailings"
@@ -1143,10 +1506,9 @@ msgstr "Cliciadau-drwodd"
 msgid "Unique Tracked Opens"
 msgstr "Wedi Agor a'u Tracio'n Unigryw"
 
-#: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Tracked Opens"
-msgstr "Wedi Agor a'u Tracio"
+#: CRM/Mailing/Selector/Event.php
+msgid "Total Tracked Opens"
+msgstr "Cyfanswm Agoriadau Wedi eu Tracio"
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Task/Print.tpl
 msgid "Completed Date"
@@ -1156,21 +1518,62 @@ msgstr "Dyddiad Cwblhau"
 msgid "CiviCRM Mailing Search"
 msgstr "Chwiliad Postiad CiviCRM"
 
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Group(s)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (View)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Edit)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Schedule)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing HTML"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Status"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Note"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval URL"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Name)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Email)"
+msgstr ""
+
 #: ang/crmMailing/BlockApprove.html
 msgid "Unreviewed"
 msgstr "Heb eu hadolygu"
 
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Save As"
-msgstr "Cadw Fel"
-
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Email address"
-msgstr "Cyfeiriad ebost"
+#: ang/crmMailing/BlockMailing.html ang/crmMailing/EmailAddrCtrl.js
+#: ang/crmMailingAB/BlockMailing.html
+msgid "Reply-To"
+msgstr "Ateb-I"
 
 #: ang/crmMailing/BlockMailing.html
 msgid "Unsubscribe Group"
 msgstr "Dad-tanysgrifio Grŵp"
+
+#: ang/crmMailing/BlockMailing.html
+msgid "- choose language -"
+msgstr ""
 
 #: ang/crmMailing/BlockPreview.html
 msgid "No content to preview"
@@ -1225,12 +1628,16 @@ msgid "Group is empty."
 msgstr "Mae'r grŵp yn wag."
 
 #: ang/crmMailing/BlockRecipients.html
-msgid "Preview a List of Recipients"
-msgstr "Gweld rhagolwg o Restr Derbynwyr"
-
-#: ang/crmMailing/BlockRecipients.html
 msgid "Edit Recipient Options"
 msgstr "Golygu Opsiynau Derbynydd"
+
+#: ang/crmMailing/BlockRecipients.html
+msgid "Click to refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/BlockRecipients.html
+msgid "Preview a List of Recipients"
+msgstr "Gweld rhagolwg o Restr Derbynwyr"
 
 #: ang/crmMailing/BlockResponses.html ang/crmMailing/BlockReview.html
 #: ang/crmMailing/EmailAddrCtrl.js ang/crmMailingAB/EditCtrl/report.html
@@ -1253,6 +1660,12 @@ msgstr "Cynnwys:"
 msgid "Exclude:"
 msgstr "Eithrio:"
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Content"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
 #: ang/crmMailing/EditMailingCtrl/unified2.html
@@ -1263,8 +1676,17 @@ msgstr "Eithrio:"
 msgid "Plain Text"
 msgstr "Testun Plaen"
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Tracking"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click Throughs"
+msgid "Click-Throughs"
 msgstr "Cliciadau Drwodd"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
@@ -1272,18 +1694,12 @@ msgid "Opens"
 msgstr "Wedi Agor"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Form/Settings.tpl
 msgid "Responding"
 msgstr "Ymateb"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Auto-Respond"
 msgstr "Ateb yn Awtomatig"
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Resubscribe"
-msgstr "Ail-danysgrifio"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
@@ -1294,20 +1710,16 @@ msgstr "Ail-danysgrifio"
 msgid "Publication"
 msgstr "Cyhoeddiad"
 
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send immediately"
-msgstr "Anfon yn syth"
-
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send at:"
-msgstr "Anfon am:"
-
 #: ang/crmMailing/BlockSummary.html ang/crmMailingAB/BlockSetup.html
 msgid "Select Campaign"
 msgstr "Dewis Ymgyrch:"
 
+#: ang/crmMailing/BlockTemplates.html ang/crmMailingAB/BlockMailing.html
+msgid "Save As"
+msgstr "Cadw Fel"
+
 #: ang/crmMailing/BlockTracking.html
-msgid "Track Click Throughs"
+msgid "Track Click-Throughs"
 msgstr "Tracio Cliciadau Trwodd"
 
 #: ang/crmMailing/BlockTracking.html
@@ -1317,14 +1729,6 @@ msgstr "Tracio Pan Gaiff ei Agor"
 #: ang/crmMailing/BodyHtml.html ang/crmMailing/BodyText.html
 msgid "Required tokens are missing."
 msgstr "Mae tocynnau sydd eu hangen ar goll."
-
-#: ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-msgid "This mailing has been submitted."
-msgstr "Mae'r postiad yma wedi ei gyflwyno."
 
 #: ang/crmMailing/EditMailingCtrl/2step.html
 msgid "Define Mailing"
@@ -1364,6 +1768,15 @@ msgstr "Adolygu"
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: ang/crmMailingAB/EditCtrl/edit.html
+msgid "Submit Mailing"
+msgstr "Cyflwyno Postiad"
+
+#: ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Delete Draft"
 msgstr "Dileu Drafft"
 
@@ -1385,6 +1798,10 @@ msgstr "Ydych chi'n siwr eich bod am ddileu'r postiad hwn yn barhaol?"
 msgid "Save Draft"
 msgstr "Safio Drafft"
 
+#: ang/crmMailing/EditMailingCtrl/base.html
+msgid "This mailing has been submitted."
+msgstr "Mae'r postiad yma wedi ei gyflwyno."
+
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Submit and Approve Mailing"
 msgstr "Cyflwyno a Chymeradwyo Postiad"
@@ -1395,28 +1812,36 @@ msgid "Submitting..."
 msgstr "Cyflwyno..."
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "(Estimating)"
-msgstr "(Amcangyfrifo)"
-
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/PreviewRecipCtrl.html
-msgid "No recipients"
-msgstr "Dim derbynwyr"
+msgid "Estimating..."
+msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "~1 recipient"
-msgstr "~1 derbyniwr"
+msgid "Estimate recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "Refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "No Recipients"
+msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "~%1 recipients"
 msgstr "~%1 derbyniwr"
 
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
-msgid "Previewing..."
-msgstr "Creu rhagolwg..."
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "(unknown)"
+msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "Preview (%1)"
 msgstr "Rhagolwg (%1)"
+
+#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
+msgid "Previewing..."
+msgstr "Creu rhagolwg..."
 
 #: ang/crmMailing/EditRecipOptionsDialogCtrl.html
 msgid "Dedupe by email"
@@ -1444,8 +1869,9 @@ msgstr "Rhaid i'r postiad gynnwys cyfeiriad stryd y mudiad. Rhowch docyn %1."
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
 msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list or (b) completely opt-out from all\n"
-"  mailings. Please insert an unsubscribe or opt-out token."
+"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
+"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
+" opt-out token."
 msgstr "Rhaid i'r rhestr bostio adael i dderbyniwyr (a) dad-danysgrifio o'r rhestr-bostio neu (b) gadael pob postiad. Rhowch docyn dad-danysgrifio neu optio-allan."
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
@@ -1488,506 +1914,326 @@ msgstr "Isod mae sampl o'r %1 derbyniwr cyntaf."
 msgid ""
 "If individual contacts are separately modified, added, or removed, then the "
 "final list may change."
-msgstr ""
+msgstr "Os caiff cysylltiadau unigol eu golygu, ychwanegu, neu ddileu ar wahân, gall y restr derfynnol newid."
+
+#: ang/crmMailing/PreviewRecipCtrl.html
+msgid "No recipients"
+msgstr "Dim derbynwyr"
 
 #: ang/crmMailing/RadioDate.js
 msgid "The scheduled date and time is in the past"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Mandatory Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Past Recipients From"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Past Recipients From"
-msgstr ""
+msgstr "Mae'r amser a dyddiad a amserwyd yn y gorffennol"
 
 #: ang/crmMailing/Recipients.js
 msgid ""
 "This mailing was generated based on search results. The search results "
 "cannot be removed."
-msgstr ""
+msgstr "Crewyd y postiad hwn yn seiliedig ar ganlyniadau chwilio. Ni ellid dileu'r canlyniadau chwilio."
 
 #: ang/crmMailing/SaveMsgTemplateDialogCtrl.html
 msgid "Save the current mailing as a template."
-msgstr ""
+msgstr "Cadw'r postiad cyfredol fel templad"
 
 #: ang/crmMailing/SaveMsgTemplateDialogCtrl.html
 msgid "Update \"%1\""
-msgstr ""
+msgstr "Diweddaru \"%1\""
 
 #: ang/crmMailing/SaveMsgTemplateDialogCtrl.html
 msgid "Save as:"
-msgstr ""
+msgstr "Cadw fel:"
 
 #: ang/crmMailing/services.js
 msgid "Subject: %1"
-msgstr ""
+msgstr "Pennawd: %1"
 
 #: ang/crmMailing/services.js
 msgid "Could not identify any recipients. Perhaps the group is empty?"
-msgstr ""
+msgstr "Doedd dim modd adnabod unrhyw dderbynwyr. Efallai bod y grŵp yn wag?"
 
 #: ang/crmMailing/services.js
 msgid "Sending..."
-msgstr ""
+msgstr "Anfon..."
+
+#: ang/crmMailing/services.js
+msgid "Tracked Opens"
+msgstr "Wedi Agor a'u Tracio"
 
 #: ang/crmMailing/services.js
 msgid "Unsubscribes"
-msgstr ""
+msgstr "Dad-danysgrifiadau"
 
 #: ang/crmMailing/services.js
 msgid "Opt-Outs"
-msgstr ""
+msgstr "Wedi Gadael y Rhestr"
 
 #: ang/crmMailing.js ang/crmMailingAB.js
 msgid "Initializing..."
-msgstr ""
+msgstr "Ymgychwyn..."
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Template (A)"
-msgstr ""
+msgstr "Templed (A)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Template (B)"
-msgstr ""
+msgstr "Templed (B)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "From (A)"
-msgstr ""
+msgstr "Gan (A)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "From (B)"
-msgstr ""
+msgstr "Gan (B)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Reply-To (A)"
-msgstr ""
+msgstr "Ateb-I (A)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Reply-To (B)"
-msgstr ""
+msgstr "Ateb-I (B)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Subject (A)"
-msgstr ""
+msgstr "Pennawd (A)"
 
 #: ang/crmMailingAB/BlockMailing.html
 msgid "Subject (B)"
-msgstr ""
+msgstr "Pennawd (B)"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid ""
 "A/B testing allows you to send two test mailings to a random subset of your "
 "recipients. After collecting and comparing metrics, the more successful "
 "mailing will be sent to the remaining recipients."
-msgstr ""
+msgstr "Mae profi A/B yn eich galluogi i anfon dau bostiad prawf at is-set ar hap o blith eich derbynwyr. Wedi casglu a chymharu'r metrics, byddy postiad fwy llwyddianus yn cael ei anfon at y derbynwyr sy'n weddill."
 
 #: ang/crmMailingAB/BlockSetup.html ang/crmMailingAB/ListCtrl.html
 msgid "Test Type"
-msgstr ""
+msgstr "Math o Brofi"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Distribution"
-msgstr ""
+msgstr "Dosbarthiad"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Send"
-msgstr ""
+msgstr "Anfon"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Send A/B test immediately"
-msgstr ""
+msgstr "Anfon prawf A/B yn syth"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Send A/B test at:"
-msgstr ""
+msgstr "Anfon prawf A/B at:"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Assess"
-msgstr ""
+msgstr "Asesu"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Assess A/B results on an on-going basis"
-msgstr ""
+msgstr "Asesu canlyniadau A/B wrth fynd ymlaen"
 
 #: ang/crmMailingAB/BlockSetup.html
 msgid "Assess A/B test at:"
-msgstr ""
+msgstr "Asesu prawf A/B at:"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Setup"
-msgstr ""
+msgstr "Gosod"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Target"
-msgstr ""
+msgstr "Targed"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Compose"
-msgstr ""
+msgstr "Cyfansoddi"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Preview (A)"
-msgstr ""
+msgstr "Rhagolwg (A)"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Preview (B)"
-msgstr ""
+msgstr "Rhagolwg (B)"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Compose (A)"
-msgstr ""
+msgstr "Cyfansoddi (A)"
 
 #: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Compose (B)"
-msgstr ""
+msgstr "Cyfansoddi (B)"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "A/B Test Results"
-msgstr ""
+msgstr "Canlyniadau Prawf A/B"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid ""
 "This report displays the current results for your A/B test. You can return "
 "to this page to view the latest statistics by navigating to \"Manage A/B "
 "Tests\" and clicking \"Results\"."
-msgstr ""
+msgstr "Mae'r adroddiad hwn yn dangos canlyniadau cyfredol eich prawf A/B. Mae modd i chi ddychwelyd i'r dudalen hon er mwyn gweld yr ystadegau diweddaraf trwy fynd i \"Rheoli Profion A/B\" a chlicio ar \"Canlyniadau\"."
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Select as Final"
-msgstr ""
+msgstr "Dewis yn Derfynnol"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Delivery"
-msgstr ""
+msgstr "Dosbarthu"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Not selected"
-msgstr ""
+msgstr "Heb ei ddewis"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Started at"
-msgstr ""
+msgstr "Dechreuwyd am"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Not started"
-msgstr ""
+msgstr "Heb ddechrau"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Completed at"
-msgstr ""
+msgstr "Cwblhawyd am"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Not completed"
-msgstr ""
+msgstr "Heb ei gwblhau"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Search for contacts using '%1'"
-msgstr ""
+msgstr "Chwilio am gysylltiadau gan ddefnyddio '%1'"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Browse events of type '%1'"
-msgstr ""
+msgstr "Chwilio am ddigwyddiadau o fath '%1"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "n/a"
-msgstr ""
+msgstr "amh."
 
 #: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for  '%1'"
-msgstr ""
+msgid "Reports for '%1'"
+msgstr "Adroddiadau ar gyfer '%1'"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Opens (WIP)"
-msgstr ""
+msgstr "Wedi agor (WIP)"
 
 #: ang/crmMailingAB/EditCtrl/report.html
 msgid "Total Clicks (WIP)"
-msgstr ""
+msgstr "Cyfanswm Cliciadau (WIP)"
 
 #: ang/crmMailingAB/EditCtrl.js
 msgid "Test A (%1)"
-msgstr ""
+msgstr "Prawf A (%1)"
 
 #: ang/crmMailingAB/EditCtrl.js
 msgid "Test B (%1)"
-msgstr ""
+msgstr "Prawf B (%1)"
 
 #: ang/crmMailingAB/EditCtrl.js
 msgid "Final (%1)"
-msgstr ""
+msgstr "Terfynnol (%1)"
 
 #: ang/crmMailingAB/EditCtrl.js
 msgid "Select Final Mailing (Test %1)"
-msgstr ""
+msgstr "Dewis Postiad Terfynnol (Prawf %1)"
 
 #: ang/crmMailingAB/ListCtrl.html
 msgid "- Status -"
-msgstr ""
+msgstr "- Statws -"
 
 #: ang/crmMailingAB/ListCtrl.html
 msgid "- Test Type -"
-msgstr ""
+msgstr "- Math o Brofi -"
 
 #: ang/crmMailingAB/ListCtrl.html
 msgid "You have no A/B mailings"
-msgstr ""
+msgstr "Does dim postiadau A/B gennych"
 
 #: ang/crmMailingAB/ListCtrl.html
 msgid "New A/B Test"
-msgstr ""
+msgstr "Prawf A/B Newydd"
 
 #: ang/crmMailingAB/ReportCtrl.js ang/crmMailingAB/WinnerDialogCtrl.js
 msgid "Mailing A"
-msgstr ""
+msgstr "Postiad A"
 
 #: ang/crmMailingAB/ReportCtrl.js ang/crmMailingAB/WinnerDialogCtrl.js
 msgid "Mailing B"
-msgstr ""
+msgstr "Postiaid B"
 
 #: ang/crmMailingAB/Slider.html
 msgid "Test Mailing A"
-msgstr ""
+msgstr "Postiad Prawf A"
 
 #: ang/crmMailingAB/Slider.html
 msgid "Test Mailing B"
-msgstr ""
+msgstr "Postiad Prawf B"
 
 #: ang/crmMailingAB/Slider.html
 msgid "Final Mailing"
-msgstr ""
+msgstr "Postiad Terfynnol"
 
 #: ang/crmMailingAB/WinnerDialogCtrl.html
 msgid ""
 "After selecting %1 as the winner, one must schedule the delivery for the "
 "final mailing."
-msgstr ""
+msgstr "Wedi dewis %1 yn enillydd, mae angen amseru dosbarthiad y postiad terfynnol."
 
 #: ang/crmMailingAB/WinnerDialogCtrl.html
 msgid "Send final mailing immediately"
-msgstr ""
+msgstr "Anfon postiad terfynnol yn syth"
 
 #: ang/crmMailingAB/WinnerDialogCtrl.html
 msgid "Send final mailing at:"
-msgstr ""
+msgstr "Anfon postiad terfynnol am:"
 
 #: ang/crmMailingAB/WinnerDialogCtrl.js
 msgid "Submit final mailing"
-msgstr ""
+msgstr "Cyflwyno postiad terfynnol"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Preview Mailing"
-msgstr ""
+msgstr "Rhagolwg Postiad"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Attachment(s):"
-msgstr ""
+msgstr "Atodiad(au):"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing HTML:"
-msgstr ""
+msgstr "Postiad HTML:"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing Text:"
-msgstr ""
+msgstr "Testun Postiad:"
 
 #: templates/CRM/Mailing/Form/Component.tpl
 msgid "New Mailing Component"
-msgstr ""
+msgstr "Cydran Bostio Newydd"
 
 #: templates/CRM/Mailing/Form/Count.tpl
 msgid "Total Recipients:"
-msgstr ""
+msgstr "Cyfanswm Derbynwyr:"
 
 #: templates/CRM/Mailing/Form/ForwardMailing.tpl
 msgid "Please enter up to 5 email addresses to receive the mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Assign a unique name to each of your mailings. Select a naming convention "
-"that will help keep your mailings organized and easy to find when you want "
-"to review and compare mailing results. For example, if you do a monthly "
-"general-interest newsletter - you might use the following naming convention:"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid "General Monthly Newsletter: 200709"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid "Search-based mailings require an \"unsubscribe tracking\" group."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"Because this mailing is using the results of a search to provide the "
-"recipient list, you need to specify a group to track people who unsubscribe "
-"in response to this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If a recipient unsubscribes from this mailing, they will be excluded from "
-"future mailings which use the same \"Unsubscription Group\". This is "
-"achieved through actually marking the contact as \"unsubscribed from the "
-"group\". If a contact in your search results has already been marked as "
-"unsubscribed from that group, they will be excluded from this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If a recipient clicks the unsubscribe link they will see the "
-"\"Unsubscription Group\" title on the unsubscribe page. The selected group "
-"should have a title that corresponds to the content / type of mailing being "
-"sent."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"NOTE: Contacts who are in the \"Unsubscription Group\" but do not match your"
-" search critera will not be included in the mailing regardless of their "
-"status in that group. This is a change from previous versions which used the"
-" term \"Base Group\"."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid "Dedupe"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"CiviCRM will always dedupe your mailing based on unique contact records. For"
-" example, if a contact is in three of the groups you are including in your "
-"mailing, they will only be sent one copy of the email."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"However, if the same email is used by multiple contacts, that email address "
-"will receive multiple copies of the email -- one for each contact using that"
-" address."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"Selecting this option will ensure only one email is sent to each address. "
-"Note that when using this option and including contact tokens in your email "
-"content, the email with it's respective tokens will only be created for one "
-"of the matching contacts."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid "Email selection"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"Some of your contacts may have more than one email address. By selecting a "
-"location and a selection method, you can tell CiviCRM which email address to"
-" use for this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"Automatic: If you choose automatic for both the location and the selection "
-"method, CiviCRM will choose the best option for each user: If an email is "
-"marked \"Bulk\" then it will be used; otherwise, the email marked "
-"\"Primary\" will be used."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If \"Only send to email addresses assigned to the specified location\" is "
-"selected, then the recipients will be restricted to only include contacts "
-"that have an email address assigned to the given location. This option may "
-"limit the number of recipients in your mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If \"Prefer email addresses assigned to the specified location\" is "
-"selected, then recipients that have an email address assigned to the given "
-"location will have that email used. Other recipients will have their email "
-"selected using the automatic method."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If \"Exclude email addresses assigned to the specified location\" is chosen,"
-" then recipients who only have an email address assigned to the given "
-"location will be excluded. Everyone else will have their email chosen from "
-"the list of emails that are not assigned to the given location, using the "
-"automatic method."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"Determine the contacts in your database who should receive this mailing by "
-"first selecting one or more <strong>Included Groups</strong>. (Groups must "
-"be assigned the <strong>Mailing List</strong> type to be available on this "
-"screen - you can update this for an existing group from <strong>Manage "
-"Groups &raquo; Settings</strong>.)"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"You also have the option to <strong>Exclude</strong> some contacts from your"
-" included groups by selecting one or more <strong>Excluded Groups</strong>. "
-"Contacts who are in both groups will NOT receive the mailing (they are "
-"'excluded')."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"If you have sent other mailings - you can additionally Include (or Exclude) "
-"contacts who received those mailings. CiviCRM will eliminate any "
-"duplications so that contacts who are in an Included Group AND were "
-"recipients of an Included Mailing will only be sent one copy of this "
-"mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid ""
-"You also have the option to <strong>Exclude</strong> some contacts in your "
-"included groups by selecting one or more <strong>Excluded Groups</strong>. "
-"Contacts who are in both groups will NOT receive the mailing (they are "
-"'excluded')."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid "Include Mailings"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.hlp
-msgid "Exclude Mailings"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Group.tpl
-msgid "Additional Mailing Recipients"
-msgstr ""
+msgstr "Rhowch hyd at 5 cyfeiriad ebost i dderbyn y postiad."
 
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
 "You are requesting to opt out this email address from all mailing lists:"
-msgstr ""
+msgstr "Rydych yn gofyn i dynnu'r cyfeiriad ebost yma o'r holl restrau postio:"
 
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
@@ -1995,65 +2241,15 @@ msgid ""
 " <i><b>not</b></i> been added to any mailing lists. If this is your email "
 "address and you <i><b>wish to opt out</b></i> please enter your email "
 "address below for verification purposes:"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.hlp
-msgid "Scheduling and Sending Mailings"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.hlp
-msgid ""
-"You can schedule mailings to be sent starting at a specific date and time, "
-"OR you can request that they be sent as soon as possible by checking "
-"&quot;Send Immediately&quot;."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.hlp
-msgid ""
-"Click <strong>Submit Mailing</strong> to add this mailing to the mailing "
-"queue. An automated task which runs periodically on your server processes "
-"mailings in the queue, and starts actually sending out your mail."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.hlp
-msgid ""
-"Click <strong>Continue Later</strong> if you're not ready to schedule or "
-"send this mailing. Click the <strong>Continue</strong> link from Unscheduled"
-" and Draft Mailings when you are ready to schedule or send it."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.hlp
-msgid ""
-"<strong>Trouble-shooting Tip</strong> - If you find that your mailings are "
-"not being sent, ask the system administrator or technical support contact "
-"for your site to verify that the automated task (&quot;cron job&quot;) is "
-"running - and how frequently."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.tpl
-msgid ""
-"You can schedule this mailing to be sent starting at a specific date and "
-"time, OR you can request that it be sent as soon as possible by checking "
-"&quot;Send Immediately&quot;."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Schedule.tpl
-msgid ""
-"Set a date and time when you want CiviMail to start sending this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Search/Common.tpl
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "Mailing Date"
-msgstr ""
+msgstr "Os nad hwn yw eich cyfeiriad ebost, does dim angen gwneud unrhywbeth. Dydych chi <i><b>ddim</b></i> wedi cael eich ychwanegu at unrhyw restrau postio. Os mai dyma eich cyfeiriad ebost ac rydych eisiau <i><b>gadael y rhestr</b></i> rhowch eich cyfeiriad isod ar gyfer dibenion gwirio:"
 
 #: templates/CRM/Mailing/Form/Search.tpl
 msgid "SMS Date"
-msgstr ""
+msgstr "Dyddiad Neges Destun"
 
 #: templates/CRM/Mailing/Form/Search.tpl
 msgid "SMS Status"
-msgstr ""
+msgstr "Statws Neges Destun"
 
 #: templates/CRM/Mailing/Form/Settings.hlp
 msgid ""
@@ -2062,92 +2258,31 @@ msgid ""
 "Mailing permalink token %1 in your message in the next step. This token "
 "generates a URL on which the message can be viewed (remember to insert the "
 "code in the appropriate HTML tags)."
-msgstr ""
+msgstr "Mae'r opsiwn hwn yn ei wneud yn bosib i gyhoeddi cynnwys yr ebost fel tudalen we ar gyfer defnyddiwyr. Dim ond os byddech yn mewnosod tocyn linc barhaol y postiad %1 yn eich neges yn y cam nesaf y bydd yr opsiwn yn berthnasol. Mae'r tocyn yn creu URL lle gellid gweld y neges (cofiwch gosod y côd yn y tagiau HTML priodol)."
 
 #: templates/CRM/Mailing/Form/Settings.hlp
 msgid "You have two options to specify the visibility of the mailing"
-msgstr ""
+msgstr "Mae gennych ddau ddewis o ran gwelededd y postiad"
 
 #: templates/CRM/Mailing/Form/Settings.hlp
 msgid ""
 "\"public pages\" will make the content of this mailing be viewable as a web "
 "page by everyone who has the permission of \"view public CiviMail content\""
-msgstr ""
+msgstr "Bydd \"tudalennau cyhoeddus\" yn golygu bydd cynnwys y postiad i'w weld fel tudalen we gan bawb sydd â chaniatâd i \"weld cynnwys cyhoeddus CiviMail\""
 
 #: templates/CRM/Mailing/Form/Settings.hlp
 msgid ""
 "\"user and user admin\" only means that only users that received the mailing"
 " or administrators can view the content of this email as a web page; the "
 "recipients will have to log in to be able to view the message"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl
-msgid ""
-"These settings control tracking and responses to recipient actions. The "
-"number of recipients selected to receive this mailing is shown in the box to"
-" the right. If this count doesn't match your expectations, click "
-"<strong>Previous</strong> to review your selection(s)."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid "Track the number of times recipients click each link in this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"NOTE: When this feature is enabled, all links in the message body will be "
-"automatically re-written to route through your CiviCRM server prior to "
-"redirecting to the target page."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Track the number of times recipients open this mailing in their email "
-"software."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Recipients' replies are sent to a CiviMail specific address instead of the "
-"sender's address so they can be stored within CiviCRM."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, forward the reply to the FROM Email "
-"address specified for the mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, send an automated reply using the "
-"selected message."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl
-msgid ""
-"Select the automated message to be sent when a recipient unsubscribes from "
-"this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl
-msgid ""
-"Select the automated message to be sent when a recipient resubscribes to "
-"this mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Settings.tpl
-msgid ""
-"Select the automated message to be sent when a recipient opts out of all "
-"mailings from your site."
-msgstr ""
+msgstr "Mae \"defnyddiwr a gweinyddiwr defnyddwyr\" yn golygu mai dim ond defnyddiwyr wnaeth dderbyn y postiad neu gweinyddiwyr sy'n gallu gweld cynnwys yr ebost fel tudalen we; rhaid i'r derbynwyr fewngofnodi er mwyn gweld y neges"
 
 #: templates/CRM/Mailing/Form/Subscribe.tpl
 msgid ""
 "Enter your email address and click <strong>Subscribe</strong>. You will "
 "receive a confirmation request via email shortly. Your subscription will be "
 "activated after you respond to that email."
-msgstr ""
+msgstr "Rhowch eich cyfeiriad ebost a chliciwch <strong>Tanysgrifio</strong>. Byddech yn derbyn cais i gadarhnau trwy ebost yn fuan. Bydd eich tanysgrifiad yn weithredol ar ôl i chi ymateb i'r neges honno."
 
 #: templates/CRM/Mailing/Form/Subscribe.tpl
 msgid ""
@@ -2156,89 +2291,20 @@ msgid ""
 "receive a confirmation request via email for each selected list. Activate "
 "your subscription to each list by responding to the corresponding "
 "confirmation email."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid "Group Listings."
-msgstr ""
+msgstr "Rhowch eich cyfeiriad ebost a chliciwch y blwch wrth pob rhestr ebost rydych chi am ymuno ag o. Yna cliciwch y botwm <strong>Tanysgrifio</strong>. Byddech yn derbyn cais i gadarnhau drwy ebost ar gyfer pob rhestr wnaethoch chi ddewis. Gwnewch eich tanysgrifiad i bob rhestr yn weithredol trwy ymateb i bob ebost cadarnhau."
 
 #: templates/CRM/Mailing/Form/Task.tpl
 msgid "Number of selected Mailing Recipients: %1"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp
-msgid "Test Message"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp
-msgid ""
-"It's a good idea to test your mailing by sending it to yourself and/or a "
-"selected group of people in your organization. You can also view your "
-"content in the preview panel below."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp
-msgid ""
-"Enter a single email address or select an existing group and click \"Send a "
-"Test Mailing.\" Once you receive the test mailing:"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp
-msgid "Verify the content and formatting."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If you are using mail-merge tokens, check that they have been replaced with "
-"expected values."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Click on each included link to make sure they go to the expected web pages."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.hlp
-msgid ""
-"If you need to make changes, you can click <strong>Previous</strong> to "
-"return to the content step, make your changes, and send another test."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid ""
-"It's a good idea to test your mailing by sending it to yourself and/or a "
-"selected group of people in your organization. You can also view your "
-"content by clicking (+) Preview Mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid "(filled with your contact's token values)"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid "Text Version:"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid "Text Version"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid "HTML Version:"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Test.tpl
-msgid "HTML Version"
-msgstr ""
+msgstr "Sawl Derbyniwr Neges a ddewisiwyd: %1"
 
 #: templates/CRM/Mailing/Form/Unsubscribe.tpl
 msgid ""
 "Are you sure you want to be removed from the mailing list(s) shown below:"
-msgstr ""
+msgstr "Ydych chi'n siwr eich bod am gael eich tynnu oddi ar y rhestr(au) ebost a ddangosir isod:"
 
 #: templates/CRM/Mailing/Form/Unsubscribe.tpl
 msgid "You are requesting to unsubscribe this email address:"
-msgstr ""
+msgstr "Rydych yn gofyn i dynnu'r cyfeiriad ebost yma oddi ar y rhestr:"
 
 #: templates/CRM/Mailing/Form/Unsubscribe.tpl
 msgid ""
@@ -2246,193 +2312,225 @@ msgid ""
 " <i><b>not</b></i> been added to any mailing lists. If this is your email "
 "address and you <i><b>wish to unsubscribe</b></i> please enter your email "
 "address below for verification purposes:"
-msgstr ""
+msgstr "Os nad hwn yw eich cyfeiriad ebost, does dim angen gwneud unrhywbeth. Dydych chi <i><b>ddim</b></i> wedi cael eich ychwanegu at unrhyw restrau postio. Os mai dyma eich cyfeiriad ebost ac rydych eisiau <i><b>gadael y rhestr</b></i> rhowch eich cyfeiriad isod er mwyn gwirio:"
 
-#: templates/CRM/Mailing/Form/Upload.tpl
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
-"You can either <strong>upload</strong> the mailing content from your "
-"computer OR <strong>compose</strong> the content on this screen."
-msgstr ""
+"Assign a unique name to each of your mailings. Select a naming convention "
+"that will help keep your mailings organized and easy to find when you want "
+"to review and compare mailing results. For example, if you do a monthly "
+"general-interest newsletter - you might use the following naming convention:"
+msgstr "Rhowch enw unigryw i bob un o'ch postiadau. Dewiswch system enwi bydd yn helpu i chi cadw trefn ar eich postiadau, a'i wneud yn haws pan fyddech eisiau darganfod, adolygu a chymharu canlyniadau'r postio. Er enghraifft, os ydych yn anfon cylchlythyr cyffredinol bob mis, gallech chi ddefnyddio'r system enwi yma:"
 
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "Auto-Generated"
-msgstr ""
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "General Monthly Newsletter: 200709"
+msgstr "Cylchlythyr Misol Cyffredinol: 200709"
 
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid ""
-"Browse to the <strong>TEXT</strong> message file you have prepared for this "
-"mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid ""
-"Browse to the <strong>HTML</strong> message file you have prepared for this "
-"mailing."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "Header / Footer"
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You may choose to include a pre-configured Header block above your message."
-msgstr ""
+msgstr "Gallech ddewis cynnwys bloc Pennyn rhagosodedig uchwben eich neges."
 
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You may choose to include a pre-configured Footer block below your message. "
 "This is a good place to include the required unsubscribe, opt-out and postal"
 " address tokens."
-msgstr ""
-
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "More information and sample messages..."
-msgstr ""
+msgstr "Gallech ddewis cynnwys bloc Troedyn rhagosodedig islaw eich neges. Mae hyn yn lle da i gynnwys y tocynnau dad-danysgrifio, gadael y rhestr a chyfeiriad post sydd eu hangen."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "Multiple people -- such as spouses, parents, or children -- may sometimes "
 "share the same email address."
-msgstr ""
+msgstr "Weithiau gall nifer o bobl - megis cyplau, rhieni, neu blant - rannu yr un cyfeiriad ebost."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "To send only one message to the shared address, enable this option. Mail-"
 "merge tokens will be filled for only one person."
-msgstr ""
+msgstr "Er mwyn anfon un neges yn unig i'r gyfeiriad a rennir, galluogwch yr opsiwn hwn. Defnyddir tocynnau post-gyfuno ar gyfer un person yn unig."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "To send separate messages for each person, disable this option. Mail-merge "
 "tokens will be filled separately for each person."
-msgstr ""
+msgstr "Er mwyn anfon negeseuon ar wahân ar gyfer pob person, analluogwch yr opsiwn hwn. Bydd tocynnau post-gyfuno yn cael eu llenwi ar wahân ar gyfer pob person."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "This option controls who can view the contents of this email on your "
 "website. The link can be included by inserting the \"Mailing permalink\" "
 "token (place it in a link when composing in HTML mode)."
-msgstr ""
+msgstr "Mae'r opsiwn hwn yn rheoli pwy sy'n gallu gweld cynnwys y neges hon ar eich gwefan. Gellid cynnwys y ddolen trwy gynnwys y tocyn \"Mailing permalink\" (rhowch o mewn dolen wrth greu neges HTML)."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid "The options for mailing visibility are:"
-msgstr ""
+msgstr "Y dewisiadau ar gyfer pwy sy'n gallu gweld yr ebost yw:"
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "\"Public Pages\" will make the content of this mailing viewable everyone who"
 " has the permission \"view public CiviMail content\". Note that even people "
 "who did not receive the mailing would be able to find it via search engines."
-msgstr ""
+msgstr "Bydd \"Tudalennau Cyhoeddus\" yn golygu bydd cynnwys y postiad i'w weld fel tudalen we gan bawb sydd â chaniatâd i \"weld cynnwys cyhoeddus CiviMail\". Nodwch y gall hyd yn oed pobl nad oeddynt wedi derbyn yr ebost ei ddarganfod trwy beiriannau chwilio."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "\"User and User Admin Only\" means that only users that received the mailing"
 " or administrators can view this email on your website; users must be logged"
 " in to view the message."
-msgstr ""
+msgstr "Mae \"defnyddiwr a gweinyddiwr defnyddwyr yn unig\" yn golygu mai dim ond defnyddiwyr wnaeth dderbyn y postiad neu gweinyddiwyr sy'n gallu gweld cynnwys yr ebost ar eich gwefan; rhaid i'r derbynwyr fewngofnodi er mwyn gweld y neges."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "It's a good idea to test your mailing by sending it to yourself and/or a "
 "selected group of people in your organization."
-msgstr ""
+msgstr "Mae'n syniad da profi eich neges wrth ei hanfon atoch eich hun neu grŵp dethol o bobl yn eich mudiad."
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid "Things to check in a test mailing:"
-msgstr ""
+msgstr "Pethau i'w gwirio mewn neges brawf:"
 
 #: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "Verify the content and formatting looks consistent across various email "
 "clients."
-msgstr ""
+msgstr "Gwirio bod y cynnwys a'r diwyg yn edrych yn gyson ar draws sawl cleient ebost."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If you are using mail-merge tokens, check that they have been replaced with "
+"expected values."
+msgstr "Os ydych chi'n defnyddio tocynnau post-gyfuno, gwiriwch eu bod yr enrhifau cywir yn cymryd eu lle."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Click on each included link to make sure they go to the expected web pages."
+msgstr "Cliciwch ar bob dolen sydd wedi ei chynnwys er mwyn gwirio ei bod yn arwain at y dudalenau roeddech chi'n eu disgwyl."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "Track the number of times recipients click each link in this mailing."
+msgstr "Traciwch sawl tro mae derbyniwyr yn clicio pob dolen yn y neges."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"NOTE: When this feature is enabled, all links in the message body (including"
+" mailtos) will be automatically re-written to route through your CiviCRM "
+"website prior to redirecting to the target page."
+msgstr "NODER: Pan fo'r nodwedd hon wedi ei galluogi, bydd pob dolen yn nghorff eich neges (gan gynnwys dolenni ebostio) yn cael ei hail-ysgrifennu er mwyn arwain at eich gwefan CiviCRM cyn ail-gyfeirio at y dudalen darged."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Track the number of times recipients open this mailing in their email "
+"software."
+msgstr "Traciwch sawl tro mae derbyniwyr yn agor y neges yn eu meddalwedd ebost."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Recipients' replies are sent to a CiviMail specific address instead of the "
+"sender's address so they can be stored within CiviCRM."
+msgstr "Anfonir ymatebion y derbyniwyr at gyfeiriad CiviMail benodol yn hytrach na chyfeiriad yr anfonwr fel bod modd eu storio o fewn CiviCRM."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, send an automated reply using the "
+"selected message."
+msgstr "Os yw derbyniwr yn ymateb i'r neges, anfon ymateb awtomatig yn defnyddio'r neges a ddewisiwyd."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, forward the reply to the FROM Email "
+"address specified for the mailing."
+msgstr "Os yw derbyniwyr yn ymateb i'r neges, anfonwch yr ymateb ymlaen at y cyfeiriad ANFONWR wnaethoch chi ei roi ar gyfer y neges."
 
 #: templates/CRM/Mailing/Page/Browse.hlp
 msgid ""
 "Find mailings by mailing name. You can enter a partial or complete name."
-msgstr ""
+msgstr "Canfod ebyst yn ôl enw'r postiad. Gallech roi enw rhannol neu gyfan."
 
 #: templates/CRM/Mailing/Page/Browse.hlp
 msgid "Mailing Sender"
-msgstr ""
+msgstr "Anfonwr yr Ebost"
 
 #: templates/CRM/Mailing/Page/Browse.hlp
 msgid ""
 "Find mailings by the name of the person who created or sent them. You can "
 "enter a complete OR partial name (last name, first name format)."
-msgstr ""
+msgstr "Darganfod ebyst yn ôl enw'r person a grëodd neu a anfonodd. Gallech roi enw llawn neu rannol (fformat cyfenw, enw)"
 
 #: templates/CRM/Mailing/Page/Browse.hlp
 msgid "Archived"
-msgstr ""
+msgstr "Wedi'i.u archifio"
 
 #: templates/CRM/Mailing/Page/Browse.hlp
 msgid "This field is disabled when searching for Draft/Unscheduled mailings."
+msgstr "Nid yw'r maes wedi ei alluogi wrth chwilio am negeseuon Drafft / Heb eu hamseru."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Find mailing by language."
 msgstr ""
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "No %1 match your search criteria. Suggestions:"
-msgstr ""
+msgstr "Dim %1 yn cyfateb i'ch meini prawf. Awgrymiadau:"
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "Or you can <a href='%1'>browse all %2 %3</a>."
-msgstr ""
+msgstr "Neu gallech <a href='%1'>bori popeth %2 %3</a>."
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "There are no Unscheduled %1."
-msgstr ""
+msgstr "Does dim %1 heb eu hamseru."
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "You can <a href='%1'>create and send one</a>."
-msgstr ""
+msgstr "Gallech <a href='%1'>greu ac anfon un</a>."
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid ""
 "There are no Archived %2. You can archive %2 from <a href='%1'>Scheduled or "
 "Sent %2</a>."
-msgstr ""
+msgstr "Does dim %2 wedi eu harchifio. Gallech archifio %2 o blith <a href='%1'>%2 wedi eu hamseru neu eu hanfon</a>."
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "There are no Scheduled or Sent %1."
-msgstr ""
+msgstr "Does dim %1 wedi eu hamseru neu eu hanfon."
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid "You can <a href='%1'>create and send one</a>"
-msgstr ""
+msgstr "Gallech <a href='%1'>greu ac anfon un</a>"
 
 #: templates/CRM/Mailing/Page/Browse.tpl
 msgid " OR you can search the <a href='%1'>Archived %2</a>"
-msgstr ""
+msgstr "Neu gallech chwilio'r<a href='%1'>%2 wedi'u harchifio</a>."
 
 #: templates/CRM/Mailing/Page/Component.tpl
 msgid "Body HTML"
-msgstr ""
+msgstr "HTML Corff"
 
 #: templates/CRM/Mailing/Page/Component.tpl
 msgid "Add Mailing Component"
-msgstr ""
+msgstr "Ychwanegu Cydran Neges"
 
 #: templates/CRM/Mailing/Page/Confirm.tpl
 msgid ""
 "<strong>%1 (%2)</strong> has been successfully subscribed to the "
 "<strong>%3</strong> mailing list."
-msgstr ""
+msgstr "<strong>%1 (%2)</strong> wedi tanysgrifio'n llwyddianus i restr ebost <strong>%3</strong>."
 
 #: templates/CRM/Mailing/Page/Confirm.tpl
 msgid ""
 "Oops. We encountered a problem in processing your subscription confirmation."
 " Please contact the site administrator."
-msgstr ""
+msgstr "Wps. Cawsom broblem wrth brosesu eich cadarnhad tanysgrifio. Cysylltwch â gweinyddwr y safle os gwelwch yn dda."
 
 #: templates/CRM/Mailing/Page/Event.tpl
 msgid "There are currently no %1."
-msgstr ""
+msgstr "Does dim %1 ar hyn o bryd."
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Delivery Summary"
-msgstr ""
+msgstr "Crynodeb Anfon"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid ""
@@ -2440,196 +2538,400 @@ msgid ""
 "scheduled delivery date and time is past, ask the system administrator or "
 "technical support contact for your site to verify that the automated mailer "
 "task ('cron job') is running - and how frequently."
-msgstr ""
+msgstr "<strong>Nid yw anfon wedi dechrau eto ar gyfer yr ebost hwn.</strong> Os yw dyddiad ac amser ar gyfer anfon y neges yn y gorffennol, gofynnwch i weinyddwr y system neu gyswllt cefnogaeth technegol i wirio bod y dasg postio awtomatig ('cron job') yn gweithio - a pha mor aml."
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Included"
-msgstr ""
+msgstr "Wedi eu cynnwys"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Recipients of <a href=\"%1\">%2</a>"
-msgstr ""
+msgstr "Derbyniwyr <a href=\"%1\">%2</a>"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Members of <a href=\"%1\">%2</a>"
-msgstr ""
+msgstr "Aelodau <a href=\"%1\">%2</a>"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Excluded"
-msgstr ""
+msgstr "Wedi'u Heithrio"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Unsubscription Groups"
-msgstr ""
+msgstr "Grwpiau Dad-danysgrifio"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Click-through Summary"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Unique Clicks"
-msgstr ""
+msgstr "Crynodeb Clicio-drwodd"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Success Rate"
-msgstr ""
+msgstr "Cyfradd Llwyddiant"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Mailing Settings"
-msgstr ""
+msgstr "Gosodiadau Ebost"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Reply-to email"
-msgstr ""
+msgstr "Cyfeiriad Ateb-i"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Forward replies"
-msgstr ""
+msgstr "Anfon atebion ymlaen"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Off"
-msgstr ""
+msgstr "Diffodd"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Auto-respond to replies"
-msgstr ""
+msgstr "Ateb yn awtomatig i ymatebion"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Open tracking"
-msgstr ""
+msgstr "Tracio Agor"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "URL Click-through tracking"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "has been successfully resubscribed."
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Are you sure you want to resubscribe: %1 (%2)"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Tab.tpl
-msgid "Opens/ Clicks"
-msgstr ""
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Document Body"
-msgstr ""
-
-#: CRM/Mailing/BAO/Query.php
-msgid "Campaign %1 %2"
-msgstr ""
-
-#: CRM/Mailing/DAO/BouncePattern.php
-msgid "Bounce Pattern ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Name"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Description"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Spool ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Mailing Job"
-msgstr ""
-
-#: CRM/Mailing/DAO/TrackableURL.php
-msgid "Trackable URL ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php
-msgid "Bounce ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
-#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Event Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Delivered.php
-msgid "Delivered ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Forward ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Destination Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Opened.php
-msgid "Mailing Opened ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply Timestamp"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable URL Open ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable Url"
-msgstr ""
-
-#: CRM/Mailing/Form/Component.php
-msgid "Please provide either HTML or TEXT format for the Body."
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php
-msgid "Public View"
-msgstr ""
-
-#: CRM/Mailing/Selector/Event.php
-msgid "Total Tracked Opens"
-msgstr ""
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/BlockTracking.html
-msgid "Track Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
-msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
-"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
-" opt-out token."
-msgstr ""
-
-#: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for '%1'"
-msgstr ""
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"NOTE: When this feature is enabled, all links in the message body (including"
-" mailtos) will be automatically re-written to route through your CiviCRM "
-"website prior to redirecting to the target page."
-msgstr ""
+msgstr "Tracio clicio trwodd URL"
 
 #: templates/CRM/Mailing/Page/Report.tpl
 msgid "Public url"
+msgstr "Url Cyhoeddus"
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "has been successfully resubscribed."
+msgstr "wedi ail-danysgrifio'n llwyddianus."
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Are you sure you want to resubscribe: %1 (%2)"
+msgstr "Ydych yn siwr eich bod am ail-danysgrifio: %1 (%2)"
+
+#: templates/CRM/Mailing/Page/Tab.tpl
+msgid "Opens/ Clicks"
+msgstr "Agoriadau/ Cliciadau"
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid "Search-based mailings require an \"unsubscribe tracking\" group."
+msgstr "Mae angen grŵp \"tracio dad-danysgrifiadau\" ar gyfer postiadau'n seiliedig ar chwilio."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"Because this mailing is using the results of a search to provide the "
+"recipient list, you need to specify a group to track people who unsubscribe "
+"in response to this mailing."
+msgstr "Oherwydd fod y postiad yma'n defnyddio canlyniadau chwiliad er mwyn darparu rhestr derbynwyr, mae angen i chi nodi grŵp er mwyn tracio pobl sy'n dad-danysgrifio mewn ymateb i'r postiad hwn."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If a recipient unsubscribes from this mailing, they will be excluded from "
+"future mailings which use the same \"Unsubscription Group\". This is "
+"achieved through actually marking the contact as \"unsubscribed from the "
+"group\". If a contact in your search results has already been marked as "
+"unsubscribed from that group, they will be excluded from this mailing."
+msgstr "Os yw derbyniwr yn dad-danysgrifio o'r postiad hwn, caent eu heithrio o bostiadau yn y dyfodol sy'n defnyddio'r un \"Grŵp Dad-danysgrifio\". Cyflawnir hyn trwy farcio'r cyswllt fel ei fod wedi \"dad-danysgrifio o'r grŵp\". Os yw cyswllt yn eich canlyniadau wedi da-danysgrifio o'r grŵp eisoes, bydden nhw'n cael eu heithrio o'r postiad hwn."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If a recipient clicks the unsubscribe link they will see the "
+"\"Unsubscription Group\" title on the unsubscribe page. The selected group "
+"should have a title that corresponds to the content / type of mailing being "
+"sent."
+msgstr "Os yw derbyniwr yn clicio ar y ddolen dad-danysgrifio, bydden nhw'n gweld teitl y \"Grŵp Dad-danysgrifio\" ar y dudalen dad-danysgrifio. Dylai'r grŵp a ddewisir gael teitl sy'n cyfateb i'r cynnwys / math o bostiad sy'n cael ei anfon."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"NOTE: Contacts who are in the \"Unsubscription Group\" but do not match your"
+" search critera will not be included in the mailing regardless of their "
+"status in that group. This is a change from previous versions which used the"
+" term \"Base Group\"."
+msgstr "NODER: Ni fydd cysylltiadau sydd yn y \"Grŵp Dad-danysgrifio\" ond nad ydynt yn cyd-fynd â'ch gofynion chwilio yn rhan o'r postiad, waeth beth eu statws yn y grŵp. Mae hyn yn wahanol i fersiynau blaenorol oedd yn defnyddio'r term \"Grŵp Sail\"."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid "Dedupe"
+msgstr "Canfod cofnodion dyblyg"
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"CiviCRM will always dedupe your mailing based on unique contact records. For"
+" example, if a contact is in three of the groups you are including in your "
+"mailing, they will only be sent one copy of the email."
+msgstr "Bydd CiviCRM bob tro'n canfod cofnodion dyblyg yn seiliedig ar eich cofnodion cyswllt unigryw. Er enghraifft, os yw cyswllt yn rhan o dri grŵp sy'n gynhwysiedig yn eich postiad, dim ond un copi o'r ebost byddent yn ei dderbyn."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"However, if the same email is used by multiple contacts, that email address "
+"will receive multiple copies of the email -- one for each contact using that"
+" address."
+msgstr "Fodd bynnag, os yw'r un cyfeiriad ebost gan sawl cyswllt, bydd y cyfeiriad yna'n derbyn sawl copi o'r ebost - un ar gyfer pob cyswllt sy'n defnyddio'r cyfeiriad."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"Selecting this option will ensure only one email is sent to each address. "
+"Note that when using this option and including contact tokens in your email "
+"content, the email with it's respective tokens will only be created for one "
+"of the matching contacts."
+msgstr "Bydd dewis yr opsiwn yma'n sicrhau mai dim ond un ebost sy'n mynd at bob cyfeiriad. Noder wrth ddefnyddio'r opsiwn hwn a chynnwys tocynnau cyswllt yng nghynwys eich ebost, dim ond ar gyfer un o'r cysylltiadau cyfatebol y bydd yr ebost a'i briod tocynnau yn cael ei greu."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid "Email selection"
+msgstr "Dewis ebost"
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"Some of your contacts may have more than one email address. By selecting a "
+"location and a selection method, you can tell CiviCRM which email address to"
+" use for this mailing."
+msgstr "Efallai bydd mwy nag un cyfeiriad ebost gan rai o'ch cysylltiadau. Wrth ddewis leoliad a dull dewis, mae modd i chi ddweud wrth CiviCRM pa gyfeiriad i'w ddefnyddio ar gyfer y postiad."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"Automatic: If you choose automatic for both the location and the selection "
+"method, CiviCRM will choose the best option for each user: If an email is "
+"marked \"Bulk\" then it will be used; otherwise, the email marked "
+"\"Primary\" will be used."
+msgstr "Awtomatig: Os ydych chi'n dewis awtomatig ar gyfer y lleoliad a'r dull dewis, bydd CiviCRM yn dewis yr opsiwn orau ar gyfer pob defnyddiwr: os oes cyfeiriad wedi ei nodi ar gyfer \"Ebyst Torfol\", caiff ei ddefnyddio, fel arall bydd y \"Prif Gyfeiriad\" yn cael ei ddefnyddio."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If \"Only send to email addresses assigned to the specified location\" is "
+"selected, then the recipients will be restricted to only include contacts "
+"that have an email address assigned to the given location. This option may "
+"limit the number of recipients in your mailing."
+msgstr "Os dewisir \"Dim ond anfon at gyfeiriadau ebost ar gyfer y lleoliad a ddynodwyd\", cyfyngir y derbynwyr i gynnwys cysylltiadau gyda chyfeiriad ebost wedi ei ddynodi i'r lleoliad hwnnw yn unig. Gall yr opsiwn yma leihau nifer derbynwyr eich neges."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If \"Prefer email addresses assigned to the specified location\" is "
+"selected, then recipients that have an email address assigned to the given "
+"location will have that email used. Other recipients will have their email "
+"selected using the automatic method."
+msgstr "Pe ddewisir \"Ffafrio cyfeiriadau ebost ar gyfer y lleoliad a nodwyd\", yna bydd derfbynwyr sydd â chyfeiriad ebost ar gyfer y lleoliad yn yn cael neges i'r cyfeiriad yna. Dewisir ebost y derfbynwyr eraill yn defnyddio'r dull awtomatig."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If \"Exclude email addresses assigned to the specified location\" is chosen,"
+" then recipients who only have an email address assigned to the given "
+"location will be excluded. Everyone else will have their email chosen from "
+"the list of emails that are not assigned to the given location, using the "
+"automatic method."
+msgstr "Os dewisir \"Eithrio cyfeiriadau ebost ar gyfer y lleoliad a ddynodwyd\", yna bydd derbynwyr sydd â chyfeiriad wedi ei ddynodi i'r lleoliad hwnnw a'r lleoliad hwnnw'n yn unig yn cael eu heithrio. Dewisir cyfeiriad pawb arall o'r rhestr o ebyst sydd heb eu dynodi i'r lleoliad a roddwyd, gan ddefnyddio'r dull awtomatig."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"Determine the contacts in your database who should receive this mailing by "
+"first selecting one or more <strong>Included Groups</strong>. (Groups must "
+"be assigned the <strong>Mailing List</strong> type to be available on this "
+"screen - you can update this for an existing group from <strong>Manage "
+"Groups &raquo; Settings</strong>.)"
+msgstr "Penderfynwch pa gysylltiadau yn eich bas data dylai dderbyn y rhestr bostio hon, trwy ddewis yn gyntaf un neu ragor o <strong>Grwpiau i'w cynnwys</strong>. (Rhaid dynodi grwpiau i'r categori <strong>Rhestr Bostio</strong> er mwyn bod ar gael ar y sgrin hwn - gallech ddiweddaru hyn ar gyfer grŵp sy'n bodoli eisoes o <strong>Rheoli Grwpiau &raquo; Gosodiadau</strong>.)"
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"You also have the option to <strong>Exclude</strong> some contacts from your"
+" included groups by selecting one or more <strong>Excluded Groups</strong>. "
+"Contacts who are in both groups will NOT receive the mailing (they are "
+"'excluded')."
+msgstr "Mae hefyd gennych yr opsiwn i <strong>Eithrio</strong> rhai cysylltiadau o'r grwpiau a gynhwysir drwy ddewis un neu ragor o <strong>Grwpiau i'w Heithrio</strong>. NI FYDD cysylltiadau sydd yn y naill grŵp a'r llall yn derbyn y postiad (maent wedi eu 'heithrio')."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"If you have sent other mailings - you can additionally Include (or Exclude) "
+"contacts who received those mailings. CiviCRM will eliminate any "
+"duplications so that contacts who are in an Included Group AND were "
+"recipients of an Included Mailing will only be sent one copy of this "
+"mailing."
+msgstr "Os ydych wedi anfon postiadau eraill - gallech Gynnwys (neu Eithrio) cysylltiadau sydd wedi derbyn y postiadau hyn yn ogystal. Bydd CiviCRM yn eithrio unrhyw ddyblygiadau fel bod cysylltiadau sydd yn rhan o Grŵp i'w Gynnnwys AC wedi derbyn Postiad i'w Gynnwys yn derbyn un copi o'r postiad hwn yn unig."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid ""
+"You also have the option to <strong>Exclude</strong> some contacts in your "
+"included groups by selecting one or more <strong>Excluded Groups</strong>. "
+"Contacts who are in both groups will NOT receive the mailing (they are "
+"'excluded')."
+msgstr "Mae hefyd gennych yr opsiwn i <strong>Eithrio</strong> rhai cysylltiadau o'r grwpiau a gynhwysir drwy ddewis un neu ragor o <strong>Grwpiau i'w Heithrio</strong>. NI FYDD cysylltiadau sydd yn y naill grŵp a'r llall yn derbyn y postiad (maent wedi eu 'heithrio')."
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid "Include Mailings"
+msgstr "Postiadau i'w cynnwys"
+
+#: templates/CRM/Mailing/Form/Group.hlp
+msgid "Exclude Mailings"
+msgstr "Postiadau i'w heithrio"
+
+#: templates/CRM/Mailing/Form/Group.tpl
+msgid "Additional Mailing Recipients"
+msgstr "Derbyniwr Ychwanegol y Postiad"
+
+#: templates/CRM/Mailing/Form/Schedule.hlp
+msgid "Scheduling and Sending Mailings"
+msgstr "Amseru ac anfon negeseuon"
+
+#: templates/CRM/Mailing/Form/Schedule.hlp
+msgid ""
+"You can schedule mailings to be sent starting at a specific date and time, "
+"OR you can request that they be sent as soon as possible by checking "
+"&quot;Send Immediately&quot;."
+msgstr "Gallech amseru negeseuon i'w hanfon gan ddechrau ar ddyddiad ac amser arbennig, NEU gallech ofyn iddyn nhw gael eu hanfon mor fuan â phosib trwy dicio &quot;Anfon Nawr&quot;."
+
+#: templates/CRM/Mailing/Form/Schedule.hlp
+msgid ""
+"Click <strong>Submit Mailing</strong> to add this mailing to the mailing "
+"queue. An automated task which runs periodically on your server processes "
+"mailings in the queue, and starts actually sending out your mail."
+msgstr "Cliciwch <strong>Cyflwyno Postiad</strong> er mwyn ychwanegu'r postiad hwn i'r ciw postio. Mae tasg wedi'i otomeiddio sy'n rhedeg bob hyn a hyn ar eich gweinydd yn prosesu postiadau yn y ciw, ac yn dechrau anfon eich negeseuon allan go iawn."
+
+#: templates/CRM/Mailing/Form/Schedule.hlp
+msgid ""
+"Click <strong>Continue Later</strong> if you're not ready to schedule or "
+"send this mailing. Click the <strong>Continue</strong> link from Unscheduled"
+" and Draft Mailings when you are ready to schedule or send it."
+msgstr "Cliciwch <strong>Parhau Hwyrach</strong> os nad ydych yn barod i amseru neu anfon y postiad hwn. Cliciwch y ddolen <strong>Parhau</strong> yn adran Postiadau Drafft ac Heb eu Hamseru pan rydych yn barod i'w amseru neu ei anfon."
+
+#: templates/CRM/Mailing/Form/Schedule.hlp
+msgid ""
+"<strong>Trouble-shooting Tip</strong> - If you find that your mailings are "
+"not being sent, ask the system administrator or technical support contact "
+"for your site to verify that the automated task (&quot;cron job&quot;) is "
+"running - and how frequently."
+msgstr "<strong>Awgrym Datrys Problemau</strong> - Os yw'n dod i'r amlwg nad yw eich postiadau yn cael eu hanfon, gofynnwch i weinydd y system neu'r cyswllt cymorth technegol ar gyfer eich safle i wirio bod y dasg wedi'i awtomeiddio (&quot;cron job&quot;) yn gweithio - a pha mor aml."
+
+#: templates/CRM/Mailing/Form/Schedule.tpl
+msgid ""
+"You can schedule this mailing to be sent starting at a specific date and "
+"time, OR you can request that it be sent as soon as possible by checking "
+"&quot;Send Immediately&quot;."
+msgstr "Gallech amseru'r postiad hwn i'w anfon gan gychwyn ar ddyddiad ac amser penodol, NEU gallech gofyn iddo gael ei anfon mor fuan â phosib, trwy dicio \"Anfon yn Syth\""
+
+#: templates/CRM/Mailing/Form/Schedule.tpl
+msgid ""
+"Set a date and time when you want CiviMail to start sending this mailing."
+msgstr "Gosod dyddiad ac amser pryd byddech eisiau i CiviMail dechrau anfon y postiad hwn."
+
+#: templates/CRM/Mailing/Form/Settings.tpl
+msgid ""
+"These settings control tracking and responses to recipient actions. The "
+"number of recipients selected to receive this mailing is shown in the box to"
+" the right. If this count doesn't match your expectations, click "
+"<strong>Previous</strong> to review your selection(s)."
+msgstr "Mae'r gosodiadau hyn yn rheoli tracio ac ymatebion i weithredoedd derbynwyr. Mae'r blwch ar y dde yn dangos y nifer o dderbyniwyr bydd yn derbyn y neges. Os nad yw hyn yn cyfateb i beth oeddech chi'n ei ddisgwyl, cliciwch <strong>Blaenorol</strong>er mwyn adolygu eich dewis(iadau)."
+
+#: templates/CRM/Mailing/Form/Settings.tpl
+msgid ""
+"NOTE: When this feature is enabled, all links in the message body will be "
+"automatically re-written to route through your CiviCRM server prior to "
+"redirecting to the target page."
+msgstr "NODER: Pan fo'r nodwedd hon wedi ei galluogi, bydd pob dolen yn nghorff eich neges yn cael ei hail-ysgrifennu er mwyn arwain at eich gweinydd CiviCRM cyn ail-gyfeirio at y dudalen darged."
+
+#: templates/CRM/Mailing/Form/Settings.tpl
+msgid ""
+"Select the automated message to be sent when a recipient unsubscribes from "
+"this mailing."
+msgstr "Dewis y neges awtomatig i'w hanfon pan fo derbyniwr yn dad-danysgrifio o'r negeseuon hyn."
+
+#: templates/CRM/Mailing/Form/Settings.tpl
+msgid ""
+"Select the automated message to be sent when a recipient resubscribes to "
+"this mailing."
+msgstr "Dewis y neges awtomatig i'w hanfon pan fo derbyniwr yn ail-danysgrifio i'r negeseuon hyn."
+
+#: templates/CRM/Mailing/Form/Settings.tpl
+msgid ""
+"Select the automated message to be sent when a recipient opts out of all "
+"mailings from your site."
+msgstr "Dewis y neges awtomatig i'w hanfon pan fo derbyniwr yn dewis peidio â derbyn unrhyw negeseuon gan eich safle."
+
+#: templates/CRM/Mailing/Form/Test.hlp
+msgid "Test Message"
+msgstr "Neges brawf"
+
+#: templates/CRM/Mailing/Form/Test.hlp
+msgid ""
+"It's a good idea to test your mailing by sending it to yourself and/or a "
+"selected group of people in your organization. You can also view your "
+"content in the preview panel below."
+msgstr "Mae'n syniad da profi eich neges wrth ei hanfon atoch eich hun neu grŵp dethol o bobl yn eich mudiad. Gallech hefyd weld y cynnwys yn y panel rhagolwg isod."
+
+#: templates/CRM/Mailing/Form/Test.hlp
+msgid ""
+"Enter a single email address or select an existing group and click \"Send a "
+"Test Mailing.\" Once you receive the test mailing:"
+msgstr "Rhowch un cyfeiriad ebost neu dewiswch grŵp sy'n bodoli eisoes a chliciwch \"Anfon neges brawf.\" Wedi i chi dderbyn y neges brawf:"
+
+#: templates/CRM/Mailing/Form/Test.hlp
+msgid "Verify the content and formatting."
+msgstr "Gwiriwch y cynnwys a'r diwyg."
+
+#: templates/CRM/Mailing/Form/Test.hlp
+msgid ""
+"If you need to make changes, you can click <strong>Previous</strong> to "
+"return to the content step, make your changes, and send another test."
+msgstr "Os oes angen i chi newid rhywbeth, gallech glicio <strong>Blaenorol</strong> er mwyn dychwelyd i'r cam ble lunioch chi'r cynnwys, golygu, ac anfon neges brawf arall."
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid ""
+"It's a good idea to test your mailing by sending it to yourself and/or a "
+"selected group of people in your organization. You can also view your "
+"content by clicking (+) Preview Mailing."
+msgstr "Mae'n syniad da profi eich neges wrth ei hanfon atoch eich hun neu grŵp dethol o bobl yn eich mudiad. Gallech hefyd weld y cynnwys wrth glicio (+)Rhagolwg Neges."
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid "(filled with your contact's token values)"
+msgstr "(wedi llenwi gyda gwerthoedd tocyn eich cyswllt)"
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid "Text Version:"
+msgstr "Fersiwn Testun:"
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid "Text Version"
+msgstr "Fersiwn Testun"
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid "HTML Version:"
+msgstr "Fersiwn HTML:"
+
+#: templates/CRM/Mailing/Form/Test.tpl
+msgid "HTML Version"
+msgstr "Fersiwn HTML"
+
+#: templates/CRM/Mailing/Form/Upload.hlp
+msgid ""
+"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
+"what-you-get) editor is provided which you can use create simple HTML "
+"messages. However, if you are planning on creating HTML messages with "
+"complex layouts - it is best to use an HTML editor on your local computer. "
+"Then locate and upload the saved file(s) by clicking the "
+"<strong>Browse</strong> button."
 msgstr ""
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid ""
+"You can either <strong>upload</strong> the mailing content from your "
+"computer OR <strong>compose</strong> the content on this screen."
+msgstr "Gallech unai <strong>uwchlwytho</strong> cynnwys y neges o'ch cyfrifiadur NEU <strong>greu</strong> y cynnwys ar y sgrin hon."
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid "Auto-Generated"
+msgstr "Awto-Grëwyd"
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid ""
+"Browse to the <strong>TEXT</strong> message file you have prepared for this "
+"mailing."
+msgstr "Pori er mwyn dewis y ffeil <strong>TESTUN</strong> rydych wedi paratoi ar gyfer y neges."
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid ""
+"Browse to the <strong>HTML</strong> message file you have prepared for this "
+"mailing."
+msgstr "Pori er mwyn dewis y ffeil <strong>HTML</strong> rydych wedi paratoi ar gyfer y neges."
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid "Header / Footer"
+msgstr "Pennyn a Throedyn"
+
+#: templates/CRM/Mailing/Form/Upload.tpl
+msgid "More information and sample messages..."
+msgstr "Rhagor o wybodaeth a negeseuon enghreifftiol..."

@@ -3,12 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-07-27 05:55+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-03 05:41+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "Kişisel Bir Kampanya Sayfası Oluşturun"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Edit Your Page"
-msgstr "Sayfanızı Düzenleyin"
+msgstr "Sayfamı Düzenle"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Tell Friends"
-msgstr "Arkadaşlarınıza Söyleyin"
+msgstr "Arkadaşına İlet"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "URL for this Page"
@@ -39,7 +39,7 @@ msgstr "Bu sayfanın İnternet adresi"
 
 #: CRM/PCP/BAO/PCP.php CRM/PCP/Form/PCPAccount.php
 msgid "Update Contact Information"
-msgstr "İletişim Bilgilerini Güncelleyin"
+msgstr "İletişim Bilgilerini Güncelle"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Enable Personal Campaign Pages?"
@@ -55,11 +55,11 @@ msgstr "Sahip E-posta Bildirimi"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Allow 'Tell a friend' functionality"
-msgstr "'Arkadaşınıza Bildirin' özelliği kullanılabilsin"
+msgstr "'Arkadaşına İlet' özelliği kullanılabilsin"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "'Tell a friend' maximum recipients limit"
-msgstr "'Arkadaşınıza Bildirin' için en fazla alıcı sınırı"
+msgstr "'Arkadaşına İlet' için en fazla alıcı sınırı"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Please enter a valid limit."
@@ -169,11 +169,6 @@ msgstr "Kişisel Kampanya Sayfası Kodu"
 msgid "Personal Campaign Page Status"
 msgstr "Kişisel Kampanya Sayfası Durumu"
 
-#: CRM/PCP/DAO/PCP.php xml/templates/message_templates/pcp_notify_html.tpl
-#: xml/templates/message_templates/pcp_notify_text.tpl
-msgid "Personal Campaign Page Title"
-msgstr "Kişisel Kampanya Sayfasının Başlığı"
-
 #: CRM/PCP/DAO/PCP.php
 msgid "Intro Text"
 msgstr "Giriş Metni"
@@ -187,24 +182,134 @@ msgid "Donate Link Text"
 msgstr "Bağış Bağlantısı Metni"
 
 #: CRM/PCP/DAO/PCP.php
+msgid "The Contribution or Event Page which triggered this pcp"
+msgstr "Bu Kişisel Kampanya Sayfasını tetikleyen Katkı ya da Etkinlik Sayfası"
+
+#: CRM/PCP/DAO/PCP.php
 msgid "PCP Page Type"
-msgstr "Kişisel Kampanya Sayfa Türü"
+msgstr "Kişisel Kampanya Sayfası Türü"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The type of PCP this is: contribute or event"
+msgstr "Kişisel Kampanya Sayfası türü: katkı ya da etkinlik"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Block"
+msgstr "Kişisel Kampanya Sayfası Bloğu"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The pcp block that this pcp page was created from"
+msgstr "Bu Kişisel Kampanya Sayfasının oluşturulduğu Kişisel Kampanya bloğu"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Use Thermometer?"
+msgstr "Termometre Kullanılsın"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Show Honor Roll?"
+msgstr "Şeref Listesi Görüntülensin"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Goal amount of this Personal Campaign Page."
+msgstr "Bu Kişisel Kampanya sayfasının hedef tutarı."
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Is Personal Campaign Page enabled/active?"
+msgstr "Kişisel Kampanya sayfası etkin mi?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify Owner?"
+msgstr "Sahip Bilgilendirilsin"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify owner via email when someone donates to page?"
+msgstr "Sayfadan yapılan bağışlarda sahibi e-posta ile bilgilendirilsin mi?"
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity Type"
-msgstr "Hedef Varlık Türü"
+msgid "PCP Block ID"
+msgstr "Kişisel Kampanya Sayfası Blok Kodu"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP block Id"
+msgstr "Kişisel Kampanya Sayfası blok kodu"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_contribution_page.id OR civicrm_event.id"
+msgstr "civicrm_contribution_page.id YA DA civicrm_event.id değerine Dış Anahtar"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity"
+msgstr "Hedef Varlık"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The type of entity that this pcp targets"
+msgstr "Bu Kişisel Kampanya Sayfasının hedeflediği varlık türü"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity ID"
+msgstr "Hedef Varlık Kodu"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The entity that this pcp targets"
+msgstr "Bu Kişisel Kampanya Sayfasının hedeflediği varlık"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"FK to civicrm_uf_group.id. Does Personal Campaign Page require manual "
+"activation by administrator? (is inactive by default after setup)?"
+msgstr "civicrm_uf_group.id dış anahtarı. Kişisel Kampanya Sayfasının yönetici tarafından el ile etkinleştirilmesi mi gerekiyor (kurulumdan sonra varsayılan olarak devre dışı mı)?"
 
 #: CRM/PCP/DAO/PCPBlock.php
 msgid "Owner Notification"
 msgstr "Sahip Bildirimi"
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Tellfriend Limit"
-msgstr "Arkadaşına Söyle Sınırı"
+msgid "FK to civicrm_option_group with name = PCP owner notifications"
+msgstr "Name = Kişisel Kampanya Sahibi bildirimleri için civicrm_option_group  dış anahtarı"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Approval Required?"
+msgstr "Onay Gerekli"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"Does Personal Campaign Page require manual activation by administrator? (is "
+"inactive by default after setup)?"
+msgstr "Kişisel Kampanya Sayfasının yönetici tarafından el ile etkinleştirilmesi mi gerekiyor (kurulumdan sonra varsayılan olarak devre dışı mı)?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell a Friend Enabled?"
+msgstr "Arkadaşına İlet Kullanılsın"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Does Personal Campaign Page allow using tell a friend?"
+msgstr "Kişisel Kampanya Sayfasında Arkadaşına İlet özelliği kullanılsın mı?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell A Friend Limit"
+msgstr "Arkadaşına İlet Sayısı"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Maximum recipient fields allowed in tell a friend"
+msgstr "Arkadaşına ilet için izin verilen en fazla alıcı alanı sayısı"
 
 #: CRM/PCP/DAO/PCPBlock.php templates/CRM/PCP/Form/Event.hlp
 msgid "Link Text"
 msgstr "Bağlantı Metni"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Link text for PCP."
+msgstr "Kişisel Kampanya Sayfasının bağlantı metni."
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Is Personal Campaign Page Block enabled/active?"
+msgstr "Kişisel Kampanya sayfası bloğu etkin mi?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"If set, notification is automatically emailed to this email-address on "
+"create/update Personal Campaign Page"
+msgstr "Bu seçenek etkinleştirildiğinde, bir Kişisel Kampanya Sayfası eklendiğinde ya da güncellendiğinde bu e-posta adresine otomatik olarak bir bildirim gönderilir"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Setup a Personal Campaign Page - Step 2"
@@ -306,7 +411,7 @@ msgstr "Kişisel Kampanya Sayfaları Kullanılsın (bu katkı sayfası için)"
 msgid ""
 "if Tell Friend is enabled, Maximum recipients limit should be greater than "
 "zero."
-msgstr "Arkadaşınıza Bildirin özelliği etkinleştirildiğinde, en fazla alıcı sayısı sıfırdan büyük olmalıdır."
+msgstr "Arkadaşına İlet özelliği etkinleştirildiğinde, en fazla alıcı sayısı sıfırdan büyük olmalıdır."
 
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
 msgid "Supporter profile is a required field."
@@ -336,7 +441,7 @@ msgstr "Kişisel Kampanya Sayfaları Kullanılsın (bu etkinlik için)"
 msgid ""
 "if Tell Friend is enable, Maximum recipients limit should be greater than "
 "zero."
-msgstr "Arkadaşınıza Bildirin özelliği etkinleştirildiğinde, en fazla alıcı sayısı sıfırdan büyük olmalıdır."
+msgstr "Arkadaşına İlet özelliği etkinleştirildiğinde, en fazla alıcı sayısı sıfırdan büyük olmalıdır."
 
 #: CRM/PCP/Form/PCP.php
 msgid "The Campaign Page '%1' has been deleted."
@@ -389,23 +494,23 @@ msgstr "Bu Kampanya Sayfasını silmek istediğinize emin misiniz?"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Edit Personal Campaign Page"
-msgstr "Kişisel Kampanya Sayfasını Düzenleyin"
+msgstr "Kişisel Kampanya Sayfasını Düzenle"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Approve"
-msgstr "Onaylayın"
+msgstr "Onayla"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Approve Personal Campaign Page"
-msgstr "Kişisel Kampanya Sayfasını Onaylayın"
+msgstr "Kişisel Kampanya Sayfasını Onayla"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Reject"
-msgstr "Reddedin"
+msgstr "Reddet"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Reject Personal Campaign Page"
-msgstr "Kişisel Kampanya Sayfasını Reddedin"
+msgstr "Kişisel Kampanya Sayfasını Reddet"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Delete Personal Campaign Page"
@@ -413,7 +518,7 @@ msgstr "Kişisel Kampanya Sayfasını Silin"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Search Campaign Pages"
-msgstr "Kampanya Sayfası Arayın"
+msgstr "Kampanya Sayfası Arama"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "The personal campaign page you requested is currently unavailable."
@@ -449,11 +554,11 @@ msgstr "Kişisel iletişim bilgilerinizi güncelleyin"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "De-activate the page (you can re-activate it later)"
-msgstr "Sayfayı devre dışı bırakın (daha sonra yeniden etkinleştirebilirsiniz)"
+msgstr "Sayfayı devre dışı bırak (daha sonra yeniden etkinleştirebilir)"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Activate the page (you can de-activate it later)"
-msgstr "Sayfayı etkinleştirin (daha sonra devre dışı bırakabilirsiniz)"
+msgstr "Sayfayı etkinleştir (daha sonra devre dışı bırakabilirsiniz)"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Remove the page (this cannot be undone!)"
@@ -467,7 +572,7 @@ msgstr "Şimdi Katkıda Bulunun"
 msgid ""
 "Personalize the contents and appearance of your personal campaign page here."
 " You will be able to return to this page and make changes at any time."
-msgstr "Kişisel kampanya sayfanızın içeriğini ve görünümü buradan isteğinize göre düzenleyebilirsiniz. İstediğiniz zaman bu bölüme gelerek değişiklik yapabilirsiniz."
+msgstr "Kişisel kampanya sayfanızın içeriğini ve görünümü bu bölümden isteğinize göre düzenleyebilirsiniz. İstediğiniz zaman bu bölüme gelerek değişiklik yapabilirsiniz."
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
@@ -552,7 +657,7 @@ msgid ""
 "to send emails to people inviting them to visit their page and register or "
 "contribute? NOTE: Tell a Friend emails will automatically include a link to "
 "the sender's campaign page."
-msgstr "Bu seçenek etkinleştirildiğinde, Kişisel Kampanya Sayfasının 'sahibi', Arkadaşınıza Bildirin düğmesini kullanabilir. Böylece başkalarına e-posta gönderilerek kayıt olmaları ya da katkıda bulunmaları için sayfayı ziyaret  etmeleri sağlanabilir. Not: Arkadaşınıza Bildirin e-postalarında gönderenin kampanya sayfası bağlantısı bulunur."
+msgstr "Bu seçenek etkinleştirildiğinde, Kişisel Kampanya Sayfasının 'sahibi', Arkadaşına İlet düğmesini kullanabilir. Böylece başkalarına e-posta gönderilerek kayıt olmaları ya da katkıda bulunmaları için sayfayı ziyaret  etmeleri sağlanabilir. Not: Arkadaşına İlet e-postalarında gönderenin kampanya sayfası bağlantısı bulunur."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -602,7 +707,7 @@ msgid ""
 "Creating your own campaign page is simple. Fill in some basic information "
 "below, which will allow you to manage your page and invite friends to "
 "support you. Then click 'Continue' to personalize and announce your page."
-msgstr "Kendi kampanya sayfanızı kolayca oluşturabilirsiniz. Sayfanızı yönetmek ve sizi destekleyecek arkadaşlarınızı çağırmak için aşağıdaki temel bilgileri yazdıktan sonra, sayfanızı isteğinize göre düzenlemek ve duyurmak için 'Devam' düğmesine tıklayın."
+msgstr "Kendi kampanya sayfanızı kolayca oluşturabilirsiniz. Sayfanızı yönetmek ve sizi destekleyecek arkadaşlarınızı çağırmak için aşağıdaki temel bilgileri yazdıktan sonra, sayfanızı isteğinize göre düzenlemek ve duyurmak için 'Devam' üzerine tıklayın."
 
 #: templates/CRM/PCP/Page/PCP.hlp
 msgid ""
@@ -621,7 +726,7 @@ msgid ""
 "contribution. CiviContribute has a section that allows you to administer all"
 " of the PCPs for your organization. You can require approval before a PCP "
 "goes 'live', and disable or delete any campaign pages you don't approve of."
-msgstr "Kişisel kampanya sayfası üzerinden bir bağış yapıldığında, sayfayı oluşturan kişiye, yapılan katkılardaki rolünü belirlemek için bir sanal kredi verilir. CiviContribute bileşeninde, kuruluşunuzdaki tüm Kişisel Kampanya Sayfalarını yönetebileceğiniz bir bölüm bulunur. Bu bölümden Kişisel Kampanya Sayfalarının 'canlı' yayına geçmesi için onay istenebilir, onaylanmayan kampanya sayfaları devre dışı bırakılabilir ya da silinebilir."
+msgstr "Kişisel Kampanya Sayfası üzerinden bir bağış yapıldığında, sayfayı oluşturan kişiye, yapılan katkılardaki rolünü belirlemek için bir sanal kredi verilir. CiviContribute bileşeninde, kuruluşunuzdaki tüm Kişisel Kampanya Sayfalarını yönetebileceğiniz bir bölüm bulunur. Bu bölümden Kişisel Kampanya Sayfalarının 'canlı' yayına geçmesi için onay istenebilir, onaylanmayan kampanya sayfaları devre dışı bırakılabilir ya da silinebilir."
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid ""
@@ -630,16 +735,16 @@ msgid ""
 msgstr "Bu bölümde, yöneticinin gözden geçirip durumlarını değiştirebileceği şekilde, sistemde oluşturulmuş tüm Kişisel Kampanya Sayfaları görüntülenir."
 
 #: templates/CRM/PCP/Page/PCP.tpl
-msgid "Page Title"
-msgstr "Sayfa Başlığı"
-
-#: templates/CRM/PCP/Page/PCP.tpl
 msgid "Contribution Page / Event"
 msgstr "Katkı Sayfası / Etkinlik"
 
 #: templates/CRM/PCP/Page/PCP.tpl
+msgid "View Personal Campaign Page"
+msgstr "Kişisel Kampanya Sayfasını Görüntüle"
+
+#: templates/CRM/PCP/Page/PCP.tpl
 msgid "View page"
-msgstr "Sayfaya bakın"
+msgstr "Sayfayı görüntüle"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "There are no Personal Campaign Pages which match your search criteria."
@@ -704,7 +809,7 @@ msgstr "Durdurun"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Start scrolling"
-msgstr "Kaydırmayı başlatın"
+msgstr "Kaydırmayı başlat"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Stop scrolling"
@@ -729,7 +834,7 @@ msgstr "Yeni kişisel kampanya sayfası"
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "View Page"
-msgstr "Sayfaya Bakın"
+msgstr "Sayfayı Görüntüle"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
@@ -802,7 +907,7 @@ msgstr "Sayfanıza gidin"
 msgid ""
 "When you view your campaign page WHILE LOGGED IN, the page includes links to"
 " edit your page, tell friends, and update your contact info."
-msgstr "OTURUM AÇARAK kampanya sayfanıza baktığınızda, sayfa düzenleme, Arkadaşınıza Bildirin ve İletişim Bilgilerinizi Güncelleyin bağlantıları görüntülenir."
+msgstr "OTURUM AÇARAK kampanya sayfanıza baktığınızda, sayfa düzenleme, Arkadaşına İlet ve İletişim Bilgilerinizi Güncelleyin bağlantıları görüntülenir."
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
@@ -863,7 +968,7 @@ msgstr "Sayfanızı Duyurmak"
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "You can begin your fundraising efforts using our \"Tell a Friend\" form"
-msgstr "\"Arkadaşınıza Bildirin\" formunu kullanarak bağış toplama çalışmalarınızı başlatabilirsiniz"
+msgstr "\"Arkadaşına İlet\" formunu kullanarak bağış toplama çalışmalarınızı başlatabilirsiniz"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 msgid "Click this link and follow the prompts"
@@ -874,7 +979,7 @@ msgstr "Bu bağlantıya tıklayıp yönergeleri izleyin"
 msgid ""
 "Send email to family, friends and colleagues with a personal message about "
 "this campaign."
-msgstr "Bu kampanya hakkındaki kişisel düşüncelerinizi aile, arkadaş ve çalışma arkadaşlarınıza e-posta ile aktarın."
+msgstr "Bu kampanya hakkındaki kişisel düşüncelerinizi aile, arkadaş ve iş arkadaşlarınıza e-posta ile aktarın."
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
@@ -917,43 +1022,3 @@ msgstr "Bu bağlantıya tıklayın ya da kopyalayıp web tarayıcınızın adres
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser"
 msgstr "Bu bağlantıya tıklayın ya da kopyalayıp web tarayıcınızın adres satırına yapıştırın"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "PCP Block"
-msgstr "Kişisel Ödeme Sayfası Bloğu"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Use Thermometer?"
-msgstr "Termometre Kullanılsın"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Show Honor Roll?"
-msgstr "Şeref Listesi Görüntülensin"
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Notify Owner?"
-msgstr "Sahip Bilgilendirilsin"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "PCP Block ID"
-msgstr "Kişisel Ödeme Sayfası Blok Kodu"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity"
-msgstr "Hedef Varlık"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity ID"
-msgstr "Hedef Varlık Kodu"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Approval Required?"
-msgstr "Onay Gerekli"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell a Friend Enabled?"
-msgstr "Arkadaşınıza Bildirin Kullanılsın"
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell A Friend Limit"
-msgstr "Arkadaşınıza Bildirin Sayısı"

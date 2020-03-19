@@ -3,7 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2016
+# Andi Chandler <andi@gowling.com>, 2016,2018
 # Graham <graham@mc3.coop>, 2013
 # Graham <graham@mc3.coop>, 2013
 # John Kingsnorth <kingsnorth.j@gmail.com>, 2017
@@ -11,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-04 14:59+0000\n"
-"Last-Translator: John Kingsnorth <kingsnorth.j@gmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-16 12:32+0000\n"
+"Last-Translator: Mikey O'Toole <mikey@mjco.me.uk>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/civicrm/civicrm/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +52,6 @@ msgstr "Font Style"
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Financial/Form/FinancialAccount.php
@@ -62,22 +61,42 @@ msgstr "Font Style"
 msgid "Default?"
 msgstr "Default?"
 
+#: CRM/Admin/Form/MessageTemplates.php CRM/Campaign/Form/Survey.php
+#: CRM/Contribute/Form/ContributionPage.php CRM/Event/Form/ManageEvent.php
+msgid "Save and Done"
+msgstr "Save and Done"
+
+#: CRM/Admin/Form/MessageTemplates.php
+#: templates/CRM/Admin/Page/MessageTemplates.hlp ang/crmMailing/Templates.js
+msgid "Message Templates"
+msgstr "Message Templates"
+
+#: CRM/Admin/Form/Navigation.php CRM/Report/Form/Instance.php
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Permission"
+msgstr "Permission"
+
 #: CRM/Admin/Form/Navigation.php templates/CRM/Event/Page/DashBoard.tpl
 msgid "Parent"
 msgstr "Parent"
 
 #: CRM/Admin/Form/Options.php CRM/Financial/Form/BatchTransaction.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Opened.php
 msgid "Opened"
 msgstr "Opened"
 
 #: CRM/Admin/Form/Options.php CRM/Admin/Form/PaymentProcessor.php
 #: templates/CRM/Admin/Page/PaymentProcessor.tpl
+#: CRM/Financial/DAO/EntityFinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
 #: CRM/Financial/Form/FinancialTypeAccount.php
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Financial Account"
 msgstr "Financial Account"
+
+#: CRM/Admin/Form/Options.php templates/CRM/Case/Audit/Audit.tpl
+msgid "Incomplete"
+msgstr "Incomplete"
 
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
 msgid "Selected %1 type has not been deleted."
@@ -86,10 +105,6 @@ msgstr "Selected %1 type has not been deleted."
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
 msgid "The %1 '%2' has been saved."
 msgstr "The %1 '%2' has been saved."
-
-#: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/BAO/PaymentProcessor.php
-msgid "Could not find payment processor meta information"
-msgstr "Could not find payment processor meta information"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Site URL"
@@ -119,6 +134,18 @@ msgid "Due Date"
 msgstr "Due Date"
 
 #: CRM/Admin/Form/RelationshipType.php
+#: templates/CRM/Admin/Form/LocationType.tpl
+#: templates/CRM/Admin/Form/OptionGroup.tpl
+#: templates/CRM/Admin/Form/Options.tpl templates/CRM/Badge/Form/Layout.tpl
+#: templates/CRM/Batch/Form/Batch.tpl
+#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"This may mean the loss of a substantial amount of data, and the action "
+"cannot be undone."
+msgstr "This may mean the loss of a substantial amount of data, and the action cannot be undone."
+
+#: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type A"
@@ -130,6 +157,13 @@ msgstr "Contact Type A"
 msgid "Contact Type B"
 msgstr "Contact Type B"
 
+#: CRM/Admin/Form/ScheduleReminders.php ang/crmCxn/PermTable.html
+#: templates/CRM/Admin/Page/APIExplorer.js
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/PCP/DAO/PCPBlock.php
+#: templates/CRM/PCP/Form/Event.hlp
+msgid "Entity"
+msgstr "Entity"
+
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Pledge/BAO/Query.php
 #: CRM/Pledge/Form/Pledge.php CRM/Pledge/Form/PledgeView.php
 msgid "%1(s)"
@@ -137,6 +171,7 @@ msgstr "%1(s)"
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/Form/Pledge.php CRM/Report/Form.php
 msgid "Frequency"
 msgstr "Frequency"
@@ -159,6 +194,10 @@ msgstr "every"
 msgid "until"
 msgstr "until"
 
+#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
+msgid "From Email"
+msgstr "From Email"
+
 #: CRM/Admin/Form/ScheduleReminders.php ang/crmMailing/BlockMailing.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/BlockSetup.html
 #: ang/crmMailingAB/EditCtrl/report.html templates/CRM/Mailing/Page/Report.tpl
@@ -171,6 +210,14 @@ msgstr "Recipients"
 msgid "Scheduled Reminder"
 msgstr "Scheduled Reminder"
 
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "Add >>"
+msgstr "Add >>"
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "<< Remove"
+msgstr "<< Remove"
+
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Contribute/Info.php CRM/Contribute/Page/DashBoard.php
 msgid "CiviContribute"
@@ -180,16 +227,6 @@ msgstr "CiviContribute"
 #: CRM/Member/Info.php CRM/Member/Page/DashBoard.php
 msgid "CiviMember"
 msgstr "CiviMember"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Event/Info.php CRM/Event/Page/DashBoard.php
-msgid "CiviEvent"
-msgstr "CiviEvent"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Mailing/Info.php
-msgid "CiviMail"
-msgstr "CiviMail"
 
 #: CRM/Admin/Page/Admin.php CRM/Report/Info.php
 msgid "CiviReport"
@@ -212,12 +249,12 @@ msgstr "Delete Event Template"
 msgid "Download"
 msgstr "Download"
 
-#: CRM/Admin/Page/MessageTemplates.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailingAB/BlockMailing.html
+#: CRM/Admin/Page/MessageTemplates.php ang/crmMailingAB/BlockMailing.html
 msgid "Message Template"
 msgstr "Message Template"
 
 #: CRM/Admin/Page/Options.php templates/CRM/Admin/Page/APIExplorer.tpl
+#: templates/CRM/Admin/Page/CKEditorConfig.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -242,10 +279,6 @@ msgstr "Enable %1"
 msgid "Delete %1 Type"
 msgstr "Delete %1 Type"
 
-#: CRM/Admin/Page/ParticipantStatusType.php CRM/Case/BAO/Case.php
-msgid "Edit Status"
-msgstr "Edit Status"
-
 #: CRM/Admin/Page/Persistent.php CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Event/Page/DashBoard.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl CRM/PCP/BAO/PCP.php
@@ -253,31 +286,11 @@ msgid "Configure"
 msgstr "Configure"
 
 #: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: CRM/Contribute/DAO/Widget.php
 #: CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "About"
 msgstr "About"
 
-#: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: ang/crmCxn/ConfirmReconnectCtrl.html ang/crmCaseType/edit.html
-msgid "Advanced"
-msgstr "Advanced"
-
-#: templates/CRM/Admin/Form/LocationType.tpl
-#: templates/CRM/Admin/Form/OptionGroup.tpl
-#: templates/CRM/Admin/Form/Options.tpl
-#: templates/CRM/Admin/Form/RelationshipType.tpl
-#: templates/CRM/Badge/Form/Layout.tpl templates/CRM/Batch/Form/Batch.tpl
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"This may mean the loss of a substantial amount of data, and the action "
-"cannot be undone."
-msgstr "This may mean the loss of a substantial amount of data, and the action cannot be undone."
-
-#: templates/CRM/Admin/Page/APIExplorer.tpl
-#: templates/CRM/Admin/Page/OptionGroup.tpl CRM/Contribute/DAO/Product.php
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/Contribute/DAO/Product.php
 #: CRM/Contribute/Form/ManagePremiums.php
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
@@ -309,7 +322,7 @@ msgid "Allow Online Registration"
 msgstr "Allow Online Registration"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl CRM/Campaign/Form/Campaign.php
-#: CRM/Campaign/Form/Petition.php
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Search/Campaign.php
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
@@ -317,15 +330,10 @@ msgstr "Allow Online Registration"
 msgid "Is Active?"
 msgstr "Is Active?"
 
-#: templates/CRM/Admin/Page/MessageTemplates.tpl
-#: ang/crmCaseType/activitySetDetails.html
-msgid "Workflow"
-msgstr "Workflow"
-
-#: templates/CRM/Admin/Page/Navigation.tpl
-#: CRM/Financial/Form/FinancialType.php
-msgid "Cannot Delete"
-msgstr "Cannot Delete"
+#: templates/CRM/Admin/Page/ExtensionDetails.tpl
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "(not available)"
+msgstr "(not available)"
 
 #: templates/CRM/Admin/Page/Options.hlp ang/crmCaseType/edit.html
 msgid "Activity Types"
@@ -349,7 +357,7 @@ msgid "Counted"
 msgstr "Counted"
 
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
-#: CRM/Report/Form/Register.php
+#: ang/crmCaseType/statusTable.html CRM/Report/Form/Register.php
 msgid "Class"
 msgstr "Class"
 
@@ -392,18 +400,18 @@ msgid "Batch Name"
 msgstr "Batch Name"
 
 #: CRM/Batch/DAO/Batch.php CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Summary.php
 msgid "Batch Title"
 msgstr "Batch Title"
+
+#: CRM/Batch/DAO/Batch.php CRM/Mailing/DAO/MailingAB.php
+msgid "When was this item created"
+msgstr "When was this item created"
 
 #: CRM/Batch/Form/Batch.php CRM/Financial/Form/Search.php
 msgid "Number of Items"
 msgstr "Number of Items"
-
-#: CRM/Batch/Form/Entry.php CRM/Mailing/Form/Group.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Save & Continue Later"
-msgstr "Save & Continue Later"
 
 #: CRM/Batch/Form/Entry.php CRM/Member/Form/MembershipRenewal.php
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
@@ -432,22 +440,41 @@ msgstr "Search Batches"
 msgid "Item Count"
 msgstr "Item Count"
 
-#: CRM/Campaign/DAO/Campaign.php
-#: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Campaign Name"
-msgstr "Campaign Name"
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(filtered from _MAX_ total entries)"
+
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Form/Search.tpl
+msgid "Search:"
+msgstr "Search:"
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Contribute/BAO/Contribution.php
+msgid "Campaign Title"
+msgstr "Campaign Title"
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Title for Thank-you page (header title tag, and display at the top of the "
+"page)."
+msgstr "Title for Thank-you page (header title tag, and display at the top of the page)."
 
 #: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
 msgid "Thank-you Text"
 msgstr "Thank-you Text"
 
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid "text and html allowed. displayed above result on success page"
+msgstr "text and html allowed. displayed above result on success page"
+
 #: CRM/Campaign/DAO/Survey.php CRM/Event/DAO/Event.php
 msgid "Is shared through social media"
 msgstr "Is shared through social media"
 
-#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/Campaign.php
-#: CRM/Campaign/Page/DashBoard.php CRM/PCP/Form/PCP.php
+#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/PCP/Form/PCP.php
 msgid "Delete Campaign"
 msgstr "Delete Campaign"
 
@@ -489,11 +516,6 @@ msgid "Results"
 msgstr "Results"
 
 #: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
-#: CRM/Event/Form/ManageEvent.php
-msgid "Save and Done"
-msgstr "Save and Done"
-
-#: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
 msgid "Save and Next"
 msgstr "Save and Next"
 
@@ -505,9 +527,17 @@ msgstr "Order by Column"
 msgid "Order by Order"
 msgstr "Order by Order"
 
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Ascending"
+msgstr "Ascending"
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Descending"
+msgstr "Descending"
+
 #: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Contribute/Form/AbstractEditPayment.php
-#: CRM/Contribute/Form/ManagePremiums.php CRM/Mailing/Form/Upload.php
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Notice"
 msgstr "Notice"
 
@@ -546,28 +576,34 @@ msgstr "Column"
 msgid "another column"
 msgstr "another column"
 
-#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
-#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
-#: templates/CRM/Case/Form/Task/Print.tpl CRM/Report/Form/Case/Summary.php
-msgid "Client"
-msgstr "Client"
-
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: CRM/Report/Form/Case/Summary.php CRM/Report/Form/Extended.php
 msgid "Case Subject"
 msgstr "Case Subject"
 
-#: CRM/Case/DAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Page/AJAX.php templates/CRM/Case/Form/Search/Common.tpl
-#: CRM/Report/Form/Extended.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php
+#: CRM/Case/Form/Activity/OpenCase.php CRM/Case/Page/AJAX.php
+#: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case Start Date"
 msgstr "Case Start Date"
 
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case End Date"
 msgstr "Case End Date"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Submit"
+msgstr "Submit"
+
+#: CRM/Case/Form/EditClient.php CRM/Event/Form/SelfSvcTransfer.php
+msgid "Select Contact"
+msgstr "Select Contact"
+
+#: CRM/Case/Form/Task/Batch.php CRM/Contribute/Form/Task/Batch.php
+#: CRM/Member/Form/Task/Batch.php
+msgid "Your updates have been saved."
+msgstr "Your updates have been saved."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -577,7 +613,11 @@ msgstr "Case End Date"
 msgid "View contact record"
 msgstr "View contact record"
 
-#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form.php
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form/Mailing/Opened.php
+msgid "Open Date"
+msgstr "Open Date"
+
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/BAO/ReportInstance.php
 msgid "Print Report"
 msgstr "Print Report"
 
@@ -588,20 +628,123 @@ msgstr "Print Report"
 msgid "if you are searching within a date range, try a wider range of values"
 msgstr "if you are searching within a date range, try a wider range of values"
 
-#: CRM/Contribute/BAO/Contribution/Utils.php
-#: CRM/Event/Form/Registration/Confirm.php
-msgid ""
-"The system did not record payment details for this payment and so could not "
-"process the transaction. Please report this error to the site administrator."
-msgstr "The system did not record payment details for this payment and so could not process the transaction. Please report this error to the site administrator."
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Receive Date"
+msgstr "Receive Date"
+
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Cancel Date"
+msgstr "Cancel Date"
 
 #: CRM/Contribute/BAO/Contribution.php CRM/Member/BAO/Membership.php
 msgid "(match to contact)"
 msgstr "(match to contact)"
 
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/PremiumsProduct.php
+#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Task/Print.tpl
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Premium"
+msgstr "Premium"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit For"
+msgstr "Soft Credit For"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Soft Credit Amount"
+msgstr "Soft Credit Amount"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Name"
+msgstr "Soft Credit Name"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Email"
+msgstr "Soft Credit Email"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Phone"
+msgstr "Soft Credit Phone"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/PCP/DAO/PCP.php
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Personal Campaign Page Title"
+msgstr "Personal Campaign Page Title"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Event/Form/Registration/Confirm.php
+#: CRM/Event/Form/Registration/Register.php
+msgid "Online Event Registration"
+msgstr "Online Event Registration"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Submit Credit Card payment"
+msgstr "Submit Credit Card payment"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Record Payment"
+msgstr "Record Payment"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Record Refund"
+msgstr "Record Refund"
+
 #: CRM/Contribute/BAO/ContributionPage.php CRM/Event/BAO/Event.php
 msgid "Copy of"
 msgstr "Copy of"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Financial/DAO/PaymentToken.php
+msgid "Payment Processor ID"
+msgstr "Payment Processor ID"
+
+#: CRM/Contribute/BAO/Query.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Page/BatchTransaction.tpl
+msgid "Contribution Date"
+msgstr "Contribution Date"
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Search/Common.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancelled / Refunded Date"
+msgstr "Cancelled / Refunded Date"
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Number"
+msgstr "Invoice Number"
 
 #: CRM/Contribute/BAO/Query.php CRM/Report/Form/Contribute/Detail.php
 msgid "Contributions Only"
@@ -611,20 +754,57 @@ msgstr "Contributions Only"
 msgid "Soft Credits Only"
 msgstr "Soft Credits Only"
 
-#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialType.php
-msgid "Financial Type ID"
-msgstr "Financial Type ID"
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/Widget.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The Contribution Page which triggered this contribution"
+msgstr "The Contribution Page which triggered this contribution"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "actual processor fee if known - may be 0."
+msgstr "actual processor fee if known - may be 0."
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialTrxn.php
+msgid ""
+"actual funds transfer amount. total less fees. if processor does not report "
+"actual fee during transaction, this is set to total_amount."
+msgstr "actual funds transfer amount. total less fees. if processor does not report actual fee during transaction, this is set to total_amount."
 
 #: CRM/Contribute/DAO/Contribution.php
-#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Cancel Date"
-msgstr "Cancel Date"
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Reference"
+msgstr "Invoice Reference"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/DAO/ContributionSoft.php CRM/Contribute/DAO/Product.php
+#: CRM/Event/DAO/Event.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Grant/DAO/Grant.php CRM/PCP/DAO/PCP.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "3 character string, value from config setting or input via user."
+msgstr "3 character string, value from config setting or input via user."
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancellation / Refund Reason"
+msgstr "Cancellation / Refund Reason"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Report/Form/Contribute/Detail.php
+msgid "Thank-you Date"
+msgstr "Thank-you Date"
 
 #: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
 #: CRM/Member/DAO/Membership.php
 msgid "Is Pay Later"
 msgstr "Is Pay Later"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Recognition Date"
+msgstr "Revenue Recognition Date"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Report/Form/Contribute/PCP.php
 msgid "Contribution Page Title"
@@ -632,32 +812,55 @@ msgstr "Contribution Page Title"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/AbstractEditPayment.php
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: CRM/Contribute/Form/Contribution.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl CRM/Event/DAO/Event.php
-#: CRM/Event/Form/ManageEvent/Fee.php CRM/Event/Form/Participant.php
-#: CRM/Financial/DAO/FinancialTrxn.php CRM/Financial/DAO/PaymentProcessor.php
-#: CRM/Member/Form.php
+#: CRM/Event/Form/ManageEvent/Fee.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Report/Form/Contribute/Recur.php
 msgid "Payment Processor"
 msgstr "Payment Processor"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "if true - allows the user to send payment directly to the org later"
+msgstr "if true - allows the user to send payment directly to the org later"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Pay Later Text"
 msgstr "Pay Later Text"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The text displayed to the user in the main form"
+msgstr "The text displayed to the user in the main form"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The receipt sent to the user instead of the normal receipt text"
+msgstr "The receipt sent to the user instead of the normal receipt text"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Label"
 msgstr "Initial Amount Label"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount label for partial payment"
+msgstr "Initial amount label for partial payment"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Help Text"
 msgstr "Initial Amount Help Text"
 
-#: CRM/Contribute/DAO/ContributionPage.php
-#: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
-msgstr "Minimum Amount"
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount help text for partial payment"
+msgstr "Initial amount help text for partial payment"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Minimum initial amount for partial payment"
+msgstr "Minimum initial amount for partial payment"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "FK to civicrm_option_value."
+msgstr "FK to civicrm_option_value."
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
@@ -688,15 +891,25 @@ msgstr "Footer Text"
 msgid "Is billing block required"
 msgstr "Is billing block required"
 
-#: CRM/Contribute/DAO/ContributionProduct.php CRM/Report/Form/Extended.php
+#: CRM/Contribute/DAO/ContributionProduct.php
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+#: CRM/Report/Form/Extended.php
 msgid "Quantity"
 msgstr "Quantity"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Contribute/DAO/Product.php
+#: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Contribute/Form/ManagePremiums.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Frequency Unit"
 msgstr "Frequency Unit"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/UpdateSubscription.php
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Number of Installments"
+msgstr "Number of Installments"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Financial/DAO/PaymentToken.php
 msgid "Payment Token ID"
@@ -711,6 +924,16 @@ msgstr "Next Scheduled Contribution Date"
 #: templates/CRM/Member/Form/Membership.hlp
 msgid "Auto Renew"
 msgstr "Auto Renew"
+
+#: CRM/Contribute/DAO/ContributionRecur.php CRM/Pledge/DAO/Pledge.php
+msgid "FK to Financial Type"
+msgstr "FK to Financial Type"
+
+#: CRM/Contribute/DAO/ContributionSoft.php
+#: CRM/Event/DAO/ParticipantPayment.php CRM/Member/DAO/MembershipPayment.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to contribution table."
+msgstr "FK to contribution table."
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ManagePremiums.tpl
@@ -729,20 +952,15 @@ msgstr "SKU"
 msgid "Fixed Period Start Day"
 msgstr "Fixed Period Start Day"
 
-#: CRM/Contribute/DAO/Product.php CRM/Member/Form/MembershipType.php
-msgid "Duration Interval"
-msgstr "Duration Interval"
-
 #: CRM/Contribute/DAO/Product.php CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency Interval"
 msgstr "Frequency Interval"
 
-#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Contribute/Form/Task/Print.tpl
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Premium"
-msgstr "Premium"
+#: CRM/Contribute/Form/AbstractEditPayment.php
+#: CRM/Contribute/Form/ContributionView.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "View Payment"
+msgstr "View Payment"
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl CRM/PCP/Form/Event.php
@@ -758,38 +976,6 @@ msgstr "Send additional reminders"
 #: CRM/Contribute/Form/AdditionalInfo.php CRM/Member/Form/Membership.php
 msgid "receipt"
 msgstr "receipt"
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Pledge/Page/Payment.tpl
-msgid "View Payment"
-msgstr "View Payment"
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
-#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: xml/templates/message_templates/event_registration_receipt_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
-#: xml/templates/message_templates/membership_offline_receipt_html.tpl
-#: xml/templates/message_templates/membership_offline_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-msgid "Credit Card Information"
-msgstr "Credit Card Information"
 
 #: CRM/Contribute/Form/AdditionalPayment.php
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
@@ -816,6 +1002,11 @@ msgid ""
 msgstr "The automatic renewal of your %1 membership has been cancelled as requested. This does not affect the status of your membership - you will receive a separate notification when your membership is up for renewal."
 
 #: CRM/Contribute/Form/Contribution/Confirm.php
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Make Payment"
+msgstr "Make Payment"
+
+#: CRM/Contribute/Form/Contribution/Confirm.php
 #: CRM/Event/Cart/Form/Checkout/ConferenceEvents.php
 #: CRM/Event/Cart/Form/Checkout/Payment.php
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
@@ -828,25 +1019,20 @@ msgid "Include my name and message"
 msgstr "Include my name and message"
 
 #: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-#: CRM/PCP/BAO/PCP.php
-msgid "Personal Note"
-msgstr "Personal Note"
-
-#: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/BAO/Query.php
 msgid "Every"
 msgstr "Every"
 
+#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment Method is a required field."
+msgstr "Payment Method is a required field."
+
 #: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Event/Form/Registration/Register.php
 msgid "Custom %1 is a required field if %1 is of type Customized."
-msgstr "Custom %1 is a required field if %1 is of type Customized."
+msgstr "Custom %1 is a required field if %1 is of type Customised."
 
 #: CRM/Contribute/Form/Contribution.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -859,18 +1045,16 @@ msgstr "Custom %1 is a required field if %1 is of type Customized."
 msgid "Premium Information"
 msgstr "Premium Information"
 
+#: CRM/Contribute/Form/Contribution.php CRM/Event/Form/EventFees.php
+#: CRM/Member/Form/Membership.php
+msgid "You do not have all the permissions needed for this page."
+msgstr "You do not have all the permissions needed for this page."
+
 #: CRM/Contribute/Form/Contribution.php
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: CRM/Member/Form/Membership.php templates/CRM/Member/Form/Membership.tpl
 msgid "Choose price set"
 msgstr "Choose price set"
-
-#: CRM/Contribute/Form/ContributionBase.php CRM/Member/BAO/Membership.php
-msgid ""
-"Oops. The membership you're trying to renew appears to be invalid. Contact "
-"your site administrator if you need assistance. If you continue, you will be"
-" issued a new membership."
-msgstr "Oops. The membership you're trying to renew appears to be invalid. Contact your site administrator if you need assistance. If you continue, you will be issued a new membership."
 
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Page/EventInfo.php
 msgid "The page you requested is currently unavailable."
@@ -889,6 +1073,11 @@ msgstr "Pay Later Instructions"
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Billing address required"
 msgstr "Billing address required"
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Show Recurring Donation Start Date?"
+msgstr "Show Recurring Donation Start Date?"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
@@ -964,24 +1153,15 @@ msgstr "Contributor Name or Email"
 msgid "Contributor Name"
 msgstr "Contributor Name"
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Unsupported Field Type"
-msgstr "Unsupported Field Type"
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Tag(s)"
+msgstr "Contributor Tag(s)"
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Member/Form/Task/Batch.php
-msgid "Your updates have been saved."
-msgstr "Your updates have been saved."
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "No updates have been saved."
-msgstr "No updates have been saved."
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Not Saved"
-msgstr "Not Saved"
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Group(s)"
+msgstr "Contributor Group(s)"
 
 #: CRM/Contribute/Form/Task/Invoice.php CRM/Contribute/Form/Task/PDF.php
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
@@ -990,10 +1170,18 @@ msgstr "Not Saved"
 msgid "Sent"
 msgstr "Sent"
 
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Update Error"
-msgstr "Batch Update Error"
+#: CRM/Contribute/Form/Task/Status.php
+#: templates/CRM/Contribute/Form/Task/Status.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: CRM/Financial/Form/PaymentEdit.php CRM/Financial/Page/AJAX.php
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Date"
+msgstr "Transaction Date"
 
 #: CRM/Contribute/Form/UpdateBilling.php
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
@@ -1009,19 +1197,13 @@ msgid "Import mode"
 msgstr "Import mode"
 
 #: CRM/Contribute/Import/Parser/Contribution.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Pledge ID"
 msgstr "Pledge ID"
 
 #: CRM/Contribute/Info.php CRM/Event/Info.php CRM/Member/Info.php
 msgid "credit card"
 msgstr "credit card"
-
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/Contribution/PreviewHeader.tpl
-#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
-#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
-msgid "Test-drive"
-msgstr "Test-drive"
 
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Page/DashBoard.tpl
@@ -1041,17 +1223,14 @@ msgstr "View Contribution"
 
 #: CRM/Contribute/Selector/Search.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-#: CRM/Event/Selector/Search.php
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "test"
 msgstr "test"
 
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Summary.php
-msgid "Soft Credit Amount"
-msgstr "Soft Credit Amount"
-
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Detail.php
-msgid "Soft Credit For"
-msgstr "Soft Credit For"
+#: CRM/Contribute/Tokens.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Payment Instrument"
+msgstr "Payment Instrument"
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
@@ -1068,14 +1247,9 @@ msgstr "You will not be able to send an automatic email receipt for this payment
 msgid "Balance Owed"
 msgstr "Balance Owed"
 
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Pledge/Form/Pledge.tpl
-msgid "loading"
-msgstr "loading"
-
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1095,6 +1269,12 @@ msgstr "loading"
 #: templates/CRM/Report/Form/Event/Income.tpl
 msgid "Total"
 msgstr "Total"
+
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Installment Amount"
+msgstr "Installment Amount"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
@@ -1165,26 +1345,6 @@ msgstr "Don't list my contribution in the honour roll."
 msgid "Expires"
 msgstr "Expires"
 
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Checkout with Google"
-msgstr "Checkout with Google"
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Click the Google Checkout button to continue."
-msgstr "Click the Google Checkout button to continue."
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Checkout with PayPal"
-msgstr "Checkout with PayPal"
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Click the PayPal button to continue."
-msgstr "Click the PayPal button to continue."
-
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
@@ -1235,18 +1395,14 @@ msgid "Contributor"
 msgstr "Contributor"
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-msgid "(test)"
-msgstr "(test)"
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Alternatively, you can use a price set."
 msgstr "Alternatively, you can use a price set."
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "loading"
+msgstr "loading"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1327,6 +1483,11 @@ msgid ""
 msgstr "The person who created the personal campaign page will be automatically notified via email when their page is approved so that they can begin promoting the campaign."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Notification Email"
+msgstr "Notification Email"
+
+#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid ""
 "Notification will be sent to this email address whenever a Personal Campaign"
@@ -1342,7 +1503,7 @@ msgid ""
 "Notification receipt, enter one or more email addresses here. Multiple email"
 " addresses should be separated by a comma (e.g. jane@example.org, "
 "paula@example.org) First Email will be sent to PCP user for support."
-msgstr "If you want Administrator of your organization to receive each PCP Notification receipt, enter one or more email addresses here. Multiple email addresses should be separated by a comma (e.g. jane@example.org, paula@example.org) First Email will be sent to PCP user for support."
+msgstr "If you want Administrator of your organisation to receive each PCP Notification receipt, enter one or more email addresses here. Multiple email addresses should be separated by a comma (e.g. jane@example.org, paula@example.org) First Email will be sent to PCP user for support."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
@@ -1398,11 +1559,32 @@ msgstr "Allow constituents to create their own personal fundraising pages linked
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "This is a TEST transaction"
+msgstr "This is a TEST transaction"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Recurring Contribution"
+msgstr "Recurring Contribution"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: CRM/Pledge/BAO/PledgeBlock.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Installments"
 msgstr "Installments"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Personal Note"
+msgstr "Personal Note"
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
@@ -1449,7 +1631,7 @@ msgid ""
 "Creating your own fundraising page is simple. Fill in some basic information"
 " below, which will allow you to manage your page and invite friends to make "
 "a contribution. Then click 'Continue' to personalize and announce your page."
-msgstr "Creating your own fundraising page is simple. Fill in some basic information below, which will allow you to manage your page and invite friends to make a contribution. Then click 'Continue' to personalize and announce your page."
+msgstr "Creating your own fundraising page is simple. Fill in some basic information below, which will allow you to manage your page and invite friends to make a contribution. Then click 'Continue' to personalise and announce your page."
 
 #: templates/CRM/Contribute/Form/PCP/PCPAccount.tpl
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
@@ -1457,41 +1639,16 @@ msgstr "Creating your own fundraising page is simple. Fill in some basic informa
 msgid "Profile is not configured with Email address."
 msgstr "Profile is not configured with Email address."
 
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Tag(s)"
-msgstr "Contributor Tag(s)"
-
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Group(s)"
-msgstr "Contributor Group(s)"
+#: templates/CRM/Contribute/Form/Selector.tpl
+#: templates/CRM/Contribute/Page/PaymentInfo.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+#: templates/CRM/Pledge/Form/Selector.tpl
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "view payments"
+msgstr "view payments"
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
-"Available email addresses are configurable by users with Administer CiviCRM "
-"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
-msgstr "Select the \"FROM\" Email Address for this mailing from the dropdown list. Available email addresses are configurable by users with Administer CiviCRM permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
-"Email Addresses</a> to add or edit email addresses. Make sure these email "
-"addresses are valid email accounts with your email service provider."
-msgstr "Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM Email Addresses</a> to add or edit email addresses. Make sure these email addresses are valid email accounts with your email service provider."
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Contact your site administrator if you need to use a \"FROM\" Email Address "
-"which is not in the dropdown list."
-msgstr "Contact your site administrator if you need to use a \"FROM\" Email Address which is not in the dropdown list."
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You can choose to send BOTH an <strong>HTML</strong> and a plain "
 "<strong>TEXT</strong> version of your mailing, OR you can send a "
@@ -1499,7 +1656,7 @@ msgid ""
 msgstr "You can choose to send BOTH an <strong>HTML</strong> and a plain <strong>TEXT</strong> version of your mailing, OR you can send a <strong>TEXT</strong> version only."
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "If you create only an <strong>HTML</strong> version, CiviMail will "
 "automatically create a <strong>TEXT</strong> version for your recipients who"
@@ -1507,12 +1664,12 @@ msgid ""
 msgstr "If you create only an <strong>HTML</strong> version, CiviMail will automatically create a <strong>TEXT</strong> version for your recipients who have chosen NOT to receive HTML email."
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "Required Elements"
 msgstr "Required Elements"
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "CiviMail email messages must include an <strong>opt-out</strong> link (\"Opt"
 " out via web page\"), and the <strong>postal address</strong> of your "
@@ -1522,36 +1679,6 @@ msgid ""
 " for details on how to include required links and contact information as "
 "well as sample messages."
 msgstr "CiviMail email messages must include an <strong>opt-out</strong> link (\"Opt out via web page\"), and the <strong>postal address</strong> of your organisation. These elements help reduce the chances of your email being categorised as SPAM. They can be included in the main message body OR in a re-usable <strong>message footer</strong>. Refer to the online documentation for details on how to include required links and contact information as well as sample messages."
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"You can use your favorite editor to create content on your local computer "
-"and then <strong>Upload</strong> the files. OR you can "
-"<strong>Compose</strong> content directly on the screen."
-msgstr "You can use your favorite editor to create content on your local computer and then <strong>Upload</strong> the files. OR you can <strong>Compose</strong> content directly on the screen."
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
-"what-you-get) editor is provided which you can use create simple HTML "
-"messages. However, if you are planning on creating HTML messages with "
-"complex layouts - it is best to use an HTML editor on your local computer. "
-"Then locate and upload the saved file(s) by clicking the "
-"<strong>Browse</strong> button."
-msgstr "If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-what-you-get) editor is provided which you can use create simple HTML messages. However, if you are planning on creating HTML messages with complex layouts - it is best to use an HTML editor on your local computer. Then locate and upload the saved file(s) by clicking the <strong>Browse</strong> button."
-
-#: templates/CRM/Contribute/Form/Task/Status.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: CRM/Financial/DAO/FinancialItem.php
-#: CRM/Report/Form/Contribute/Bookkeeping.php
-msgid "Transaction Date"
-msgstr "Transaction Date"
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
@@ -1601,7 +1728,7 @@ msgstr "Import has completed successfully."
 #: templates/CRM/Event/Import/Form/Summary.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "The information below summarizes the results."
-msgstr "The information below summarizes the results."
+msgstr "The information below summarises the results."
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Event/Import/Form/Summary.tpl
@@ -1654,18 +1781,12 @@ msgstr "Failure Count"
 msgid "Failure Retry Date"
 msgstr "Failure Retry Date"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Total Soft Credits"
-msgstr "Total Soft Credits"
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Related Contributions"
+msgstr "Related Contributions"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: templates/CRM/PCP/Page/PCP.tpl
-msgid "View Personal Campaign Page"
-msgstr "View Personal Campaign Page"
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Total Soft Credit Amount"
 msgstr "Total Soft Credit Amount"
@@ -1715,15 +1836,34 @@ msgstr "Total Paid"
 msgid "Balance"
 msgstr "Balance"
 
-#: templates/CRM/Contribute/Page/PaymentInfo.tpl
-#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
-msgid "view payments"
-msgstr "view payments"
-
 #: templates/CRM/Contribute/Page/PcpUserDashboard.tpl
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "ongoing"
 msgstr "ongoing"
+
+#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/event_registration_receipt_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Credit Card Information"
+msgstr "Credit Card Information"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Adjust Pledge Payment Schedule"
@@ -1786,6 +1926,32 @@ msgstr "Please print this receipt for your records."
 msgid "Each"
 msgstr "Each"
 
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Total Tax Amount"
+msgstr "Total Tax Amount"
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+msgid "Paid By"
+msgstr "Paid By"
+
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/event_offline_receipt_text.tpl
@@ -1821,6 +1987,8 @@ msgstr "Display in Roll of Honour"
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Registered Email"
@@ -1861,6 +2029,8 @@ msgstr "On Behalf Of"
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -1880,9 +2050,9 @@ msgstr "If you have questions please contact us at %1"
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid ""
-"This membership will be renewed automatically. You can cancel the auto-"
-"renewal option by <a href=\"%1\">visiting this web page</a>."
-msgstr "This membership will be renewed automatically. You can cancel the auto-renewal option by <a href=\"%1\">visiting this web page</a>."
+"You can cancel the auto-renewal option by <a href=\"%1\">visiting this web "
+"page</a>."
+msgstr "You can cancel the auto-renewal option by <a href=\"%1\">visiting this web page</a>."
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
@@ -1892,6 +2062,10 @@ msgid ""
 "You can update billing details for this automatically renewed membership by "
 "<a href=\"%1\">visiting this web page</a>."
 msgstr "You can update billing details for this automatically renewed membership by <a href=\"%1\">visiting this web page</a>."
+
+#: CRM/Event/BAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Note"
+msgstr "Participant Note"
 
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Fee.php
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1921,6 +2095,14 @@ msgstr "Template Title"
 msgid "Tip"
 msgstr "Tip"
 
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Member/Summary.php
+msgid "Fees"
+msgstr "Fees"
+
 #: CRM/Event/Form/Participant.php
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_text.tpl
@@ -1932,6 +2114,8 @@ msgstr "Tip"
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
@@ -1939,35 +2123,29 @@ msgid "Registration Date"
 msgstr "Registration Date"
 
 #: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
-#: CRM/Member/Form/MembershipRenewal.php
-msgid "Paid By is a required field."
-msgstr "Paid By is a required field."
-
-#: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
 msgid "Please select a valid payment status before updating."
 msgstr "Please select a valid payment status before updating."
 
 #: CRM/Event/Form/Search.php templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Participant Name"
 msgstr "Participant Name"
 
-#: CRM/Event/Selector/Search.php templates/CRM/Pledge/Page/Payment.tpl
-msgid "Record Payment"
-msgstr "Record Payment"
+#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "-select-"
+msgstr "-select-"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid ""
 "Check this box to enter payment information. You will also be able to "
 "generate a customized receipt."
-msgstr "Check this box to enter payment information. You will also be able to generate a customized receipt."
+msgstr "Check this box to enter payment information. You will also be able to generate a customised receipt."
 
 #: templates/CRM/Event/Form/EventFees.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
+#: templates/CRM/Member/Form/MembershipCommon.tpl
 msgid "Select the appropriate financial type for this payment."
 msgstr "Select the appropriate financial type for this payment."
 
@@ -2002,6 +2180,15 @@ msgstr "SubTotal"
 msgid "Amount Before Tax:"
 msgstr "Amount Before Tax:"
 
+#: CRM/Financial/BAO/PaymentProcessor.php CRM/Mailing/Event/BAO/Bounce.php
+msgid "Unknown"
+msgstr "Unknown"
+
+#: CRM/Financial/DAO/FinancialItem.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Financial Item ID"
+msgstr "Financial Item ID"
+
 #: CRM/Financial/DAO/PaymentProcessor.php
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
@@ -2010,9 +2197,9 @@ msgstr "Amount Before Tax:"
 msgid "Payment Type"
 msgstr "Payment Type"
 
-#: CRM/Financial/Form/Export.php CRM/Report/Form.php
-msgid "Export to CSV"
-msgstr "Export to CSV"
+#: CRM/Grant/BAO/Query.php CRM/Report/Form/Grant/Detail.php
+msgid "Grant Decision Date"
+msgstr "Grant Decision Date"
 
 #: CRM/Grant/BAO/Query.php CRM/Grant/DAO/Grant.php
 #: CRM/Grant/Form/Task/Update.php templates/CRM/Grant/Form/GrantView.tpl
@@ -2029,7 +2216,8 @@ msgid "Amount Requested"
 msgstr "Amount Requested"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
-#: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Detail.php
+#: templates/CRM/Grant/Form/GrantView.tpl
+#: templates/CRM/Grant/Form/Task/Print.tpl CRM/Report/Form/Grant/Detail.php
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Application Received"
 msgstr "Application Received"
@@ -2072,16 +2260,28 @@ msgstr "Report Received"
 msgid "Reply"
 msgstr "Reply"
 
+#: CRM/Mailing/BAO/Query.php CRM/Mailing/DAO/Mailing.php
+#: CRM/Mailing/Tokens.php CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing ID"
+msgstr "Mailing ID"
+
 #: CRM/Mailing/BAO/Query.php CRM/Report/Form/Mailing/Detail.php
 msgid "Delivery Status"
 msgstr "Delivery Status"
 
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/Event/DAO/Bounce.php
+#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Type"
+msgstr "Bounce Type"
+
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Search.php
 #: CRM/Mailing/Selector/Browse.php CRM/Mailing/Selector/Search.php
-#: ang/crmMailing/BlockReview.html ang/crmMailing/BlockSummary.html
-#: ang/crmMailingAB/EditCtrl/report.html
+#: CRM/Mailing/Tokens.php ang/crmMailing/BlockReview.html
+#: ang/crmMailing/BlockSummary.html ang/crmMailingAB/EditCtrl/report.html
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: templates/CRM/Mailing/Page/Browse.hlp templates/CRM/Mailing/Page/Report.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Name"
 msgstr "Mailing Name"
@@ -2091,12 +2291,13 @@ msgstr "Mailing Name"
 msgid "Bounce Reason"
 msgstr "Bounce Reason"
 
-#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Type"
-msgstr "Bounce Type"
+#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Started"
+msgstr "Started"
 
 #: CRM/Mailing/Selector/Event.php templates/CRM/Mailing/Page/Report.tpl
-#: CRM/Report/Form/Register.php templates/CRM/Report/Page/Options.tpl
+#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Register.php
+#: templates/CRM/Report/Page/Options.tpl
 msgid "URL"
 msgstr "URL"
 
@@ -2104,6 +2305,14 @@ msgstr "URL"
 #: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
 msgid "Intended Recipients"
 msgstr "Intended Recipients"
+
+#: CRM/Mailing/Selector/Search.php CRM/Mailing/Tokens.php
+#: templates/CRM/Mailing/Form/Task/Print.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing Subject"
+msgstr "Mailing Subject"
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Search.tpl
 #: templates/CRM/Mailing/Form/Task/Print.tpl
@@ -2122,10 +2331,45 @@ msgstr "Opt-out"
 msgid "Approval"
 msgstr "Approval"
 
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
+"Available email addresses are configurable by users with Administer CiviCRM "
+"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
+msgstr "Select the \"FROM\" Email Address for this mailing from the dropdown list. Available email addresses are configurable by users with Administer CiviCRM permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
+"Email Addresses</a> to add or edit email addresses. Make sure these email "
+"addresses are valid email accounts with your email service provider."
+msgstr "Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM Email Addresses</a> to add or edit email addresses. Make sure these email addresses are valid email accounts with your email service provider."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Contact your site administrator if you need to use a \"FROM\" Email Address "
+"which is not in the dropdown list."
+msgstr "Contact your site administrator if you need to use a \"FROM\" Email Address which is not in the dropdown list."
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Opens"
+msgstr "Unique Opens"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Total Opens"
+msgstr "Total Opens"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
 msgid "Clicks"
 msgstr "Clicks"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Clicks"
+msgstr "Unique Clicks"
 
 #: CRM/Member/Form/MembershipBlock.php templates/CRM/Member/Page/Tab.tpl
 #: CRM/Report/Form/Extended.php CRM/Report/Form/Member/ContributionDetail.php
@@ -2139,9 +2383,17 @@ msgstr "Membership Types"
 msgid "Member Name"
 msgstr "Member Name"
 
+#: templates/CRM/Member/Page/DashBoard.tpl CRM/Report/Form/Member/Summary.php
+msgid "Membership Summary"
+msgstr "Membership Summary"
+
 #: templates/CRM/Member/Page/MembershipType.tpl CRM/Report/Form.php
 msgid "Max"
 msgstr "Max"
+
+#: templates/CRM/PCP/Page/PCP.tpl CRM/Report/Form/Contribute/PCP.php
+msgid "Page Title"
+msgstr "Page Title"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 #: xml/templates/message_templates/pcp_notify_html.tpl
@@ -2156,26 +2408,23 @@ msgstr "Supporter"
 msgid "Current Status"
 msgstr "Current Status"
 
-#: CRM/Pledge/BAO/Query.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Status"
-msgstr "Pledge Status"
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-msgid "Total Pledged"
-msgstr "Total Pledged"
+#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Pbnp.php
+msgid "Next Payment Amount"
+msgstr "Next Payment Amount"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
+msgid "Total Pledged"
+msgstr "Total Pledged"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Pledge Start Date"
 msgstr "Pledge Start Date"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/Form/Pledge.php
-#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
+#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/PledgeView.tpl
 #: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Pledge Made"
@@ -2200,58 +2449,25 @@ msgstr "Pledge Amount"
 msgid "Balance Due"
 msgstr "Balance Due"
 
-#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
-msgid "From Email"
-msgstr "From Email"
+#: CRM/Campaign/DAO/Campaign.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Campaign Name"
+msgstr "Campaign Name"
 
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Ascending"
-msgstr "Ascending"
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+#: templates/CRM/Mailing/Form/Upload.hlp
+msgid ""
+"You can use your favorite editor to create content on your local computer "
+"and then <strong>Upload</strong> the files. OR you can "
+"<strong>Compose</strong> content directly on the screen."
+msgstr "You can use your favorite editor to create content on your local computer and then <strong>Upload</strong> the files. OR you can <strong>Compose</strong> content directly on the screen."
 
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Descending"
-msgstr "Descending"
-
-#: CRM/Contribute/DAO/ContributionRecur.php
-#: CRM/Contribute/Form/UpdateSubscription.php
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Number of Installments"
-msgstr "Number of Installments"
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-#: templates/CRM/Pledge/Page/UserDashboard.tpl
-msgid "Make Payment"
-msgstr "Make Payment"
-
-#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Payment Method is a required field."
-msgstr "Payment Method is a required field."
-
-#: CRM/Contribute/Form/Contribution.php CRM/Member/Form/Membership.php
-msgid "You do not have all the permissions needed for this page."
-msgstr "You do not have all the permissions needed for this page."
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Show Recurring Donation Start Date?"
-msgstr "Show Recurring Donation Start Date?"
-
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Update multiple records error"
-msgstr "Update multiple records error"
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Installment Amount"
-msgstr "Installment Amount"
-
-#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Notification Email"
-msgstr "Notification Email"
+#: templates/CRM/Contribute/Page/ContributionSoft.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Total Soft Credits"
+msgstr "Total Soft Credits"
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
@@ -2263,36 +2479,10 @@ msgstr "Median"
 msgid "Mode"
 msgstr "Mode"
 
-#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
-#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Fees"
-msgstr "Fees"
-
-#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "-select-"
-msgstr "-select-"
-
-#: CRM/Mailing/DAO/Mailing.php CRM/Report/Form/Mailing/Summary.php
-msgid "Mailing ID"
-msgstr "Mailing ID"
-
-#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
-msgid "Started"
-msgstr "Started"
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Opens"
-msgstr "Unique Opens"
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Total Opens"
-msgstr "Total Opens"
-
-#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Next Payment Amount"
-msgstr "Next Payment Amount"
+#: xml/templates/message_templates/contribution_recurring_notify_html.tpl
+#: xml/templates/message_templates/contribution_recurring_notify_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid ""
+"This membership will be renewed automatically. You can cancel the auto-"
+"renewal option by <a href=\"%1\">visiting this web page</a>."
+msgstr "This membership will be renewed automatically. You can cancel the auto-renewal option by <a href=\"%1\">visiting this web page</a>."

@@ -8,15 +8,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Indonesian (http://www.transifex.com/civicrm/civicrm/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Subscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Forward URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Opt-Out URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Reply (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Unsubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Resubscribe URL (Action)"
+msgstr ""
+
+#: CRM/Mailing/ActionTokens.php
+msgid "Event Queue ID"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "CiviMail will not send email to a non-existent contact: %1"
@@ -34,13 +74,19 @@ msgstr "Bidang \"%1\" dibutuhkan."
 msgid "Field \"body_html\" or \"body_text\" is required."
 msgstr "Bidang \"body_html\" atau \"body_text\" dibutuhkan."
 
-#: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Form/Upload.php
+#: CRM/Mailing/BAO/Mailing.php
 msgid "This message is missing a required token - {%1}: %2"
 msgstr "Pesan ini hilang membutuhkan token - {%1}: %2"
 
 #: CRM/Mailing/BAO/Mailing.php CRM/Mailing/Selector/Event.php
 msgid "Opt-Out"
 msgstr "Menyisihkan"
+
+#: CRM/Mailing/BAO/Mailing.php ang/crmMailing/BlockReview.html
+#: ang/crmMailingAB/EditCtrl/report.html
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Resubscribe"
+msgstr "Berlangganan Kembali"
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "You do not have permission to access this mailing report"
@@ -55,6 +101,10 @@ msgid "SMS Message"
 msgstr "Pesan SMS"
 
 #: CRM/Mailing/BAO/Mailing.php
+msgid "Document Body"
+msgstr ""
+
+#: CRM/Mailing/BAO/Mailing.php
 msgid "Use Template"
 msgstr "Gunakan Cetakan"
 
@@ -67,18 +117,10 @@ msgid "Save As New Template"
 msgstr "Simpan Sebagai Cetakan Baru"
 
 #: CRM/Mailing/BAO/Mailing.php
-msgid "Select Template"
-msgstr "Pilih Cetakan"
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Your Letter"
-msgstr "Surat Anda"
-
-#: CRM/Mailing/BAO/Mailing.php
 msgid ""
 "The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in the online user and administrator guide</a>"
-msgstr "<a href=\"%1\">kotak surat awal</a> belum di konfigurasi. Anda akan menemukan <a href=\"%2\"> info lanjut di panduan daring pengguna dan administrator</a>"
+"find <a href=\"%2\">more info in the online system administrator guide</a>"
+msgstr ""
 
 #: CRM/Mailing/BAO/Mailing.php
 msgid "View Mailing"
@@ -87,10 +129,6 @@ msgstr "Lihat Penyuratan"
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "[CiviMail Draft]"
 msgstr "[konsep CiviMail]"
-
-#: CRM/Mailing/BAO/MailingJob.php
-msgid "The mailing has been canceled."
-msgstr "Penyuratan telah dibatalkan."
 
 #: CRM/Mailing/BAO/MailingJob.php
 msgid "Not scheduled"
@@ -136,6 +174,10 @@ msgid "Forwards"
 msgstr "Teruskan"
 
 #: CRM/Mailing/BAO/Query.php
+msgid "Campaign %1 %2"
+msgstr ""
+
+#: CRM/Mailing/BAO/Query.php
 msgid "Mailing Name(s)"
 msgstr "Nama Penyuratan"
 
@@ -159,54 +201,84 @@ msgstr "URL Dilacak"
 msgid "Trackable Replies"
 msgstr "Balasan Dapat Dilacak"
 
+#: CRM/Mailing/BAO/Query.php templates/CRM/Mailing/Form/Search/Common.tpl
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "Mailing Date"
+msgstr "Tanggal Penyuratan"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "Bounce Pattern ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/DAO/BounceType.php
+msgid "Type of bounce"
+msgstr ""
+
 #: CRM/Mailing/DAO/BouncePattern.php
 msgid "Pattern"
 msgstr "Corak"
+
+#: CRM/Mailing/DAO/BouncePattern.php
+msgid "A regexp to match a message to a bounce type"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Name"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "Bounce Type Description"
+msgstr ""
+
+#: CRM/Mailing/DAO/BounceType.php
+msgid "A description of this bounce type"
+msgstr ""
 
 #: CRM/Mailing/DAO/BounceType.php
 msgid "Hold Threshold"
 msgstr "Ambang Menunggu"
 
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component ID"
-msgstr "ID Komponen Penyuratan"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Component Name"
-msgstr "Nama Komponen"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Type"
-msgstr "Jenis Komponen Penyuratan"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Body HTML"
-msgstr "Komponen Penyuratan Badan HTML"
-
-#: CRM/Mailing/DAO/Component.php CRM/Mailing/DAO/Mailing.php
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Body Text"
+#: CRM/Mailing/DAO/BounceType.php
+msgid ""
+"Number of bounces of this type required before the email address is put on "
+"bounce hold"
 msgstr ""
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component is Default?"
-msgstr "Komponen Penyuratan apakah Awal?"
-
-#: CRM/Mailing/DAO/Component.php
-msgid "Mailing Component Is Active?"
-msgstr "Komponen Penyuratan Aktif?"
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Domain"
 msgstr "Ranah Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingAB.php
+msgid "Which site is this mailing for"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the header component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the footer component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Reply"
 msgstr "Balasan Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the auto-responder component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Unsubscribe"
 msgstr "Berhenti langganan Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the unsubscribe component."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Resubscribe"
@@ -217,20 +289,66 @@ msgid "Mailing Opt Out"
 msgstr "Menyyisihkan Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to the opt-out component."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Name."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Type"
 msgstr "Jenis Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"differentiate between standalone mailings, A/B tests, and A/B final-winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Name"
 msgstr "Nama Dari Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Header of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing From Email"
 msgstr "Email Dari Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "From Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Replyto Email"
 msgstr "Email Balaske"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Reply-To Email of mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Type"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "The language/processing system used for email templates."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Template Options (JSON)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Advanced options used by the email templating system. (JSON encoded)"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingComponent.php
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Body Text"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Body Html"
@@ -240,22 +358,42 @@ msgstr ""
 msgid "Url Tracking"
 msgstr "Pelacakan Url"
 
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track URL click-throughs for this mailing?"
+msgstr ""
+
 #: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockResponses.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Forward Replies"
 msgstr "Teruskan Balasan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we forward replies back to the author?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Auto Responder"
 msgstr "Penjawab Otomatis"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Should we enable the auto-responder?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Track Mailing?"
 msgstr "Lacan Penyuratan?"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we track when recipients open/read this mailing?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Completed"
 msgstr "Penyuratan Lengkap"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Has at least one job associated with this mailing finished?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Message Template"
@@ -266,49 +404,106 @@ msgid "Override Verp"
 msgstr "Mengesampingkan Verp"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Should we overrite VERP address in Reply-To"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Creator"
 msgstr "Pembuat Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who first created this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Created Date"
 msgstr "Tanggal Pembuatan Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was created."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"When the mailing (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who scheduled this mailing"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Scheduled Date"
 msgstr "Tanggal Terjadwal Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was scheduled."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approved By"
 msgstr "Disetujui Oleh"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "FK to Contact ID who approved this mailing"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Approved Date"
 msgstr "Tanggal Persetujuan Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Date and time this mailing was approved."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Approve.php
 msgid "Approval Status"
 msgstr "Keadaan Persetujuan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The status of this mailing. Values: none, approved, rejected"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Approval Note"
 msgstr "Catatan Persetujuan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Note behind the decision."
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Is Mailing Archived?"
 msgstr "Apakah Penyuratan Diarsipkan?"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Settings.php
-#: ang/crmMailing/BlockPublication.html
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Is this mailing archived?"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php ang/crmMailing/BlockPublication.html
 msgid "Mailing Visibility"
 msgstr "Penampakan Penyuratan"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "In what context(s) is the mailing contents visible (online viewing)"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing Campaign"
 msgstr "Kampanye Penyuratan"
 
 #: CRM/Mailing/DAO/Mailing.php
+msgid "The campaign for which this mailing has been initiated."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "No Duplicate emails?"
 msgstr "Tidak ada email rangkap?"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Remove duplicate emails?"
+msgstr ""
 
 #: CRM/Mailing/DAO/Mailing.php
 msgid "Mailing SMS Provider"
@@ -318,25 +513,62 @@ msgstr "Penyedia SMS Penyuratan"
 msgid "Mailing Hash"
 msgstr "Campuran Penyuratan"
 
-#: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Group.php
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Key for validating requests related to this mailing."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "With email_selection_method, determines which email address to use"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
 msgid "Email Selection Method"
 msgstr "Cara Pemilihan Email"
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid ""
+"With location_type_id, determine how to choose the email address to use."
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Mailing Language"
+msgstr ""
+
+#: CRM/Mailing/DAO/Mailing.php
+msgid "Language of the content of the mailing. Useful for tokens."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "MailingAB ID"
 msgstr "ID PenyuratanAB"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "Name of the A/B test"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (A)"
 msgstr "ID Penyuratan (A)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The first experimental mailing (\"A\" condition)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (B)"
 msgstr "ID Penyuratan (B)"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "The second experimental mailing (\"B\" condition)"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Mailing ID (C)"
 msgstr "ID Penyuratan (D)"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "The final, general mailing (derived from A or B)"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Testing Criteria"
@@ -351,8 +583,16 @@ msgid "URL for Winner Criteria"
 msgstr "URL dari Kriteria Pemenang"
 
 #: CRM/Mailing/DAO/MailingAB.php
+msgid "What specific url to track"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingAB.php
 msgid "Declaration Time"
 msgstr "Waktu Pernyataan"
+
+#: CRM/Mailing/DAO/MailingAB.php
+msgid "In how much time to declare winner"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingAB.php
 msgid "Group Percentage"
@@ -366,13 +606,65 @@ msgstr "Dibuat Oleh Percobaan AB"
 msgid "AB Test Created Date"
 msgstr "Tanggal Pembuatan Percobaan AB"
 
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component ID"
+msgstr "ID Komponen Penyuratan"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Component Name"
+msgstr "Nama Komponen"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "The name of this component"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Type"
+msgstr "Jenis Komponen Penyuratan"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Type of Component."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Body HTML"
+msgstr "Komponen Penyuratan Badan HTML"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in html format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Body of the component in text format."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component is Default?"
+msgstr "Komponen Penyuratan apakah Awal?"
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Is this the default component for this component_type?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingComponent.php
+msgid "Mailing Component Is Active?"
+msgstr "Komponen Penyuratan Aktif?"
+
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group ID"
 msgstr "ID Kelompok Penyuratan"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The ID of a previous mailing to include/exclude recipients."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Type"
 msgstr "Jenis Kelompok Penyuratan"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "Are the members of the group included or excluded?."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Entity Table"
@@ -387,40 +679,88 @@ msgid "Mailing Group Search"
 msgstr "Pencarian Kelompok Penyuratan"
 
 #: CRM/Mailing/DAO/MailingGroup.php
+msgid "The filtering search. custom search id or -1 for civicrm api search"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingGroup.php
 msgid "Mailing Group Search Arguments"
 msgstr "Penjelasan Pencarian Kelompok Penyuratan"
+
+#: CRM/Mailing/DAO/MailingGroup.php
+msgid "The arguments to be sent to the search function"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job ID"
 msgstr "ID Pekerjaan Penyuratan"
+
+#: CRM/Mailing/DAO/MailingJob.php CRM/Mailing/DAO/Recipients.php
+msgid "The ID of the mailing this Job will send."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was scheduled."
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Start Date"
 msgstr "Tanggal Mulai Pekerjaan Penyuratan"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job was started."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job End Date"
 msgstr "Tanggal Akhir Pekerjaan Penyuratan"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "date on which this job ended."
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "The state of this job"
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Is Test?"
 msgstr "Pekerjaan Penyuratan adalah Percobaan?"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Is this job for a test mail?"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Type"
 msgstr "Jenis Pekerjaan Penyuratan"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Type of mailling job: null | child "
+msgstr ""
 
 #: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Parent"
 msgstr "Pekerjaan Penyuratan Induk"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Parent job id"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Offset"
 msgstr "Penyuratan Menyeimbangkan Pekerjaan"
 
 #: CRM/Mailing/DAO/MailingJob.php
+msgid "Offset of the child job"
+msgstr ""
+
+#: CRM/Mailing/DAO/MailingJob.php
 msgid "Mailing Job Limit"
 msgstr "Batas Pekerjaan Penyuratan"
+
+#: CRM/Mailing/DAO/MailingJob.php
+msgid "Queue size limit for each child job"
+msgstr ""
 
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Mailing Recipients ID"
@@ -430,37 +770,82 @@ msgstr "ID Penerima Penyuratan"
 msgid "Mailing Recipient"
 msgstr "Penerima Penyuratan"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "FK to Contact"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php CRM/Mailing/DAO/Spool.php
 msgid "Recipient Email"
 msgstr "Email Penerima"
 
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Email"
+msgstr ""
+
 #: CRM/Mailing/DAO/Recipients.php
 msgid "Recipient Phone"
 msgstr "Telepon Penerima"
+
+#: CRM/Mailing/DAO/Recipients.php CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Phone"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Spool ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "Mailing Job"
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The ID of the Job ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "The email of the receipients this mail is to be sent."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
 msgid "Headers"
 msgstr "Kepala"
 
 #: CRM/Mailing/DAO/Spool.php
+msgid "The header information of this mailing ."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
 msgid "Body"
 msgstr "Badan"
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Added At"
-msgstr "Ditambahkan Pada"
+msgid "The body of this mailing."
+msgstr ""
 
 #: CRM/Mailing/DAO/Spool.php
-msgid "Removed At"
-msgstr "Dipindahkan Pada"
+msgid "date on which this job was added."
+msgstr ""
+
+#: CRM/Mailing/DAO/Spool.php
+msgid "date on which this job was removed."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "Trackable URL ID"
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "The URL to be tracked."
+msgstr ""
+
+#: CRM/Mailing/DAO/TrackableURL.php
+msgid "FK to the mailing"
+msgstr ""
 
 #: CRM/Mailing/Event/BAO/Bounce.php
 msgid "Unknown bounce type: Could not parse bounce email"
 msgstr "Jenis penolakan tidak diketahui. Tidak dapat mengurai email penolakan"
-
-#: CRM/Mailing/Event/BAO/Bounce.php
-msgid "Unknown"
-msgstr "Tidak diketahui"
 
 #: CRM/Mailing/Event/BAO/Subscribe.php
 msgid "You are already subscribed in %1, your subscription is %2."
@@ -480,11 +865,34 @@ msgid ""
 "Please contact the site administrator."
 msgstr "Kami mempunyai masalah mengolah permintaan langganan anda untuk %1. Anda telah mencoba untuk berlangganan pada kelompok pribadi dan/atau kami mengalami kesalahan basisdata. Silahkan beritahu pengelola situs."
 
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "Bounce ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
+#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Event Queue"
+msgstr ""
+
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
 #: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Opened.php
 #: CRM/Mailing/Event/DAO/Reply.php CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Time Stamp"
-msgstr "Cap Waktu"
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "FK to EventQueue"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "What type of bounce was it?"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "The reason the email bounced."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Bounce.php
+msgid "When this bounce event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Mailing Confirmation ID"
@@ -495,16 +903,80 @@ msgid "Mailing Subscribe ID"
 msgstr "ID Langganan Penyuratan"
 
 #: CRM/Mailing/Event/DAO/Confirm.php
+msgid "FK to civicrm_mailing_event_subscribe"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Confirm.php
 msgid "Confirm Timestamp"
 msgstr "Menegaskan Capwaktu"
+
+#: CRM/Mailing/Event/DAO/Confirm.php
+msgid "When this confirmation event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Delivered.php
+msgid "Delivered ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Delivered.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "When this delivery event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Forward ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Mailing Event Queue"
+msgstr "Antrian Acara Penyuratan"
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "Destination Queue"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "FK to EventQueue for destination"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Forward.php
+msgid "When this forward event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "Mailing Opened ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Opened.php
+msgid "When this open event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Queue.php
 msgid "Mailing Event Queue ID"
 msgstr "ID Antrian Acara Penyuratan"
 
 #: CRM/Mailing/Event/DAO/Queue.php
+msgid "FK to Job"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Queue.php
 msgid "Security Hash"
 msgstr "Campuran Keamanan"
+
+#: CRM/Mailing/Event/DAO/Queue.php CRM/Mailing/Event/DAO/Subscribe.php
+msgid "Security hash"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "Reply Timestamp"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/Reply.php
+msgid "When this reply event occurred."
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Subscribe.php
 msgid "Mailing Subscribe Group"
@@ -522,17 +994,37 @@ msgstr "Langganan Penyuratan Hash"
 msgid "Mailing Subscribe Timestamp"
 msgstr "Langganan Penyuratan Cap waktu"
 
+#: CRM/Mailing/Event/DAO/Subscribe.php
+msgid "When this subscription event occurred."
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable URL Open ID"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "Trackable Url"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "FK to TrackableURL"
+msgstr ""
+
+#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
+msgid "When this trackable URL open occurred."
+msgstr ""
+
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe ID"
 msgstr "ID Berhenti langganan"
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
-msgid "Mailing Event Queue"
-msgstr "Antrian Acara Penyuratan"
-
-#: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe is for Organization?"
 msgstr "Berhenti langganan untuk Organisasi?"
+
+#: CRM/Mailing/Event/DAO/Unsubscribe.php
+msgid "Unsubscribe at org- or group-level"
+msgstr ""
 
 #: CRM/Mailing/Event/DAO/Unsubscribe.php
 msgid "Unsubscribe Timestamp"
@@ -545,6 +1037,10 @@ msgstr "Penyuratan Setujui/Tolak "
 #: CRM/Mailing/Form/Approve.php
 msgid "Approve/Reject Note"
 msgstr "Catatan Setujui/Tolak"
+
+#: CRM/Mailing/Form/Browse.php CRM/Mailing/Page/Browse.php
+msgid "The mailing has been canceled."
+msgstr "Penyuratan telah dibatalkan."
 
 #: CRM/Mailing/Form/Component.php
 msgid "Component Type"
@@ -579,6 +1075,10 @@ msgstr "Kesalahan berikut ditemukan dalam %1 pesan:"
 msgid "More information on tokens..."
 msgstr "Informasi lain pada token..."
 
+#: CRM/Mailing/Form/Component.php
+msgid "Please provide either HTML or TEXT format for the Body."
+msgstr ""
+
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Invalid form parameters."
 msgstr "Parameter formulir tidak sah."
@@ -586,10 +1086,6 @@ msgstr "Parameter formulir tidak sah."
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward Mailing: %1"
 msgstr "Teruskan Penyuratan: %1"
-
-#: CRM/Mailing/Form/ForwardMailing.php
-msgid "Email %1"
-msgstr "Email %1"
 
 #: CRM/Mailing/Form/ForwardMailing.php
 msgid "Forward"
@@ -604,76 +1100,6 @@ msgstr[0] "Penyuratan tidak diteruskan pada alamat email yang diberikan."
 msgid "Mailing is forwarded successfully to %count email address."
 msgid_plural "Mailing is forwarded successfully to %count email addresses."
 msgstr[0] "Penyuratan berhasil diteruskan ke %count alamat email."
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"The <a href=\"%1\">default mailbox</a> has not been configured. You will "
-"find <a href=\"%2\">more info in our online user and administrator "
-"guide.</a>"
-msgstr " <a href=\"%1\">Kotak surat awal</a> belum di konfigurasi. Anda akan menemukan <a href=\"%2\">info lanjut di daring panduan pengguna dan administrator kami.</a> "
-
-#: CRM/Mailing/Form/Group.php
-msgid "Name Your Mailing"
-msgstr "Namai Penyuratan Anda"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Remove duplicate emails?"
-msgstr "Pindahkan email rangkap?"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Unsubscription Group"
-msgstr "Berhenti langganan Kelompok"
-
-#: CRM/Mailing/Form/Group.php
-msgid "INCLUDE Recipients of These Mailing(s)"
-msgstr ""
-
-#: CRM/Mailing/Form/Group.php
-msgid "EXCLUDE Recipients of These Mailing(s)"
-msgstr ""
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Settings.php
-#: CRM/Mailing/Form/Test.php CRM/Mailing/Form/Upload.php
-msgid ""
-"You can continue later by clicking the 'Continue' action to resume working "
-"on it.<br />From <a href='%1'>Draft and Unscheduled Mailings</a>."
-msgstr "Anda dapat melanjutkan nanti dengan meng klik tindakan 'Lanjutkan' untuk meneruskan bekerja dengannya.<br /> Dari <a href='%1'>Konsep dan Penyuratan Tidak terjadwal</a>. "
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Click the 'Continue' action to resume working on it."
-msgstr "Klik tindakan 'Lanjutkan' untuk melanjutkan bekerja dengannya."
-
-#: CRM/Mailing/Form/Group.php CRM/Mailing/Form/Schedule.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Saved"
-msgstr "Penyuratan Disimpan"
-
-#: CRM/Mailing/Form/Group.php
-msgid "Cannot have same mail in Include mailing(s) and Exclude mailing(s)."
-msgstr "Tidak dapat mempunyai surat sama di Sertakan penyuratan dan Tidak sertakan penyuratan."
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a group to filter on"
-msgstr "Anda harus memilih kelompok untuk menyaring di"
-
-#: CRM/Mailing/Form/Group.php
-msgid "You must select a search to filter"
-msgstr "Anda harus memilih pencarian untuk saringan"
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Email Selection Method' is automatic, you are not allowed to choose any "
-"'Location Type'"
-msgstr "Jika 'Cara Pemilihan Email' otomatis, anda tidak diizinkan untuk memilih 'Jenis Tempat' apapun"
-
-#: CRM/Mailing/Form/Group.php
-msgid ""
-"If 'Location Type' is not selected, you must set the 'Email Selection "
-"Method' to automatic as well."
-msgstr "Jika 'Jenis Tempat tidak dipilih, anda harus menyetel 'Cara Pemilihan Email' menjadi otomatis."
 
 #: CRM/Mailing/Form/Optout.php CRM/Mailing/Form/Unsubscribe.php
 #: CRM/Mailing/Page/Common.php
@@ -702,26 +1128,6 @@ msgid ""
 "with this opt out request."
 msgstr "Alamat email: %1 yang ada masukkan tidak cocok dengan email yang terhubung dengan permintaan menyisihkan."
 
-#: CRM/Mailing/Form/Schedule.php
-msgid "Schedule Mailing"
-msgstr "Jadwal Penyuratan"
-
-#: CRM/Mailing/Form/Schedule.php ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-#: ang/crmMailingAB/EditCtrl/edit.html
-msgid "Submit Mailing"
-msgstr "Ajukan Penyuratan"
-
-#: CRM/Mailing/Form/Schedule.php
-msgid ""
-"Your mailing has been saved. You can continue later by clicking the "
-"'Continue' action to resume working on it.<br />From <a href='%1'>Draft and "
-"Unscheduled Mailings</a>."
-msgstr "Penyuratan anda telah disimpan. Anda dapat melanjutkan nanti dengan meng klik tindakan 'Lanjutkan' untuk meneruskan bekerja dengannya.<br />Dari <a href='%1'>Konsep dan Penyuratan Tidak terjadwal</a>."
-
 #: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
 msgid "SMS Name"
 msgstr "Nama SMS"
@@ -738,29 +1144,15 @@ msgstr "Konsep / Tidak terjadwal"
 msgid "Mailing is Archived"
 msgstr "Penyuratan Diarsipkan"
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Replies?"
-msgstr "Lacak Balasan?"
+#: CRM/Mailing/Form/Search.php CRM/Mailing/Selector/Browse.php
+#: CRM/Mailing/Selector/Search.php ang/crmMailing/BlockMailing.html
+#: ang/crmMailing/BlockReview.html templates/CRM/Mailing/Page/Browse.hlp
+msgid "Language"
+msgstr ""
 
-#: CRM/Mailing/Form/Settings.php
-msgid "Forward Replies?"
-msgstr "Teruskan Balasan?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Click-throughs?"
-msgstr "Lacak Melalui-Klik?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track Opens?"
-msgstr "Lacak Dibuka?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Auto-respond to Replies?"
-msgstr "Jawaban-otomatis untuk Balasan?"
-
-#: CRM/Mailing/Form/Settings.php
-msgid "Track and Respond"
-msgstr "Lacak dan Tanggapi"
+#: CRM/Mailing/Form/Search.php
+msgid "- all languages -"
+msgstr ""
 
 #: CRM/Mailing/Form/Subscribe.php
 msgid "Subscribe to Mailing List - %1"
@@ -781,48 +1173,6 @@ msgstr "Berlangganan"
 #: CRM/Mailing/Form/Task/Print.php CRM/Mailing/Task.php
 msgid "Print Mailing Recipients"
 msgstr "Cetak Penerima Penyuratan"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Address"
-msgstr "Kirim ke Alamat Ini"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send to This Group"
-msgstr "Kirim ke Kelompok Ini"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Send a Test Mailing"
-msgstr "Kirim Penyuratan Percobaan"
-
-#: CRM/Mailing/Form/Test.php
-msgid "Inform Scheduler"
-msgstr "Informasikan Penjadwal"
-
-#: CRM/Mailing/Form/Test.php
-msgid "You did not provide an email address or select a group."
-msgstr "Anda tidak menyediakan alamat email atau memilih kelompok."
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test not sent."
-msgstr "Percobaan tidak dikirim."
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"You can not schedule or send this mailing because there are currently no "
-"recipients selected. Click 'Previous' to return to the Select Recipients "
-"step, OR click 'Save & Continue Later'."
-msgstr "Anda tidak dapat menjadwalkan atau mengirim penyuratan ini karena tidak ada penerima yang dipilih. Klik 'Sebelum' untuk kembali ke langkah Pilih Penerima, ATAU klik 'Simpan & Lanjutkan Nanti'."
-
-#: CRM/Mailing/Form/Test.php
-msgid ""
-"Click 'Next' when you are ready to Schedule or Send your live mailing (you "
-"will still have a chance to confirm or cancel sending this mailing on the "
-"next page)."
-msgstr "Klik 'Selanjutnya' ketika anda sudah siap untuk Menjadwal atau Mengirim penyuratan langsung anda (anda masih mempunyai kesempatan untuk memastikan atau membatalkan mengirim penyuratan ini pada halaman selanjutnya)."
-
-#: CRM/Mailing/Form/Test.php
-msgid "Test message sent"
-msgstr "Pesan percobaan dikirim"
 
 #: CRM/Mailing/Form/Unsubscribe.php
 msgid "Missing Parameters"
@@ -851,38 +1201,9 @@ msgid ""
 "with this unsubscribe request."
 msgstr "Alamat email: %1 yang ada masukkan tidak cocok dengan email yang terhubung dengan permintaan berhenti langganan."
 
-#: CRM/Mailing/Form/Upload.php
-msgid ""
-"There is no valid from email address present. You can add here <a "
-"href='%1'>Add From Email Address.</a>"
-msgstr "Tidak ada alamat email dari yang sah hadir. Anda dapat menambahkan disini <a href='%1'>Tambah Alamat Email Dari.</a> "
-
-#: CRM/Mailing/Form/Upload.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailing/EmailAddrCtrl.js ang/crmMailingAB/BlockMailing.html
-#: templates/CRM/Mailing/Form/Upload.tpl
-msgid "Reply-To"
-msgstr "Balas-Ke"
-
-#: CRM/Mailing/Form/Upload.php CRM/Mailing/Selector/Search.php
-#: templates/CRM/Mailing/Form/Task/Print.tpl
-msgid "Mailing Subject"
-msgstr "Subyek Penyuratan"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Upload HTML Message"
-msgstr "Unggah Pesan HTML"
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Please provide either a Text or HTML formatted message - or both."
-msgstr "Silahkan sediakan pesan berbentuk Teks atau HTML - atau keduanya."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "More information on required tokens..."
-msgstr "Butuh informasi lebih mengenai token yang dibutuhkan..."
-
-#: CRM/Mailing/Form/Upload.php
-msgid "Mailing Content"
-msgstr "Isi Penyuratan"
+#: CRM/Mailing/Info.php
+msgid "CiviCRM Mailing Engine"
+msgstr ""
 
 #: CRM/Mailing/Info.php
 msgid "access CiviMail"
@@ -921,9 +1242,31 @@ msgstr "jadwal penyuratan"
 msgid "approve mailings"
 msgstr "setujui penyuratan"
 
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to send SMS"
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "You do not have permission to view this page."
+msgstr ""
+
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Cancel Mailing"
 msgstr "Batalkan Penyuratan"
+
+#: CRM/Mailing/Page/Browse.php
+msgid ""
+"The mailing has been paused. Active message deliveries may continue for a "
+"few minutes, but CiviMail will not begin delivery of any more batches."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "The mailing has been resumed."
+msgstr ""
+
+#: CRM/Mailing/Page/Browse.php
+msgid "Resumed"
+msgstr ""
 
 #: CRM/Mailing/Page/Browse.php CRM/Mailing/Selector/Browse.php
 msgid "Archive Mailing"
@@ -1095,6 +1438,26 @@ msgid "Archive"
 msgstr "Arsip"
 
 #: CRM/Mailing/Selector/Browse.php
+msgid "Resume"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Resume mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Pause mailing"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
+msgid "Public View"
+msgstr ""
+
+#: CRM/Mailing/Selector/Browse.php
 msgid "CiviMail Mailings"
 msgstr "Penyuratan CiviMail"
 
@@ -1138,10 +1501,9 @@ msgstr "Klik-melewati"
 msgid "Unique Tracked Opens"
 msgstr "Membuka Dilacak Unik"
 
-#: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Tracked Opens"
-msgstr "Membuka Dilacak"
+#: CRM/Mailing/Selector/Event.php
+msgid "Total Tracked Opens"
+msgstr ""
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Task/Print.tpl
 msgid "Completed Date"
@@ -1151,20 +1513,61 @@ msgstr "Tanggal Dilengkapi"
 msgid "CiviCRM Mailing Search"
 msgstr "Pencarian Penyuratan CiviCRM"
 
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Group(s)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (View)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Edit)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing URL (Schedule)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing HTML"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Status"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval Note"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Approval URL"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Name)"
+msgstr ""
+
+#: CRM/Mailing/Tokens.php
+msgid "Mailing Creator (Email)"
+msgstr ""
+
 #: ang/crmMailing/BlockApprove.html
 msgid "Unreviewed"
 msgstr ""
 
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Save As"
-msgstr ""
-
-#: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
-msgid "Email address"
-msgstr ""
+#: ang/crmMailing/BlockMailing.html ang/crmMailing/EmailAddrCtrl.js
+#: ang/crmMailingAB/BlockMailing.html
+msgid "Reply-To"
+msgstr "Balas-Ke"
 
 #: ang/crmMailing/BlockMailing.html
 msgid "Unsubscribe Group"
+msgstr ""
+
+#: ang/crmMailing/BlockMailing.html
+msgid "- choose language -"
 msgstr ""
 
 #: ang/crmMailing/BlockPreview.html
@@ -1220,11 +1623,15 @@ msgid "Group is empty."
 msgstr ""
 
 #: ang/crmMailing/BlockRecipients.html
-msgid "Preview a List of Recipients"
+msgid "Edit Recipient Options"
 msgstr ""
 
 #: ang/crmMailing/BlockRecipients.html
-msgid "Edit Recipient Options"
+msgid "Click to refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/BlockRecipients.html
+msgid "Preview a List of Recipients"
 msgstr ""
 
 #: ang/crmMailing/BlockResponses.html ang/crmMailing/BlockReview.html
@@ -1248,6 +1655,12 @@ msgstr ""
 msgid "Exclude:"
 msgstr ""
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Content"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
 #: ang/crmMailing/EditMailingCtrl/unified2.html
@@ -1258,8 +1671,17 @@ msgstr ""
 msgid "Plain Text"
 msgstr ""
 
+#: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/report.html
+msgid "Tracking"
+msgstr ""
+
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click Throughs"
+msgid "Click-Throughs"
 msgstr ""
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
@@ -1267,18 +1689,12 @@ msgid "Opens"
 msgstr "Buka"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Form/Settings.tpl
 msgid "Responding"
 msgstr "Menanggapi"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
 msgid "Auto-Respond"
 msgstr ""
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Resubscribe"
-msgstr "Berlangganan Kembali"
 
 #: ang/crmMailing/BlockReview.html ang/crmMailing/EditMailingCtrl/2step.html
 #: ang/crmMailing/EditMailingCtrl/unified.html
@@ -1289,20 +1705,16 @@ msgstr "Berlangganan Kembali"
 msgid "Publication"
 msgstr ""
 
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send immediately"
-msgstr ""
-
-#: ang/crmMailing/BlockSchedule.html
-msgid "Send at:"
-msgstr ""
-
 #: ang/crmMailing/BlockSummary.html ang/crmMailingAB/BlockSetup.html
 msgid "Select Campaign"
 msgstr ""
 
+#: ang/crmMailing/BlockTemplates.html ang/crmMailingAB/BlockMailing.html
+msgid "Save As"
+msgstr ""
+
 #: ang/crmMailing/BlockTracking.html
-msgid "Track Click Throughs"
+msgid "Track Click-Throughs"
 msgstr ""
 
 #: ang/crmMailing/BlockTracking.html
@@ -1311,14 +1723,6 @@ msgstr ""
 
 #: ang/crmMailing/BodyHtml.html ang/crmMailing/BodyText.html
 msgid "Required tokens are missing."
-msgstr ""
-
-#: ang/crmMailing/EditMailingCtrl/2step.html
-#: ang/crmMailing/EditMailingCtrl/unified.html
-#: ang/crmMailing/EditMailingCtrl/unified2.html
-#: ang/crmMailing/EditMailingCtrl/wizard.html
-#: ang/crmMailing/EditMailingCtrl/workflow.html
-msgid "This mailing has been submitted."
 msgstr ""
 
 #: ang/crmMailing/EditMailingCtrl/2step.html
@@ -1359,6 +1763,15 @@ msgstr ""
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: ang/crmMailingAB/EditCtrl/edit.html
+msgid "Submit Mailing"
+msgstr "Ajukan Penyuratan"
+
+#: ang/crmMailing/EditMailingCtrl/2step.html
+#: ang/crmMailing/EditMailingCtrl/unified.html
+#: ang/crmMailing/EditMailingCtrl/unified2.html
+#: ang/crmMailing/EditMailingCtrl/wizard.html
+#: ang/crmMailing/EditMailingCtrl/workflow.html
+#: ang/crmMailingAB/EditCtrl/edit.html
 msgid "Delete Draft"
 msgstr ""
 
@@ -1380,6 +1793,10 @@ msgstr ""
 msgid "Save Draft"
 msgstr ""
 
+#: ang/crmMailing/EditMailingCtrl/base.html
+msgid "This mailing has been submitted."
+msgstr ""
+
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Submit and Approve Mailing"
 msgstr ""
@@ -1390,27 +1807,35 @@ msgid "Submitting..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "(Estimating)"
-msgstr ""
-
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/PreviewRecipCtrl.html
-msgid "No recipients"
+msgid "Estimating..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
-msgid "~1 recipient"
+msgid "Estimate recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "Refresh recipient count"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "No Recipients"
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "~%1 recipients"
 msgstr ""
 
-#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
-msgid "Previewing..."
+#: ang/crmMailing/EditRecipCtrl.js
+msgid "(unknown)"
 msgstr ""
 
 #: ang/crmMailing/EditRecipCtrl.js
 msgid "Preview (%1)"
+msgstr ""
+
+#: ang/crmMailing/EditRecipCtrl.js ang/crmMailing/services.js
+msgid "Previewing..."
 msgstr ""
 
 #: ang/crmMailing/EditRecipOptionsDialogCtrl.html
@@ -1439,8 +1864,9 @@ msgstr ""
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
 msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list or (b) completely opt-out from all\n"
-"  mailings. Please insert an unsubscribe or opt-out token."
+"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
+"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
+" opt-out token."
 msgstr ""
 
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
@@ -1485,28 +1911,12 @@ msgid ""
 "final list may change."
 msgstr ""
 
+#: ang/crmMailing/PreviewRecipCtrl.html
+msgid "No recipients"
+msgstr ""
+
 #: ang/crmMailing/RadioDate.js
 msgid "The scheduled date and time is in the past"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Mandatory Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Group"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Include Past Recipients From"
-msgstr ""
-
-#: ang/crmMailing/Recipients.html
-msgid "Exclude Past Recipients From"
 msgstr ""
 
 #: ang/crmMailing/Recipients.js
@@ -1538,6 +1948,10 @@ msgstr ""
 #: ang/crmMailing/services.js
 msgid "Sending..."
 msgstr ""
+
+#: ang/crmMailing/services.js
+msgid "Tracked Opens"
+msgstr "Membuka Dilacak"
 
 #: ang/crmMailing/services.js
 msgid "Unsubscribes"
@@ -1702,7 +2116,7 @@ msgid "n/a"
 msgstr ""
 
 #: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for  '%1'"
+msgid "Reports for '%1'"
 msgstr ""
 
 #: ang/crmMailingAB/EditCtrl/report.html
@@ -1784,22 +2198,18 @@ msgid "Submit final mailing"
 msgstr ""
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Preview Mailing"
 msgstr "Peninjauan Surat"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl templates/CRM/Mailing/Form/Test.tpl
 msgid "Attachment(s):"
 msgstr "Lampiran:"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing HTML:"
 msgstr "Penyuratan HTML:"
 
 #: templates/CRM/Mailing/Form/Approve.tpl
-#: templates/CRM/Mailing/Form/Schedule.tpl
 msgid "Mailing Text:"
 msgstr "Penyuratan Teks:"
 
@@ -1815,7 +2225,91 @@ msgstr "Jumlah Penerima:"
 msgid "Please enter up to 5 email addresses to receive the mailing."
 msgstr "Harap masukkan sampai 5 alamat email untuk menerima penyuratan."
 
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/Form/Optout.tpl
+msgid ""
+"You are requesting to opt out this email address from all mailing lists:"
+msgstr "Anda meminta untuk memisahkan alamat email ini dari semua daftar penyuratan:"
+
+#: templates/CRM/Mailing/Form/Optout.tpl
+msgid ""
+"If this is not your email address, there is no need to do anything. You have"
+" <i><b>not</b></i> been added to any mailing lists. If this is your email "
+"address and you <i><b>wish to opt out</b></i> please enter your email "
+"address below for verification purposes:"
+msgstr "Jika ini bukan alamat email anda, tidak perlu melakukan apapun. Anda telah <i><b>tidak</b></i> ditambahkan ke daftar penyuratan apapun. Jika ini adalah alamat email anda dan anda <i><b>ingin berpisah</b></i> silahkan masukkan alamat email anda dibawah ini untuk tujuan pemeriksaan:"
+
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "SMS Date"
+msgstr "Tanggal SMS"
+
+#: templates/CRM/Mailing/Form/Search.tpl
+msgid "SMS Status"
+msgstr "Keadaan SMS"
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"This option makes it possible to make the contents of the email accessible "
+"to users as a web page. This option is only relevant if you insert the "
+"Mailing permalink token %1 in your message in the next step. This token "
+"generates a URL on which the message can be viewed (remember to insert the "
+"code in the appropriate HTML tags)."
+msgstr "Pilihan ini membuat jadi mungkin untuk membuatisi dari email diakses oleh pengguna sebagai halaman jaringan. Pilihan ini hanya cocok jika anda memasukkan token permalink  Penyuratan di langkah selanjutnya. Token ini membangkitkan URL dimana pesan dapat dilihat (ingat untuk memasukkan kode di label HTML yang sesuai)."
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid "You have two options to specify the visibility of the mailing"
+msgstr "Anda mempunyai dua pilihan untuk menentukan penampakan dari penyuratan"
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"\"public pages\" will make the content of this mailing be viewable as a web "
+"page by everyone who has the permission of \"view public CiviMail content\""
+msgstr "\"halaman umum\" akan membuat isi penyuratan ini dilihat sebagai halaman jaringan oleh semua orang yang mempunyai perizinan \"lihat isi CiviMail umum\""
+
+#: templates/CRM/Mailing/Form/Settings.hlp
+msgid ""
+"\"user and user admin\" only means that only users that received the mailing"
+" or administrators can view the content of this email as a web page; the "
+"recipients will have to log in to be able to view the message"
+msgstr "\"pengguna dan pengguna admin\" hanya berarti bahwa haya pengguna yang menerima penyuratan atau administrator dapat melihat isi dari email sebagai halaman jaringan; penerima harus masuk untuk dapat melihat pesan"
+
+#: templates/CRM/Mailing/Form/Subscribe.tpl
+msgid ""
+"Enter your email address and click <strong>Subscribe</strong>. You will "
+"receive a confirmation request via email shortly. Your subscription will be "
+"activated after you respond to that email."
+msgstr "Masukkan alamat email anda dan klik <strong>Langganan</strong>. Anda akan menerima permintaan penegasan melalui email dalam waktu dekat. Langganan anda akan diaktifkan setelah anda menjawab email tersebut."
+
+#: templates/CRM/Mailing/Form/Subscribe.tpl
+msgid ""
+"Enter your email address and check the box next to each mailing list you "
+"want to join. Then click the <strong>Subscribe</strong> button. You will "
+"receive a confirmation request via email for each selected list. Activate "
+"your subscription to each list by responding to the corresponding "
+"confirmation email."
+msgstr "Masukkan alamat email anda dan centang kotak sebelah daftar setiap penyuratan jika anda ingin bergabung. Kemudian klik tombol <strong>Langganan</strong>. Anda akan menerima permintaan penegasan melalui email untuk setiap daftar yang terpilih. Aktifkan langganan anda pada setiap daftar dengan menjawab email penegasan yang sesuai."
+
+#: templates/CRM/Mailing/Form/Task.tpl
+msgid "Number of selected Mailing Recipients: %1"
+msgstr "Angka dari Penerima Penyuratan terpilih: %1"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid ""
+"Are you sure you want to be removed from the mailing list(s) shown below:"
+msgstr "Apakah anda yakin ingin dpiindahkan dari daftar penyuratan yang ditampilkan dibawah:"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid "You are requesting to unsubscribe this email address:"
+msgstr "Anda meminta berhenti langganan untuk alamat email ini:"
+
+#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+msgid ""
+"If this is not your email address, there is no need to do anything. You have"
+" <i><b>not</b></i> been added to any mailing lists. If this is your email "
+"address and you <i><b>wish to unsubscribe</b></i> please enter your email "
+"address below for verification purposes:"
+msgstr "Jika ini bukan alamat email anda, tidak perlu melakukan apapun. Anda telah <i><b>tidak</b></i> ditambahkan ke daftar penyuratan apapun. Jika ini adalah alamat email anda dan anda <i><b>berharap berhenti langganan</b></i> silahkan masukkan alamat email anda dibawah ini untuk tujuan pemeriksaan:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "Assign a unique name to each of your mailings. Select a naming convention "
 "that will help keep your mailings organized and easy to find when you want "
@@ -1823,9 +2317,295 @@ msgid ""
 "general-interest newsletter - you might use the following naming convention:"
 msgstr "Berikan nama unik pada setiap penyuratan anda. Pilih kaidah penamaan yang akan membantu menjaga penyuratan anda terorganisir dan mudah untukmemenukan ketika anda ingin meninjau dan membandingkan hasil penyuratan. Sebagai contoh, jika anda melakukan nawala bulanan umum - anda mungkin menggunakan kaidah penamaan berikut:"
 
-#: templates/CRM/Mailing/Form/Group.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "General Monthly Newsletter: 200709"
 msgstr "Nawala Bulanan Umum: 200709"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"You may choose to include a pre-configured Header block above your message."
+msgstr "Anda boleh memilih untuk menyertakan pra-konfigurasi blok Kepala diatas pesan anda."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"You may choose to include a pre-configured Footer block below your message. "
+"This is a good place to include the required unsubscribe, opt-out and postal"
+" address tokens."
+msgstr "Anda boleh memilih untuk menyertakan pra-konfigurasi blok Kaki dibawah pesan anda. Ini adalah tempat bagus untuk menyertakan berhenti langganan yang diharuskan, menyingkirkan dan token alamat pos."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Multiple people -- such as spouses, parents, or children -- may sometimes "
+"share the same email address."
+msgstr "Banyak orang -- seperti pasangan, orang tua, atau anak -- mungkin terkadang berbagi alamat email sama."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"To send only one message to the shared address, enable this option. Mail-"
+"merge tokens will be filled for only one person."
+msgstr "Untuk mengirimkan hanya satu pesan ke alamat berbagi, adakan pilihan ini. Token gabung-surat akan diisi untuk hanya satu orang."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"To send separate messages for each person, disable this option. Mail-merge "
+"tokens will be filled separately for each person."
+msgstr "Untuk mengirim pesan terpisah setiap orang, tiadakan pilihan ini. Token gabung-surat akan diisi untuk hanya satu orang."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"This option controls who can view the contents of this email on your "
+"website. The link can be included by inserting the \"Mailing permalink\" "
+"token (place it in a link when composing in HTML mode)."
+msgstr "Pilihan ini mengendalikan siapa yang dapat melihat isi dari email pada situs jaringan anda. Tautan dapat disertakan dengan memasukkan token \"Tautan statis tetap penyuratan\" (tempatkan didalam tautan ketika menyusun dalam suasana HTML)."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "The options for mailing visibility are:"
+msgstr "Pilihan untuk penampakan penyuratan adalah:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"\"Public Pages\" will make the content of this mailing viewable everyone who"
+" has the permission \"view public CiviMail content\". Note that even people "
+"who did not receive the mailing would be able to find it via search engines."
+msgstr "\"Halaman Umum\" akan membuat isi dari penyuratan ini dapat dilihat semua orang yang mempunyai izin \"lihat isi CiviMail umum\". Catat bahwa bahkan orang yang tidak menerima penyuratan akan dapat ditemukan melalui mesin pencari."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"\"User and User Admin Only\" means that only users that received the mailing"
+" or administrators can view this email on your website; users must be logged"
+" in to view the message."
+msgstr "\"Hanya Pengguna dan Admin Pengguna\" berarti hanya pengguna yang menerima penyuratan atau administrator dapat melihat email ini pada situs jaringan anda; pengguna harus masuk untuk melihat pesan."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"It's a good idea to test your mailing by sending it to yourself and/or a "
+"selected group of people in your organization."
+msgstr "Adalah ide bagus untuk mencoba penyuratan anda dengan mengirimnya ke anda dan/atau sekelompok orang terpilih dalam organisasi anda."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "Things to check in a test mailing:"
+msgstr "Hal-hal yang diperiksa dalam percobaan penyuratan:"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Verify the content and formatting looks consistent across various email "
+"clients."
+msgstr "Periksa isi dan penampilan bentuk sesuai terhadap email klien yang beragam."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If you are using mail-merge tokens, check that they have been replaced with "
+"expected values."
+msgstr "Jika anda menggunakan token gabung-surat, periksa bahwa mereka telah diganti dengan nilai yang diharapkan."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Click on each included link to make sure they go to the expected web pages."
+msgstr "Klik setiap tautan yang disertakan untuk memastikan mereka pegi ke halaman jaringan yang diharapkan."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid "Track the number of times recipients click each link in this mailing."
+msgstr "Lacak angka seringnya penerima klik setiap tautan dalam penyuratan ini."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"NOTE: When this feature is enabled, all links in the message body (including"
+" mailtos) will be automatically re-written to route through your CiviCRM "
+"website prior to redirecting to the target page."
+msgstr ""
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Track the number of times recipients open this mailing in their email "
+"software."
+msgstr "Lacak berkali-kali penerima yang membuka penyuratan ini di perangkat lunak email mereka."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"Recipients' replies are sent to a CiviMail specific address instead of the "
+"sender's address so they can be stored within CiviCRM."
+msgstr "Balasan penerima dikirim ke alamat ditentukan CiviMail daripada alamat pengirim sehingga mereka dapat menyimpan dalam CiviCRM."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, send an automated reply using the "
+"selected message."
+msgstr "Jika penerima membalas ke penyuratan ini, kirim balasan otomatis menggunakan pesan terpilih."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+msgid ""
+"If a recipient replies to this mailing, forward the reply to the FROM Email "
+"address specified for the mailing."
+msgstr "Jika penerima membalas ke penyuratan ini, teruskan balasan ke alamat Email Dari yang ditentukan untuk penyuratan ini."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid ""
+"Find mailings by mailing name. You can enter a partial or complete name."
+msgstr "Temukan penyuratan berdasarkan nampenyuratan. Anda memasukkan nama sebagian atau lengkap."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Mailing Sender"
+msgstr "Pengirim Penyuratan"
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid ""
+"Find mailings by the name of the person who created or sent them. You can "
+"enter a complete OR partial name (last name, first name format)."
+msgstr "Temukan penyuratan berdasarkan nama orang yang membuat atau mengirim mereka. Anda dapat memasukkan nama lengkap atau sebagian (bentuk nama akhir, nama awal)."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Archived"
+msgstr "Diarsipkan"
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "This field is disabled when searching for Draft/Unscheduled mailings."
+msgstr "Bidang ini ditiadakan ketika mencari untuk penyuratan Konsep/Tidak terjadwal."
+
+#: templates/CRM/Mailing/Page/Browse.hlp
+msgid "Find mailing by language."
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "No %1 match your search criteria. Suggestions:"
+msgstr "Tidak ada %1 cocok untuk kriteria pencarian anda. Saran:"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "Or you can <a href='%1'>browse all %2 %3</a>."
+msgstr "Atau anda dapat <a href='%1'>jelajahi semua %2 %3</a>."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "There are no Unscheduled %1."
+msgstr "Tidak ada %1 Tidak  terjadwal."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "You can <a href='%1'>create and send one</a>."
+msgstr "Anda dapat <a href='%1'>buat dan kirim satu</a>."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid ""
+"There are no Archived %2. You can archive %2 from <a href='%1'>Scheduled or "
+"Sent %2</a>."
+msgstr "Tidak ada Arsip %2. Anda dapat mengarsipkan %2 dari <a href='%1'>%2 Terjadwal atau Terkirim</a>"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "There are no Scheduled or Sent %1."
+msgstr "Tidak ada %1 Terjadwal atau Terkirim."
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid "You can <a href='%1'>create and send one</a>"
+msgstr "Anda dapat <a href='%1'>buat dan kirim satu</a>"
+
+#: templates/CRM/Mailing/Page/Browse.tpl
+msgid " OR you can search the <a href='%1'>Archived %2</a>"
+msgstr "ATAU anda dapat mencari <a href='%1'>Arsip %2</a>"
+
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Body HTML"
+msgstr "Badan HTML"
+
+#: templates/CRM/Mailing/Page/Component.tpl
+msgid "Add Mailing Component"
+msgstr "Tambah Komponen Penyuratan"
+
+#: templates/CRM/Mailing/Page/Confirm.tpl
+msgid ""
+"<strong>%1 (%2)</strong> has been successfully subscribed to the "
+"<strong>%3</strong> mailing list."
+msgstr "<strong>%1 (%2)</strong> telah berhasil  berlangganan ke daftar penyuratan <strong>%3</strong>."
+
+#: templates/CRM/Mailing/Page/Confirm.tpl
+msgid ""
+"Oops. We encountered a problem in processing your subscription confirmation."
+" Please contact the site administrator."
+msgstr "Ups. Kami mengalami masalah dalam mengolah penegasan langganan anda. Silahkan hubungi pengelola situs."
+
+#: templates/CRM/Mailing/Page/Event.tpl
+msgid "There are currently no %1."
+msgstr "Saat ini tidak ada %1."
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Delivery Summary"
+msgstr "Ringkasan Pengiriman"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid ""
+"<strong>Delivery has not yet begun for this mailing.</strong> If the "
+"scheduled delivery date and time is past, ask the system administrator or "
+"technical support contact for your site to verify that the automated mailer "
+"task ('cron job') is running - and how frequently."
+msgstr "<strong>Pengiriman belum mulai untuk penyuratan ini.</strong> Jika tanggal dan waktu pengiriman terjadwal sudah berlalu, minta administrator sistem atau hubungi pendukung teknis untuk situs anda untuk memeriksa bahwa tugas penyurat otomatis ('cron job') sedang berjalan - dan seberapa sering."
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Included"
+msgstr "Disertakan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Recipients of <a href=\"%1\">%2</a>"
+msgstr "Penerima dari <a href=\"%1\">%2</a>"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Members of <a href=\"%1\">%2</a>"
+msgstr "Anggota dari <a href=\"%1\">%2</a>"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Excluded"
+msgstr "Tidak sertakan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Unsubscription Groups"
+msgstr "Berhenti langganan Kelompok"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Click-through Summary"
+msgstr "Ringkasan Klik-melalui"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Success Rate"
+msgstr "Suku Berhasil"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Mailing Settings"
+msgstr "Setelan Penyuratan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Reply-to email"
+msgstr "Email Balas-ke"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Forward replies"
+msgstr "Teruskan balasan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Off"
+msgstr "Lepas"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Auto-respond to replies"
+msgstr "Auto-jawab untuk balasan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Open tracking"
+msgstr "Buka pelacakan"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "URL Click-through tracking"
+msgstr "Melacak URL Klik-melalui"
+
+#: templates/CRM/Mailing/Page/Report.tpl
+msgid "Public url"
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "has been successfully resubscribed."
+msgstr "telah berhasil berhenti langganan."
+
+#: templates/CRM/Mailing/Page/Resubscribe.tpl
+msgid "Are you sure you want to resubscribe: %1 (%2)"
+msgstr "Apakah anda yakin ingin berlangganan kembali: %1 (%2)"
+
+#: templates/CRM/Mailing/Page/Tab.tpl
+msgid "Opens/ Clicks"
+msgstr "Buka/ Klik"
 
 #: templates/CRM/Mailing/Form/Group.hlp
 msgid "Search-based mailings require an \"unsubscribe tracking\" group."
@@ -1979,19 +2759,6 @@ msgstr "Tidak sertakan Penyuratan"
 msgid "Additional Mailing Recipients"
 msgstr "Tambahan Penerima Penyuratan"
 
-#: templates/CRM/Mailing/Form/Optout.tpl
-msgid ""
-"You are requesting to opt out this email address from all mailing lists:"
-msgstr "Anda meminta untuk memisahkan alamat email ini dari semua daftar penyuratan:"
-
-#: templates/CRM/Mailing/Form/Optout.tpl
-msgid ""
-"If this is not your email address, there is no need to do anything. You have"
-" <i><b>not</b></i> been added to any mailing lists. If this is your email "
-"address and you <i><b>wish to opt out</b></i> please enter your email "
-"address below for verification purposes:"
-msgstr "Jika ini bukan alamat email anda, tidak perlu melakukan apapun. Anda telah <i><b>tidak</b></i> ditambahkan ke daftar penyuratan apapun. Jika ini adalah alamat email anda dan anda <i><b>ingin berpisah</b></i> silahkan masukkan alamat email anda dibawah ini untuk tujuan pemeriksaan:"
-
 #: templates/CRM/Mailing/Form/Schedule.hlp
 msgid "Scheduling and Sending Mailings"
 msgstr "Penjadwalan dan Mengirim Penyuratan"
@@ -2037,45 +2804,6 @@ msgid ""
 "Set a date and time when you want CiviMail to start sending this mailing."
 msgstr "Setel tanggal dan waktu ketika anda ingin CiviMail untuk memulai mengirim penyuratan ini."
 
-#: templates/CRM/Mailing/Form/Search/Common.tpl
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "Mailing Date"
-msgstr "Tanggal Penyuratan"
-
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "SMS Date"
-msgstr "Tanggal SMS"
-
-#: templates/CRM/Mailing/Form/Search.tpl
-msgid "SMS Status"
-msgstr "Keadaan SMS"
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"This option makes it possible to make the contents of the email accessible "
-"to users as a web page. This option is only relevant if you insert the "
-"Mailing permalink token %1 in your message in the next step. This token "
-"generates a URL on which the message can be viewed (remember to insert the "
-"code in the appropriate HTML tags)."
-msgstr "Pilihan ini membuat jadi mungkin untuk membuatisi dari email diakses oleh pengguna sebagai halaman jaringan. Pilihan ini hanya cocok jika anda memasukkan token permalink  Penyuratan di langkah selanjutnya. Token ini membangkitkan URL dimana pesan dapat dilihat (ingat untuk memasukkan kode di label HTML yang sesuai)."
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid "You have two options to specify the visibility of the mailing"
-msgstr "Anda mempunyai dua pilihan untuk menentukan penampakan dari penyuratan"
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"\"public pages\" will make the content of this mailing be viewable as a web "
-"page by everyone who has the permission of \"view public CiviMail content\""
-msgstr "\"halaman umum\" akan membuat isi penyuratan ini dilihat sebagai halaman jaringan oleh semua orang yang mempunyai perizinan \"lihat isi CiviMail umum\""
-
-#: templates/CRM/Mailing/Form/Settings.hlp
-msgid ""
-"\"user and user admin\" only means that only users that received the mailing"
-" or administrators can view the content of this email as a web page; the "
-"recipients will have to log in to be able to view the message"
-msgstr "\"pengguna dan pengguna admin\" hanya berarti bahwa haya pengguna yang menerima penyuratan atau administrator dapat melihat isi dari email sebagai halaman jaringan; penerima harus masuk untuk dapat melihat pesan"
-
 #: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
 "These settings control tracking and responses to recipient actions. The "
@@ -2084,40 +2812,12 @@ msgid ""
 "<strong>Previous</strong> to review your selection(s)."
 msgstr "Kendali setelan ini melacak dan menjawab pada tindakan penerima. Angka penerima yang dipilih untuk menerima penyuratan ini ditunjukkan dalam kotak sebelah kanan. Jika jumlah ini tidak cocok dengan harapan anda, klik <strong>Sebelum</strong> untuk meninjau pilihan anda."
 
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid "Track the number of times recipients click each link in this mailing."
-msgstr "Lacak angka seringnya penerima klik setiap tautan dalam penyuratan ini."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
 "NOTE: When this feature is enabled, all links in the message body will be "
 "automatically re-written to route through your CiviCRM server prior to "
 "redirecting to the target page."
 msgstr "CATATAN: Ketika fitur ini diadakan, semua tautan dalam badan pesan akan otomatis ditulis-ulang untuk dikirimkan melalui peladen CiviCRM anda sebelum diarahkan ke halaman sasaran."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Track the number of times recipients open this mailing in their email "
-"software."
-msgstr "Lacak berkali-kali penerima yang membuka penyuratan ini di perangkat lunak email mereka."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Recipients' replies are sent to a CiviMail specific address instead of the "
-"sender's address so they can be stored within CiviCRM."
-msgstr "Balasan penerima dikirim ke alamat ditentukan CiviMail daripada alamat pengirim sehingga mereka dapat menyimpan dalam CiviCRM."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, forward the reply to the FROM Email "
-"address specified for the mailing."
-msgstr "Jika penerima membalas ke penyuratan ini, teruskan balasan ke alamat Email Dari yang ditentukan untuk penyuratan ini."
-
-#: templates/CRM/Mailing/Form/Settings.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If a recipient replies to this mailing, send an automated reply using the "
-"selected message."
-msgstr "Jika penerima membalas ke penyuratan ini, kirim balasan otomatis menggunakan pesan terpilih."
 
 #: templates/CRM/Mailing/Form/Settings.tpl
 msgid ""
@@ -2136,30 +2836,6 @@ msgid ""
 "Select the automated message to be sent when a recipient opts out of all "
 "mailings from your site."
 msgstr "Pilih pesan otomatis yang dikirimkan ketika penerimamenyisihkan semua penyuratan dari situs anda."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid ""
-"Enter your email address and click <strong>Subscribe</strong>. You will "
-"receive a confirmation request via email shortly. Your subscription will be "
-"activated after you respond to that email."
-msgstr "Masukkan alamat email anda dan klik <strong>Langganan</strong>. Anda akan menerima permintaan penegasan melalui email dalam waktu dekat. Langganan anda akan diaktifkan setelah anda menjawab email tersebut."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid ""
-"Enter your email address and check the box next to each mailing list you "
-"want to join. Then click the <strong>Subscribe</strong> button. You will "
-"receive a confirmation request via email for each selected list. Activate "
-"your subscription to each list by responding to the corresponding "
-"confirmation email."
-msgstr "Masukkan alamat email anda dan centang kotak sebelah daftar setiap penyuratan jika anda ingin bergabung. Kemudian klik tombol <strong>Langganan</strong>. Anda akan menerima permintaan penegasan melalui email untuk setiap daftar yang terpilih. Aktifkan langganan anda pada setiap daftar dengan menjawab email penegasan yang sesuai."
-
-#: templates/CRM/Mailing/Form/Subscribe.tpl
-msgid "Group Listings."
-msgstr "Daftar Kelompok"
-
-#: templates/CRM/Mailing/Form/Task.tpl
-msgid "Number of selected Mailing Recipients: %1"
-msgstr "Angka dari Penerima Penyuratan terpilih: %1"
 
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid "Test Message"
@@ -2181,17 +2857,6 @@ msgstr "Masukkan alamat email tunggal atau pilih kelompok yang ada dan klik \"Ki
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid "Verify the content and formatting."
 msgstr "Periksa isi dan bentuk."
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"If you are using mail-merge tokens, check that they have been replaced with "
-"expected values."
-msgstr "Jika anda menggunakan token gabung-surat, periksa bahwa mereka telah diganti dengan nilai yang diharapkan."
-
-#: templates/CRM/Mailing/Form/Test.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Click on each included link to make sure they go to the expected web pages."
-msgstr "Klik setiap tautan yang disertakan untuk memastikan mereka pegi ke halaman jaringan yang diharapkan."
 
 #: templates/CRM/Mailing/Form/Test.hlp
 msgid ""
@@ -2226,22 +2891,15 @@ msgstr "Versi HTML:"
 msgid "HTML Version"
 msgstr "Versi HTML"
 
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
+#: templates/CRM/Mailing/Form/Upload.hlp
 msgid ""
-"Are you sure you want to be removed from the mailing list(s) shown below:"
-msgstr "Apakah anda yakin ingin dpiindahkan dari daftar penyuratan yang ditampilkan dibawah:"
-
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
-msgid "You are requesting to unsubscribe this email address:"
-msgstr "Anda meminta berhenti langganan untuk alamat email ini:"
-
-#: templates/CRM/Mailing/Form/Unsubscribe.tpl
-msgid ""
-"If this is not your email address, there is no need to do anything. You have"
-" <i><b>not</b></i> been added to any mailing lists. If this is your email "
-"address and you <i><b>wish to unsubscribe</b></i> please enter your email "
-"address below for verification purposes:"
-msgstr "Jika ini bukan alamat email anda, tidak perlu melakukan apapun. Anda telah <i><b>tidak</b></i> ditambahkan ke daftar penyuratan apapun. Jika ini adalah alamat email anda dan anda <i><b>berharap berhenti langganan</b></i> silahkan masukkan alamat email anda dibawah ini untuk tujuan pemeriksaan:"
+"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
+"what-you-get) editor is provided which you can use create simple HTML "
+"messages. However, if you are planning on creating HTML messages with "
+"complex layouts - it is best to use an HTML editor on your local computer. "
+"Then locate and upload the saved file(s) by clicking the "
+"<strong>Browse</strong> button."
+msgstr ""
 
 #: templates/CRM/Mailing/Form/Upload.tpl
 msgid ""
@@ -2269,362 +2927,6 @@ msgstr "Jelajahi ke berkas pesan <strong>HTML</strong> jika anda telah siapkan u
 msgid "Header / Footer"
 msgstr "Kepala / Kaki"
 
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"You may choose to include a pre-configured Header block above your message."
-msgstr "Anda boleh memilih untuk menyertakan pra-konfigurasi blok Kepala diatas pesan anda."
-
-#: templates/CRM/Mailing/Form/Upload.tpl templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"You may choose to include a pre-configured Footer block below your message. "
-"This is a good place to include the required unsubscribe, opt-out and postal"
-" address tokens."
-msgstr "Anda boleh memilih untuk menyertakan pra-konfigurasi blok Kaki dibawah pesan anda. Ini adalah tempat bagus untuk menyertakan berhenti langganan yang diharuskan, menyingkirkan dan token alamat pos."
-
 #: templates/CRM/Mailing/Form/Upload.tpl
 msgid "More information and sample messages..."
 msgstr "Informasi lain dan contoh pesan..."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Multiple people -- such as spouses, parents, or children -- may sometimes "
-"share the same email address."
-msgstr "Banyak orang -- seperti pasangan, orang tua, atau anak -- mungkin terkadang berbagi alamat email sama."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"To send only one message to the shared address, enable this option. Mail-"
-"merge tokens will be filled for only one person."
-msgstr "Untuk mengirimkan hanya satu pesan ke alamat berbagi, adakan pilihan ini. Token gabung-surat akan diisi untuk hanya satu orang."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"To send separate messages for each person, disable this option. Mail-merge "
-"tokens will be filled separately for each person."
-msgstr "Untuk mengirim pesan terpisah setiap orang, tiadakan pilihan ini. Token gabung-surat akan diisi untuk hanya satu orang."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"This option controls who can view the contents of this email on your "
-"website. The link can be included by inserting the \"Mailing permalink\" "
-"token (place it in a link when composing in HTML mode)."
-msgstr "Pilihan ini mengendalikan siapa yang dapat melihat isi dari email pada situs jaringan anda. Tautan dapat disertakan dengan memasukkan token \"Tautan statis tetap penyuratan\" (tempatkan didalam tautan ketika menyusun dalam suasana HTML)."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid "The options for mailing visibility are:"
-msgstr "Pilihan untuk penampakan penyuratan adalah:"
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"\"Public Pages\" will make the content of this mailing viewable everyone who"
-" has the permission \"view public CiviMail content\". Note that even people "
-"who did not receive the mailing would be able to find it via search engines."
-msgstr "\"Halaman Umum\" akan membuat isi dari penyuratan ini dapat dilihat semua orang yang mempunyai izin \"lihat isi CiviMail umum\". Catat bahwa bahkan orang yang tidak menerima penyuratan akan dapat ditemukan melalui mesin pencari."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"\"User and User Admin Only\" means that only users that received the mailing"
-" or administrators can view this email on your website; users must be logged"
-" in to view the message."
-msgstr "\"Hanya Pengguna dan Admin Pengguna\" berarti hanya pengguna yang menerima penyuratan atau administrator dapat melihat email ini pada situs jaringan anda; pengguna harus masuk untuk melihat pesan."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"It's a good idea to test your mailing by sending it to yourself and/or a "
-"selected group of people in your organization."
-msgstr "Adalah ide bagus untuk mencoba penyuratan anda dengan mengirimnya ke anda dan/atau sekelompok orang terpilih dalam organisasi anda."
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid "Things to check in a test mailing:"
-msgstr "Hal-hal yang diperiksa dalam percobaan penyuratan:"
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Verify the content and formatting looks consistent across various email "
-"clients."
-msgstr "Periksa isi dan penampilan bentuk sesuai terhadap email klien yang beragam."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid ""
-"Find mailings by mailing name. You can enter a partial or complete name."
-msgstr "Temukan penyuratan berdasarkan nampenyuratan. Anda memasukkan nama sebagian atau lengkap."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "Mailing Sender"
-msgstr "Pengirim Penyuratan"
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid ""
-"Find mailings by the name of the person who created or sent them. You can "
-"enter a complete OR partial name (last name, first name format)."
-msgstr "Temukan penyuratan berdasarkan nama orang yang membuat atau mengirim mereka. Anda dapat memasukkan nama lengkap atau sebagian (bentuk nama akhir, nama awal)."
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "Archived"
-msgstr "Diarsipkan"
-
-#: templates/CRM/Mailing/Page/Browse.hlp
-msgid "This field is disabled when searching for Draft/Unscheduled mailings."
-msgstr "Bidang ini ditiadakan ketika mencari untuk penyuratan Konsep/Tidak terjadwal."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "No %1 match your search criteria. Suggestions:"
-msgstr "Tidak ada %1 cocok untuk kriteria pencarian anda. Saran:"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "Or you can <a href='%1'>browse all %2 %3</a>."
-msgstr "Atau anda dapat <a href='%1'>jelajahi semua %2 %3</a>."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "There are no Unscheduled %1."
-msgstr "Tidak ada %1 Tidak  terjadwal."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "You can <a href='%1'>create and send one</a>."
-msgstr "Anda dapat <a href='%1'>buat dan kirim satu</a>."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid ""
-"There are no Archived %2. You can archive %2 from <a href='%1'>Scheduled or "
-"Sent %2</a>."
-msgstr "Tidak ada Arsip %2. Anda dapat mengarsipkan %2 dari <a href='%1'>%2 Terjadwal atau Terkirim</a>"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "There are no Scheduled or Sent %1."
-msgstr "Tidak ada %1 Terjadwal atau Terkirim."
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid "You can <a href='%1'>create and send one</a>"
-msgstr "Anda dapat <a href='%1'>buat dan kirim satu</a>"
-
-#: templates/CRM/Mailing/Page/Browse.tpl
-msgid " OR you can search the <a href='%1'>Archived %2</a>"
-msgstr "ATAU anda dapat mencari <a href='%1'>Arsip %2</a>"
-
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Body HTML"
-msgstr "Badan HTML"
-
-#: templates/CRM/Mailing/Page/Component.tpl
-msgid "Add Mailing Component"
-msgstr "Tambah Komponen Penyuratan"
-
-#: templates/CRM/Mailing/Page/Confirm.tpl
-msgid ""
-"<strong>%1 (%2)</strong> has been successfully subscribed to the "
-"<strong>%3</strong> mailing list."
-msgstr "<strong>%1 (%2)</strong> telah berhasil  berlangganan ke daftar penyuratan <strong>%3</strong>."
-
-#: templates/CRM/Mailing/Page/Confirm.tpl
-msgid ""
-"Oops. We encountered a problem in processing your subscription confirmation."
-" Please contact the site administrator."
-msgstr "Ups. Kami mengalami masalah dalam mengolah penegasan langganan anda. Silahkan hubungi pengelola situs."
-
-#: templates/CRM/Mailing/Page/Event.tpl
-msgid "There are currently no %1."
-msgstr "Saat ini tidak ada %1."
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Delivery Summary"
-msgstr "Ringkasan Pengiriman"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid ""
-"<strong>Delivery has not yet begun for this mailing.</strong> If the "
-"scheduled delivery date and time is past, ask the system administrator or "
-"technical support contact for your site to verify that the automated mailer "
-"task ('cron job') is running - and how frequently."
-msgstr "<strong>Pengiriman belum mulai untuk penyuratan ini.</strong> Jika tanggal dan waktu pengiriman terjadwal sudah berlalu, minta administrator sistem atau hubungi pendukung teknis untuk situs anda untuk memeriksa bahwa tugas penyurat otomatis ('cron job') sedang berjalan - dan seberapa sering."
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Included"
-msgstr "Disertakan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Recipients of <a href=\"%1\">%2</a>"
-msgstr "Penerima dari <a href=\"%1\">%2</a>"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Members of <a href=\"%1\">%2</a>"
-msgstr "Anggota dari <a href=\"%1\">%2</a>"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Excluded"
-msgstr "Tidak sertakan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Unsubscription Groups"
-msgstr "Berhenti langganan Kelompok"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Click-through Summary"
-msgstr "Ringkasan Klik-melalui"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Unique Clicks"
-msgstr "Klik Unik"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Success Rate"
-msgstr "Suku Berhasil"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Mailing Settings"
-msgstr "Setelan Penyuratan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Reply-to email"
-msgstr "Email Balas-ke"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Forward replies"
-msgstr "Teruskan balasan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Off"
-msgstr "Lepas"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Auto-respond to replies"
-msgstr "Auto-jawab untuk balasan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Open tracking"
-msgstr "Buka pelacakan"
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "URL Click-through tracking"
-msgstr "Melacak URL Klik-melalui"
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "has been successfully resubscribed."
-msgstr "telah berhasil berhenti langganan."
-
-#: templates/CRM/Mailing/Page/Resubscribe.tpl
-msgid "Are you sure you want to resubscribe: %1 (%2)"
-msgstr "Apakah anda yakin ingin berlangganan kembali: %1 (%2)"
-
-#: templates/CRM/Mailing/Page/Tab.tpl
-msgid "Opens/ Clicks"
-msgstr "Buka/ Klik"
-
-#: CRM/Mailing/BAO/Mailing.php
-msgid "Document Body"
-msgstr ""
-
-#: CRM/Mailing/BAO/Query.php
-msgid "Campaign %1 %2"
-msgstr ""
-
-#: CRM/Mailing/DAO/BouncePattern.php
-msgid "Bounce Pattern ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Name"
-msgstr ""
-
-#: CRM/Mailing/DAO/BounceType.php
-msgid "Bounce Type Description"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Spool ID"
-msgstr ""
-
-#: CRM/Mailing/DAO/Spool.php
-msgid "Mailing Job"
-msgstr ""
-
-#: CRM/Mailing/DAO/TrackableURL.php
-msgid "Trackable URL ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php
-msgid "Bounce ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Event/DAO/Delivered.php
-#: CRM/Mailing/Event/DAO/Opened.php CRM/Mailing/Event/DAO/Reply.php
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Event Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Delivered.php
-msgid "Delivered ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Forward ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Forward.php
-msgid "Destination Queue"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Opened.php
-msgid "Mailing Opened ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/Reply.php
-msgid "Reply Timestamp"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable URL Open ID"
-msgstr ""
-
-#: CRM/Mailing/Event/DAO/TrackableURLOpen.php
-msgid "Trackable Url"
-msgstr ""
-
-#: CRM/Mailing/Form/Component.php
-msgid "Please provide either HTML or TEXT format for the Body."
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php
-msgid "Public View"
-msgstr ""
-
-#: CRM/Mailing/Selector/Event.php
-msgid "Total Tracked Opens"
-msgstr ""
-
-#: ang/crmMailing/BlockReview.html ang/crmMailingAB/EditCtrl/report.html
-msgid "Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/BlockTracking.html
-msgid "Track Click-Throughs"
-msgstr ""
-
-#: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
-msgid ""
-"The mailing must allow recipients to (a) unsubscribe from the mailing-list "
-"or (b) completely opt-out from all mailings. Please insert an unsubscribe or"
-" opt-out token."
-msgstr ""
-
-#: ang/crmMailingAB/EditCtrl/report.html
-msgid "Reports for '%1'"
-msgstr ""
-
-#: templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"NOTE: When this feature is enabled, all links in the message body (including"
-" mailtos) will be automatically re-written to route through your CiviCRM "
-"website prior to redirecting to the target page."
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl
-msgid "Public url"
-msgstr ""

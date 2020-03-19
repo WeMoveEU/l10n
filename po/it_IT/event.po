@@ -3,10 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Alessandro Letizia <alessandro.letizia73@gmail.com>, 2019
 # Alfredo Lucci <alfredolucci.al@gmail.com>, 2015
 # Angela Iussig <angela.iussig@gmail.com>, 2017
 # Flavio Grassi <flavio.g.grassi@gmail.com>, 2016
+# Francesco Firmino Giglio <francesco@civicrmitalia.it>, 2018,2020
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2017,2019
+# Francesco Firmino Giglio <francesco@civicrmitalia.it>, 2018
 # Francesco Moretto <francesco@moretto.it>, 2015
+# teddy <guido.tedaldi@gmail.com>, 2017
 # Johan Soderkvist <johansoderkvist@ikreativo.it>, 2016
 # mitch.camp <kal-el@hotmail.it>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
@@ -16,15 +21,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-02-10 10:53+0000\n"
-"Last-Translator: Angela Iussig <angela.iussig@gmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2020-01-13 16:43+0000\n"
+"Last-Translator: Francesco Firmino Giglio <francesco@civicrmitalia.it>\n"
 "Language-Team: Italian (http://www.transifex.com/civicrm/civicrm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Event/ActionMapping.php
+msgid "Event Template"
+msgstr "Modello Evento"
+
+#: CRM/Event/ActionMapping.php CRM/Event/DAO/Event.php
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration Start Date"
+msgstr "Data Inizio Registrazione"
+
+#: CRM/Event/ActionMapping.php CRM/Event/DAO/Event.php
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Registration End Date"
+msgstr "Data Fine Registrazione"
 
 #: CRM/Event/BAO/Event.php CRM/Event/Cart/Form/Checkout/Payment.php
 #: CRM/Event/Form/Participant.php CRM/Event/Form/ParticipantFeeSelection.php
@@ -37,15 +56,11 @@ msgstr "Impossibile trovare l'ID del partecipante "
 
 #: CRM/Event/BAO/Participant.php
 msgid "This event is full."
-msgstr "Questo evento è al completo."
+msgstr "Questo evento è completo."
 
 #: CRM/Event/BAO/Participant.php
 msgid "- Participant Fields -"
 msgstr "- Campi Partecipante -"
-
-#: CRM/Event/BAO/Participant.php
-msgid "Participant Note"
-msgstr "Note partecipante"
 
 #: CRM/Event/BAO/Participant.php
 msgid "Participant Status Id"
@@ -54,6 +69,14 @@ msgstr "ID Stato del partecipante"
 #: CRM/Event/BAO/Participant.php
 msgid "Participant Role Id"
 msgstr "ID Ruolo del partecipante"
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Status (label)"
+msgstr "Status Partecipante (label)"
+
+#: CRM/Event/BAO/Participant.php
+msgid "Participant Role (label)"
+msgstr "Ruolo Partecipante (label)"
 
 #: CRM/Event/BAO/Participant.php
 msgid ""
@@ -72,19 +95,19 @@ msgid ""
 "There are %2 people currently on the waiting list for this event. You can <a"
 " href='%1'>view waitlisted registrations here</a>, or you can continue and "
 "register additional participants using this form."
-msgstr "Al momento ci sono %2 persone sulla lista d'attesa per questo evento. Puoi <a href='%1'>vedere la lista d'attesa qui</a>, oppure continuare a registrare nuovi partecipanti usando questo modulo."
+msgstr "Al momento ci sono %2 persone in lista d'attesa per questo evento. Puoi <a href='%1'>vedere la lista d'attesa qui</a>, oppure continuare e registrare nuovi partecipanti usando questo modulo."
 
 #: CRM/Event/BAO/Query.php
 msgid "Include Repeating Events"
 msgstr "Includi Eventi ricorrenti"
 
 #: CRM/Event/BAO/Query.php
-msgid "Participant is a Test"
-msgstr "Il partecipante è un test."
+msgid "Participant is %1"
+msgstr "Partecipante è %1"
 
 #: CRM/Event/BAO/Query.php CRM/Event/DAO/Participant.php
 msgid "Fee level"
-msgstr "Tipo di costo"
+msgstr "Livello di Tariffa"
 
 #: CRM/Event/BAO/Query.php
 msgid "Include participants from all events in the %1 series"
@@ -92,15 +115,26 @@ msgstr "Includi i partecipanti da tutti gli eventi della serie %1"
 
 #: CRM/Event/BAO/Query.php
 msgid "Participant is a Test?"
-msgstr "Il partecipante è un Test?"
+msgstr "Il Partecipante è un Test?"
 
 #: CRM/Event/BAO/Query.php
 msgid "Participant is Pay Later?"
 msgstr "Il partecipante è un Paga Più Tardi"
 
+#: CRM/Event/BAO/Query.php
+msgid ""
+"Please check that your Event Date Range is in correct chronological order."
+msgstr "Per favore controlla che le date degli eventi siano in ordine cronologico"
+
+#: CRM/Event/BAO/Query.php
+msgid ""
+"Please check that your Registration Date Range is in correct chronological "
+"order."
+msgstr "Per favore controlla che la data di Registrazione sia nel corretto ordine cronologico"
+
 #: CRM/Event/Cart/BAO/Cart.php
 msgid "There was an error creating an event cart"
-msgstr "Si è verificato un errore nel creare il carrello evento"
+msgstr "Si è verificato un errore nel creare un carrello evento"
 
 #: CRM/Event/Cart/BAO/Cart.php
 msgid "Could not find cart matching %1"
@@ -108,19 +142,61 @@ msgstr "Non ho trovato un carrello per %1"
 
 #: CRM/Event/Cart/BAO/EventInCart.php
 msgid "There was an error creating an event_in_cart"
-msgstr ""
+msgstr "Si è verificato un errore nel creare un event_in_cart"
+
+#: CRM/Event/Cart/BAO/EventInCart.php
+msgid "Remove from Cart"
+msgstr "Rimuovi dal Carrello"
+
+#: CRM/Event/Cart/BAO/EventInCart.php
+msgid "Add to Cart"
+msgstr "Aggiungi al Carrello"
 
 #: CRM/Event/Cart/BAO/MerParticipant.php
 msgid "There was an error creating a cart participant"
+msgstr " Si è verificato un errore nel creare un carrello partecipante"
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Cart ID"
+msgstr "ID Carrello"
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Cart Id"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "FK to civicrm_contact who created this cart"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/Cart.php
+msgid "Complete?"
+msgstr "Completo?"
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "Event In Cart"
+msgstr "Evento in Carrello"
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "Event In Cart Id"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/EventInCart.php CRM/Event/DAO/Participant.php
+msgid "FK to Event ID"
+msgstr ""
+
+#: CRM/Event/Cart/DAO/EventInCart.php
+msgid "FK to Event Cart ID"
 msgstr ""
 
 #: CRM/Event/Cart/Form/Cart.php
 msgid "Online Registration for %1"
 msgstr "Registrazione Online per %1"
 
-#: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
-msgid "If you have a discount code, enter it here"
-msgstr "Se hai un codice sconto, inseriscilo qui"
+#: CRM/Event/Cart/Form/Cart.php
+msgid ""
+"Could not create or match a contact with that email address. Please contact "
+"the webmaster."
+msgstr ""
 
 #: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
 msgid "Select at least one option from Price Levels."
@@ -130,7 +206,7 @@ msgstr "Seleziona almeno un opzione dalle Fascie di Prezzo"
 msgid ""
 "Price Levels can not be less than zero. Please select the options "
 "accordingly"
-msgstr "Le Fascie di Prezzo non possono essere inferiori a zero. Per favore seleziona una opzione."
+msgstr "Le Fascie di Prezzo non possono essere inferiori a zero. Per favore seleziona una opzione conseguente."
 
 #: CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.php
 msgid "The participant %1 is already registered for %2 (%3)."
@@ -140,9 +216,9 @@ msgstr "Il partecipante %1 è già registrato per %2 (%3)."
 msgid ""
 "When registering for multiple events all events must use the same payment "
 "processor. "
-msgstr ""
+msgstr "Quando ci si registra per più eventi, tutti gli eventi devono utilizzare lo stesso processore di pagamento."
 
-#: CRM/Event/Cart/Form/Checkout/Payment.php CRM/Event/Form/Registration.php
+#: CRM/Event/Cart/Form/Checkout/Payment.php
 msgid ""
 "A payment processor must be selected for this event registration page, or "
 "the event must be configured to give users the option to pay later (contact "
@@ -169,16 +245,6 @@ msgstr "Assegno Nr."
 msgid "Create a pending registration"
 msgstr "Crea una registrazione in stato di attesa"
 
-#: CRM/Event/Cart/Form/Checkout/Payment.php
-msgid "Financial institution didn't return a transaction id."
-msgstr "L'istituto finanziario non ha restituito una id di transazione."
-
-#: CRM/Event/Cart/Form/Checkout/Payment.php
-msgid ""
-"There was an error creating a contribution record for your event. Please "
-"report this error to the webmaster. Details: %1"
-msgstr "Si è verificato un errore durante la creazione del record di contributo per l'evento. Si prega di riportare questo errore al webmaster. Dettagli: %1"
-
 #: CRM/Event/Cart/Page/AddToCart.php CRM/Event/Form/Registration.php
 msgid "You do not have permission to register for this event"
 msgstr "Non hai i permessi sufficienti per registrarti a questo evento"
@@ -197,49 +263,172 @@ msgid "You don't have any events in you cart. Please add some events."
 msgstr "Non hai eventi nel tuo carrello. Per favore aggiungi qualche evento."
 
 #: CRM/Event/DAO/Event.php
+msgid "Event Title (e.g. Fall Fundraiser Dinner)"
+msgstr "Titolo Evento (es. Cena di Raccolta Fondi Autunnale)"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Brief summary of event. Text and html allowed. Displayed on Event "
+"Registration form and can be used on other CMS pages which need an event "
+"summary."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Full description of event. Text and html allowed. Displayed on built-in "
+"Event Information screens."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Event Type ID.Implicit FK to civicrm_option_value where option_group = "
+"event_type."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Should we expose the participant list? Implicit FK to civicrm_option_value "
+"where option_group = participant_listing."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Is Event Public"
 msgstr "E' Evento Pubblico"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Public events will be included in the iCal feeds. Access to private event "
+"information may be limited using ACLs."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that event starts."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that event ends. May be NULL if no defined end date/time"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Is Online Registration"
 msgstr "E' Registrazione Online"
 
 #: CRM/Event/DAO/Event.php
+msgid "If true, include registration link on Event Info page."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Event Registration Link Text"
 msgstr "Testo link Registrazione Evento Online"
 
-#: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
-msgid "Registration Start Date"
-msgstr "Data Inizio Registrazione"
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Text for link to Event Registration form which is displayed on Event "
+"Information screen when is_online_registration is true."
+msgstr ""
 
-#: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
-msgid "Registration End Date"
-msgstr "Data Fine Registrazione"
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that online registration starts."
+msgstr "Data e ora di inizio della registrazione online."
+
+#: CRM/Event/DAO/Event.php
+msgid "Date and time that online registration ends."
+msgstr "Data e ora di fine della registrazione online."
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Maximum number of registered participants to allow. After max is reached, a "
+"custom Event Full message is displayed. If NULL, allow unlimited number of "
+"participants."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php templates/CRM/Event/Form/Registration/Confirm.tpl
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid "Event Information"
-msgstr "Note Evento"
+msgstr "Informazioni Evento"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Message to display on Event Information page and INSTEAD OF Event "
+"Registration form if maximum participants are signed up. Can include email "
+"address/info about getting on a waiting list, etc. Text and html allowed."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Is this a PAID event?"
 msgstr "Questo è un evento a PAGAMENTO?"
 
 #: CRM/Event/DAO/Event.php
+msgid ""
+"If true, one or more fee amounts must be set and a Payment Processor must be"
+" configured for Online Event Registration."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Financial type assigned to paid event registrations for this event. Required"
+" if is_monetary is true."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Payment Processors configured for this Event (if is_monetary is true)"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Map Enabled"
-msgstr "Cartina Abilitata"
+msgstr "Mappa Abilitata"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Include a map block on the Event Information page when geocode info is "
+"available and a mapping provider has been specified?"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Is this Event enabled or disabled/cancelled?"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "show location"
 msgstr "mostra localizzazione"
 
 #: CRM/Event/DAO/Event.php
-msgid "Default Role ID"
+msgid "If true, show event location."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "FK to Location Block ID"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Default Role"
+msgstr "Ruolo di Default"
+
+#: CRM/Event/DAO/Event.php CRM/Event/DAO/Participant.php
+msgid ""
+"Participant role ID. Implicit FK to civicrm_option_value where option_group "
+"= participant_role."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Introductory message for Event Registration page. Text and html allowed. "
+"Displayed at the top of Event Registration form."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Footer message for Event Registration page. Text and html allowed. Displayed"
+" at the bottom of Event Registration form."
 msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Confirmation Title"
 msgstr "Titolo Conferma"
+
+#: CRM/Event/DAO/Event.php
+msgid "Title for Confirmation page."
+msgstr "Titolo per la Pagina di Conferma."
 
 #: CRM/Event/DAO/Event.php
 msgid "Confirm Text"
@@ -250,24 +439,56 @@ msgid "Is confirm email"
 msgstr "Invia email conferma"
 
 #: CRM/Event/DAO/Event.php
+msgid ""
+"If true, confirmation is automatically emailed to contact on successful "
+"registration."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Confirmation Email Text"
 msgstr "Testo Email Conferma"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"text to include above standard event info on confirmation email. emails are "
+"text-only, so do not allow html for now"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
 msgid "Confirm From Name"
 msgstr "Conferma Da Nome"
+
+#: CRM/Event/DAO/Event.php
+msgid "FROM email name used for confirmation emails."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Registration.php
 msgid "Confirm From Email"
 msgstr "Conferma Da Email"
 
 #: CRM/Event/DAO/Event.php
+msgid "FROM email address used for confirmation emails."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Cc Confirm"
 msgstr "CC Conferma"
 
 #: CRM/Event/DAO/Event.php
+msgid ""
+"comma-separated list of email addresses to cc each time a confirmation is "
+"sent"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Bcc Confirm"
 msgstr "BCC Conferma"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"comma-separated list of email addresses to bcc each time a confirmation is "
+"sent"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Default Fee ID"
@@ -282,8 +503,20 @@ msgid "ThankYou Title"
 msgstr "Titolo Ringraziamento"
 
 #: CRM/Event/DAO/Event.php
+msgid "Title for ThankYou page."
+msgstr "Titolo per la Pagina di Ringraziamento."
+
+#: CRM/Event/DAO/Event.php
 msgid "ThankYou Text"
 msgstr "Testo Ringraziamento"
+
+#: CRM/Event/DAO/Event.php
+msgid "ThankYou Text."
+msgstr "Testo di Ringraziamento."
+
+#: CRM/Event/DAO/Event.php
+msgid "Footer message."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Pay Later Allowed"
@@ -298,6 +531,10 @@ msgid "Partial Payments Enabled"
 msgstr "Pagamenti Parziali Attivi"
 
 #: CRM/Event/DAO/Event.php
+msgid "is partial payment enabled for this event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Minimum Initial Amount"
 msgstr "Importo Minimo Iniziale"
 
@@ -306,63 +543,166 @@ msgid "Allow Multiple Registrations"
 msgstr "Permetti Registrazioni Multiple"
 
 #: CRM/Event/DAO/Event.php
+msgid "if true - allows the user to register multiple participants for event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Maximum number of additional participants per registration"
+msgstr "Numero massimo di partecipanti addizionali per registrazione"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Maximum number of additional participants that can be registered on a single"
+" booking"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Does Event allow multiple registrations from same email address?"
 msgstr "L'Evento permette registrazioni multiple con lo stesso indirizzo di email?"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"if true - allows the user to register multiple registrations from same email"
+" address."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Waitlist Enabled"
 msgstr "Lista d'Attesa Attiva"
 
 #: CRM/Event/DAO/Event.php
+msgid "Whether the event has waitlist support."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Requires Approval"
 msgstr "Richiede l'Approvazione"
 
 #: CRM/Event/DAO/Event.php
+msgid ""
+"Whether participants require approval before they can finish registering."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Expiration Time"
 msgstr "Data di scadenza"
+
+#: CRM/Event/DAO/Event.php
+msgid "Expire pending but unconfirmed registrations after this many hours."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Allow Self-service Cancellation or Transfer"
+msgstr "Permetti Self-service Cancellation or Transfer"
+
+#: CRM/Event/DAO/Event.php
+msgid "Allow self service cancellation or transfer for event?"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Self-service Cancellation or Transfer Time"
+msgstr "Cancellazione o Transfer Time Self-service "
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Number of hours prior to event start date to allow self-service cancellation"
+" or transfer."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid "Waitlist Text"
 msgstr "Testo della Lista d'Attesa"
 
 #: CRM/Event/DAO/Event.php
+msgid ""
+"Text to display when the event is full, but participants can signup for a "
+"waitlist."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Approval Req Text"
 msgstr "Approvazione ddi richiesta el testo "
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Text to display when the approval is required to complete registration for "
+"an event."
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Is an Event Template"
 msgstr "E' un Modello di Evento"
 
 #: CRM/Event/DAO/Event.php
+msgid "whether the event has template"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Event Template Title"
 msgstr "Titolo del Modello di Evento"
 
 #: CRM/Event/DAO/Event.php
-msgid "Created By Contact ID"
-msgstr "Creato Da ID Contatto"
+msgid "FK to civicrm_contact, who created this event"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Event Created Date"
 msgstr "Data di Creazione Evento"
 
 #: CRM/Event/DAO/Event.php
+msgid "Date and time that event was created."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "The campaign for which this event has been created."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Can people share the event through social media?"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Is the booking confirmation screen enabled?"
 msgstr "La schermata di conferma prenotazione è attiva?"
+
+#: CRM/Event/DAO/Event.php
+msgid "If false, the event booking confirmation screen gets skipped"
+msgstr ""
 
 #: CRM/Event/DAO/Event.php
 msgid "Parent Event ID"
 msgstr "ID Evento Padre"
 
 #: CRM/Event/DAO/Event.php
+msgid "Implicit FK to civicrm_event: parent event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
 msgid "Subevent Slot Label ID"
+msgstr "ID Subevent Slot Label"
+
+#: CRM/Event/DAO/Event.php
+msgid ""
+"Subevent slot label. Implicit FK to civicrm_option_value where option_group "
+"= conference_slot."
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "Rule to use when matching registrations for this event"
+msgstr ""
+
+#: CRM/Event/DAO/Event.php
+msgid "if true than billing block is required this event"
 msgstr ""
 
 #: CRM/Event/DAO/Participant.php
-msgid "Participant Status ID"
+msgid "Participant Id"
 msgstr ""
 
 #: CRM/Event/DAO/Participant.php
-msgid "Participant Role ID"
+msgid ""
+"Participant status ID. FK to civicrm_participant_status_type. Default of 1 "
+"should map to status = Registered."
 msgstr ""
 
 #: CRM/Event/DAO/Participant.php
@@ -370,12 +710,43 @@ msgid "Register date"
 msgstr "Data registrazione"
 
 #: CRM/Event/DAO/Participant.php
+msgid "When did contact register for event?"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
 msgid "Participant Source"
 msgstr "Fonte Partecipante"
 
 #: CRM/Event/DAO/Participant.php
+msgid "Source of this event registration."
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid ""
+"Populate with the label (text) associated with a fee level for paid events with multiple levels. Note that\n"
+"      we store the label value and not the key\n"
+"    "
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
 msgid "Registered By ID"
 msgstr "Registrato Da ID"
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to Participant ID"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to Discount ID"
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "3 character string, value derived from config setting."
+msgstr ""
+
+#: CRM/Event/DAO/Participant.php
+msgid "The campaign for which this participant has been registered."
+msgstr ""
 
 #: CRM/Event/DAO/Participant.php
 msgid "Discount Amount"
@@ -383,38 +754,96 @@ msgstr "Importo sconto"
 
 #: CRM/Event/DAO/Participant.php
 msgid "Event Cart ID"
+msgstr "ID Carrello Evento"
+
+#: CRM/Event/DAO/Participant.php
+msgid "FK to civicrm_event_carts"
 msgstr ""
 
 #: CRM/Event/DAO/Participant.php
 msgid "Must Wait on List"
+msgstr "Deve essere messo in lista d'attesa"
+
+#: CRM/Event/DAO/Participant.php
+msgid "On Waiting List"
+msgstr "In Lista d'Attesa"
+
+#: CRM/Event/DAO/Participant.php
+msgid "Transferred to Contact ID"
+msgstr "Trasferito a ID contatto"
+
+#: CRM/Event/DAO/ParticipantPayment.php
+msgid "Participant Payment Id"
+msgstr ""
+
+#: CRM/Event/DAO/ParticipantPayment.php
+msgid "Participant Id (FK)"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Type ID"
+msgstr "ID Stato Partecipante"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "unique participant status type id"
+msgstr ""
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "non-localized name of the status type"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Label"
+msgstr "Status Partecipante (label)"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "localized label for display of this status type"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Class"
+msgstr "Classe Status Participante"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "the general group of status type this one belongs to"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Is Reserved?>"
+msgstr "Participant Status è riservato?"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this is a status type required by the system"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status is Active"
+msgstr "Stato Partecipante è attivo"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this status type is active"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Counts?"
+msgstr "Conta Status Partecipante?"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "whether this status type is counted against event size limit"
+msgstr ""
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid "controls sort order"
 msgstr ""
 
 #: CRM/Event/DAO/ParticipantStatusType.php
 msgid "Participant Status Visibility"
+msgstr "Visibilità Status Partecipante"
+
+#: CRM/Event/DAO/ParticipantStatusType.php
+msgid ""
+"whether the status type is visible to the public, an implicit foreign key to"
+" option_value.value related to the `visibility` option_group"
 msgstr ""
 
 #: CRM/Event/Form/EventFees.php templates/CRM/Event/Form/EventFees.tpl
@@ -437,12 +866,12 @@ msgstr "Invia conferma?"
 
 #: CRM/Event/Form/ManageEvent/Conference.php
 msgid "Parent Event"
-msgstr ""
+msgstr "Evento Padre"
 
 #: CRM/Event/Form/ManageEvent/Conference.php
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
 msgid "Conference Slots"
-msgstr ""
+msgstr "Slot Conferenza"
 
 #: CRM/Event/Form/ManageEvent/Delete.php CRM/Event/Page/ManageEvent.php
 msgid "Delete Event"
@@ -484,7 +913,7 @@ msgid ""
 "If you find that you are creating multiple events with similar settings, you"
 " may want to use the <a href=\"%1\">Event Templates</a> feature to "
 "streamline your workflow."
-msgstr ""
+msgstr "Se stai creando molti eventi con caratteristiche simili, potresti usare le funzionalità di <a href=\"%1\"> Event Templates </a> per ottimizzare il tuo lavoro."
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "From Template"
@@ -497,10 +926,6 @@ msgstr "Descrizione completa"
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Include Map to Event Location"
 msgstr "Includi Mappa nella pagina dell'evento"
-
-#: CRM/Event/Form/ManageEvent/EventInfo.php
-msgid "End Date / Time"
-msgstr "Data/ora fine"
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Max Number of Participants"
@@ -525,10 +950,6 @@ msgstr "Messaggio, se è in corso l'evento"
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Is this Event Active?"
 msgstr "Evento attivo?"
-
-#: CRM/Event/Form/ManageEvent/EventInfo.php
-msgid "Start Date and Time are required fields"
-msgstr "Data e Ora di inizio sono campi richiesti"
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Please do not use '/' in Event Title."
@@ -615,6 +1036,14 @@ msgstr "Inserisci il suggerimento di pagare più tardi per essere visualizzato s
 msgid "Please enter the Pay Later instructions to be displayed to your users."
 msgstr "Inserisci l' istruzione pagare più tardi  per essere visualizzato agli utenti."
 
+#: CRM/Event/Form/ManageEvent/Fee.php
+msgid ""
+"You have indicated that this is a paid event, but no payment option has been"
+" selected. If this is not a paid event, please select the \"No\" option at "
+"the top of the page. If this is a paid event, please select at least one "
+"payment processor and/or enable the pay later option."
+msgstr "Questo evento è descritto a pagamento, ma non ci sono opzioni di pagamento selezionate. Se non è un evento a pagamento, seleziona l'opzione \"No\" in cima alla pagina. Se è a pagamento, selezione almeno un payment processor e/o abilita l'opzione paga più tardi."
+
 #: CRM/Event/Form/ManageEvent/Location.php
 msgid "Create new location"
 msgstr "Crea nuovo percorso"
@@ -667,6 +1096,10 @@ msgid "Register multiple participants?"
 msgstr "Registra multipli partecipanti?"
 
 #: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Maximum additional participants"
+msgstr "Max partecipanti addizionali"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Same email address?"
 msgstr "Stesso indirizzo email?"
 
@@ -689,6 +1122,14 @@ msgstr "In attesa della scadenza dei partecipanti (ore)"
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Please enter the number of hours (as an integer)."
 msgstr "Inserisci il numero di ore (come un intero)."
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Allow self-service cancellation or transfer?"
+msgstr "Permetti self-service cancellation or transfer?"
+
+#: CRM/Event/Form/ManageEvent/Registration.php
+msgid "Cancellation or transfer time limit (hours)"
+msgstr "Cancellazione o transfer time limit (ore)"
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Introductory Text"
@@ -734,7 +1175,7 @@ msgstr "La data di Fine Registrazione dovrebbe essere successiva alla data di In
 msgid ""
 "Please add a profile with an email address if 'Send Confirmation Email?' is "
 "selected"
-msgstr "Aggiungere un profilo con un indirizzo email se \"Invia Email di Conferma?\" è selezionato"
+msgstr "Per favore indicare un profilo con un indirizzo email se \"Invia Email di Conferma?\" è selezionato"
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
@@ -746,41 +1187,41 @@ msgstr "Consentire registrazioni multiple dallo stesso indirizzo email richiede 
 msgid ""
 "Please include a Profile for online registration that contains an Email "
 "Address field and / or First Name + Last Name fields."
-msgstr ""
+msgstr "Si prega di includere un Profilo per la registrazione online che contenga un campo Indirizzo email e/o dei campi Nome + Cognome."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
 "Please include a Profile for online registration of additional participants "
 "that contains an Email Address field and / or First Name + Last Name fields."
-msgstr ""
+msgstr "Si prega di includere un Profilo per la registrazione online di partecipanti aggiuntivi che contenga un campo Indirizzo email e/o dei campi Nome + Cognome."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
 "The selected profiles do not contain the fields necessary to match "
 "registrations with existing contacts.  This means all anonymous "
 "registrations will result in a new contact."
-msgstr ""
+msgstr "I profili selezionati non contengono i campi necessari per abbinare le registrazioni con i contatti esistenti. Ciò significa che tutte le registrazioni anonime avranno come risultato un nuovo contatto."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
 "The selected profiles can collect enough information to match registrations "
 "with existing contacts, but not all of the relevant fields are required.  "
 "Anonymous registrations may result in duplicate contacts."
-msgstr ""
+msgstr "I profili selezionati possono raccogliere informazioni sufficienti per abbinare le registrazioni con i contatti esistenti, ma non tutti i campi rilevanti sono obbligatori. Registrazioni anonime possono causare contatti duplicati."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
 "The selected profiles do not contain the fields necessary to match "
 "additional participants with existing contacts.  This means all additional "
 "participants will result in a new contact."
-msgstr ""
+msgstr "I profili selezionati non contengono i campi necessari per abbinare i partecipanti aggiuntivi ai contatti esistenti. Ciò significa che tutti i partecipanti aggiuntivi genereranno un nuovo contatto."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid ""
 "The selected profiles can collect enough information to match additional "
 "participants with existing contacts, but not all of the relevant fields are "
 "required.  This may result in duplicate contacts."
-msgstr ""
+msgstr "I profili selezionati possono raccogliere informazioni sufficienti per abbinare i partecipanti aggiuntivi con i contatti esistenti, ma non tutti i campi rilevanti sono necessari. Questo potrebbe provocare contatti duplicati."
 
 #: CRM/Event/Form/ManageEvent/Registration.php
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
@@ -794,7 +1235,7 @@ msgstr "Info e impostazioni"
 
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
 msgid "Schedule Reminders"
-msgstr ""
+msgstr "Pianifica i Promemoria"
 
 #: CRM/Event/Form/ManageEvent.php
 msgid "Configure Event"
@@ -829,12 +1270,12 @@ msgstr "Cruscotto di CiviEvent"
 msgid ""
 "This Participant is linked to a contribution. You must have 'delete in "
 "CiviContribute' permission in order to delete this record."
-msgstr ""
+msgstr "Questo partecipante è collegato a un contributo. È necessario disporre dell'autorizzazione \"Elimina in CiviContribute\" per eliminare questo record."
 
 #: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
 msgid ""
 "Delete this participant record along with associated participant record(s)."
-msgstr ""
+msgstr "Elimina questo record di partecipante insieme ai record dei partecipanti associati."
 
 #: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
 msgid "Delete only this participant record."
@@ -844,13 +1285,9 @@ msgstr "Elimina i record solo di questo partecipante"
 msgid "Send Notification"
 msgstr "Invia notifica"
 
-#: CRM/Event/Form/Participant.php templates/CRM/Event/Form/ParticipantView.tpl
-msgid "Event Source"
-msgstr "Fonte Evento"
-
 #: CRM/Event/Form/Participant.php
 msgid "Please enter the associated Financial Type"
-msgstr ""
+msgstr "Per favore inserire il Tipo Finanziario Associato"
 
 #: CRM/Event/Form/Participant.php
 msgid "This contact has already been assigned to this event."
@@ -858,7 +1295,7 @@ msgstr "Questo contatto è già stato assegnato a questo evento."
 
 #: CRM/Event/Form/Participant.php
 msgid "Selected participant was deleted successfully."
-msgstr ""
+msgstr "Il partecipante selezionato è stato eliminato correttamente."
 
 #: CRM/Event/Form/Participant.php CRM/Event/Form/Task/Delete.php
 msgid ""
@@ -869,7 +1306,7 @@ msgstr "I seguenti partecipanti non hanno più pagamenti registrati. Puoi modifi
 
 #: CRM/Event/Form/Participant.php
 msgid "Group Payment Deleted"
-msgstr ""
+msgstr "Pagamento di gruppo cancellato"
 
 #: CRM/Event/Form/Participant.php
 msgid ""
@@ -891,9 +1328,10 @@ msgstr "Registrazione Offline per l'evento: %2 di: %1"
 
 #: CRM/Event/Form/Participant.php
 msgid "%1 : Offline registration (by %2)"
-msgstr ""
+msgstr "%1 : Registrazione Offline (di %2)"
 
-#: CRM/Event/Form/Participant.php
+#: CRM/Event/Form/Participant.php CRM/Event/Form/SelfSvcTransfer.php
+#: CRM/Event/Form/SelfSvcUpdate.php
 msgid "Event registration information for %1 has been updated."
 msgstr "Le informazioni sulla registrazione all'evento di %1 sono state aggiornate."
 
@@ -905,7 +1343,7 @@ msgstr "Una email di conferma è stata inviata a %1"
 msgid "Event registration for %1 has been added."
 msgstr "La registrazione di %1 all'evento è stata aggiunta."
 
-#: CRM/Event/Form/Participant.php
+#: CRM/Event/Form/Participant.php CRM/Event/Form/SelfSvcTransfer.php
 msgid "A confirmation email has been sent to %1."
 msgstr "Una email di conferma è stata inviata a %1"
 
@@ -917,7 +1355,7 @@ msgstr "Totale(i) partecipante(i) aggiunto(i) alla manifestazione:% 1."
 msgid ""
 "Email has NOT been sent to %1 contact(s) - communication preferences specify"
 " DO NOT EMAIL OR valid Email is NOT present. "
-msgstr ""
+msgstr "L' E-mail NON è stata inviata a %1 contatto(i) - le preferenze di comunicazione specificano DI NON INVIARE MAIL o non è presente un indirizzo email valido."
 
 #: CRM/Event/Form/Participant.php
 msgid "A confirmation email has been sent to ALL participants"
@@ -925,7 +1363,7 @@ msgstr "Una email di conferma è stata inviata a TUTTI i partecipanti"
 
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "Change selections for %1"
-msgstr ""
+msgstr "Cambia selezioni per %1"
 
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "Save and Record Payment"
@@ -933,7 +1371,7 @@ msgstr "Salva e Registra Pagamento"
 
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "The fee selection has been changed for this participant"
-msgstr ""
+msgstr "La selezione della quota è stata cambiata per questo partecipante"
 
 #: CRM/Event/Form/ParticipantView.php
 msgid ""
@@ -1001,33 +1439,33 @@ msgstr "Se salti questo partecipante, ci sarà abbastanza spazio nell'evento per
 msgid ""
 "This event is currently full. You are registering for the waiting list. You "
 "will be notified if spaces become available."
-msgstr ""
+msgstr "Questo evento è attualmente pieno. Stai registrando per la lista d'attesa. Sarai avvisato se degli spazi diverranno disponibili."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "It looks like you are registering more participants then there are spaces "
 "available. All participants will be added to the waiting list. You will be "
 "notified if spaces become available."
-msgstr ""
+msgstr "Stai registrando più partecipanti dei posti disponibili. I partecipanti saranno aggiunti alla lista d'attesa. Sarai avvisato se i posti si renderanno disponibili."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "It looks like there are enough spaces in this event for your group (you will"
 " not be wait listed)."
-msgstr ""
+msgstr "Sembra che ci siano abbastanza posti in questo evento per il tuo gruppo (non sarai in lista d'attesa)."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "It looks there are enough spaces in this event for your group (you will not "
 "be wait listed). Registration for this event requires approval. You will "
 "receive an email once your registration has been reviewed."
-msgstr ""
+msgstr "Sembra che ci siano abbastanza spazi in questo evento per il tuo gruppo (non sarai in lista). La registrazione per questo evento richiede l'approvazione. Riceverai una email quando la tua registrazione sarà stata riesaminata."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "Please go back to the main registration page, to complete payment "
 "information."
-msgstr "Tornare alla pagina di registrazione principale per completare le informazioni di pagamento."
+msgstr "Per favore torna alla pagina di registrazione principale, per completare le informazioni di pagamento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid "Skip Participant"
@@ -1039,41 +1477,41 @@ msgstr "Una persona è già registrata per questo evento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid "A person with this email address is already registered for this event."
-msgstr "Una persona con questo indirizzo email è già registrato per questo evento."
+msgstr "Una persona con questo indirizzo email è già registrata per questo evento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid "The email address must be unique for each participant."
-msgstr "L'indirizzo email deve essere unico per ogni partecipante."
+msgstr "L'indirizzo email deve essere univoco per ogni partecipante."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid "The first name and last name must be unique for each participant."
-msgstr ""
+msgstr "Il nome e il cognome devono essere univoci per ciascun partecipante."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "Your event registration will be confirmed. Please go back to the main "
 "registration page, to complete payment information."
-msgstr ""
+msgstr "La tua registrazione all'evento verrà confermata. Per favore, torna alla pagina di registrazione principale per completare le informazioni di pagamento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
-"It looks like event has only %2 seats available and you are trying to "
-"register %1 participants, so could you please select price options "
+"Sorry, it looks like this event only has %2 spaces available, and you are "
+"trying to register %1 participants. Please change your selections "
 "accordingly."
-msgstr ""
+msgstr "Spiacenti, sembra che questo evento abbia solo %2 posti disponibili, mentre stai tentando di registrare %1 partecipanti. Modifica le tue selezioni di conseguenza.."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "You are going to skip the last participant, your event registration will be "
 "confirmed. Please go back to the main registration page, to complete payment"
 " information."
-msgstr ""
+msgstr "Stai per saltare l'ultimo partecipante, la registrazione dell'evento sarà confermata. Si prega di tornare alla pagina di registrazione principale, per completare le informazioni di pagamento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
 "Your payment information looks incomplete. Please go back to the main "
 "registration page, to complete payment information."
-msgstr ""
+msgstr "Le tua informazioni di pagamento sembrano incomplete. Per favore torna alla pagina di registrazione principale per completare le informazioni di pagamento."
 
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 msgid ""
@@ -1104,23 +1542,29 @@ msgid ""
 " out events have been removed from your selections. You will not be able to "
 "continue until you review your booking and select different events if you "
 "wish."
-msgstr ""
+msgstr "Sei stato rimandato all'inizio della registrazione e tutti gli eventi esauriti sono stati rimossi dalle tue selezioni. Non potrai continuare fino a quando non rivedrai le tue prenotazioni selezionando eventi diversi."
 
 #: CRM/Event/Form/Registration/Confirm.php
 msgid ""
 "Unfortunately some of your options have now sold out for one or more "
 "participants."
-msgstr ""
+msgstr "Sfortunatamente alcune delle tue opzioni sono ora esaurite per uno o più partecipanti."
 
 #: CRM/Event/Form/Registration/Confirm.php
 msgid ""
 "Please note that the options which are marked or selected are sold out for "
 "participant being viewed."
-msgstr ""
+msgstr "Si prega di notare che le opzioni contrassegnate o selezionate sono esaurite per il partecipante visualizzato"
 
 #: CRM/Event/Form/Registration/Confirm.php
 msgid "Sold out:"
-msgstr ""
+msgstr "Esaurito:"
+
+#: CRM/Event/Form/Registration/Confirm.php
+msgid ""
+"The system did not record payment details for this payment and so could not "
+"process the transaction. Please report this error to the site administrator."
+msgstr "Il sistema non ha registrato i dati per il pagamento e quindi non è stato in grado di elaborare la transazione. Si prega di segnalare questo errore all'amministratore del sito."
 
 #: CRM/Event/Form/Registration/Confirm.php
 msgid " (multiple participants)"
@@ -1149,7 +1593,7 @@ msgid ""
 "Click the \"Confirm Registration\" button to complete your registration in "
 "%1, or click \"Cancel Registration\" if you are no longer interested in "
 "attending this event."
-msgstr "Fare clic sul pulsante \"confermare la registrazione\" per completare la registrazione in %1, o fai clic su \"Annulla Registrazione\" se non siete più interessati a partecipare a questo evento."
+msgstr "Fare click sul pulsante \"confermare la registrazione\" per completare la registrazione in %1, o fai clic su \"Annulla Registrazione\" se non siete più interessati a partecipare a questo evento."
 
 #: CRM/Event/Form/Registration/ParticipantConfirm.php
 msgid "Confirm your registration for %1."
@@ -1168,9 +1612,9 @@ msgstr "Conferma di registrazione"
 
 #: CRM/Event/Form/Registration/ParticipantConfirm.php
 msgid "Are you sure you want to cancel your registration for this event?"
-msgstr "Sei sicuro di voler cancellare la registrazione di questo evento?"
+msgstr "Sei sicuro di voler cancellare la registrazione a questo evento?"
 
-#: CRM/Event/Form/Registration/ParticipantConfirm.php CRM/Event/Task.php
+#: CRM/Event/Form/Registration/ParticipantConfirm.php
 msgid "Cancel Registration"
 msgstr "Annulla registrazione"
 
@@ -1265,25 +1709,29 @@ msgid ""
 msgstr "L' Evento gratis non può essere inferiore a zero. Si prega di selezionare le opzioni di conseguenza"
 
 #: CRM/Event/Form/Registration/Register.php
-msgid "Please select a Payment Method"
-msgstr ""
+msgid "A minimum amount of %1 should be selected from Event Fee(s)."
+msgstr "Un importo minino di %1 dovrebbe essere selezionato dalla Quota Evento(i)."
 
 #: CRM/Event/Form/Registration/Register.php
+msgid "Please select a Payment Method"
+msgstr "Per favore, seleziona un Metodo di Pagamento"
+
+#: CRM/Event/Form/Registration/Register.php CRM/Event/Form/SelfSvcTransfer.php
 msgid ""
 "Mandatory fields (first name and last name, OR email address) are missing "
 "from this form."
-msgstr ""
+msgstr "Dei campi obbligatori (nome e cognome O indirizzo di posta elettronica) mancano in questo modulo."
 
 #: CRM/Event/Form/Registration/Register.php
 msgid "Registration information for participant 1 has been saved."
 msgstr "Le informazioni di registrazione per il partecipante 1 sono state salvate."
 
-#: CRM/Event/Form/Registration/Register.php CRM/Event/Page/EventInfo.php
+#: CRM/Event/Form/Registration/Register.php
 msgid ""
 "It looks like you are already registered for this event. If you want to "
-"change your registration, or you feel that you've gotten this message in "
+"change your registration, or you feel that you've received this message in "
 "error, please contact the site administrator."
-msgstr "Sembra che sei già registrato per questo evento. Se vuoi modificare la tua registrazione, o pensi di aver ricevuto questo messaggio per errore, per favore contatta l'amministratore del sito."
+msgstr "Sembra che tu sia già iscritto a questo evento. Se vuoi modificare la tua iscrizione o pensi di aver ricevuto questo messaggio per errore, per favore contattaci."
 
 #: CRM/Event/Form/Registration/Register.php CRM/Event/Page/EventInfo.php
 msgid "You can also <a href=\"%1\">register another participant</a>."
@@ -1296,19 +1744,13 @@ msgstr "Oops."
 #: CRM/Event/Form/Registration/Register.php
 msgid ""
 "It looks like this participant is already registered for this event. If you "
-"want to change your registration, or you feel that you've gotten this "
+"want to change your registration, or you feel that you've received this "
 "message in error, please contact the site administrator."
-msgstr "Sembra che questo partecipante sia già registrato per questo evento. Se si desidera modificare la registrazinoe, o sembra che questo messaggio sia stato ricevuto per errore, contattare l'amministratore del sito."
+msgstr "Sembra che questo partecipante sia già registrato per questo evento. Se desideri modificare la registrazione, o ritieni che questo messaggio sia stato inviato per errore, contatta l'amministratore del sito."
 
 #: CRM/Event/Form/Registration/ThankYou.php
 msgid "Thank You Page"
 msgstr "Pagina Ringraziamento"
-
-#: CRM/Event/Form/Registration.php
-msgid ""
-"The site administrator must set a Payment Processor for this event in order "
-"to use online registration."
-msgstr "Per poter usare la registrazione online l'amministratore del sito deve impostare un gestore dei pagamenti per questo evento."
 
 #: CRM/Event/Form/Registration.php
 msgid ""
@@ -1322,12 +1764,12 @@ msgid "Select at least one option from Event Fee(s)."
 msgstr "Seleziona almeno una delle opzioni da pagamenti eventi"
 
 #: CRM/Event/Form/Registration.php
-msgid "Sorry, currently only a single seat is available for this option."
-msgstr ""
+msgid "Sorry, currently only a single space is available for this option."
+msgstr "Spiacenti, attualmente è disponibile solo un singolo posto per questa opzione."
 
 #: CRM/Event/Form/Registration.php
-msgid "Sorry, currently only %1 seats are available for this option."
-msgstr ""
+msgid "Sorry, currently only %1 spaces are available for this option."
+msgstr "Spiacenti, attualmente sono disponibili solo %1 posti per questa opzione."
 
 #: CRM/Event/Form/Registration.php CRM/Event/Page/EventInfo.php
 msgid ""
@@ -1343,15 +1785,27 @@ msgstr "La registrazione online non è attualmente disponibile per questo evento
 
 #: CRM/Event/Form/Registration.php
 msgid "Registration for this event begins on %1"
-msgstr "La registrazione a questo evento inizia il %1"
+msgstr "La registrazione per questo evento inizia il %1"
 
 #: CRM/Event/Form/Registration.php
 msgid "Registration for this event ended on %1"
-msgstr "La registrazione a questo evento è finita il %1"
+msgstr "La registrazione per questo evento è finita il %1"
 
 #: CRM/Event/Form/Search.php
 msgid "Participant Name or Email"
 msgstr "Nome o Email del Partecipante"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Tag(s)"
+msgstr "Tag Partecipanti"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Group(s)"
+msgstr "Gruppo Partecipanti"
+
+#: CRM/Event/Form/Search.php
+msgid "Participant Contact Type"
+msgstr "Tipo COntatto Partecipanti"
 
 #: CRM/Event/Form/Search.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Find Participants"
@@ -1369,17 +1823,94 @@ msgstr "Cerca Tutte o per intervallo date"
 msgid "Events by Dates"
 msgstr "Eventi per data"
 
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"You do not have sufficient permission to transfer/cancel this participant."
+msgstr "Non disponi di sufficienti permessi per trasferire/cancellare questo partecipante."
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To Email"
+msgstr "Email destinatario"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To Last Name"
+msgstr "Cognome destinatario"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "To First Name"
+msgstr "Al nome"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Transfer Registration"
+msgstr "Trasferimento Registrazione"
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Enter valid email address."
+msgstr "Inserire un indirizzo email valido."
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid " is already registered for this event"
+msgstr "E' già registrato per questo evento."
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Contact does not exist."
+msgstr ""
+
+#: CRM/Event/Form/SelfSvcTransfer.php
+msgid "Registration Transferred"
+msgstr "Registrazione trasferita"
+
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "A cancellation email has been sent to %1."
+msgstr "Un'email di cancellazione è stata inviata a %1."
+
+#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Thanks"
+msgstr "Grazie"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"Registration for this event cannot be cancelled or transferred once the "
+"event has begun. Contact the event organizer if you have questions."
+msgstr "La registrazione per questo evento non può essere annullata o trasferita una volta iniziato l'evento. Contatta l'organizzatore dell'evento se hai domande."
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid ""
+"Registration for this event cannot be cancelled or transferred less than %1 "
+"hours prior to the event's start time. Contact the event organizer if you "
+"have questions."
+msgstr "La registrazione per questo evento non può essere annullata o trasferita meno di %1 ore prima dell'ora di inizio dell'evento. Contatta l'organizzatore dell'evento se hai domande."
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Transfer or Cancel Registration"
+msgstr "Trasferisci o Annulla la Registrazione"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Transfer"
+msgstr "Trasferisci"
+
+#: CRM/Event/Form/SelfSvcUpdate.php
+msgid "Please select Transfer OR Cancel action."
+msgstr "Per favore selezione l'azione Trasferisci o Cancella."
+
 #: CRM/Event/Form/Task/Badge.php
 msgid "Make Name Badges"
 msgstr "Crea badge nominativi"
 
-#: CRM/Event/Form/Task/Batch.php
-msgid "Batch Update for Events"
-msgstr "Aggiornamento automatico eventi"
+#: CRM/Event/Form/Task/Batch.php CRM/Event/Form/Task/PickProfile.php
+#: CRM/Event/Task.php
+msgid "Update multiple participants"
+msgstr "Aggiorna partecipanti multipli"
 
 #: CRM/Event/Form/Task/Batch.php
 msgid "Update Participant(s)"
 msgstr "Aggiorna partecipanti"
+
+#: CRM/Event/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple participants."
+msgstr "I tipi campo del profilo selezionato non sono supportati per l'aggiornamento multiplo partecipanti."
 
 #: CRM/Event/Form/Task/Batch.php
 msgid "The updates have been saved."
@@ -1389,6 +1920,10 @@ msgstr "Gli aggiornamenti sono stati salvati."
 msgid "Cancel Registration for Event Participation"
 msgstr "Annulla registrazione per la partecipazione all'evento"
 
+#: CRM/Event/Form/Task/Cancel.php
+msgid "Cancel Registrations"
+msgstr "Annulla registrazioni"
+
 #: CRM/Event/Form/Task/Delete.php
 msgid "Delete Participations"
 msgstr "Elimina partecipazioni"
@@ -1396,8 +1931,8 @@ msgstr "Elimina partecipazioni"
 #: CRM/Event/Form/Task/Delete.php
 msgid "%count participant deleted."
 msgid_plural "%count participants deleted."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%count partecipante cancellato."
+msgstr[1] "%count partecipanti cancellati."
 
 #: CRM/Event/Form/Task/ParticipantStatus.php
 msgid "Change All Statuses"
@@ -1406,10 +1941,6 @@ msgstr "Cambia lo Status"
 #: CRM/Event/Form/Task/ParticipantStatus.php
 msgid "- select status -"
 msgstr "- seleziona status -"
-
-#: CRM/Event/Form/Task/PickProfile.php
-msgid "Batch Update for Event Participants"
-msgstr "Aggiornamento automatico dei partecipanti agli eventi"
 
 #: CRM/Event/Form/Task/Print.php
 msgid "Print Participant List"
@@ -1421,11 +1952,11 @@ msgstr "Sulle voci duplicate"
 
 #: CRM/Event/Import/Form/MapField.php
 msgid "Missing required field: Provide Participant ID"
-msgstr ""
+msgstr "Campo obbligatorio mancante: Inserire l' ID del Partecipante"
 
 #: CRM/Event/Import/Form/MapField.php
 msgid "Or Provide Contact ID or External ID."
-msgstr ""
+msgstr "O inserire l' ID del Contatto o l'ID esterno"
 
 #: CRM/Event/Import/Form/MapField.php
 msgid "Duplicate Import Participant Mapping Name"
@@ -1449,71 +1980,71 @@ msgstr "Motore eventi CiviCRM"
 
 #: CRM/Event/Info.php
 msgid "access CiviEvent"
-msgstr ""
+msgstr "accedi a CiviEvent"
 
 #: CRM/Event/Info.php
 msgid ""
 "Create events, view all events, and view participant records (for visible "
 "contacts)"
-msgstr ""
+msgstr "Crea eventi, visualizza tutti gli eventi e visualizza i record dei partecipanti (per i contatti visibili)"
 
 #: CRM/Event/Info.php
 msgid "edit event participants"
-msgstr ""
+msgstr "modifica partecipanti all'evento"
 
 #: CRM/Event/Info.php
 msgid "Record and update backend event registrations"
-msgstr ""
+msgstr "Registra e aggiorna le registrazioni eventi sul backend"
 
 #: CRM/Event/Info.php
 msgid "edit all events"
-msgstr ""
+msgstr "modifica tutti gli eventi"
 
 #: CRM/Event/Info.php
 msgid "Edit events even without specific ACL granted"
-msgstr ""
+msgstr "Modifica eventi anche senza specifici permessi ACL"
 
 #: CRM/Event/Info.php
 msgid "register for events"
-msgstr ""
+msgstr "registrarsi per eventi"
 
 #: CRM/Event/Info.php
 msgid "Register for events online"
-msgstr ""
+msgstr "Registrazione per eventi online"
 
 #: CRM/Event/Info.php
 msgid "view event info"
-msgstr ""
+msgstr "guarda le informazioni sull'evento"
 
 #: CRM/Event/Info.php
 msgid "View online event information pages"
-msgstr ""
+msgstr "Guarda le pagine online di informazioni sull'evento"
 
 #: CRM/Event/Info.php
 msgid "view event participants"
-msgstr ""
+msgstr "guarda i partecipanti all'evento"
 
 #: CRM/Event/Info.php
 msgid "delete in CiviEvent"
-msgstr ""
+msgstr "cancella in CiviEvent"
 
 #: CRM/Event/Info.php
 msgid "Delete participants and events that you can edit"
-msgstr ""
+msgstr "Cancella i partecipanti e gli eventi che puoi modificare"
 
 #: CRM/Event/Info.php
 msgid "manage event profiles"
-msgstr ""
+msgstr "gestisci i profili degli eventi"
 
 #: CRM/Event/Info.php
 msgid ""
 "Allow users to create, edit and copy event-related profile forms used for "
 "online event registration."
-msgstr ""
+msgstr "Consenti agli utenti di creare, modificare e copiare i moduli profilo-eventi utilizzati per la registrazione degli eventi online."
 
 #: CRM/Event/Info.php
 msgid "Your Event(s)"
-msgstr "I tuoi eventi"
+msgstr "I tuoi Eventi"
 
 #: CRM/Event/Page/DashBoard.php
 msgid "events"
@@ -1521,13 +2052,20 @@ msgstr "eventi"
 
 #: CRM/Event/Page/EventInfo.php
 msgid "You do not have permission to view this event"
-msgstr "Non hai i permessi sufficienti per visualizzare questo evento."
+msgstr "Non hai il permesso per visualizzare questo evento."
 
 #: CRM/Event/Page/EventInfo.php
 msgid ""
 "It looks like you are already registered for this event.  You may proceed if"
 " you want to create an additional registration."
-msgstr ""
+msgstr "Sembra che tu sia già registrato per questo evento. Puoi però procedere se desideri creare una registrazione aggiuntiva."
+
+#: CRM/Event/Page/EventInfo.php
+msgid ""
+"It looks like you are already registered for this event. If you want to "
+"change your registration, or you feel that you've gotten this message in "
+"error, please contact the site administrator."
+msgstr "Sembra che sei già registrato per questo evento. Se vuoi modificare la tua registrazione, o pensi di aver ricevuto questo messaggio per errore, per favore contatta l'amministratore del sito."
 
 #: CRM/Event/Page/EventInfo.php
 msgid ""
@@ -1553,6 +2091,30 @@ msgstr "Abilita Evento"
 #: CRM/Event/Page/ManageEvent.php
 msgid "Copy Event"
 msgstr "Copia Evento"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Register Participant"
+msgstr "Registrazione dei partecipanti"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Registration (Test-drive)"
+msgstr "Registrazione (Collaudo)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Online Registration (Test-drive)"
+msgstr "Iscrizione online (Test-drive)"
+
+#: CRM/Event/Page/ManageEvent.php
+msgid "Registration (Live)"
+msgstr "Registrazione (Live)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Online Registration (Live)"
+msgstr "Iscrizione online (Live)"
+
+#: CRM/Event/Page/ManageEvent.php templates/CRM/Event/Form/ManageEvent/Tab.tpl
+msgid "Event Links"
+msgstr "Link dell'Evento "
 
 #: CRM/Event/Page/ManageEvent.php
 msgid "Search Events"
@@ -1582,6 +2144,10 @@ msgstr "Il codice del file della lista partecipanti non può essere '%1'"
 msgid "View Participant"
 msgstr "Visualizza partecipante"
 
+#: CRM/Event/Page/Tab.php
+msgid "Delete Participant"
+msgstr "Cancella Partecipante"
+
 #: CRM/Event/PseudoConstant.php
 msgid "Positive"
 msgstr "Positivo"
@@ -1606,9 +2172,9 @@ msgstr "Modifica partecipazione"
 msgid "Delete Participation"
 msgstr "Elimina partecipazione"
 
-#: CRM/Event/Selector/Search.php
-msgid "Record Refund"
-msgstr ""
+#: CRM/Event/Selector/Search.php templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Transfer or Cancel"
+msgstr "Trasferisci o Annulla"
 
 #: CRM/Event/Selector/Search.php templates/CRM/Event/Page/UserDashboard.tpl
 msgid "Event Date(s)"
@@ -1619,32 +2185,44 @@ msgid "CiviCRM Event Search"
 msgstr "Ricerca Eventi CiviCRM"
 
 #: CRM/Event/Task.php
-msgid "Delete Participants"
-msgstr "Elimina partecipanti"
+msgid "Delete participants from event"
+msgstr "Cancella i partecipanti dall'evento"
 
 #: CRM/Event/Task.php
-msgid "Export Participants"
+msgid "Export participants"
 msgstr "Esportazione Partecipanti"
 
 #: CRM/Event/Task.php
-msgid "Batch Update Participants Via Profile"
-msgstr "Aggiorna automaticamente i partecipanti attraverso il profilo"
+msgid "Cancel registration"
+msgstr "Annulla registrazione"
 
 #: CRM/Event/Task.php
-msgid "Change Participant Status"
-msgstr "Cambia stato dei partecipanti"
+msgid "Participant status - change"
+msgstr "Status Partecipante - modifica"
 
 #: CRM/Event/Task.php
-msgid "Print Event Name Badges"
-msgstr "Stampa badge nominativi  per l'evento"
+msgid "Name badges - print"
+msgstr "Badge nominativi - stampa"
+
+#: CRM/Event/Task.php
+msgid "PDF letter - print for participants"
+msgstr "Lettera PDF - stampa per partecipanti"
+
+#: CRM/Event/Tokens.php
+msgid "Event Contact (Email)"
+msgstr "Contatto (email) per l'Evento"
+
+#: CRM/Event/Tokens.php
+msgid "Event Contact (Phone)"
+msgstr "Contatto (telefono) per l'Evento"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
 msgid "Choose Events For %1 (%2)"
-msgstr ""
+msgstr "Scegli Eventi per %1 (%2)"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
 msgid "Session is Full"
-msgstr ""
+msgstr "La sessione è Piena"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ConferenceEvents.tpl
 msgid "more info"
@@ -1657,12 +2235,12 @@ msgstr "Nessuna descrizione disponibile per questo evento."
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Click here to register a different person for this event."
-msgstr "Clicca qui per registrarti una persona diversa per questo evento."
+msgstr "Clicca qui per registrare una persona diversa per questo evento."
 
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Not %1, or want to register a different person"
-msgstr "non %1, o desidera registrare una persona diversa"
+msgstr "Non sei %1, o desideri registrare una persona diversa"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 msgid "Add Another Participant"
@@ -1670,11 +2248,11 @@ msgstr "Aggiungi un altro partecipante"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 msgid "There is no charge for this event."
-msgstr ""
+msgstr "Non ci sono costi per questo evento."
 
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 msgid "Error adding a participant at"
-msgstr ""
+msgstr " Si è verificato un errore nell'aggiungere un partecipante"
 
 #: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
 #: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
@@ -1691,11 +2269,11 @@ msgstr "Totale:"
 
 #: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
 msgid "Staff use only"
-msgstr ""
+msgstr "Riservato allo Staff"
 
 #: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
 msgid "Note that will be sent to the billing customer."
-msgstr ""
+msgstr "La fattura sarà spedita all'indirizzo di fatturazione "
 
 #: templates/CRM/Event/Cart/Form/Checkout/Payment.tpl
 msgid "Description of this transaction."
@@ -1712,17 +2290,17 @@ msgid ""
 "for your records. You will receieve a confirmation email with the "
 "information below.  Information about the workshops will be sent separately "
 "to each participant. Here's a summary of your transaction placed on %2:"
-msgstr ""
+msgstr "Il tuo numero d'ordine è <strong>#%1</strong>. Stampa questa conferma per tua comodità. Riceverai un'email di conferma con le informazioni qui riportate. Le informazioni sui workshop saranno inviate separatamente ad ogni partecipante. Eccoti un riepilogo della transazione inerente a %2:"
 
 #: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
 msgid ""
 "If you have questions about the status of your registration or purchase "
 "please contact us."
-msgstr ""
+msgstr "Se hai domande sullo stato della tua registrazione o acquisto, ti preghiamo di contattarci."
 
 #: templates/CRM/Event/Cart/Form/viewCartLink.tpl
 msgid "<a href='%1'>Return to Cart</a>"
-msgstr ""
+msgstr "<a href='%1'>Ritorno al Carrello </a>"
 
 #: templates/CRM/Event/Cart/Page/ViewCart.tpl
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
@@ -1734,7 +2312,7 @@ msgstr "Vedi pagina info evento"
 
 #: templates/CRM/Event/Cart/Page/ViewCart.tpl
 msgid "Check Out"
-msgstr ""
+msgstr "Check Out"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
@@ -1743,13 +2321,13 @@ msgstr "Selezioni"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
-msgid "Change Selections"
-msgstr "Cambia selezioni"
+msgid "Event Level"
+msgstr "Livello evento"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
-msgid "Event Level"
-msgstr "Livello evento"
+msgid "Change Selections"
+msgstr "Cambia selezioni"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 msgid "No active price fields found for this event!"
@@ -1796,51 +2374,51 @@ msgstr "Inserire un messaggio che volete includere all'inizio dell'email di conf
 #: templates/CRM/Event/Form/EventFees.tpl
 msgid ""
 "The Payment Status for this participant is Completed. The Participant Status"
-" is set to Pending from pay later. Click Cancel if you want to review or "
-"modify these values before saving this record"
-msgstr "Lo Stato dei pagamenti per questo partecipante è completata. Il partecipante è stato impostato in sospeso da pagare in seguito. Fare clic su Annulla se si desidera rivedere o modificare tali valori prima di salvare questo record"
+" is set to Pending (pay later). Click Cancel if you want to review or modify"
+" these values before saving this record"
+msgstr "Lo Status Pagamenti per questo partecipante è completo. Lo Status è stato impostato In sospeso (da pagare in seguito). Fare clic su Annulla se si desidera rivedere o modificare tali valori prima di salvare questo record"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "How should this change affect others in the series?"
-msgstr ""
+msgstr "Come dovrebbe questo cambiamento influenzare gli altri nella serie?"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Only this %1"
-msgstr ""
+msgstr "Solo questo %1"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "All others in the series will remain unchanged."
-msgstr ""
+msgstr "Tutti gli altri nella serie rimarranno invariati."
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "This %1 onwards"
-msgstr ""
+msgstr "Questo %1 in poi"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Change applies to this %1 and all that come after it."
-msgstr ""
+msgstr "La modifica si applica a questo %1 e a tutto ciò che viene dopo."
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Every %1"
-msgstr ""
+msgstr "Ogni %1"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Change applies to every %1 in the series."
-msgstr ""
+msgstr "La modifica si applica a ogni %1 nella serie."
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid ""
 "Changes to date or time will <em>not</em> be applied to others in the "
 "series."
-msgstr ""
+msgstr "Le modifiche a data e ora <em>non</em> saranno applicate agli altri nelle serie."
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Update repeating %1"
-msgstr ""
+msgstr "Aggiornamento ripetuto %1"
 
 #: templates/CRM/Event/Form/ManageEvent/ConfirmRepeatMode.tpl
 msgid "Mode could not be updated, save only this %1?"
-msgstr ""
+msgstr "La modalità non può essere aggiornata, salvo solo questo %1?"
 
 #: templates/CRM/Event/Form/ManageEvent/Delete.tpl
 msgid ""
@@ -1900,7 +2478,7 @@ msgstr "Per consentire agli utenti di visualizzare un elenco di partecipanti, im
 msgid ""
 "You will need to set Access Control permissions to include 'view event "
 "participants' for any Roles you want to access this listing."
-msgstr ""
+msgstr "Dovete impostare i permessi di accesso per includere 'visualizza partecipanti evento' per tutti i Ruoli che volete possano accedere all'elenco."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid ""
@@ -1924,7 +2502,7 @@ msgstr "Poi create dei link che portino gli utenti alla pagina di Elenco parteci
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid "Maximum Participants"
-msgstr "Max Partecipanti"
+msgstr "Massimi Partecipanti"
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid "Optionally set a maximum number of participants for this event."
@@ -1940,7 +2518,7 @@ msgstr "È possibile consentire agli utenti di partecipare a una lista d'attesa 
 msgid ""
 "You may allow users to join a waitlist when the event is full. To enable "
 "this feature you must first enable the Participant Statuses used by the "
-"waitlist work-flow (click the pencil icon, or navigate to Administer » "
+"waitlist work-flow (click the wrench icon, or navigate to Administer » "
 "CiviEvent » Participant Statuses). Then reload this form and check 'Offer a "
 "Waitlist?'."
 msgstr ""
@@ -1955,7 +2533,7 @@ msgstr "In caso contrario, il link di registrazione è nascosta e il \"messaggio
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid "Event-Full Message"
-msgstr ""
+msgstr "Messaggio Evento-Completo"
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid ""
@@ -1998,19 +2576,19 @@ msgstr "Eventi Pubblici"
 msgid ""
 "When enabled, this event will be included in iCalendar feeds and displayed "
 "on your site's \"Upcoming Events\" block."
-msgstr ""
+msgstr "Quando abilitato, questo evento verrà incluso nei feed iCalendar e visualizzato nel blocco \"Prossimi eventi\" del tuo sito."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid ""
 "When enabled, links allowing people to share this event with their social "
 "network will be displayed (e.g. Facebook \"Like\", Google+, and Twitter)."
-msgstr ""
+msgstr "Quando abilitato, verranno visualizzati i link che consentono alle persone di condividere questo evento con i loro social network (ad esempio, \"Like\" di Facebook, Google+ e Twitter)."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid ""
 "Social media links will be included on the Event Info page, Thank-you page, "
 "Tell-a-Friend page (if enabled), and in event confirmation emails."
-msgstr ""
+msgstr "I link ai social media saranno inclusi nella pagina Info Evento, nella pagina di ringraziamento, nella pagina Tell-a-Friend (se abilitata) e nelle email di conferma dell'evento."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid ""
@@ -2019,7 +2597,7 @@ msgstr "Utilizza solo caratteri alfanumerici, spazi, trattini per i nomi degli e
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid "Edit Participant Status Options"
-msgstr ""
+msgstr "Modifica opzioni stato partecipante"
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid ""
@@ -2059,7 +2637,7 @@ msgid ""
 "below without setting up a payment processor. All users will then be asked "
 "to submit payment offline (e.g. mail in a check, call in a credit card, "
 "etc.)."
-msgstr "NOTA: in alternativa, è possibile attivare la funzione di <strong>Paga Dopo</strong> a seguire, senza la creazione di un Sistema di Pagamento. A tutti gli utenti verrà chiesto di presentare un pagamento non in linea (ad esempio assegno postale, carta di credito, ecc.)"
+msgstr "NOTA: in alternativa, è possibile attivare la funzione di <strong>Paga Dopo</strong> a seguire, senza la creazione di un Sistema di Pagamento. A tutti gli utenti verrà chiesto di inviare un pagamento offline (ad esempio spedire un assegno, comunicare una carta di credito, ecc.)"
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
@@ -2072,7 +2650,7 @@ msgstr "Le istruzioni aggiunte alle pagine di Conferma e Ringraziamento quando l
 msgid ""
 "This label is displayed with the list of event fees. When using a Price Set,"
 " this label is the title for the section containing the price fields."
-msgstr ""
+msgstr "Questa etichetta è visualizzata con l'elenco degli importi per gli eventi. Quando si utilizza un set di prezzi, questa etichetta è il titolo per la sezione contenente i campi del prezzo."
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
@@ -2080,7 +2658,7 @@ msgid ""
 "they register online. If using a price set below note that the contribution "
 "record will have this financial type, however line items will be processed "
 "using the actual financial type selected for the price set item."
-msgstr ""
+msgstr "Questo tipo finanziario verrà assegnato ai pagamenti effettuati dai partecipanti al momento della registrazione online. Se si utilizza un insieme di prezzi come nel seguito, si noti che il contributo avrà questo tipo finanziario, mentre le singole linee saranno elaborate utilizzando l'effettivo tipo finanziario selezionato per l'insieme di prezzi."
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
@@ -2100,7 +2678,7 @@ msgstr "Seleziona un Insieme di Prezzi preconfigurato per offrire più opzioni d
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid "Regular Fees"
-msgstr "Tasse Regolari"
+msgstr "Tariffe Regolari"
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
@@ -2116,13 +2694,13 @@ msgid ""
 "Click <a id='quickconfig' href='#'>here</a> if you want to configure the "
 "Regular Fees below as part of a Price Set, with the added flexibility and "
 "complexity that entails."
-msgstr ""
+msgstr "Fare Click <a id='quickconfig' href='#'>qui</a>  se si desidera configurare le tariffe presentate come parte di un set di prezzi, con l'aggiunta di flessibilità e complessità che ciò comporta."
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
 "Check this box if you want to offer discounted fees based on registration "
 "date (e.g. 'early-registration discounts')."
-msgstr "Seleziona questa casella se si desidera offrire tariffe scontate in base alla data di registrazione (ad esempio 'presto-registrazione sconti')."
+msgstr "Seleziona questa casella se si desidera offrire tariffe scontate basate sulla data di registrazione (ad esempio 'sconto per registrazione-anticipata')."
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid "another discount set"
@@ -2130,7 +2708,7 @@ msgstr "una altra fascia di sconto"
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid "Discounted Fees"
-msgstr "Tariffe scontate"
+msgstr "Tariffe Scontate"
 
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
@@ -2160,16 +2738,26 @@ msgid ""
 msgstr "Usate questo modulo per configurare la posizione e le informazioni opzionali per l'evento. Queste informazioni verranno mostrate sulla pagina di Informazioni Evento, e saranno incluse nelle pagine di registrazione online e nell'email di conferma, se queste caratteristiche sono abilitate."
 
 #: templates/CRM/Event/Form/ManageEvent/Location.tpl
-msgid ""
-"Uncheck this box if you want to HIDE the event Address on Event Information "
-"and Registration pages as well as on email confirmations."
-msgstr "Deseleziona questa casella se vuoi nascondere l'indirizzo dell' evento nelle pagine di informazione e di registrazione dell'evento e sulle conferme e-mail."
+msgid "Email 1:"
+msgstr "Email 1:"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Email 2:"
+msgstr "Email 2:"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Phone 1:"
+msgstr "Telefono 1:"
+
+#: templates/CRM/Event/Form/ManageEvent/Location.tpl
+msgid "Phone 2:"
+msgstr "Telefono 2:"
 
 #: templates/CRM/Event/Form/ManageEvent/Location.tpl
 msgid ""
 "This location is used by %1 other events. Modifying location information "
 "will change values for all events."
-msgstr ""
+msgstr "Questo luogo è utilizzato da %1 altri eventi. Modificando le informazioni sul luogo si cambieranno i valori per tutti gli eventi."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid ""
@@ -2197,7 +2785,7 @@ msgid ""
 "may also need to collect additional information specific to a person's "
 "<strong>participation</strong> in an Event. Examples include meal and/or "
 "volunteer preferences."
-msgstr ""
+msgstr "Se volete raccogliere informazioni aggiuntive durante la registrazione all'evento, dovrete configurare uno o più profili di CiviCRM - che sono raccolte di campi standard o personalizzati. Per la registrazione all'evento spesso desiderate raccogliere indirizzi email e nomi dei partecipanti. Potete anche voler raccogliere informazioni specifiche. Ad esempio, preferenze alimentari o per la collaborazione come volontari."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid ""
@@ -2215,7 +2803,7 @@ msgstr "Create un gruppo di campi personalizzati 'Usato per' <strong>i partecipa
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Add your field(s) this custom field group."
-msgstr ""
+msgstr "Aggiungete il vostro campo(i) a questo gruppo di campi personalizzati."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Create a profile (e.g. 'Participant Information')."
@@ -2223,14 +2811,14 @@ msgstr "Create un profilo (es. 'Informazioni sui partecipanti')."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Add your custom field(s) to this profile as profile fields."
-msgstr ""
+msgstr "Agigungete il campo(i) personalizzati a questo profilo come campi di profilo."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid ""
 "Return to this screen (<strong>Administer CiviCRM &raquo; CiviEvent &raquo; "
 "Manage Events &raquo; Configure &raquo; Online Registration</strong>) and "
 "select your profile."
-msgstr ""
+msgstr "Tornate a questa schermata (Amministra CiviCRM &raquo; Gestione Eventi &raquo; Configura &raquo; Registrazione online</strong>) e selezionate il profilo."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Registration Link"
@@ -2251,11 +2839,11 @@ msgid ""
 "Check this box to allow users to register themselves AND additional "
 "participants for an event. When this feature is enabled, users have the "
 "option to specify the number of additional participants they are registering"
-" for. If this is a paid event, they can select a different event fees for "
-"each participant - and will be charged the total of those fees. If a profile"
-" is included - they will complete the profile information for each "
+" for. If this is a paid event, they can select a different event fee for "
+"each participant and will be charged the total of those fees. If a profile "
+"is included, they will complete the profile information for each "
 "participant."
-msgstr "Seleziona questa casella per consentire agli utenti e ad ulteriori partecipanti di registrarsi per un evento. Quando questa funzione è abilitata, gli utenti hanno la possibilità di specificare il numero di ulteriori partecipanti per cui si stanno registrando. Se questo è un evento a pagamento, possono selezionare una quota evento diversa per ogni partecipante - e sarà addebitato il totale di tali quote. Se è compreso un profilo - dovranno completate le informazioni del profilo per ogni partecipante."
+msgstr ""
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid ""
@@ -2263,7 +2851,23 @@ msgid ""
 "\"Additional Participants\". For example, you may want to require an email "
 "address from the person entering the registration while not requiring (or "
 "even requesting) emails for additional participants (i.e. their \"guests\")."
-msgstr ""
+msgstr "È possibile utilizzare un profilo diverso per la persona che si sta registrando rispetto a \"Altri partecipanti\". Ad esempio, potrebbe essere necessario richiedere un indirizzo email da parte della persona che si registra senza richiedere (o anche richiedendo) e-mail per ulteriori partecipanti (ad esempio per i loro \"ospiti\")."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Maximum Additional Participants"
+msgstr "Max partecipanti addizionali"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Limit the number of additional participants that can be registered in a "
+"single booking."
+msgstr "Numero massimo di partecipanti addizionali per singola prenotazione."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Eg: if you choose '2' then the lead booker can bring 2 guests; there would "
+"be a limit of 3 participants in total per booking."
+msgstr "Ad esempio: se si sceglie '2', il titolare della prenotazione può portare 2 ospiti; ci sarebbe un limite di 3 partecipanti in totale per prenotazione."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Allow Shared Email"
@@ -2300,11 +2904,11 @@ msgid ""
 "Check this box to require administrative approval for all the participants "
 "who self-register, prior to being able to complete the registration process."
 " Participants will be placed in 'Awaiting Approval' status. You can review "
-"and approve participants from 'Find Participants' - select the 'Change "
-"Participant Status' task. Approved participants will move to 'Pending from "
+"and approve participants from 'Find Participants' - select the 'Participant "
+"status - change' task. Approved participants will move to 'Pending from "
 "approval' status, and will be sent an email with a link to complete their "
 "registration (including paying event fees - if any). "
-msgstr "Seleziona questa casella per richiedere l'approvazione amministrativa per tutti i partecipanti che si auto-registrano, prima di poter completare il processo di registrazione. I Partecipanti saranno messi in uno Stato di 'In Attesa di Approvazione'. Potrai riesaminare e approvare i Partecipanti da 'Trova Partecipanti' - seleziona 'Cambia lo Stato dei Partecipanti'. I Partecipanti approvati saranno spostati in uno Stato di 'Approvazione In Sospeso', e sarà inviata loro una email con un link per completare la loro registrazione (incluso il pagamento della quota di iscrizione all'evento - se presente)."
+msgstr "Seleziona questa casella per richiedere l'approvazione amministrativa per tutti i partecipanti che si autoregistrano, prima di poter completare la procedura di registrazione. I partecipanti verranno inseriti con lo stato 'In attesa di approvazione'. Puoi esaminare e approvare i partecipanti da \"Trova partecipanti\" - seleziona l'attività \"Stato dei partecipanti - cambia\". I partecipanti approvati passeranno allo stato \"In sospeso\" e verrà inviata un'e-mail con un link per completare la registrazione (incluse le spese per gli eventi, se presenti)."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "Time Limit"
@@ -2316,6 +2920,36 @@ msgid ""
 "by participants with any of the pending statuses. Enter 0 (or leave empty) "
 "to disable this feature."
 msgstr "Tempo limite <strong>in ore</strong> per la conferma/completamento della registrazione per partecipanti con qualsiasi posizione in sospeso. Immettere 0 (o lasciare vuoto) per disabilitare questa funzione."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Allow Self-service Cancellation or Transfer?"
+msgstr "Permetti Self-service Cancellazione o Trasferimento"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box if you want to allow registered participants to either cancel"
+" their registration OR transfer it to another participant. If this feature "
+"is enabled, event confirmation emails will include a link to a Cancel or "
+"Transfer form."
+msgstr "Seleziona questa casella se desideri consentire ai partecipanti registrati di annullare la registrazione o di trasferirla a un altro partecipante. Se questa funzione è abilitata, le e-mail di conferma dell'evento includeranno un link a una form Annulla o Trasferisci."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"<strong>Automated refunds for cancellations are NOT currently "
+"supported.</strong> Participants who have paid for an event will be notified"
+" that cancellations are not refundable."
+msgstr "<strong> I rimborsi automatici per le cancellazioni NON sono attualmente supportati. </strong> I partecipanti che hanno pagato per un evento saranno informati che le cancellazioni non sono rimborsabili."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid "Cancellation or Transfer Time Limit"
+msgstr "Tempo Limite Cancellazione o Trasferimentot"
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Number of hours prior to event start date to allow self-service cancellation"
+" or transfer. Enter 0 (or leave empty) to allow cancellation or transfer up "
+"until the event has started."
+msgstr "Numero di ore prima della data di inizio dell'evento per consentire l'annullamento o il trasferimento self-service. Immettere 0 (o lasciare vuoto) per consentire l'annullamento o il trasferimento fino all'avvio dell'evento."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "remove profile"
@@ -2335,7 +2969,7 @@ msgstr "Modificare questa se si desidera utilizzare un profilo diverso dei parte
 msgid ""
 "Include additional fields on this registration form by selecting and "
 "configuring a CiviCRM Profile to be included at the bottom of the page."
-msgstr ""
+msgstr "Includere campi aggiuntivi su questo modulo di registrazione selezionando e configurando un profilo CiviCRM da includere nella parte inferiore della pagina."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid ""
@@ -2366,7 +3000,7 @@ msgid ""
 "Include additional fields on this registration form by selecting and "
 "configuring a CiviCRM Profile to be included at the top of the page "
 "(immediately after the introductory message)."
-msgstr ""
+msgstr "Includere campi aggiuntivi su questo modulo di registrazione selezionando e configurando un profilo CiviCRM da includere nella parte superiore della pagina (immediatamente dopo il messaggio introduttivo)."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "Confirmation Screen"
@@ -2374,7 +3008,7 @@ msgstr "Schermata di conferma"
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "Optionally hide the confirmation screen for free events."
-msgstr ""
+msgstr "Facoltativamente nasconde la schermata di conferma per gli eventi gratuiti."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid ""
@@ -2392,7 +3026,7 @@ msgstr "Testo del piedipagina opzionale per la schermata di conferma."
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "Thank-you Screen"
-msgstr "Schermata Ringraziamento"
+msgstr "Schermata di Ringraziamento"
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "Page title for registration Thank-you screen."
@@ -2410,7 +3044,7 @@ msgstr "Testo piedipagina opzionale per la schermata di ringraziamento (spesso u
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid "Confirmation Email"
-msgstr "Email conferma"
+msgstr "Email di conferma"
 
 #: templates/CRM/Event/Form/ManageEvent/Registration.tpl
 msgid ""
@@ -2454,11 +3088,11 @@ msgstr "- Come per il contatto principale -"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 msgid "Connected Repeating Events"
-msgstr ""
+msgstr "Eventi ripetuti collegati"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 msgid "Event Link"
-msgstr ""
+msgstr "Link all'evento"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl
@@ -2558,24 +3192,6 @@ msgid ""
 msgstr "Rivedete qui la pagina di registrazione online all'evento <strong>LIVE</strong>. Usate il seguente URL nei link e nei pulsanti sui siti per inviare i visitatori a questa pagina."
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
-#: templates/CRM/Event/Page/ManageEvent.tpl
-msgid "Event Links"
-msgstr "Link dell'Evento "
-
-#: templates/CRM/Event/Form/ManageEvent/Tab.tpl
-#: templates/CRM/Event/Page/ManageEvent.tpl
-msgid "Register Participant"
-msgstr "Registrazione dei partecipanti"
-
-#: templates/CRM/Event/Form/ManageEvent/Tab.tpl
-msgid "Online Registration (Test-drive)"
-msgstr "Iscrizione online (Test-drive)"
-
-#: templates/CRM/Event/Form/ManageEvent/Tab.tpl
-msgid "Online Registration (Live)"
-msgstr "Iscrizione online (Live)"
-
-#: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 #: templates/CRM/Event/Page/EventInfo.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Public Participant Listing"
@@ -2590,7 +3206,7 @@ msgid ""
 "Payment amount is less than the amount owed. Expected participant status is "
 "'Partially paid'. Are you sure you want to set the participant status to %1?"
 " Click OK to continue, Cancel to change your entries."
-msgstr ""
+msgstr "L'importo del pagamento è inferiore all'importo dovuto. Lo stato dei partecipanti è 'Parzialmente pagato'. Sei sicuro di voler impostare lo stato del partecipante su% 1? Fare clic su OK per continuare, Annulla per modificare."
 
 #: templates/CRM/Event/Form/Participant.tpl
 msgid ""
@@ -2618,7 +3234,7 @@ msgstr "Ci sono altri %1 partecipante/i registrati da questo partecipante."
 #: templates/CRM/Event/Form/Participant.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
 msgid "Also Registered by this Participant"
-msgstr ""
+msgstr "Anche registrato da questo partecipante"
 
 #: templates/CRM/Event/Form/Participant.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
@@ -2633,7 +3249,7 @@ msgstr "Registrato da"
 #: templates/CRM/Event/Form/Participant.tpl
 #: templates/CRM/Event/Form/ParticipantView.tpl
 msgid "view primary participant"
-msgstr ""
+msgstr "visualizza partecipante principale"
 
 #: templates/CRM/Event/Form/Participant.tpl
 msgid "Source for this registration (if applicable)."
@@ -2641,11 +3257,11 @@ msgstr "Fonte registrazione (se applicabile)"
 
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
 msgid "Current Selections"
-msgstr ""
+msgstr "Selezioni"
 
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
 msgid "Updated Fee(s)"
-msgstr ""
+msgstr "Aggiornamento tariffe"
 
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
 msgid "Participant Confirmation"
@@ -2669,6 +3285,14 @@ msgstr "Configura questo evento"
 #: templates/CRM/Event/Form/ParticipantView.tpl
 msgid "Registration Date and Time"
 msgstr "Date e ora di registrazione"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "View this Participant"
+msgstr "Visualizza questo partecipante"
+
+#: templates/CRM/Event/Form/ParticipantView.tpl
+msgid "Event Source"
+msgstr "Fonte Evento"
 
 #: templates/CRM/Event/Form/Registration/AdditionalParticipant.tpl
 msgid "Total Participants : %1"
@@ -2698,25 +3322,19 @@ msgstr "Verifica le informazioni sottostanti. <span class=\"bold\">Quindi clicca
 msgid ""
 "Please verify the information below. Click the <strong>Go Back</strong> "
 "button below if you need to make changes."
-msgstr "Si prega di verificare le informazioni qui di seguito. Fare clic su <strong>Torna Indietro</strong> se fosse necessario apportare delle modifiche."
-
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid ""
-"Click the <strong>%1</strong> button to checkout to Google, where you will "
-"select your payment method and complete the registration."
-msgstr "Fare clic sul <strong>%1</strong> pulsante alla cassa a Google, dove potrete scegliere il metodo di pagamento e completare la registrazione."
+msgstr "Verificare le informazioni qui sotto. Clicca sul pulsante <strong>Torna Indietro</strong> se fosse necessario apportare delle modifiche."
 
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid ""
 "Click the <strong>Continue</strong> button to checkout to %1, where you will"
 " select your payment method and complete the registration."
-msgstr "Fare clic sul pulsante <strong>Continue</strong> alla cassa a %1, dove potrete scegliere il metodo di pagamento e completare la registrazione."
+msgstr "Cliccare sul pulsante <strong>Continua</strong> per fare il checkout a %1, scegliere il metodo di pagamento e completare la registrazione."
 
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid ""
 "Otherwise, click the <strong>Continue</strong> button below to complete your"
 " registration."
-msgstr "In caso contrario, fare clic sul pulsante <strong>Continua</strong> in basso per completare la registrazione."
+msgstr "In caso contrario, fare click sul pulsante <strong>Continua</strong> di seguito per completare la registrazione."
 
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid ""
@@ -2752,7 +3370,7 @@ msgstr "Mappa questo indirizzo"
 
 #: templates/CRM/Event/Form/Registration/EventInfoBlock.tpl
 msgid "Map this Location"
-msgstr "Mappa questo recapito"
+msgstr "Mappa questo Luogo"
 
 #: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
 msgid "Test-drive Your Event Registration Page"
@@ -2771,15 +3389,15 @@ msgid ""
 msgstr "La pagina è in esecuzione in <strong>modalità di test</strong>.Se questo è un evento a pagamento, le transazioni verranno inviate al server di test del gestore dei pagamenti. <strong>Non verranno effettuate transazioni finanziarie, ma verrà creato un record dei contatti e nel database sarà salvato un record di test per la registrazione all'evento. Usate nomi di contatti che siano ovviamente una prova, in modo da poter cancellare facilmente i record. </strong> Fate riferimento alla documentazione del gestore dei pagamenti usato per sapere quali valori usare per il numero di carta di credito, codice di sicurezza, codice di avviamento postale e così via."
 
 #: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "including yourself"
-msgstr "incluso chi sta compilando"
+msgid "(including yourself)"
+msgstr "(incluso chi sta compilando)"
 
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid ""
 "Fill in your registration information on this page. If you are registering "
 "additional people, you will be able to enter their registration information "
 "after you complete this page and click &quot;Continue&quot;."
-msgstr "Ti chiediamo di compilare le informazioni in questa pagina. Se stai iscrivendo più persone, potrai inserire i loro dati solo dopo aver completato questa schermata e cliccando su “Continua”."
+msgstr "Ti chiediamo di compilare le informazioni in questa pagina. Se stai iscrivendo più persone, potrai inserire i loro dati dopo aver completato questa form cliccando su “Continua”."
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -2822,10 +3440,8 @@ msgid "An email with event details has been sent to %1."
 msgstr "E' stata inviata una email con i dettagli dell'evento a %1"
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
-msgid ""
-"Your registration payment has been submitted to %1 for processing. Please "
-"print this page for your records."
-msgstr "La tua registrazione del pagamento è stata presentata al %1 per l'elaborazione. Si prega di stampare questa pagina per il proprio archivio."
+msgid "Your registration payment has been submitted to %1 for processing."
+msgstr ""
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid ""
@@ -2834,10 +3450,8 @@ msgid ""
 msgstr "Una email di conferma di registrazione verrà inviata a %1 una volta che la transazione sia stata elaborata con successo."
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
-msgid ""
-"Your registration has been processed successfully. Please print this page "
-"for your records."
-msgstr "La registrazione è stata elaborata con successo. Si prega di stampare e archiviare questa pagina."
+msgid "Your registration has been processed successfully."
+msgstr ""
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid "A registration confirmation email has also been sent to %1"
@@ -2845,7 +3459,7 @@ msgstr "Una email di conferma di registrazione è stata inviata anche a %1."
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid "Tax Total"
-msgstr ""
+msgstr "Totale Tasse"
 
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid "Additional Participant Email(s)"
@@ -2854,10 +3468,6 @@ msgstr "Email partecipanti aggiuntivi"
 #: templates/CRM/Event/Form/Registration/ThankYou.tpl
 msgid "Back to \"%1\" event information"
 msgstr "Torna alle informazioni dell'evento \"%1\""
-
-#: templates/CRM/Event/Form/Search/Common.tpl
-msgid "Event Dates"
-msgstr "Date dell'evento"
 
 #: templates/CRM/Event/Form/Search/EmptyResults.tpl
 msgid "if you are searching by participant name, check your spelling"
@@ -2906,37 +3516,58 @@ msgstr "Trova i partecipanti all'evento"
 msgid "View all events for this contact"
 msgstr "Visualizza tutti gli eventi di questo contatto"
 
-#: templates/CRM/Event/Form/Task/Batch.tpl
-msgid ""
-"Update the status for each participant individually, OR change all statuses "
-"to:"
-msgstr "Aggiorna lo status per ogni partecipante, OPPURE imposta per tutti lo status a:"
+#: templates/CRM/Event/Form/SelfSvcTransfer.tpl
+msgid "Current<br />Participant"
+msgstr "Partecipante attuale"
+
+#: templates/CRM/Event/Form/SelfSvcUpdate.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Cancellations are not refundable."
+msgstr "Le cancellazioni non sono rimborsabili."
 
 #: templates/CRM/Event/Form/Task/Batch.tpl
 msgid ""
-"Participants whose status is changed FROM Pending Pay Later TO Registered or"
-" Attended will receive a confirmation email and their payment status will be"
-" set to completed. If this is not what you want to do, you can change their "
-"participant status by editing their event registration record directly."
-msgstr ""
+"Update the status for each participant individually below, or change all "
+"statuses to:"
+msgstr "Aggiorna lo stato per ogni partecipante individualmente, o modifica tutti gli stati in:"
 
 #: templates/CRM/Event/Form/Task/Batch.tpl
 msgid ""
-"Participants whose status is changed TO any of the following will be "
-"automatically notified via email: %1."
-msgstr "I partecipanti il cui status è cambiato in una qualsiasi delle seguenti verrà automaticamente notificato via e-mail:%1."
+"This form <strong>will send email</strong> to contacts only in certain "
+"circumstances:"
+msgstr "Questa form <strong>invierà email</strong> ai contatti sono in certe circostanze:"
 
 #: templates/CRM/Event/Form/Task/Batch.tpl
 msgid ""
-"Update field values for each participant as needed. To set a field to the "
-"same value for ALL rows, enter that value for the first participation and "
-"then click the <strong>Copy icon</strong> (next to the column title)."
-msgstr "Aggiorna i valori dei campi per ciascun partecipante se necessario.  Clicca su <strong>Aggiorna Partecipazione all'Evento</strong> qui sotto per salvare tutte le modifiche. Per impostare un campo allo stesso valore per TUTTE le righe, imposta questo valore per il primo partecipante e poi clicca sull'<strong>icona Copia</strong> (accanto al titolo della colonna)."
+"<strong>Resolving \"Pay Later\" registrations for online "
+"registrations:</strong> Participants who registered online whose status is "
+"changed from <em>Pending Pay Later</em> to <em>Registered</em> or "
+"<em>Attended</em> will receive a confirmation email and their payment status"
+" will be set to completed. If this is not you want to do, you can change "
+"their participant status by editing their event registration record "
+"directly."
+msgstr "Risoluzione delle registrazioni \"Paga dopo\" per le registrazioni online: i partecipanti che si sono registrati online il cui stato è cambiato da Paga in sospeso a Registrato o Partecipante riceveranno un'email di conferma e il loro stato di pagamento verrà impostato su Completato. Se non è ciò che si desidera, è possibile modificare lo stato dei partecipanti modificando direttamente il record di registrazione dell'evento."
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"<strong>Special statuses:</strong> Participants whose status is changed to "
+"any of the following will be automatically notified via email: %1"
+msgstr "Status speciali: I partecipanti il cui status è cambiato in uno qualsiasi dei seguenti verrà automaticamente notificato via email: %1."
+
+#: templates/CRM/Event/Form/Task/Batch.tpl
+msgid ""
+"Update field values for each participant as needed. To set a field to the same value for ALL rows, enter that value for the first participation and then click the\n"
+"        <strong>Copy icon</strong>\n"
+"        (next to the column title)."
+msgstr "Aggiorna i valori dei campi per ogni partecipante. Per impostare un campo con lo stesso valore su TUTTE le righe, immettere quel valore per la prima partecipazione e quindi fare clic su\n        <strong>Copy </strong>\n        (accanto al titolo della colonna)."
 
 #: templates/CRM/Event/Form/Task/Batch.tpl
 msgid ""
 "Click <strong>Update Participant(s)</strong> below to save all your changes."
-msgstr "Fare clic su <strong>Aggiorna partecipante</strong> qui di seguito per salvare tutte le modifiche."
+msgstr "Fare click su <strong>Aggiorna partecipante</strong> qui di seguito per salvare tutte le modifiche."
 
 #: templates/CRM/Event/Form/Task/Cancel.tpl
 msgid ""
@@ -2977,10 +3608,6 @@ msgid ""
 "the maximum number of participants configured for the event)."
 msgstr "Se stai spostando dei Partecipanti dallo Stato  \"In Lista d'Attesa\" allo Stato \"Sospeso dalla Lista d'Attesa\", assicurati che ci siano posti disponibili per l'evento. Sarà inviata una email automatica con un link di conferma registrazione. Comunque, ai Partecipanti sarà consentito completare la loro registrazione solo se l'evento non è ancora pieno (ad esempio: il numero dei partecipanti registrati è minore del massimo numero dei partecipanti configurati per quell'evento). "
 
-#: templates/CRM/Event/Form/Task/PickProfile.tpl
-msgid "Batch Update Event via Profile"
-msgstr "Aggiornamento automatico dell'evento via profilo"
-
 #: templates/CRM/Event/Form/Task/Print.tpl
 msgid "Event Date"
 msgstr "Data Evento"
@@ -2989,7 +3616,7 @@ msgstr "Data Evento"
 msgid ""
 "NOTE: Contacts selected on the search results are not relevant here; all "
 "contacts that meet the following criteria will be in the group."
-msgstr ""
+msgstr "NOTA: i contatti selezionati nei risultati di ricerca non sono rilevanti qui; tutti i contatti che soddisfano i seguenti criteri saranno nel gruppo."
 
 #: templates/CRM/Event/Form/Task.tpl
 msgid "Number of selected participants: %1"
@@ -3020,7 +3647,7 @@ msgid ""
 " found in the CiviEvent section of the Administer CiviCRM screen. You can "
 "also import Fee Level, Registration Date and any other standard or custom "
 "Participant fields."
-msgstr ""
+msgstr "Il ruolo del partecipante predefinito dell'evento (in genere Spettatore) verrà assegnato se non selezioni  un valore. I valori validi per Stato e Ruolo sono disponibili nella sezione CiviEvent della form di  Amministrazione CiviCRM. È inoltre possibile importare la quota Tariffa, la Data di registrazione e qualsiasi altro campo standard o personalizzato del Partecipante."
 
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 msgid "Contact Records for Event Participants"
@@ -3036,7 +3663,7 @@ msgid ""
 "'External ID' for each new contact which you can then use to match "
 "participant info such as event registration to the corresponding contact "
 "record. Then return to this screen and import the participant records."
-msgstr "L'importazione dei partecipanti richiede che ciascuna persona, famiglia o organizzazione già esista come contatto nel database di CiviCRM. Se dovete importare le informazioni su partecipanti che non sono già stati inseriti in CiviCRM lo dovrete fare in due passi. Per prima cosa, usate <strong>Importa contatti</strong> per aggiungere i contatti; se possibile, inserite anche un 'ID esterno' univoco per ciascun contatto, da usare poi come corrispondenza tra partecipante e registrazione all'evento. Poi tornate su questa schermata e importate i partecipanti."
+msgstr "L'importazione dei partecipanti richiede che ciascuna persona, nucleo familiare o organizzazione già esista come contatto nel database di CiviCRM. Se dovete importare le informazioni su partecipanti che non sono già stati inseriti in CiviCRM lo dovrete fare in due passi. Per prima cosa, usate <strong>Importa contatti</strong> per aggiungere i contatti; se possibile, inserite anche un 'ID esterno' univoco per ciascun contatto, da usare poi come corrispondenza tra partecipante e registrazione all'evento. Poi tornate su questa schermata e importate i partecipanti."
 
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 msgid "Matching Participant Data to Contacts"
@@ -3071,7 +3698,7 @@ msgid ""
 "For each import, you can either INSERT new event registration (participant) "
 "records, or UPDATE existing records. You can not do both types of operations"
 " in a single import session."
-msgstr ""
+msgstr "Per ogni importazione,è possibile inserire un nuovo record di registrazione evento, o aggiornare i record esistenti. Non si possono fare entrambi i tipi di operazioni in un'unica sessione di import."
 
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 msgid ""
@@ -3114,7 +3741,7 @@ msgid ""
 "Select 'Organization' or 'Household' if you are importing event "
 "participation data for contacts of that type. (NOTE: Some built-in contact "
 "types may not be enabled for your site.)"
-msgstr "Seleziona 'Organizzazione' o 'Famiglia' se si stanno importando i dati degli eventi di partecipazione per i contatti di quel tipo. (Nota: alcuni tipi di contatto di sistema non possono essere abilitati per il tuo sito)."
+msgstr "Seleziona 'Organizzazione' o 'nucleo familiare' se si stanno importando i dati degli eventi di partecipazione per i contatti di quel tipo. (Nota: alcuni tipi di contatto di sistema non possono essere abilitati per il tuo sito)."
 
 #: templates/CRM/Event/Import/Form/Preview.tpl
 msgid ""
@@ -3143,8 +3770,8 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected mismatched participant IDs. These records have not been"
 " updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM ha rilevato degli ID di partecipante non corretti. I record non sono stati aggiornati."
+msgstr[1] "CiviCRM ha rilevato degli ID di partecipante non corretti. I record non sono stati aggiornati."
 
 #: templates/CRM/Event/Import/Form/Summary.tpl
 msgid ""
@@ -3161,8 +3788,8 @@ msgid_plural ""
 "CiviCRM has detected %count records with conflicting participant IDs within "
 "this data file or relative to existing participant records. These records "
 "have not been imported."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM ha rilevato un record con l'ID di partecipante non corretto all'interno di questo file, o relativi ai record esistenti dei partecipanti. Questo record non è stato importati."
+msgstr[1] "CiviCRM ha rilevato %count record con ID di partecipanti non corretti all'interno di questo file, o relativi ai record esistenti dei partecipanti. Questi record non sono stati importati."
 
 #: templates/CRM/Event/Import/Form/Summary.tpl
 msgid ""
@@ -3224,7 +3851,7 @@ msgid ""
 "click on the <strong>New Event</strong> link. You can also <a "
 "href='%2'><strong>import batches of participants</strong></a> from other "
 "sources."
-msgstr "Potete anche immettere e tracciare gli Eventi off-line. Per inserire manualmente dei contatti in un evento, usate <a href=\"%1\">Trova Contatti</a> per localizzare i contatti. Poi cliccate <strong>Visualizza</strong> per andare alla pagina del riassunto e cliccate sul link <strong>Nuovo evento</strong>. Potete anche <a href=\"%3\"> importare un gruppo di partecipanti</a> da altre fonti. "
+msgstr "È anche possibile immettere e tracciare Eventi offline. Per inserire eventi manualmente per contatti individuali, usa <a href='%1'>Trova Contatti</a> per reperire il contatto. Poi clicca <strong>Mostra</strong> per andare alla pagina d riepilogo e cliccate su <strong>Nuovo Evento</strong>. Si può anche <a href='%2'><strong>importare partecipanti in batch</strong></a> da altre fonti. "
 
 #: templates/CRM/Event/Page/DashBoard.hlp
 msgid ""
@@ -3234,7 +3861,7 @@ msgid ""
 "<strong>Participants count</strong> to see a list of participants. To run "
 "your own customized searches - click <a href='%1'>Find Participants</a>. You"
 " can search by Participant Name, Event, Date Range and Status."
-msgstr "La Tabella Sommario Eventi presenta una sintesi di fino a dieci <strong>eventi</strong> recenti in programma. Fare clic sul <strong>Nome Evento</strong> per visualizzare l'evento come questo verrà visualizzato ai visitatori del sito. Clicca sul <strong>Numero di Partecipanti</strong> per visualizzare un elenco di partecipanti. Per eseguire ricerche personalizzate proprie - scegliere <a href='%1'>Trova Partecipanti</a>. Puoi cercare per Nome del Partecipante, Evento, Intervallo di Date e di Stato."
+msgstr "La tabella Riepilogo Evento presenta una sintesi di fino a dieci <strong>Eventi</strong> schedulati e recenti. Clicca su <strong>Nome Evento</strong> per visualizzare l'evento come questo verrà mostrato ai visitatori del sito. Clicca su <strong>Numero Partecipanti</strong> per visualizzare un elenco dei partecipanti. Per eseguire ricerche personalizzate - clicca su <a href='%1'>Trova Partecipanti</a>. Puoi cercare per Nome Partecipante, Evento, Intervallo di Date e Stato."
 
 #: templates/CRM/Event/Page/DashBoard.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl
@@ -3258,11 +3885,11 @@ msgstr "Usare i feed iCalendar per gli eventi pubblici attuali e futuri."
 
 #: templates/CRM/Event/Page/DashBoard.tpl
 msgid "Repeating Event"
-msgstr ""
+msgstr "Evento ripetuto"
 
 #: templates/CRM/Event/Page/DashBoard.tpl
 msgid "Child"
-msgstr ""
+msgstr "Figlio/a"
 
 #: templates/CRM/Event/Page/DashBoard.tpl
 msgid "List %1 participants"
@@ -3306,7 +3933,7 @@ msgstr "Registrazioni recenti"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "Registration is closed for this event"
-msgstr "La registrazione è chiusa per questo evento"
+msgstr "La registrazione per questo evento è chiusa"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "Configure this event."
@@ -3314,15 +3941,15 @@ msgstr "Configura questo evento"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "Participant listing links."
-msgstr ""
+msgstr "Link elenco Partecipanti"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "List counted participants"
-msgstr ""
+msgstr "Elenco dei partecipanti contati"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "List uncounted participants"
-msgstr ""
+msgstr "Elenco dei partecipanti non contati"
 
 #: templates/CRM/Event/Page/EventInfo.tpl
 msgid "Show large map"
@@ -3335,10 +3962,6 @@ msgstr "Categoria"
 #: templates/CRM/Event/Page/ICalendar.tpl
 msgid "details..."
 msgstr "dettagli..."
-
-#: templates/CRM/Event/Page/ICalendar.tpl
-msgid "(not available)"
-msgstr "(non disponibile)"
 
 #: templates/CRM/Event/Page/ManageEvent.hlp
 msgid "ICalendar Downloads and Feeds"
@@ -3389,7 +4012,7 @@ msgid ""
 "type=N - Specify a particular Event Type using the event_type_id value. (You"
 " can find these values by browsing the listing at Administer &raquo; "
 "CiviEvent &raquo; Event Types.)"
-msgstr ""
+msgstr "type=N - Indica un particolare tipo di evento, usando il valore di event_type_id (lo si può trovare sull'elenco in Amministra CiviCRM &raquo; CiviEvent > Tipi di evento)."
 
 #: templates/CRM/Event/Page/ManageEvent.hlp
 msgid ""
@@ -3438,18 +4061,6 @@ msgid "Add Event"
 msgstr "Aggiungi Evento"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
-msgid "Registration (Test-drive)"
-msgstr "Registrazione (Collaudo)"
-
-#: templates/CRM/Event/Page/ManageEvent.tpl
-msgid "Registration (Live)"
-msgstr "Registrazione (Live)"
-
-#: templates/CRM/Event/Page/ManageEvent.tpl
-msgid "Don't see your event listed? Try \"Search All or by Date Range\" above."
-msgstr "L'evento non è presente nell'elenco? Provare con l'opzione \"Cerca Tutte o per intervallo date\"."
-
-#: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "No available Events match your search criteria. Suggestions:"
 msgstr "Nessun evento disponibile corrisponde ai criteri di ricerca. Suggerimenti:"
 
@@ -3487,7 +4098,7 @@ msgstr "Fare clic su <a href='%1'>Aggiungi Registrazione evento</a> per registra
 msgid ""
 "Click <a %1>Submit Credit Card Event Registration</a> to process a new New "
 "Registration on behalf of the participant using their credit card."
-msgstr ""
+msgstr "Fare clic su <a href='%1'>Invia carta di credito di registrazione dell'evento</a> per elaborare una Nuova Registrazione per conto del partecipante usando la loro carta di credito."
 
 #: templates/CRM/Event/Page/Tab.tpl
 msgid "Add Event Registration"
@@ -3527,6 +4138,8 @@ msgstr "Feed iCalendar per questo evento."
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 msgid "Event Information and Location"
 msgstr "Informazioni e Luogo dell'evento"
 
@@ -3540,6 +4153,8 @@ msgstr "Informazioni e Luogo dell'evento"
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 msgid "Event Contacts:"
 msgstr "Contatti Evento:"
 
@@ -3564,364 +4179,6 @@ msgstr "Conferma dell'evento"
 #: xml/templates/message_templates/participant_confirm_text.tpl
 msgid "Download iCalendar File:"
 msgstr "Scarica file iCalendar:"
-
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: xml/templates/message_templates/participant_confirm_html.tpl
-#: xml/templates/message_templates/participant_confirm_text.tpl
-msgid "Your schedule:"
-msgstr ""
-
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-msgid "You were registered by:"
-msgstr "Sei stato registrato da:"
-
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-msgid "Participant Total"
-msgstr ""
-
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-msgid " Amount Before Tax: "
-msgstr ""
-
-#: xml/templates/message_templates/event_online_receipt_subject.tpl
-msgid "Wait List Confirmation"
-msgstr "Conferma Lista d'Attesa"
-
-#: xml/templates/message_templates/participant_cancelled_html.tpl
-#: xml/templates/message_templates/participant_cancelled_text.tpl
-#: xml/templates/message_templates/participant_confirm_html.tpl
-#: xml/templates/message_templates/participant_confirm_text.tpl
-#: xml/templates/message_templates/participant_expired_html.tpl
-#: xml/templates/message_templates/participant_expired_text.tpl
-msgid "Please contact us at %1 or send email to %2 if you have questions."
-msgstr "Contattaci allo %1 o mandaci una email a %2 se hai domande."
-
-#: xml/templates/message_templates/participant_cancelled_subject.tpl
-msgid "Event Registration Cancelled for %1"
-msgstr "Registrazione all'evento cancellata per %1"
-
-#: xml/templates/message_templates/participant_confirm_html.tpl
-#: xml/templates/message_templates/participant_confirm_text.tpl
-msgid "Confirm Your Registration"
-msgstr "Conferma la tua registrazione"
-
-#: xml/templates/message_templates/participant_confirm_subject.tpl
-msgid "Confirm your registration for %1"
-msgstr "Conferma la tua registrazione per %1"
-
-#: xml/templates/message_templates/participant_expired_html.tpl
-#: xml/templates/message_templates/participant_expired_text.tpl
-msgid ""
-"Your pending event registration for %1 has expired\n"
-"because you did not confirm your registration."
-msgstr "La tua registrazione in attesa per %1 è scaduta\nperché non l'hai confermata."
-
-#: xml/templates/message_templates/participant_expired_html.tpl
-#: xml/templates/message_templates/participant_expired_text.tpl
-msgid ""
-"Please contact us at %1 or send email to %2 if you have questions\n"
-"or want to inquire about reinstating your registration for this event."
-msgstr ""
-
-#: xml/templates/message_templates/participant_expired_subject.tpl
-msgid "Event registration has expired for %1"
-msgstr "La registrazione all'evento è scaduta per %1"
-
-#: CRM/Event/BAO/Query.php
-msgid "Participant is %1"
-msgstr ""
-
-#: CRM/Event/BAO/Query.php
-msgid ""
-"Please check that your Event Date Range is in correct chronological order."
-msgstr ""
-
-#: CRM/Event/BAO/Query.php
-msgid ""
-"Please check that your Registration Date Range is in correct chronological "
-"order."
-msgstr ""
-
-#: CRM/Event/Cart/DAO/Cart.php
-msgid "Cart ID"
-msgstr ""
-
-#: CRM/Event/Cart/DAO/Cart.php
-msgid "Complete?"
-msgstr ""
-
-#: CRM/Event/Cart/DAO/EventInCart.php
-msgid "Event In Cart"
-msgstr ""
-
-#: CRM/Event/DAO/Event.php
-msgid "Default Role"
-msgstr ""
-
-#: CRM/Event/DAO/Event.php
-msgid "Maximum number of additional participants per registration"
-msgstr ""
-
-#: CRM/Event/DAO/Event.php
-msgid "Allow Self-service Cancellation or Transfer"
-msgstr ""
-
-#: CRM/Event/DAO/Event.php
-msgid "Self-service Cancellation or Transfer Time"
-msgstr ""
-
-#: CRM/Event/DAO/Participant.php
-msgid "Transferred to Contact ID"
-msgstr ""
-
-#: CRM/Event/Form/ManageEvent/Registration.php
-msgid "Maximum additional participants"
-msgstr ""
-
-#: CRM/Event/Form/ManageEvent/Registration.php
-msgid "Allow self-service cancellation or transfer?"
-msgstr ""
-
-#: CRM/Event/Form/ManageEvent/Registration.php
-msgid "Cancellation or transfer time limit (hours)"
-msgstr ""
-
-#: CRM/Event/Form/Registration/AdditionalParticipant.php
-msgid ""
-"Sorry, it looks like this event only has %2 spaces available, and you are "
-"trying to register %1 participants. Please change your selections "
-"accordingly."
-msgstr ""
-
-#: CRM/Event/Form/Registration/Register.php
-msgid ""
-"It looks like you are already registered for this event. If you want to "
-"change your registration, or you feel that you've received this message in "
-"error, please contact the site administrator."
-msgstr "Sembra che tu sia già iscritto a questo evento. Se vuoi modificare la tua iscrizione o pensi di aver ricevuto questo messaggio per errore, per favore contattaci."
-
-#: CRM/Event/Form/Registration/Register.php
-msgid ""
-"It looks like this participant is already registered for this event. If you "
-"want to change your registration, or you feel that you've received this "
-"message in error, please contact the site administrator."
-msgstr ""
-
-#: CRM/Event/Form/Registration.php
-msgid "Sorry, currently only a single space is available for this option."
-msgstr ""
-
-#: CRM/Event/Form/Registration.php
-msgid "Sorry, currently only %1 spaces are available for this option."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
-msgid ""
-"You do not have sufficient permission to transfer/cancel this participant."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "To Email"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "To Last Name"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "To First Name"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "Transfer Registration"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "Enter valid email address."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid " is already registered for this event"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php
-msgid "Registration Transferred"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
-msgid "A cancellation email has been sent to %1."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcTransfer.php CRM/Event/Form/SelfSvcUpdate.php
-msgid "Thanks"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid ""
-"Registration for this event cannot be cancelled or transferred once the "
-"event has begun. Contact the event organizer if you have questions."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid ""
-"Registration for this event cannot be cancelled or transferred less than %1 "
-"hours prior to the event's start time. Contact the event organizer if you "
-"have questions."
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid "Transfer or Cancel Registration"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid "Transfer"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid "Submit"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php
-msgid "Please select Transfer OR Cancel action."
-msgstr ""
-
-#: CRM/Event/Form/Task/Batch.php CRM/Event/Form/Task/PickProfile.php
-#: CRM/Event/Task.php
-msgid "Update multiple participants"
-msgstr ""
-
-#: CRM/Event/Form/Task/Batch.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple participants."
-msgstr ""
-
-#: CRM/Event/Form/Task/Batch.php
-msgid ""
-"Participants whose status is changed FROM Pending Pay Later TO Registered or"
-" Attended will receive a confirmation email and their payment status will be"
-" set to completed. If this is not you want to do, you can change their "
-"participant status by editing their event registration record directly."
-msgstr ""
-
-#: CRM/Event/Form/Task/Batch.php
-msgid ""
-"Participants whose status is changed TO any of the following will be "
-"automatically notified via email: %1"
-msgstr ""
-
-#: CRM/Event/Task.php
-msgid "Delete participants from event"
-msgstr ""
-
-#: CRM/Event/Task.php
-msgid "Export participants"
-msgstr ""
-
-#: CRM/Event/Task.php
-msgid "Cancel registration"
-msgstr ""
-
-#: CRM/Event/Task.php
-msgid "Participant status - change (emails sent)"
-msgstr ""
-
-#: CRM/Event/Task.php
-msgid "Name badges - print"
-msgstr "Badge nominativi - stampa"
-
-#: CRM/Event/Task.php
-msgid "PDF letter - print for participants"
-msgstr ""
-
-#: CRM/Event/Tokens.php
-msgid "Event Contact (Email)"
-msgstr ""
-
-#: CRM/Event/Tokens.php
-msgid "Event Contact (Phone)"
-msgstr ""
-
-#: templates/CRM/Event/Form/EventFees.tpl
-msgid ""
-"The Payment Status for this participant is Completed. The Participant Status"
-" is set to Pending (pay later). Click Cancel if you want to review or modify"
-" these values before saving this record"
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid "Maximum Additional Participants"
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"Limit the number of additional participants that can be registered in a "
-"single booking."
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"Eg: if you choose '2' then the lead booker can bring 2 guests; there would "
-"be a limit of 3 participants in total per booking."
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"Check this box to require administrative approval for all the participants "
-"who self-register, prior to being able to complete the registration process."
-" Participants will be placed in 'Awaiting Approval' status. You can review "
-"and approve participants from 'Find Participants' - select the 'Participant "
-"status - change' task. Approved participants will move to 'Pending from "
-"approval' status, and will be sent an email with a link to complete their "
-"registration (including paying event fees - if any). "
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid "Allow Self-service Cancellation or Transfer?"
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"Check this box if you want to allow registered participants to either cancel"
-" their registration OR transfer it to another participant. If this feature "
-"is enabled, event confirmation emails will include a link to a Cancel or "
-"Transfer form."
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"<strong>Automated refunds for cancellations are NOT currently "
-"supported.</strong> Participants who have paid for an event will be notified"
-" that cancellations are not refundable."
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid "Cancellation or Transfer Time Limit"
-msgstr ""
-
-#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
-msgid ""
-"Number of hours prior to event start date to allow self-service cancellation"
-" or transfer. Enter 0 (or leave empty) to allow cancellation or transfer up "
-"until the event has started."
-msgstr ""
-
-#: templates/CRM/Event/Form/ParticipantView.tpl
-msgid "View this Participant"
-msgstr ""
-
-#: templates/CRM/Event/Form/SelfSvcTransfer.tpl
-msgid "Current<br />Participant"
-msgstr ""
-
-#: templates/CRM/Event/Form/Task/Batch.tpl
-msgid ""
-"Update field values for each participant as needed. To set a field to the same value for ALL rows, enter that value for the first participation and then click the\n"
-"        <strong>Copy icon</strong>\n"
-"        (next to the column title)."
-msgstr ""
 
 #: xml/templates/message_templates/event_online_receipt_html.tpl
 #: xml/templates/message_templates/event_online_receipt_text.tpl
@@ -3950,22 +4207,43 @@ msgstr "Questa è l'email di conferma che la tua iscrizione è stata ricevuta e 
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 #: xml/templates/message_templates/participant_confirm_html.tpl
 #: xml/templates/message_templates/participant_confirm_text.tpl
-msgid ""
-"You may transfer your registration to another participant or cancel your "
-"registration up to %1 hours before the event."
-msgstr ""
+msgid "Your schedule:"
+msgstr "Il vostro programma (calendario):"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid "You were registered by:"
+msgstr "Sei stato registrato da:"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+msgid "Participant Total"
+msgstr "Totale Partecipante"
+
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+msgid " Amount Before Tax: "
+msgstr "Importo prima delle tasse:"
 
 #: xml/templates/message_templates/event_online_receipt_html.tpl
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 #: xml/templates/message_templates/participant_confirm_html.tpl
 #: xml/templates/message_templates/participant_confirm_text.tpl
-msgid "Cancellations are not refundable."
-msgstr ""
+msgid ""
+"You may transfer your registration to another participant or cancel your "
+"registration up to %1 hours before the event."
+msgstr "È possibile trasferire la registrazione a un altro partecipante o annullare la registrazione fino a %1 ore prima dell'evento."
 
 #: xml/templates/message_templates/event_online_receipt_html.tpl
 #: xml/templates/message_templates/participant_confirm_html.tpl
 msgid "Click here to transfer or cancel your registration."
-msgstr ""
+msgstr "Premi qui per trasferire o cancellare la tua registrazione."
+
+#: xml/templates/message_templates/event_online_receipt_subject.tpl
+msgid "Wait List Confirmation"
+msgstr "Conferma Lista d'Attesa"
+
+#: xml/templates/message_templates/event_online_receipt_subject.tpl
+msgid "Registration Request Confirmation"
+msgstr "Conferma Richiesta di registrazione"
 
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 msgid ""
@@ -3988,20 +4266,108 @@ msgstr "Questa email è la conferma dell'avvenuta iscrizione e il tuo status è 
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 #: xml/templates/message_templates/participant_confirm_text.tpl
 msgid "Transfer or cancel your registration:"
-msgstr ""
+msgstr "Trasferisci o Annulla la Registrazione:"
+
+#: xml/templates/message_templates/participant_cancelled_html.tpl
+#: xml/templates/message_templates/participant_cancelled_text.tpl
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
+msgid "Please contact us at %1 or send email to %2 if you have questions."
+msgstr "Contattaci allo %1 o mandaci una email a %2 se hai domande."
+
+#: xml/templates/message_templates/participant_cancelled_subject.tpl
+msgid "Event Registration Cancelled for %1"
+msgstr "Registrazione all'evento cancellata per %1"
+
+#: xml/templates/message_templates/participant_confirm_html.tpl
+#: xml/templates/message_templates/participant_confirm_text.tpl
+msgid "Confirm Your Registration"
+msgstr "Conferma la tua registrazione"
 
 #: xml/templates/message_templates/participant_confirm_html.tpl
 msgid "Self service cancel transfer"
-msgstr ""
+msgstr "Self service cancellazione o transferimento"
+
+#: xml/templates/message_templates/participant_confirm_subject.tpl
+msgid "Confirm your registration for %1"
+msgstr "Conferma la tua registrazione per %1"
+
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+msgid ""
+"Your pending event registration for %1 has expired\n"
+"because you did not confirm your registration."
+msgstr "La tua registrazione in attesa per %1 è scaduta\nperché non l'hai confermata."
+
+#: xml/templates/message_templates/participant_expired_html.tpl
+#: xml/templates/message_templates/participant_expired_text.tpl
+msgid ""
+"Please contact us at %1 or send email to %2 if you have questions\n"
+"or want to inquire about reinstating your registration for this event."
+msgstr "Vi preghiamo di contattarci a %1 o inviare e-mail a %2 se avete domande\no se desiderate chiedere informazioni sul ripristino della registrazione per questo evento."
+
+#: xml/templates/message_templates/participant_expired_subject.tpl
+msgid "Event registration has expired for %1"
+msgstr "La registrazione all'evento è scaduta per %1"
 
 #: xml/templates/message_templates/participant_transferred_html.tpl
 msgid "Your Event Registration has been Transferred to %1."
-msgstr ""
+msgstr "La tua registrazione all'evento è stata trasferita a %1."
 
 #: xml/templates/message_templates/participant_transferred_subject.tpl
 msgid "Event Registration Transferred for %1"
-msgstr ""
+msgstr "Registrazione all'evento trasferita per %1"
 
 #: xml/templates/message_templates/participant_transferred_text.tpl
 msgid "Your Event Registration has been transferred to %1."
-msgstr ""
+msgstr "La tua registrazione all'evento è stata trasferita a %1."
+
+#: CRM/Event/Form/ManageEvent/EventInfo.php
+msgid "Start Date and Time are required fields"
+msgstr "Data e Ora di inizio sono campi richiesti"
+
+#: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
+msgid ""
+"You may allow users to join a waitlist when the event is full. To enable "
+"this feature you must first enable the Participant Statuses used by the "
+"waitlist work-flow (click the pencil icon, or navigate to Administer » "
+"CiviEvent » Participant Statuses). Then reload this form and check 'Offer a "
+"Waitlist?'."
+msgstr "È possibile consentire agli utenti di entrare in una lista d'attesa quando l'evento è completo. Per attivare questa funzionalità è necessario abilitare lo Status Partecipante usato dal work-flow della lista d'attesa (Amministrazione » CiviEvent » Status Partecipanti). Poi ricaricare la form e settare: \"offerta lista d'attesa?\"."
+
+#: templates/CRM/Event/Form/ManageEvent/Registration.hlp
+msgid ""
+"Check this box to allow users to register themselves AND additional "
+"participants for an event. When this feature is enabled, users have the "
+"option to specify the number of additional participants they are registering"
+" for. If this is a paid event, they can select a different event fees for "
+"each participant - and will be charged the total of those fees. If a profile"
+" is included - they will complete the profile information for each "
+"participant."
+msgstr "Seleziona questa casella per consentire agli utenti e ad ulteriori partecipanti di registrarsi per un evento. Quando questa funzione è abilitata, gli utenti hanno la possibilità di specificare il numero di ulteriori partecipanti per cui si stanno registrando. Se questo è un evento a pagamento, possono selezionare una quota evento diversa per ogni partecipante - e sarà addebitato il totale di tali quote. Se è compreso un profilo - dovranno completate le informazioni del profilo per ogni partecipante."
+
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+msgid ""
+"Click the <strong>%1</strong> button to checkout to Google, where you will "
+"select your payment method and complete the registration."
+msgstr "Cliccare sul pulsante <strong>%1</strong> per fare il checkout con Google, scegliere il metodo di pagamento e completare la registrazione."
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid ""
+"Your registration payment has been submitted to %1 for processing. Please "
+"print this page for your records."
+msgstr "La tua registrazione del pagamento è stata inviata al %1 per l'elaborazione. Stampare questa pagina per il proprio archivio."
+
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+msgid ""
+"Your registration has been processed successfully. Please print this page "
+"for your records."
+msgstr "La registrazione è stata elaborata con successo. Si prega di stampare o archiviare questa pagina."
+
+#: templates/CRM/Event/Page/ManageEvent.tpl
+msgid "Don't see your event listed? Try \"Search All or by Date Range\" above."
+msgstr "L'evento non è presente nell'elenco? Provare con l'opzione \"Cerca Tutte o per intervallo date\"."

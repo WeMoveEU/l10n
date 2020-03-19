@@ -3,12 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-06 01:38+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 11:10+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Hareketler"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "View/Add Transactions to Batch"
-msgstr "Toplu İşlem Hareketleri Ekleyin/Görüntüleyin"
+msgstr "Toplu İşlem Hareketleri Ekle/Görüntüle"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Re-open Batch"
@@ -39,7 +39,7 @@ msgstr "Toplu İşlemi Silin"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Download Batch"
-msgstr "Toplu İşlemi İndirin"
+msgstr "Toplu İşlemi İndir"
 
 #: CRM/Batch/BAO/Batch.php
 msgid "Enter records"
@@ -59,15 +59,23 @@ msgstr "Henüz bir toplu işlem seçilmemiş."
 
 #: CRM/Batch/BAO/Batch.php
 msgid "No export format selected."
-msgstr "Bir verme biçimi seçilmemiş."
+msgstr "Bir dışa aktarma biçimi seçilmemiş."
 
-#: CRM/Batch/DAO/Batch.php
+#: CRM/Batch/DAO/Batch.php CRM/Batch/DAO/EntityBatch.php
 msgid "Batch ID"
 msgstr "Toplu İşlem Kodu"
 
 #: CRM/Batch/DAO/Batch.php
+msgid "Variable name/programmatic handle for this batch."
+msgstr "Bu toplu işlemin değişken adı ya da programsal kodu."
+
+#: CRM/Batch/DAO/Batch.php
 msgid "Batch Description"
 msgstr "Toplu İşlem Açıklaması"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Description of this batch set."
+msgstr "Bu toplu işlem kümesinin açıklaması."
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Created By"
@@ -90,24 +98,68 @@ msgid "Batch Smart Group"
 msgstr "Toplu İşlem Akıllı Grubu"
 
 #: CRM/Batch/DAO/Batch.php
+msgid "FK to Saved Search ID"
+msgstr "Kaydedilmiş Arama Koduna Dış Anahtar"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Status options in civicrm_option_values"
+msgstr "civicrm_option_values içinde Toplu İşlem Durumu seçeneklerine Dış Anahtar"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch Type options in civicrm_option_values"
+msgstr "civicrm_option_values içinde Toplu İşlem Türü seçeneklerine Dış Anahtar"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Batch mode options in civicrm_option_values"
+msgstr "civicrm_option_values içinde Toplu İşlem kipi seçeneklerine Dış Anahtar"
+
+#: CRM/Batch/DAO/Batch.php
 msgid "Batch Total"
 msgstr "Toplu İşlem Toplamı"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Total amount for this batch."
+msgstr "Bu toplu işlemin toplam miktarı."
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Number of Items"
 msgstr "Toplu İşlem Öge Sayısı"
 
 #: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Instrument"
-msgstr "Toplu İşlem Ödeme Aracı"
+msgid "Number of items in a batch."
+msgstr "Bir toplu işlemdeki öge sayısı."
+
+#: CRM/Batch/DAO/Batch.php
+msgid "Batch Payment Method"
+msgstr "Toplu İşlem Ödeme Yöntemi"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "fk to Payment Instrument options in civicrm_option_values"
+msgstr "civicrm_option_values içinde Ödeme Aracı seçeneklerine Dış Anahtar"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Exported Date"
-msgstr "Toplu İşlem Verme Tarihi"
+msgstr "Toplu İşlem Dışa Aktarma Tarihi"
 
 #: CRM/Batch/DAO/Batch.php
 msgid "Batch Data"
 msgstr "Toplu İşlem Verisi"
+
+#: CRM/Batch/DAO/Batch.php
+msgid "cache entered data"
+msgstr "yazılan veriler ön belleğe alınsın"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch ID"
+msgstr "VarlıkTopluİşlem Kodu"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "EntityBatch Table"
+msgstr "VarlıkTopluİşlem Tablosu"
+
+#: CRM/Batch/DAO/EntityBatch.php
+msgid "FK to civicrm_batch"
+msgstr "civicrm_batch üzerine Dış Anahtar"
 
 #: CRM/Batch/Form/Batch.php
 msgid "Batch Deleted"
@@ -135,7 +187,21 @@ msgstr "Uyumsuzlar Yok Sayılıp Toplu İşleme Devam Edilsin"
 
 #: CRM/Batch/Form/Entry.php
 msgid "Validate & Process the Batch"
-msgstr "Toplu İşlemi Doğrulayıp Devam Edin"
+msgstr "Toplu İşlemi Doğrulayıp Devam Et"
+
+#: CRM/Batch/Form/Entry.php
+msgid "Save & Continue Later"
+msgstr "Kaydedip Sonra Devam Et"
+
+#: CRM/Batch/Form/Entry.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple records."
+msgstr "Seçilmiş profil için Dosya alan türlerinde birkaç kaydın Güncellenmesi desteklenmiyor."
+
+#: CRM/Batch/Form/Entry.php
+msgid "Transaction ID must be unique within the database"
+msgstr "Veritabanındaki Hareket Kodu eşsiz olmalıdır. "
 
 #: CRM/Batch/Form/Entry.php
 msgid "Soft credit amount should not be greater than the total amount"
@@ -183,10 +249,19 @@ msgstr "UYARI: Bu işlem silindiğinde, işlem tarafından eklenen tüm veriler 
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid ""
 "Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time. Go to Administer > Customize"
-" Data and Screens > Profiles > Reserved Profiles > to add, remove or change "
-"the order of columns."
-msgstr "Tüm toplu işlem ögelerini yazdığınızda aşağıdaki Doğrulayıp Devam Edin düğmesine tıklayın. Ayrıca isteğinize göre istediğiniz zaman Kaydedip Sonra Devam Edebilirsiniz. Sütunları eklemek, çıkarmak ve sıralamasını değiştirmek için Yönetim > Veri ve Ekranları Özelleştirme > Profiller > Ayrılmış Profiller bölümüne bakın."
+"You can also Save & Continue Later at any time."
+msgstr "Tüm toplu işlem ögelerini yazdığınızda aşağıdaki Doğrulayıp Devam Et üzerine tıklayın. Ayrıca isteğinize göre istediğiniz zaman Kaydedip Sonra Devam Edebilirsiniz."
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Add, remove or change the order of columns by editing the corresponding <a "
+"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
+msgstr "Sütunları eklemek, çıkarmak ve sıralamasını değiştirmek için ilgili <a href=\"%1\" target=\"_blank\">Toplu Kayıt Profilini</a> düzenleyin."
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid ""
+"Custom fields and a Personal Campaign Page field can be added if needed."
+msgstr "Gerekiyorsa Özel Alanlar ve Kişisel Kampanya Sayfası alanı eklenebilir."
 
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid "Total amount expected"
@@ -199,6 +274,10 @@ msgstr "Yazılan toplam tutar"
 #: templates/CRM/Batch/Form/Entry.tpl
 msgid "Open Pledges (Due Date - Amount)"
 msgstr "Söz Verilmiş Açık Ödemeler (Ödeme Tarihi - Tutar)"
+
+#: templates/CRM/Batch/Form/Entry.tpl
+msgid "Attached"
+msgstr "Eklenmiş"
 
 #: templates/CRM/Batch/Form/Search.tpl
 msgid "Data Entry Batches"
@@ -219,42 +298,3 @@ msgstr "Açık olan bir Toplu Veri Girişi İşleminiz yok."
 #: templates/CRM/Batch/Form/Search.tpl
 msgid "No Data Entry Batches have been created for this site."
 msgstr "Bu site için henüz bir Toplu Veri Girişi İşlemi oluşturulmamış."
-
-#: CRM/Batch/DAO/Batch.php
-msgid "Batch Payment Method"
-msgstr "Toplu İşlem Ödeme Yöntemi"
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch ID"
-msgstr "VarlıkTopluİşlem Kodu"
-
-#: CRM/Batch/DAO/EntityBatch.php
-msgid "EntityBatch Table"
-msgstr "VarlıkTopluİşlem Tablosu"
-
-#: CRM/Batch/Form/Entry.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple records."
-msgstr "Seçilmiş profil için Dosya ya da Otomatik Seçim alan türlerinde birden çok kaydın Güncellenmesi desteklenmiyor."
-
-#: CRM/Batch/Form/Entry.php
-msgid "Transaction ID must be unique within the database"
-msgstr "Veritabanındaki Hareket Kodu eşsiz olmalıdır. "
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Click Validate & Process below when you've entered all items for the batch. "
-"You can also Save & Continue Later at any time."
-msgstr "Tüm toplu işlem ögelerini yazdığınızda aşağıdaki Doğrulayıp Devam Edin düğmesine tıklayın. Ayrıca isteğinize göre istediğiniz zaman Kaydedip Sonra Devam Edebilirsiniz."
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Add, remove or change the order of columns by editing the corresponding <a "
-"href=\"%1\" target=\"_blank\">Bulk Entry profile</a>."
-msgstr "Sütunları eklemek, çıkarmak ve sıralamasını değiştirmek için ilgili <a href=\"%1\" target=\"_blank\">Toplu Kayıt Profilini</a> düzenleyin."
-
-#: templates/CRM/Batch/Form/Entry.tpl
-msgid ""
-"Custom fields and a Personal Campaign Page field can be added if needed."
-msgstr "Gerekiyorsa Özel Alanlar ve Kişisel Kampanya Sayfası alanı eklenebilir."

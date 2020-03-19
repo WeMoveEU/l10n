@@ -1,0 +1,1291 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Branko Dokuzovski <branko@horus.mk>, 2018
+# Dimce Grozdanoski <dimce.grozdanoski@gmail.com>, 2011
+# Izabela Kovacevska <izabela@horus.mk>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Macedonian (http://www.transifex.com/civicrm/civicrm/language/mk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Current Campaigns"
+msgstr "Тековни кампањи"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Past Campaigns"
+msgstr "Завршени кампањи"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr ""
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "No survey sid parameter. Cannot process signature."
+msgstr "Не постојат sid  параметри за анкетата. Не е можно да се обработи потписот."
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "Petition Id and/or Activity Id is not of the type Positive."
+msgstr "D петициите и/или ID активностите не се од Позитивен тип."
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey - %1"
+msgstr "Анкета - %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Status - %1"
+msgstr "Статус на анкета  - %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Interviewer - %1"
+msgstr "Анкетар - %1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Interviewer"
+msgstr "Анкетар"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Could not find survey for %1 respondents."
+msgstr "Анкетата не е пронајдена за %1 испитаници."
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
+#: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
+msgid "Reserve Respondents"
+msgstr "Резервирај испитаници"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Page/Vote.php
+msgid "Interview Respondents"
+msgstr "Интервјуирај испитаници"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Task.php templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Release Respondents"
+msgstr "Ослободи испитаници"
+
+#: CRM/Campaign/BAO/Survey.php
+msgid "View Survey Report"
+msgstr "Види извештај за анкета"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Description"
+msgstr "Опис на кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Start Date"
+msgstr "Датум на почеток на кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign End Date"
+msgstr "Датум на крај на кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign External ID"
+msgstr "Надворешна ID на кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Parent Campaign"
+msgstr "Надредена кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is Campaign Active?"
+msgstr "Кампањата е активна?"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Created By"
+msgstr "Кампањата е креирана од"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
+msgid "Campaign Created Date"
+msgstr "Кампањата е креирана на датум"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified By"
+msgstr "Кампањата е модифицирана од"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified Date"
+msgstr "Кампањата е модифицирана на датум"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
+msgid "Campaign Goals"
+msgstr "Цели на кампања"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Goal Revenue"
+msgstr "Цел - приход"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "Групна ID на кампања"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "Групен тип на кампања"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey ID"
+msgstr "ID на анкета"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Campaign ID"
+msgstr "ID на кампања анкета"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Follow up Interval"
+msgstr "Интервал на следење"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Hold Duration"
+msgstr "Траење на задржување на анкета"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts"
+msgstr "Максимален број на контакти"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts"
+msgstr "Стандарден број на контакти"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Is Active"
+msgstr "Анкетата е активна"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is Default Survey"
+msgstr "Е стандардна анкета"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Created By"
+msgstr "Анкетата е креирана од"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified"
+msgstr "Анкетата е модифицирана "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified On"
+msgstr "Анкетата е модифицирана на "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "No Email Verification"
+msgstr "Нема верификација преку е-пошта"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr ""
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Edit Campaign"
+msgstr "Уреди кампања"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "- select Parent -"
+msgstr "- избери надреден/а-"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Revenue Goal"
+msgstr "Цел - приход"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign has been deleted."
+msgstr "Кампањата е избришана"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign %1 has been saved."
+msgstr "Кампањата %1 е зачувана."
+
+#: CRM/Campaign/Form/Campaign.php
+msgid " You can add another Campaign."
+msgstr "Можете да додадете друга кампања."
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Search.php
+#: CRM/Campaign/Form/Task/Interview.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Survey(s)"
+msgstr "Анкета(и)"
+
+#: CRM/Campaign/Form/Gotv.php
+msgid "GOTV (Voter Tracking)"
+msgstr "GOTV (Следење на гласачи)"
+
+#: CRM/Campaign/Form/Gotv.php
+msgid ""
+"Oops. It looks like no surveys have been created. <a href='%1'>Click here to"
+" create a new survey.</a>"
+msgstr "Не се креирани анкети. <a href='%1'>Кликнете овде за да креирате нова анкета.</a>"
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Survey."
+msgstr "Анкетата не е пронајдена."
+
+#: CRM/Campaign/Form/Petition/Signature.php
+msgid "Sign the Petition"
+msgstr "Потпиши петиција"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Survey"
+msgstr "Уреди анкета"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Delete Survey"
+msgstr "Избриши анкета"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Petition"
+msgstr "Уреди петиција"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Page/DashBoard.php
+msgid "Delete Petition"
+msgstr "Избриши петиција"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Dashboard"
+msgstr "Панел за петиција"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Title"
+msgstr "Наслов на петиција"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Contact Profile"
+msgstr "Профил на контакт"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Activity Profile"
+msgstr "Профил на активност"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Bypass email confirmation"
+msgstr "Заобиколи потврда преку е-пошта"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Is Default?"
+msgstr "Е стандардно?"
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected activity type. Please "
+"specify a unique title."
+msgstr "Овој наслов е веќе поврзан со избран тип на активност. Изберете посебен наслов."
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected campaign and activity "
+"type. Please specify a unique title."
+msgstr " Овој наслов е веќе поврзан со избраната кампања и типот на активност. Изберете посебен наслов."
+
+#: CRM/Campaign/Form/Petition.php
+msgid " Petition has been deleted."
+msgstr "Петицијата е избришана."
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition has been saved."
+msgstr "Петицијата е зачувана."
+
+#: CRM/Campaign/Form/Petition.php
+msgid " You can add another Petition."
+msgstr "Можете да додадете друга петиција."
+
+#: CRM/Campaign/Form/Search/Campaign.php
+msgid "Find Campaigns"
+msgstr "Најди кампањи"
+
+#: CRM/Campaign/Form/Search/Petition.php
+msgid "Find Petition"
+msgstr "Најди петиција"
+
+#: CRM/Campaign/Form/Search/Survey.php
+msgid "Find Survey"
+msgstr "Најди анкета"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents To %1"
+msgstr "Најди испитаници за %1"
+
+#: CRM/Campaign/Form/Search.php CRM/Campaign/Form/Task/Interview.php
+msgid "Record %1 Responses"
+msgstr "Забележи %1 одговори"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents"
+msgstr "Најди испитаници"
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "'%1' survey has been deleted."
+msgstr "'%1'  анкетата е избришана."
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "Delete action is missing expected survey ID."
+msgstr "Недостасува очекуваниот ID на анкетата за акцијата на бришење. "
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Configure Survey"
+msgstr "Конфигурирај анкета"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Survey Dashboard"
+msgstr "Панел за анкета"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Instructions for interviewers"
+msgstr "Инструкции за интервјуери"
+
+#: CRM/Campaign/Form/Survey/Main.php
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Release Frequency"
+msgstr "Зачестеност на отпуштање"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Release Frequency interval should be a positive number."
+msgstr "Интервалот на зачестеноста на отпуштање треба да биде позитивен број."
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time"
+msgstr "Максимум одеднаш резервирани "
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time should be a positive number"
+msgstr "Максимум одеднаш резервирани треба да биде позитивен број."
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved per interviewer"
+msgstr "Вкупно резервирани по анкетар"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved contacts should be a positive number"
+msgstr "Вкупниот број на резервирани контакти мора да биде позитивен број. "
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid ""
+"There are no custom data sets for activity type \"%1\". To create one, <a "
+"href=\"%2\" target=\"%3\">click here</a>."
+msgstr "Нема сопствени сетови на податоци за тип на активност \"%1\". За да креирате една, <a href=\"%2\" target=\"%3\">кликнете овде</a>."
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid "Contact Info"
+msgstr "Контакт информации"
+
+#: CRM/Campaign/Form/Survey/Questions.php
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Questions"
+msgstr "Прашања"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Create new result set"
+msgstr "Креирај нов сет на резултати"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Use existing result set"
+msgstr "Користи постоечки сет на резултати"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Select Result Set"
+msgstr "Избери сет на резултати"
+
+#: CRM/Campaign/Form/Survey/Results.php
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Recontact Interval"
+msgstr "Интервал за повторен контакт"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Enter at least one result option."
+msgstr "Внесете барем една опција за резултат."
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Please select a Survey Result Set."
+msgstr "Изберете сет на резултати за анкета."
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "A Survey Detail Report <a href='%1'>%2</a> has been created."
+msgstr "Детален извештај за анкета <a href='%1'>%2</a> е креиран."
+
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Main Information"
+msgstr "Основни информации"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "Configure Survey - %1"
+msgstr "Конфигурирај анкета - %1"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "'%1' have been saved."
+msgstr "'%1' е зачуван."
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "Selected Survey type has been deleted."
+msgstr "Избраниот тип на анкета е избришан."
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "The Survey type '%1' has been saved."
+msgstr "Типот на анкета  '%1'  е зачуван."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Interviewer."
+msgstr "Анкетарот не е пронајден."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "No respondents are currently reserved for you to interview."
+msgstr "Во моментов нема резервирани испитаници кои би ги интервјуирале."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Oops. It looks like there is no response option configured."
+msgstr "Изгледа дека нема конфигурирана опција за одговор."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Order By >>"
+msgstr "Подреди по >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Release Respondents >>"
+msgstr "Распушти испитаници >> "
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Reserve More Respondents >>"
+msgstr "Резервирај повеќе испитаници >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Respondent Interview"
+msgstr "Интервју на испитаник"
+
+#: CRM/Campaign/Form/Task/Print.php CRM/Campaign/Task.php
+msgid "Print Respondents"
+msgstr "Печати испитаници"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Please search with 'Survey', to apply this action."
+msgstr "Пребарајте со 'анкета' за да ја додадете ова акција."
+
+#: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
+msgid "Missing Interviewer contact."
+msgstr "Недостасува контакт на анкетарот."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Could not find respondents to release."
+msgstr "Не се пронајдени испитаници за отпуштање."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "We could not found respondent for this survey to release."
+msgstr "Не се најдени испитаници за отпуштање од оваа анкета."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Respondent has been released."
+msgid_plural "%count respondents have been released."
+msgstr[0] "Испитаникот е отпуштен."
+msgstr[1] "%count испитаници се отпуштени."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Released"
+msgstr "Отпуштен"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "1 respondent did not release."
+msgid_plural "%count respondents did not release."
+msgstr[0] "1 испитаник не е отпуштен."
+msgstr[1] "%count испитаници не се отпуштени."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find Survey Id."
+msgstr "ID на анкетата не е пронајден."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find contacts for reservation."
+msgstr "Не се пронајдени контакти за резервирање."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid ""
+"The maximum number of contacts is already reserved for this interviewer."
+msgstr "Веќе е резервиран максимален број на контакти за овој анкетар."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "You can reserve a maximum of %count contact at a time for this survey."
+msgid_plural ""
+"You can reserve a maximum of %count contacts at a time for this survey."
+msgstr[0] "Можете да резервирате максимум од %count  контакт за оваа анкета."
+msgstr[1] "Можете да резервирате максимум од %count контакти за оваа анкета. "
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to existing group(s)"
+msgstr "Додадете испитаник(ци) на постоечката група(и)"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Reserve"
+msgstr "Резервирај"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reserve and Interview"
+msgstr "Резервирај и интервјуирај"
+
+#: CRM/Campaign/Form/Task/Reserve.php CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reservation"
+msgstr "Резервација на испитаник"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "%count contact has been reserved."
+msgid_plural "%count contacts have been reserved."
+msgstr[0] "%count контакт е резервиран."
+msgstr[1] "%count контакти се резервирани."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "They have been added to %1."
+msgstr "Додадени се во %1."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation Added"
+msgstr "Додадена е резервација"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation did not add for %count contact."
+msgid_plural "Reservation did not add for %count contacts."
+msgstr[0] "Резервација не е додадена за %count  контакт."
+msgstr[1] "Резервација не е додадена за %count контакти."
+
+#: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr ""
+
+#: CRM/Campaign/Info.php
+msgid "administer CiviCampaign"
+msgstr "администрирај CiviCampaign"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaign, survey and petition types and their status"
+msgstr "Креирајте нови типови на кампањи, анкети и петиции, како и нивните статуси"
+
+#: CRM/Campaign/Info.php
+msgid "manage campaign"
+msgstr "менаџирај кампања"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaigns, surveys and petitions, reserve respondents"
+msgstr "Креирајте нови типови на кампањи, анкети и петиции, резервирајте испитаници"
+
+#: CRM/Campaign/Info.php
+msgid "reserve campaign contacts"
+msgstr "резервирајте контакти за кампања"
+
+#: CRM/Campaign/Info.php
+msgid "Reserve campaign contacts for surveys and petitions"
+msgstr "Резервирајте контакти за кампања за анкети и петиции"
+
+#: CRM/Campaign/Info.php
+msgid "release campaign contacts"
+msgstr "ослободи контакти за кампања"
+
+#: CRM/Campaign/Info.php
+msgid "Release reserved campaign contacts for surveys and petitions"
+msgstr "Ослободете контакти за кампања за анкети и петиции"
+
+#: CRM/Campaign/Info.php
+msgid "interview campaign contacts"
+msgstr "Интервјуирај контакти на кампања"
+
+#: CRM/Campaign/Info.php
+msgid "Record survey and petition responses from their reserved contacts"
+msgstr "Забележи анкета и барај одговори од нивните резервирани контакти."
+
+#: CRM/Campaign/Info.php
+msgid "GOTV campaign contacts"
+msgstr "GOTV контакти за кампања"
+
+#: CRM/Campaign/Info.php
+msgid "Record that contacts voted"
+msgstr "Забележи дека контактите гласале"
+
+#: CRM/Campaign/Info.php
+msgid "sign CiviCRM Petition"
+msgstr "потпиши CiviCRM петиција"
+
+#: CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reserved."
+msgstr "Испитаникот е резервиран."
+
+#: CRM/Campaign/Page/AJAX.php templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Recorded."
+msgstr "Гласот е забележан"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Campaign"
+msgstr "Ажурирај кампаеа"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Campaign"
+msgstr "Исклучи кампања"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Campaign"
+msgstr "Вклучи кампања"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Survey"
+msgstr "Ажурирај анкета"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Survey"
+msgstr "Исклучи анкета"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Survey"
+msgstr "Вклучи анкета"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Petition"
+msgstr "Ажурирај петиција"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Petition"
+msgstr "Исклучи петиција"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Petition"
+msgstr "Вклучи петиција"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign"
+msgstr "Потпиши"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign Petition"
+msgstr "Потпиши петиција"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Signatures"
+msgstr "Потписи"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "List the signatures"
+msgstr "Излистај ги потписите"
+
+#: CRM/Campaign/Page/DashBoard.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Search Campaigns"
+msgstr "Барај кампањи"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Survey"
+msgstr "Барај анкета "
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "1 Day"
+msgid_plural "%count Days"
+msgstr[0] "1 ден"
+msgstr[1] "%count денови"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "view result set"
+msgstr "види сет на резултати"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Incomplete. Click to configure result set."
+msgstr "Не е комплетно. Кликни да го конфигурираш сетот на резултати."
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Petition"
+msgstr "Барај петиција"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Surveys"
+msgstr "Истражувања"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Petitions"
+msgstr "Петиции"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "Respondents"
+msgstr "Испитаници"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "CiviCRM Respondent Search"
+msgstr "Пребарување на CiviCRM  испитаник"
+
+#: CRM/Campaign/Task.php
+msgid "Record Respondents Interview"
+msgstr "Забележи интервју на испитаник"
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Сигурни сте дека сакате да ја избришете оваа кампања?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Interview Conducted?"
+msgstr "Интервјуто е спроведено?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Voted?"
+msgstr "Гласал/а?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Reserved?"
+msgstr "Е резервиран?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as voted."
+msgstr "Зачувај како гласано."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as non voted."
+msgstr "Зачувај како не е гласано."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Cancelled."
+msgstr "Гласањето откажано."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Reserved."
+msgstr "Резервирано."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Released."
+msgstr "Отпуштено."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "You have already signed this petition."
+msgstr "Веќе ја потпишавте петицијата."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"You have already signed this petition but you still <b>need to verify your "
+"email address</b>."
+msgstr "Веќе ја потпишавте оваа петиција но сепак <b>треба да ја верифицирате вашата адреса за е-пошта</b>."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"Please check your email inbox for the confirmation email. If you don't find "
+"it, verify if it isn't in your spam folder."
+msgstr "Проверете го вашето дојдовно сандаче за верификациона е-порака. Доколку не можете да ја пронајдете, проверете го вашиот спам фолдер."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Are you sure you want to delete this Petition?"
+msgstr "Дали сте сигурни дека сакате да ја избришете оваа Петиција?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Use this form to Add new Survey. You can create a new Activity type, "
+"specific to this Survey or select an existing activity type for this Survey."
+msgstr "Искористете го овој формулар да додадете нова анкета. Можете да додадете нов тип на активност врзан за оваа анкета или да изберете постоечки тип на активност."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the contact you want to collect."
+msgstr "Полиња за контактот кои ви се потребни."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the petition."
+msgstr "Полиња за петиција."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Click here for new profile"
+msgstr "Кликнете овде за нов профил"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "This title will be displayed at the top of the thank-you page."
+msgstr "Овој наслов ќе биде прикажан на врвот на страницата со благодарница."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid ""
+"Enter text (and optional HTML layout tags) for the thank-you message that "
+"will appear at the top of the thank-you page."
+msgstr " Внесете текст (и опционалните HTML белези) за пораката за благодарност која ќе се појави на врвот на страната  со благодарница."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Disable the email confirmation for unverified contacts?"
+msgstr "Исклучи ги потврдите преку е-пошта за неверифицираните контакти?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this petition active?"
+msgstr "Оваа петиција е активна?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this the default petition?"
+msgstr "Ова е стандардна петиција?"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"You can create new result options for this survey, or select an existing "
+"survey result set which you've already created for another survey."
+msgstr "Можете да креирате нови опции за резултати за оваа анкета, или да изберете сет на резултати  кои веќе ги имате креирано за друга анкета."
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid "Result Options"
+msgstr "Резултати - опции"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"Enter up to ten (10) multiple choice options in this table (click 'another "
+"choice' for each additional choice).You can use existing result set options "
+"by selecting survey result set."
+msgstr "Внесете до десет (10) опции за избор во оваа табела (кликнете 'додади избор' за секој следен избор). Можете да користите опции од постоечкиот сет на резултати така што ќе одберете сет на резулати на анкета. "
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Add Campaign"
+msgstr "Додади кампања"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Type ID"
+msgstr "ID на тип"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Status ID"
+msgstr "ID на статус"
+
+#: templates/CRM/Campaign/Form/Search/EmptyResults.tpl
+msgid "if you are searching by respondent name, check your spelling"
+msgstr "Доколку пребарувате според име на анкетирано лице, проверете го вашиот внес."
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Add Petition"
+msgstr "Додади петиција"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition ID"
+msgstr " ID на петиција"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type ID"
+msgstr " ID на тип на петиција"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type"
+msgstr "Тип на петиција"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Search Petitions"
+msgstr "Пребарувај петиции"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Add Survey"
+msgstr "Додади анкета"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey Type ID"
+msgstr " ID на тип на анкета"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Survey Type"
+msgstr "Тип на анкета "
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Reserve Each Time"
+msgstr "Резервирај секој пат"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Total Reserve"
+msgstr "Вкупно резервирано"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Search Surveys"
+msgstr "Пребарувај анкети"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Result Set for"
+msgstr "Сет на резултати за"
+
+#: templates/CRM/Campaign/Form/Survey/Delete.tpl
+msgid "Are you sure you want to delete the %1 survey?"
+msgstr "Дали сте сигурни дека сакате да ја избришете анкетата %1?"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Title of the survey."
+msgstr "Наслов на анкета."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the campaign for which survey is created."
+msgstr "Избери ја кампањата за која се креира анкета."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the Activity Type."
+msgstr "Изберете тип на активност."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum number of contacts that can be reserved for an interviewer at one "
+"time."
+msgstr "Максимален број на контакти кои може да бидат резервирани за анкетар одеднаш."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum total number of contacts that can be in a reserved state for an "
+"interviewer."
+msgstr "Максимален број на контакти кои можат да бидат резервирани за анкетар."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Reserved respondents are released if they haven't been surveyed within this "
+"number of days. The Respondent Processor script must be run periodically to "
+"release respondents."
+msgstr "Резервираните испитаници се распуштаат доколку не бидат анкетирани за овој број на денови. Скриптот за обработка на испитаници мора повремено да се активира за да ги распушти испитаниците."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this survey active?"
+msgstr "Дали оваа анкета е активна?"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this the default survey?"
+msgstr "Дали е ова стандардна анкета?"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed."
+msgstr "Кликнете го копчето  <strong>забележи одговор</strong> за да ги ажурирате вредностите за секој испитаник по потреба."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed. <br />Click <strong>Release Respondents >></strong> "
+"button below to release any respondents for whom you haven't recorded a "
+"response. <br />Click <strong>Reserve More Respondents >></strong> button if"
+" you need to get more respondents to interview."
+msgstr "Кликнете на копчето <strong>забележи одговор</strong> за да ги ажурирате вредностите за секој испитаник по потреба. <br /> Кликнете на копчето  <strong>распушти ги испитаниците >></strong> за да ги распуштите испитаниците за кои немате забележен одговор. <br /> Кликнете на копчето <strong>резервирај повеќе испитаници >></strong> доколку ви се потребни повеќе испитаници за интервјуто."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Survey Report"
+msgstr "Извештај за анкета"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Vote"
+msgstr "Глас"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Record Responses for All"
+msgstr "Забележи ги одговорите за сите"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "record response"
+msgstr "забележи одговор"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Release"
+msgstr "Распушти"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "release"
+msgstr "распушти"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Response Saved."
+msgstr "Одговорот е зачуван."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Response"
+msgstr "Ажурирај одговор"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Responses for All"
+msgstr "Ажурирај ги одговорите за сите"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr ""
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "reserve"
+msgstr "резервирај"
+
+#: templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Do you want to release respondents for '%1' ?"
+msgstr "Дали сакате да ги распуштите испитаниците за '%1'?"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add Respondent Reservation(s)"
+msgstr "Додади резервација(и) на испитаници"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Do you want to reserve respondents for '%1' ?"
+msgstr "Дали сакате да ги резервирате испитаниците за '%1' ?"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to a new group"
+msgstr "Додадете испитаник(ци) на нова група"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.hlp
+msgid ""
+"Your organization can use Campaigns to track all constituent interactions "
+"related to a particular fund-raising or engagement effort. You can link "
+"activities, contributions, event participation, mailings, membership "
+"signups, and pledges to a particular campaign."
+msgstr "Вашата организација може да користи кампањи за следење на сите интеракции на оние кои ве поддржуваат, а се поврзани со специфична акција на прибирање на средства/ангажман. Можете да ги поврзете активностите, учеството, масовната пошта, пријавите за членство и обврските со одредена кампања."
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"<strong>%1 - your email address '%2' has been successfully "
+"verified.</strong>"
+msgstr "<strong>%1 - вашата адреса за е пошта '%2' е успешно верифицирана</strong>"
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"Oops. We encountered a problem in processing your email verification. Please"
+" contact the site administrator."
+msgstr "Наидовме на проблем при обработката на вашата верификација преку е-пошта. Контактирајте го администраторот. "
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid "Thank you for signing the petition."
+msgstr "Ви благодариме што ја потпишавте петицијава."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "STEP 2: Please Check Your Email"
+msgstr "Ве молиме проверете ја вашата е-пошта"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"To complete and confirm your signature, please follow the activation "
+"instructions sent to the email address you provided."
+msgstr "За да завршите и да го потврдите вашиот потпис, следете ги инструкциите кои ви се испратени на е-поштата која ја оставивте."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "IMPORTANT"
+msgstr "ВАЖНО"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your bulk folder."
+msgstr " Пред да го додадеме вашиот потпис, мора да ја потврдиме вашата адреса за е-пошта така што ќе кликнете на линкот за активација во е-поштата за потврда. Понекогаш е-поштата за потврда е означена како спам и префрлена во вашиот спам фолдер."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email within a few minutes, please check your "
+"spam folder."
+msgstr "Доколку не примите е-пошта во наредните десет минути, проверете го вашиот спам фолдер."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"You have already signed this petition but we<strong>need to confirm your "
+"email address</strong>."
+msgstr "Веќе ја потпишавте оваа петиција, но <strong>треба да ја потврдиме вашата адреса за е-пошта</strong>."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your spam folder."
+msgstr "Пред да го додадеме вашиот потпис морате да ја потврдите вашата адреса за е-пошта така што ќе кликнете на линкот за активација во е-поштата за потврда. Понекогаш е-поштата за потврда е означена како спам и преместена во вашиот спам фолдер."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email from us, check your spam folder, it might "
+"have been wrongly classified."
+msgstr " Доколку немате добиено е-пошта од нас, проверете го вашиот спам фолдер, можно е да се по грешка идентификувани како спам."
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Max Number Of Contacts"
+msgstr "Максимален број на контакти"
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Default Number Of Contacts"
+msgstr "Стандарден број на контакти"
+
+#: templates/CRM/Campaign/Page/SurveyType.tpl
+msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
+msgstr "Нема внесени типови на анкета. Можете да ги <a href='%1'>додадете</a>."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr "Отвара Нова кампања во посебен прозорец"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "нова кампања"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "Прикажете мината кампања (кампањи) во оваа листа."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "Нема активни кампањи во моментов."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
+msgstr "Доколку сакате да го поврзете овој запис со кампања, можете да <a %1>креирате кампања овде</a>."

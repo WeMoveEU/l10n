@@ -5,6 +5,7 @@
 # Translators:
 # iv0 <ivo.zlabek@gmail.com>, 2011
 # jakub carva <jakub.carva@seznam.cz>, 2016
+# Karel Hennhofer <khennhofer@kam.cz>, 2019
 # Larry Neuwirth <info@emarketo.eu>, 2014
 # Luděk Kolisko <lkolisko@volny.cz>, 2012
 # Marek Boček <marek.bocek@iqrs.cz>, 2014
@@ -15,15 +16,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-12-17 01:42+0000\n"
-"Last-Translator: jakub carva <jakub.carva@seznam.cz>\n"
+"POT-Creation-Date: 2018-09-11 10:33-0400\n"
+"PO-Revision-Date: 2019-03-03 22:31+0000\n"
+"Last-Translator: Karel Hennhofer <khennhofer@kam.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/civicrm/civicrm/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgctxt "menu"
 msgid "Campaign Dashboard"
@@ -77,7 +78,7 @@ msgstr "Zajistit respondenty"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Release Respondents"
-msgstr "Vpustit dotazované"
+msgstr "Vpustit respondenty"
 
 msgctxt "menu"
 msgid "Record Respondents Interview"
@@ -163,6 +164,11 @@ msgstr "Detaily případu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr "Nastavení CiviPřípadů"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Case Types"
 msgstr "Druhy případů"
 
@@ -174,11 +180,11 @@ msgstr "Pravidla úprav"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Case Statuses"
-msgstr "Statusy případů"
+msgstr "Stavy případů"
 
 msgctxt "menu"
 msgid "Encounter Mediums"
-msgstr "Setkání s médii"
+msgstr "Média setkávání"
 
 msgctxt "menu"
 msgid "CiviContribute Dashboard"
@@ -264,8 +270,8 @@ msgstr "Finanční účty"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "Platební nástroje"
+msgid "Payment Methods"
+msgstr "Metody platby"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -319,7 +325,7 @@ msgstr "Aktualizovat předplatné"
 
 msgctxt "menu"
 msgid "Financial Type Accounts"
-msgstr "Finanční typ účty"
+msgstr "Účty finančních druhů"
 
 msgctxt "menu"
 msgid "Accounting Batch"
@@ -351,14 +357,22 @@ msgctxt "menu"
 msgid "Email Invoice"
 msgstr "Faktura E-mailem"
 
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr "Platby opakovaných příspěvků"
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr "Opakované příspěvky na členství"
+
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Personal Campaign Pages"
-msgstr "Osobní stránky kampaně"
+msgstr "Stránky osobní kampaně"
 
 msgctxt "menu"
 msgid "Setup a Personal Campaign Page - Account Information"
-msgstr "Nastavení osobní stránky kampaně - informace o účtu"
+msgstr "Nastavit stránky osobní kampaně - informace o účtu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -380,27 +394,27 @@ msgstr "Uživatelská data"
 
 msgctxt "menu"
 msgid "Custom Data Fields"
-msgstr "Uživatelské datové položky"
+msgstr "Uživatelská datová pole"
 
 msgctxt "menu"
 msgid "Custom Field - Options"
-msgstr "Nastavení uživatelské položky"
+msgstr "Možnosti uživatelského pole"
 
 msgctxt "menu"
 msgid "Custom Field - Add"
-msgstr "Přidání uživatelské položky"
+msgstr "Přidat uživatelské pole"
 
 msgctxt "menu"
 msgid "Custom Field - Edit"
-msgstr "Úprava uživatelské položky"
+msgstr "Upravit uživatelské pole"
 
 msgctxt "menu"
 msgid "Custom Field - Move"
-msgstr "Přesun uživatelské položky"
+msgstr "Přesunout uživatelské pole"
 
 msgctxt "menu"
 msgid "Custom Field - Change Type"
-msgstr "Vlastní pole - změnit typ"
+msgstr "Uživatelské pole - změnit druh"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -409,15 +423,15 @@ msgstr "Profily"
 
 msgctxt "menu"
 msgid "CiviCRM Profile Fields"
-msgstr "Položky profilu CiviCRM"
+msgstr "Pole profilu CiviCRM"
 
 msgctxt "menu"
 msgid "Add Field"
-msgstr "Přidat položku"
+msgstr "Přidat pole"
 
 msgctxt "menu"
 msgid "Edit Field"
-msgstr "Upravit položku"
+msgstr "Upravit pole"
 
 msgctxt "menu"
 msgid "New CiviCRM Profile"
@@ -429,18 +443,8 @@ msgstr "Nastavení profilu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "Štítky (kategorie)"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "Nový štítek"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
 msgid "Activity Types"
-msgstr "Druhy činností"
+msgstr "Druhy aktivit"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -475,7 +479,7 @@ msgstr "Druhy míst (domov, zaměstnání...)"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Website Types"
-msgstr "Typy webů"
+msgstr "Druhy webů"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -499,7 +503,7 @@ msgstr "Zobrazit předvolby"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Search Preferences"
-msgstr "Hledat předvolby"
+msgstr "Předvolby hledání"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -613,12 +617,10 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "Kontrolní seznam konfigurace"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "Povolit CiviCRM komponenty"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
 msgstr "Spravovat rozšíření"
@@ -632,8 +634,8 @@ msgid "Outbound Email Settings"
 msgstr "Nastavení odchozích emailů"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "Zpracovatel plateb"
+msgid "Settings - Payment Processor"
+msgstr "Nastavení - Platební procesor"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -759,6 +761,10 @@ msgid "Badge Layout"
 msgstr "Vzhled štítků"
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr "Nastavit CKEditor"
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -864,10 +870,6 @@ msgid "Smart Groups"
 msgstr "Chytré Skupiny"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "Sluneční světlo"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "Poznámky"
 
@@ -887,9 +889,10 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "CiviCRM Blog"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
-msgstr "Začínáme s CiviCRM"
+msgid "CiviCRM Resources"
+msgstr "CiviCRM Zdroje"
 
 msgctxt "menu"
 msgid "Case Dashlet"
@@ -908,6 +911,10 @@ msgstr "Dashlet nástěnky případů"
 msgctxt "menu"
 msgid "Find and Merge Duplicate Contacts"
 msgstr "Hledat a sloučit duplicitní kontakty"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr "Hromadné sloučení duplicitních kontaktů"
 
 msgctxt "menu"
 msgid "Dedupe Exceptions"
@@ -962,6 +969,10 @@ msgid "Export Contacts"
 msgstr "Export kontaktů"
 
 msgctxt "menu"
+msgid "Export"
+msgstr "Exportovat"
+
+msgctxt "menu"
 msgid "ACL Roles"
 msgstr "Role ACL"
 
@@ -994,8 +1005,8 @@ msgid "Log out"
 msgstr "Odhlásit se"
 
 msgctxt "menu"
-msgid "CiviCRM API"
-msgstr "CiviCRM API"
+msgid "CiviCRM API v3"
+msgstr "CiviCRM API v3"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1015,8 +1026,26 @@ msgid "Confirm dates"
 msgstr "Potvrdit data"
 
 msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr "Vložit CiviCRM Obsah"
+
+msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "Vytvořit profil CiviCRM"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Štítky (kategorie)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Nový štítek"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr "Sloučit štítky"
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1132,6 +1161,14 @@ msgid "Manage Price Sets"
 msgstr "Správa cenových souborů"
 
 msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr "Samoobslužná aktualizace registrace"
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr "Samoobslužný převod za registraci"
+
+msgctxt "menu"
 msgid "Add Event To Cart"
 msgstr "Přidat událost do košíku"
 
@@ -1236,10 +1273,6 @@ msgid "Mailing Event"
 msgstr "Korespondenční událost"
 
 msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "Naplánovat korespondenci"
-
-msgctxt "menu"
 msgid "View Mailing"
 msgstr "Zobrazit korespondenci"
 
@@ -1340,11 +1373,6 @@ msgstr "Přehled reportů"
 msgctxt "menu"
 msgid "CiviCRM News"
 msgstr "Novinky CiviCRM"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Getting Started"
-msgstr "Začínáme"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1563,6 +1591,11 @@ msgstr "Administrační konzole"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr "Stav systému"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
 msgstr "Přizpůsobit data a obrazovky"
 
@@ -1579,7 +1612,7 @@ msgstr "Rozevírací seznam"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Phone Types"
-msgstr "Typy telefonů"
+msgstr "Druhy telefonů"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1618,8 +1651,23 @@ msgstr "Systémová nastavení"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr "Komponenty"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
 msgstr "Připojení"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr "Rozšíření"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Ladění a řešení chyb"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1635,11 +1683,6 @@ msgstr "Zpracovatelé plateb"
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "Bezpečné přípony souborů"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "Ladění a řešení chyb"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1724,22 +1767,22 @@ msgstr "Položit otázku"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Get expert help"
-msgstr ""
+msgstr "Získat pomoc experta"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "About CiviCRM"
-msgstr ""
+msgstr "O CiviCRM"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Register your site"
-msgstr ""
+msgstr "Registrovat vaše stránky (site)"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Join CiviCRM"
-msgstr ""
+msgstr "Připojit se k CiviCRM"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1760,6 +1803,11 @@ msgstr "Vývojářské dokumenty"
 msgctxt "menu"
 msgid "Reports"
 msgstr "Reporty"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "My Reports"
+msgstr "Mé reporty"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1787,6 +1835,11 @@ msgstr "Poskytuje informace o kontaktech v souvislosti s příspěvky, členstv�
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Details"
+msgstr "Detaily o aktivitě"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid ""
 "Provides a list of constituent activity including activity statistics for "
 "one/all contacts during a given date range(required)"
@@ -1811,6 +1864,16 @@ msgstr "Dává detaily vztahu mezi dvěma kontakty."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Summary"
+msgstr "Souhrn aktivit"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr "Zobrazí statistiky aktivity podle druhu / data"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Contribution Summary"
 msgstr "Shrnutí příspěvků"
 
@@ -1819,7 +1882,7 @@ msgctxt "menu"
 msgid ""
 "Groups and totals contributions by criteria including contact, time period, "
 "contribution type, contributor location, etc."
-msgstr "Skupiny a součty příspěvků podle kritérií včetně kontaktu, časového období, druhu příspěvku, lokality přispěvatele, atd."
+msgstr "Skupiny a součty příspěvků podle kritérií včetně kontaktu, časového období, druhu příspěvku, místa přispěvatele, atd."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1832,7 +1895,7 @@ msgid ""
 "Lists specific contributions by criteria including contact, time period, "
 "contribution type, contributor location, etc. Contribution summary report "
 "points to this report for contribution details."
-msgstr "Seznam zvláštních příspěvků podle kritérií, včetně kontaktu, časového období, druhu příspěvku, lokality přispěvatele, atd. Report shrnutí příspěvků odkazuje na tento report kvůli podrobnosti příspěvků."
+msgstr "Seznam zvláštních příspěvků podle kritérií, včetně kontaktu, časového období, druhu příspěvku, místa přispěvatele, atd. Report shrnutí příspěvků odkazuje na tento report kvůli podrobnosti příspěvků."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1947,15 +2010,15 @@ msgstr "Sčítá množství získaných a počet příspěvků za každou strán
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr "Souhrn závazků"
+msgid "Pledge Detail"
+msgstr "Detail o příslibu"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr "Souhrn závazků, včetně částky přislíbené, stavu závazku, dalšího data platby, doplatku, celkové zaplacené částky atd."
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr "Souhrn příslibů, včetně přislíbené částky, stavu příslibů, data příští platby, nedoplatku, celkové zaplacené částky atd."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1992,7 +2055,7 @@ msgstr " Shrnutí členství"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Provides a summary of memberships by type and join date."
-msgstr "Poskytuje přehled o členství podle typu a data připojení."
+msgstr "Poskytuje přehled o členství podle druhu a data zahájení členství."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2018,7 +2081,7 @@ msgid ""
 "Contribution details for any type of contribution, plus associated "
 "membership information for contributions which are in payment for "
 "memberships."
-msgstr "Příspěvek podrobnosti pro jakýkoli typ příspěvku plus přidružené informace členství o příspěvcích, které jsou v platbě za členství."
+msgstr "Podrobnosti  o příspěvku pro jakýkoli druh příspěvku, plus informace o přidruženém členství pro příspěvky, které jsou v platbě za členství."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2060,7 +2123,7 @@ msgctxt "menu"
 msgid ""
 "Helps you to analyze the income generated by an event. The report can "
 "include details by participant type, status and payment method."
-msgstr "Pomůže vám analyzovat příjmy vzniklé z události. Report může obsahovat podrobnosti o typu účastníka, stavu a způsobu platby."
+msgstr "Pomůže vám analyzovat příjmy vzniklé z události. Report může obsahovat podrobnosti podle druhu účastníka, stavu a způsobu platby."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2154,85 +2217,3 @@ msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
 msgstr "Podrobný report získávání zákazníků, telefonního bankovnictví, seznamů \"z ulic\" nebo jiných průzkumů."
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr "Metody platby"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr ""
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr ""
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr ""
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr "Mé reporty"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr ""

@@ -4,20 +4,21 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Anton Synkov <taurus84@ukr.net>, 2015
+# Bohdan Dmytryshyn <bohdan.dmytryshyn@agiliway.com>, 2017,2019
 # Sergiy <shemet.s@ua.fm>, 2015
 # Sergiy <shemet.s@ua.fm>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-05-09 17:10+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/civicrm/civicrm/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Current Campaigns"
@@ -27,13 +28,29 @@ msgstr "Поточні кампанії"
 msgid "Past Campaigns"
 msgstr "Минулі кампанії"
 
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr ""
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr ""
+
 #: CRM/Campaign/BAO/Petition.php
 msgid "No survey sid parameter. Cannot process signature."
 msgstr "Відсутній системний ідентифікатор опитування. Неможливо обробити підпис. "
 
 #: CRM/Campaign/BAO/Petition.php
 msgid "Petition Id and/or Activity Id is not of the type Positive."
-msgstr ""
+msgstr "ID петиції або ID діяльності не є Додатнім."
 
 #: CRM/Campaign/BAO/Query.php
 msgid "Survey - %1"
@@ -55,10 +72,6 @@ msgstr "Інтерв'юєр"
 msgid "Could not find survey for %1 respondents."
 msgstr "Не вдалося знайти опитування для %1 респондентів."
 
-#: CRM/Campaign/BAO/Query.php
-msgid "Campaigns %1"
-msgstr "Кампанії %1"
-
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
 msgid "Reserve Respondents"
@@ -78,16 +91,52 @@ msgid "View Survey Report"
 msgstr "Переглянути звіт про опитування"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Description"
 msgstr "Опис кампанії"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Start Date"
 msgstr "Дата початку кампанії"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign End Date"
 msgstr "Дата завершення кампанії"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign External ID"
@@ -98,84 +147,212 @@ msgid "Parent Campaign"
 msgstr "Батьківська кампанія"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Is Campaign Active?"
 msgstr "Чи є кампанія діючою?"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Created By"
 msgstr "Кампанія створена"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
 msgid "Campaign Created Date"
 msgstr "Дата створення кампанії"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified By"
 msgstr "Кампанія відредагована"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified Date"
 msgstr "Дата редагування кампанії"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr ""
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
 msgid "Campaign Goals"
 msgstr "Цілі кампанії"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Goal Revenue"
 msgstr "Цільовий дохід"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "ID групи кампанії"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "Тип групи кампанії"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr ""
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey ID"
 msgstr "ID опитування"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Campaign ID"
 msgstr "ID кампанії опитування"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Follow up Interval"
 msgstr "Наступний інтервал"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Instructions"
 msgstr "Інструкції"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Hold Duration"
 msgstr "Тривалість режиму очікування для опитування"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Maximum number of contacts"
 msgstr "Максимальна кількість контактів"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Default number of contacts"
 msgstr "Кількість контактів за умовчанням"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Is Active"
 msgstr "Опитування є діючим"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Is Default Survey"
 msgstr "Це опитування за умовчанням"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Created By"
 msgstr "Опитування створене"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified"
 msgstr "Опитування змінено"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified On"
 msgstr "Опитування змінено на дату"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "No Email Verification"
 msgstr "Адреса електронної пошти не підтверджена"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr ""
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Edit Campaign"
@@ -230,7 +407,7 @@ msgid "Edit Survey"
 msgstr "Редагувати опитування"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Delete Survey"
 msgstr "Видалити опитування"
 
@@ -337,7 +514,6 @@ msgstr "Інструкції для інтерв'юєрів"
 #: CRM/Campaign/Form/Survey/Main.php
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Release Frequency"
 msgstr "Частота звільнень"
 
@@ -480,6 +656,7 @@ msgid_plural "%count respondents have been released."
 msgstr[0] "Респондент був звільнений."
 msgstr[1] "%count респонденти було звільнено."
 msgstr[2] "%count респондентів були звільнені."
+msgstr[3] "%count респондентів були звільнені."
 
 #: CRM/Campaign/Form/Task/Release.php
 msgid "Released"
@@ -488,9 +665,10 @@ msgstr "Звільнено"
 #: CRM/Campaign/Form/Task/Release.php
 msgid "1 respondent did not release."
 msgid_plural "%count respondents did not release."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1% респондент видалений."
+msgstr[1] "1% респондентів видалено."
+msgstr[2] "%cреспонденти видалено."
+msgstr[3] "%cреспонденти видалено."
 
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "Could not find Survey Id."
@@ -512,6 +690,7 @@ msgid_plural ""
 msgstr[0] "Для цього опитування Ви можете зарезервувати не більше %count контакту одночасно."
 msgstr[1] "Для цього опитування Ви можете зарезервувати не більше %count контактів одночасно."
 msgstr[2] "Для цього опитування Ви можете зарезервувати не більше %count контактів одночасно."
+msgstr[3] "Для цього опитування Ви можете зарезервувати не більше %count контактів одночасно."
 
 #: CRM/Campaign/Form/Task/Reserve.php
 #: templates/CRM/Campaign/Form/Task/Reserve.tpl
@@ -537,6 +716,7 @@ msgid_plural "%count contacts have been reserved."
 msgstr[0] "Було зарезервовано %count контакт."
 msgstr[1] "Було зарезервовано %count контакти."
 msgstr[2] "Було зарезервовано %count контактів."
+msgstr[3] "Було зарезервовано %count контактів."
 
 #: CRM/Campaign/Form/Task/Reserve.php
 msgid "They have been added to %1."
@@ -552,6 +732,11 @@ msgid_plural "Reservation did not add for %count contacts."
 msgstr[0] "Резервування не було додане для %count контакту."
 msgstr[1] "Резервування не було додане для %count контактів."
 msgstr[2] "Резервування не було додане для %count контактів."
+msgstr[3] "Резервування не було додане для %count контактів."
+
+#: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr "Механізм CiviCRM Кампаній"
 
 #: CRM/Campaign/Info.php
 msgid "administer CiviCampaign"
@@ -613,31 +798,27 @@ msgstr "Респондент зарезервований."
 msgid "Vote Recorded."
 msgstr "Голос записано."
 
-#: CRM/Campaign/Page/Campaign.php templates/CRM/Campaign/Form/Campaign.tpl
-msgid "Are you sure you want to delete this Campaign?"
-msgstr "Ви впевнені, що бажаєте видалити дану кампанію?"
-
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Campaign"
 msgstr "Оновити дані по кампанії"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Campaign"
 msgstr "Припинити кампанію"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Campaign"
 msgstr "Активувати кампанію"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Survey"
 msgstr "Оновити дані по дослідженню"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Survey"
 msgstr "Припинити опитування"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Survey"
 msgstr "Активувати опитування"
 
@@ -684,6 +865,7 @@ msgid_plural "%count Days"
 msgstr[0] "1 день"
 msgstr[1] "%count дні"
 msgstr[2] "%count днів"
+msgstr[3] "%count днів"
 
 #: CRM/Campaign/Page/DashBoard.php
 msgid "view result set"
@@ -716,6 +898,10 @@ msgstr "CiviCRM пошук респондентів"
 #: CRM/Campaign/Task.php
 msgid "Record Respondents Interview"
 msgstr "Записати інтерв'ю з респондентами"
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Ви впевнені, що бажаєте видалити дану кампанію?"
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Is Interview Conducted?"
@@ -788,7 +974,7 @@ msgstr "Поля, що стосуються петиції."
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "Click here for new profile"
-msgstr ""
+msgstr "Натисніть тут, щоб створити новий профіль."
 
 #: templates/CRM/Campaign/Form/Petition.tpl
 msgid "This title will be displayed at the top of the thank-you page."
@@ -830,7 +1016,6 @@ msgid ""
 msgstr "Введіть до десяти (10) опцій багатоваріантного вибору у цій таблиці (натисніть \"інший вибір\" для кожного додаткого вибору). Ви можете використовувати існуючі опції набору результатів, вибравши набір результатів опитування."
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: templates/CRM/Campaign/Page/Campaign.tpl
 msgid "Add Campaign"
 msgstr "Додати кампанію"
 
@@ -868,7 +1053,6 @@ msgstr "Шукати петиції"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Add Survey"
 msgstr "Додати опитування"
 
@@ -878,7 +1062,6 @@ msgstr "ID типу опитування"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Survey Type"
 msgstr "Тип опитування"
 
@@ -905,14 +1088,6 @@ msgstr "Ви впевнені, що хочете видалити %1 опиту�
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Title of the survey."
 msgstr "Назва опитування."
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "Opens New Campaign form in a separate window"
-msgstr "Відкриває форму нової кампанії у новому вікні"
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "new campaign"
-msgstr "нова кампанія"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Select the campaign for which survey is created."
@@ -1001,6 +1176,10 @@ msgid "Update Responses for All"
 msgstr "Оновити відповіді для всіх"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr "Будь-ласка виправте помилки вказані нижче у полях опитування "
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "reserve"
 msgstr "зарезервувати"
 
@@ -1027,20 +1206,6 @@ msgid ""
 "activities, contributions, event participation, mailings, membership "
 "signups, and pledges to a particular campaign."
 msgstr "Ваша організація може користатися засобами модулю Кампанія, щоб відслідковувати усі взаємодії з громадянами, які стосуються конкретного заходу зі збору коштів або співробітництва. Ви можете з'єднати посиланнями\nзаходи, внески, участь у заходах, поштові розсилки, заяви про членство та платіжні зобов’язання з конкретною кампанією."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "Show past campaign(s) in this select list."
-msgstr "Показати минулу кампанію (-ї) із цього випадаючого списку."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "There are currently no active Campaigns."
-msgstr "На даний момент немає жодної діючої кампанії."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid ""
-"If you want to associate this record with a campaign, you can <a %1>create a"
-" campaign here</a>."
-msgstr "Якщо Ви бажаєте пов'язати даний запис з кампанією, Ви можете <a %1>створити кампанію тут</a>."
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid ""
@@ -1105,27 +1270,35 @@ msgid ""
 msgstr "Якщо Ви не отримали від нас електронного листа, перевірте Вашу папку зі спамом, бо електронний лист міг бути невірно класифікований."
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Max Number Of Contacts"
 msgstr "Максимальна кількість контактів"
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Default Number Of Contacts"
 msgstr "Кількість контактів за умовчанням"
 
 #: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey type entered. You can <a href='%1'>add one</a>."
+msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
 msgstr "Не було введено жодного типу опитування. Ви можете <a href='%1'>додати такий тип</a>."
 
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group ID"
-msgstr ""
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr "Відкриває форму нової кампанії у новому вікні"
 
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group Type"
-msgstr ""
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "нова кампанія"
 
-#: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
-msgstr ""
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "Показати минулу кампанію (-ї) із цього випадаючого списку."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "На даний момент немає жодної діючої кампанії."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
+msgstr "Якщо Ви бажаєте пов'язати даний запис з кампанією, Ви можете <a %1>створити кампанію тут</a>."

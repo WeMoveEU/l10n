@@ -6,8 +6,8 @@
 # Adrian Torralba Roman <adriantorralba@hotmail.com>, 2016
 # ixiam <info@ixiam.com>, 2013
 # Carlos Capote <carloscapote@masticable.org>, 2013
-# francescbassas <francesc@babu.cat>, 2015
-# ixiam <info@ixiam.com>, 2013,2016
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2015
+# ixiam <info@ixiam.com>, 2013,2016,2019
 # Irene Estefania <iestefania@ndi.org>, 2015
 # ixiam <info@ixiam.com>, 2013
 # jvalero <juan@jvalero.org>, 2011
@@ -18,9 +18,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-08-31 12:29+0000\n"
-"Last-Translator: Adrian Torralba Roman <adriantorralba@hotmail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-10-28 13:21+0000\n"
+"Last-Translator: ixiam <info@ixiam.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/civicrm/civicrm/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +41,10 @@ msgid "Grant Application Received Date is NULL"
 msgstr "La fecha de recepción de la solicitud de la subvención NULA"
 
 #: CRM/Grant/BAO/Query.php
+msgid "Grant Due Date"
+msgstr "Fecha de vencimiento de la subvención"
+
+#: CRM/Grant/BAO/Query.php
 msgid "Grant Due Date is NULL"
 msgstr "La fecha de vencimiento de la subvención es NULA"
 
@@ -48,61 +52,111 @@ msgstr "La fecha de vencimiento de la subvención es NULA"
 msgid "Grant Decision Date is NULL"
 msgstr "La fecha de la decisión de la subvención es NULA"
 
-#: CRM/Grant/BAO/Query.php
-msgid "App. Received Date - From"
-msgstr "Fecha de recepción de la aplicación - Desde"
+#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Form/Search/Common.tpl
+msgid "Grant Type(s)"
+msgstr "Tipo(s) de subvención"
+
+#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Form/Search/Common.tpl
+msgid "Grant Status(s)"
+msgstr "Estado(s) de la subvención"
 
 #: CRM/Grant/BAO/Query.php
-msgid "Money Sent Date - From"
-msgstr "Fecha de envío de dinero - Desde"
+msgid "Grant Report Received = %1"
+msgstr ""
 
 #: CRM/Grant/BAO/Query.php
-msgid "Report Due Date - From"
-msgstr "Fecha de vencimiento del resumen - Desde"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date - From"
-msgstr "Fecha de decisión de subvención - Desde"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant report received?"
-msgstr "¿Recibió la información de la subvención?"
+msgid "Date is not set"
+msgstr "No se ha establecido la fecha"
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant ID"
 msgstr "Identificador de subvención"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Unique Grant id"
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Contact ID of contact record given grant belongs to."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Application received date"
 msgstr "Fecha de aplicación recibida"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant application was received by donor."
+msgstr ""
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Decision date"
 msgstr "Fecha de decisión"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant decision was made."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Grant Money transfer date"
 msgstr "Fecha de transferencia del dinero de la subvención"
 
 #: CRM/Grant/DAO/Grant.php
-msgid "Grant Due Date"
-msgstr "Fecha de vencimiento de la subvención"
+msgid "Date on which grant money transfer was made."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Grant Report Due Date"
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Date on which grant report is due."
+msgstr ""
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant report received"
 msgstr "Informe de subvención recibido"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Yes/No field stating whether grant report was received by donor."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid ""
+"Type of grant. Implicit FK to civicrm_option_value in grant_type "
+"option_group."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Requested grant amount, in default currency."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Requested grant amount, in original currency (optional)."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Amount granted"
 msgstr "Cantidad subvencionada"
 
 #: CRM/Grant/DAO/Grant.php
+msgid "Granted amount, in default currency."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
 msgid "Grant Currency"
-msgstr "Moneda de la donación"
+msgstr "Moneda de la subvención"
 
 #: CRM/Grant/DAO/Grant.php
 msgid "Grant Rationale"
-msgstr "Motivo de la donación"
+msgstr "Motivo de la subvención"
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Grant rationale."
+msgstr ""
+
+#: CRM/Grant/DAO/Grant.php
+msgid "Id of Grant status."
+msgstr ""
 
 #: CRM/Grant/Form/Grant.php templates/CRM/Grant/Form/GrantView.tpl
 msgid "Grant Report Received?"
@@ -120,7 +174,7 @@ msgstr "Solicitante"
 msgid "Find Grants"
 msgstr "Encontrar subvenciones"
 
-#: CRM/Grant/Form/Task/Delete.php CRM/Grant/Task.php
+#: CRM/Grant/Form/Task/Delete.php
 msgid "Delete Grants"
 msgstr "Eliminar subvenciones"
 
@@ -128,19 +182,19 @@ msgstr "Eliminar subvenciones"
 msgid "%count grant deleted."
 msgid_plural "%count grants deleted."
 msgstr[0] "% de donación eliminada."
-msgstr[1] "% de donaciones eliminadas."
+msgstr[1] "%count subvenciones eliminadas."
 
 #: CRM/Grant/Form/Task/Print.php
 msgid "Print Grant List"
 msgstr "Imprimir lista de subvenciones"
 
-#: CRM/Grant/Form/Task/Update.php CRM/Grant/Task.php
+#: CRM/Grant/Form/Task/Update.php
 msgid "Update Grants"
 msgstr "Actualizar subvenciones"
 
 #: CRM/Grant/Form/Task/Update.php
 msgid "Updated Grant(s): %1 (Total Selected: %2)"
-msgstr "Donaciones actualizadas: %1 (Total seleccionadas: %2)"
+msgstr "Subvención(es) actualizadas: %1 (Total seleccionadas: %2)"
 
 #: CRM/Grant/Info.php
 msgid "access CiviGrant"
@@ -148,23 +202,23 @@ msgstr "acceder a CiviGrant"
 
 #: CRM/Grant/Info.php
 msgid "View all grants"
-msgstr "Ver todas las donaciones"
+msgstr "Ver todas las subvenciones"
 
 #: CRM/Grant/Info.php
 msgid "edit grants"
-msgstr "Editar donación"
+msgstr "Editar subvención"
 
 #: CRM/Grant/Info.php
 msgid "Create and update grants"
-msgstr "Crear y actualizar donaciones "
+msgstr "Crear y actualizar subvenciones"
 
 #: CRM/Grant/Info.php
 msgid "delete in CiviGrant"
 msgstr "eliminar en CiviGrant"
 
-#: CRM/Grant/Info.php
+#: CRM/Grant/Info.php CRM/Grant/Task.php
 msgid "Delete grants"
-msgstr "Eliminar donaciones"
+msgstr "Eliminar subvenciones"
 
 #: CRM/Grant/Page/DashBoard.php
 msgid "grants"
@@ -188,11 +242,15 @@ msgstr "Solicitado"
 
 #: CRM/Grant/Selector/Search.php
 msgid "Granted"
-msgstr "Donado"
+msgstr "Concedido"
 
 #: CRM/Grant/Task.php
-msgid "Export Grants"
+msgid "Export grants"
 msgstr "Exportar subvenciones"
+
+#: CRM/Grant/Task.php
+msgid "Update grants"
+msgstr "Actualizar subvenciones"
 
 #: templates/CRM/Grant/Form/Grant.tpl
 msgid "Are you sure you want to delete this Grant?"
@@ -202,7 +260,7 @@ msgstr "¿Está seguro que desea eliminar esta subvención?"
 msgid "Amount requested for grant in original currency (if different)."
 msgstr "Cantidad solicitada para la subvención en moneda original (si difiere)."
 
-#: templates/CRM/Grant/Form/Grant.tpl templates/CRM/Grant/Form/Task/Update.tpl
+#: templates/CRM/Grant/Form/Grant.tpl
 msgid "Date on which the grant decision was finalized."
 msgstr "Fecha en que finalizó la decisión de subvención."
 
@@ -213,18 +271,6 @@ msgstr "Fecha en que el dinero de la subvención fue transferido."
 #: templates/CRM/Grant/Form/GrantView.tpl
 msgid "(original currency)"
 msgstr "(moneda original)"
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Grant Status(s)"
-msgstr "Estado de la donación(es)"
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Grant Type(s)"
-msgstr "Tipo de donación(es) "
-
-#: templates/CRM/Grant/Form/Search/Common.tpl
-msgid "Date is not set"
-msgstr "No se ha establecido la fecha"
 
 #: templates/CRM/Grant/Form/Search/EmptyResults.tpl
 msgid "if you are searching by Contact name, check your spelling"
@@ -250,10 +296,6 @@ msgstr "¿Está seguro que desea eliminar las subvenciones seleccionadas? Esta o
 #: templates/CRM/Grant/Form/Task/Print.tpl
 msgid "Amount Requested(orig. currency)"
 msgstr "Cantidad solicitada (moneda original)"
-
-#: templates/CRM/Grant/Form/Task/Print.tpl
-msgid "Application Recieved"
-msgstr "Solicitud recibida"
 
 #: templates/CRM/Grant/Form/Task/SearchTaskHookSample.tpl
 msgid "Decision Date"
@@ -315,16 +357,28 @@ msgstr "Esta página muestra todas las subvenciones para %1 desde el inicio."
 
 #: templates/CRM/Grant/Page/Tab.tpl
 msgid "Click <a %1>Add Grant</a> to record a Grant for this contact."
-msgstr "Haz clic en <a %1>Añadir donación</a> para grabar una donación a este contacto."
+msgstr "Haga clic en <a %1>Añadir subvención</a> para registrar una subvención para este contacto."
 
 #: templates/CRM/Grant/Page/Tab.tpl
 msgid "No grants have been recorded for this contact."
 msgstr "No se han registrado subvenciones para este contacto."
 
-#: CRM/Grant/Task.php
-msgid "Export grants"
-msgstr "Exportar subvenciones"
+#: CRM/Grant/BAO/Query.php
+msgid "App. Received Date - From"
+msgstr "Fecha de recepción de la aplicación - Desde"
 
-#: CRM/Grant/Task.php
-msgid "Update grants"
-msgstr "Actualizar subvenciones"
+#: CRM/Grant/BAO/Query.php
+msgid "Money Sent Date - From"
+msgstr "Fecha de envío de dinero - Desde"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Report Due Date - From"
+msgstr "Fecha de vencimiento del resumen - Desde"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Grant Decision Date - From"
+msgstr "Fecha de decisión de subvención - Desde"
+
+#: CRM/Grant/BAO/Query.php
+msgid "Grant report received?"
+msgstr "¿Recibió la información de la subvención?"

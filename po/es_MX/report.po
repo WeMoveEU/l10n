@@ -5,6 +5,7 @@
 # Translators:
 # AnaLopez <alopez@alternativasociales.org>, 2011
 # AnaLopez <alopez@alternativasociales.org>, 2011
+# Edgar RF <edgarriosfernandez@gmail.com>, 2018
 # ixiam_jose <jrombini@hotmail.com>, 2012
 # Joaquin Cardiel <orfeon@hotmail.com>, 2013
 # ixiam_jose <jrombini@hotmail.com>, 2012
@@ -12,15 +13,48 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-11-04 21:46+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Spanish (Mexico) (http://www.transifex.com/civicrm/civicrm/language/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_MX\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "You do not have permission to Delete Report."
+msgstr "Usted no tiene permiso para Eliminar Reporte."
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Selected report has been deleted."
+msgstr "El informe seleccionado ha sido eliminado."
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Save a copy..."
+msgstr "Guardar una copia..."
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "(Copy) "
+msgstr "(Copiar) "
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Print to PDF"
+msgstr "Imprimir en PDF"
+
+#: CRM/Report/BAO/ReportInstance.php
+msgid "Export as CSV"
+msgstr "Exportar como CSV"
+
+#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
+msgid "Delete report"
+msgstr "Borrar informe"
+
+#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
+msgid ""
+"Are you sure you want delete this report? This action cannot be undone."
+msgstr "¿Estas seguro que quiere borrar este informe? Esta acción no se puede deshacer."
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance ID"
@@ -31,32 +65,68 @@ msgid "Report Instance Domain ID"
 msgstr "ID de Informe Instancia Dominio"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "Which Domain is this instance for"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Title"
 msgstr "Título de la Instancia del Reporte"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Report Instance Title."
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report template ID"
 msgstr "ID Plantilla de informe"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "FK to civicrm_option_value for the report template"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Report instance Name"
 msgstr "Nombre del informe"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "when combined with report_id/template uniquely identifies the instance"
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Arguments"
 msgstr "Argumentos del reporte"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "arguments that are passed in the url when invoking the instance"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance description"
 msgstr "Descripción del reporte"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Report Instance description."
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Permissions"
 msgstr "Permisos del reporte"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "permission required to be able to run this instance"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance Assigned to Roles"
 msgstr "Roles asignados al informe"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "role required to be able to run this instance"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "Submitted form values for this report"
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Report Instance is Active"
@@ -75,8 +145,16 @@ msgid "Report Instance email Subject"
 msgstr "Asunto del email del informe"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "Subject of email"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Email Report Instance To"
 msgstr "Destinatario del email del informe"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "comma-separated list of email addresses to send the report to"
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "cc Email Report Instance To"
@@ -91,40 +169,60 @@ msgid "Report Instance Footer"
 msgstr "Pie de página del informe"
 
 #: CRM/Report/DAO/ReportInstance.php
+msgid "FK to navigation ID"
+msgstr ""
+
+#: CRM/Report/DAO/ReportInstance.php
 msgid "Drilldown Report ID"
 msgstr "ID de informe en detalle"
+
+#: CRM/Report/DAO/ReportInstance.php
+msgid "FK to instance ID drilldown to"
+msgstr ""
 
 #: CRM/Report/DAO/ReportInstance.php
 msgid "Instance is Reserved"
 msgstr "El caso está reservado"
 
 #: CRM/Report/Form/Activity.php
-msgid "Source Contact Name"
-msgstr "Nombre del Contacto de Origen"
+msgid "Source Name"
+msgstr "Nombre de la Fuente"
 
 #: CRM/Report/Form/Activity.php
-msgid "Assignee Contact Name"
-msgstr "Nombre del Contacto Asignado"
+msgid "Assignee Name"
+msgstr "Nombre Asignado"
 
 #: CRM/Report/Form/Activity.php
-msgid "Target Contact Name"
-msgstr "Nombre del Contacto de Destino"
+msgid "Target Name"
+msgstr "Nombre del destino"
 
 #: CRM/Report/Form/Activity.php
 msgid "Limit To Current User"
 msgstr "Limitar a sólo el Usuario Actual"
 
 #: CRM/Report/Form/Activity.php
-msgid "Source Contact Email"
-msgstr "Correo Electrónico de Contacto de Origen"
+msgid "Source Email"
+msgstr "Correo Electrónico de la Fuente"
 
 #: CRM/Report/Form/Activity.php
-msgid "Assignee Contact Email"
-msgstr "Correo Electrónico de Contacto Asignado"
+msgid "Assignee Email"
+msgstr "Correo Electrónico Asignado"
 
 #: CRM/Report/Form/Activity.php
-msgid "Target Contact Email"
-msgstr "Correo Electrónico de Contacto de Destino"
+msgid "Target Email"
+msgstr "Correo electrónico de destino"
+
+#: CRM/Report/Form/Activity.php
+msgid "Source Phone"
+msgstr "Teléfono de origen"
+
+#: CRM/Report/Form/Activity.php
+msgid "Assignee Phone"
+msgstr "Teléfono Asignado"
+
+#: CRM/Report/Form/Activity.php
+msgid "Target Phone"
+msgstr "Teléfono de destino"
 
 #: CRM/Report/Form/Activity.php
 msgid "Include Case Activities"
@@ -154,7 +252,7 @@ msgid ""
 msgstr "Por favor habilite 'Incluir Actividades de Caso' para filtrar por tipos de Actividades de Caso"
 
 #: CRM/Report/Form/Activity.php CRM/Report/Form/ActivitySummary.php
-#: CRM/Report/Form/Case/Detail.php CRM/Report/Form/Contact/Detail.php
+#: CRM/Report/Form/Case/Detail.php
 msgid "View Contact Summary for this Contact"
 msgstr "Ver Resumen de Contacto de este Contacto"
 
@@ -163,16 +261,8 @@ msgid "View Activity Record"
 msgstr "Ver Registro de Actividades"
 
 #: CRM/Report/Form/ActivitySummary.php
-msgid "Total Duration"
-msgstr "Duración Total"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Activity Count"
-msgstr "Conteo de Actividades"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Please select GroupBy 'Contact' to display Contact Fields"
-msgstr "Por favor, seleccione Agrupar Por 'Contacto' para mostrar Campos de Contacto."
+msgid "Total Activities"
+msgstr "Total de Actividades"
 
 #: CRM/Report/Form/ActivitySummary.php
 msgid "Please do not select GroupBy 'Activity Date' with GroupBy 'Contact'"
@@ -181,6 +271,28 @@ msgstr "Por favor, no selecciones Agrupar por \"Fecha de Actividad\" y agrupar p
 #: CRM/Report/Form/ActivitySummary.php
 msgid "Please do not select any Contact Fields with GroupBy 'Activity Date'"
 msgstr "Por favor, no selecciones ningún Campo de Contacto con Agrupar por \"Fecha de Actividad\""
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid ""
+"You cannot use \"Add Contacts to Group\" action unless contacts fields are "
+"selected."
+msgstr "No puede usar \"Añadir contactos al Grupo\" a menos que el campo de contactos esté seleccionado."
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Types"
+msgstr "Tipos totales"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Number of Activities"
+msgstr "Numero total de Actividades"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "Total Duration (in Minutes)"
+msgstr "Duración total (En minutos)"
+
+#: CRM/Report/Form/ActivitySummary.php
+msgid "List all activity(s) for this row."
+msgstr "Listar toda la actividad(es) para esta fila."
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Interviewed"
@@ -197,10 +309,6 @@ msgstr "- cualquier entrevistador - "
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Respondent Name"
 msgstr "Nombre del Entrevistado"
-
-#: CRM/Report/Form/Campaign/SurveyDetails.php
-msgid "Odd / Even Street Number"
-msgstr "Número de calle impar / par"
 
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Respondent Status"
@@ -235,9 +343,8 @@ msgid "Include Both"
 msgstr "Incluir ambos"
 
 #: CRM/Report/Form/Case/Demographics.php CRM/Report/Form/Contact/Log.php
-#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form/Mailing/Bounce.php
-#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Mailing/Detail.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 msgid "View Contact details for this contact."
 msgstr "Ver Detalles de Contacto de este contacto."
 
@@ -250,6 +357,18 @@ msgid "Case Role(s)"
 msgstr "Rol(es) de Caso"
 
 #: CRM/Report/Form/Case/Detail.php
+msgid "Active Role?"
+msgstr ""
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Subject of the last activity in the case"
+msgstr ""
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Activity type of the last activity"
+msgstr ""
+
+#: CRM/Report/Form/Case/Detail.php
 msgid "Last Action Date"
 msgstr "Fecha de Última Acción"
 
@@ -260,6 +379,10 @@ msgstr "Asunto de la última actividad completada en este caso"
 #: CRM/Report/Form/Case/Detail.php
 msgid "Activity type of the last completed activity"
 msgstr "Tipo de actividad de la última actividad completada"
+
+#: CRM/Report/Form/Case/Detail.php
+msgid "Last Completed Action Date"
+msgstr ""
 
 #: CRM/Report/Form/Case/Detail.php
 msgid "My Cases"
@@ -292,6 +415,14 @@ msgstr "Miembro del Equipo"
 #: CRM/Report/Form/Case/Summary.php
 msgid "Staff Relationship"
 msgstr "Relación del Equipo"
+
+#: CRM/Report/Form/Case/Summary.php
+msgid "Active Relationship?"
+msgstr ""
+
+#: CRM/Report/Form/Case/Summary.php
+msgid "- Select -"
+msgstr ""
 
 #: CRM/Report/Form/Case/Summary.php
 msgid ""
@@ -333,9 +464,14 @@ msgstr "Nombre del Empleado/a"
 msgid "Employee Since"
 msgstr "Empleado/a Desde"
 
+#: CRM/Report/Form/Contact/CurrentEmployer.php
+#: CRM/Report/Form/Contact/Relationship.php
+#: CRM/Report/Form/Contact/Summary.php
+msgid "View Contact Detail Report for this contact"
+msgstr ""
+
 #: CRM/Report/Form/Contact/Detail.php CRM/Report/Form/Contact/Summary.php
 #: CRM/Report/Form/Contribute/Bookkeeping.php
-#: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Contribute/History.php
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Repeat.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
@@ -347,8 +483,17 @@ msgid "Last Name, First Name"
 msgstr "Apellido, Nombre"
 
 #: CRM/Report/Form/Contact/Detail.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Membership Source"
+msgstr "Fuente de Membresía"
+
+#: CRM/Report/Form/Contact/Detail.php
 msgid "Relationship With"
 msgstr "Está Relacionado a"
+
+#: CRM/Report/Form/Contact/Detail.php
+msgid "View Contact Record"
+msgstr ""
 
 #: CRM/Report/Form/Contact/Detail.php
 msgid "View Event Income details for this Event."
@@ -363,11 +508,14 @@ msgid "Touched Activity"
 msgstr "Actividad Modificada"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "Extra information to control grouping"
+msgstr "Información extra para control grupal"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Log Type"
 msgstr "Tipo de Registro"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
 msgid "Altered Contact"
 msgstr "Contacto Modificado"
 
@@ -376,18 +524,32 @@ msgid "Log Type Table"
 msgstr "Tabla de tipo de log"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
+msgid "Log Date (When)"
+msgstr ""
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Altered By"
 msgstr "Alterado Por"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
+msgid "Altered by"
+msgstr ""
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Go to contact summary"
 msgstr "Ir al resumen de contacto"
 
 #: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "Contact Merge"
+msgstr "Unificar contacto"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
 msgid "Delete (to trash)"
 msgstr "Borrar (a la basura)"
+
+#: CRM/Report/Form/Contact/LoggingSummary.php
+msgid "View details for this update"
+msgstr "Ver detalles de esta actualización"
 
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact A Full Name"
@@ -446,6 +608,22 @@ msgid "Relationship B-A "
 msgstr "Relación B-A"
 
 #: CRM/Report/Form/Contact/Relationship.php
+msgid "Relationship A-B"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Relationship B-A"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Permission A has to access B"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Permission B has to access A"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
 msgid "Rel ID"
 msgstr "Id Rel"
 
@@ -458,12 +636,32 @@ msgid "Not expired"
 msgstr "No Expirado"
 
 #: CRM/Report/Form/Contact/Relationship.php
+msgid "Does contact A have permission over contact B?"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Does contact B have permission over contact A?"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Is equal to Active"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php
+msgid "Is equal to Inactive"
+msgstr ""
+
+#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form.php
+msgid "Is one of"
+msgstr "Es uno de"
+
+#: CRM/Report/Form/Contact/Relationship.php CRM/Report/Form.php
+msgid "Is not one of"
+msgstr "No es uno de"
+
+#: CRM/Report/Form/Contact/Relationship.php
 msgid "Edit this relationship."
 msgstr "Editar relación"
-
-#: CRM/Report/Form/Contact/Summary.php
-msgid "View Constituent Detail Report for this contact."
-msgstr "Ver el Reporte de Detalles de este Contacto."
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Membership #"
@@ -474,8 +672,16 @@ msgid "Financial Account Code - Debit"
 msgstr "Código contable financiero - Débito"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Account Owner - Debit"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Code - Credit"
 msgstr "Código contable financiero - Crédito"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Account Owner - Credit"
+msgstr ""
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
 msgid "Financial Account Name - Debit"
@@ -498,21 +704,94 @@ msgid "Trans #"
 msgstr "Trans #"
 
 #: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/History.php
+#: CRM/Report/Form/Contribute/HouseholdSummary.php
+#: CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/OrganizationSummary.php
+#: CRM/Report/Form/Contribute/PCP.php CRM/Report/Form/Contribute/Recur.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+#: CRM/Report/Form/Contribute/Sybunt.php
+#: CRM/Report/Form/Contribute/TopDonor.php
+msgid "Credit Card Type"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Financial Transaction Status"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Repeat.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+#: CRM/Report/Form/Contribute/TopDonor.php
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+#: CRM/Report/Form/Event/ParticipantListCount.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+#: CRM/Report/Form/Member/Summary.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Summary.php
+msgid "Average"
+msgstr "Promedio"
+
+#: CRM/Report/Form/Contribute/Bookkeeping.php
 #: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/PCP.php
 #: CRM/Report/Form/Contribute/Recur.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
-#: CRM/Report/Form/Event/ParticipantListing.php
+#: CRM/Report/Form/Grant/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
 msgid "View Contact Summary for this Contact."
 msgstr "Ver Resumen de Contacto de este contacto."
 
-#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Lybunt.php
-#: CRM/Report/Form/Contribute/Sybunt.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Donor Name"
-msgstr "Nombre del donante"
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Amount"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Current month's revenue?"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Account"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Account ID"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Accounting Code"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Financial Account"
+msgstr "Cuenta financiera diferida"
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Account"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Account ID"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Accounting code"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Transaction Amount"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Deferred Transaction Date"
+msgstr ""
 
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
@@ -529,9 +808,25 @@ msgid "Contribution OR Soft Credit?"
 msgstr "Contribución O crédito?"
 
 #: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit amount"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Contribution Ordinality"
 msgstr "Contribución de Ordinalidad"
+
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/Sybunt.php
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Donor Name"
+msgstr "Nombre del donante"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid ""
+"You cannot group by soft credit when displaying contributions only.  Please "
+"uncheck \"Soft Credit\" in the Grouping tab."
+msgstr ""
 
 #: CRM/Report/Form/Contribute/Detail.php
 msgid "Total Amount (Contributions)"
@@ -544,16 +839,8 @@ msgid "Total Contributions"
 msgstr "Contribuciones totales"
 
 #: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Contribute/SoftCredit.php
-#: CRM/Report/Form/Contribute/Summary.php
-#: CRM/Report/Form/Contribute/TopDonor.php
-#: CRM/Report/Form/Event/IncomeCountSummary.php
-#: CRM/Report/Form/Event/ParticipantListCount.php
-#: CRM/Report/Form/Member/ContributionDetail.php
-#: CRM/Report/Form/Member/Summary.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Summary.php
-msgid "Average"
-msgstr "Promedio"
+msgid "Net"
+msgstr "Red"
 
 #: CRM/Report/Form/Contribute/Detail.php
 msgid "Total Amount (Soft Credits)"
@@ -562,6 +849,16 @@ msgstr "Cantidad Total (Créditos)"
 #: CRM/Report/Form/Contribute/Detail.php
 msgid "Average (Soft Credits)"
 msgstr "Promedio créditos"
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid ""
+"Is it not possible to filter on soft contribution type when not including "
+"soft credits."
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "View Contribution Details"
+msgstr "Ver detalles de contribución"
 
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
@@ -575,11 +872,15 @@ msgid "Amount Statistics"
 msgstr "Estadísticas de Cantidad"
 
 #: CRM/Report/Form/Contribute/History.php
-#: CRM/Report/Form/Contribute/LoggingSummary.php
 #: CRM/Report/Form/Contribute/SoftCredit.php
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Aggregate Amount"
 msgstr "Cantidad total"
+
+#: CRM/Report/Form/Contribute/History.php
+#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
+msgid "This Year"
+msgstr ""
 
 #: CRM/Report/Form/Contribute/History.php
 msgid "Other Years"
@@ -639,19 +940,49 @@ msgstr "Ver detalles de contribución para esta contribución:"
 msgid "View this contribution."
 msgstr "Ver esta contribución."
 
-#: CRM/Report/Form/Contribute/LoggingSummary.php
-msgid "View details for this update"
-msgstr "Ver detalles de esta actualización"
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Email on hold"
+msgstr "Correo electrónico en espera"
 
 #: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
 msgid "contactId"
 msgstr "idContacto"
 
 #: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Last Year Total"
+msgstr "Total del año pasado"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Lifetime Total"
+msgstr "Total estimado"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Lifetime total"
+msgstr "Total estimado"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total amount last year"
+msgstr "Cantidad total del último año"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total for "
+msgstr "Total para"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
+msgid "Total for Fiscal Year "
+msgstr "Total para año fiscal"
+
+#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
+msgid "Total LifeTime"
+msgstr "Total"
+
+#: CRM/Report/Form/Contribute/Lybunt.php
 msgid "Lybunt Report"
 msgstr "Reporte Lybunt "
 
 #: CRM/Report/Form/Contribute/Lybunt.php
+#: CRM/Report/Form/Contribute/Summary.php
+#: CRM/Report/Form/Contribute/Sybunt.php
 msgid "Amount (%1)"
 msgstr "Cantidad (%1)"
 
@@ -728,13 +1059,13 @@ msgid "Frequency unit"
 msgstr "Unidad de frecuencia"
 
 #: CRM/Report/Form/Contribute/Recur.php
+msgid "Last Contribution Processed"
+msgstr "Ultima contribución procesada"
+
+#: CRM/Report/Form/Contribute/Recur.php
 msgid ""
 "Calculated end date (either end date or date all installments will be made)"
 msgstr "Fecha de término calculada (fecha de término o fecha donde todas las instancias se van a hacer)"
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Addressee Name"
-msgstr "Nombre de destinatario"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "Percentage Change"
@@ -786,12 +1117,48 @@ msgid "Select valid date range"
 msgstr "Seleccione un intervalo de fechas válido"
 
 #: CRM/Report/Form/Contribute/Repeat.php
+msgid "% New Donors"
+msgstr "% Nuevos donadores"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Lapsed Donors"
+msgstr "% De donantes caducados"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Upgraded Donors"
+msgstr "% De ascendieron a ser donandores "
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Downgraded Donors"
+msgstr "% De dejaron de ser Donadores"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Maintained Donors"
+msgstr "% De Donandores Conservados"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Initial Date Range:"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Total Donations"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "Second Date Range:"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Repeat.php
 msgid "Skipped Donation"
 msgstr "Donación Salteada"
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "New Donor"
 msgstr "Donante Nuevo"
+
+#: CRM/Report/Form/Contribute/Repeat.php
+msgid "% Change"
+msgstr ""
 
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "View contributions for this Country."
@@ -804,10 +1171,6 @@ msgstr "Ver Detalles repetidos para este estado."
 #: CRM/Report/Form/Contribute/Repeat.php
 msgid "View Contribution details for this contact"
 msgstr "Ver Detalles de contribuciones para este contacto"
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Name"
-msgstr "Nombre del acreedor del donativo"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Soft Credit Id"
@@ -824,16 +1187,8 @@ msgid "Age at Event"
 msgstr "Edad evento"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Email"
-msgstr "Correo electrónico de Soft Credit"
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor's Email"
 msgstr "Correo electrónico del Contribuyente"
-
-#: CRM/Report/Form/Contribute/SoftCredit.php
-msgid "Soft Credit Phone"
-msgstr "Teléfono de Soft Credir"
 
 #: CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor's Phone"
@@ -872,6 +1227,22 @@ msgid "Soft Credits Count"
 msgstr "Cantidad de créditos"
 
 #: CRM/Report/Form/Contribute/Summary.php
+msgid "Week Beginning"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Year Beginning"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Fiscal Year Beginning"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Month Beginning"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Summary.php
 msgid "Please select the Amount Statistics"
 msgstr "Por favor, seleccione Estadísticas de Cantidades"
 
@@ -891,6 +1262,18 @@ msgstr "Mostrar la lista de todas las contribuciones para esta unidad de tiempo.
 msgid "Lists detailed contribution(s) for this record."
 msgstr "Mostrar la lista de todos los contribuyentes para este registro."
 
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "Up To %1"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "LifeTime"
+msgstr ""
+
+#: CRM/Report/Form/Contribute/Sybunt.php
+msgid "Sybunt Report"
+msgstr ""
+
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Donations"
 msgstr "Donaciones"
@@ -900,16 +1283,20 @@ msgid "Show no. of Top Donors"
 msgstr "Mostrar el número de Donantes Principales"
 
 #: CRM/Report/Form/Contribute/TopDonor.php
-msgid "Rank"
-msgstr "Rango"
-
-#: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Please select 'Is equal to' OR 'Is Less than or equal to' operator"
 msgstr "Por favor, seleccione el operador \"Igual a\" O BIEN \"Menor o igual a\""
 
 #: CRM/Report/Form/Contribute/TopDonor.php
 msgid "Please enter positive number"
 msgstr "Por favor, utilice un número positivo"
+
+#: CRM/Report/Form/Event/Income.php
+msgid "Event Income"
+msgstr ""
+
+#: CRM/Report/Form/Event/Income.php
+msgid "Registered Participant"
+msgstr ""
 
 #: CRM/Report/Form/Event/Income.php
 msgid "Records %%StatusMessage%%"
@@ -928,6 +1315,20 @@ msgstr "Estadísticas de Ingresos"
 #: CRM/Report/Form/Event/ParticipantListCount.php
 msgid "Income"
 msgstr "Ingreso"
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+#: CRM/Report/Form/Event/ParticipantListCount.php
+#: CRM/Report/Form/Event/Summary.php
+msgid "Total Income"
+msgstr ""
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+msgid "Participants Summary"
+msgstr ""
+
+#: CRM/Report/Form/Event/IncomeCountSummary.php
+msgid "Participants : %1"
+msgstr ""
 
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 msgid "View Event Participants For this Event"
@@ -981,6 +1382,18 @@ msgid "View Event Income Details for this Event"
 msgstr "Ver Detalles de Ingresos de Evento para este Evento"
 
 #: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Registered by Participant ID"
+msgstr "ID de participante registrado"
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Registered by Participant Name"
+msgstr ""
+
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Fee"
+msgstr "Tasa de participante"
+
+#: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Payment Date"
 msgstr "Fecha de pago"
 
@@ -993,8 +1406,16 @@ msgid "Contribution Currency"
 msgstr "Moneda de la contribución"
 
 #: CRM/Report/Form/Event/ParticipantListing.php
+msgid "View Contact Summary for Contact that registered the participant."
+msgstr ""
+
+#: CRM/Report/Form/Event/ParticipantListing.php
 msgid "View Participant Record"
 msgstr "Ver el Registro del Participante"
+
+#: CRM/Report/Form/Event/Summary.php
+msgid "Total Amount (%1)"
+msgstr ""
 
 #: CRM/Report/Form/Event/Summary.php
 msgid "View Event Income For this Event"
@@ -1058,20 +1479,12 @@ msgid "Money Transfer Date"
 msgstr "Fecha de Transferencia Monetaria"
 
 #: CRM/Report/Form/Grant/Detail.php
-msgid "Grant Decision Date"
-msgstr "Fecha de la Decisión de Beca"
-
-#: CRM/Report/Form/Grant/Detail.php
 msgid "Grant Report Received"
 msgstr "Reporte de Beca Recibido"
 
 #: CRM/Report/Form/Grant/Detail.php
 msgid "Application Received Date"
 msgstr "Fecha de Recepción de la Solicitud"
-
-#: CRM/Report/Form/Grant/Detail.php
-msgid "View contact details for this record."
-msgstr "Ver detalles de contacto de este registro."
 
 #: CRM/Report/Form/Grant/Statistics.php
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
@@ -1147,8 +1560,28 @@ msgid "Include Report in Navigation Menu?"
 msgstr "¿Incluir el Reporte en el Menú de Navegación?"
 
 #: CRM/Report/Form/Instance.php
+msgid "Configure link to..."
+msgstr "Configurar un enlace a..."
+
+#: CRM/Report/Form/Instance.php templates/CRM/Report/Page/InstanceList.tpl
+msgid "View Results"
+msgstr "Ver resultados"
+
+#: CRM/Report/Form/Instance.php
+msgid "Show Criteria"
+msgstr "Ver criterio"
+
+#: CRM/Report/Form/Instance.php
 msgid "Available for Dashboard?"
 msgstr "¿Habilitar en el tablero?"
+
+#: CRM/Report/Form/Instance.php
+msgid "Cache dashlet for"
+msgstr "Componente en Memoria para"
+
+#: CRM/Report/Form/Instance.php
+msgid "Add to My Reports?"
+msgstr "¿Agregar a mis informes?"
 
 #: CRM/Report/Form/Instance.php
 msgid "Reserved Report?"
@@ -1187,6 +1620,22 @@ msgid ""
 msgstr "El informe \"%1\" ha sido creado exitosamente. Usted está viendo actualmente una nueva instancia de informe."
 
 #: CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Date"
+msgstr "Porcentaje de rebote"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "On hold"
+msgstr "En espera"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "Hold date"
+msgstr "Fecha de retención"
+
+#: CRM/Report/Form/Mailing/Bounce.php
+msgid "Hold reset date"
+msgstr "Fecha de desbloqueo de espera"
+
+#: CRM/Report/Form/Mailing/Bounce.php
 msgid "Bounce Count"
 msgstr "Cuenta de Rebote"
 
@@ -1198,9 +1647,18 @@ msgstr "Rebotado"
 msgid "Mail Bounce: %1"
 msgstr "Correo Rebotado: %1"
 
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php
+msgid "Email address deleted."
+msgstr ""
+
 #: CRM/Report/Form/Mailing/Clicks.php
 msgid "Click through URL"
 msgstr "Haga clic a través de la URL"
+
+#: CRM/Report/Form/Mailing/Clicks.php
+msgid "Click Date"
+msgstr ""
 
 #: CRM/Report/Form/Mailing/Clicks.php
 msgid "Click Count"
@@ -1216,7 +1674,7 @@ msgstr "Suscripción Cancelada"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Opted-out"
-msgstr "Opted- out"
+msgstr "Optado por fuera"
 
 #: CRM/Report/Form/Mailing/Detail.php
 msgid "Replied"
@@ -1255,8 +1713,12 @@ msgid "Bounce Rate"
 msgstr "Tarifa Rebotada"
 
 #: CRM/Report/Form/Mailing/Summary.php
-msgid "Confirmed Open Rate"
-msgstr "Confirmar Tarifa de Apertura"
+msgid "Unique Open Rate"
+msgstr "Ratio único de apertura"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Total Open Rate"
+msgstr "Ratio total de apertura"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Click through Rate"
@@ -1265,6 +1727,14 @@ msgstr "Clic a través de Tarifa"
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Click to Open Rate"
 msgstr "Hacer clic para Tarifa de Apertura"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Opt-outs"
+msgstr "Exclusiones"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Groups Included in Mailing"
+msgstr "Grupos incluidos en el envío de correos"
 
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "For Chart view, please select at least one field from %1 OR %2."
@@ -1277,6 +1747,10 @@ msgstr "Resumen de Correo"
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Statistics"
 msgstr "Estadísticas"
+
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "View Mailing details for this mailing"
+msgstr "Ver detalles de correo para este correo"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "No Bulk Email(Is Opt Out)"
@@ -1308,13 +1782,17 @@ msgid "Join Date"
 msgstr "Fecha de Inscripción"
 
 #: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Membership Source"
-msgstr "Fuente de Membresía"
-
-#: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Member/Summary.php
 msgid "Membership Owner ID"
 msgstr "ID del Dueño de la Membresía"
+
+#: CRM/Report/Form/Member/Detail.php
+msgid "Is Deleted"
+msgstr ""
+
+#: CRM/Report/Form/Member/Detail.php
+msgid "Primary/Inherited?"
+msgstr ""
 
 #: CRM/Report/Form/Member/Detail.php
 msgid "Payment Amount (most recent)"
@@ -1327,6 +1805,10 @@ msgstr "Detalle del Reporte de membresía"
 #: CRM/Report/Form/Member/Lapse.php
 msgid "Membership Lapse Date"
 msgstr "Fecha de vencimiento de membresía"
+
+#: CRM/Report/Form/Member/Lapse.php
+msgid "Lapsed Memberships"
+msgstr "Membresías caducadas"
 
 #: CRM/Report/Form/Member/Lapse.php
 msgid "View Membership Detail for this Contact."
@@ -1343,6 +1825,10 @@ msgstr "Conteo de Miembros"
 #: CRM/Report/Form/Member/Summary.php
 msgid "Total Members"
 msgstr "Miembros totales"
+
+#: CRM/Report/Form/Member/Summary.php
+msgid "Member Since / Member Type"
+msgstr ""
 
 #: CRM/Report/Form/Member/Summary.php
 msgid "Lists Summary of Memberships for this date unit."
@@ -1364,7 +1850,8 @@ msgstr "Listado de Fila(s)"
 msgid "Pledge Made Date"
 msgstr "Fecha en que se hizo el Compromiso"
 
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Pledged Amount"
 msgstr "Cantidad Comprometida"
 
@@ -1372,17 +1859,17 @@ msgstr "Cantidad Comprometida"
 msgid "Total Amount Paid"
 msgstr "Cantidad Total Pagada"
 
-#: CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Total No Pledges"
 msgstr "Número total de compromisos"
+
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+msgid "Next Payment Due"
+msgstr "Fecha del Siguiente Pago"
 
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Constituent Name"
 msgstr "Nombre de Contacto"
-
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Next Payment Due"
-msgstr "Fecha del Siguiente Pago"
 
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "View Pledge Details for this contact"
@@ -1407,6 +1894,10 @@ msgstr "Listar Resumen de Membresía para esta unidad de fecha."
 #: CRM/Report/Form/Register.php
 msgid "Selected %1 Report has been deleted."
 msgstr "El Reporte %1 que fue seleccionado ha sido borrado."
+
+#: CRM/Report/Form.php
+msgid " (copy created by %1 on %2)"
+msgstr "(copia creada por %1 en %2)"
 
 #: CRM/Report/Form.php
 msgid "Report Templates"
@@ -1481,6 +1972,10 @@ msgid "Filters"
 msgstr "Filtros"
 
 #: CRM/Report/Form.php
+msgid "Developer"
+msgstr "desarrollador"
+
+#: CRM/Report/Form.php
 msgid "Display Options"
 msgstr "Mostrar Opciones"
 
@@ -1505,28 +2000,8 @@ msgid "Page Break"
 msgstr "Salto de página"
 
 #: CRM/Report/Form.php
-msgid "Update Report"
-msgstr "Actualizar Reporte"
-
-#: CRM/Report/Form.php
-msgid "PDF"
-msgstr "PDF"
-
-#: CRM/Report/Form.php
-msgid "Print Preview"
-msgstr "Imprimir Vista Previa"
-
-#: CRM/Report/Form.php
-msgid "Preview PDF"
-msgstr "Vista Previa de PDF"
-
-#: CRM/Report/Form.php
-msgid "Preview CSV"
-msgstr "Vista Previa CSV"
-
-#: CRM/Report/Form.php
-msgid "Preview Report"
-msgstr "Reporte Preliminar"
+msgid "Add Contacts to Group"
+msgstr ""
 
 #: CRM/Report/Form.php
 msgid "Is less than or equal to"
@@ -1569,14 +2044,6 @@ msgid "Is not empty (Null)"
 msgstr "No está vacío (Nulo)"
 
 #: CRM/Report/Form.php
-msgid "Is one of"
-msgstr "Es uno de"
-
-#: CRM/Report/Form.php
-msgid "Is not one of"
-msgstr "No es uno de"
-
-#: CRM/Report/Form.php
 msgid "Contains"
 msgstr "Contiene"
 
@@ -1591,6 +2058,10 @@ msgstr "Termina con"
 #: CRM/Report/Form.php
 msgid "Does not contain"
 msgstr "No contiene"
+
+#: CRM/Report/Form.php
+msgid "Grand Total"
+msgstr "Gran Total"
 
 #: CRM/Report/Form.php
 msgid "Total Row(s)"
@@ -1649,6 +2120,22 @@ msgid "Supplementary Address Field 2"
 msgstr "Campo de Dirección Suplementaria 2"
 
 #: CRM/Report/Form.php
+msgid "Supplementary Address Field 3"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Odd / Even Street Number"
+msgstr "Número de calle impar / par"
+
+#: CRM/Report/Form.php
+msgid "%1 for this %2."
+msgstr "%1 para este %2."
+
+#: CRM/Report/Form.php
+msgid "View Contact Summary for Employer."
+msgstr ""
+
+#: CRM/Report/Form.php
 msgid "Contact Prefix"
 msgstr "Prefijo del Contacto"
 
@@ -1661,10 +2148,6 @@ msgid "Contact Suffix"
 msgstr "Sufijo del Contacto"
 
 #: CRM/Report/Form.php
-msgid "Address Greeting"
-msgstr "Dirección de bienvenida"
-
-#: CRM/Report/Form.php
 msgid "Contact Job title"
 msgstr "Profesión del Contacto"
 
@@ -1673,8 +2156,44 @@ msgid "Contact identifier from external system"
 msgstr "Identificador externo al sistema del contacto"
 
 #: CRM/Report/Form.php
-msgid "%1 for this %2."
-msgstr "%1 para este %2."
+msgid "Contact Modified"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Do not SMS"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Do not bulk email"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Refresh results"
+msgstr "Actualizar resultados"
+
+#: CRM/Report/Form.php
+msgid "View results"
+msgstr "Ver resultados"
+
+#: CRM/Report/Form.php
+msgid "Contact Name (in sort format)"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Contact Sub Type"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Is deleted"
+msgstr ""
+
+#: CRM/Report/Form.php
+msgid "Is deceased"
+msgstr ""
+
+#: CRM/Report/Info.php
+msgid "CiviCRM Report Engine"
+msgstr ""
 
 #: CRM/Report/Info.php
 msgid "access CiviReport"
@@ -1693,6 +2212,18 @@ msgid "Change report search criteria"
 msgstr "Cambiar criterio de búsqueda de informe"
 
 #: CRM/Report/Info.php
+msgid "Save report search criteria"
+msgstr ""
+
+#: CRM/Report/Info.php
+msgid "administer private reports"
+msgstr ""
+
+#: CRM/Report/Info.php
+msgid "Edit all private reports"
+msgstr ""
+
+#: CRM/Report/Info.php
 msgid "administer reserved reports"
 msgstr "administrar informes reservados"
 
@@ -1708,13 +2239,13 @@ msgstr "Administrar Informes"
 msgid "Manage report templates"
 msgstr "Administrar plantillas de informes"
 
-#: CRM/Report/Page/Instance.php
-msgid "You do not have permission to Delete Report."
-msgstr "Usted no tiene permiso para Eliminar Reporte."
+#: CRM/Report/Info.php
+msgid "view report sql"
+msgstr "ver reporte sql"
 
-#: CRM/Report/Page/Instance.php
-msgid "Selected report has been deleted."
-msgstr "El informe seleccionado ha sido eliminado."
+#: CRM/Report/Info.php
+msgid "View sql used in CiviReports"
+msgstr "Ver sql usados en CiviReports"
 
 #: CRM/Report/Page/Instance.php
 msgid "Could not find template for the instance."
@@ -1739,6 +2270,18 @@ msgstr "Nuevo informe %1"
 #: CRM/Report/Page/InstanceList.php
 msgid "New Report"
 msgstr "Nuevo informe"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "View as pdf"
+msgstr "Ver como PDF"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "Print report"
+msgstr "Imprimir informe"
+
+#: CRM/Report/Page/InstanceList.php
+msgid "Export to csv"
+msgstr "Exportar a CSV"
 
 #: CRM/Report/Page/Options.php
 msgid "Registered Templates"
@@ -1811,6 +2354,14 @@ msgid "Statistics Breakdown"
 msgstr "Desglose de Estadísticas"
 
 #: templates/CRM/Report/Form/Grant/Statistics.tpl
+msgid "Number of Grants (%)"
+msgstr ""
+
+#: templates/CRM/Report/Form/Grant/Statistics.tpl
+msgid "Total Amount (%)"
+msgstr ""
+
+#: templates/CRM/Report/Form/Grant/Statistics.tpl
 msgid "Unassigned"
 msgstr "Sin Asignar"
 
@@ -1856,15 +2407,33 @@ msgid ""
 "Specify the Report if it is belongs to any component like \"CiviContribute\""
 msgstr "Especifique el Reporte si pertenece a cualquier componente como \"CiviContribuciones\""
 
+#: templates/CRM/Report/Form/Tabs/Developer.tpl
+msgid "Class used"
+msgstr ""
+
+#: templates/CRM/Report/Form/Tabs/Developer.tpl
+msgid "SQL Modes"
+msgstr ""
+
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid "Email Delivery Settings"
 msgstr "Opciones para Envío de Correo Electrónico"
+
+#: templates/CRM/Report/Form/Tabs/Instance.tpl
+msgid "Link to "
+msgstr "Enlazar a"
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
 "All report instances are automatically included in the Report Listing page. "
 "Check this box to also add this report to the navigation menu."
 msgstr "Todos los casos del reporte serán automáticamente incluidos en la página de Listas de Reportes. Seleccione esta casilla para que también se añada al menú de navegación."
+
+#: templates/CRM/Report/Form/Tabs/Instance.tpl
+msgid ""
+"If set to Yes, this report will appear in the My Reports section of the "
+"reports listing page and will only be visible by you."
+msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
@@ -1878,15 +2447,8 @@ msgid ""
 msgstr "Los usuarios con los permisos adecuados pueden añadir este reporte a su tablero."
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid ""
-"You have chosen to include this report in the Navigation Menu without "
-"selecting a Parent Menu item from the dropdown. This will add the report to "
-"the top level menu bar. Are you sure you want to continue?"
-msgstr "Ha elegido que se incluya este reporte en el Menú de Navegación sin seleccionar la opción desplegable del Menú Principal. Esto añadirá el reporte a la barra superior del menú. ¿Desea continuar?"
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "(copy)"
-msgstr "(copiar)"
+msgid "rows"
+msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "Section Header / Group By"
@@ -1986,6 +2548,17 @@ msgid ""
 msgstr "El número estándar de filas por página en la mayoría de los informes es de 50. Sin embargo, puede que estas sean demasiadas para un informe que es incluido en el 'Panel de Instrumentos Principal'. Puede reducir el número de líneas incluidas en cada página cuando el informe es parte del panel de instrumentos al introducir el número deseado de líneas aqui. Los usuarios podrán continuar navegando el informe completo utilizando un localizador. "
 
 #: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Dashboard Caching"
+msgstr ""
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid ""
+"How often should the contents of this dashlet be automatically refreshed? "
+"Users can manually reload by clicking the refresh button on their "
+"dashboards."
+msgstr ""
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
 msgid ""
 "Users with 'administer reserved reports' permission can mark a report "
 "instance as reserved, which prevents other users from accessing or modifying"
@@ -1994,6 +2567,17 @@ msgid ""
 "For example, the display columns configured for the  Contact Logging Summary"
 " affect the columns shown under each contact's Change Log tab."
 msgstr "Usuarios con permiso de \"administrar informes reservados\" pueden marcar una instancia del informe como reservada, lo que previene a otros usuarios de acceder o modificar los Criterios de Informe o Configuraciones de Informe.\nEsto es particularmente útil para instancias de informe cuyos criterios afectan  la información disponible en pantallas de no informes. Por ejemplo, las columnas de visualización configuradas para el\nResumen de Registro de Contacto afectan a las columnas mostradas en la pestaña de cada contacto para Cambiar Registro."
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Add to My Reports"
+msgstr ""
+
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid ""
+"Selecting Yes will set the report to be visible only to the user\n"
+"  that clicked this option and saved the report settings form. If this is\n"
+"  enabled, the permissions configuration for this report will be disabled."
+msgstr ""
 
 #: templates/CRM/Report/Page/InstanceList.tpl
 msgid "View All Reports"
@@ -2004,16 +2588,14 @@ msgid "Contribution Reports"
 msgstr "Reporte de Contribuciones"
 
 #: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Reports"
-msgstr "Reportes"
-
-#: templates/CRM/Report/Page/InstanceList.tpl
 msgid "Run this report"
 msgstr "Ejecutar este reporte"
 
 #: templates/CRM/Report/Page/InstanceList.tpl
-msgid "Are you sure you want delete this report?"
-msgstr "¿Está usted seguro de que desea borrar este reporte?"
+msgid ""
+"You do not have any private reports. To add a report to this section, edit "
+"the Report Settings for a report and set 'Add to My Reports' to Yes."
+msgstr ""
 
 #: templates/CRM/Report/Page/InstanceList.tpl
 msgid "No %1 reports have been created."
@@ -2056,385 +2638,10 @@ msgstr "Reporte(s) Existente(s)"
 msgid "There are currently no Report Templates."
 msgstr "Actualmente no existen Plantillas de Reporte"
 
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Save a copy..."
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "(Copy) "
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Print to PDF"
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php
-msgid "Export as CSV"
-msgstr ""
-
-#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
-msgid "Delete report"
-msgstr "Borrar informe"
-
-#: CRM/Report/BAO/ReportInstance.php CRM/Report/Page/InstanceList.php
-msgid ""
-"Are you sure you want delete this report? This action cannot be undone."
-msgstr "¿Estas seguro que quiere borrar este informe? Esta acción no se puede deshacer."
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Name"
-msgstr "Nombre de la Fuente"
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Name"
-msgstr "Nombre Asignado"
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Name"
-msgstr "Nombre del destino"
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Email"
-msgstr "Correo Electrónico de la Fuente"
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Email"
-msgstr "Correo Electrónico Asignado"
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Email"
-msgstr "Correo electrónico de destino"
-
-#: CRM/Report/Form/Activity.php
-msgid "Source Phone"
-msgstr "Teléfono de origen"
-
-#: CRM/Report/Form/Activity.php
-msgid "Assignee Phone"
-msgstr "Teléfono Asignado"
-
-#: CRM/Report/Form/Activity.php
-msgid "Target Phone"
-msgstr "Teléfono de destino"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Activities"
-msgstr "Total de Actividades"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid ""
-"You cannot use \"Add Contacts to Group\" action unless contacts fields are "
-"selected."
-msgstr "No puede usar \"Añadir contactos al Grupo\" a menos que el campo de contactos esté seleccionado."
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Types"
-msgstr "Tipos totales"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Number of Activities"
-msgstr "Numero total de Actividades"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "Total Duration (in Minutes)"
-msgstr "Duración total (En minutos)"
-
-#: CRM/Report/Form/ActivitySummary.php
-msgid "List all activity(s) for this row."
-msgstr "Listar toda la actividad(es) para esta fila."
-
-#: CRM/Report/Form/Contact/LoggingSummary.php
-msgid "Extra information to control grouping"
-msgstr "Información extra para control grupal"
-
-#: CRM/Report/Form/Contact/LoggingSummary.php
-msgid "Contact Merge"
-msgstr "Unificar contacto"
-
-#: CRM/Report/Form/Contribute/DeferredRevenue.php
-msgid "Deferred Financial Account"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Net"
-msgstr "Red"
-
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "View Contribution Details"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Email on hold"
-msgstr "Correo electrónico en espera"
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Last Year Total"
-msgstr "Total del año pasado"
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Lifetime Total"
-msgstr "Total "
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Lifetime total"
-msgstr "total"
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total amount last year"
-msgstr "Cantidad total del último año"
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total for "
-msgstr "Total para"
-
-#: CRM/Report/Form/Contribute/Lybunt.php
-msgid "Total for Fiscal Year "
-msgstr "Total para año fiscal"
-
-#: CRM/Report/Form/Contribute/Lybunt.php CRM/Report/Form/Contribute/Sybunt.php
-msgid "Total LifeTime"
-msgstr "Total"
-
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Last Contribution Processed"
-msgstr "Ultima contribución procesada"
-
 #: CRM/Report/Form/Contribute/Repeat.php
-msgid "% New Donors"
-msgstr ""
+msgid "Addressee Name"
+msgstr "Nombre de destinatario"
 
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Lapsed Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Upgraded Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Downgraded Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Maintained Donors"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Initial Date Range:"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Total Donations"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "Second Date Range:"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Repeat.php
-msgid "% Change"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Week Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Year Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Fiscal Year Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Month Beginning"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Sybunt.php
-msgid "Up To %1"
-msgstr ""
-
-#: CRM/Report/Form/Contribute/Sybunt.php
-msgid "LifeTime"
-msgstr ""
-
-#: CRM/Report/Form/Event/IncomeCountSummary.php
-#: CRM/Report/Form/Event/ParticipantListCount.php
-#: CRM/Report/Form/Event/Summary.php
-msgid "Total Income"
-msgstr ""
-
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "Registered by Participant ID"
-msgstr "ID de participante registrado"
-
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "Participant Fee"
-msgstr "Tasa de participante"
-
-#: CRM/Report/Form/Instance.php
-msgid "Configure link to..."
-msgstr "Configurar un enlace a..."
-
-#: CRM/Report/Form/Instance.php templates/CRM/Report/Page/InstanceList.tpl
-msgid "View Results"
-msgstr "Ver resultados"
-
-#: CRM/Report/Form/Instance.php
-msgid "Show Criteria"
-msgstr "Ver criterio"
-
-#: CRM/Report/Form/Instance.php
-msgid "Cache dashlet for"
-msgstr ""
-
-#: CRM/Report/Form/Instance.php
-msgid "Add to My Reports?"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Date"
-msgstr "Porcentaje de rebote"
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "On hold"
-msgstr "En espera"
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Hold date"
-msgstr "Fecha de retención"
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "Hold reset date"
-msgstr "Fecha de desbloqueo de espera"
-
-#: CRM/Report/Form/Mailing/Bounce.php
-msgid "--Please Select--"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Open Rate"
-msgstr "Ratio único de apertura"
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Total Open Rate"
-msgstr "Ratio total de apertura"
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Opt-outs"
-msgstr "Exclusiones"
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Groups Included in Mailing"
-msgstr ""
-
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "View Mailing details for this mailing"
-msgstr "Ver detalles de correo para este correo"
-
-#: CRM/Report/Form/Member/Lapse.php
-msgid "Lapsed Memberships"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid " (copy created by %1 on %2)"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Developer"
-msgstr "desarrollador"
-
-#: CRM/Report/Form.php
-msgid "Grand Total"
-msgstr "Gran Total"
-
-#: CRM/Report/Form.php
-msgid "Contact Modified"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Do not SMS"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Do not bulk email"
-msgstr ""
-
-#: CRM/Report/Form.php
-msgid "Refresh results"
-msgstr "Actualizar resultados"
-
-#: CRM/Report/Form.php
-msgid "View results"
-msgstr "Ver resultados"
-
-#: CRM/Report/Info.php
-msgid "administer private reports"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "Edit all private reports"
-msgstr ""
-
-#: CRM/Report/Info.php
-msgid "view report sql"
-msgstr "ver reporte sql"
-
-#: CRM/Report/Info.php
-msgid "View sql used in CiviReports"
-msgstr "Ver sql usados en CiviReports"
-
-#: CRM/Report/Page/InstanceList.php
-msgid "View as pdf"
-msgstr "Ver como PDF"
-
-#: CRM/Report/Page/InstanceList.php
-msgid "Print report"
-msgstr "Imprimir informe"
-
-#: CRM/Report/Page/InstanceList.php
-msgid "Export to csv"
-msgstr "Exportar a CSV"
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "Link to "
-msgstr "Enlazar a"
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid ""
-"If set to Yes, this report will appear in the My Reports section of the "
-"reports listing page and will only be visible by you."
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Instance.tpl
-msgid "rows"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid "Dashboard Caching"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid ""
-"How often should the contents of this dashlet be automatically refreshed? "
-"Users can manually reload by clicking the refresh button on their "
-"dashboards."
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid "Add to My Reports"
-msgstr ""
-
-#: templates/CRM/Report/Form/Tabs/Settings.hlp
-msgid ""
-"Selecting Yes will set the report to be visible only to the user\n"
-"  that clicked this option and saved the report settings form. If this is\n"
-"  enabled, the permissions configuration for this report will be disabled."
-msgstr ""
-
-#: templates/CRM/Report/Page/InstanceList.tpl
-msgid ""
-"You do not have any private reports. To add a report to this section, edit "
-"the Report Settings for a report and set 'Add to My Reports' to Yes."
-msgstr ""
+#: CRM/Report/Form/Grant/Detail.php
+msgid "View contact details for this record."
+msgstr "Ver detalles de contacto de este registro."

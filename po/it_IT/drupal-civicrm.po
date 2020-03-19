@@ -3,6 +3,9 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Francesco Firmino Giglio <francesco@civicrmitalia.it>, 2019
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2017
+# teddy <guido.tedaldi@gmail.com>, 2017
 # Johan Soderkvist <johansoderkvist@ikreativo.it>, 2012
 # mitch.camp <kal-el@hotmail.it>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
@@ -11,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
 "POT-Creation-Date: 2011-03-27 21:13+0200\n"
-"PO-Revision-Date: 2016-01-13 23:03+0000\n"
-"Last-Translator: Valdes <valdes.fainozzi@gmail.com>\n"
+"PO-Revision-Date: 2019-10-21 16:52+0000\n"
+"Last-Translator: Francesco Firmino Giglio <francesco@civicrmitalia.it>\n"
 "Language-Team: Italian (http://www.transifex.com/civicrm/civicrm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,7 +151,7 @@ msgstr "Pagina Contributi"
 #: drupal/modules/views/civicrm.views.inc
 #: drupal/modules/views/civicrm/civicrm_handler_filter_contribution_status.inc
 msgid "Contribution Status"
-msgstr "Stato Contributi"
+msgstr "Stato Contributo"
 
 #: drupal/modules/views/civicrm.views.inc
 #: drupal/modules/views/civicrm/civicrm_handler_filter_activity_type.inc
@@ -409,7 +412,7 @@ msgstr "amministrare etichette riservate"
 
 #: CRM/Core/Permission.php
 msgid "administer dedupe rules"
-msgstr "amministrare le regole dedupe"
+msgstr "amministrare le regole di deduplica"
 
 #: CRM/Core/Permission.php
 msgid "merge duplicate contacts"
@@ -452,7 +455,7 @@ msgid ""
 "a way to allow community members ('users') to update their own information, "
 "as well as share some of that information with others. Finally, you can "
 "configure custom activity types such as volunteering or attending events."
-msgstr "Il modulo CiviCRM permette di creare contatti o di importarli da altre fonti. Si possono memorizzare le relazioni tra i conttti, ad esempio indicando che fanno parte della stessa famiglia. Ci sono due tipi di gruppi di contatti; si possono creare gruppi statici con un elenco di contatti fissi. Si possono anche creare gruppi dinamici (\"intelligenti\"), basandosi sulle caratteristiche che i contatti hanno in comune. Ad esempio, si può creare un gruppo di tutti i contatti che vivono in California E che si sono offerti come volontari per la vostra organizzazione nell'ultimo anno. Il modulo CiviCRM permette anche di impostare dei tag per una categorizzazione meno formale dei contatti o dei gruppi. CiviCRM può essere facilmente esteso in modo da memorizzare le informazioni sui membri della comunità specifiche per la vostra organizzazione, usando i campi personalizzati. Ad esempio, si possono creare dei campi per tenere traccia delle competenze e delle preferenze dei volontari. I profili di CiviCRM permettono ai membri della comunità (\"utenti\") di aggiornare le proprie informazioni e di condividerne alcune con gli altri. Infine, si possono configurare delle tipologie di attività personalizzate, come l'attività di volontario o la partecipazione ad eventi."
+msgstr "Il modulo CiviCRM permette di creare contatti o di importarli da altre fonti. Si possono memorizzare le relazioni tra i contatti, ad esempio indicando che fanno parte dello stesso nucleo familiare. Ci sono due tipi di gruppi di contatti; si possono creare gruppi statici con un elenco di contatti fissi. Si possono anche creare gruppi dinamici (\"intelligenti\"), basandosi sulle caratteristiche che i contatti hanno in comune. Ad esempio, si può creare un gruppo di tutti i contatti che vivono in California E che si sono offerti come volontari per la vostra organizzazione nell'ultimo anno. Il modulo CiviCRM permette anche di impostare dei tag per una categorizzazione meno formale dei contatti o dei gruppi. CiviCRM può essere facilmente esteso in modo da memorizzare le informazioni sui membri della comunità specifiche per la vostra organizzazione, usando i campi personalizzati. Ad esempio, si possono creare dei campi per tenere traccia delle competenze e delle preferenze dei volontari. I profili di CiviCRM permettono ai membri della comunità (\"utenti\") di aggiornare le proprie informazioni e di condividerne alcune con gli altri. Infine, si possono configurare delle tipologie di attività personalizzate, come l'attività di volontario o la partecipazione ad eventi."
 
 #: drupal/civicrm.module
 msgid "You can:"
@@ -872,7 +875,7 @@ msgstr "Indirizzo Aggiuntivo 1"
 #: drupal/modules/views/civicrm.views.inc
 msgid ""
 "Supplemental Street Address such as Apartment or Suite Number or Department"
-msgstr "Indirizzo Supplementare completo di Via e Numero Civico, come Appartamento o Suite Numero o Dipartimento"
+msgstr "Indirizzo aggiuntivo completo di Via e Numero Civico, come Appartamento o Suite Numero o Dipartimento"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "City / Suburb"
@@ -948,7 +951,7 @@ msgstr "Questo è l'indirizzo email principale del contatto?"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is Billing Email"
-msgstr "Mailings"
+msgstr "E' l'email di fatturazione"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is this address the contact's billing email?"
@@ -1068,11 +1071,11 @@ msgstr "Il Titolo dell'Evento"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Summary"
-msgstr "Riassunto"
+msgstr "Riepilogo"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Event's Summary"
-msgstr "Sommario dell'Evento"
+msgstr "Il Riepilogo dell'Evento"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Description"
@@ -1209,7 +1212,7 @@ msgstr "L'ID numerico del partecipante che ha registrato questo partecipante"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Source Record Contact"
-msgstr "Record Contatto Sorgente CiviCRM"
+msgstr "Record fonte del contatto CiviCRM"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Fee Level"
@@ -1393,7 +1396,7 @@ msgstr "L'importo del credito leggero"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Personal Campaign Page Nickname"
-msgstr "Nickname della pagina personale di campagna"
+msgstr "Soprannome della pagina personale di campagna"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Personal Campaign Page Personal Note"
@@ -1489,7 +1492,7 @@ msgstr "L' ID CiviCRM univoco generato dalla Fattura"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Contribution's Status"
-msgstr "Lo stato delcontributo"
+msgstr "Lo stato del contributo"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Is the recurring contribution a test entry?"
@@ -1553,7 +1556,7 @@ msgstr "L'ID numerico del grado di attività"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Contact"
-msgstr ""
+msgstr "Fonte contatto "
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The contact who scheduled this activity"
@@ -1561,7 +1564,7 @@ msgstr "Il contatto che ha programmato questa attività"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "CiviCRM Source Contact"
-msgstr ""
+msgstr "Fonte del contatto CiviCRM"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Source Record ID"
@@ -1725,7 +1728,7 @@ msgstr "Relazioni di tipo A-a-B"
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "The Type of Relationship, i.e. Employee of, Household Head for..."
-msgstr "Il tipo di relazione, cioè dei dipendenti di, capo famiglia di ..."
+msgstr "Il tipo di relazione, cioè dei dipendenti di, responsabile delle dichiarazioni anagrafiche per nucleo familiare ..."
 
 #: drupal/modules/views/civicrm.views.inc
 msgid "Contact ID A"
@@ -2287,7 +2290,7 @@ msgstr "Tipo di contatto"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_relationship_type.inc
 msgid "Relationship Type"
-msgstr "Tipologia di Relazione"
+msgstr "Tipo Relazione"
 
 #: drupal/modules/views/civicrm/civicrm_handler_filter_encounter_medium.inc
 msgid "Encounter Medium"
@@ -2773,7 +2776,7 @@ msgstr "Il mailing è stato pianificato"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Scheduled mailing"
-msgstr "Mailing programmato"
+msgstr "Mailing pianificato"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Mailing has been approved/rejected"
@@ -2805,7 +2808,7 @@ msgstr "La mailing è stata completata"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Completed mailing"
-msgstr ""
+msgstr "Mailing completato"
 
 #: drupal/modules/civicrm_rules/civicrm_rules.rules.inc
 msgid "Add Contact to CiviCRM Group"

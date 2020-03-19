@@ -3,8 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# alfalb_mansil, 2015
+# lupus <casadimagens@sapo.cv>, 2019
 # Nana, 2012
+# jachambel <jose.chambel@gmail.com>, 2012
 # João Cunha <cunha.joao@outlook.com>, 2015
+# Joao Galvao, 2015
 # Joao Galvao, 2015
 # João Paulo Barreiros <jbwebspace@gmail.com>, 2013
 # jachambel <jose.chambel@gmail.com>, 2012
@@ -12,14 +16,17 @@
 # Luis Fonseca <twink.fonseca@gmail.com>, 2013
 # alfalb_mansil, 2015
 # migfly <miggamito@yahoo.co.uk>, 2012
+# migfly <miggamito@yahoo.co.uk>, 2012
+# Nana, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # Rita Silva <blaudag@gmail.com>, 2014-2015
+# split, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2018-09-11 10:33-0400\n"
+"PO-Revision-Date: 2019-04-24 14:18+0000\n"
+"Last-Translator: lupus <casadimagens@sapo.cv>\n"
 "Language-Team: Portuguese (http://www.transifex.com/civicrm/civicrm/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,7 +144,7 @@ msgstr "Actividade do Processo"
 
 msgctxt "menu"
 msgid "Case Activity Audit"
-msgstr ""
+msgstr "Auditoria de Atividade do Processo"
 
 msgctxt "menu"
 msgid "Case Custom Set"
@@ -157,11 +164,16 @@ msgstr "Atribuir a Outro Cliente"
 
 msgctxt "menu"
 msgid "File on Case"
-msgstr ""
+msgstr "Arquivar no Processo"
 
 msgctxt "menu"
 msgid "Case Details"
 msgstr "Detalhes do Processo"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr "Definições do CiviCase"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -266,8 +278,8 @@ msgstr "Contas Financeiras"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "Instrumentos de Pagamento"
+msgid "Payment Methods"
+msgstr "Métodos de Pagamento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -277,7 +289,7 @@ msgstr "Cartões de crédito aceites"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Soft Credit Types"
-msgstr ""
+msgstr "Tipos de Crédito de Reconhecimento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -325,16 +337,16 @@ msgstr "Tipo de Contas"
 
 msgctxt "menu"
 msgid "Accounting Batch"
-msgstr ""
+msgstr " Lote de Contabilidade"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Accounting Batches"
-msgstr ""
+msgstr "Lotes de Contabilidade"
 
 msgctxt "menu"
 msgid "Accounting Batch Export"
-msgstr ""
+msgstr "Exportação de Lotes de Contabilidade"
 
 msgctxt "menu"
 msgid "View Payment"
@@ -343,7 +355,7 @@ msgstr "Ver Pagamento"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "CiviContribute Component Settings"
-msgstr ""
+msgstr "Configurações do Componente CiviContribute"
 
 msgctxt "menu"
 msgid "PDF Invoice"
@@ -352,6 +364,14 @@ msgstr "Fatura em PDF"
 msgctxt "menu"
 msgid "Email Invoice"
 msgstr "Fatura por Email"
+
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr "Pagamentos de Contribuição Recorrente"
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr "Contribuições Recorrentes da Membresia"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -428,16 +448,6 @@ msgstr "Novo Perfil CiviCRM"
 msgctxt "menu"
 msgid "Profile Settings"
 msgstr "Configurações de perfil"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "Tags (Categorias)"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "Nova Etiqueta"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -615,12 +625,10 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "Checklist de Configuração"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "Ativar Componentes CiviCRM "
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
 msgstr "Gerir Extensões"
@@ -634,8 +642,8 @@ msgid "Outbound Email Settings"
 msgstr "Configurações de Email de Saída"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "Processador de Pagamentos"
+msgid "Settings - Payment Processor"
+msgstr "Definições - Processador de Pagamentos"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -761,6 +769,10 @@ msgid "Badge Layout"
 msgstr "Layout do Badge"
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr "Configurar CKEditor"
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -866,10 +878,6 @@ msgid "Smart Groups"
 msgstr "Grupos Inteligentes"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "Dia"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "Notas"
 
@@ -889,9 +897,10 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "Blog CiviCRM"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
-msgstr ""
+msgid "CiviCRM Resources"
+msgstr "Recursos do CiviCRM"
 
 msgctxt "menu"
 msgid "Case Dashlet"
@@ -910,6 +919,10 @@ msgstr "Blocos do Painél de Processos"
 msgctxt "menu"
 msgid "Find and Merge Duplicate Contacts"
 msgstr "Procurar e fundir Contactos Duplicados"
+
+msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr "Mesclar Contatos Duplicados em Lote"
 
 msgctxt "menu"
 msgid "Dedupe Exceptions"
@@ -949,7 +962,7 @@ msgstr "Importar Actividades"
 
 msgctxt "menu"
 msgid "Import Multi-value Custom Data"
-msgstr ""
+msgstr "Importar Dados Personalizados Multi-valor"
 
 msgctxt "menu"
 msgid "Upgrade CiviCRM"
@@ -962,6 +975,10 @@ msgstr "Erros de download"
 msgctxt "menu"
 msgid "Export Contacts"
 msgstr "Exportar contactos"
+
+msgctxt "menu"
+msgid "Export"
+msgstr "Exportar"
 
 msgctxt "menu"
 msgid "ACL Roles"
@@ -996,8 +1013,8 @@ msgid "Log out"
 msgstr "Terminar Sessão"
 
 msgctxt "menu"
-msgid "CiviCRM API"
-msgstr "CiviCRM API"
+msgid "CiviCRM API v3"
+msgstr "CiviCRM API v3"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1017,8 +1034,26 @@ msgid "Confirm dates"
 msgstr "Confirmar datas"
 
 msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr "Inserir Conteúdo CiviCRM "
+
+msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "Criar perfil CiviCRM"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Tags (Categorias)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Nova Etiqueta"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr "Fundir Rótulos"
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1112,7 +1147,7 @@ msgstr "Registo Online do Evento"
 
 msgctxt "menu"
 msgid "Repeat Event"
-msgstr ""
+msgstr "Repetir Evento"
 
 msgctxt "menu"
 msgid "Conference Slots"
@@ -1134,6 +1169,14 @@ msgid "Manage Price Sets"
 msgstr "Gerir conjuntos de Preços"
 
 msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr "Atualização de Cadastro de Auto-atendimento"
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr "Transferência de Registro de Auto-atendimento"
+
+msgctxt "menu"
 msgid "Add Event To Cart"
 msgstr "Adicionar Evento ao Carrinho"
 
@@ -1151,7 +1194,7 @@ msgstr "Ver Carrinho"
 
 msgctxt "menu"
 msgid "Change Registration Selections"
-msgstr ""
+msgstr "Alterar Seleções de Registro"
 
 msgctxt "menu"
 msgid "CiviGrant Dashboard"
@@ -1207,7 +1250,7 @@ msgstr "Voltar a Subscrever"
 
 msgctxt "menu"
 msgid "Opt-out"
-msgstr ""
+msgstr "Opt-Out"
 
 msgctxt "menu"
 msgid "Confirm"
@@ -1236,10 +1279,6 @@ msgstr "A enviar email"
 msgctxt "menu"
 msgid "Mailing Event"
 msgstr "Evento de Mailing"
-
-msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "Agenda de Divulgação"
 
 msgctxt "menu"
 msgid "View Mailing"
@@ -1345,11 +1384,6 @@ msgstr "Notícias CiviCRM"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Getting Started"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
 msgid "My Cases"
 msgstr "Meus Processos"
 
@@ -1406,7 +1440,7 @@ msgstr "Relatórios de Contribuições"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledge Reports"
-msgstr ""
+msgstr "Relatórios de Promessas"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1486,12 +1520,12 @@ msgstr "Encontrar SMS em massa"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "New A/B Test"
-msgstr ""
+msgstr "Novo Teste A/B"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage A/B Tests"
-msgstr ""
+msgstr "Gerenciar Testes A/B"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1565,6 +1599,11 @@ msgstr "Consola de Administração"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr "Status do sistema"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
 msgstr "Personalize Dados e ecrãs"
 
@@ -1620,8 +1659,23 @@ msgstr "Configurações do Sistema"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr "Componentes"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
-msgstr ""
+msgstr "Conexões"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr "Extensões"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Debugging e Tratamento de Erros"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1637,11 +1691,6 @@ msgstr "Processos de Pagamentos"
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "Extensões de ficheiro seguro"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "Debugging e Tratamento de Erros"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1691,7 +1740,7 @@ msgstr "Doação Civil"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Grant Status"
-msgstr ""
+msgstr "Status da Bolsa"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1706,12 +1755,12 @@ msgstr "Todos Relatórios"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Get started"
-msgstr ""
+msgstr "Iniciar"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1721,27 +1770,27 @@ msgstr "Documentação"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Ask a question"
-msgstr ""
+msgstr "Colocar uma questão"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Get expert help"
-msgstr ""
+msgstr "Obter ajuda de especialista"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "About CiviCRM"
-msgstr ""
+msgstr "Sobre CiviCRM"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Register your site"
-msgstr ""
+msgstr "Registar o seu site"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Join CiviCRM"
-msgstr ""
+msgstr "Junte-se à CiviCRM"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1762,6 +1811,11 @@ msgstr "Documentos do Desenvolvedor"
 msgctxt "menu"
 msgid "Reports"
 msgstr "Relatórios"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "My Reports"
+msgstr "Meus Relatórios"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1789,6 +1843,11 @@ msgstr "Providencia informações de contactos relacionados com contribuições,
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Details"
+msgstr "Detalhes da Atividade"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid ""
 "Provides a list of constituent activity including activity statistics for "
 "one/all contacts during a given date range(required)"
@@ -1813,6 +1872,16 @@ msgstr "Evidencia detalhes das relações entre dois contactos."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Summary"
+msgstr "Resumo da atividade"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr "Mostra estatísticas de atividade por Tipo/Data"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Contribution Summary"
 msgstr "Sumário de contribuição"
 
@@ -1821,7 +1890,7 @@ msgctxt "menu"
 msgid ""
 "Groups and totals contributions by criteria including contact, time period, "
 "contribution type, contributor location, etc."
-msgstr ""
+msgstr "Grupos e contribuições totais por critério, incluindo contatos, período de tempo, tipo de contribuição, localização do contribuinte, etc."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1834,7 +1903,7 @@ msgid ""
 "Lists specific contributions by criteria including contact, time period, "
 "contribution type, contributor location, etc. Contribution summary report "
 "points to this report for contribution details."
-msgstr ""
+msgstr "Lista as contribuições específicas por critério, incluindo contatos, período de tempo, tipo de contribuições, localização do contribuinte, etc. O relatório resumido de contribuições indica este relatório para detalhes de contribuições."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1847,12 +1916,12 @@ msgid ""
 "Given two date ranges, shows contacts who contributed in both the date "
 "ranges with the amount contributed in each and the percentage increase / "
 "decrease."
-msgstr ""
+msgstr "Dados dois intervalos de datas, exibe contatos que fizeram contribuições em ambos os intervalos de datas, com a quantia contribuída em cada um e o aumento/diminuição percentual."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "SYBUNT (some year but not this year)"
-msgstr ""
+msgstr "AAMNEA (Algum ano mas não neste ano)"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1860,12 +1929,12 @@ msgid ""
 "Some year(s) but not this year. Provides a list of constituents who donated "
 "at some time in the history of your organization but did not donate during "
 "the time period you specify."
-msgstr ""
+msgstr "Algum outro ano, mas não este ano. Fornece uma lista de constituintes que fizeram doações alguma vez na história da sua organização mas não fizeram nenhuma doação no período de tempo que você especificou."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "LYBUNT (last year but not this year)"
-msgstr ""
+msgstr "UAMNEA (Último ano mas não este ano)"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1873,7 +1942,7 @@ msgid ""
 "Last year but not this year. Provides a list of constituents who donated "
 "last year but did not donate during the time period you specify as the "
 "current year."
-msgstr ""
+msgstr "Ano passado, mas não este ano. Fornece uma lista de constituintes que fizeram doações ano passado mas não fizeram nenhuma doação no período de tempo que você especificou como o ano atual."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1885,7 +1954,7 @@ msgctxt "menu"
 msgid ""
 "Displays a detailed list of contributions grouped by organization, which "
 "includes contributions made by employees for the organisation."
-msgstr ""
+msgstr "Exibe uma lista detalhada de contribuições agrupadas por organização, o que inclui contribuições feitas por funcionários da organização."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1897,43 +1966,43 @@ msgctxt "menu"
 msgid ""
 "Displays a detailed list of contributions grouped by household which "
 "includes contributions made by members of the household."
-msgstr ""
+msgstr "Exibe uma lista detalhada de contribuições agrupadas por domicílio, o que inclui contribuições feitas por membros do domicílio."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Top Donors"
-msgstr ""
+msgstr "Maiores doadores"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Provides a list of the top donors during a time period you define. You can "
 "include as many donors as you want (for example, top 100 of your donors)."
-msgstr ""
+msgstr "Fornece uma lista dos maiores doadores durante um período de tempo que você define. Você pode incluir quantos doadores quiser (por exemplo, os 100 maiores doadores)."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Soft Credits"
-msgstr ""
+msgstr "Créditos de Reconhecimento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Shows contributions made by contacts that have been soft-credited to other "
 "contacts."
-msgstr ""
+msgstr "Mostra contribuições feitas por contatos que tenham sido reconhecidas para outros contatos."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contribution Aggregate by Relationship"
-msgstr ""
+msgstr "Contribuição Agregada por Relacionamento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "List contact's donation history, grouped by year, along with contributions "
 "attributed to any of the contact's related contacts."
-msgstr ""
+msgstr "Lista o histórico de doações do contato, agrupado por ano, juntamente com contribuições atribuídas a todos os contatos relacionados a esse contato."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1945,41 +2014,41 @@ msgctxt "menu"
 msgid ""
 "Summarizes amount raised and number of contributors for each Personal "
 "Campaign Page."
-msgstr ""
+msgstr "Resume a quantia levantada e o número de contribuidores para cada Página de Campanha Pessoal."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr ""
+msgid "Pledge Detail"
+msgstr "Detalhe de Promessas"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr ""
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr "Lista dos compromissos, incluindo a quantia prometida, situação do compromisso, próxima data de pagamento, saldo devido, quantia total paga, etc."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledged But not Paid"
-msgstr ""
+msgstr "Compromissos Não Pagos"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Pledged but not Paid Report"
-msgstr ""
+msgstr "Relatório de Compromissos Não Pagos"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Bookkeeping Transactions"
-msgstr ""
+msgstr "Contabilidade de Transações"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Provides transaction details for all contributions and payments, including "
 "Transaction #, Invoice ID, Payment Instrument and Check #."
-msgstr ""
+msgstr "Fornece detalhes de transação para todas as contribuições e pagamentos, incluindo Número da Transação, ID da Fatura, Instrução de Pagamento e Número do Cheque."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2007,7 +2076,7 @@ msgid ""
 "Provides a list of members along with their membership status and membership"
 " details (Join Date, Start Date, End Date). Can also display contributions "
 "(payments) associated with each membership."
-msgstr ""
+msgstr "Fornece uma lista de filiados juntamente com sua situação de filiação e detalhes da filiação (Data de Ingresso, Data de Início, Data de Término). Pode também exibir contribuições (pagamentos) associados a cada filiação."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2020,29 +2089,29 @@ msgid ""
 "Contribution details for any type of contribution, plus associated "
 "membership information for contributions which are in payment for "
 "memberships."
-msgstr ""
+msgstr "Detalhes para qualquer tipo de contribuição, mais informações de filiações associadas para contribuições relacionadas a elas."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Lapsed Memberships"
-msgstr ""
+msgstr "Filiações Vencidas"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Provides a list of memberships that have lapsed or will lapse by the date "
 "you specify."
-msgstr ""
+msgstr "Fornece uma lista das filiações que venceram ou irão vencer até a data que você especificou."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Provides lists of participants for an event."
-msgstr ""
+msgstr "Fornece listas de participantes de um evento."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Event Income Summary"
-msgstr ""
+msgstr "Relatório de Faturamento de Evento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2050,19 +2119,19 @@ msgid ""
 "Provides an overview of event income. You can include key information such "
 "as event ID, registration, attendance, and income generated to help you "
 "determine the success of an event."
-msgstr ""
+msgstr "Fornece um resumo do faturamento do evento. Você pode incluir informações chave tais como ID do evento, inscrições, comparecimento e o faturamento gerado para ajudá-lo a determinar o sucesso de um evento."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Event Income Details"
-msgstr ""
+msgstr "Relatório de Faturamento de Evento"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Helps you to analyze the income generated by an event. The report can "
 "include details by participant type, status and payment method."
-msgstr ""
+msgstr "Ajuda a analisar o faturamento gerado por um evento. O relatório pode incluir detalhes por tipo de participante, situação e forma de pagamento."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2072,7 +2141,7 @@ msgstr "Lista de Participantes"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Provides lists of event attendees."
-msgstr ""
+msgstr "Fornece listas de presentes a um evento."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2112,7 +2181,7 @@ msgstr "Sumário de Mailing"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Summary statistics for mailings"
-msgstr ""
+msgstr "Estatísticas resumidas para mailings"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2122,17 +2191,17 @@ msgstr "Mail(s) Aberto(s)"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Display contacts who opened emails from a mailing"
-msgstr ""
+msgstr "Exibe os contatos que abriram emails de um mailing"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mail Clickthroughs"
-msgstr ""
+msgstr "Relatório de cliques de e-mail"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Display clicks from each mailing"
-msgstr ""
+msgstr "Exibir os cliques feitos a partir de cada mailing"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2144,97 +2213,15 @@ msgctxt "menu"
 msgid ""
 "Provides reporting on Intended and Successful Deliveries, Unsubscribes and "
 "Opt-outs, Replies and Forwards."
-msgstr ""
+msgstr "Fornece relatórios de Entregas Pretendidas e Bem Sucedidas, Cancelamentos de Inscrição e Opt-Outs, Respostas e Encaminhamentos."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Survey Details"
-msgstr ""
+msgstr "Detalhes da pesquisa"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr ""
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr ""
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr ""
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr ""
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr ""
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr ""
+msgstr "Relatório detalhado para prospecção, fone-banking, listas de percurso ou outras pesquisas."

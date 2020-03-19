@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016,2018-2019
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-06 01:45+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-12-02 04:58+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -44,6 +44,20 @@ msgstr "Ödendiği Tarih"
 msgid "Pledge Payment Status"
 msgstr "Ödeme Sözü Durumu"
 
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "Ödeme Sözü Sıklığı Birimi"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "Ödeme Sözü Sıklığı Aralığı"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
+msgstr "Ödeme Sözü Katkı Sayfası Kodu"
+
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2 (overdue)"
 msgstr "%1 - %2 tarihinde (zamanı geçmiş)"
@@ -69,9 +83,29 @@ msgstr "Bir kez katkıda bulunmak istiyorum"
 msgid "I pledge to contribute this amount every"
 msgstr "Düzenli aralıklarla katkıda bulunmak istiyorum"
 
-#: CRM/Pledge/BAO/PledgeBlock.php CRM/Pledge/DAO/Pledge.php
-msgid "Pledge Frequency Interval"
-msgstr "Ödeme Sözü Sıklığı Aralığı"
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
+msgstr "Sıklık Aralıkları"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
+msgstr "Sıklık Birimleri"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "İlk taksit ödemesi"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "Ayın taksitlerin ödeneceği günü"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "Ödeme Sözü Anlaşması Gönderildi"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "Ödeme Sözü Anlaşması Gönderilmedi"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test"
@@ -86,12 +120,20 @@ msgid "Financial Page - %1"
 msgstr "Mali Sayfa %1"
 
 #: CRM/Pledge/BAO/Query.php
-msgid "Contact ID %1 %2"
-msgstr "Kişi Kodu %1 %2"
-
-#: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test?"
 msgstr "Deneme Ödeme Sözü"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "Anlaşma Gönderildi"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "Lütfen bir sayı yazın"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "Lütfen bir sayı yazın."
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter valid Pledge Frequency Interval"
@@ -102,81 +144,216 @@ msgid "Pledge Frequency"
 msgstr "Ödeme Sözü Sıklığı"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
+msgstr "civicrm_contact.id alanına dış anahtar."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Contribution Page"
 msgstr "Ödeme Sözü Katkı Sayfası"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
+msgstr "Ödeme sözü verilen toplam tutar."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Original Installment Amount"
 msgstr "Özgün Taksit Tutarı"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
+msgstr "Her taksitin özgün tutarı."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Currency"
 msgstr "Ödeme Sözü Para Birimi"
 
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Frequency Unit"
-msgstr "Ödeme Sözü Sıklığı Birimi"
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
+msgstr "Ödeme sözü ödemelerinin yinelenme zaman birimleri."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
+msgstr "Ödeme sözü ödemelerinin yinelenme zaman birimlerinin sayısı."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge day"
 msgstr "Ödeme Sözü Günü"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
+msgstr "Zaman aralığında ödeme sözü tutarının alınacağı gün. Örneğin ayın 1. gününde, 15. gününde gibi. Bu seçeneği söz verilmiş ödemelerin zamanlanmış tarihlerini ayarlamak için kullanın."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Number of Installments"
 msgstr "Ödeme Sözü Taksit Sayısı"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr "Yapılacak toplam ödeme sayısı."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr "İlk zamanlanmış ödeme sözünün gerçekleşeceği tarih."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
+msgstr "Bu ödeme sözü kaydının oluşturulma tarihi."
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Acknowledged"
 msgstr "Ödeme Sözünde Anlaşıldı"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
+msgstr "Katılımcıya ödeme sözü iletisinin gönderildiği zaman."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Modified Date"
 msgstr "Ödeme Sözü Değişiklik Tarihi"
 
 #: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
+msgstr "Bu ödeme sözü kaydında son değişiklik yapılan tarih."
+
+#: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Cancelled Date"
 msgstr "Ödeme Sözü İptal Tarihi"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr "Bu ödeme sözünün katılımcı tarafından iptal edildiği tarih."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
+msgstr "Bu ödeme sözünün tamamlandığı tarih (ödenen tutar söz verilen ödeme toplamına eşit ya da büyük olması)"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Maximum Number of Reminders"
 msgstr "En Fazla Anımsatıcı Sayısı"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
+msgstr "Belirtilen her ödeme için gönderilecek en fazla ödeme anımsatıcı sayısı."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Initial Reminder Day"
-msgstr "Başlangıç Anımsatıcı Günü"
+msgstr "İlk Anımsatıcı Günü"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
+msgstr "İlk anımsatıcıların ödemenin yapılacağı tarihten kaç gün önce gönderileceği."
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Additional Reminder Days"
 msgstr "Ek Anımsatıcı Günleri"
 
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
+msgstr "En Fazla Anımsatıcı Sayısı değerine ulaşılana kadar, ek anımsatıcıların, son anımsatıcının gönderilmesinden kaç gün sonra gönderileceği."
+
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Status Id"
 msgstr "Ödeme Sözü Durum Kodu"
 
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr "pledge_status  seçenek grubunda civicrm_option_values dış anahtarı gizlensin."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr "Bu ödeme sözünün verildiği kampanya."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "Ödeme Sözü Bloğu Kodu"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
+msgstr "ödeme sözünün katılacağı varlığın fiziksel tablo adı. civicrm_contact gibi"
+
 #: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Entity Id"
 msgstr "Varlık Kodu"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr "Desteklenen sıklık birimlerinin tırnak ile sınırlandırılmamış listesi"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "Sıklık Aralığı Görünülensin"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr "Bu seçenek etkinleştirildiğinde, katkı formunda sıklık aralığı görüntülenir."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr "Bu seçenek etkinleştirildiğinde, yinelenen başlangıç tarihi görüntülenir."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "Yinelenen Bağış Başlangıç Tarihi Düzenlenebilsin"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr "Bu seçenek etkinleştirildiğinde, yinelenen başlangıç tarihi değiştirilebilir."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
+msgstr "Ödeme sözü tablosuna dış anahtar"
 
 #: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
 msgid "Scheduled Amount"
 msgstr "Zamanlanmış Tutar"
 
 #: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
+msgstr "Bu ödeme için ödeme sözü verilmiş tutar (gerçek katkı tutarından farklı olabilir)."
+
+#: CRM/Pledge/DAO/PledgePayment.php
 msgid "Actual Amount"
 msgstr "Güncel Tutar"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr "Ödeme sözü taksit tutarı olarak ödenen gerçek tutar."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
+msgstr "Ödeme sözü tutarının alınması beklenen tarih."
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Last Reminder"
 msgstr "Son Anımsatıcı"
 
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
+msgstr "Son ödeme anımsatıcısının gönderildiği tarih."
+
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Reminders Sent"
-msgstr "Anımsatıcılar Gönderildi"
+msgstr "Gönderilmiş Anımsatıcı Sayısı"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
+msgstr "Gönderilmiş ödeme anımsatıcıları sayısı."
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Edit Scheduled Pledge Payment"
-msgstr "Zamanlanmış Söz Ödemesini Düzenleyin "
+msgstr "Zamanlanmış Söz Ödemesini Düzenle"
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Pledge Payment Schedule has been updated."
@@ -214,7 +391,7 @@ msgstr "Lütfen geçerli bir ödeme günü yazın."
 msgid "each"
 msgstr "her"
 
-#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
+#: CRM/Pledge/Form/Pledge.php
 msgid "Payments Start"
 msgstr "Ödeme Başlangıcı"
 
@@ -280,7 +457,7 @@ msgstr "Ödeme Tarihi"
 
 #: CRM/Pledge/Form/PledgeView.php
 msgid "View Pledge by"
-msgstr "Şuna Göre Sözlere Bakın"
+msgstr "Şu Sözleri Görüntüle"
 
 #: CRM/Pledge/Form/Search.php
 msgid "Pledger Name or Email"
@@ -291,12 +468,24 @@ msgid "Pledger Name"
 msgstr "Ödeme Sözü Veren"
 
 #: CRM/Pledge/Form/Search.php
-msgid "Find Pledges"
-msgstr "Ödeme Sözü Arayın"
+msgid "Pledger Tag(s)"
+msgstr "Ödeme Sözü Veren Etiketleri"
 
-#: CRM/Pledge/Form/Task/Delete.php CRM/Pledge/Task.php
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr "Ödeme Sözü Veren Grupları"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
+msgstr "Ödeme Sözü Veren Kişi Türü"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Find Pledges"
+msgstr "Ödeme Sözü Arama"
+
+#: CRM/Pledge/Form/Task/Delete.php
 msgid "Delete Pledges"
-msgstr "Ödeme Sözlerini Silin"
+msgstr "Ödeme Sözlerini Sil"
 
 #: CRM/Pledge/Form/Task/Delete.php
 msgid "%count pledge deleted."
@@ -306,7 +495,7 @@ msgstr[1] "%count ödeme sözü silindi."
 
 #: CRM/Pledge/Form/Task/Print.php
 msgid "Print Pledge List"
-msgstr "Ödeme Sözleri Listesini Yazdırın"
+msgstr "Ödeme Sözleri Listesini Yazdır"
 
 #: CRM/Pledge/Info.php
 msgid "CiviCRM Pledge Engine"
@@ -318,23 +507,23 @@ msgstr "CiviPledge erişimi"
 
 #: CRM/Pledge/Info.php
 msgid "View pledges"
-msgstr "Ödeme sözlerine bakın"
+msgstr "Ödeme sözlerini görüntüle"
 
 #: CRM/Pledge/Info.php
 msgid "edit pledges"
-msgstr "Ödeme sözlerini düzenleyin"
+msgstr "Ödeme sözlerini düzenle"
 
 #: CRM/Pledge/Info.php
 msgid "Create and update pledges"
-msgstr "Ödeme sözleri ekleyin ve düzenleyin"
+msgstr "Ödeme sözleri ekle ve düzenle"
 
 #: CRM/Pledge/Info.php
 msgid "delete in CiviPledge"
-msgstr "CiviPledge üzerinden silin"
+msgstr "CiviPledge üzerinden sil"
 
-#: CRM/Pledge/Info.php
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
 msgid "Delete pledges"
-msgstr "Ödeme sözlerini silin"
+msgstr "Ödeme sözlerini sil"
 
 #: CRM/Pledge/Info.php
 msgid "Your Pledge(s)"
@@ -354,15 +543,15 @@ msgstr "Bu ödeme sözü iptal edildiğinde tüm zamanlanmış (yapılmamış) d
 
 #: CRM/Pledge/Selector/Search.php
 msgid "View Pledge"
-msgstr "Ödeme Sözüne Bakın"
+msgstr "Ödeme Sözünü Görüntüle"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Edit Pledge"
-msgstr "Ödeme Sözünü Düzenleyin"
+msgstr "Ödeme Sözünü Düzenle"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Cancel Pledge"
-msgstr "Ödeme Sözünü İptal Edin"
+msgstr "Ödeme Sözünü İptal Et"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Delete Pledge"
@@ -385,8 +574,8 @@ msgid "Pledge Search"
 msgstr "Ödeme Sözü Arama"
 
 #: CRM/Pledge/Task.php
-msgid "Export Pledges"
-msgstr "Ödeme Sözlerini Verin"
+msgid "Export pledges"
+msgstr "Ödeme Sözlerini Dışa Aktar"
 
 #: templates/CRM/Pledge/Form/Payment.tpl
 msgid "Adjust scheduled amount"
@@ -398,7 +587,7 @@ msgid ""
 " is no email address recorded for this contact. If you want a acknowledgment"
 " to be sent when this pledge is recorded, click Cancel and then click Edit "
 "from the Summary tab to add an email address before recording the pledge."
-msgstr "Bu kişi için kayıtlı bir e-posta adresi bulunmadığından, bu ödeme sözü için otomatik e-posta alındısı gönderilemedi. Bu ödeme sözü için bir alındı göndermek için, ödemeyi kaydetmeden önce İptal düğmesine tıklayın. Ardından Özet sekmesinden Düzenle düğmesine tıklayarak bir e-posta adresi ekleyin."
+msgstr "Bu kişi için kayıtlı bir e-posta adresi bulunmadığından, bu ödeme sözü için otomatik e-posta alındısı gönderilemedi. Bu ödeme sözü için bir alındı göndermek için, ödemeyi kaydetmeden önce İptal üzerine tıklayın. Ardından Özet sekmesinden Düzenle üzerine tıklayarak bir e-posta adresi ekleyin."
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
@@ -490,20 +679,8 @@ msgid "Maximum Reminders Send"
 msgstr "Gönderilecek En Fazla Anımsatıcı Sayısı"
 
 #: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payment Scheduled"
-msgstr "Zamanlanmış Ödemeler"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Amounts"
 msgstr "Ödeme Sözü Tutarları"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Start Date"
-msgstr "Ödeme Başlangıç Tarihi"
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Ended Date"
-msgstr "Ödeme Bitiş Tarihi"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
@@ -522,14 +699,6 @@ msgid "Click arrow to view pledge payments."
 msgstr "Söz verilmiş ödemeleri görmek için ok üzerine tıklayın."
 
 #: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Show payments"
-msgstr "Ödemeleri görüntüle"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Hide payments"
-msgstr "Ödemeleri gizle"
-
-#: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Find more pledges"
 msgstr "Başka ödeme sözleri bulun"
 
@@ -545,7 +714,7 @@ msgid "To Be Paid"
 msgstr "Ödenecek"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Begining Date"
+msgid "Beginning Date"
 msgstr "Başlangıç Tarihi"
 
 #: templates/CRM/Pledge/Form/Task.tpl
@@ -602,7 +771,7 @@ msgstr "Kredi kartı Ödemesi"
 
 #: templates/CRM/Pledge/Page/Payment.tpl
 msgid "Edit Scheduled Payment"
-msgstr "Zamanlanmış Söz Ödemesini Düzenleyin "
+msgstr "Zamanlanmış Söz Ödemesini Düzenle"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid "Payment Reminders"
@@ -647,7 +816,7 @@ msgstr "%1 tarafından başlangıç tarihinden itibaren ödenen tüm sözler."
 msgid ""
 "Click <a %1>Add Pledge</a> to record a new pledge received from this "
 "contact."
-msgstr "Bu kişiye ödeme sözü kaydetmek için <a %1>Ödeme Sözü Ekle</a> düğmesine tıklayın."
+msgstr "Bu kişiye ödeme sözü kaydetmek için <a %1>Ödeme Sözü Ekle</a> üzerine tıklayın."
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "No pledges have been recorded from this contact."
@@ -742,7 +911,7 @@ msgstr "ödeme tarihi"
 msgid ""
 "Please contact us at %1 or send email to %2 if you have questions\n"
 "or need to modify your payment schedule."
-msgstr "Sorularınız ya da ödeme zamanlamanızı değiştirmek için bizimle %1 üzerinden \ngörüşün ya da %2 adresine bir e-posta gönderin."
+msgstr "Sorularınız varsa ya da ödeme zamanlamanızı değiştirmek isterseniz bizimle %1 üzerinden \ngörüşün ya da %2 adresine bir e-posta gönderin."
 
 #: xml/templates/message_templates/pledge_acknowledge_subject.tpl
 msgid "Thank you for your Pledge"
@@ -776,51 +945,3 @@ msgstr "Cömert desteğiniz için teşekkürler."
 #: xml/templates/message_templates/pledge_reminder_subject.tpl
 msgid "Pledge Payment Reminder"
 msgstr "Ödeme Sözü Ödeme Anımsatıcı"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "First installment payment"
-msgstr "İlk taksit ödemesi"
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "Day of month installments paid"
-msgstr "Ayın taksitlerin ödeneceği günü"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement Sent"
-msgstr "Ödeme Sözü Anlaşması Gönderildi"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement  Not Sent"
-msgstr "Ödeme Sözü Anlaşması Gönderilmedi"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Acknowledgement sent?"
-msgstr "Anlaşma Gönderildi"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter a number"
-msgstr "Lütfen bir sayı yazın"
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter number."
-msgstr "Lütfen bir sayı yazın."
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Block ID"
-msgstr "Ödeme Sözü Bloğu Kodu"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Expose Frequency Interval?"
-msgstr "Sıklık Aralığı Belirtilsin"
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Allow Edits to Recurring Donation Start Date?"
-msgstr "Yinelenen Bağış Başlangıç Tarihi Düzenlenebilsin"
-
-#: CRM/Pledge/Task.php
-msgid "Export pledges"
-msgstr "Ödeme Sözlerini Verin"
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Beginning Date"
-msgstr "Başlangıç Tarihi"

@@ -5,21 +5,23 @@
 # Translators:
 # lavamind <jerome@riseup.net>, 2011
 # lavamind <jerome@riseup.net>, 2011
-# Mathieu Lutfy <mathieu@bidon.ca>, 2013-2016
+# Mathieu Lu <mathieu@bidon.ca>, 2017-2018
+# Mathieu Lu <mathieu@bidon.ca>, 2013-2016
 # Pierre Mathieu <pierrem7@gmail.com>, 2013
 # Pierre Mathieu <pierrem7@gmail.com>, 2013
 # Piotr Szotkowski <chastell@chastell.net>, 2011
-# samuelsov <samuel@koumbit.org>, 2015
-# samuelsov <samuel@koumbit.org>, 2012
-# samuelsov <samuel@koumbit.org>, 2012,2015
+# samuelsov <samuel@symbiotic.coop>, 2015,2018
+# samuelsov <samuel@symbiotic.coop>, 2012
+# samuelsov <samuel@symbiotic.coop>, 2012,2015,2018
+# samuelsov <samuel@symbiotic.coop>, 2019
 # Stéphane Lussier <stephane@symbiotic.coop>, 2012
-# Stéphane Lussier <stephane@symbiotic.coop>, 2012
+# Stéphane Lussier <stephane@symbiotic.coop>, 2012,2017-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:37+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,26 +33,9 @@ msgstr ""
 msgid "No valid membership status for given dates."
 msgstr "Pas de statut d'adhésion valide pour les dates indiquées."
 
-#: CRM/Member/BAO/Membership.php
-msgid ""
-"The membership cannot be saved because the status cannot be calculated."
-msgstr "L'adhésion ne peut être enregistrée parce que l'état ne peut être calculé ou extrapolé pour les dates indiquées."
-
 #: CRM/Member/BAO/Membership.php CRM/Member/Form/MembershipView.php
 msgid "Membership Type:"
 msgstr "Type d'adhésion:"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Invalid Membership"
-msgstr "Adhésion invalide"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Please select one of the memberships."
-msgstr "Sélectionnez un des types d'adhésion"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Please renew my membership automatically."
-msgstr "Merci de renouveler mon adhésion automatiquement."
 
 #: CRM/Member/BAO/Membership.php
 msgid "do not import"
@@ -70,14 +55,6 @@ msgid ""
 " membership start and end dates for this membership. Contact the site "
 "administrator for assistance."
 msgstr "Anomalie! Il semblerait qu'il n'y ait pas de statut valide d'adhésion correspondant aux dates de début et de fin indiquées"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Could not find a system table"
-msgstr "La table système n'a pas pu être trouvée"
-
-#: CRM/Member/BAO/Membership.php
-msgid "Online Contribution:"
-msgstr "Contribution en ligne :"
 
 #: CRM/Member/BAO/Membership.php
 msgid ""
@@ -124,16 +101,40 @@ msgid "Source %2 %1"
 msgstr "Source %2 %1"
 
 #: CRM/Member/BAO/Query.php
+msgid "Is a current member"
+msgstr "Est un membre actif"
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a non-current member"
+msgstr "N'est pas un membre actif"
+
+#: CRM/Member/BAO/Query.php
 msgid "Membership is a Test"
 msgstr "cette adhésion est un test"
 
 #: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew"
-msgstr "Adhésion est auto-renouvellée"
-
-#: CRM/Member/BAO/Query.php
 msgid "Membership is NOT Auto-Renew"
 msgstr "Adhésion n'est PAS Auto-Renouvellée"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and In Progress"
+msgstr ""
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Failed"
+msgstr ""
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Cancelled"
+msgstr ""
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Ended"
+msgstr ""
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew"
+msgstr "Adhésion est auto-renouvellée"
 
 #: CRM/Member/BAO/Query.php
 msgid "Membership is Pay Later"
@@ -145,15 +146,23 @@ msgstr "l'adhésion n'est PAS \"payer plus tard\""
 
 #: CRM/Member/BAO/Query.php
 msgid "Primary Members Only"
-msgstr "Membres initiaux uniquement"
+msgstr "Membres principaux uniquement"
 
 #: CRM/Member/BAO/Query.php
 msgid "Related Members Only"
 msgstr "Membres associés uniquement"
 
 #: CRM/Member/BAO/Query.php
-msgid "Membership Type(s)"
-msgstr "Type(s) d'adhésion"
+msgid "Membership Status Is Overriden"
+msgstr "Le statut du membre est écrasé"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is NOT Overriden"
+msgstr "Le statut du membre n'est PAS écrasé"
+
+#: CRM/Member/BAO/Query.php
+msgid "Current Member?"
+msgstr "Membre actif?"
 
 #: CRM/Member/BAO/Query.php
 msgid "Primary Member?"
@@ -164,100 +173,275 @@ msgid "Pay Later?"
 msgstr "Paiement différé"
 
 #: CRM/Member/BAO/Query.php
-msgid "Auto-Renew?"
-msgstr "Renouvellement automatique?"
+msgid "Auto-Renew Subscription Status?"
+msgstr "État du renouvellement automatique"
+
+#: CRM/Member/BAO/Query.php
+msgid "- None -"
+msgstr "- Aucun -"
+
+#: CRM/Member/BAO/Query.php
+msgid "Ended"
+msgstr "Terminé"
 
 #: CRM/Member/BAO/Query.php
 msgid "Membership is a Test?"
 msgstr "Adhésions test?"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden?"
+msgstr "Le statut du membre est écrasé?"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipBlock.php
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Id"
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Membership Type Id"
 msgstr "Identifiant de type d'adhérent"
 
 #: CRM/Member/DAO/Membership.php
+msgid "Beginning of initial membership period (member since...)."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of current uninterrupted membership period."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
 msgid "Membership Expiration Date"
 msgstr "Date d'expiration de l'adhésion"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Current membership period expire date."
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Membership Status Id"
 msgstr "Identifiant du statut d'adhésion"
 
 #: CRM/Member/DAO/Membership.php
+msgid "FK to Membership Status"
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
 msgid "Status Override"
-msgstr "Ecraser le statut"
+msgstr "Écraser le statut"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Admin users may set a manual status which overrides the calculated status. "
+"When this flag is true, automated status update scripts should NOT modify "
+"status for the record."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php CRM/Member/Form/Membership.php
+msgid "Status Override End Date"
+msgstr "Date de fin de l'écrasement du statut"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Then end date of membership status override if 'Override until selected "
+"date' override type is selected."
+msgstr ""
 
 #: CRM/Member/DAO/Membership.php
 msgid "Primary Member ID"
-msgstr "Identifiant de membre leader"
+msgstr "Identifiant de membre principal"
 
-#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipLog.php
+#: CRM/Member/DAO/Membership.php
+msgid "Optional FK to Parent Membership."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipType.php
 msgid "Max Related"
 msgstr "Max de relations"
 
 #: CRM/Member/DAO/Membership.php
-msgid "Memberhip Recurring Contribution"
+msgid "Maximum number of related memberships (membership_type override)."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Recurring Contribution"
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Conditional foreign key to civicrm_contribution_recur id. Each membership in"
+" connection with a recurring contribution carries a foreign key to the "
+"recurring contribution record. This assumes we can track these processor "
+"initiated events."
+msgstr ""
+
+#: CRM/Member/DAO/Membership.php
+msgid "The campaign for which this membership is attached."
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block ID"
-msgstr ""
+msgstr "ID de bloc d'adhésion"
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Entity Table"
+msgstr "Table des entités de blocs d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php CRM/Member/DAO/MembershipStatus.php
+msgid "Name for Membership Status"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Entity ID"
+msgstr "ID de l'entité du bloc d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "FK to civicrm_contribution_page.id"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Membership Types"
+msgstr "Types d'adhésion au bloc d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership types to be exposed by this block"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Default Type"
+msgstr "Type par défaut du bloc d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Optional foreign key to membership_type"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Display Minimum Fee"
+msgstr "Affichage des Frais minimum du bloc d'adhésion "
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Display minimum membership fee"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Is Separate Payment"
+msgstr "Le bloc d'adhésion est un paiement séparé"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Should membership transactions be processed separately"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block New Title"
+msgstr "Nouveau titre du Bloc d'adhésion "
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title to display at top of block"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block New Text"
+msgstr " Nouveau texte du Bloc d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display below title"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Renewal Title"
+msgstr "Titre  du bloc de renouvellement d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title for renewal"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Membership Block Renewal Text"
+msgstr "Texte du bloc de renouvellement d'adhésion"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display for member renewal"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipBlock.php
 msgid "Is Required"
 msgstr "Est obligatoire"
 
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is membership sign up optional"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is this membership_block enabled"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log ID"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipPayment.php
+msgid "FK to Membership table"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid ""
+"New status assigned to membership by this action. FK to Membership Status"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log Start Date"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period start date"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log End Date"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period expiration date."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log modified By"
+msgstr ""
+
 #: CRM/Member/DAO/MembershipLog.php
 msgid "Membership Change Date"
 msgstr "Changement de date d'adhésion"
 
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Date this membership modification action was logged."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Type ID"
+msgstr "Identifiant du type d'adhérent"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "FK to Membership Type."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Maximum Related Memberships"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Maximum number of related memberships."
+msgstr ""
+
 #: CRM/Member/DAO/MembershipPayment.php
 msgid "Membership Payment ID"
-msgstr ""
+msgstr "ID de paiement d'adhésion"
 
 #: CRM/Member/DAO/MembershipStatus.php
 msgid "Membership Status ID"
 msgstr "ID du statut d'adhésion"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Label for Membership Status"
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 #: templates/CRM/Member/Page/MembershipStatus.tpl
@@ -265,12 +449,24 @@ msgid "Start Event"
 msgstr "Début"
 
 #: CRM/Member/DAO/MembershipStatus.php
+msgid "Event when this status starts."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
 msgid "Start Event Adjust Unit"
 msgstr "Unité de démarrage de l'évènement"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from start_event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "Start Event Adjust Interval"
 msgstr "Intervalle d'ajustement"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range begins this many units from start_event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 #: templates/CRM/Member/Page/MembershipStatus.tpl
@@ -278,63 +474,145 @@ msgid "End Event"
 msgstr "Fin de l'évènement"
 
 #: CRM/Member/DAO/MembershipStatus.php
+msgid "Event after which this status ends."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
 msgid "End Event Adjust Unit"
 msgstr "Unité de la fin de l'évènement"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from the ending event."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "End Event Adjust Interval"
 msgstr "Intervalle d'ajustement"
 
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range ends this many units from end_event."
+msgstr ""
+
 #: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
 msgid "Current Membership?"
-msgstr "Adhésion actuelle ?"
+msgstr "Membre actuel?"
 
 #: CRM/Member/DAO/MembershipStatus.php
-msgid "Admin Assigned Only?"
-msgstr "Prise en compte unique de l'administrateur ?"
+msgid ""
+"Does this status aggregate to current members (e.g. New, Renewed, Grace "
+"might all be TRUE... while Unrenewed, Lapsed, Inactive would be FALSE)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Administrator Only?"
+msgstr "Administrateur seulement ?"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this status for admin/manual assignment only."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php
 msgid "Default Status?"
-msgstr "État par défaut ?"
+msgstr "Statut par défaut?"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Assign this status to a membership record if no other status match is found."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status enabled."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipStatus.php
 msgid "Is Reserved"
 msgstr "Réservé"
 
-#: CRM/Member/DAO/MembershipType.php
-msgid "Membership Type ID"
-msgstr "Identifiant du type d'adhérent"
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status reserved."
+msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Domain"
+msgstr "Type de domaine d'adhésion"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Name of Membership Type"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Description"
+msgstr "Description du type de membre "
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Description of Membership Type"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Organization"
+msgstr "Type d'organisation de membre "
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Owner organization for this membership type. FK to Contact ID"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Financial Type"
+msgstr "Type financier d'adhésion"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"If membership is paid by a contribution - what financial type should be "
+"used. FK to civicrm_financial_type.id"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
-msgid "membership Type Minimum Fee"
+msgid "Membership Type Minimum Fee"
 msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Minimum fee for this membership (0 for free/complimentary memberships)."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Minimum Fee"
+msgstr "Tarif minimum"
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Duration Unit"
 msgstr "Unité de durée pour le type d'adhésion"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid "Unit in which membership period is expressed."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Duration Interval"
+msgstr " Intervalle de durée du Type d'adhésion"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Number of duration units in membership period (e.g. 1 year, 12 months)."
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Plan"
+msgstr "Plan de type d'adhésion"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Rolling membership period starts on signup date. Fixed membership periods "
+"start on fixed_period_start_day."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, month and day (mmdd) on which "
+"subscription/membership will start. Period start is back-dated unless after "
+"rollover day."
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php CRM/Member/Form/MembershipType.php
@@ -342,12 +620,22 @@ msgid "Fixed Period Rollover Day"
 msgstr "Jour de renouvellement de la période fixe"
 
 #: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, signups after this day (mmdd) rollover to next"
+" period."
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Relationship"
+msgstr "Type d'adhésion Relation"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "FK to Relationship Type ID"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Max Related Members for Type"
-msgstr ""
+msgstr "Type Max de Membres associés"
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Visible"
@@ -355,11 +643,41 @@ msgstr "Visible"
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Receipt Text"
+msgstr "Texte de réception du type d'adhésion"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership signup"
 msgstr ""
 
 #: CRM/Member/DAO/MembershipType.php
 msgid "Membership Type Renewal Text"
+msgstr "Texte  de renouvellement de Type de membre "
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership renewal"
 msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"0 = No auto-renew option; 1 = Give option, but not required; 2 = Auto-renew "
+"required;"
+msgstr ""
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Is this membership_type enabled"
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Consider modifying the membership status instead if you want to maintain an "
+"audit trail and avoid losing payment data. You can set the status to "
+"Cancelled by editing the membership and clicking the Status Override "
+"checkbox."
+msgstr "Envisagez plutôt de modifier le statut de l'adhésion si vous souhaitez laisser une piste de vérification et éviter de perdre les données de paiement. Vous pouvez changer le statut à Annulé en modifiant l'adhésion et en cochanr la case « Écraser le statut »."
+
+#: CRM/Member/Form/Membership.php
+msgid "Click 'Delete' if you want to continue."
+msgstr "Cliquez 'Supprimer' si vous souhaitez continuer."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
@@ -367,18 +685,7 @@ msgid ""
 "CiviContribute' permission in order to delete this record."
 msgstr "Cette adhésion est liée à une contribution. Vous devez avoir l'autorisation «supprimer dans CiviContribute 'pour supprimer cet enregistrement."
 
-#: CRM/Member/Form/Membership.php
-msgid ""
-"There are no configured membership statuses. You cannot add this membership "
-"until your membership statuses are correctly configured"
-msgstr "Il n'y a pas de statuts d'adhésion configurés. Vous ne pouvez pas ajouter cette adhésion jusqu'à ce que vos statuts d'adhésion sont correctement configurés"
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Membership renewed automatically"
-msgstr "Adhésion renouvelée automatiquement"
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
-#: templates/CRM/Member/Form/MembershipView.tpl
+#: CRM/Member/Form/Membership.php templates/CRM/Member/Form/MembershipView.tpl
 msgid "Max related"
 msgstr "Relations Max"
 
@@ -389,7 +696,7 @@ msgstr "Organisation et type d'adhésion"
 
 #: CRM/Member/Form/Membership.php
 msgid "Status Override?"
-msgstr "Réécriture du statut ?"
+msgstr "Statut écrasé?"
 
 #: CRM/Member/Form/Membership.php
 msgid "Record Membership Payment?"
@@ -412,6 +719,14 @@ msgid "Select at most one option associated with the same membership type."
 msgstr "Veuillez sélectionner au moins une option associée au type d'adhésion."
 
 #: CRM/Member/Form/Membership.php
+msgid "Select at least one membership option."
+msgstr "Veuillez sélectionner au moins une option d'adhésion."
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment is required when you use a price set."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
 msgid "Please select a membership type."
 msgstr "Veuillez sélectionner un type d'adhésion."
 
@@ -419,23 +734,15 @@ msgstr "Veuillez sélectionner un type d'adhésion."
 msgid "Please enter an integer for the number of terms."
 msgstr "Merci d'entrer un nombre entier valide de paiements."
 
-#: CRM/Member/Form/Membership.php
-msgid "Select at least one membership option."
-msgstr "Veuillez sélectionner au moins une option d'adhésion."
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
+msgid "Please enter the financial Type."
+msgstr "Veuillez indiquer le type financier."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
 "Please do not select more than one membership associated with the same "
 "organization."
 msgstr "Vous ne pouvez sélectionner plus d'une adhésion pour une même organisation."
-
-#: CRM/Member/Form/Membership.php
-msgid "Record Membership Payment is required when you using price set."
-msgstr "Enregistrer le paiement d'adhésion est obligatoire lorsque vous utilisez des tarifications."
-
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
-msgid "Please enter the financial Type."
-msgstr "Veuillez indiquer le type financier."
 
 #: CRM/Member/Form/Membership.php
 msgid "Please Select a Soft Credit Type"
@@ -452,12 +759,13 @@ msgstr "La date de début doit être plus grande ou égale à cette de membre de
 #: CRM/Member/Form/Membership.php
 msgid ""
 "Please enter a status that does NOT represent a current membership status."
-msgstr ""
+msgstr "Inscrire un statut qui n'est PAS actuel."
 
 #: CRM/Member/Form/Membership.php
 msgid ""
-"This must be checked because you set an End Date for a lifetime membership"
-msgstr ""
+"Because you set an End Date for a lifetime membership, This must be set to "
+"\"Override Permanently\""
+msgstr "Parce que cette adhésion à vie possède une une date de fin, vous devez choisir l'option «Fixer définitivement»."
 
 #: CRM/Member/Form/Membership.php
 msgid "Start date must be set if end date is set."
@@ -480,20 +788,26 @@ msgid ""
 msgstr "Il semble qu'il n'y ait aucun statut d'adhésion valide pour les dates fournies. Vous devez <a href=\"%1\" >configurer les règles des statuts d'adhésion</a>."
 
 #: CRM/Member/Form/Membership.php
-msgid "OR You can sign up by setting Status Override? to true."
-msgstr "OU vous pouvez vous inscrire en cochant « Forcer le statut »."
+msgid ""
+"OR You can sign up by setting Status Override? to something other than "
+"\"NO\"."
+msgstr ""
 
 #: CRM/Member/Form/Membership.php
 msgid "Membership Status Error"
-msgstr "Erreur de statur de membre"
+msgstr "Erreur de statut de membre"
 
 #: CRM/Member/Form/Membership.php
 msgid "Please enter the Member Since."
 msgstr "Veuillez entrer "
 
 #: CRM/Member/Form/Membership.php
-msgid "Please enter the status."
-msgstr "Veuillez indiquer le statut."
+msgid "Please enter the Membership status."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership override end date."
+msgstr ""
 
 #: CRM/Member/Form/Membership.php
 msgid "Please enter the contribution."
@@ -504,12 +818,28 @@ msgid "%1 Membership: Offline signup (by %2)"
 msgstr "%1 Adhésion: Inscription hors-ligne (par %2)"
 
 #: CRM/Member/Form/Membership.php
-msgid "Office Credit Card Membership Signup Contribution"
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"signup"
 msgstr ""
 
 #: CRM/Member/Form/Membership.php
 msgid "%1 Membership Signup: Credit card or direct debit (by %2)"
 msgstr "%1 Inscription: Carte de crédit ou débit (par %2)"
+
+#: CRM/Member/Form/Membership.php
+msgid "A membership confirmation and receipt has been sent to %1."
+msgstr "Une confirmation d'adhésion a été envoyé à %1."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Associated recurring contribution cannot be updated on membership type "
+"change."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid "Associated contribution is updated on membership type change."
+msgstr ""
 
 #: CRM/Member/Form/Membership.php
 msgid "Membership for %1 has been updated."
@@ -520,10 +850,6 @@ msgid "The membership End Date is %1."
 msgstr "La date de fin de l'adhésion est %1."
 
 #: CRM/Member/Form/Membership.php
-msgid "A confirmation and receipt has been sent to %1."
-msgstr "Une confirmation et un reçu ont été envoyés à %1."
-
-#: CRM/Member/Form/Membership.php
 msgid "%1 membership for %2 has been added."
 msgstr "L'adhésion %1 pour %2 a été ajoutée."
 
@@ -532,8 +858,17 @@ msgid "The new membership End Date is %1."
 msgstr "La nouvelle date de fin pour l'adhésion est %1."
 
 #: CRM/Member/Form/Membership.php
-msgid "A membership confirmation and receipt has been sent to %1."
-msgstr "Une confirmation d'adhésion a été envoyé à %1."
+msgid ""
+"The financial types associated with the old and new membership types are "
+"different. You may want to edit the contribution associated with this "
+"membership to adjust its financial type."
+msgstr ""
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The cost of the old and new membership types are different. You may want to "
+"edit the contribution associated with this membership to adjust its amount."
+msgstr ""
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid "Membership Section Enabled?"
@@ -582,7 +917,7 @@ msgstr "Donner l'option"
 #: CRM/Member/Form/MembershipBlock.php
 #: templates/CRM/Member/Form/MembershipBlock.tpl
 #: templates/CRM/Member/Form/MembershipView.tpl
-#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+#: templates/CRM/Member/Page/Tab.tpl
 msgid "Auto-renew"
 msgstr "Renouvellement automatique"
 
@@ -610,14 +945,6 @@ msgstr "Vous ne pouvez pas activer à la fois adhésion et tarification sur une 
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid ""
-"You cannot use Membership Price Sets with the Contribution Amounts section. "
-"However, a membership price set may include additional fields for non-"
-"membership options that requires an additional fee (e.g. magazine "
-"subscription) or an additional voluntary contribution."
-msgstr "Vous ne pouvez pas utiliser de tarifs d'adhésion en même temps que la section montants de contribution. Cependant les tarifs d'adhésion peuvent inclure des champs additionnels pour des options payantes complémentaires à l'adhésion (ex. souscription à un magazine) ou une contribution additionnelle volontaire."
-
-#: CRM/Member/Form/MembershipBlock.php
-msgid ""
 "Please select at least one Membership Type to include in the Membership "
 "section of this page."
 msgstr "Veuillez sélectionner au moins un type d'adhésion pour inclure la section Adhésion dans cette page."
@@ -632,13 +959,13 @@ msgstr "Vous ne pouvez pas sélectionner plus de %1 choix. Pour plus des fonctio
 msgid ""
 "You need to enable Separate Membership Payment when online contribution page"
 " is configured for both Membership and Recurring Contribution"
-msgstr ""
+msgstr "Vous devez activer le paiement séparé de l'adhésion lorsque la page de contribution en ligne est configurée pour l'adhésion et la contribution récurrente"
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid ""
 "You cannot enable both Recurring Contributions and Auto-renew memberships on"
 " the same online contribution page"
-msgstr ""
+msgstr "Vous ne pouvez pas activer à la fois les Contributions récurrentes et Renouveler automatiquement les adhésions sur la même page de contribution en ligne"
 
 #: CRM/Member/Form/MembershipBlock.php
 msgid "Add status rules, before configuring membership"
@@ -663,11 +990,11 @@ msgid ""
 "Membership Renewal using a credit card requires a Membership fee. Since "
 "there is no fee associated with the selected membership type, you can use "
 "the normal renewal mode."
-msgstr ""
+msgstr "Le renouvellement d'adhésion à l'aide d'une carte de crédit nécessite des tarifs d'adhésion. Puisqu'il n'y a pas de tarif associé au type d'adhésion sélectionné, vous pouvez utiliser le mode de renouvellement normal."
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Includes %1 amount of %2"
-msgstr ""
+msgstr "Comprend % 1 montant de % 2"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Renewal Membership Organization and Type"
@@ -678,16 +1005,16 @@ msgid "Date Renewal Entered"
 msgstr "Date de renouvellement entrée"
 
 #: CRM/Member/Form/MembershipRenewal.php
-msgid "Record Renewal Payment?"
-msgstr "Enregistrer le renouvellement du paiement ?"
-
-#: CRM/Member/Form/MembershipRenewal.php
 msgid "Extend Membership by"
 msgstr "Prolonger l'adhésion de"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Please enter a whole number for how many periods to renew."
 msgstr "Merci d'entrer un nombre entier pour le nombre de périodes de renouvellement."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Record Renewal Payment?"
+msgstr "Enregistrer le renouvellement du paiement ?"
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Renewal Message"
@@ -708,6 +1035,10 @@ msgid ""
 msgstr "Oups. On dirait que vous essayez de changer le type d'adhésion et renouveller celle-ci en même temps. Cliquez le lien \"changer le type d'adhésion\", puis sélectionnez un type d'adhésion à partir de la liste."
 
 #: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal date must be the same or later than Member since (Join Date)."
+msgstr ""
+
+#: CRM/Member/Form/MembershipRenewal.php
 msgid "Please select a Financial Type."
 msgstr "Veuillez sélectionner un type Financier."
 
@@ -716,16 +1047,45 @@ msgid "Please enter a Contribution Amount."
 msgstr "Veuillez entrer un montant de contribution."
 
 #: CRM/Member/Form/MembershipRenewal.php
-msgid "Office Credit Card Membership Renewal Contribution"
-msgstr ""
-
-#: CRM/Member/Form/MembershipRenewal.php
 msgid "%1 membership for %2 has been renewed."
 msgstr "L'adhésion %1 pour %2 a été renouvelée."
 
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "A renewal confirmation and receipt has been sent to %1."
 msgstr "Un reçu et une confirmation de renouvellement ont été envoyés à %1."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"renewal"
+msgstr ""
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Display name for this Membership status (e.g. New, Current, Grace, "
+"Expired...)."
+msgstr "Affiche le nom pour le status d'adhésion (i.e. Nouveau, Courant, Grâce, Expiré ...)."
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Check this box if this status is for use by administrative staff only. If "
+"checked, this status is never automatically assigned by CiviMember. It is "
+"assigned to a contact's Membership by checking the <strong>Status "
+"Override</strong> flag when adding or editing the Membership record. Start "
+"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
+" setting can be useful for special case statuses like 'Non-expiring', "
+"'Barred' or 'Expelled', etc."
+msgstr "Cochez cette case si le status n'est utilisable que par l'équipe administrative. Si cochée, ce statut ne sera jamais assigné automatiquement par CiviMember. Il est assigné à l'adhésion d'un contact en cochant la case <strong>Écraser le statut</strong>quand l'enregistrement d'adhésion est ajouté ou édité. Début et fin de l'évènement sont ignoré pour les status administrateur. Par exemple ce paramétre peut être utile pour des cas spéciaux comme \"n'expire jamais', 'radiés' ou 'expulsés'"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"You will not be able to delete this membership status if there are existing "
+"memberships with this status. You will need to check all your membership "
+"status rules afterwards to ensure that a valid status will always be "
+"available."
+msgstr ""
 
 #: CRM/Member/Form/MembershipStatus.php
 msgid ""
@@ -742,10 +1102,6 @@ msgid "End Event Adjustment"
 msgstr "Ajustement de la fin de l'évènement"
 
 #: CRM/Member/Form/MembershipStatus.php
-msgid "Administrator Only?"
-msgstr "Administrateur seulement ?"
-
-#: CRM/Member/Form/MembershipStatus.php
 msgid "Delete Failed"
 msgstr "La suppression a échoué"
 
@@ -758,15 +1114,98 @@ msgid "The membership status '%1' has been saved."
 msgstr "Le statut d'adhésion '%1' a été sauvegardé."
 
 #: CRM/Member/Form/MembershipType.php
+msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
+msgstr "i.e. 'Etudiant', 'Senior', Membre d'honneur"
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Description of this membership type for internal use. May include "
+"eligibility, benefits, terms, etc."
+msgstr "Description de ce type d'adhésion qui sera affichée dans les formulaire d'inscription. Peut inclure l'élégibilité, les bénéfices, les termes, etc."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Members assigned this membership type belong to which organization (e.g. "
+"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
+" organization/group/chapter must exist as a CiviCRM Organization type "
+"contact."
+msgstr "A quelle organisation appartiennent les membres avec ce type d'adhésion ( i.e. pour les adhésion comme 'Sauvez les baleines - groupe Nord Ouest). Note cette organisation/groupe doit éxister comme un contact CiviCRM de type organisation."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Minimum fee required for this membership type. For free/complimentary "
+"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
+"process sales taxes this should be the tax exclusive amount."
+msgstr "Frais minimum requis pour ce type d'adhésion. Pour les adhésions gratuites :  fixer le montant minimum à zéro (0). REMARQUE: Lorsque vous utilisez CiviCRM pour traiter les taxes de vente, cela devrait être le montant exclusif de la taxe."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select the financial type assigned to fees for this membership type (for "
+"example 'Membership Fees'). This is required for all membership types - "
+"including free or complimentary memberships."
+msgstr "Sélectionnez le type de contribution associées à la cotisation pour ce type d'adhésion (par exemple 'Cotisation'). Ceci est requis pour tous les types d'adhésion y compris les adhésions de courtoisie ou gratuites."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You will need to select and configure a supported payment processor "
+"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
+"to offer automatically renewing memberships."
+msgstr "Vous devrez sélectionner et configurer un service de paiement supporté (actuellement Authorize.net, PayPal Pro ou le site web standard PayPal) afin de pouvoir offir des adhésions renouvellables automatiquement."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
+msgstr "Durée de l'adhésion (par ex :30 jours, 2 mois, 5 ans, A vie)"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date."
+msgstr "Sélectionnez 'variable' si la période d'adhésion commence à la date d'inscription. Sélectionnez Fixe si la période d'adhésion commence à une date du calendrier paramétrée."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Month and day on which a <strong>fixed</strong> period membership or "
+"subscription begins. Example: A fixed period membership with Start Day set "
+"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
+"anyone signing up during 2006."
+msgstr "Mois et jour auxquels les <strong> période d'adhésion fixe ou inscription</strong> commencent. Exemple : Une période fixe avec un jour de début paramétré au 1er Janvier veut dire que la période d'adhésion ira du 01/01/2009 au 31/12/2009 pour n'importe qui signant durant 2009."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this date cover the following calendar year "
+"as well. Example: If the rollover day is November 30, membership period for "
+"signups during December will cover the following year."
+msgstr "L'adhésion après cette date couvrira le reste du calendrier de l'année suivante aussi. Par exemple, si le jour de renouvellement est le 30 novembre, une inscription en décembre de cette année sera valide pour l'année suivante."
+
+#: CRM/Member/Form/MembershipType.php templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Maximum number of related memberships (leave blank for unlimited)."
+msgstr "Le nombre maximum d'adhésions connexes (laisser vide pour un nombre illimité)."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Can this membership type be used for self-service signups ('Public'), or is "
+"it only for CiviCRM users with 'Edit Contributions' permission ('Admin')."
+msgstr ""
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"WARNING: Deleting this option will result in the loss of all membership "
+"records of this type."
+msgstr "AVERTISSEMENT: la suppression de cette option entraînera la perte de tous les enregistrement d'adhésion de ce type"
+
+#: CRM/Member/Form/MembershipType.php
 msgid ""
 "A membership type with this name already exists. Please select another name."
 msgstr "Un type d'adhésion avec ce nom existe déjà. Veuillez choisir un autre nom."
-
-#: CRM/Member/Form/MembershipType.php
-#: templates/CRM/Member/Page/MembershipType.tpl
-#: templates/CRM/Member/Page/Tab.tpl
-msgid "Minimum Fee"
-msgstr "Tarif minimum"
 
 #: CRM/Member/Form/MembershipType.php
 msgid "Please enter a monetary value for the Minimum Fee."
@@ -880,22 +1319,41 @@ msgid "Member Name or Email"
 msgstr "Nom ou adresse courriel du membre"
 
 #: CRM/Member/Form/Search.php
+msgid "Member Tag(s)"
+msgstr ""
+
+#: CRM/Member/Form/Search.php
+msgid "Member Group(s)"
+msgstr ""
+
+#: CRM/Member/Form/Search.php
+msgid "Member Contact Type"
+msgstr ""
+
+#: CRM/Member/Form/Search.php
 msgid "Find Memberships"
 msgstr "Rechercher des adhésions"
 
-#: CRM/Member/Form/Task/Batch.php
-msgid "Batch Update for Members"
-msgstr "Mise à jour en masse des membres"
+#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
+#: CRM/Member/Task.php
+msgid "Update multiple memberships"
+msgstr ""
 
 #: CRM/Member/Form/Task/Batch.php
 msgid "Update Members(s)"
 msgstr "Mettre à jour le(s) membre(s)"
 
 #: CRM/Member/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple memberships."
+msgstr ""
+
+#: CRM/Member/Form/Task/Batch.php
 msgid "Update Memberships"
 msgstr "Mettre à jour les adhésions"
 
-#: CRM/Member/Form/Task/Delete.php CRM/Member/Task.php
+#: CRM/Member/Form/Task/Delete.php
 msgid "Delete Memberships"
 msgstr "Supprimer les adhésions"
 
@@ -916,27 +1374,33 @@ msgid ""
 msgstr "Comme vous imprimez une étiquette par adhésion, vos paramètres de fusion sont ignorés"
 
 #: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Profile Update for Membership"
-msgstr "Mise à jour massive des adhésions"
-
-#: CRM/Member/Form/Task/PickProfile.php
 msgid ""
-"The maximum number of members you can select for Batch Update is %1. You "
-"have selected %2. Please select fewer members from your search results and "
-"try again."
-msgstr "Le nombre maximum de membres que vous pouvez sélectionner pour les mises à jour par lot est 1%. Vous avez sélectionné %2. S'il vous plaît sélectionner moins de membres à partir de vos résultats de recherche et essayer de nouveau."
+"The maximum number of members you can select for Update multiple memberships"
+" is %1. You have selected %2. Please select fewer members from your search "
+"results and try again."
+msgstr ""
 
 #: CRM/Member/Form/Task/PickProfile.php
 msgid ""
 "You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Batch Update via Profile. Navigate to Administer CiviCRM "
-">> CiviCRM Profile to configure a Profile. Consult the online Administrator "
-"documentation for more information."
+"before you can use Update multiple memberships. Navigate to Administer "
+"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
+"Administrator documentation for more information."
 msgstr ""
 
 #: CRM/Member/Form/Task/Print.php
 msgid "Print Members"
 msgstr "Imprimer des membres"
+
+#: CRM/Member/Form.php
+msgid ""
+"There are no configured membership statuses. You cannot add this membership "
+"until your membership statuses are correctly configured"
+msgstr "Il n'y a pas de statuts d'adhésion configurés. Vous ne pouvez pas ajouter cette adhésion jusqu'à ce que vos statuts d'adhésion sont correctement configurés"
+
+#: CRM/Member/Form.php
+msgid "Membership renewed automatically"
+msgstr "Adhésion renouvelée automatiquement"
 
 #: CRM/Member/Import/Form/DataSource.php
 msgid "Insert new Membership"
@@ -959,8 +1423,12 @@ msgid "View Membership URL"
 msgstr "Voir l'URL d'adhésion"
 
 #: CRM/Member/Info.php
-msgid "access CiviMember"
+msgid "CiviCRM Membership Engine"
 msgstr ""
+
+#: CRM/Member/Info.php
+msgid "access CiviMember"
+msgstr "Accéder à CiviMember"
 
 #: CRM/Member/Info.php
 msgid "View memberships"
@@ -976,11 +1444,11 @@ msgstr "Créer et modifier les adhésions"
 
 #: CRM/Member/Info.php
 msgid "delete in CiviMember"
-msgstr ""
+msgstr "Supprimer dans CiviMember"
 
-#: CRM/Member/Info.php
+#: CRM/Member/Info.php CRM/Member/Task.php
 msgid "Delete memberships"
-msgstr ""
+msgstr "Supprimer les adhésions"
 
 #: CRM/Member/Info.php
 msgid "Your Membership(s)"
@@ -1074,7 +1542,7 @@ msgid ""
 " the current membership status will not be affected."
 msgstr "ATTENTION : Si vous supprimez la contribution périodique jointe à cette adhésion, l'adhésion ne sera plus renouvelée automatiquement. Le statut actuel d'adhésion ne sera toutefois pas affecté."
 
-#: CRM/Member/Page/Tab.php
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Cancel Auto Renew Subscription"
 msgstr "Annuler l'abonnement au renouvellement automatique"
 
@@ -1086,17 +1554,21 @@ msgstr "Membres"
 msgid "Auto-renew?"
 msgstr "Renouvellement automatique ?"
 
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Permanently"
+msgstr "Fixer définitivement"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Until Selected Date"
+msgstr ""
+
 #: CRM/Member/Task.php
-msgid "Export Members"
+msgid "Export members"
 msgstr "Exporter les membres"
 
 #: CRM/Member/Task.php
-msgid "Batch Update Members Via Profile"
-msgstr "Mise à jour massive des membres via un profil"
-
-#: CRM/Member/Task.php
-msgid "Print PDF Letters for Memberships"
-msgstr "Imprimer les lettres PDF pour les adhésions"
+msgid "Print/merge document for memberships"
+msgstr "Produire un document personnalisé (adhésions)"
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid ""
@@ -1105,18 +1577,18 @@ msgid ""
 "automatically renewed on the last day of the membership period until the "
 "recurring payment is cancelled. Membership payment receipt emails will "
 "include a link for the member to cancel the auto-renewal."
-msgstr ""
+msgstr "Une demande de paiement récurrente (souscription) sera soumise au processeur de paiement sélectionné. Si la demande est réussie, cette adhésion sera automatiquement renouvelée le dernier jour de la période d'adhésion jusqu'à ce que le paiement récurrent soit annulé. Les courriels de réception de paiement d'adhésion comprendront un lien pour que le membre annule le renouvellement automatique."
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid "To cancel automatic renewal:"
-msgstr ""
+msgstr "Pour annuler le renouvellement automatique"
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid ""
 "If this recurring payment uses a processor which has support for integrated "
 "cancellation, click \"Cancel\" on this form, and use the \"Cancel Auto-renew"
 " Subscription\" action (click \"more\" in the membership listing row)."
-msgstr ""
+msgstr "Si ce paiement récurrent utilise un processeur qui prend en charge l'annulation intégrée, cliquez  \"Annuler\" sur ce formulaire et utilisez l'action \"Annuler la renouvellement automatique d'abonnement\" (cliquez sur \"plus\" dans la ligne de liste d'adhésion)."
 
 #: templates/CRM/Member/Form/Membership.hlp
 msgid ""
@@ -1124,7 +1596,7 @@ msgid ""
 "need to cancel the associated Recurring Contribution record from the "
 "Contributions tab. <strong>In this case you must also manually cancel the "
 "recurring payment from the payment processor website</strong>."
-msgstr ""
+msgstr "Si vous ne voyez pas l'action \"Annuler le renouvellement automatique d'abonnement\", vous devrez annuler l'enregistrement de Contribution récurrente associée à partir de l'onglet Contributions. <strong>Dans ce cas, vous devez également annuler manuellement le paiement récurrent du site Web du processeur de paiement.</strong>"
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1142,32 +1614,13 @@ msgid ""
 msgstr "Utilisez ce formulaire afin d'envoyer l'enregistrement d'adhésion pour la part de %1. <strong>Une transaction de %2 sera soumise</strong> avec le service de paiement sélectionné."
 
 #: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"WARNING: Deleting this membership will also delete any related payment "
-"(contribution) records."
-msgstr "ATTENTION : La suppression ce cette adhésion entraînera aussi la suppression de tout enregistrement relié de paiement (contribution)."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"Consider modifying the membership status instead if you want to maintain an "
-"audit trail and avoid losing payment data. You can set the status to "
-"Cancelled by editing the membership and clicking the Status Override "
-"checkbox."
-msgstr "Envisagez plutôt de modifier le statut de l'adhésion si vous souhaitez laisser une piste de vérification et éviter de perdre les données de paiement. Vous pouvez changer le statut à Annulé en modifiant l'adhésion et en cochanr la case Réécriture de statut."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid "Click 'Delete' if you want to continue."
-msgstr "Cliquez 'Supprimer' si vous souhaitez continuer."
+msgid "submit credit card membership"
+msgstr ""
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Select Membership Organization and then Membership Type."
 msgstr "Sélectionnez l'organisation de cette adhésion puis son type"
-
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid "Maximum number of related memberships (leave blank for unlimited)."
-msgstr "Le nombre maximum d'adhésions connexes (laisser vide pour un nombre illimité)."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1191,7 +1644,7 @@ msgstr "Premier jour de l'adhésion courante.  La date de début sera automatiqu
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Over-ride end date"
-msgstr ""
+msgstr "Écraser la date de fin"
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1201,14 +1654,10 @@ msgstr "Derniere date d'expiration de l'adhésion. La date de fin sera automatiq
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
-"If <strong>Status Override</strong> is checked, the selected status will "
-"remain in force (it will NOT be modified by the automated status update "
-"script)."
-msgstr "Si <strong> Forcer le status </strong> est coché, le status sélectionné sera forcé (il ne sera PAS modifié par les script de mis à jour des status)."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid "Membership payment amount."
-msgstr "Montant de paiement de l'adhésion"
+"When <strong>Status Override</strong> is active, the selected status will "
+"remain in force (it will NOT be subject to membership status rules) until it"
+" is cancelled or become inactive."
+msgstr ""
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Update Payment Status"
@@ -1225,25 +1674,26 @@ msgid "Membership Payment and Receipt"
 msgstr "Paiement de l'adhésion et reçu"
 
 #: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid ""
-"Membership payment amount. A contribution record will be created for this "
-"amount."
-msgstr "Montant du paiement de l'adhèsion. Un enregistrement de contribution sera créé pour ce montant"
+"Automatically email a membership confirmation and receipt to %1? OR if the "
+"payment is from a different contact, this email will only go to them."
+msgstr ""
 
 #: templates/CRM/Member/Form/Membership.tpl
-msgid "Automatically email a membership confirmation and receipt to %1 ?"
-msgstr "Envoyer automatiquement une confirmation d'adhésion et un reçu par courriel à %1 ?"
+msgid ""
+"For auto-renewing memberships the emails are sent when each payment is "
+"received"
+msgstr "Pour les  auto-renouvellement d'abonnements, les courriels sont envoyés lorsque chaque paiement est reçu"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Automatically email a membership confirmation and receipt to "
+msgstr "Envoyer une confirmation d'adhésion et un reçu par courriel à "
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
 "OR if the payment is from a different contact, this email will only go to "
 "them."
 msgstr "SI le paiement vient d'un autre contact, le courriel ne sera envoyé qu'à celui-ci."
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid "Automatically email a membership confirmation and receipt to "
-msgstr "Envoyer une confirmation d'adhésion et un reçu par courriel à "
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid ""
@@ -1254,13 +1704,8 @@ msgstr "Si vous désirez envoyer un message personnaliser pour ce membre, vous p
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipView.tpl
-msgid "Related Contributions"
-msgstr ""
-
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipView.tpl
 msgid "Related Soft Contributions"
-msgstr ""
+msgstr "Contributions liées"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
@@ -1275,12 +1720,12 @@ msgstr "Ce contact a une adhésion existante de type %1 avec l'état %2 avec %3%
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
 msgid "Renew the existing membership instead"
-msgstr ""
+msgstr "Renouveler l'adhésion existante "
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
 msgid "View all existing and / or expired memberships for this contact"
-msgstr ""
+msgstr "Voir toutes les adhésions existantes et / ou expirées pour ce contact"
 
 #: templates/CRM/Member/Form/Membership.tpl
 #: templates/CRM/Member/Form/MembershipStandalone.js
@@ -1293,15 +1738,15 @@ msgstr "Adhésion manuelle et tarif"
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "No contacts are currently eligible to inherit this relationship."
-msgstr ""
+msgstr "Aucun contact n'est actuellement éligible pour hériter de cette relation."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "One contact is currently eligible to inherit this relationship."
-msgstr ""
+msgstr "Un contact est actuellement éligible pour hériter de cette relation."
 
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "%1 contacts are currently eligible to inherit this relationship."
-msgstr ""
+msgstr "%1 contacts sont actuellement éligibles pour hériter de cette relation."
 
 #: templates/CRM/Member/Form/MembershipBlock.hlp
 msgid "Separate Payment"
@@ -1335,12 +1780,6 @@ msgid ""
 " then a single transaction is processed for their contribution amount which "
 "must at least cover the selected membership fee."
 msgstr "Si cette option n'est pas cochée et que vous incluez une section montant de la contribution, alors une seule transaction sera traitée pour les montant des contributions qui doivent au moins couvrir la cotisation choisie."
-
-#: templates/CRM/Member/Form/MembershipBlock.hlp
-msgid ""
-"NOTE: This option is NOT available for PayPal Website Payments Standard and "
-"Google Checkout."
-msgstr "REMARQUE: Cette option n'est pas disponible pour le paiement PayPal Standard et Google Checkout."
 
 #: templates/CRM/Member/Form/MembershipBlock.hlp
 msgid "Display Fee"
@@ -1453,6 +1892,16 @@ msgid ""
 "Renewal."
 msgstr "Vous devez avoir au moins un <a href=\"%1\">type d'adhésion</a> en visibilité publique pour pouvoir activer les adhésions ou renouvellements d'adhésion en ligne."
 
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid ""
+"Membership payment amount. A contribution record will be created for this "
+"amount."
+msgstr "Montant du paiement de l'adhèsion. Un enregistrement de contribution sera créé pour ce montant"
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid "Membership payment amount."
+msgstr "Montant de paiement de l'adhésion"
+
 #: templates/CRM/Member/Form/MembershipRelated.tpl
 msgid "Related Contacts/Memberships"
 msgstr "Contacts/adhésions apparentés"
@@ -1488,7 +1937,7 @@ msgid ""
 "memberships, renewing will create a membership period commencing from the "
 "'Date Renewal Entered'. This date can be adjusted including being set to the"
 " day after the previous End Date - if continuous membership is required."
-msgstr "Renouveler son adhésion ajoute un nouvel intervalle d'adhésion à la fin de la période d'adhésion (date de fin) pour les membres dont le status est 'Courrant' ou 'Grace'. Pour les adhèsion terminée, le renouvellement créera un intervalle d'adhésion à partir de la 'date de renouvellement' entrée. Cette date peut être ajustée à partir du jour suivant la 'date de fin' si une adhésion en continue est requise."
+msgstr "Renouveler son adhésion ajoute un nouvel intervalle d'adhésion à la fin de la période d'adhésion (date de fin) pour les membres dont le status est 'Courant' ou 'Grace'. Pour les adhèsion terminée, le renouvellement créera un intervalle d'adhésion à partir de la 'date de renouvellement' entrée. Cette date peut être ajustée à partir du jour suivant la 'date de fin' si une adhésion en continue est requise."
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "change membership type"
@@ -1497,10 +1946,6 @@ msgstr "changer le type d'adhésion"
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Status of this membership."
 msgstr "Statut de cette adhésion"
-
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-msgid "Renewal Payment and Receipt"
-msgstr "Paiement du renouvellement et reçu"
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Renewal extends membership end date by one membership period"
@@ -1521,6 +1966,10 @@ msgid ""
 msgstr "Prolonger la date de fin d'adhésion de ce nombre de périodes d'adhésion. Assurez-vous que le montant approprié de cotisation est indiqué ci-dessous."
 
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal Payment and Receipt"
+msgstr "Paiement du renouvellement et reçu"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid "Automatically email a membership confirmation and receipt to %1?"
 msgstr "Envoyer automatiquement une confirmation d'adhésion et un reçu à par courriel à %1 ?"
 
@@ -1536,18 +1985,6 @@ msgstr "Nouveau status d'adhésion"
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
-"WARNING: Deleting this option will result in the loss of all membership "
-"records of this status."
-msgstr "AVERTISSEMENT: la suppression de cette option entraînera la disparition des entrées de contribution qui l'utilisent."
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
-"Display name for this Membership status (e.g. New, Current, Grace, "
-"Expired...)."
-msgstr "Affiche le nom pour le status d'adhésion (i.e. Nouveau, Courrant, Grace, Expiré ...)."
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
 "When does this status begin? EXAMPLE: <strong>New</strong> status begins at "
 "the membership 'join date'."
 msgstr "Quand ce status commence t il ? Exemple le statut <strong>Nouveau</strong> commence le jour d'adhésion."
@@ -1557,13 +1994,13 @@ msgid ""
 "Optional adjustment period added or subtracted from the Start Event. "
 "EXAMPLE: <strong>Current</strong> status might begin at 'join date' PLUS 3 "
 "months (to distinguish Current from New members)."
-msgstr "Période d'ajustement optionnelle à ajouter ou à soustraire du début de l'évènement. Exemple : le status <strong>Courrant</strong> pourrait débuter à la date d'inscription plus 3 mois (pour le distinguer du status Nouveau)"
+msgstr "Période d'ajustement optionnelle à ajouter ou à soustraire du début de l'évènement. Exemple : le status <strong>Courant</strong> pourrait débuter à la date d'inscription plus 3 mois (pour le distinguer du status Nouveau)"
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
 "When does this status end? EXAMPLE: <strong>Current</strong> status ends at "
 "the membership 'end date'."
-msgstr "Quand ce status s'arrête t il ? Exemple: le status <strong>Courrant</strong> s'arrête à la 'date de fin' de l'adhésion."
+msgstr "Quand ce status s'arrête t il ? Exemple: le status <strong>Courant</strong> s'arrête à la 'date de fin' de l'adhésion."
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
@@ -1575,18 +2012,7 @@ msgstr "Période d'ajustement optionnelle à ajouter ou à soustraire à la fin 
 msgid ""
 "Should this status be considered a current membership in good standing. "
 "EXAMPLE: New, Current and Grace could all be considered 'current'."
-msgstr "Ce status doit il être considéré comme une adhésion courrante ? Exemple Nouveau, Courrant et Grace devrait être tous les 3 considérés comme courrants (au contraire d'Expiré par exemple)."
-
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-msgid ""
-"Check this box if this status is for use by administrative staff only. If "
-"checked, this status is never automatically assigned by CiviMember. It is "
-"assigned to a contact's Membership by checking the <strong>Status "
-"Override</strong> flag when adding or editing the Membership record. Start "
-"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
-" setting can be useful for special case statuses like 'Non-expiring', "
-"'Barred' or 'Expelled', etc."
-msgstr "Cochez cette case si le status n'est utilisable que par l'équipe administrative. Si cochée, ce status ne sera jamais assigné automatiquement par CiviMember. Il est assigné à l'adhésion d'un contact en cochant la case <strong>Forcer le status</strong>quand l'enregistrement d'adhésion est ajouté ou édité. Début et fin de l'évènement sont ignoré pour les status administrateur. Par exemple ce paramétre peut être utile pour des cas spéciaux comme \"n'expire jamais', 'radiés' ou 'expulsés'"
+msgstr "Ce status doit il être considéré comme une adhésion courante ? Exemple Nouveau, Courant et Grace devrait être tous les 3 considérés comme courants (au contraire d'Expiré par exemple)."
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
@@ -1594,7 +2020,7 @@ msgid ""
 "membership. It also sets the order for status displays. EXAMPLE: The default"
 " 'New' and 'Current' statuses have overlapping ranges. Memberships that meet"
 " both status range criteria are assigned the status with the lower weight."
-msgstr "Le poids permet de gérer l'ordre de préséance pour assigner automatiquement un status à un membre. Il paramétre aussi l'affichage des status. Exemple: les status Nouveau et Courrants "
+msgstr "Le poids permet de gérer l'ordre de préséance pour assigner automatiquement un status à un membre. Il paramétre aussi l'affichage des status. Exemple: les status Nouveau et Courant"
 
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid ""
@@ -1605,77 +2031,6 @@ msgstr "Le status par défaut est assigné quand il n'y a pas de régle qui s'ap
 #: templates/CRM/Member/Form/MembershipStatus.tpl
 msgid "Is this status enabled."
 msgstr "Ce status est il activé."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"WARNING: Deleting this option will result in the loss of all membership "
-"records of this type."
-msgstr "AVERTISSEMENT: la suppression de cette option entraînera la perte de tous les enregistrement d'adhésion de ce type"
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
-msgstr "i.e. 'Etudiant', 'Senior', Membre d'honneur"
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Description of this membership type for internal use. May include "
-"eligibility, benefits, terms, etc."
-msgstr "Description de ce type d'adhésion qui sera affichée dans les formulaire d'inscription. Peut inclure l'élégibilité, les bénéfices, les termes, etc."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Members assigned this membership type belong to which organization (e.g. "
-"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
-" organization/group/chapter must exist as a CiviCRM Organization type "
-"contact."
-msgstr "A quelle organisation appartiennent les membres avec ce type d'adhésion ( i.e. pour les adhésion comme 'Sauvez les baleines - groupe Nord Ouest). Note cette organisation/groupe doit éxister comme un contact CiviCRM de type organisation."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Minimum fee required for this membership type. For free/complimentary "
-"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
-"process sales taxes this should be the tax exclusive amount."
-msgstr ""
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Select the financial type assigned to fees for this membership type (for "
-"example 'Membership Fees'). This is required for all membership types - "
-"including free or complimentary memberships."
-msgstr "Sélectionnez le type de contribution associées à la cotisation pour ce type d'adhésion (par exemple 'Cotisation'). Ceci est requis pour tous les types d'adhésion y compris les adhésions de courtoisie ou gratuites."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"You will need to select and configure a supported payment processor "
-"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
-"to offer automatically renewing memberships."
-msgstr "Vous devrez sélectionner et configurer un service de paiement supporté (actuellement Authorize.net, PayPal Pro ou le site web standard PayPal) afin de pouvoir offir des adhésions renouvellables automatiquement."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
-msgstr "Durée de l'adhésion (par ex :30 jours, 2 mois, 5 ans, A vie)"
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Select 'rolling' if membership periods begin at date of signup. Select "
-"'fixed' if membership periods begin on a set calendar date."
-msgstr "Sélectionnez 'variable' si la période d'adhésion commence à la date d'inscription. Sélectionnez Fixe si la période d'adhésion commence à une date du calendrier paramétrée."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Month and day on which a <strong>fixed</strong> period membership or "
-"subscription begins. Example: A fixed period membership with Start Day set "
-"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
-"anyone signing up during 2006."
-msgstr "Mois et jour auxquels les <strong> période d'adhésion fixe ou inscription</strong> commencent. Exemple : Une période fixe avec un jour de début paramétré au 1er Janvier veut dire que la période d'adhésion ira du 01/01/2009 au 31/12/2009 pour n'importe qui signant durant 2009."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Membership signups on or after this date cover the following calendar year "
-"as well. Example: If the rollover day is November 30, membership period for "
-"signups during December will cover the following year."
-msgstr "L'adhésion après cette date couvrira le reste du calendrier de l'année suivante aussi. Par exemple, si le jour de renouvellement est le 30 novembre, une inscription en décembre de cette année sera valide pour l'année suivante."
 
 #: templates/CRM/Member/Form/MembershipType.tpl
 msgid ""
@@ -1694,12 +2049,6 @@ msgid ""
 "Memberships can be automatically granted to related contacts by selecting a "
 "Relationship Type."
 msgstr "Les adhésions peuvent être attribuées automatiquement aux contact en relation en sélectionnant un type de relation."
-
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"Is this membership type available for self-service signups ('Public') or "
-"assigned by CiviCRM 'staff' users only ('Admin')"
-msgstr "Ce type d'adhésion est-il disponible à l'auto-inscription ('Public') ou réservé à l'équipe administrative de CiviCRM ('Admin') ?"
 
 #: templates/CRM/Member/Form/MembershipType.tpl
 msgid "Renewal Reminders"
@@ -1722,7 +2071,11 @@ msgstr "Par relation"
 
 #: templates/CRM/Member/Form/MembershipView.tpl
 msgid "View primary member contact summary"
-msgstr "Voir le résumé du contact du membre direct"
+msgstr "Voir le résumé du contact du membre principal"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Contributions and Recurring Contributions"
+msgstr ""
 
 #: templates/CRM/Member/Form/Search/EmptyResults.tpl
 msgid "if you are searching by member name, check your spelling"
@@ -1748,11 +2101,77 @@ msgstr "Sélectionnez \"Non\" pour n'afficher que les documents connexes (ceux q
 msgid ""
 "Select neither to show all members, regardless of whether they are the "
 "direct member or inherit it through a relationship,"
-msgstr "Sélectionnez aucun pour montrer tous les membres, indépendamment du fait qu'ils sont le membre direct ou en hériter dans une relation,"
+msgstr "Sélectionnez \"aucun\" pour montrer tous les membres, qu'ils soient membre principaux ou membres hérités d'une relation,"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Membership Status Is Override?"
+msgstr "Le statut du membre est écrasé?"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only membership with Status Override set "
+"(membership is manually forced to a specific status)"
+msgstr "Choisir « Oui » pour n'afficher que les adhésions dont le statut est écrasé. Seules les adhésions dont le statut a été fixé manuellement s'afficheront."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only memberships without Status Override set "
+"(membership is subject to the normal status rules)"
+msgstr "Choisir « Oui » pour n'afficher que les adhésions dont le statut est écrasé. Seules les adhésions dont le statut a été déterminé régulièrement s'afficheront."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select neither to show all memberships"
+msgstr "Ne pas sélectionner pour afficher toutes les adhésions"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Auto-Renew Subscription Status"
+msgstr "État du renouvellement automatique"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"None\" to display memberships that have never had an auto-renew "
+"subscription."
+msgstr ""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"In Progress\" to display memberships with current auto-renew "
+"subscriptions."
+msgstr ""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select \"Failed\" to display memberships with failed subscription payment."
+msgstr ""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Cancelled\" to display memberships with cancelled auto-renew "
+"subscriptions."
+msgstr ""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Ended\" to display memberships with an ended auto-renew "
+"subscription."
+msgstr ""
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Any\" to display memberships with auto-renew subscription "
+"irrespective of their status."
+msgstr ""
 
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "by relationship"
 msgstr "par relation"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew active"
+msgstr ""
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew error"
+msgstr ""
 
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "View Primary member record"
@@ -1840,7 +2259,7 @@ msgid ""
 "For each import, you can either INSERT new membership records, or UPDATE "
 "existing records. You can not do both types of operations in a single import"
 " session."
-msgstr ""
+msgstr "Pour chaque import, vous pouvez soit INSÉRER les nouveaux enregistrements d'adhésion, soit mettre à jour les enregistrements existants. Vous ne pouvez pas faire les deux types d'opérations dans une seule session d'import."
 
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid ""
@@ -1980,10 +2399,6 @@ msgid "Refer to the online user guide for more information."
 msgstr "Consultez le guide de l'utilisateur en ligne pour plus d'informations."
 
 #: templates/CRM/Member/Page/DashBoard.tpl
-msgid "Membership Summary"
-msgstr "Résumé d'adhésion"
-
-#: templates/CRM/Member/Page/DashBoard.tpl
 msgid "Members by Type"
 msgstr "Membres par type"
 
@@ -2019,7 +2434,7 @@ msgstr "Totaux (tous types)"
 msgid ""
 "Primary member counts (those who \"own\" the membership rather than "
 "receiving via relationship) are in [brackets]."
-msgstr ""
+msgstr "Le nombre de membres principaux sont entre [crochets]. Les membres principaux sont ceux qui sont responsables de l'adhésion, plutôt que de recevoir leur adhésion par une relation."
 
 #: templates/CRM/Member/Page/DashBoard.tpl
 msgid "Recent Memberships"
@@ -2061,7 +2476,7 @@ msgstr "Utilisez ce champ pour configurer les types d'adhésion où les adhésio
 
 #: templates/CRM/Member/Page/MembershipType.hlp
 msgid "Direct member is:"
-msgstr "Le membre direct est :"
+msgstr "Le membre principal est :"
 
 #: templates/CRM/Member/Page/MembershipType.hlp
 msgid "Membership is automatically granted to:"
@@ -2167,22 +2582,26 @@ msgstr "Aucun type d'adhésion. Vous pouvez <a href=\"%1\">en ajouter une</a>."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Override Status"
-msgstr "Remplacer statut"
+msgstr "Écraser le statut"
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
 "Membership status is normally assigned and updated automatically based on "
 "your configured membership status rules. However, if you want to assign a "
-"status manually and bypass automated status setting, check this box. Then "
-"you can select from the available status options."
-msgstr "Statut d'adhésion est normalement attribué et mis à jour automatiquement en fonction des régles de status d'adhésion configurées. Toutefois, si vous voulez affecter manuellement un statut et contourner la mise à jour automatique, cochez cette case. Ensuite, vous pouvez choisir entre les options disponibles."
+"status manually and bypass automated status setting, choose either "
+"\"Override Permanently\" or \"Override Until Selected Date\", Then you can "
+"select from the available status options."
+msgstr "En temps normal, le statut d'adhésion est périodiquement mis à jour selon les règles des états d'adhésion qui lui ont été configurées. Ce statut peut toutefois être écrasé en choisissant l'option «Fixer définitivement» ou «Fixer temporairement»."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
-"The status you assign will remain in force, unless it is again modified on "
-"this screen. As long as the Status Override flag is checked, the automated "
-"membership status update script will NOT update this membership record."
-msgstr "Le status que vous assignez restera jusqu'à ce qu vous le modifiez à nouveau sur cet écran. Tant que la case \"forcer le status\" est cochez, les script de mise à jour des status ne mettront PAS à jour cet enregistrement."
+"If you select \"Override Permanently\", The status you assign will remain in"
+" force, unless it is again modified on this screen. If you select \"Override"
+" Until Selected Date\", it will behave same as \"Override Permanently\" but "
+"will revert to \"No\" once the selected date is reached. As long as the "
+"Membership Override is active, the automated membership status update script"
+" will NOT update this membership record."
+msgstr "L'option «Fixer définitivement» restreindra le statut de l'adhésion à la valeur établie par sa boîte déroulante. L'option «Fixer temporairement» maintiendra le statut de l'adhésion jusqu'à une date pré-déterminée. Suite à cette date, l'option de la boîte «Maintenir le statut» retournera à la valeur à la valeur «Non» et le statut de l'adhésion pour cet enregistrement sera déterminé automatiquement."
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
@@ -2196,7 +2615,7 @@ msgstr ""
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Override End Date for Auto-renew Memberships"
-msgstr ""
+msgstr "Écraser la date de fin pour les adhésions renouvelées automatiquement"
 
 #: templates/CRM/Member/Page/Tab.hlp
 msgid ""
@@ -2292,205 +2711,17 @@ msgstr "Adhésion de %1"
 msgid "NO"
 msgstr "NON"
 
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "This membership will be renewed automatically."
+msgstr ""
+
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "You can cancel the auto-renewal option by visiting this web page: %1."
+msgstr ""
+
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid ""
 "This membership will be renewed automatically. You can cancel the auto-"
 "renewal option by visiting this web page: %1."
 msgstr "Cette adhésion sera renouvelée automatiquement. Vous pourrez supprimer cette option de renouvellement automatique en allant sur cette page : %1."
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and In Progress"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Failed"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Cancelled"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership is Auto-Renew and Ended"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is Overriden"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is NOT Overriden"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Auto-Renew Subscription Status?"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "- None -"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Ended"
-msgstr ""
-
-#: CRM/Member/BAO/Query.php
-msgid "Membership Status Is Overriden?"
-msgstr ""
-
-#: CRM/Member/DAO/Membership.php
-msgid "Membership Recurring Contribution"
-msgstr ""
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log ID"
-msgstr ""
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log Start Date"
-msgstr ""
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log End Date"
-msgstr ""
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Membership Log modified By"
-msgstr ""
-
-#: CRM/Member/DAO/MembershipLog.php
-msgid "Maximum Related Memberships"
-msgstr ""
-
-#: CRM/Member/Form/Membership.php
-msgid "Record Membership Payment is required when you use a price set."
-msgstr ""
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"Contribution submitted by a staff person using member's credit card for "
-"signup"
-msgstr ""
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"The financial types associated with the old and new membership types are "
-"different. You may want to edit the contribution associated with this "
-"membership to adjust its financial type."
-msgstr ""
-
-#: CRM/Member/Form/Membership.php
-msgid ""
-"The cost of the old and new membership types are different. You may want to "
-"edit the contribution associated with this membership to adjust its amount."
-msgstr ""
-
-#: CRM/Member/Form/MembershipRenewal.php
-msgid ""
-"Contribution submitted by a staff person using member's credit card for "
-"renewal"
-msgstr ""
-
-#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
-#: CRM/Member/Task.php
-msgid "Update multiple memberships"
-msgstr ""
-
-#: CRM/Member/Form/Task/Batch.php
-msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple memberships."
-msgstr ""
-
-#: CRM/Member/Form/Task/PickProfile.php
-msgid ""
-"The maximum number of members you can select for Update multiple memberships"
-" is %1. You have selected %2. Please select fewer members from your search "
-"results and try again."
-msgstr ""
-
-#: CRM/Member/Form/Task/PickProfile.php
-msgid ""
-"You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Update multiple memberships. Navigate to Administer "
-"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
-"Administrator documentation for more information."
-msgstr ""
-
-#: CRM/Member/Task.php
-msgid "Export members"
-msgstr "Exporter les membres"
-
-#: CRM/Member/Task.php
-msgid "Print/merge document for memberships"
-msgstr ""
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"Automatically email a membership confirmation and receipt to %1? OR if the "
-"payment is from a different contact, this email will only go to them."
-msgstr ""
-
-#: templates/CRM/Member/Form/Membership.tpl
-msgid ""
-"For auto-renewing memberships the emails are sent when each payment is "
-"received"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Membership Status Is Override?"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Yes\" to display only membership with Status Override set "
-"(membership is manually forced to a specific status)"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"No\" to display only memberships without Status Override set "
-"(membership is subject to the normal status rules)"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Select neither to show all memberships"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Auto-Renew Subscription Status"
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"None\" to display memberships that have never had an auto-renew "
-"subscription."
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"In Progress\" to display memberships with current auto-renew "
-"subscriptions."
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid "Select \"Failed\" to display memberships with failed subscription payment."
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Cancelled\" to display memberships with cancelled auto-renew "
-"subscriptions."
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Ended\" to display memberships with an ended auto-renew "
-"subscription."
-msgstr ""
-
-#: templates/CRM/Member/Form/Search.hlp
-msgid ""
-"Select \"Any\" to display memberships with auto-renew subscription "
-"irrespective of their status."
-msgstr ""

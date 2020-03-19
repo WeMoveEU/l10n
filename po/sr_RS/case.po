@@ -3,185 +3,303 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Bojana Bozovic <bojana.terzic@gmail.com>, 2017
+# Đorđe Kolaković <djordje@catalystbalkans.org>, 2016-2019
+# Milan Dragojevic <milan@catalystbalkans.org>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
-"Language-Team: Serbian (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS/)\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-07-09 11:27+0000\n"
+"Last-Translator: Milan Dragojevic <milan@catalystbalkans.org>\n"
+"Language-Team: Serbian (Latin) (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr_RS\n"
+"Language: sr_RS@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: CRM/Case/BAO/Case.php templates/CRM/Case/Page/DashboardSelector.tpl
+#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
+#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Client"
+msgstr "Klijent"
+
+#: CRM/Case/BAO/Case.php
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "View activity"
-msgstr ""
+msgstr "Pogledaj aktivnost"
 
 #: CRM/Case/BAO/Case.php
-msgid "no subject"
-msgstr ""
-
-#: CRM/Case/BAO/Case.php
-msgid "(multiple)"
-msgstr ""
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Edit activity"
+msgstr "Uredi aktivnost"
 
 #: CRM/Case/BAO/Case.php
 msgid "Move To Case"
-msgstr ""
+msgstr "Pomeri u predmet"
 
 #: CRM/Case/BAO/Case.php
 msgid "Copy To Case"
-msgstr ""
+msgstr "Kopiraj u predmet"
+
+#: CRM/Case/BAO/Case.php
+msgid "%1 - copy sent to %2"
+msgstr "%1 - kopija poslata %2"
 
 #: CRM/Case/BAO/Case.php
 msgid "File %1 does not exist or is not readable"
-msgstr ""
+msgstr "Fajl %1 ne postoji ili se ne može pročitati"
 
 #: CRM/Case/BAO/Case.php
 msgid "Invalid case ID ( %1 ) in TO: field."
-msgstr ""
+msgstr "Nevažeći ID predmeta ( %1 ) u polju KA:"
 
 #: CRM/Case/BAO/Case.php
 msgid ""
 "FROM email contact %1 doesn't have a relationship to the referenced case."
-msgstr ""
+msgstr "OD email kontakt %1 nema vezu sa ciljanim predmetom."
 
 #: CRM/Case/BAO/Case.php
 msgid "Role in Case"
-msgstr ""
+msgstr "Uloga u predmetu"
 
 #: CRM/Case/BAO/Case.php
 msgid "View Case"
-msgstr ""
+msgstr "Vidi predmet"
 
 #: CRM/Case/BAO/Case.php
 msgid "Case %1 reassigned client from %2 to %3. New Case ID is %4."
-msgstr ""
+msgstr "Predmet %1 - klijent je ponovo dodeljen sa %2 na %3. Novi ID predmeta je %4."
 
 #: CRM/Case/BAO/Case.php
 msgid ""
 "Case %1 copied from contact id %2 to contact id %3 via merge. New Case ID is"
 " %4."
-msgstr ""
+msgstr "Predmet %1 kopiran iz kontakta ID %2 u kontakt ID %3 spajanjem. Novi ID predmeta je %4."
 
 #: CRM/Case/BAO/Case.php
 msgid "Case %1 merged into case %2"
-msgstr ""
+msgstr "Predmet %1 spojen sa predmetom %2"
 
 #: CRM/Case/BAO/CaseType.php
 msgid ""
 "You can not delete this case type -- it is assigned to %1 existing case "
 "record(s). If you do not want this case type to be used going forward, "
 "consider disabling it instead."
-msgstr ""
+msgstr "Nemoguće je obrisati ovaj tip predmeta -- dodeljen je %1 postojećem zapisu(zapisima) predmeta. Ukoliko ne želite da se ovaj tip predmeta koristi ubuduće, možete ga isključiti."
 
 #: CRM/Case/BAO/Query.php
 msgid "Case %1 My Cases"
-msgstr ""
+msgstr "Predmet %1 Moji predmeti"
 
 #: CRM/Case/BAO/Query.php
 msgid "Case %1 All Cases"
-msgstr ""
+msgstr "Predmet %1 Svi predmeti"
 
 #: CRM/Case/BAO/Query.php
 msgid "Find Deleted Cases"
-msgstr ""
+msgstr "Nađi obrisane predmete"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Subject %1 '%2'"
-msgstr ""
+msgstr "Subjekat aktivnosti %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Case Subject %1 '%2'"
-msgstr ""
+msgstr "Subjekat predmeta %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Reporter %1 '%2'"
-msgstr ""
+msgstr "Reporter aktivnosti %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Actual Date %1 %2"
-msgstr ""
+msgstr "Datum aktivnosti %1 %2"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Schedule Date %1 %2"
-msgstr ""
+msgstr "Datum zakazane aktivnosti %1 %2"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Type %1 %2"
-msgstr ""
+msgstr "Tip aktivnosti %1 %2"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Duration %1 %2"
-msgstr ""
+msgstr "Trajanje aktivnosti %1 %2"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Medium %1 %2"
-msgstr ""
+msgstr "Medij aktivnosti %1 %2"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Details %1 '%2'"
-msgstr ""
+msgstr "Detalji o aktivnosti %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Activity Auto Genrated %1 '%2'"
-msgstr ""
+msgstr "Aktivnost je automatski generisana %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Role in Case  %1 '%2'"
-msgstr ""
+msgstr "Uloga u predmetu %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Case Tags %1"
-msgstr ""
+msgstr "Tagovi predmeta %1"
 
 #: CRM/Case/BAO/Query.php
 msgid "Search All Cases"
-msgstr ""
+msgstr "Pretraži sve predmete"
 
 #: CRM/Case/BAO/Query.php
 msgid "Only My Cases"
-msgstr ""
+msgstr "Samo moji predmeti"
+
+#: CRM/Case/BAO/Query.php
+msgid "Search Cases with Upcoming Activities"
+msgstr "Pretraži predmete sa predstojećim aktivnostima"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tag(s)"
+msgstr "Tag(ovi) predmeta"
 
 #: CRM/Case/BAO/Query.php
 msgid "Deleted Cases"
+msgstr "Obrisani predmeti"
+
+#: CRM/Case/DAO/Case.php
+msgid "Unique Case ID"
+msgstr "Jedinstveni ID predmeta"
+
+#: CRM/Case/DAO/Case.php
+msgid "FK to civicrm_case_type.id"
 msgstr ""
 
 #: CRM/Case/DAO/Case.php
+msgid "Short name of the case."
+msgstr "Kratko ime za predmet."
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case starts."
+msgstr "Datum početka određenog predmeta."
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case ends."
+msgstr "Datum završetka određenog predmeta."
+
+#: CRM/Case/DAO/Case.php
+msgid "Details about the meeting (agenda, notes, etc)."
+msgstr "Detalji sastanka (agenda, beleške, itd)"
+
+#: CRM/Case/DAO/Case.php
+msgid "Id of case status."
+msgstr "Id statusa predmeta"
+
+#: CRM/Case/DAO/Case.php
 msgid "Case is in the Trash"
+msgstr "Premet je u kanti"
+
+#: CRM/Case/DAO/Case.php
+msgid "When was the case was created."
+msgstr "Kada je predmet kreiran."
+
+#: CRM/Case/DAO/Case.php
+msgid ""
+"When was the case (or closely related entity) was created or modified or "
+"deleted."
+msgstr "Kada je predmet (ili usko povezan entitet) napravljen, izmenjen ili obrisan."
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case Activity ID"
+msgstr "ID Aktivnosti predmeta"
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Unique case-activity association id"
+msgstr "Jedinstveni povezani id aktivnosti predmeta"
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Activity ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case Contact ID"
+msgstr "ID Kontakta za predmet"
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Unique case-contact association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case ID of case-contact association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Contact ID of contact record given case belongs to."
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type ID"
+msgstr "ID tipa predmeta"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Autoincremented type id"
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Name"
+msgstr "Ime tipa predmeta"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Machine name for Case Type"
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Title"
+msgstr "Naslov tipa predmeta"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Natural language name for Case Type"
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Description"
+msgstr "Opis tipa predmeta"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Description of the Case Type"
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Is Active"
-msgstr ""
+msgstr "Tip predmeta je aktivan"
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Is Reserved"
+msgstr "Tip predmeta je rezervisan"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Is this case type a predefined system type?"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Ordering of the case types"
 msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Definition"
+msgstr "Definicija tipa predmeta"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "xml definition of case type"
 msgstr ""
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
@@ -189,623 +307,743 @@ msgstr ""
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 #: CRM/Case/Form/Activity/LinkCases.php
 msgid "Case Id not found."
-msgstr ""
+msgstr "ID Predmeta nije pronađen."
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
 #: CRM/Case/Form/Activity/LinkCases.php
 msgid "Expected one case-type"
-msgstr ""
+msgstr "Očekivani tip predmeta"
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
 msgid "New Start Date"
-msgstr ""
+msgstr "Novi datum početka"
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
 msgid "Case Start Date changed successfully."
-msgstr ""
+msgstr "Datum početka predmeta je uspešno promenjen."
 
 #: CRM/Case/Form/Activity/ChangeCaseStatus.php
 msgid "Case status changed from %1 to %2"
-msgstr ""
-
-#: CRM/Case/Form/Activity/ChangeCaseStatus.php
-msgid "Case Status changed successfully."
-msgstr ""
-
-#: CRM/Case/Form/Activity/ChangeCaseType.php ang/crmCaseType/list.html
-msgid "New Case Type"
-msgstr ""
+msgstr "Status predmeta je promenjen sa %1 na %2"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Reset Case Timeline?"
-msgstr ""
+msgstr "Resetuj vremensku liniju predmeta?"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Reset Start Date"
-msgstr ""
+msgstr "Resetuj datum početka"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Case type changed from %1 to %2"
-msgstr ""
+msgstr "Tip predmeta promenjen sa %1 na %2"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Case Type changed successfully."
-msgstr ""
+msgstr "Tip predmeta je uspešno promenjen."
 
 #: CRM/Case/Form/Activity/LinkCases.php
 msgid "Link To Case"
-msgstr ""
+msgstr "Link ka Predmetu"
 
 #: CRM/Case/Form/Activity/LinkCases.php
 msgid "Please select some other case to link."
-msgstr ""
+msgstr "Molimo izaberite druge predmete za linkovanje"
 
 #: CRM/Case/Form/Activity/LinkCases.php
 msgid "Selected case is already linked."
-msgstr ""
+msgstr "Odabrani predmet je već linkovan."
 
 #: CRM/Case/Form/Activity/OpenCase.php
 msgid "Case opened successfully."
-msgstr ""
+msgstr "Premet je uspešno otvoren."
 
 #: CRM/Case/Form/Activity.php
 msgid "You do not have any active Case Types"
-msgstr ""
+msgstr "Nemate aktivnih tipova predmeta"
 
 #: CRM/Case/Form/Activity.php
 msgid "You can not add another '%1' activity to this case. %2"
-msgstr ""
+msgstr "Ne možete dodati još jednu '%1' aktivnost ovom predmetu. %2 "
 
 #: CRM/Case/Form/Activity.php
 msgid "Do you want to <a %1>edit the existing activity</a>?"
-msgstr ""
+msgstr "Da li želite da <a %1>uredite postojeću aktivnost</a>?"
 
 #: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
 msgid "Reported By"
-msgstr ""
+msgstr "Izvestio/la"
 
 #: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
 msgid "Medium"
-msgstr ""
+msgstr "Medij"
 
 #: CRM/Case/Form/Activity.php
 msgid ""
 "The selected activity has been moved to the Trash. You can view and / or "
 "restore deleted activities by checking \"Deleted Activities\" from the Case "
 "Activities search filter (under Manage Case).<br />"
-msgstr ""
+msgstr "Odabrana aktivnost je pomerena u kantu. Možete pregledati i/ili povratiti obrisane aktivnosti tako što ćete uključiti \"obrisane aktivnosti\" u u filterima za pretragu aktivnosti predmeta (pod menadžmentom predmeta).<br />"
 
 #: CRM/Case/Form/Activity.php
 msgid "Selected Activity cannot be deleted."
-msgstr ""
+msgstr "Odabrana aktivnost ne može biti obrisana."
 
 #: CRM/Case/Form/Activity.php
 msgid "The selected activity has been restored.<br />"
-msgstr ""
+msgstr "Odabrana aktivnost je ponovo uspostavljena.<br />"
 
 #: CRM/Case/Form/Activity.php
 msgid "A copy of the activity has also been sent to selected contacts(s)."
-msgstr ""
+msgstr "Kopija aktivnosti je poslata odabranom kontaktu(kontaktima)."
 
 #: CRM/Case/Form/Activity.php
 msgid "%1 Saved"
-msgstr ""
+msgstr "%1 sačuvano"
 
 #: CRM/Case/Form/ActivityToCase.php CRM/Case/XMLProcessor/Report.php
 msgid "With Contact(s)"
-msgstr ""
+msgstr "Sa kontaktom(kontaktima)"
 
 #: CRM/Case/Form/ActivityView.php
 msgid "Activity Revision History"
-msgstr ""
+msgstr "Istorija revizije aktivnosti"
+
+#: CRM/Case/Form/ActivityView.php CRM/Case/Page/DashBoard.php
+msgid "CiviCase Dashboard"
+msgstr "CiviCase kontrolna tabla"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Case/Form/CaseView.php
+msgid "- select type -"
+msgstr "- izaberi tip -"
+
+#: CRM/Case/Form/AddToCaseAsRole.php
+msgid "Assign to"
+msgstr "Dodeli"
 
 #: CRM/Case/Form/Case.php
 msgid "You do not have any active %1"
-msgstr ""
+msgstr "Nemate aktvinih %1"
 
 #: CRM/Case/Form/Case.php
 msgid ""
 "The Open Case activity type is missing or disabled. Please have your site "
 "administrator check Administer > Option Lists > Activity Types for the "
 "CiviCase component."
-msgstr ""
+msgstr "Tip aktivnosti Otvori predmet nedostaje ili je isključen. Zatražite od administratora vašeg sajta da proveri Administriraj > Liste opicja > Tipovi aktivnosti za ovu CiviCase komponentu."
 
 #: CRM/Case/Form/Case.php
 msgid "Client contact does not exist: %1"
-msgstr ""
-
-#: CRM/Case/Form/Case.php
-msgid "Select Tags"
-msgstr ""
+msgstr "Kontakt klijenta ne postoji: %1"
 
 #: CRM/Case/Form/Case.php
 msgid ""
-"The selected case has been moved to the Trash. You can view and / or restore"
-" deleted cases by checking the \"Deleted Cases\" option under Find Cases.<br"
-" />"
-msgstr ""
+"You can view and / or restore deleted cases by checking the \"Deleted "
+"Cases\" option under Find Cases."
+msgstr "Požete pregledati ili / i povratiti obrisane predmete klikom na opciju \"Obrisani predmeti\" prilikom pretrage predmeta."
 
 #: CRM/Case/Form/Case.php
 msgid "Case Deleted"
-msgstr ""
+msgstr "Predmet obrisan"
 
 #: CRM/Case/Form/Case.php
-msgid "The selected case has been restored.<br />"
-msgstr ""
+msgid "The selected case has been restored."
+msgstr "Izabrani predmet je povraćen."
 
 #: CRM/Case/Form/CaseView.php
 msgid "Related Cases"
-msgstr ""
+msgstr "Povezani predmeti"
+
+#: CRM/Case/Form/CaseView.php
+msgid "You do not have permission to access this case."
+msgstr "Nemate dozvolu za pristup ovom predmetu."
 
 #: CRM/Case/Form/CaseView.php
 msgid "%1 Related Case"
 msgid_plural "%1 Related Cases"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 povezani predmet"
+msgstr[1] "%1 povezanih predmeta"
+msgstr[2] "%1 povezanih predmeta"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Add Activity"
-msgstr ""
+msgstr "Dodaj aktivnost"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activity Audit"
-msgstr ""
+msgstr "Revizija aktivnosti"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Add Timeline"
-msgstr ""
-
-#: CRM/Case/Form/CaseView.php
-msgid "Select Case for Merge"
-msgstr ""
-
-#: CRM/Case/Form/CaseView.php
-msgid "- select type -"
-msgstr ""
+msgstr "Dodaj vremensku liniju"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activities from the %1 activity set have been added to this case."
-msgstr ""
+msgstr "Aktivnosti iz %1 seta aktivnosti su dodate u ovaj predmet."
 
 #: CRM/Case/Form/CaseView.php
 msgid " - any reporter - "
-msgstr ""
+msgstr "- Bilo koji reporter -"
 
 #: CRM/Case/Form/CaseView.php templates/CRM/Case/Form/ActivityTab.tpl
 msgid "Reporter/Role"
-msgstr ""
+msgstr "Reporter/Uloga"
 
 #: CRM/Case/Form/CaseView.php
 msgid " - any status - "
-msgstr ""
+msgstr "- bilo koji status -"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activity Dates - From"
-msgstr ""
+msgstr "Datumi aktivnosti - od"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Deleted Activities"
-msgstr ""
+msgstr "Obrisane aktivnosti"
 
-#: CRM/Case/Form/EditClient.php
-msgid "Select Contact"
-msgstr ""
+#: CRM/Case/Form/CaseView.php
+msgid "(opened %1)"
+msgstr "(Otvoreno %1)"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Select Case for Merge"
+msgstr "Odaberite predmet za spajanje."
+
+#: CRM/Case/Form/CaseView.php
+msgid "- select case -"
+msgstr "- izaberite predmet -"
 
 #: CRM/Case/Form/EditClient.php
 msgid "Reassign Case"
-msgstr ""
+msgstr "Ponovo rasporedi predmet"
 
 #: CRM/Case/Form/EditClient.php
 msgid "Please select a different contact."
-msgstr ""
+msgstr "Izaberite drugi kontakt"
 
 #: CRM/Case/Form/Report.php
 msgid "All Activities"
-msgstr ""
+msgstr "Sve aktivnosti"
 
 #: CRM/Case/Form/Report.php
 msgid "Exclude Completed Activities"
-msgstr ""
+msgstr "Isključi kompletirane aktivnsoti"
 
 #: CRM/Case/Form/Report.php
 msgid "Redact (hide) Client and Service Provider Data"
-msgstr ""
+msgstr "Redakcija (sakrivanje) podataka o klijentu i dobavljaču usluge"
 
 #: CRM/Case/Form/Report.php
 msgid "Generate Report"
-msgstr ""
+msgstr "Generiši izveštaj"
 
 #: CRM/Case/Form/Search.php
 msgid "Client Name or Email"
-msgstr ""
+msgstr "Ime klijenta ili email adresa"
 
 #: CRM/Case/Form/Search.php templates/CRM/Case/Page/DashBoard.tpl
 msgid "Find Cases"
-msgstr ""
+msgstr "Nađi predmete"
 
 #: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete Cases"
-msgstr ""
+msgid "Delete cases"
+msgstr "Obriši predmete"
 
 #: CRM/Case/Form/Task/Delete.php
 msgid "%count case moved to trash."
 msgid_plural "%count cases moved to trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%count predmet pomeren u kantu."
+msgstr[1] "%count predmeta pomereno u kantu."
+msgstr[2] "%count predmeta pomereno u kantu."
 
 #: CRM/Case/Form/Task/Delete.php
 msgid "%count case permanently deleted."
 msgid_plural "%count cases permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%count predmet permanentno obrisan."
+msgstr[1] "%count predmeta permanentno obrisano."
+msgstr[2] "%count predmeta permanentno obrisano."
 
 #: CRM/Case/Form/Task/Print.php
 msgid "Print Case List"
-msgstr ""
+msgstr "Štampa liste predmeta"
 
-#: CRM/Case/Form/Task/Restore.php CRM/Case/Task.php
+#: CRM/Case/Form/Task/Restore.php
 msgid "Restore Cases"
-msgstr ""
+msgstr "Povrati predmet"
 
 #: CRM/Case/Form/Task/Restore.php
 msgid "%count case restored from trash."
 msgid_plural "%count cases restored from trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%count predmet povraćen iz kante."
+msgstr[1] "%count predmeta povraćeno iz kante."
+msgstr[2] "%count predmeta povraćeno iz kante."
 
 #: CRM/Case/Form/Task/Restore.php
 msgid "1 could not be restored."
 msgid_plural "%count could not be restored."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1 predmet nije mogao biti povraćen."
+msgstr[1] "%count predmeta nije moglo biti povraćeno."
+msgstr[2] "%count predmeta nije moglo biti povraćeno."
 
 #: CRM/Case/Info.php
 msgid "CiviCase Engine"
-msgstr ""
+msgstr "CiviCase Engine"
 
 #: CRM/Case/Info.php
 msgid "delete in CiviCase"
-msgstr ""
+msgstr "obriši u CiviCase"
 
 #: CRM/Case/Info.php
 msgid "administer CiviCase"
-msgstr ""
+msgstr "administriraj CiviCase"
+
+#: CRM/Case/Info.php
+msgid "Define case types, access deleted cases"
+msgstr "Definiši tipove predmeta, pristupi obrisanim predmetima"
 
 #: CRM/Case/Info.php
 msgid "access my cases and activities"
-msgstr ""
+msgstr "pristup mojim predmetima i aktivnostima"
+
+#: CRM/Case/Info.php
+msgid "View and edit only those cases managed by this user"
+msgstr "Pregledaj i uredi samo predmete kojima upravlja ovaj korisnik"
 
 #: CRM/Case/Info.php
 msgid "access all cases and activities"
-msgstr ""
+msgstr "pristup svim predmetima i aktivnostima"
+
+#: CRM/Case/Info.php
+msgid "View and edit all cases (for visible contacts)"
+msgstr "Pregledaj i uredi sve predmete (za vidljive kontakte)"
 
 #: CRM/Case/Info.php
 msgid "add cases"
-msgstr ""
+msgstr "dodaj predmete"
 
 #: CRM/Case/Info.php
-msgid ""
-"Could not create the MySQL views for CiviCase. Your mysql user needs to have"
-" the 'CREATE VIEW' permission"
-msgstr ""
+msgid "Open a new case"
+msgstr "Otvori novi predmet"
 
-#: CRM/Case/Page/AJAX.php
-msgid "closed"
-msgstr ""
+#: CRM/Case/Info.php
+msgid "Do not redact emails"
+msgstr "Ne ažuriraj emailove"
 
-#: CRM/Case/Page/DashBoard.php
-msgid "CiviCase Dashboard"
-msgstr ""
+#: CRM/Case/Info.php
+msgid "Redact emails"
+msgstr "Ažuriraj emailove"
+
+#: CRM/Case/Info.php
+msgid "Single client per case"
+msgstr "Jedan klijent po predmetu"
+
+#: CRM/Case/Info.php
+msgid "Multiple client per case"
+msgstr "Više klijenata po predmetu"
+
+#: CRM/Case/Info.php
+msgid "Definition order"
+msgstr "Redosled definicija"
+
+#: CRM/Case/Info.php
+msgid "Alphabetical order"
+msgstr "Redosled po alfabetu"
 
 #: CRM/Case/Page/DashBoard.php
 msgid "You are not authorized to access all cases and activities."
-msgstr ""
+msgstr "Niste ovlašćeni za pristup svim predmetima i aktivnostima."
 
 #: CRM/Case/Page/Tab.php
 msgid "Are you sure you want to delete this case?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da obrišete ovaj predmet?"
 
 #: CRM/Case/Page/Tab.php CRM/Case/Selector/Search.php
 #: templates/CRM/Case/Form/Case.tpl
 msgid "Delete Case"
-msgstr ""
+msgstr "Obriši predmet"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Form/CaseView.tpl
 msgid "Assign to Another Client"
-msgstr ""
+msgstr "Dodeli drugom klijentu"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Form/Task/Print.tpl
 #: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "My Role"
-msgstr ""
-
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
-msgid "Most Recent"
-msgstr ""
+msgstr "Moja uloga"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Next Sched."
-msgstr ""
+msgstr "Sledeći zakazani"
 
 #: CRM/Case/Selector/Search.php
 msgid "Case Search"
-msgstr ""
+msgstr "Pretraga predmeta"
 
 #: CRM/Case/Task.php
-msgid "Export Cases"
-msgstr ""
+msgid "Export cases"
+msgstr "Eksport predmeta"
+
+#: CRM/Case/Task.php
+msgid "Restore cases"
+msgstr "Povrati predmete"
+
+#: CRM/Case/Task.php
+msgid "Update multiple cases"
+msgstr "Ažuriraj više predmeta"
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid "Configuration file could not be retrieved for case type = '%1' %2."
-msgstr ""
+msgstr "Nije moguće naći konfiguracioni fajl za tip slučaja  = '%1' %2."
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid ""
 "Unable to load configuration file for the referenced case type: '%1' %2."
-msgstr ""
+msgstr "Nije moguće učitati konfiguracioni fajl za tip slučaja: '%1' %2."
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid ""
 "Relationship type %1, found in case configuration file, is not present in "
 "the database %2"
-msgstr ""
+msgstr "Tip veze %1, nađen u konfiguracionom fajlu predmeta nije prisutan u bazi podataka %2"
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid ""
 "Activity type %1, found in case configuration file, is not present in the "
 "database %2"
-msgstr ""
+msgstr "Aktivnost tipa %1, nađena u konfiguracionom fajlu predmeta, nije prisutna u bazi podataka %2"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Housing Support"
-msgstr ""
+msgstr "Podrška za smeštaj"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Help homeless individuals obtain temporary and long-term housing"
-msgstr ""
+msgstr "Pomozite beskućnicima da dobiju privremeni ili dugotrajni smeštaj"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Adult Day Care Referral"
-msgstr ""
+msgstr "Upućivanje na dnevnu negu za odrasle"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Arranging adult day care for senior individuals"
-msgstr ""
+msgstr "Ugovaranje dnevne nege za starije osobe"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Medical evaluation"
-msgstr ""
+msgstr "Medicinska procena"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Mental health evaluation"
-msgstr ""
+msgstr "Procena mentalnog zdravlja"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Secure temporary housing"
-msgstr ""
+msgstr "Obezbedite privremeni smeštaj"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Income and benefits stabilization"
-msgstr ""
+msgstr "Stabilizacija prihoda i beneficija"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Long-term housing plan"
-msgstr ""
+msgstr "Plan za dugotrajni  smeštaj"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "ADC referral"
-msgstr ""
+msgstr "ADC upućivanje"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator is"
+msgstr "Koordinator usluga za beskućnike je"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator"
+msgstr "Koordinator usluga za beskućnike"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator is"
+msgstr "Koodrinator zdravstvenih usluga je"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator"
+msgstr "Koordinator zdravstvenih usluga"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator is"
+msgstr "Koordinator usluga za stare osobe je"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator"
+msgstr "Koordinator usluga za stare osobe"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist is"
+msgstr "Stručnjak za beneficije je"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist"
+msgstr "Stručnjak za beneficije"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Case Resources"
-msgstr ""
+msgstr "Resursi predmeta"
 
 #: ang/crmCaseType/activityTypesTable.html
 msgid "Max Instances"
-msgstr ""
+msgstr "Maks. broj instanci"
 
 #: ang/crmCaseType/activityTypesTable.html
 msgid "Add activity type"
-msgstr ""
+msgstr "Dodaj tip aktivnosti"
 
 #: ang/crmCaseType/caseTypeDetails.html
 msgid "WARNING: The case type name includes deprecated characters."
-msgstr ""
+msgstr "Upozorenje: Ime tipa predmeta sadrži zastarele karaktere."
 
 #: ang/crmCaseType/caseTypeDetails.html
 msgid ""
 "WARNING: If any external files or programs reference the old \"Name\", then "
 "they must be updated manually."
-msgstr ""
+msgstr "Upozorenje: Ukoliko bilo koji eksterni fajlovi ili programi imaju u sebi referencu ka starom \"imenu\", moraju biti ažurirani."
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Activity assignment settings"
+msgstr "Podešavanja dodele aktivnosti"
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Groups"
+msgstr "Ograniči na grupe"
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Website Users"
+msgstr "Ograniči na korisnike vebsajta"
+
+#: ang/crmCaseType/edit.html ang/crmCaseType/list.html
+msgid "New Case Type"
+msgstr "Novi tip predmeta"
 
 #: ang/crmCaseType/edit.html
 msgid ""
 "Use this screen to define or update the Case Roles, Activity Types, and "
 "Timelines for a case type."
-msgstr ""
+msgstr "Na ovom ekranu možete definisati ili ažurirati uloge u predmetu, tipove aktivnosti i vremenske linije za tip predmeta"
 
 #: ang/crmCaseType/edit.html
 msgid "Learn more..."
-msgstr ""
+msgstr "Saznaj više..."
 
-#: ang/crmCaseType/edit.html templates/CRM/Case/Form/CaseView.tpl
-msgid "Roles"
-msgstr ""
+#: ang/crmCaseType/edit.html templates/CRM/Case/Audit/Report.tpl
+msgid "Case Roles"
+msgstr "Uloge u predmetu"
+
+#: ang/crmCaseType/edit.html
+msgid "Case Statuses"
+msgstr "Statusi predmeta"
 
 #: ang/crmCaseType/edit.html
 msgid "Add..."
-msgstr ""
+msgstr "Dodaj..."
 
 #: ang/crmCaseType/edit.html
 msgid "Timeline"
-msgstr ""
+msgstr "Vremenska linija"
 
 #: ang/crmCaseType/edit.html
 msgid "Sequence"
-msgstr ""
+msgstr "Sekvenca"
+
+#: ang/crmCaseType/list.html
+msgid "Case Types"
+msgstr "Tipovi predmeta"
 
 #: ang/crmCaseType/list.html
 msgid ""
 "A Case Type describes a group of related tasks, interactions, or processes."
-msgstr ""
+msgstr "Tip predmeta opisuje grupu povezanih zadataka, interakcija ili procesa."
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Assign to Creator"
-msgstr ""
+msgstr "Dodeli autoru"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Is Manager"
-msgstr ""
+msgstr "je menadžer"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Add role"
-msgstr ""
+msgstr "Dodaj ulogu"
+
+#: ang/crmCaseType/statusTable.html
+msgid "New Status"
+msgstr "Novi status"
 
 #: ang/crmCaseType/timelineTable.html
 msgid "Reference"
-msgstr ""
+msgstr "Referenca"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Offset"
+msgstr "Odstupanje"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Default assignee"
+msgstr "Podrazumevani asignat"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Newest"
+msgstr "Najnoviji"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Oldest"
+msgstr "Najstariji"
+
+#: ang/crmCaseType.js
+msgid "new"
+msgstr "Novi"
 
 #: ang/crmCaseType.js
 msgid ""
 "The CiviCase XML file for this case-type prohibits editing the definition."
-msgstr ""
-
-#: templates/CRM/Case/Audit/Audit.tpl
-msgid "Incomplete"
-msgstr ""
+msgstr "CiviCase XML fajl za ovaj tip predmeta zabranjuje uređivanje definicije."
 
 #: templates/CRM/Case/Audit/Report.tpl
 msgid "Case Summary"
-msgstr ""
-
-#: templates/CRM/Case/Audit/Report.tpl
-msgid "Case Roles"
-msgstr ""
+msgstr "Kratak pregled predmeta"
 
 #: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/Activity.tpl
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Case Role"
-msgstr ""
+msgstr "Uloga u predmetu"
 
 #: templates/CRM/Case/Audit/Report.tpl
 msgid "(not assigned)"
-msgstr ""
+msgstr "(nedodeljen)"
 
 #: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/CaseView.tpl
 msgid "Client Relationship"
-msgstr ""
+msgstr "Odnos sa klijentom"
 
 #: templates/CRM/Case/Audit/Report.tpl
 msgid "Case Activities"
+msgstr "Aktivnosti u predmetu"
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"Selecting one or more groups here will limit the choices when assigning an "
+"activity."
+msgstr ""
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"This will limit the choices when selecting an activity assignee to contacts "
+"with a user account on this website."
 msgstr ""
 
 #: templates/CRM/Case/Form/Activity/ChangeCaseStartDate.tpl
 msgid "Current Start Date"
-msgstr ""
+msgstr "Trenutni datum početka"
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStatus.tpl
+msgid "Update Linked Cases Status?"
+msgstr "Ažuriraj status povezanih predmeta?"
 
 #: templates/CRM/Case/Form/Activity/LinkCases.tpl
 msgid "Create link between %1 - %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
-msgstr ""
+msgstr "Poveži %1 i %2 (CaseID: %3) i %4 - %5 (CaseID: %6)"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "Click Delete to move this &quot;%1&quot; activity to the Trash."
-msgstr ""
+msgstr "Kliknite na Obriši da pomerite ovu &quot;%1&quot; aktivnost u kantu."
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "Click Restore to retrieve this &quot;%1&quot; activity from the Trash."
-msgstr ""
+msgstr "Kliknite na Povrati da vratite ovu &quot;%1&quot; aktivnost iz kante."
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "With other contact(s)"
-msgstr ""
+msgstr "Sa drugim kontaktom(kontaktima)"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "With client"
-msgstr ""
+msgstr "Sa klijentom"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "With client(s)"
-msgstr ""
+msgstr "Sa klijentom(klijentima)"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid "Send a Copy"
-msgstr ""
+msgstr "Pošalji kopiju"
 
 #: templates/CRM/Case/Form/Activity.tpl
 msgid ""
 "Email a complete copy of this activity record to other people involved with "
 "the case. Click the top left box to select all."
-msgstr ""
+msgstr "Pošalji email sa kompletnom kopijom zapisa aktivnosti ostalim osobama povezanim sa ovim predmetom. Kliknite na kućicu gore levo da odaberete sve."
 
 #: templates/CRM/Case/Form/ActivityTab.tpl
 msgid "Search Filters"
-msgstr ""
+msgstr "Filteri pretrage"
 
 #: templates/CRM/Case/Form/ActivityTab.tpl
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "Reporter / Assignee"
-msgstr ""
+msgid "Reporter"
+msgstr "Reporter"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "You can modify the activity subject before filing."
-msgstr ""
+msgstr "Možete promeniti subjekta aktivnosti pre arhiviranja."
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Move to Case"
-msgstr ""
+msgstr "Pomeri u predmet"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Copy to Case"
-msgstr ""
+msgstr "Kopiraj u predmet"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Please select a case from the list"
-msgstr ""
+msgstr "Izaberite predmet iz liste"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Unable to file on case."
-msgstr ""
+msgstr "Nemoguće zavesti u predmet."
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Activity has been filed to %1 case."
-msgstr ""
+msgstr "Aktivnost je zabeležena u slučaj %1 ."
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "Created On"
-msgstr ""
+msgstr "Kreirano"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "View this revision of the activity record."
-msgstr ""
+msgstr "Vidi ovu reviziju zapisa o aktivnostima."
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "List all revisions"
-msgstr ""
+msgstr "Lista svih revizija"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "(this is the current revision)"
-msgstr ""
+msgstr "(ovo je poslednja revizija)"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "View current revision"
-msgstr ""
+msgstr "Vidi poslednju reviziju"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "(this is not the current revision)"
-msgstr ""
+msgstr "(ovo nije poslednja revizija)"
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "Prompted by"
-msgstr ""
+msgstr "Upit poslao"
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Introduce yourself and your role within our organization."
-msgstr ""
+msgstr "Predstavite sebe i vašu ulogu u organizaciji."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid ""
@@ -814,376 +1052,273 @@ msgid ""
 "It will not be used for any purpose other than to help you, and for any "
 "other purpose that you authorize in writing, or which is required by "
 "law.&quot;"
-msgstr ""
+msgstr "&quot;Sve informacije koje pružite nama ili bilo kojem od naših predstavnika i dobavljača usluga čuvaće se kao strogo poverljive. Neće se koristiti u druge svrhe, osim u svrhe pružanja pomoći vama, kao i u druge svrhe koje ovlastite pisanim putem ili koje su obavezne po zakonu&quot;"
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "&quot;Please tell me what you would like to discuss.&quot;"
-msgstr ""
+msgstr "&quot;Recite mi o čemu želite da diskutujete.&quot;"
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Reflect client's story back to them."
-msgstr ""
+msgstr "Prepričajte klijentima njihovu priču."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Guess client's feelings and needs."
-msgstr ""
+msgstr "Pretpostavite koja su osećanja i potrebe klijenta."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "&quot;May I now ask you some screening questions?&quot;"
-msgstr ""
+msgstr "&quot;Mogu li sada da Vam postavim neka pitanja radi procene?&quot;"
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Record details about this activity here."
-msgstr ""
+msgstr "Zabeležite detalje ove aktivnosti ovde."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Provide a one-line summary of what this case is about."
-msgstr ""
+msgstr "Kratak opis predmeta, u jednom redu."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid ""
 "Offer the appropriate service from the list. If the service requires "
 "coordination, contact the Director."
-msgstr ""
+msgstr "Ponudite odogovarajuću uslugu sa liste. Ako usluga zahteva saradnju, obratite se direktoru."
 
 #: templates/CRM/Case/Form/Case.tpl
 msgid ""
 "Click Delete to move this case and all associated activities to the Trash."
-msgstr ""
+msgstr "Kliknite na Obriši da pomerite ovaj predmet i sve povezane aktivnosti u kantu."
 
 #: templates/CRM/Case/Form/Case.tpl
 msgid ""
 "Click Restore to retrieve this case and all associated activities from the "
 "Trash."
-msgstr ""
+msgstr "Kliknite na Povrati da vratite ovaj predmet i aktivnosti iz kante."
+
+#: templates/CRM/Case/Form/CaseFilter.tpl
+msgid "Filter by Case"
+msgstr "Filter po predmet"
 
 #: templates/CRM/Case/Form/CaseView.js
 msgid "Add the %1 set of scheduled activities to this case?"
-msgstr ""
+msgstr "Dodaj %1 set zakazanih aktivnosti ovom predmetu?"
 
 #: templates/CRM/Case/Form/CaseView.js
 msgid "Please select a value"
-msgstr ""
+msgstr "Izaberite vrednost"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Clients:"
-msgstr ""
+msgstr "Klijenti:"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add Client"
-msgstr ""
+msgstr "Dodaj klijenta"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "DOB"
-msgstr ""
+msgstr "Datum rođenja"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case type (creates activity record)"
-msgstr ""
+msgstr "Promeni tip predmeta (kreira zapis o aktivnosti)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case status (creates activity record)"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Open Date"
-msgstr ""
+msgstr "Promeni status predmeta (kreira zapis o aktivnosti)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case start date (creates activity record)"
-msgstr ""
+msgstr "Promeni datum početka predmeta (kreira zapis o aktivnosti)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Export Document"
+msgstr "Eksport dokumenta"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Roles"
+msgstr "Uloge"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add new role"
-msgstr ""
+msgstr "Dodaj novu ulogu"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Assign To"
-msgstr ""
+msgstr "Dodeli"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change To"
-msgstr ""
+msgstr "Promeni u"
 
 #: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to delete this case role?"
-msgstr ""
+msgid "Are you sure you want to end this relationship?"
+msgstr "Da li ste sigurni da želite da završite ovu vezu?"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Other Relationships"
-msgstr ""
+msgstr "Ostale veze"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add client relationship"
-msgstr ""
+msgstr "Dodaj vezu/odnos sa klijentom"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add members to %1"
-msgstr ""
+msgstr "Dodaj članove u %1"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "- select contacts -"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "The group %1 has no members."
-msgstr ""
+msgstr "- odaberi kontakte -"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Case Tags"
-msgstr ""
+msgstr "Tagovi predmeta"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "There are no tags currently assigned to this case."
-msgstr ""
+msgstr "Trenutno nema tagova dodeljenih ovom predmetu."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add Tags"
-msgstr ""
+msgstr "Dodaj tagove"
 
 #: templates/CRM/Case/Form/EditClient.tpl
 msgid "This is case is currently assigned to %1."
-msgstr ""
+msgstr "Ovaj predmet je dodeljen %1."
 
 #: templates/CRM/Case/Form/Report.tpl
 msgid "Report Parameters"
-msgstr ""
-
-#: templates/CRM/Case/Form/Search/Common.tpl
-msgid "Case Tag(s)"
-msgstr ""
+msgstr "Parametri izveštaja"
 
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 msgid "if you are searching by client name, check your spelling"
-msgstr ""
+msgstr "Ako pretražujete po imenu klijenta, proverite vaš unos"
 
 #: templates/CRM/Case/Form/Selector.tpl
-msgid "Show recent activities"
-msgstr ""
-
-#: templates/CRM/Case/Form/Selector.tpl
-msgid "Hide activities"
-msgstr ""
-
-#: templates/CRM/Case/Form/Selector.tpl
-#: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Find more cases"
-msgstr ""
+msgstr "Nađi još predmeta"
 
 #: templates/CRM/Case/Form/Task/Delete.tpl
 msgid ""
 "Are you sure you want to delete the selected cases? This will move the "
 "case(s) and all associated activities to the Trash."
-msgstr ""
+msgstr "Da li ste sigurni da želite da obrišete izabrane predmete? Ovo će ukloniti predmet(e) i sve povezane aktivnosti."
 
 #: templates/CRM/Case/Form/Task/Print.tpl
 msgid "Most Recent Activity"
-msgstr ""
+msgstr "Najnovija aktivnost"
 
 #: templates/CRM/Case/Form/Task/Print.tpl
 msgid "Next Scheduled Activity"
-msgstr ""
+msgstr "Sledeća zakazana aktivnost"
 
 #: templates/CRM/Case/Form/Task/Restore.tpl
 msgid ""
 "Are you sure you want to restore the selected cases? This operation will "
 "retrieve the case(s) and all associated activities from Trash."
-msgstr ""
+msgstr "Da li ste sigurni da želite da povratite izabrane predmete? Ova operacija će povratiti predmet(e) i sve  povezane aktivnosti iz kante."
 
 #: templates/CRM/Case/Form/Task.tpl
 msgid "Number of selected cases: %1"
-msgstr ""
-
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "There are no activities defined for this case."
-msgstr ""
+msgstr "Broj odabranih predmeta: %1"
 
 #: templates/CRM/Case/Page/ConfigureError.tpl
 msgid ""
 "You need to setup and load Case and Activity configuration files before you "
 "can begin using the CiviCase component."
-msgstr ""
+msgstr "Morate podesiti i učitati konfiguracione fajlove za predmete i aktivnosti pre nego što počnete sa korišćenjem CiviCase komponente."
 
 #: templates/CRM/Case/Page/ConfigureError.tpl
 msgid "Refer to the %1 to learn about this process."
-msgstr ""
+msgstr "Pogledajte %1 da naučite više o ovom procesu."
 
 #: templates/CRM/Case/Page/ConfigureError.tpl
 msgid "CiviCase Setup documentation"
-msgstr ""
+msgstr "CiviCase dokumentacija o podešavanju"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "Find My Cases"
-msgstr ""
+msgstr "Nađi moje predmete"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "All Cases with Upcoming Activities"
-msgstr ""
+msgstr "Svi predmeti sa predstojećim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "My Cases with Upcoming Activities"
-msgstr ""
+msgstr "Moji predmeti sa predstojećim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "Summary of All Cases"
-msgstr ""
+msgstr "Kratak pregled svih predmeta"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "My Cases With Upcoming Activities"
-msgstr ""
+msgstr "Moji predmeti sa predstojećim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "All Cases With Upcoming Activities"
-msgstr ""
+msgstr "Svi predmeti sa predstojećim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid ""
 "There are no open cases with activities scheduled in the next two weeks. Use"
 " %1 to expand your search."
-msgstr ""
+msgstr "Nema otvorenih predmeta sa zakazanim aktivnostima u naredne dve nedelje. Iskoristite %1 da proširite pretragu."
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "My Cases With Recently Performed Activities"
-msgstr ""
+msgstr "Moji predmeti sa nedavno izvršenim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "All Cases With Recently Performed Activities"
-msgstr ""
+msgstr "Svi predmeti sa nedavno izvršenim aktivnostima"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid ""
 "There are no cases with activities scheduled in the past two weeks. Use %1 "
 "to expand your search."
-msgstr ""
+msgstr "Nema predmeta sa zakazanim aktivnostima u prethodne dve nedelje. Iskoristite %1 da proširite pretragu."
 
 #: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Manager"
-msgstr ""
-
-#: templates/CRM/Case/Page/DashboardSelector.tpl
-#: xml/templates/message_templates/case_activity_html.tpl
-#: xml/templates/message_templates/case_activity_text.tpl
-msgid "Edit activity"
-msgstr ""
+msgstr "Menadžer"
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Oops, It looks like there are no active case types."
-msgstr ""
+msgstr "Ups, izgleda da nema aktivnih tipova predmeta."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Enable <a href='%1'>case types</a>."
-msgstr ""
+msgstr "Uključi <a href='%1'>tipove predmeta</a>."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "This page lists all case records for %1."
-msgstr ""
+msgstr "Ova strana lista sve zapise o predmetu za %1."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Click <a %1>Add Case</a> to add a case record for this contact."
-msgstr ""
+msgstr "Kliknite na <a %1>Dodaj predmet</a> da dodate zapis o predmetu za ovaj kontakt."
 
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "There are no case records for this contact."
-msgstr ""
+msgstr "Nema zapisa o predmetu za ovaj kontakt."
 
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "Activity Summary"
-msgstr ""
+msgstr "Kratak pregled aktivnosti"
 
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "Your Case Role(s)"
-msgstr ""
+msgstr "Vaša uloga (uloge) u predmetu"
 
-#: CRM/Case/DAO/CaseActivity.php
-msgid "Case Activity ID"
-msgstr ""
-
-#: CRM/Case/DAO/CaseContact.php
-msgid "Case Contact ID"
-msgstr ""
-
-#: CRM/Case/Form/CaseView.php
-msgid "(opened %1)"
-msgstr ""
-
-#: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete cases"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "Define case types, access deleted cases"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "View and edit only those cases managed by this user"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "View and edit all cases (for visible contacts)"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "Open a new case"
-msgstr ""
-
-#: CRM/Case/Task.php
-msgid "Export cases"
-msgstr ""
-
-#: CRM/Case/Task.php
-msgid "Restore cases"
-msgstr ""
+#: CRM/Case/BAO/Case.php CRM/Case/Selector/Search.php
+msgid "(deleted)"
+msgstr "(obrisano)"
 
 #: CRM/Case/Task.php
 msgid "Print/merge Document"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist"
-msgstr ""
-
-#: ang/crmCaseType/list.html
-msgid "Case Types"
-msgstr ""
-
-#: templates/CRM/Case/Form/ActivityTab.tpl
-msgid "Reporter"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Export Document"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to end this relationship?"
-msgstr ""
+msgstr "Štampa/spajanje dokumenta"

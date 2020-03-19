@@ -6,19 +6,23 @@
 # Alberto Olivucci <evoc@impresscms.it>, 2014
 # Alessio <alessio@dba.it>, 2012
 # Alfredo Lucci <alfredolucci.al@gmail.com>, 2015
-# Andrea Ronchi <ronand@tiscali.it>, 2014
+# Andrea Ronchi <ar220765@gmail.com>, 2014
+# Francesco Firmino Giglio <francesco@civicrmitalia.it>, 2018
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2017,2019
+# teddy <guido.tedaldi@gmail.com>, 2017
 # Johan Soderkvist <johansoderkvist@ikreativo.it>, 2012
 # mitch.camp <kal-el@hotmail.it>, 2012
+# Liliana Stronciu <liliana.stronciu@aeromnia.aero>, 2017
 # Luca Marzo <luca@jeckodevelopment.it>, 2011
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # LinoLinux <reni.marco@gmail.com>, 2014
-# vodkina <mnemosyne@logioshermes.org>, 2016
+# Yvette Agostini <mnemosyne@logioshermes.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-23 20:03+0000\n"
+"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>\n"
 "Language-Team: Italian (http://www.transifex.com/civicrm/civicrm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,19 +30,24 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CRM/Case/BAO/Case.php templates/CRM/Case/Page/DashboardSelector.tpl
+#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
+#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
+#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
+#: templates/CRM/Case/Form/Task/Print.tpl
+msgid "Client"
+msgstr "Cliente"
+
+#: CRM/Case/BAO/Case.php
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "View activity"
 msgstr "Visualizza Attività"
 
 #: CRM/Case/BAO/Case.php
-msgid "no subject"
-msgstr "nessun oggetto"
-
-#: CRM/Case/BAO/Case.php
-msgid "(multiple)"
-msgstr "(partecipanti multipli)"
+#: xml/templates/message_templates/case_activity_html.tpl
+#: xml/templates/message_templates/case_activity_text.tpl
+msgid "Edit activity"
+msgstr "Modifica attività"
 
 #: CRM/Case/BAO/Case.php
 msgid "Move To Case"
@@ -47,6 +56,10 @@ msgstr "Sposta al caso"
 #: CRM/Case/BAO/Case.php
 msgid "Copy To Case"
 msgstr "Copia al caso"
+
+#: CRM/Case/BAO/Case.php
+msgid "%1 - copy sent to %2"
+msgstr ""
 
 #: CRM/Case/BAO/Case.php
 msgid "File %1 does not exist or is not readable"
@@ -148,7 +161,7 @@ msgstr "Ruolo nel Caso %1 '%2'"
 
 #: CRM/Case/BAO/Query.php
 msgid "Case Tags %1"
-msgstr "Tags del Caso"
+msgstr "Tags del Caso %1"
 
 #: CRM/Case/BAO/Query.php
 msgid "Search All Cases"
@@ -159,28 +172,122 @@ msgid "Only My Cases"
 msgstr "Solo i miei casi"
 
 #: CRM/Case/BAO/Query.php
+msgid "Search Cases with Upcoming Activities"
+msgstr "Cerca Casi con attività future"
+
+#: CRM/Case/BAO/Query.php
+msgid "Case Tag(s)"
+msgstr "Tags del Caso"
+
+#: CRM/Case/BAO/Query.php
 msgid "Deleted Cases"
 msgstr "Casi eliminati"
 
 #: CRM/Case/DAO/Case.php
+msgid "Unique Case ID"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "FK to civicrm_case_type.id"
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Short name of the case."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case starts."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Date on which given case ends."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Details about the meeting (agenda, notes, etc)."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid "Id of case status."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
 msgid "Case is in the Trash"
 msgstr "Il Caso è nel cestino"
+
+#: CRM/Case/DAO/Case.php
+msgid "When was the case was created."
+msgstr ""
+
+#: CRM/Case/DAO/Case.php
+msgid ""
+"When was the case (or closely related entity) was created or modified or "
+"deleted."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case Activity ID"
+msgstr "ID attività Caso"
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Unique case-activity association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Case ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseActivity.php
+msgid "Activity ID of case-activity association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case Contact ID"
+msgstr "ID Contatto Caso"
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Unique case-contact association id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Case ID of case-contact association."
+msgstr ""
+
+#: CRM/Case/DAO/CaseContact.php
+msgid "Contact ID of contact record given case belongs to."
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type ID"
 msgstr "ID Tipo di caso"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Autoincremented type id"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Name"
 msgstr "Tipo di caso"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Machine name for Case Type"
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Title"
 msgstr "Titolo del tipo di caso"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Natural language name for Case Type"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Description"
 msgstr "Descrizione del tipo di caso"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Description of the Case Type"
+msgstr ""
 
 #: CRM/Case/DAO/CaseType.php
 msgid "Case Type Is Active"
@@ -191,8 +298,20 @@ msgid "Case Type Is Reserved"
 msgstr "Il tipo di caso è riservato"
 
 #: CRM/Case/DAO/CaseType.php
+msgid "Is this case type a predefined system type?"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
+msgid "Ordering of the case types"
+msgstr ""
+
+#: CRM/Case/DAO/CaseType.php
 msgid "Case Type Definition"
 msgstr "Definizione del tipo di caso"
+
+#: CRM/Case/DAO/CaseType.php
+msgid "xml definition of case type"
+msgstr ""
 
 #: CRM/Case/Form/Activity/ChangeCaseStartDate.php
 #: CRM/Case/Form/Activity/ChangeCaseStatus.php
@@ -217,14 +336,6 @@ msgstr "Data inizio del Caso cambiata correttamente!"
 #: CRM/Case/Form/Activity/ChangeCaseStatus.php
 msgid "Case status changed from %1 to %2"
 msgstr "Lo Stato del Caso è passato da %1 a %2: "
-
-#: CRM/Case/Form/Activity/ChangeCaseStatus.php
-msgid "Case Status changed successfully."
-msgstr "Stato del Caso cambiato correttamente!"
-
-#: CRM/Case/Form/Activity/ChangeCaseType.php ang/crmCaseType/list.html
-msgid "New Case Type"
-msgstr "Nuovo Tipo di Caso"
 
 #: CRM/Case/Form/Activity/ChangeCaseType.php
 msgid "Reset Case Timeline?"
@@ -268,7 +379,7 @@ msgstr "Non puoi aggiungere un'altra attività '%1' a questo Caso. %2"
 
 #: CRM/Case/Form/Activity.php
 msgid "Do you want to <a %1>edit the existing activity</a>?"
-msgstr ""
+msgstr "Vuoi<a %1>modificare l'attività esistente</a>?"
 
 #: CRM/Case/Form/Activity.php CRM/Case/XMLProcessor/Report.php
 msgid "Reported By"
@@ -303,11 +414,23 @@ msgstr "%1Salvato"
 
 #: CRM/Case/Form/ActivityToCase.php CRM/Case/XMLProcessor/Report.php
 msgid "With Contact(s)"
-msgstr ""
+msgstr "Con contatto(i)"
 
 #: CRM/Case/Form/ActivityView.php
 msgid "Activity Revision History"
 msgstr "Riepilogo attività di revisione"
+
+#: CRM/Case/Form/ActivityView.php CRM/Case/Page/DashBoard.php
+msgid "CiviCase Dashboard"
+msgstr "Cruscotto di CiviCase"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Case/Form/CaseView.php
+msgid "- select type -"
+msgstr "- seleziona tipo -"
+
+#: CRM/Case/Form/AddToCaseAsRole.php
+msgid "Assign to"
+msgstr "Assegna a"
 
 #: CRM/Case/Form/Case.php
 msgid "You do not have any active %1"
@@ -325,27 +448,26 @@ msgid "Client contact does not exist: %1"
 msgstr "Il Contatto dell'Utente %1 non esiste."
 
 #: CRM/Case/Form/Case.php
-msgid "Select Tags"
-msgstr "Seleziona i Tags"
-
-#: CRM/Case/Form/Case.php
 msgid ""
-"The selected case has been moved to the Trash. You can view and / or restore"
-" deleted cases by checking the \"Deleted Cases\" option under Find Cases.<br"
-" />"
-msgstr "Il Caso selezionato è stato spostato nel Cestino. Puoi visualizzare e/o ripristinare i casi cestinati selezionando \"Casi Eliminati\" dal filtro di ricerca 'Trova Casi'.<br />"
+"You can view and / or restore deleted cases by checking the \"Deleted "
+"Cases\" option under Find Cases."
+msgstr "Puoi vedere e/o ripristinare i Casi cancellati selezionando l'opzione \"Casi Cancellati\" in Trova Casi"
 
 #: CRM/Case/Form/Case.php
 msgid "Case Deleted"
 msgstr "Caso cancellato"
 
 #: CRM/Case/Form/Case.php
-msgid "The selected case has been restored.<br />"
-msgstr "Il Caso selezionato è stato ripristinato.<br />"
+msgid "The selected case has been restored."
+msgstr "I casi selezionati sono stati ripristinati "
 
 #: CRM/Case/Form/CaseView.php
 msgid "Related Cases"
 msgstr "Casi Connessi"
+
+#: CRM/Case/Form/CaseView.php
+msgid "You do not have permission to access this case."
+msgstr ""
 
 #: CRM/Case/Form/CaseView.php
 msgid "%1 Related Case"
@@ -359,19 +481,11 @@ msgstr "Aggiungi Attività"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activity Audit"
-msgstr ""
+msgstr "Controllo Attività"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Add Timeline"
 msgstr "Aggiungi Cronologia"
-
-#: CRM/Case/Form/CaseView.php
-msgid "Select Case for Merge"
-msgstr "Seleziona il Caso da Unificare"
-
-#: CRM/Case/Form/CaseView.php
-msgid "- select type -"
-msgstr "- seleziona tipo -"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Activities from the %1 activity set have been added to this case."
@@ -395,11 +509,19 @@ msgstr "Dati attività - Da"
 
 #: CRM/Case/Form/CaseView.php
 msgid "Deleted Activities"
-msgstr ""
+msgstr "Attività cancellate"
 
-#: CRM/Case/Form/EditClient.php
-msgid "Select Contact"
-msgstr ""
+#: CRM/Case/Form/CaseView.php
+msgid "(opened %1)"
+msgstr "(aperti %1)"
+
+#: CRM/Case/Form/CaseView.php
+msgid "Select Case for Merge"
+msgstr "Seleziona il Caso da Unificare"
+
+#: CRM/Case/Form/CaseView.php
+msgid "- select case -"
+msgstr "- seleziona caso -"
 
 #: CRM/Case/Form/EditClient.php
 msgid "Reassign Case"
@@ -434,40 +556,40 @@ msgid "Find Cases"
 msgstr "Trova casi"
 
 #: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete Cases"
-msgstr "Elimina Casi"
+msgid "Delete cases"
+msgstr "Cancella casi"
 
 #: CRM/Case/Form/Task/Delete.php
 msgid "%count case moved to trash."
 msgid_plural "%count cases moved to trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%count spostato nel cestino."
+msgstr[1] "%count spostati nel cestino."
 
 #: CRM/Case/Form/Task/Delete.php
 msgid "%count case permanently deleted."
 msgid_plural "%count cases permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%count caso cancellato definitivamente."
+msgstr[1] "%count casi cancellati definitivamente."
 
 #: CRM/Case/Form/Task/Print.php
 msgid "Print Case List"
 msgstr "Stampa elenco Casi"
 
-#: CRM/Case/Form/Task/Restore.php CRM/Case/Task.php
+#: CRM/Case/Form/Task/Restore.php
 msgid "Restore Cases"
 msgstr "Ripristina Casi"
 
 #: CRM/Case/Form/Task/Restore.php
 msgid "%count case restored from trash."
 msgid_plural "%count cases restored from trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%count caso ripristinato dal cestino."
+msgstr[1] "%count casi ripristinati dal cestino."
 
 #: CRM/Case/Form/Task/Restore.php
 msgid "1 could not be restored."
 msgid_plural "%count could not be restored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 non può essere ripristinato."
+msgstr[1] "%count non possono essere ripristinati."
 
 #: CRM/Case/Info.php
 msgid "CiviCase Engine"
@@ -482,30 +604,56 @@ msgid "administer CiviCase"
 msgstr "amministra CiviCase"
 
 #: CRM/Case/Info.php
+msgid "Define case types, access deleted cases"
+msgstr "Definisci il tipo di caso, accedi ai casi cancellati"
+
+#: CRM/Case/Info.php
 msgid "access my cases and activities"
 msgstr "accedi ai miei casi ed attività"
+
+#: CRM/Case/Info.php
+msgid "View and edit only those cases managed by this user"
+msgstr "Visualizza e modifica solo i casi gestiti da questo utente"
 
 #: CRM/Case/Info.php
 msgid "access all cases and activities"
 msgstr "accedi tutti i casi ed attività"
 
 #: CRM/Case/Info.php
+msgid "View and edit all cases (for visible contacts)"
+msgstr "Visualizza e modifica tutti i casi (per i contatti gestiti)"
+
+#: CRM/Case/Info.php
 msgid "add cases"
 msgstr "aggiungi casi"
 
 #: CRM/Case/Info.php
-msgid ""
-"Could not create the MySQL views for CiviCase. Your mysql user needs to have"
-" the 'CREATE VIEW' permission"
-msgstr "Impossibile creare le viste MySQL per CiviCase. L'utente mysql deve avere i permessi di 'CREATE VIEW'"
+msgid "Open a new case"
+msgstr "Apri un nuovo caso"
 
-#: CRM/Case/Page/AJAX.php
-msgid "closed"
-msgstr "chiuso"
+#: CRM/Case/Info.php
+msgid "Do not redact emails"
+msgstr "Non redigere emails"
 
-#: CRM/Case/Page/DashBoard.php
-msgid "CiviCase Dashboard"
-msgstr "Cruscotto di CiviCase"
+#: CRM/Case/Info.php
+msgid "Redact emails"
+msgstr "Redigi email"
+
+#: CRM/Case/Info.php
+msgid "Single client per case"
+msgstr "Cliente singolo per caso"
+
+#: CRM/Case/Info.php
+msgid "Multiple client per case"
+msgstr "Clienti multipli per caso"
+
+#: CRM/Case/Info.php
+msgid "Definition order"
+msgstr "Ordine predefinito"
+
+#: CRM/Case/Info.php
+msgid "Alphabetical order"
+msgstr "Ordine alfabetico"
 
 #: CRM/Case/Page/DashBoard.php
 msgid "You are not authorized to access all cases and activities."
@@ -530,10 +678,6 @@ msgid "My Role"
 msgstr "Il Mio Ruolo"
 
 #: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
-msgid "Most Recent"
-msgstr "I Più Recenti"
-
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Next Sched."
 msgstr "Pross. Sched."
 
@@ -542,8 +686,16 @@ msgid "Case Search"
 msgstr "Ricerca Casi"
 
 #: CRM/Case/Task.php
-msgid "Export Cases"
-msgstr "Esporta Casi"
+msgid "Export cases"
+msgstr "Esporta casi"
+
+#: CRM/Case/Task.php
+msgid "Restore cases"
+msgstr "Ripristina casi"
+
+#: CRM/Case/Task.php
+msgid "Update multiple cases"
+msgstr "Aggiorna casi multipli"
 
 #: CRM/Case/XMLProcessor/Process.php
 msgid "Configuration file could not be retrieved for case type = '%1' %2."
@@ -572,15 +724,15 @@ msgstr "Supporto abitativo"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Help homeless individuals obtain temporary and long-term housing"
-msgstr ""
+msgstr "Aiuta i senzatetto a ottenere un ricovero temporaneo o a lungo termine"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Adult Day Care Referral"
-msgstr ""
+msgstr "Consulto Centro Diurno per Adulti"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Arranging adult day care for senior individuals"
-msgstr ""
+msgstr "Sistemazione Centro Diurno per Adulti per individui anziani "
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Medical evaluation"
@@ -604,7 +756,39 @@ msgstr "Piano abitativo a lungo termine"
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "ADC referral"
-msgstr ""
+msgstr "Consulto CDA"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator is"
+msgstr "Il coordinatore Servizi per i Senzatetto è"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Homeless Services Coordinator"
+msgstr "Coordinatore Servizi Senzatetto"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator is"
+msgstr "Il coordinatore dei Servizi Sanitari è"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Health Services Coordinator"
+msgstr "Coordinatore Servizi Sanitari"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator is"
+msgstr "Il Coordinatore dei Servizi per gli Anziani è "
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Senior Services Coordinator"
+msgstr "Coordinatore dei Servizi per gli Anziani"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist is"
+msgstr "Lo specialista Benefit è"
+
+#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
+msgid "Benefits Specialist"
+msgstr "Specialista Benefit "
 
 #: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
 msgid "Case Resources"
@@ -612,85 +796,125 @@ msgstr ""
 
 #: ang/crmCaseType/activityTypesTable.html
 msgid "Max Instances"
-msgstr ""
+msgstr "Numero massimo"
 
 #: ang/crmCaseType/activityTypesTable.html
 msgid "Add activity type"
-msgstr ""
+msgstr "Aggiungi tipo di attività"
 
 #: ang/crmCaseType/caseTypeDetails.html
 msgid "WARNING: The case type name includes deprecated characters."
-msgstr ""
+msgstr "ATTENZIONE: il nome del tipo caso include caratteri non permessi."
 
 #: ang/crmCaseType/caseTypeDetails.html
 msgid ""
 "WARNING: If any external files or programs reference the old \"Name\", then "
 "they must be updated manually."
+msgstr "ATTENZIONE: se un file o programma esterno fa riferimento al vecchio \"Nome\", dovrà  essere aggiornato manualmente."
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Activity assignment settings"
 msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Groups"
+msgstr ""
+
+#: ang/crmCaseType/caseTypeDetails.html
+msgid "Restrict to Website Users"
+msgstr ""
+
+#: ang/crmCaseType/edit.html ang/crmCaseType/list.html
+msgid "New Case Type"
+msgstr "Nuovo Tipo di Caso"
 
 #: ang/crmCaseType/edit.html
 msgid ""
 "Use this screen to define or update the Case Roles, Activity Types, and "
 "Timelines for a case type."
-msgstr ""
+msgstr "Utilizzare questa videata per definire o aggiornare i Ruoli, i Tipi di Attività e la Cronologia  per un tipo di caso."
 
 #: ang/crmCaseType/edit.html
 msgid "Learn more..."
-msgstr ""
+msgstr "Approfondisci..."
 
-#: ang/crmCaseType/edit.html templates/CRM/Case/Form/CaseView.tpl
-msgid "Roles"
-msgstr "Ruoli"
+#: ang/crmCaseType/edit.html templates/CRM/Case/Audit/Report.tpl
+msgid "Case Roles"
+msgstr "Ruoli del Caso"
+
+#: ang/crmCaseType/edit.html
+msgid "Case Statuses"
+msgstr "Stati del Caso"
 
 #: ang/crmCaseType/edit.html
 msgid "Add..."
-msgstr ""
+msgstr "Aggiungi..."
 
 #: ang/crmCaseType/edit.html
 msgid "Timeline"
-msgstr ""
+msgstr "Cronologia"
 
 #: ang/crmCaseType/edit.html
 msgid "Sequence"
-msgstr ""
+msgstr "Sequenza"
+
+#: ang/crmCaseType/list.html
+msgid "Case Types"
+msgstr "Tipi di Caso"
 
 #: ang/crmCaseType/list.html
 msgid ""
 "A Case Type describes a group of related tasks, interactions, or processes."
-msgstr ""
+msgstr "Un Tipo di Caso rappresenta un insieme di attività, interazioni e processi."
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Assign to Creator"
-msgstr ""
+msgstr "Assegnato al Titolare"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Is Manager"
-msgstr ""
+msgstr "E' il Responsabile"
 
 #: ang/crmCaseType/rolesTable.html
 msgid "Add role"
-msgstr ""
+msgstr "Aggiungi ruolo"
+
+#: ang/crmCaseType/statusTable.html
+msgid "New Status"
+msgstr "Nuovo Stato"
 
 #: ang/crmCaseType/timelineTable.html
 msgid "Reference"
+msgstr "Riferimento"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Offset"
 msgstr ""
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Default assignee"
+msgstr "Incaricato di default"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Newest"
+msgstr "Il più recente"
+
+#: ang/crmCaseType/timelineTable.html
+msgid "Oldest"
+msgstr "Il più vecchio"
+
+#: ang/crmCaseType.js
+msgid "new"
+msgstr "nuovo"
 
 #: ang/crmCaseType.js
 msgid ""
 "The CiviCase XML file for this case-type prohibits editing the definition."
-msgstr ""
-
-#: templates/CRM/Case/Audit/Audit.tpl
-msgid "Incomplete"
-msgstr "Non completato"
+msgstr "L'XML per questo tipo di caso impedisce di modificare la descrizione."
 
 #: templates/CRM/Case/Audit/Report.tpl
 msgid "Case Summary"
-msgstr "Riassunto del Caso"
-
-#: templates/CRM/Case/Audit/Report.tpl
-msgid "Case Roles"
-msgstr "Ruoli del Caso"
+msgstr "Riepilogo Caso"
 
 #: templates/CRM/Case/Audit/Report.tpl templates/CRM/Case/Form/Activity.tpl
 #: templates/CRM/Case/Form/CaseView.tpl
@@ -709,9 +933,25 @@ msgstr "Relazione Utente"
 msgid "Case Activities"
 msgstr "Attività del Caso"
 
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"Selecting one or more groups here will limit the choices when assigning an "
+"activity."
+msgstr ""
+
+#: templates/CRM/Case/CaseType.hlp
+msgid ""
+"This will limit the choices when selecting an activity assignee to contacts "
+"with a user account on this website."
+msgstr ""
+
 #: templates/CRM/Case/Form/Activity/ChangeCaseStartDate.tpl
 msgid "Current Start Date"
 msgstr "Data inizio corrente"
+
+#: templates/CRM/Case/Form/Activity/ChangeCaseStatus.tpl
+msgid "Update Linked Cases Status?"
+msgstr "Aggiornare lo Stato dei Casi collegati?"
 
 #: templates/CRM/Case/Form/Activity/LinkCases.tpl
 msgid "Create link between %1 - %2 (CaseID: %3) and %4 - %5 (CaseID: %6)"
@@ -752,9 +992,8 @@ msgid "Search Filters"
 msgstr "Filtri di Ricerca"
 
 #: templates/CRM/Case/Form/ActivityTab.tpl
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "Reporter / Assignee"
-msgstr "Reporter / Assegnato"
+msgid "Reporter"
+msgstr "Redattore"
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "You can modify the activity subject before filing."
@@ -774,11 +1013,11 @@ msgstr "Selezionare un Caso dalla lista."
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Unable to file on case."
-msgstr ""
+msgstr "Impossibile archiviare sul caso."
 
 #: templates/CRM/Case/Form/ActivityToCase.tpl
 msgid "Activity has been filed to %1 case."
-msgstr ""
+msgstr "L'attività è stata archiviata su %1 caso."
 
 #: templates/CRM/Case/Form/ActivityView.tpl
 msgid "Created On"
@@ -843,7 +1082,7 @@ msgstr "Registra qui i dettagli dell'Attività."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid "Provide a one-line summary of what this case is about."
-msgstr "Fornisci un brevissimo riassunto riguardo questo caso."
+msgstr "Fornisci un breve riepilogo riguardo questo caso."
 
 #: templates/CRM/Case/Form/Case.hlp
 msgid ""
@@ -861,6 +1100,10 @@ msgid ""
 "Click Restore to retrieve this case and all associated activities from the "
 "Trash."
 msgstr "Clicca 'Ripristina' per recuperare dal Cestino, questo caso e tutte le attività ad esso associate. "
+
+#: templates/CRM/Case/Form/CaseFilter.tpl
+msgid "Filter by Case"
+msgstr "Filtro per Caso"
 
 #: templates/CRM/Case/Form/CaseView.js
 msgid "Add the %1 set of scheduled activities to this case?"
@@ -888,15 +1131,19 @@ msgstr "Cambia tipo caso (crea record attività)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case status (creates activity record)"
-msgstr "Cambia stato caso (crea record attività)"
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Open Date"
-msgstr "Data di apertura"
+msgstr "Cambia stato del caso (crea record attività)"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Change case start date (creates activity record)"
 msgstr "Cambia data iniziale caso (crea record attività)"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Export Document"
+msgstr "Esporta documento"
+
+#: templates/CRM/Case/Form/CaseView.tpl
+msgid "Roles"
+msgstr "Ruoli"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Add new role"
@@ -911,8 +1158,8 @@ msgid "Change To"
 msgstr "Modifica in"
 
 #: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to delete this case role?"
-msgstr "Sei sicuro di voler eliminare questo ruolo di caso?"
+msgid "Are you sure you want to end this relationship?"
+msgstr "Sei sicuro di voler annullare questa relazione?"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Other Relationships"
@@ -928,11 +1175,7 @@ msgstr "Aggiungi membri a %1"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "- select contacts -"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "The group %1 has no members."
-msgstr "Il gruppo %1 non ha membri."
+msgstr "- seleziona contatti -"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 msgid "Case Tags"
@@ -954,24 +1197,11 @@ msgstr "Questo Caso è correntemente assegnato a %1."
 msgid "Report Parameters"
 msgstr "Parametri del report"
 
-#: templates/CRM/Case/Form/Search/Common.tpl
-msgid "Case Tag(s)"
-msgstr "Tags del Caso"
-
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 msgid "if you are searching by client name, check your spelling"
 msgstr "Se stai facendo una ricerca per nome dell'utente, controlla l'ortografia"
 
 #: templates/CRM/Case/Form/Selector.tpl
-msgid "Show recent activities"
-msgstr "Mostra attività recenti"
-
-#: templates/CRM/Case/Form/Selector.tpl
-msgid "Hide activities"
-msgstr "Nascondi attività"
-
-#: templates/CRM/Case/Form/Selector.tpl
-#: templates/CRM/Case/Page/DashboardSelector.tpl
 msgid "Find more cases"
 msgstr "Trova altri Casi"
 
@@ -998,10 +1228,6 @@ msgstr "Vuoi davvero recuperare i Casi selezionati? L'operazione recupererà dal
 #: templates/CRM/Case/Form/Task.tpl
 msgid "Number of selected cases: %1"
 msgstr "Numero di casi selezionati: %1"
-
-#: templates/CRM/Case/Page/CaseDetails.tpl
-msgid "There are no activities defined for this case."
-msgstr "Non ci sono attività collegate a questo Caso."
 
 #: templates/CRM/Case/Page/ConfigureError.tpl
 msgid ""
@@ -1031,7 +1257,7 @@ msgstr "Attività future dei miei Casi."
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "Summary of All Cases"
-msgstr "Sommario di tutti i casi"
+msgstr "Riepilogo di tutti i Casi"
 
 #: templates/CRM/Case/Page/DashBoard.tpl
 msgid "My Cases With Upcoming Activities"
@@ -1065,12 +1291,6 @@ msgstr "Non ci sono casi con le attività in programma nelle ultime due settiman
 msgid "Manager"
 msgstr "Manager"
 
-#: templates/CRM/Case/Page/DashboardSelector.tpl
-#: xml/templates/message_templates/case_activity_html.tpl
-#: xml/templates/message_templates/case_activity_text.tpl
-msgid "Edit activity"
-msgstr "Modifica attività"
-
 #: templates/CRM/Case/Page/Tab.tpl
 msgid "Oops, It looks like there are no active case types."
 msgstr "Oops, sembra che non ci siano tipo di caso attivi."
@@ -1094,101 +1314,17 @@ msgstr "Non esistono record di caso per questo contatto."
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "Activity Summary"
-msgstr "Sommario Attività"
+msgstr "Riepilogo Attività"
 
 #: xml/templates/message_templates/case_activity_html.tpl
 #: xml/templates/message_templates/case_activity_text.tpl
 msgid "Your Case Role(s)"
 msgstr "I Ruolo(i) del tuo Caso"
 
-#: CRM/Case/DAO/CaseActivity.php
-msgid "Case Activity ID"
-msgstr ""
-
-#: CRM/Case/DAO/CaseContact.php
-msgid "Case Contact ID"
-msgstr ""
-
-#: CRM/Case/Form/CaseView.php
-msgid "(opened %1)"
-msgstr ""
-
-#: CRM/Case/Form/Task/Delete.php CRM/Case/Info.php CRM/Case/Task.php
-msgid "Delete cases"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "Define case types, access deleted cases"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "View and edit only those cases managed by this user"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "View and edit all cases (for visible contacts)"
-msgstr ""
-
-#: CRM/Case/Info.php
-msgid "Open a new case"
-msgstr ""
-
-#: CRM/Case/Task.php
-msgid "Export cases"
-msgstr ""
-
-#: CRM/Case/Task.php
-msgid "Restore cases"
-msgstr ""
+#: CRM/Case/BAO/Case.php CRM/Case/Selector/Search.php
+msgid "(deleted)"
+msgstr "(cancellato)"
 
 #: CRM/Case/Task.php
 msgid "Print/merge Document"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Homeless Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Health Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Senior Services Coordinator"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist is"
-msgstr ""
-
-#: CRM/Case/xml/configuration.sample/case_sample.mysql.tpl
-msgid "Benefits Specialist"
-msgstr ""
-
-#: ang/crmCaseType/list.html
-msgid "Case Types"
-msgstr ""
-
-#: templates/CRM/Case/Form/ActivityTab.tpl
-msgid "Reporter"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Export Document"
-msgstr ""
-
-#: templates/CRM/Case/Form/CaseView.tpl
-msgid "Are you sure you want to end this relationship?"
-msgstr ""
+msgstr "Stampa unione"

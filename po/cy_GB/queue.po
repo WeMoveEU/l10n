@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Aled Powell <cymrodor@gmail.com>, 2014
+# Aled Powell <aled@aledpowell.cymru>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-05-09 17:11+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Welsh (United Kingdom) (http://www.transifex.com/civicrm/civicrm/language/cy_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,25 +18,41 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
 #: CRM/Queue/DAO/QueueItem.php
+msgid "Queue ID"
+msgstr ""
+
+#: CRM/Queue/DAO/QueueItem.php
 msgid "Queue Name"
 msgstr "Enw'r Ciw"
+
+#: CRM/Queue/DAO/QueueItem.php
+msgid "Name of the queue which includes this item"
+msgstr ""
 
 #: CRM/Queue/DAO/QueueItem.php
 msgid "Submit Time"
 msgstr "Amser Mewnbynnu"
 
 #: CRM/Queue/DAO/QueueItem.php
+msgid "date on which this item was submitted to the queue"
+msgstr ""
+
+#: CRM/Queue/DAO/QueueItem.php
 msgid "Release Time"
 msgstr "Amser Rhyddhau"
 
 #: CRM/Queue/DAO/QueueItem.php
-msgid "Queue item datas"
-msgstr "Data eitem ciw"
+msgid "date on which this job becomes available; null if ASAP"
+msgstr ""
+
+#: CRM/Queue/DAO/QueueItem.php
+msgid "Queue item data"
+msgstr ""
+
+#: CRM/Queue/DAO/QueueItem.php
+msgid "Serialized queue data"
+msgstr ""
 
 #: CRM/Queue/Runner.php
 msgid "Queue Runner"
 msgstr "Rhedwr y Ciw"
-
-#: CRM/Queue/DAO/QueueItem.php
-msgid "Queue ID"
-msgstr ""

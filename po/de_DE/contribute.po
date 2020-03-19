@@ -4,36 +4,52 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # translatosaurus <accounts@drexler.eu>, 2012-2013
+# SebastianHuter <account@sebhu.at>, 2019
 # Birdiebln <birdiebln@gmail.com>, 2014
 # Cibes <cibessl@gmail.com>, 2012
 # Detlev Sieber <detlev.sieber@foebud.org>, 2011,2014
 # Ettore Atalan <atalanttore@googlemail.com>, 2016
-# Fabian <schuttenberg@systopia.de>, 2013-2016
+# Fabian <schuttenberg@systopia.de>, 2013-2018
 # Hartmut Holzgraefe <hartmut@php.net>, 2011
 # Jens-Erik Weber <JensErikWeber@gmail.com>, 2013-2015
+# juliane Welp <welp@systopia.de>, 2017
 # NeoAlpha <lars.schmidt@neo-alpha.org>, 2013
-# Martin Peth <peth@systopia.de>, 2013-2016
-# Mathieu Lutfy <mathieu@bidon.ca>, 2015
-# Michal Seidler, 2011
+# Martin Peth <peth@systopia.de>, 2013-2017
+# Mathieu Lu <mathieu@bidon.ca>, 2015
+# Matthias Baernthaler <matthias.baernthaler@mitgruenden.at>, 2017
+# Michal Seidler <info@euroconsults.eu>, 2011
 # Martin Peth <peth@systopia.de>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 # heliogabal <rhalbmann@gmail.com>, 2014
 # Fabian <schuttenberg@systopia.de>, 2013
 # Fabian <schuttenberg@systopia.de>, 2013
 # Sven <sven.lorkowski@freenet.de>, 2015
+# Thomas Schuettler, 2018
 # Yvonne <yvonne.sedlatschek@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-10 08:31+0000\n"
+"Last-Translator: SebastianHuter <account@sebhu.at>\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Contribute/ActionMapping/ByType.php
+msgid "Contribution Type"
+msgstr ""
+
+#: CRM/Contribute/ActionMapping/ByType.php
+msgid "Soft Credit Role"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution/Utils.php
+msgid "Paid later via page ID: %1. %2"
+msgstr ""
 
 #: CRM/Contribute/BAO/Contribution/Utils.php
 msgid "transaction already processed."
@@ -48,12 +64,39 @@ msgid "- Contribution Fields -"
 msgstr "- Zuwendungsfelder-"
 
 #: CRM/Contribute/BAO/Contribution.php
-msgid "Recurring Contributions ID"
-msgstr "ID der wiederkehrenden Zahlung"
+msgid "Soft Credit For Contribution ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Soft Credit For Contact ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Payment failed at payment processor"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Soft Credit Contact ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/Contribution/Confirm.php
+#: CRM/Contribute/Form/Contribution/Main.php
+#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
+msgid "Online Contribution"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Recurring contribution"
+msgstr "Regelmäßige Zuwendung"
 
 #: CRM/Contribute/BAO/Contribution.php
 msgid "Cannot change contribution status from %1 to %2."
 msgstr "Kann den Status der Zuwendung nicht von %1 zu %2 ändern."
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Edit Payment"
+msgstr ""
 
 #: CRM/Contribute/BAO/Contribution.php
 msgid ""
@@ -62,9 +105,45 @@ msgid ""
 "situation."
 msgstr ""
 
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Offline Recurring Contribution"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Membership for %1 has been %2."
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Event Registration for %1 has been Cancelled."
+msgstr "Veranstaltungsanmeldung für %1 wurde storniert."
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Event Registration for %1 has been updated."
+msgstr "Veranstaltungsanmeldung für %1: Änderungen gespeichert."
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Pledge Payment for %1 has been Cancelled."
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Pledge Payment for %1 has been Failed."
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Pledge Payment for %1 has been updated."
+msgstr ""
+
 #: CRM/Contribute/BAO/ContributionPage.php
 msgid "Automatically Generated"
 msgstr "Automatisch erstellt"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Auto-renewal membership cancelled"
+msgstr "Automatische Erneuerung von Mitgliedschaft gekündigt"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Recurring contribution cancelled"
+msgstr "Wiederkehrende Zuwendung storniert"
 
 #: CRM/Contribute/BAO/ContributionRecur.php
 msgid "Automatic renewal of %1 membership cancelled."
@@ -76,27 +155,49 @@ msgid "The recurring contribution of %1, every %2 %3 has been cancelled."
 msgstr "Die wiederkehrende Zahlung von %1 alle %2 %3 wurde storniert."
 
 #: CRM/Contribute/BAO/ContributionRecur.php
-#: CRM/Contribute/Form/CancelSubscription.php
-msgid "Recurring contribution cancelled"
-msgstr "Wiederkehrende Zuwendung storniert"
-
-#: CRM/Contribute/BAO/ContributionRecur.php
 msgid ""
 "Please enter a number for how often you want to make this recurring "
 "contribution (EXAMPLE: Every 3 months)."
-msgstr "Bitte geben Sie an, wie oft Sie diese regelmäßige Zahlung tätigen wollen. (z.B. alle 3 Monate)"
+msgstr "Bitte geben Sie an, wie häufig Sie diese regelmäßige Zuwendung ausführen wollen (z.B. alle 3 Monate)."
 
 #: CRM/Contribute/BAO/ContributionRecur.php
 msgid ""
 "Please select a period (e.g. months, years ...) for how often you want to "
 "make this recurring contribution (EXAMPLE: Every 3 MONTHS)."
-msgstr "Bitte wählen Sie den Zyklus (z.B. Monate, Jahre, ...) in dem Ihre regelmäßigen Zahlungen getätigt werden sollen. (z. B. alle 3 Monate)"
+msgstr "Bitte wählen Sie den Zeitraum (z.B. Monate, Jahre, ...), in dem Ihre regelmäßigen Zuwendungen ausgeführt werden sollen (z. B. alle 3 Monate)."
 
-#: CRM/Contribute/BAO/ManagePremiums.php
-msgid ""
-"This Premium is being linked to <a href='%1'>Online Contribution page</a>. "
-"Please remove it in order to delete this Premium."
-msgstr "Diese Prämie ist mit einer <a href='%1'>Online-Spendenseite</a> verlinkt. Bitte entfernen Sie die Verknüpfung, um diese Prämie zu löschen."
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "All recurring contributions"
+msgstr "Alle wiederkehrenden Zahlungen"
+
+#: CRM/Contribute/BAO/ContributionRecur.php CRM/Contribute/BAO/Query.php
+msgid "Recurring contributions with at least one payment"
+msgstr "Regelmäßige Zuwendung mit mindestens einer Zahlung"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Recurring Contribution Start Date"
+msgstr "Startdatum der regelmäßigen Zuwendung."
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Next Scheduled Recurring Contribution"
+msgstr "Nächste geplante wiederkehrende Zahlung"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Recurring Contribution Cancel Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Recurring Contribution End Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+msgid "Failed Recurring Contribution Retry Date"
+msgstr "Datum der fehlerhaften Wiederholung einer wiederkehrenden Zahlung"
+
+#: CRM/Contribute/BAO/ContributionSoft.php
+msgid "View related contribution"
+msgstr "in Beziehung stehende Zuwendungen ansehen"
 
 #: CRM/Contribute/BAO/Premium.php
 msgid "Selected Option"
@@ -157,6 +258,22 @@ msgid "Exclude Recurring Contributions"
 msgstr "Wiederkehrende Zuwendungen ausschließen"
 
 #: CRM/Contribute/BAO/Query.php
+msgid "Recurring Contribution Payment Processor %1 %2"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+msgid "Recurring Contribution %1 %2 '%3'"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+msgid "All recurring contributions regardless of payments"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+msgid "Recurring Contribution Status %1 '%2'"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
 msgid "Contribution Note %1 %2"
 msgstr "Zahlungs-Notiz %1 %2"
 
@@ -171,6 +288,14 @@ msgstr ""
 #: CRM/Contribute/BAO/Query.php
 msgid "Batch Name %1 %2"
 msgstr "Name des Batches  %1 %2"
+
+#: CRM/Contribute/BAO/Query.php
+msgid "Card Type %1 %2"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+msgid "Card Number %1 %2"
+msgstr ""
 
 #: CRM/Contribute/BAO/Query.php
 msgid ""
@@ -214,26 +339,6 @@ msgstr "Soft Credits mit zugeordneter Zuwendung"
 msgid "Contributions OR Soft Credits?"
 msgstr "Zuwendungen ODER Soft Credits?"
 
-#: CRM/Contribute/BAO/Query.php
-msgid "Recurring Contribution Start Date"
-msgstr "Startdatum der regelmäßigen Zuwendung."
-
-#: CRM/Contribute/BAO/Query.php
-msgid "Next Scheduled Recurring Contribution"
-msgstr "Nächste geplante wiederkehrende Zahlung"
-
-#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution Cancel Date"
-msgstr ""
-
-#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution End Date"
-msgstr ""
-
-#: CRM/Contribute/BAO/Query.php
-msgid "Failed Recurring Contribution Retry Date"
-msgstr "Datum der fehlerhaften Wiederholung einer wiederkehrenden Zahlung"
-
 #: CRM/Contribute/BAO/Widget.php
 msgid "Campaign is ongoing"
 msgstr "Kampagne läuft"
@@ -266,21 +371,73 @@ msgstr "Spender"
 msgid "Learn more."
 msgstr "Weitere Informationen."
 
+#: CRM/Contribute/DAO/Contribution.php
+msgid "FK to Financial Type for (total_amount - non_deductible_amount)."
+msgstr ""
+
 #: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-msgid "Payment Instrument ID"
+msgid "Payment Method ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-msgid "Cancel Reason"
-msgstr "Grund der Stornierung"
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "FK to Payment Instrument"
+msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-msgid "Thank-you Date"
-msgstr "Datum Dankeschön"
+msgid ""
+"Date contribution was received - not necessarily the creation date of the "
+"record"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid ""
+"Portion of total amount which is NOT tax deductible. Equal to total_amount "
+"for non-deductible financial types."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid ""
+"Total amount of this contribution. Use market value for non-monetary gifts."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"unique transaction id. may be processor id, bank id + trans id, or account "
+"number + check number... depending on payment_method"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "unique invoice id, system generated or passed in"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "Human readable invoice number"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "when was gift cancelled"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid ""
+"when (if) receipt was sent. populated automatically for online donations w/ "
+"automatic receipting"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "when (if) was donor thanked"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "Origin of this Contribution."
+msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
 msgid "Amount Label"
@@ -292,6 +449,14 @@ msgid "Recurring Contribution ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
+msgid ""
+"Conditional foreign key to civicrm_contribution_recur id. Each contribution "
+"made in connection with a recurring contribution carries a foreign key to "
+"the recurring contribution record. This assumes we can track these processor"
+" initiated events."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
 msgid "Contribution Status ID"
 msgstr ""
 
@@ -299,12 +464,57 @@ msgstr ""
 msgid "Contribution Address"
 msgstr ""
 
+#: CRM/Contribute/DAO/Contribution.php
+msgid ""
+"Conditional foreign key to civicrm_address.id. We insert an address record "
+"for each contribution when we have associated billing name and address data."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "The campaign for which this contribution has been triggered."
+msgstr ""
+
 #: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/AdditionalInfo.php
 msgid "Credit Note ID"
 msgstr "Gutschrift ID"
 
+#: CRM/Contribute/DAO/Contribution.php
+msgid "unique credit note id, system generated or passed in"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "Total tax amount of this contribution."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php
+msgid "Stores the date when revenue should be recognized."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Contribute/DAO/Widget.php
+msgid "Contribution Id"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Contribution Page title. For top of page display"
+msgstr ""
+
 #: CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page Introduction Text"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Text and html allowed. Displayed below title."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"default financial type assigned to contributions submitted via this page, "
+"e.g. Contribution, Campaign Contribution"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Payment Processors configured for this contribution Page"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -312,11 +522,28 @@ msgid "Is Credit Card Only?"
 msgstr "Ist nur Kreditkarte?"
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"if true - processing logic must reject transaction at confirmation stage if "
+"pay method != credit card"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Is Monetary"
 msgstr "Ist monetär"
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"if true - allows real-time monetary transactions otherwise non-monetary "
+"transactions"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Is Recurring"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"if true - allows recurring contributions, valid only for PayPal_Standard"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -324,7 +551,15 @@ msgid "Confirmation Page?"
 msgstr "Bestätigungsseite?"
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "if false, the confirm page in contribution pages gets skipped"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Recurring Frequency"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Supported recurring frequency units."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -332,10 +567,29 @@ msgid "Support Recurring Intervals"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "if true - supports recurring intervals"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Recurring Installments?"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionPage.php CRM/Contribute/Selector/Search.php
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "if true - asks user for recurring installments"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "Adjust Recurring Start Date"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "if true - user is able to adjust payment start date"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 msgid "Pay Later"
@@ -350,6 +604,10 @@ msgid "Allow Partial Payment"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "is partial payment enabled for this online contribution page"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Min Initial Amount"
 msgstr ""
 
@@ -358,8 +616,26 @@ msgid "Allow Other Amounts"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"if true, page will include an input text field where user can enter their "
+"own amount"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Default Amount"
 msgstr "Standardbetrag"
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "if other amounts allowed, user can configure minimum allowed."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "if other amounts allowed, user can configure maximum allowed."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "The target goal for this page, allows people to build a goal meter"
+msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
@@ -367,7 +643,9 @@ msgid "Thank-you Footer"
 msgstr "Fußzeile für Dankeschön -ext"
 
 #: CRM/Contribute/DAO/ContributionPage.php
-msgid "Allow For Organization"
+msgid ""
+"Text and html allowed. displayed at the bottom of the success page. Common "
+"usage is to include link(s) to other pages such as tell-a-friend, etc."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -375,7 +653,23 @@ msgid "Send email Receipt"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "if true, receipt is automatically emailed to contact on success"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"FROM email name used for receipts generated by contributions to this "
+"contribution page."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Receipt From email"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"FROM email address used for receipts generated by contributions to this "
+"contribution page."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -383,7 +677,17 @@ msgid "Receipt cc"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"comma-separated list of email addresses to cc each time a receipt is sent"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Receipt bcc"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"comma-separated list of email addresses to bcc each time a receipt is sent"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -391,7 +695,19 @@ msgid "Receipt Text"
 msgstr "Text des Zahlungsbelegs"
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"text to include above standard receipt info on receipt email. emails are "
+"text-only, so do not allow html for now"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Is Page Active?"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Text and html allowed. Displayed at the bottom of the first page of the "
+"contribution wizard."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
@@ -403,16 +719,33 @@ msgid "Contribution Page Start Date"
 msgstr "Startdatum der Spendenseite"
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "Date and time that this page starts."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page End Date"
 msgstr "Enddatum der Spendenseite"
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Date and time that this page ends. May be NULL if no defined end date/time"
+msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page Created By"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "FK to civicrm_contact, who created this contribution page"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page Created Date"
 msgstr "Erstellungsdatum der Spendenseite"
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Date and time that contribution page was created."
+msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 msgid "Contribution Page Currency"
@@ -423,7 +756,27 @@ msgid "Contribution Page Campaign ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
+msgid "The campaign for which we are collecting contributions with this page."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
 msgid "Is Contribution Page Shared?"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "Can people share the contribution page through social media?"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php
+msgid "if true - billing block is required for online contribution page"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid "Contribution Product ID"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php CRM/Contribute/DAO/Product.php
+msgid "Product ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionProduct.php
@@ -431,36 +784,131 @@ msgid "Product Option"
 msgstr "Produktoptionen"
 
 #: CRM/Contribute/DAO/ContributionProduct.php
+msgid "Option value selected if applicable - e.g. color, size etc."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
 msgid "Fulfilled Date"
 msgstr "Erfüllungsdatum"
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid ""
+"Optional. Can be used to record the date this product was fulfilled or "
+"shipped."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid "Start date for premium"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid ""
+"Actual start date for a time-delimited premium (subscription, service or "
+"membership)"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid "End date for premium"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid ""
+"Actual end date for a time-delimited premium (subscription, service or "
+"membership)"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionProduct.php
+msgid "Premium comment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Foreign key to civicrm_contact.id."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Amount to be contributed or charged each recurrence."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Time units for recurrence of payment."
+msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
 msgid "Interval (number of units)"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution Started Date"
+msgid "Number of time units for recurrence of payment."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution Created Date"
+#: templates/CRM/Contribute/Form/UpdateSubscription.tpl
+msgid ""
+"Total number of payments to be made. Set this to 0 if this is an open-ended "
+"commitment i.e. no set end date."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution Modified Date"
+msgid "The date the first scheduled recurring contribution occurs."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "When this recurring contribution record was created."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Last updated date for this record. mostly the last time a payment was "
+"received"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Date this recurring contribution was cancelled by contributor- if we can get"
+" access to it"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Cancellation Reason"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Free text field for a reason for cancelling"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Date this recurring contribution finished successfully"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Possibly needed to store a unique identifier for this recurring payment "
+"order - if this is available from the processor??"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Optionally used to store a link to a payment token used for this recurring "
+"contribution."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-msgid "Processor ID"
+msgid "Cycle Day"
+msgstr "Datum der wiederkehrenden Zahlung"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Day in the period when the payment should be charged e.g. 1st of month, 15th"
+" etc."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
-msgid "Recurring Contribution Status"
-msgstr "Status der wiederkehrenden Zahlung"
-
-#: CRM/Contribute/DAO/ContributionRecur.php
-msgid "Number of Cycle Day"
+msgid "Next scheduled date"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
@@ -468,11 +916,37 @@ msgid "Number of Failures"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Number of failed charge attempts since last success. Business rule could be "
+"set to deactivate on more than x failures."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
 msgid "Retry Failed Attempt Date"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Date to retry failed attempt"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"Some systems allow contributor to set a number of installments - but then "
+"auto-renew the subscription or commitment if they do not cancel."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Foreign key to civicrm_payment_processor.id"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionRecur.php
 msgid "Send email Receipt?"
+msgstr "Zahlungsbeleg per E-Mail versenden?"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid ""
+"if true, receipt is automatically emailed to contact on each successful "
+"payment"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionSoft.php
@@ -488,11 +962,19 @@ msgid "Soft Contribution Amount"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionSoft.php
+msgid "Amount of this soft contribution."
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionSoft.php
 msgid "Soft Contribution Currency"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionSoft.php
 msgid "Soft Contribution PCP"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionSoft.php
+msgid "FK to civicrm_pcp.id"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionSoft.php
@@ -507,12 +989,24 @@ msgstr ""
 msgid "Soft Contribution PCP Note"
 msgstr ""
 
+#: CRM/Contribute/DAO/ContributionSoft.php
+msgid ""
+"Soft Credit Type ID.Implicit FK to civicrm_option_value where option_group ="
+" soft_credit_type."
+msgstr ""
+
 #: CRM/Contribute/DAO/Premium.php
 msgid "Premium ID"
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
 msgid "Premium Entity"
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
+msgid ""
+"Joins these premium settings to another object. Always "
+"civicrm_contribution_page for now."
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
@@ -524,11 +1018,25 @@ msgid "Is Premium Active?"
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
+msgid "Is the Premiums feature enabled for this page?"
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
 msgid "Title for Premiums section"
 msgstr "Titel für den Prämien-Abschnitt"
 
 #: CRM/Contribute/DAO/Premium.php
+msgid "Title for Premiums section."
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
 msgid "Premium Introductory Text"
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
+msgid ""
+"Displayed in <div> at top of Premiums section of page. Text and HTML "
+"allowed."
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
@@ -536,11 +1044,29 @@ msgid "Premium Contact Email"
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
+msgid ""
+"This email address is included in receipts if it is populated and a premium "
+"has been selected."
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
 msgid "Premiums Contact Phone"
 msgstr "Telefonkontakt für Prämien"
 
 #: CRM/Contribute/DAO/Premium.php
+msgid ""
+"This phone number is included in receipts if it is populated and a premium "
+"has been selected."
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
 msgid "Display Minimum Contribution?"
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
+msgid ""
+"Boolean. Should we automatically display minimum contribution amount text "
+"after the premium descriptions."
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
@@ -548,11 +1074,29 @@ msgid "No Thank-you Text"
 msgstr ""
 
 #: CRM/Contribute/DAO/Premium.php
+msgid ""
+"Label displayed for No Thank-you option in premiums block (e.g. No thank "
+"you)"
+msgstr ""
+
+#: CRM/Contribute/DAO/Premium.php
 msgid "No Thank-you Position"
 msgstr ""
 
-#: CRM/Contribute/DAO/Product.php
-msgid "Product ID"
+#: CRM/Contribute/DAO/PremiumsProduct.php
+msgid "Premium Product ID"
+msgstr ""
+
+#: CRM/Contribute/DAO/PremiumsProduct.php
+msgid "Foreign key to premiums settings record."
+msgstr ""
+
+#: CRM/Contribute/DAO/PremiumsProduct.php
+msgid "Product"
+msgstr "Produkt"
+
+#: CRM/Contribute/DAO/PremiumsProduct.php
+msgid "Foreign key to each product object."
 msgstr ""
 
 #: CRM/Contribute/DAO/Product.php
@@ -560,28 +1104,128 @@ msgid "Product Name"
 msgstr "Produktname"
 
 #: CRM/Contribute/DAO/Product.php
+msgid "Required product/premium name"
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid "Optional description of the product/premium."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid "Optional product sku or code."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Store comma-delimited list of color, size, etc. options for the product."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid "Image"
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid "Full or relative URL to uploaded image - fullsize."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
 msgid "Thumbnail"
 msgstr "Bildvorschau"
+
+#: CRM/Contribute/DAO/Product.php
+msgid "Full or relative URL to image thumbnail."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Sell price or market value for premiums. For tax-deductible contributions, "
+"this will be stored as non_deductible_amount in the contribution record."
+msgstr ""
 
 #: CRM/Contribute/DAO/Product.php
 msgid "Minimum Contribution"
 msgstr "Mindesteinzahlung"
 
 #: CRM/Contribute/DAO/Product.php
+msgid "Minimum contribution required to be eligible to select this premium."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
 msgid "Cost"
 msgstr "Kosten"
 
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Actual cost of this product. Useful to determine net return from sale or "
+"using this as an incentive."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Disabling premium removes it from the premiums_premium join table below."
+msgstr ""
+
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
 msgid "Period Type"
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Rolling means we set start/end based on current day, fixed means we set start/end for current year or month\n"
+"      (e.g. 1 year + fixed -> we would set start/end for 1/1/06 thru 12/31/06 for any premium chosen in 2006) "
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Month and day (MMDD) that fixed period type subscription or membership "
+"starts."
 msgstr ""
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
 msgid "Duration Unit"
 msgstr ""
 
+#: CRM/Contribute/DAO/Product.php
+msgid "Duration Interval"
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Number of units for total duration of subscription, service, membership "
+"(e.g. 12 Months)."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Frequency unit and interval allow option to store actual delivery frequency "
+"for a subscription or service."
+msgstr ""
+
+#: CRM/Contribute/DAO/Product.php
+msgid ""
+"Number of units for delivery frequency of subscription, service, membership "
+"(e.g. every 3 Months)."
+msgstr ""
+
 #: CRM/Contribute/DAO/Widget.php
-msgid "Url Logo"
-msgstr "Favicon"
+msgid "Widget ID"
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "Widget Title"
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "Widget title."
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "Widget Image Url"
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "URL to Widget logo"
+msgstr ""
 
 #: CRM/Contribute/DAO/Widget.php
 #: CRM/Contribute/Form/ContributionPage/Widget.php
@@ -589,81 +1233,61 @@ msgid "Button Title"
 msgstr "Titel des Buttons"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Url Homepage"
-msgstr "URL Homepage"
+msgid "Button title."
+msgstr ""
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Title"
-msgstr "Farbe Titel"
+msgid "About description."
+msgstr ""
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Button"
-msgstr "Farbe Button"
+msgid "Homepage Url"
+msgstr ""
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Bar"
-msgstr "Farbe Balken"
+msgid "URL to Homepage."
+msgstr ""
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Main Text"
-msgstr "Farbe Haupttext"
+msgid "Title Color"
+msgstr "Titelfarbe"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Main"
-msgstr "Farbe des Hauptteils"
+msgid "Button Colour"
+msgstr "Schaltflächenfarbe"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Main Bg"
-msgstr "Hintergrundfarbe des Hauptteils"
+msgid "Bar Color"
+msgstr "Balkenfarbe"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Bg"
-msgstr "Hintergrundfarbe"
+msgid "Main Text Color"
+msgstr "Haupttextfarbe"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color About Link"
-msgstr "Farbe des \"About\"-Links"
+msgid "Main Colour"
+msgstr "Hauptfarbe"
 
 #: CRM/Contribute/DAO/Widget.php
-msgid "Color Homepage Link"
-msgstr "Farbe des \"Homepage\"-Links"
+msgid "Backgroup Color"
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "Other Backgroun Colour"
+msgstr "Andere Hintergrundfarbe"
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "About Link Colour"
+msgstr ""
+
+#: CRM/Contribute/DAO/Widget.php
+msgid "Homepage Link Colour"
+msgstr ""
 
 #: CRM/Contribute/Form/AbstractEditPayment.php
 msgid ""
 "Please use the <a href=\"%1\">Record Payment</a> form if you have received "
 "an additional payment for this Partially paid contribution record."
-msgstr ""
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Membership for %1 has been Cancelled."
-msgstr "Mitgliedschaft für %1 wurde gekündigt."
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Membership for %1 has been Expired."
-msgstr "Mitgliedschaft für %1 ist abgelaufen."
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Membership for %1 has been updated. The membership End Date is %2."
-msgstr ""
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Event Registration for %1 has been Cancelled."
-msgstr "Veranstaltungsanmeldung für %1 wurde storniert."
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Event Registration for %1 has been updated."
-msgstr "Veranstaltungsanmeldung für %1: Änderungen gespeichert."
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Pledge Payment for %1 has been Cancelled."
-msgstr ""
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Pledge Payment for %1 has been Failed."
-msgstr ""
-
-#: CRM/Contribute/Form/AbstractEditPayment.php
-msgid "Pledge Payment for %1 has been updated."
 msgstr ""
 
 #: CRM/Contribute/Form/AbstractEditPayment.php
@@ -690,6 +1314,10 @@ msgid ""
 msgstr "Der Kontakt hat offene oder überfällige Unterstützungszusagen von %2 am %3. <a href=\"%1\"> Klicken Sie hier um die Zahlung auf die Unterstützungszusagen zu buchen </a>."
 
 #: CRM/Contribute/Form/AdditionalInfo.php
+msgid "-select product-"
+msgstr "Produkt auswählen"
+
+#: CRM/Contribute/Form/AdditionalInfo.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 msgid "Fulfilled"
 msgstr "Erfüllt"
@@ -699,12 +1327,6 @@ msgstr "Erfüllt"
 msgid "Minimum Contribution Amount"
 msgstr "Mindest-Zahlungsbetrag"
 
-#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Contribute/Form/Task/Print.tpl
-msgid "Thank-you Sent"
-msgstr "„Dankeschön“ gesendet"
-
 #: CRM/Contribute/Form/AdditionalInfo.php
 msgid "Please enter a valid monetary value for Non-deductible Amount."
 msgstr "Bitte geben Sie einen gültigen Geldwert für Nichtabzugsfähigen betrag ein."
@@ -713,11 +1335,6 @@ msgstr "Bitte geben Sie einen gültigen Geldwert für Nichtabzugsfähigen betrag
 #: CRM/Contribute/Form/AdditionalPayment.php
 msgid "Please enter a valid monetary value for Fee Amount."
 msgstr "Bitte geben Sie einen gültigen Geldwert für Beitragsbetrag ein."
-
-#: CRM/Contribute/Form/AdditionalInfo.php
-#: CRM/Contribute/Form/AdditionalPayment.php
-msgid "Please enter a valid monetary value for Net Amount."
-msgstr "Bitte geben Sie einen gültigen Geldwert für Nettobetrag ein."
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 msgid "This Invoice ID already exists in the database."
@@ -757,12 +1374,6 @@ msgid "Credit card payment is not for Refund payments use"
 msgstr ""
 
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-msgid "Direct Debit Information"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
 msgid "Refund Amount"
 msgstr "Betrag der Erstattung"
 
@@ -774,6 +1385,10 @@ msgstr "Zahlungsbeleg senden?"
 #: CRM/Contribute/Form/AdditionalPayment.php
 msgid "Refund Date"
 msgstr "Datum der Erstattung"
+
+#: CRM/Contribute/Form/AdditionalPayment.php
+msgid "Please enter a valid monetary value for Net Amount."
+msgstr "Bitte geben Sie einen gültigen Geldwert für Nettobetrag ein."
 
 #: CRM/Contribute/Form/AdditionalPayment.php
 msgid "Payment amount cannot be greater than owed amount"
@@ -790,6 +1405,10 @@ msgid ""
 msgstr ""
 
 #: CRM/Contribute/Form/AdditionalPayment.php
+msgid "Payment method is a required field"
+msgstr ""
+
+#: CRM/Contribute/Form/AdditionalPayment.php
 msgid "The payment record has been processed."
 msgstr ""
 
@@ -802,16 +1421,6 @@ msgstr "Ein Zahlungsbeleg wurde an den Unterstützer per E-Mail versandt."
 #: CRM/Contribute/Form/Contribution.php
 msgid "Submit Credit Card Payment by: %1"
 msgstr "Kreditkartenzahlung abschicken durch: %1"
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-msgid "notification"
-msgstr ""
-
-#: CRM/Contribute/Form/CancelSubscription.php
-msgid ""
-"The auto renewal option for this membership looks to have been cancelled "
-"already."
-msgstr "Die automatische Erneuerung für diese Mitgliedschaft scheint bereits gekündigt zu sein."
 
 #: CRM/Contribute/Form/CancelSubscription.php
 msgid "The recurring contribution looks to have been cancelled already."
@@ -839,10 +1448,6 @@ msgid "Not Now"
 msgstr "Nicht jetzt."
 
 #: CRM/Contribute/Form/CancelSubscription.php
-msgid "Auto-renewal membership cancelled"
-msgstr "Automatische Erneuerung von Mitgliedschaft gekündigt"
-
-#: CRM/Contribute/Form/CancelSubscription.php
 msgid ""
 "Recurring contribution was cancelled successfully by the processor, but "
 "could not be marked as cancelled in the database."
@@ -864,9 +1469,13 @@ msgstr "Jetzt spenden"
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Mixed profile not allowed for on behalf of registration/sign up."
-msgstr "Gemischtes Profil nicht zulässig für Registrierung/Einloggen."
+#: CRM/Contribute/Form/Contribution/Confirm.php
+msgid "Online Contribution:"
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Confirm.php
+msgid "Payment Processor Error message :"
+msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid ""
@@ -889,6 +1498,12 @@ msgid "List my contribution anonymously"
 msgstr "Meine Zahlungen anonym tätigen."
 
 #: CRM/Contribute/Form/Contribution/Main.php
+msgid ""
+"This page does not have any price fields configured or you may not have "
+"permission for them. Please contact the site administrator for more details."
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Main.php
 msgid "Confirm Contribution"
 msgstr "Bestätigen"
 
@@ -897,8 +1512,12 @@ msgid "Contribute"
 msgstr "Zahlung ausführen"
 
 #: CRM/Contribute/Form/Contribution/Main.php
+msgid "Confirm Payment"
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Main.php
 msgid "I want to contribute this amount"
-msgstr "Ich möchte diesen Betrag regelmäßig bezahlen."
+msgstr "Ich möchte diesen Betrag regelmäßig beitragen"
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "Frequency must be a whole number (EXAMPLE: Every 3 months)."
@@ -911,6 +1530,10 @@ msgstr "Ratenzahlung"
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "Number of installments must be a whole number."
 msgstr "Die Anzahl der Raten muss in ganzen Zahlen angegeben werden."
+
+#: CRM/Contribute/Form/Contribution/Main.php
+msgid "You cannot have auto-renewal on if you are paying later."
+msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid "Contribution amount must be at least %1"
@@ -960,6 +1583,10 @@ msgid ""
 msgstr "Zahlungen können nicht kleiner sein als Null. Bitte ändern Sie Ihre Eingabe dahingehend."
 
 #: CRM/Contribute/Form/Contribution/Main.php
+msgid "A minimum amount of %1 should be selected from Contribution(s)."
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Main.php
 msgid "The premium you have selected requires a minimum contribution of %1"
 msgstr "Das Geschenk, das Sie ausgewählt haben, verlangt eine Mindestzahlungen  von %1"
 
@@ -968,18 +1595,6 @@ msgid ""
 "You cannot set up a recurring contribution if you are not paying online by "
 "credit card."
 msgstr "Sie können die Option \"wiederkehrende Zahlungen\" nicht auswählen, wenn Sie nicht online per Kreditkarte bezahlen."
-
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Please select an organization or enter a new one."
-msgstr "Wählen Sie eine Organisation oder geben Sie eine neue ein."
-
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Please enter the organization name."
-msgstr "Bitte geben Sie den Namen der Organisation ein."
-
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Organization email is required."
-msgstr "E-Mailadresse der Organisation wird benötigt."
 
 #: CRM/Contribute/Form/Contribution/Main.php
 msgid ""
@@ -1021,40 +1636,20 @@ msgstr "'Zahlungsintervall' ist ein Pflichtfeld."
 msgid "Pledge frequency interval field must be > 0"
 msgstr "Das Feld 'Zahlungsintervall' muss > 0 sein."
 
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid ""
-"This contribution page has been configured for contribution on behalf of an "
-"organization and the selected onbehalf profile is either disabled or not "
-"found."
+#: CRM/Contribute/Form/Contribution/Main.php
+msgid "Returning since there is no contact attached to this contribution id."
 msgstr ""
 
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid ""
-"This contribution page has been configured for contribution on behalf of an "
-"organization and the required fields of the selected onbehalf profile are "
-"disabled."
+#: CRM/Contribute/Form/Contribution/Main.php
+msgid "Returning since contribution has already been handled."
 msgstr ""
 
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid "Organization Details"
-msgstr "Organisations-Details"
-
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid "Select an existing related Organization OR enter a new one"
-msgstr "Wählen Sie eine bestehende Organisation oder legen Sie eine neu an"
-
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid "Select an existing organization"
-msgstr "eine bestehende Organisation auswählen"
-
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-#: templates/CRM/Contribute/Form/Contribution/OnBehalfOf.tpl
-msgid "Enter a new organization"
-msgstr "eine neue Organisation anlegen"
-
-#: CRM/Contribute/Form/Contribution/OnBehalfOf.php
-msgid "options"
-msgstr "Optionen"
+#: CRM/Contribute/Form/Contribution.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "Pay with Credit Card"
+msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
 msgid "Credit Card Pledge Payment"
@@ -1069,22 +1664,8 @@ msgid "Additional Details"
 msgstr "Weitere Details"
 
 #: CRM/Contribute/Form/Contribution.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Cancelled / Refunded Date"
-msgstr "Datum der Stornierung / Rückerstattung"
-
-#: CRM/Contribute/Form/Contribution.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Cancellation / Refund Reason"
-msgstr "Grund der Stornierung / Rückerstattung"
-
-#: CRM/Contribute/Form/Contribution.php
 msgid "Payment Processor is a required field."
 msgstr "'Zahlungsdienstleister' ist ein Pflichtfeld."
-
-#: CRM/Contribute/Form/Contribution.php
-msgid "The sum of fee amount and net amount must be equal to total amount"
-msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
@@ -1101,11 +1682,7 @@ msgid ""
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
-msgid "The contribution record has been saved."
-msgstr "Die Zahlung wurde gespeichert."
-
-#: CRM/Contribute/Form/Contribution.php
-msgid "Office Credit Card contribution"
+msgid "Month and Year are required field for Revenue Recognition."
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
@@ -1113,18 +1690,24 @@ msgid "Payment Processor Error"
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
-msgid "The contribution record has been processed."
+msgid ""
+"Contribution submitted by a staff person using contributor's credit card"
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution.php
+msgid "The contribution record has been saved."
 msgstr "Die Zahlung wurde gespeichert."
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid ""
+"Oops. The membership you're trying to renew appears to be invalid. Contact "
+"your site administrator if you need assistance. If you continue, you will be"
+" issued a new membership."
+msgstr ""
 
 #: CRM/Contribute/Form/ContributionBase.php
 msgid "Membership Invalid"
 msgstr "Mitgliedschaft ungültig"
-
-#: CRM/Contribute/Form/ContributionBase.php
-msgid ""
-"A payment processor must be selected for this contribution page (contact the"
-" site administrator for assistance)."
-msgstr "Ein Zahlungsdienstleister muss für diese Spendenseite ausgewählt sein. Kontaktieren Sie bitte den/die Systemadministrator/in."
 
 #: CRM/Contribute/Form/ContributionBase.php
 msgid ""
@@ -1141,6 +1724,42 @@ msgstr "Auf der von Ihnen aufgerufenen Spendenseite fehlt ein Abschnitt zur Spen
 
 #: CRM/Contribute/Form/ContributionBase.php
 msgid ""
+"This contribution page has been configured for contribution on behalf of "
+"honoree and the selected honoree profile is either disabled or not found."
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid ""
+"This contribution page has been configured for contribution on behalf of "
+"honoree and the required fields of the selected honoree profile are disabled"
+" or doesn't exist."
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid ""
+"This contribution page has been configured for contribution on behalf of an "
+"organization and the selected onbehalf profile is either disabled or not "
+"found."
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Mixed profile not allowed for on behalf of registration/sign up."
+msgstr "Gemischtes Profil nicht zulässig für Registrierung/Einloggen."
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Select an existing organization"
+msgstr "eine bestehende Organisation auswählen"
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Enter a new organization"
+msgstr "eine neue Organisation anlegen"
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "options"
+msgstr "Optionen"
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid ""
 "Oops. It looks like you have an incorrect or incomplete link (URL). Please "
 "make sure you've copied the entire link, and try again. Contact the site "
 "administrator if this error persists."
@@ -1149,6 +1768,18 @@ msgstr "Oops. Dieser Link scheint falsch oder unvollständig zu sein. Bitte übe
 #: CRM/Contribute/Form/ContributionBase.php
 msgid "Oops. You cannot make a payment for this pledge - pledge status is %1."
 msgstr "Sie können leider keine Zahlung für diese Zahlungszusage leisten - Zahlungszusagenstatus ist %1."
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Invalid Membership"
+msgstr "Ungültige Mitgliedschaft"
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Please select one of the memberships."
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionBase.php
+msgid "Please renew my membership automatically."
+msgstr ""
 
 #: CRM/Contribute/Form/ContributionCharts.php
 msgid "Chart Style"
@@ -1231,10 +1862,24 @@ msgid "Send payment reminder"
 msgstr "Zahlungserinnerung senden"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/Search/Common.tpl
-msgid "Contribution Amounts"
-msgstr "Höhe der Zuwendung"
+msgid "Specific Calendar Date"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "Specific day of Month"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "Day of Contribution"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "Recurring Contribution Start Date Default"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "Allow Edits to Recurring Donation Start date?"
+msgstr ""
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 msgid ""
@@ -1264,6 +1909,10 @@ msgid ""
 msgstr "Es ist nicht möglich, wiederkehrende Zahlungen und Mitgliedschaften mit automatischer Erneuerung auf derselben Spendenseite zu aktivieren."
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid "The recurring start date cannot be prior to the current date."
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
 msgid "Please enter the contribution amount label."
 msgstr ""
 
@@ -1282,6 +1931,13 @@ msgid ""
 "Please enter the instructions to be sent to the contributor when they choose"
 " to 'pay later'."
 msgstr "Bitte fügen Sie die Anweisungen für die Spender ein, die 'Später zahlen' wählen."
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+msgid ""
+"You have listed fixed contribution options or selected a price set, but no "
+"payment option has been selected. Please select at least one payment "
+"processor and/or enable the pay later option."
+msgstr ""
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 msgid ""
@@ -1311,10 +1967,6 @@ msgid ""
 msgstr "Wenn sie den Bereich 'Zahlungsbeträge' aktivieren wollen, müssen Sie entweder 'Andere Beträge erlauben' und/oder mindestens eine Angabe bei 'festgelegten Zahlungsbeträgen' machen. "
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Google Checkout does not support recurring intervals"
-msgstr "Google Checkout unterstützt nicht regelmäßige Zahlungen"
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
 msgid ""
 " Please note that the Authorize.net payment processor only allows recurring "
 "contributions and auto-renew memberships with payment intervals from 7-365 "
@@ -1335,7 +1987,7 @@ msgstr "Beträge"
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid "Include Profiles"
-msgstr "Profil einfügen"
+msgstr "Profile"
 
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 msgid ""
@@ -1360,6 +2012,10 @@ msgstr "Die Spendenseite '%1' wurde gelöscht."
 #: CRM/Contribute/Form/ContributionPage/Premium.php
 msgid "Premiums Section Enabled?"
 msgstr "Prämien-Abschnitt aktiviert?"
+
+#: CRM/Contribute/Form/ContributionPage/Premium.php
+msgid "Contact Email"
+msgstr ""
 
 #: CRM/Contribute/Form/ContributionPage/Premium.php
 msgid "Contact Phone"
@@ -1398,6 +2054,10 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid "Title and Settings"
 msgstr "Titel und Einstellungen"
+
+#: CRM/Contribute/Form/ContributionPage/Settings.php
+msgid "I am contributing on behalf of an organization."
+msgstr "Ich spende im Namen einer Organisation."
 
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 msgid ""
@@ -1474,13 +2134,6 @@ msgstr ""
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 msgid "Widgets"
 msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/ThankYou.php
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
-#: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
-msgid "Thank-you and Receipting"
-msgstr "Dank und Bestätigung"
 
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 msgid "Email Receipt to Contributor?"
@@ -1580,10 +2233,6 @@ msgstr "Vorschauseite - %1"
 msgid "Delete Page - %1"
 msgstr "Seite löschen - %1"
 
-#: CRM/Contribute/Form/ContributionPage.php
-msgid "I am contributing on behalf of an organization."
-msgstr "Ich spende im Namen einer Organisation."
-
 #: CRM/Contribute/Form/ContributionView.php
 msgid "View Contribution from"
 msgstr "Ansicht der Zuwendung von"
@@ -1651,6 +2300,10 @@ msgid "Please enter a monetary value for the Minimum Contribution Amount."
 msgstr "Bitte geben Sie einen Betrag für die Mindest-Beitragshöhe ein."
 
 #: CRM/Contribute/Form/ManagePremiums.php
+msgid "A file must be selected"
+msgstr ""
+
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Image URL is Required"
 msgstr ""
 
@@ -1688,20 +2341,30 @@ msgid "Please enter the Frequency Interval for this subscription or service."
 msgstr "Bitte wählen Sie die Periode für das regelmäßige Abonnement oder Service."
 
 #: CRM/Contribute/Form/ManagePremiums.php
+msgid ""
+"This Premium is linked to an <a href='%1'>Online Contribution page</a>. "
+"Please remove it before deleting this Premium."
+msgstr ""
+
+#: CRM/Contribute/Form/ManagePremiums.php
+msgid "Cannot delete Premium"
+msgstr ""
+
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Selected Premium Product type has been deleted."
 msgstr "Der ausgewählte Prämientyp wurde gelöscht."
 
 #: CRM/Contribute/Form/ManagePremiums.php
-msgid ""
-"No thumbnail of your image was created because the GD image library is not "
-"currently compiled in your PHP installation. Product is currently configured"
-" to use default thumbnail image. If you have a local thumbnail image you can"
-" upload it separately and input the thumbnail URL by editing this premium."
-msgstr ""
-
-#: CRM/Contribute/Form/ManagePremiums.php
 msgid "The Premium '%1' has been saved."
 msgstr "Die Premium '%1' wurde gespeichert."
+
+#: CRM/Contribute/Form/ManagePremiums.php
+msgid "The product has been configured to use a default image."
+msgstr ""
+
+#: CRM/Contribute/Form/Search.php
+msgid "Contributor Contact Type"
+msgstr ""
 
 #: CRM/Contribute/Form/Search.php
 msgid "Find Contributions"
@@ -1737,23 +2400,38 @@ msgstr "Es können nicht mehrere Soft Credits für den gleichen Kontakt eingetra
 msgid "Soft credit amount cannot be more than the total amount."
 msgstr "Soft Credits können nicht höher sein als der Gesamtbetrag."
 
-#: CRM/Contribute/Form/SoftCredit.php
-msgid "Please choose a contact of type %1"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php
-msgid "Batch Update for Contributions"
-msgstr "Massenbearbeitung für Zahlungen"
+#: CRM/Contribute/Form/Task/Batch.php CRM/Contribute/Form/Task/PickProfile.php
+#: CRM/Contribute/Task.php
+msgid "Update multiple contributions"
+msgstr "mehrere Zuwendungen aktualisieren"
 
 #: CRM/Contribute/Form/Task/Batch.php
 msgid "Update Contribution(s)"
 msgstr "Zahlung(en) aktualisieren"
 
 #: CRM/Contribute/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple contributions."
+msgstr ""
+
+#: CRM/Contribute/Form/Task/Batch.php
 msgid "Update Contributions"
 msgstr "Zahlungen aktualisieren"
 
-#: CRM/Contribute/Form/Task/Delete.php CRM/Contribute/Task.php
+#: CRM/Contribute/Form/Task/Delete.php
+msgid "1 contribution could not be deleted."
+msgid_plural "%count contributions could not be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Contribute/Form/Task/Delete.php
+msgid "1 contribution will not be deleted."
+msgid_plural "%count contributions will not be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Contribute/Form/Task/Delete.php
 msgid "Delete Contributions"
 msgstr "Zuwendungen löschen"
 
@@ -1812,11 +2490,11 @@ msgstr ""
 
 #: CRM/Contribute/Form/Task/Invoice.php CRM/Contribute/Form/Task/PDF.php
 msgid "Your mail has been sent."
-msgstr "Ihre Email wurde versandt."
+msgstr "Ihre E-Mail wurde versandt."
 
 #: CRM/Contribute/Form/Task/PDF.php
 msgid "Print Contribution Receipts"
-msgstr "Drucke Zahlungsbelege für Zuwendungen"
+msgstr "Drucke Belege für Zuwendungen"
 
 #: CRM/Contribute/Form/Task/PDF.php
 msgid "Email Receipts"
@@ -1828,10 +2506,10 @@ msgstr "PDF-Zahlungsbelege"
 
 #: CRM/Contribute/Form/Task/PDF.php CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Update receipt dates for these contributions"
-msgstr ""
+msgstr "Belegdatum für diese Zuwendungen aktualisieren"
 
 #: CRM/Contribute/Form/Task/PDF.php
-msgid "Override privacy setting? (Do no email / Do not mail)"
+msgid "Override privacy setting? (Do not email / Do not mail)"
 msgstr ""
 
 #: CRM/Contribute/Form/Task/PDF.php
@@ -1848,7 +2526,7 @@ msgstr ""
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "- no grouping -"
-msgstr ""
+msgstr "- keine Gruppierung -"
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Contact and Recurring"
@@ -1863,12 +2541,16 @@ msgid "Contact and Campaign"
 msgstr ""
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
+msgid "Contact and Payment Method"
+msgstr "Kontakt und Zahlungsmethode"
+
+#: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Group contributions by"
-msgstr ""
+msgstr "Zuwendungen gruppieren nach"
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Separator (grouped contributions)"
-msgstr ""
+msgstr "Trennzeichen (gruppierte Zuwendungen)"
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Generate PDFs for printing (only)"
@@ -1898,17 +2580,14 @@ msgstr "Wenn möglich, E-Mails mit PDF-Anhang versenden. Außerdem PDF-Briefe er
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Print and email options"
-msgstr ""
+msgstr "Art der Erzeugung"
 
 #: CRM/Contribute/Form/Task/PDFLetter.php
 msgid "Make Thank-you Letters"
 msgstr "Dankesbriefe erstellen"
 
 #: CRM/Contribute/Form/Task/PDFLetterCommon.php
-msgid ""
-"You have selected the table cell separator, but one or more token fields are"
-" not placed inside a table cell. This would result in invalid HTML, so comma"
-" separators have been used instead."
+msgid "Thank you letter"
 msgstr ""
 
 #: CRM/Contribute/Form/Task/PDFLetterCommon.php
@@ -1931,23 +2610,27 @@ msgstr ""
 msgid "Please see attached"
 msgstr ""
 
-#: CRM/Contribute/Form/Task/PickProfile.php CRM/Contribute/Task.php
-msgid "Batch Update Contributions Via Profile"
-msgstr "Massenbearbeitung mit einem Profil"
+#: CRM/Contribute/Form/Task/PDFLetterCommon.php
+msgid ""
+"You have selected the table cell separator, but one or more token fields are"
+" not placed inside a table cell. This would result in invalid HTML, so comma"
+" separators have been used instead."
+msgstr ""
 
 #: CRM/Contribute/Form/Task/PickProfile.php
 msgid ""
-"The maximum number of contributions you can select for Batch Update is %1. "
-"You have selected %2. Please select fewer contributions from your search "
-"results and try again."
-msgstr "Die maximale Anzahl von Zuwendungen die für den Batch Update ausgewählt werden können, ist %1. sie haben %2 ausgewählt. Bitte markieren Sie eine kleinere Auswahl in den Suchergebnissen."
+"The maximum number of contributions you can select for Update multiple "
+"contributions is %1. You have selected %2. Please select fewer contributions"
+" from your search results and try again."
+msgstr ""
 
 #: CRM/Contribute/Form/Task/PickProfile.php
 msgid ""
 "You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Batch Update via Profile. Navigate to Administer CiviCRM "
-"> Customize Data and Screens > CiviCRM Profile to configure a Profile. "
-"Consult the online Administrator documentation for more information."
+"before you can use Update multiple contributions. Navigate to Administer "
+"CiviCRM > Customize Data and Screens > CiviCRM Profile to configure a "
+"Profile. Consult the online Administrator documentation for more "
+"information."
 msgstr ""
 
 #: CRM/Contribute/Form/Task/PickProfile.php
@@ -1979,8 +2662,9 @@ msgstr "Die Transaktionsnummer muss eindeutig sein. Fügen Sie die Kontonummer f
 
 #: CRM/Contribute/Form/Task/Status.php
 msgid ""
-"Paid By should be Check when a check number is entered for a contribution."
-msgstr "Zahlungsart sollte Scheck sein, wenn eine Scheck-Nummer eingegeben wird."
+"Payment Method should be Check when a check number is entered for a "
+"contribution."
+msgstr ""
 
 #: CRM/Contribute/Form/Task/Status.php
 msgid "Contribution status has been updated for selected record(s)."
@@ -2022,7 +2706,12 @@ msgid "Update Error"
 msgstr "Fehler bei der Aktualisierung"
 
 #: CRM/Contribute/Form/UpdateSubscription.php
-msgid "You cannot update the subscription."
+msgid ""
+"There is no valid processor for this subscription so it cannot be edited."
+msgstr ""
+
+#: CRM/Contribute/Form/UpdateSubscription.php
+msgid "Required information missing."
 msgstr ""
 
 #: CRM/Contribute/Form/UpdateSubscription.php
@@ -2048,19 +2737,27 @@ msgid "Update Success"
 msgstr "Erfolgreiche Aktualisierung"
 
 #: CRM/Contribute/Form/UpdateSubscription.php
+msgid "Recurring Contribution Updated"
+msgstr ""
+
+#: CRM/Contribute/Form/UpdateSubscription.php
 msgid ""
 "Recurring contribution amount has been updated from %1 to %2 for this "
 "subscription."
 msgstr ""
 
 #: CRM/Contribute/Form/UpdateSubscription.php
-msgid ""
-"Recurring contribution installments have been updated from %1 to %2 for this"
-" subscription."
+msgid "Recurring Contribution Updated - increased installment amount"
 msgstr ""
 
 #: CRM/Contribute/Form/UpdateSubscription.php
-msgid "Recurring Contribution Updated"
+msgid "Recurring Contribution Updated - decreased installment amount"
+msgstr ""
+
+#: CRM/Contribute/Form/UpdateSubscription.php
+msgid ""
+"Recurring contribution installments have been updated from %1 to %2 for this"
+" subscription."
 msgstr ""
 
 #: CRM/Contribute/Import/Form/DataSource.php
@@ -2094,6 +2791,14 @@ msgstr "Wenigstens ein Zahlungsfeld muss für Aktualisierungen zugewiesen sein i
 #: CRM/Contribute/Import/Form/MapField.php
 msgid "Duplicate Import Contribution Mapping Name"
 msgstr "Doppelte Zuweisung für Zahlungsdatenimport"
+
+#: CRM/Contribute/Import/Parser/Contribution.php
+msgid "Receipt date"
+msgstr ""
+
+#: CRM/Contribute/Import/Parser/Contribution.php
+msgid "Thankyou Date"
+msgstr ""
 
 #: CRM/Contribute/Import/Parser.php
 msgid "View Contribution URL"
@@ -2129,9 +2834,9 @@ msgstr ""
 msgid "delete in CiviContribute"
 msgstr ""
 
-#: CRM/Contribute/Info.php
+#: CRM/Contribute/Info.php CRM/Contribute/Task.php
 msgid "Delete contributions"
-msgstr ""
+msgstr "Zuwendungen löschen"
 
 #: CRM/Contribute/Info.php
 msgid "Your Contribution(s)"
@@ -2154,8 +2859,19 @@ msgid "Make a Copy of CiviCRM Contribution Page"
 msgstr "Eine Kopie der CiviCRM-Spendenseite erstellen"
 
 #: CRM/Contribute/Page/ContributionPage.php
+#: templates/CRM/Contribute/Form/Search/Common.tpl
+msgid "Contribution Amounts"
+msgstr "Höhe der Zuwendung"
+
+#: CRM/Contribute/Page/ContributionPage.php
 msgid "Membership Settings"
 msgstr "Mitgliedschafts-Konfiguration"
+
+#: CRM/Contribute/Page/ContributionPage.php
+#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
+#: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
+msgid "Thank-you and Receipting"
+msgstr "Dank und Bestätigung"
 
 #: CRM/Contribute/Page/ContributionPage.php
 msgid "Contribution Widget"
@@ -2164,6 +2880,11 @@ msgstr "Zuwendungs Widget"
 #: CRM/Contribute/Page/ContributionPage.php
 msgid "Live Page"
 msgstr "produktive Webseite"
+
+#: CRM/Contribute/Page/ContributionPage.php
+#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
+msgid "Test-drive"
+msgstr ""
 
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Page/DashBoard.tpl
@@ -2209,6 +2930,17 @@ msgstr "Zahlungen suchen"
 msgid "Contribution %%StatusMessage%%"
 msgstr "Zuwendung %%StatusMessage%%"
 
+#: CRM/Contribute/Page/ContributionRecur.php
+msgid "View Recurring Contribution from"
+msgstr ""
+
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+msgid "Incomplete Transaction"
+msgstr "Unvollständige Transaktion"
+
 #: CRM/Contribute/Page/DashBoard.php
 msgid "Contributions Charts"
 msgstr "Zuwendungsgrafik"
@@ -2238,13 +2970,16 @@ msgid "Are you sure you want to remove this product form this page?"
 msgstr "Sind Sie sicher, dass Sie dieses Produkt von dieser Seite entfernen möchten?"
 
 #: CRM/Contribute/Page/Tab.php
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
 msgid "View Recurring Payment"
 msgstr "Wiederkehrende Zahlung betrachten"
 
 #: CRM/Contribute/Page/Tab.php
 msgid "Edit Recurring Payment"
 msgstr "Wiederkehrende Zahlungen bearbeiten"
+
+#: CRM/Contribute/Page/UserDashboard.php
+msgid "Pay Now"
+msgstr ""
 
 #: CRM/Contribute/Selector/Search.php
 msgid "Edit Contribution"
@@ -2255,30 +2990,31 @@ msgid "Delete Contribution"
 msgstr "Zuwendung löschen"
 
 #: CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Incomplete Transaction"
-msgstr "Unvollständige Transaktion"
+#: templates/CRM/Contribute/Form/Task/Print.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+msgid "Thank-you Sent"
+msgstr "bedankt am"
 
 #: CRM/Contribute/Task.php
-msgid "Export Contributions"
+msgid "Export contributions"
 msgstr "Exportiere Zuwendungen"
 
 #: CRM/Contribute/Task.php
-msgid "Update Pending Contribution Status"
+msgid "Update pending contribution status"
 msgstr "Aktualisiere den Status für ausstehende Zuwendungen"
 
 #: CRM/Contribute/Task.php
-msgid "Print or Email Contribution Receipts"
-msgstr "Zahlungsbelege für Zuwendungen drucken oder per E-Mail versenden"
+msgid "Receipts - print or email"
+msgstr "Belege drucken oder verschicken"
 
 #: CRM/Contribute/Task.php
-msgid "Thank-you Letters for Contributions"
-msgstr "Dankesbriefe für Zuwendungen"
+msgid "Thank-you letters - print or email"
+msgstr "Dankesbriefe erzeugen"
 
 #: CRM/Contribute/Task.php
-msgid "Print or Email Contribution Invoices"
-msgstr "Rechnungen für oder per E-Mail versenden"
+msgid "Invoices - print or email"
+msgstr "Rechnungen drucke oder per E-Mail versenden"
 
 #: templates/CRM/Contribute/Form/AcceptCreditCard.tpl
 msgid "New Credit Card"
@@ -2370,14 +3106,9 @@ msgid "Choose the method by which this transaction was paid."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.hlp
-#: templates/CRM/Contribute/Page/Tab.hlp
 msgid ""
 "Note: if the correct payment instrument is not listed here (e.g. for in-kind"
 " donations) ask your administrator to add a new option to this list."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-msgid "No additional payments found for this %1 record"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
@@ -2389,26 +3120,21 @@ msgid "Refund Due"
 msgstr "Fälligkeit der Erstattung"
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
+msgid "Automatically email a receipt to %1?"
+msgstr "Automatische eine E-Mail mit einer Bestätigung an %1 senden?"
+
+#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 msgid "Refund Details"
 msgstr "Details zur Erstattung"
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 #: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Contribute/Form/ContributionView.tpl
 msgid "Payment Details"
 msgstr "Zahlungsdetails"
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 msgid "The date this payment was received."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-msgid "Automatically email a receipt to %1?"
-msgstr "Automatische eine E-Mail mit einer Bestätigung an %1 senden?"
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-msgid ""
-"Enter a message you want included at the beginning of the confirmation "
-"email."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
@@ -2452,60 +3178,43 @@ msgid ""
 msgstr "Bitte überprüfen Sie die Angaben sorgfältig. Klicken Sie auf <strong>Zurück</strong>, wenn Sie etwas ändern möchten."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-msgid ""
-"Click the <strong>Google Checkout</strong> button to checkout to Google, "
-"where you will select your payment method and complete the contribution."
-msgstr "Drücken Sie den <strong>Google Checkout</strong> Button um zu Google fortzufahren, wo Sie die Zahlungsart wählen und die Transaktion abschließen können."
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-msgid ""
-"Click the <strong>%2</strong> button to go to %1, where you will select your"
-" payment method and complete the contribution."
-msgstr "Klicken Sie auf <strong>%2</strong>, um Ihre Zahlung per %1 abzuschließen."
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-msgid ""
-"To complete this transaction, click the <strong>%1</strong> button below."
-msgstr "Um die Transaktion abzuschließen, klicken Sie auf den  <strong>%1</strong> Button."
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-msgid ""
-"To complete your contribution, click the <strong>%1</strong> button below."
-msgstr "Um Ihre Spende abzuschließen, klicken Sie auf <strong>%1</strong>."
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid "I want this membership to be renewed automatically every %1 %2(s)."
 msgstr "Ich möchte diese Mitgliedschaft alle %1 %2 automatisch verlängern lassen."
+
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+msgid "This membership will be renewed automatically every %1 %2(s)."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
 "Your initial membership fee will be processed once you complete the "
 "confirmation step. You will be able to cancel the auto-renewal option by "
 "visiting the web page link that will be included in your receipt."
-msgstr ""
+msgstr "Nach Ihrer Bestätigung wird die Zahlung verarbeitet."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid "I want to contribute this amount every %1 %2s for %3 installments."
-msgstr ""
+msgstr "Ich möchte diesen Betrag regelmäßig beitragen, einmal pro %1 %2s, insgesamt %3 Zahlungen."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid "I want to contribute this amount every %1 for %2 installments."
-msgstr ""
+msgstr "Ich möchte diesen Betrag regelmäßig beitragen, einmal pro %1, insgesamt %2 Zahlungen."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid "I want to contribute this amount every %1 %2s."
-msgstr ""
+msgstr "Ich möchte diesen Betrag regelmäßig beitragen, alle %1 %2(e)."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid "I want to contribute this amount every %1."
-msgstr ""
+msgstr "Ich möchte diesen Betrag regelmäßig beitragen, einmal pro %1."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
 "Your initial contribution will be processed once you complete the "
 "confirmation step. You will be able to cancel the recurring contribution by "
 "visiting the web page link that will be included in your receipt."
-msgstr ""
+msgstr "Nach Ihrer Bestätigung wird die Zahlung verarbeitet."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
@@ -2532,13 +3241,6 @@ msgid ""
 msgstr "Ihre erste Zahlung wird verarbeitet, nachdem Sie \"%2\" geklickt haben. Ihre zukünftigen Zahlungen können Sie jederzeit ändern oder beenden, indem Sie sich in Ihrem Benutzerkonto einloggen oder uns unter %1 kontaktieren."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: xml/templates/message_templates/contribution_dupalert_html.tpl
-#: xml/templates/message_templates/contribution_dupalert_text.tpl
-msgid "Organization Email"
-msgstr "E-Mail-Adresse der Organisation"
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 msgid "Agreement"
 msgstr "Vereinbarung"
@@ -2553,15 +3255,23 @@ msgstr "Ihre Kontodaten werden verwendet um den Betrag per Lastschrift von Ihrem
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"Your transaction will not be completed until you click the "
-"<strong>%1</strong> button. Please click the button one time only."
-msgstr "Ihre Transaktion wird nicht abgeschlossen bis Sie den <strong>%1</strong> Button drücken. Bitte drücken Sie den Button nur einmal."
+"Your transaction will not be completed until you click the\n"
+"            <strong>%1</strong>\n"
+"            button. Please click the button one time only."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"Your contribution will not be completed until you click the "
-"<strong>%1</strong> button. Please click the button one time only."
-msgstr "Ihre Zuwendung wird erst abgeschlossen, wenn Sie auf <strong>Jetzt spenden</strong> drücken. Bitte nur einmal drücken."
+"Your contribution will not be completed until you click the\n"
+"            <strong>%1</strong>\n"
+"            button. Please click the button one time only."
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution/Main.tpl
+msgid ""
+"To display reCAPTCHA on form you must get an API key from<br /> <a "
+"href='https://www.google.com/recaptcha/admin/create'>https://www.google.com/recaptcha/admin/create</a>"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 msgid "Click here to do this for a different person."
@@ -2577,6 +3287,15 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+msgid "Contribution Information"
+msgstr "Zahlungsinformation"
+
+#: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid "for"
 msgstr "für"
@@ -2586,33 +3305,26 @@ msgid "installments."
 msgstr "Raten"
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
-msgid "Your recurring contribution will be processed automatically."
-msgstr "Ihre wiederkehrende Zahlung wird automatisch abgebucht."
+msgid "Select an option to reveal honoree information fields."
+msgstr "Festlegen, inwiefern Daten des zu Ehrenden erscheinen sollen."
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
-msgid ""
-"You can specify the number of installments, or you can leave the number of "
-"installments blank if you want to make an open-ended commitment. In either "
-"case, you can choose to cancel at any time."
+msgid "Regular amount"
 msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-msgid "You will receive an email receipt for each recurring contribution."
-msgstr "Je nach Einstellung bekommen Sie ggf. eine E-Mail-Bestätigung für jede Spende."
 
 #: templates/CRM/Contribute/Form/Contribution/MembershipBlock.tpl
 msgid "Your <strong>%2</strong> membership expired on %1."
-msgstr "Ihre Mitgliedschaft als <strong>%2</strong> ist am %1 abgelaufen."
+msgstr "Ihre Mitgliedschaft vom Typ <strong>%2</strong> ist am %1 abgelaufen."
 
 #: templates/CRM/Contribute/Form/Contribution/MembershipBlock.tpl
 msgid "Your <strong>%2</strong> membership expires on %1."
-msgstr "Ihre Mitgliedschaft als <strong>%2</strong> läuft am %1 ab."
+msgstr "Ihre Mitgliedschaft vom Typ <strong>%2</strong> läuft am %1 ab."
 
 #: templates/CRM/Contribute/Form/Contribution/MembershipBlock.tpl
 msgid ""
 "Your <strong>%1</strong> membership does not expire (you do not need to "
 "renew that membership)."
-msgstr "Ihre Mitgliedschaft als <strong>%1</strong> läuft nicht ab (Sie müssen diese Mitgliedschaft nicht verlängern)."
+msgstr "Ihre Mitgliedschaft vom Typ <strong>%1</strong> läuft nicht ab (Sie müssen diese Mitgliedschaft nicht verlängern)."
 
 #: templates/CRM/Contribute/Form/Contribution/MembershipBlock.tpl
 msgid "Select a Membership Renewal Level"
@@ -2625,16 +3337,6 @@ msgstr ""
 #: templates/CRM/Contribute/Form/Contribution/MembershipBlock.tpl
 msgid "(contribute at least %1 to be eligible for this membership)"
 msgstr "(Leisten Sie einen Beitrag von mindestens %1 für diese Mitgliedschaft)"
-
-#: templates/CRM/Contribute/Form/Contribution/OnBehalfOf.tpl
-msgid ""
-"Organization details have been prefilled for you. If this is not the "
-"organization you want to use, click \"Enter a new organization\" above."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/OnBehalfOf.tpl
-msgid "Use existing organization"
-msgstr "eine bestehende Organisation nutzen"
 
 #: templates/CRM/Contribute/Form/Contribution/PremiumBlock.tpl
 msgid "Your Premium Selection"
@@ -2686,10 +3388,8 @@ msgid ""
 msgstr "Eine E-Mail-Bestätigung mit diesen Zahlungsanweisungen wurde an %1 gesendet."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-msgid ""
-"Your contribution has been submitted to %1 for processing. Please print this"
-" page for your records."
-msgstr "Ihre Zahlung via %1 wurde erfolgreich verarbeitet. Bitte drucken Sie sich bei Bedarf diese Seite für Ihre Unterlagen aus."
+msgid "Your contribution has been submitted to %1 for processing."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -2704,10 +3404,8 @@ msgid ""
 msgstr "Ein E-Mail-Zahlungsbeleg wird an %1 gesendet, sobald die Transaktion erfolgreich durchgeführt wurde."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-msgid ""
-"Your transaction has been processed successfully. Please print this page for"
-" your records."
-msgstr "Ihre Zahlung wurde erfolgreich abgewickelt. Bitte drucken Sie sich diese Seite für Ihre Unterlagen aus."
+msgid "Your transaction has been processed successfully."
+msgstr "Ihre Zahlung wurde erfolgreich bearbeitet."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "An email receipt has also been sent to %1 and to %2"
@@ -2716,18 +3414,6 @@ msgstr "Ein E-Mail-Zahlungsbeleg wurde auch an %1 und %2 gesendet."
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "An email receipt has also been sent to %1"
 msgstr "Ein E-Mail-Zahlungsbeleg wurde auch an %1 gesendet."
-
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-msgid "Contribution Information"
-msgstr "Zahlungsinformation"
-
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-msgid "This membership will be renewed automatically every %1 %2(s)."
-msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid "This membership will be renewed automatically every %1."
@@ -2749,7 +3435,7 @@ msgstr ""
 msgid ""
 "This recurring contribution will be automatically processed every %1 for a "
 "total %2 installments (including this initial contribution)."
-msgstr ""
+msgstr "Diese wiederkehrende Zuwendung wird automatisch einmal pro %1 eingezogen insgesamt %2 Zahlungen (inklusive dieser ersten Zahlung)."
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
@@ -2788,24 +3474,30 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
-"You will not be able to send an automatic email receipt for this "
-"contribution because there is no email address recorded for this contact. If"
-" you want a receipt to be sent when this contribution is recorded, click "
-"Cancel and then click Edit from the Summary tab to add an email address "
-"before recording the contribution."
-msgstr "Eine automatische E-Mail-Bestätigung für diese Zuwendung kann nicht versandt werden, weil keine E-Mail-Adresse für diesen Kontakt vorhanden ist. Wenn Sie eine automatische E-Mail-Bestätigung verschicken möchten, müssen Sie eine E-Mail-Adresse VOR Erfassung der Zuwendung hinzufügen. Dafür klicken Sie jetzt auf \"Abbrechen\", gehen auf die Registerkarte \"Zusammenfassung\", klicken dann auf \"Bearbeiten\" und fügen die Email hinzu und speichern den Eintrag. Erst danach erfassen Sie die Zuwendung. "
+"Use this form to edit a contribution on behalf of %1. <strong>A\n"
+"      %2 transaction will be submitted</strong> using the selected payment processor."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
-"Use this form to submit a new contribution on behalf of %1. <strong>A %2 "
-"transaction will be submitted</strong> using the selected payment processor."
-msgstr "Verwenden Sie dieses Formular um eine Zuwendung im Namen von %1 einzugeben.<strong>Eine %2-Transaktion wird unter Verwendung der gewählten Zahlungsmethode eingegeben</strong>."
+"Use this form to submit a new contribution on behalf of %1. <strong>A\n"
+"      %2 transaction will be submitted</strong> using the selected payment processor."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
 "Use this form to submit a new contribution. <strong>A %2 transaction will be"
 " submitted</strong> using the selected payment processor."
 msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid ""
+"You will not be able to send an automatic email receipt for this "
+"contribution because there is no email address recorded for this contact. If"
+" you want a receipt to be sent when this contribution is recorded, click "
+"Cancel and then click Edit from the Summary tab to add an email address "
+"before recording the contribution."
+msgstr "Eine automatische E-Mail-Bestätigung für diese Zuwendung kann nicht versandt werden, weil keine E-Mail-Adresse für diesen Kontakt vorhanden ist. Wenn Sie eine automatische E-Mail-Bestätigung verschicken möchten, müssen Sie eine E-Mail-Adresse VOR Erfassung der Zuwendung hinzufügen. Dafür klicken Sie jetzt auf \"Abbrechen\", gehen auf die Registerkarte \"Zusammenfassung\", klicken dann auf \"Bearbeiten\" und fügen die Email hinzu und speichern den Eintrag. Erst danach erfassen Sie die Zuwendung. "
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
@@ -2818,7 +3510,9 @@ msgid "submit credit card contribution"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "<a href='#' onclick='adjustPayment();'>adjust payment amount</a>"
+msgid ""
+"<a class='action-item crm-hover-button' onclick='adjustPayment();'>adjust "
+"payment amount</a>"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
@@ -2839,18 +3533,6 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Automatically email a receipt for this contribution to %1?"
-msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an: %1?"
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Automatically email a receipt for this contribution to "
-msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an "
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Date that a receipt was sent to the contributor."
-msgstr "Datum, an dem ein Zahlungsbeleg an den Unterstützer versendet wurde."
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
 msgid "Cancellation or Refund Information"
 msgstr ""
 
@@ -2859,6 +3541,22 @@ msgid ""
 "Enter the cancellation or refunded date, or you can skip this field and the "
 "cancellation date or refunded date will be automatically set to TODAY."
 msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "The date this contribution was received."
+msgstr "Datum des Zahlungseingangs."
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "Automatically email a receipt for this payment to %1?"
+msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an: %1?"
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "Automatically email a receipt for this payment to "
+msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an"
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "Date that a receipt was sent to the contributor."
+msgstr "Datum, an dem ein Zahlungsbeleg an den Unterstützer versendet wurde."
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
@@ -2878,18 +3576,6 @@ msgid ""
 msgstr "Persönliche Mitteilung des Spenders zur Anzeige auf der Ehrentafel."
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "The date this contribution was received."
-msgstr "Datum des Zahlungseingangs."
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Automatically email a receipt for this payment to %1?"
-msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an: %1?"
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Automatically email a receipt for this payment to "
-msgstr "Automatisch einen E-Mail-Zahlungsbeleg für diese Zuwendung senden an"
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
 msgid ""
 "Click OK to save this contribution record AND send a receipt to the "
 "contributor now"
@@ -2897,6 +3583,10 @@ msgstr "Klicken Sie OK, um diese Zuwendung zu speichern und einen Zahlungsbeleg 
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 msgid "Manual contribution amount"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+msgid "Amount with %1 :"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionCharts.tpl
@@ -2912,6 +3602,12 @@ msgid ""
 "Select a Financial Type that has both a 'Cost of Sales Premiums Account' and"
 " a 'Premiums Inventory Account' if you want to generate accounting "
 "transactions to track the cost of premiums used."
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionPage/AddProduct.hlp
+msgid ""
+"The default Financial Type is configured when creating the \"Premium\" but "
+"it can be changed for each contribution page if required."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/AddProduct.tpl
@@ -2956,6 +3652,10 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/AddProduct.tpl
+msgid "Reset to default for selected product"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionPage/AddProduct.tpl
 msgid ""
 "Weight controls the order that premiums are displayed on the Contribution "
 "Page."
@@ -2965,13 +3665,13 @@ msgstr "Die Gewichtung bestimmt die Reihenfolge, in der die Prämien auf der Spe
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid ""
 "Use this form to configure Contribution Amount options. You can give "
-"contributors the ability to enter their own contribution amounts - and/or "
+"contributors the ability to enter their own contribution amounts and/or "
 "provide a fixed list of amounts. For fixed amounts, you can enter a label "
 "for each 'level' of contribution (e.g. Friend, Sustainer, etc.). If you "
 "allow people to enter their own dollar amounts, you can also set minimum and"
 " maximum values. Depending on your choice of Payment Processor, you may be "
 "able to offer a recurring contribution option."
-msgstr "Konfigurieren der Zuwendungsbetrags-Optionen. Sie können Spendern die Höhe ihrer Spende flexibel selber festlegen lassen und/oder vorgebene Spendenbeträge zur Auswahl geben. Für diese festen Beträge, können Bezeichnungen vergeben werden (\"Freund\", \"Gold-Level\" usw.). Für freie Spendenbeträge können Minimum- und Maximumbeträge angegeben werden. In Abhängigkeit des verwendeten Zahlungsprozessors können auch wiederkehrende Spendenzusagen eingegeben werden."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 msgid ""
@@ -3012,9 +3712,9 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 msgid ""
 "Uncheck this box if you are using this contribution page for membership "
-"signup and renewal only - and you do NOT want users to select or enter any "
-"additional contribution amounts."
-msgstr "Entfernen Sie das Häkchen, wenn Sie die Zuwendungsseite ausschließlich für Mitgliedschaften verwenden und Sie NICHT möchten, dass Benutzer andere Beträge auswählen oder eingeben können."
+"signup and renewal only &ndash; and you do NOT want users to select or enter"
+" any additional contribution amounts."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 msgid ""
@@ -3051,6 +3751,12 @@ msgstr "Können Benutzer auch ein Intervall festlegen (z.B. alle 3 Monate)?"
 msgid ""
 "Give the user a choice of installments (e.g. donate every month for 6 "
 "months)? If not, recurring donations will continue indefinitely."
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
+msgid ""
+"Recurring payment will be processed this day of the month following "
+"submission of this contribution page."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
@@ -3115,17 +3821,17 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
-msgid "Contributer Profiles"
+msgid "Contributor Profiles"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
 msgid ""
 "If you want collect additional information from contributors, you can "
-"include one or two CiviCRM Profiles - which are collections of standard or "
-"custom fields - in this contribution page. For example, you may need to "
-"collect information about the person (e.g. name and address if these are not"
-" already required by your payment processor, interest in subscribing to a "
-"newsletter or volunteering). You might also want to collect information "
+"include one or two CiviCRM Profiles&mdash;which are collections of standard "
+"or custom fields&mdash;in this contribution page. For example, you may need "
+"to collect information about the person (e.g. name and address if these are "
+"not already required by your payment processor, interest in subscribing to a"
+" newsletter or volunteering). You might also want to collect information "
 "specific to this contribution (e.g. target one or several projects or funds "
 "to support with this contribution)."
 msgstr ""
@@ -3199,6 +3905,12 @@ msgid ""
 "transactions associated with this page in CiviContribute."
 msgstr ""
 
+#: templates/CRM/Contribute/Form/ContributionPage/Delete.tpl
+msgid ""
+"WARNING: Are you sure you want to Delete the selected Contribution Page? A "
+"Delete operation cannot be undone. Do you want to continue?"
+msgstr ""
+
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 msgid ""
 "When Personal Campaign Pages are enabled, constituents will see a link "
@@ -3212,10 +3924,10 @@ msgid ""
 "address) from users while they are creating a Personal Campaign Page. The "
 "profile you select must be configured with 'Account creation required' "
 "(under Profile Settings &raquo; Advanced Settings). You must include an "
-"Email address field - and you may include any number of other fields in the "
-"profile. If you don't yet have an appropriate Profile configured, you will "
-"need to <a href='%1'>create one first</a>, and then return to this form to "
-"select it."
+"Email address field&mdash;and you may include any number of other fields in "
+"the profile. If you don't yet have an appropriate Profile configured, you "
+"will need to <a href='%1'>create one first</a>, and then return to this form"
+" to select it."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Premium.tpl
@@ -3249,8 +3961,8 @@ msgstr "Titel des Prämienabschnitts"
 msgid ""
 "Enter content for the introductory message. This will be displayed below the"
 " Premiums section title. You may include HTML formatting tags. You can also "
-"include images, as long as they are already uploaded to a server - reference"
-" them using complete URLs."
+"include images, as long as they are already uploaded to a "
+"server&mdash;reference them using complete URLs."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Premium.tpl
@@ -3310,7 +4022,7 @@ msgstr ""
 msgid ""
 "Enter content for the introductory message. This will be displayed below the"
 " page title. You can include images, as long as they are already uploaded to"
-" a server - click the \"Image\" button in the button bar."
+" a server: click the \"Image\" button in the button bar."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Settings.hlp
@@ -3440,7 +4152,7 @@ msgid ""
 "To change the organization data collected use the \"On Behalf Of "
 "Organization\" profile (<a href=\"%1\">Administer > Customize Data and "
 "Screens > Profiles</a>)."
-msgstr ""
+msgstr "Um die erfassten Organisationsdaten zu ändern, verwenden Sie das Profil \"Im Namen einer Organisation\" (<a href=\"%1\"> Administration > Daten und Anzeigen anpassen > Profile </a>)."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Settings.tpl
 msgid "Text displayed next to the checkbox on the contribution form."
@@ -3503,13 +4215,13 @@ msgid ""
 "Contributors will see a confirmation and thank-you page after whenever an "
 "online contribution is successfully processed. You provide the content and "
 "layout of the thank-you section below. You also control whether an "
-"electronic receipt is automatically emailed to each contributor - and can "
-"add a custom message to that receipt."
+"electronic receipt is automatically emailed to each contributor, and you can"
+" add a custom message to that receipt."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid ""
-"You can use existing CiviCRM Profiles on your page - OR create profile(s) "
+"You can use existing CiviCRM Profiles on your page or create profile(s) "
 "specifically for use in Online Contribution pages. Go to <a "
 "href=\"%1\"><strong>Administer CiviCRM Profiles</strong></a> if you need to "
 "review, modify or create profiles (you can come back at any time to select "
@@ -3534,14 +4246,14 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid ""
 "Widgets allow you and your supporters to easily promote this fund-raising "
-"campaign. Widget code can be added to any web page - and will provide a "
+"campaign. Widget code can be added to any web page.  They will provide a "
 "real-time display of current contribution results, and a direct link to this"
 " contribution page."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 msgid ""
-"Test-drive the entire contribution process - including custom fields, "
+"Test-drive the entire contribution process&mdash;including custom fields, "
 "confirmation, thank-you page, and receipting. Transactions will be directed "
 "to your payment processor's test server. No live financial transactions will"
 " be submitted. However, a contact record will be created or updated and a "
@@ -3584,8 +4296,8 @@ msgid ""
 "this online contribution page. Contributors will see a thank-you page "
 "whenever an online contribution is successfully processed. You provide the "
 "content and layout of the thank-you section below. You also control whether "
-"an electronic receipt is automatically emailed to each contributor - and can"
-" add a custom message to that receipt."
+"an electronic receipt is automatically emailed to each contributor, and you "
+"can add a custom message to that receipt."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
@@ -3687,7 +4399,7 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid "CC Receipts"
-msgstr ""
+msgstr "Kopien (CC) der Zahlungsbelege"
 
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid ""
@@ -3699,7 +4411,7 @@ msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid "BCC Receipts"
-msgstr ""
+msgstr "Blindkopien (BCC) der Zahlungsbelege"
 
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid ""
@@ -3762,8 +4474,8 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
 msgid ""
 "CiviContribute widgets allow you and your supporters to easily promote this "
-"fund-raising campaign. Widget code can be added to any web page - and will "
-"provide a real-time display of current contribution results, and a direct "
+"fund-raising campaign. Widget code can be added to any web page.  It will "
+"provide a real-time display of current contribution results and a direct "
 "link to this contribution page."
 msgstr ""
 
@@ -3771,7 +4483,7 @@ msgstr ""
 msgid ""
 "Enter content for the about message. You may include HTML formatting tags. "
 "You can also include images, as long as they are already uploaded to a "
-"server - reference them using complete URLs."
+"server&mdash;reference them using complete URLs."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
@@ -3795,6 +4507,10 @@ msgid "Add this widget to any web page by copying and pasting the code below."
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
+msgid "Select Code"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
 msgid ""
 "The code for adding this widget to web pages will be displayed here after "
 "you click <strong>Save and Preview</strong>."
@@ -3803,13 +4519,6 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
 msgid "Edit Widget Colors"
 msgstr "Bearbeite Widget Farben"
-
-#: templates/CRM/Contribute/Form/ContributionPage/Widget.tpl
-msgid ""
-"Enter colors in hexadecimal format prefixed with <em>#</em>. EXAMPLE: "
-"<em>#FF0000</em> = Red. You can do a web search on 'hexadecimal colors' to "
-"find a chart of color codes."
-msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
@@ -3820,10 +4529,6 @@ msgstr "Rechnung drucken"
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 msgid "Print Invoice and Credit Note"
 msgstr "Rechnung und Gutschrift erzeugen "
-
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Recurring Contribution"
-msgstr "Wiederkehrende Zuwendungen"
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 msgid "(ongoing)"
@@ -3842,9 +4547,17 @@ msgid "Received Into"
 msgstr "Verbucht unter"
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
+msgid "Refund Transaction ID"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 msgid "Receipt Sent"
 msgstr "Beleg versandt"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+msgid "Payment Summary"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 msgid "Personal Campaign Page Contribution Information"
@@ -3902,8 +4615,8 @@ msgid ""
 "already on the Web. If you chose to upload an image file, a 'thumbnail' "
 "version will be automatically created for you. If you don't have an image "
 "available at this time, you may also choose to display a 'No Image "
-"Available' icon - by selecting the 'default image'."
-msgstr "Sie können ein Bild von Ihrem Computer hochladen oder auf ein Bild verweisen, das bereits im web verfügbar ist. Falls Sie selbst ein Bild hochladen, wird die thumbnail-Version automatisch erzeugt. Falls Sie kein Bild verfügbar haben, können Sie auch ein \"no image available\"-Icon anzeigen lassen, in dem Sie das \"default image\" auswählen."
+"Available' icon by selecting the 'default image'."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/ManagePremiums.tpl
 msgid ""
@@ -3997,29 +4710,29 @@ msgid ""
 "names (or nicknames) of the people who donated through your fundraising "
 "page. (Donors will have the option to remain anonymous. Their names will NOT"
 " be listed.)"
-msgstr "Wenn das aktiviert ist, wird eine \"Ehrenliste\" dargestellt mit den Namen (oder Benutzernamen) von den Personen die durch deine persönliche Spendenseite gespendet haben. (Spender können aber auch anonym bleiben und werden dann NICHT aufgeführt)"
+msgstr "Aktivieren Sie diese Option, um eine \"Ehrungsliste\" mit den Namen (oder Pseudonymen) von den Personen, die über Ihre persönliche Spendenseite gespendet haben, anzuzeigen. (Spender können aber auch anonym bleiben und werden dann NICHT aufgeführt.)"
+
+#: templates/CRM/Contribute/Form/PaymentInfoBlock.tpl
+msgid "No payments found for this %1 record"
+msgstr "Keine Zahlungen für diesen %1 Eintrag gefunden"
 
 #: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "New Payment Instrument"
-msgstr "Neues Zahlungsverfahren"
+msgid "New Payment Method"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "Edit Payment Instrument"
-msgstr "Zahlungsverfahren bearbeiten"
+msgid "Edit Payment Method"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "Delete Payment Instrument"
-msgstr "Zahlungsverfahren löschen"
+msgid "Delete Payment Method"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/PaymentInstrument.tpl
 msgid ""
 "WARNING: Deleting this option will result in the loss of all contribution "
 "records which use this option."
 msgstr ""
-
-#: templates/CRM/Contribute/Form/Search/Common.tpl
-msgid "Contribution Dates"
-msgstr "Zeitpunkt der Zuwendung"
 
 #: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
 msgid "Next Scheduled"
@@ -4042,13 +4755,8 @@ msgid "Complete OR partial Contribution Page title."
 msgstr "Kompletter oder teilweiser Titel der Spendenseite"
 
 #: templates/CRM/Contribute/Form/Selector.tpl
-#: templates/CRM/Contribute/Page/UserDashboard.tpl
-msgid "(Recurring Contribution)"
-msgstr "(wiederkehrende Zahlungen)"
-
-#: templates/CRM/Contribute/Form/SoftCredit.tpl
-msgid "Select an option to reveal honoree information fields."
-msgstr "Festlegen, inwiefern Daten des zu Ehrenden erscheinen sollen."
+msgid "(Recurring)"
+msgstr ""
 
 #: templates/CRM/Contribute/Form/SoftCredit.tpl
 msgid "another soft credit"
@@ -4068,6 +4776,33 @@ msgid ""
 "operation cannot be undone and will delete all transactions and activity "
 "associated with these contributions."
 msgstr "Sind Sie sicher, dass Sie die ausgewählten Zahlungen löschen möchten? Das Löschen kann nicht rückgängig gemacht werden und es werden auch alle Transaktionen gelöscht, welche mit dieser Zahlung verbunden sind."
+
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+msgid ""
+"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
+"what-you-get) editor is provided which you can use create simple HTML "
+"messages. However, if you are planning on creating HTML messages with "
+"complex layouts, it is best to use an HTML editor on your local computer. "
+"Then locate and upload the saved file(s) by clicking the "
+"<strong>Browse</strong> button."
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+msgid ""
+"You can send your email as a simple text-only message, as an HTML formatted "
+"message, or both. Text-only messages are sufficient for most email "
+"communication, and some recipients may prefer not to receive HTML formatted "
+"messages."
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+msgid ""
+"HTML messages have more visual impact, allow you to include images, and may "
+"be more readable if you are including links to website pages. However, "
+"different email programs may interpret HTML formats differently, so use this"
+" option cautiously unless you have a template format that has been tested "
+"with different web and desktop email programs."
+msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.tpl
 msgid ""
@@ -4152,21 +4887,7 @@ msgid ""
 msgstr "Benutzen Sie dieses Formularm, die Kreditkarte, den Karteninhaber und die Rechnungsadresse für diese Zuwendung zu aktualisieren.  "
 
 #: templates/CRM/Contribute/Form/UpdateSubscription.tpl
-msgid ""
-"Total number of payments to be made. Set this to 0 if this is an open-ended "
-"commitment i.e. no set end date."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/UpdateSubscription.tpl
-msgid "Number of time units for recurrence of payment."
-msgstr "Anzahl der Zeiteinheiten für die wiederkehrende Zahlung"
-
-#: templates/CRM/Contribute/Form/UpdateSubscription.tpl
-msgid "Time unit for recurrence of payment. For example, \"month\"."
-msgstr "Zahlungsintervall, z.B. monatlich"
-
-#: templates/CRM/Contribute/Form/UpdateSubscription.tpl
-msgid "Day in the period when the payment should be charged."
+msgid "WARNING: This recurring contribution is linked to membership:"
 msgstr ""
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
@@ -4177,7 +4898,7 @@ msgstr "Kontaktdaten der Unterstützer"
 msgid ""
 "Contribution import requires that the Contributors already exist as contact "
 "records in your CiviCRM database. If you need to import contributions for "
-"contributors who haven't been added to CiviCRM yet - you will do this in 2 "
+"contributors who haven't been added to CiviCRM yet, you will do this in 2 "
 "steps. First, use <strong>Import Contacts</strong> to add the contact "
 "records. If possible, include a unique 'External ID' for each new contact "
 "which you can then use to match contributions to contributors. Then return "
@@ -4207,14 +4928,14 @@ msgstr ""
 msgid ""
 "You can include a column with each contributor's <strong>Internal Contact "
 "ID</strong>. This is the unique ID assigned by CiviCRM which is displayed at"
-" the bottom of the Contact Summary screen - and can be exported."
+" the bottom of the Contact Summary screen and can be exported."
 msgstr ""
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 msgid ""
 "Save the CSV file with your contributions and 'contact matching' data to "
-"your local hard drive (or an accessible drive on your network) - and you are"
-" now ready for step 1 (Upload Data)."
+"your local hard drive (or an accessible drive on your network).  Now you are"
+" ready for step 1 (Upload Data)."
 msgstr ""
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
@@ -4272,6 +4993,24 @@ msgstr "Wählen Sie \"Organisation\" oder \"Haushalt\", wenn Sie Zuwendungen die
 msgid ""
 "Select a saved field mapping if this file format matches a previous import."
 msgstr "Wählen Sie eine gespeicherte Feldzuordnung, wenn die Dateistruktur einem früheren Import entspricht."
+
+#: templates/CRM/Contribute/Import/Form/Preview.tpl
+msgid ""
+"CiviCRM has detected invalid data or formatting errors in %1 records. If you"
+" continue, these records will be skipped.  You can download a file with just"
+" these problem records: <a href='%2'>Download Errors</a>.  If you wish, you "
+"can then correct them in the original import file, cancel this import, and "
+"begin again at step 1."
+msgstr ""
+
+#: templates/CRM/Contribute/Import/Form/Preview.tpl
+msgid ""
+"CiviCRM has detected %1 records with conflicting transaction ids within this"
+" data file. If you continue, these records will be skipped.  You can "
+"download a file with just these problem records: <a href='%2'>Download "
+"Conflicts</a>.  If you wish, you can then correct them in the original "
+"import file, cancel this import and begin again at step 1."
+msgstr ""
 
 #: templates/CRM/Contribute/Import/Form/Preview.tpl
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
@@ -4377,9 +5116,9 @@ msgstr "Gesamtanzahl Zeilen erfolgreich importiert"
 msgid ""
 "CiviContribute allows you to create and maintain any number of Online "
 "Contribution Pages. You can create different pages for different programs or"
-" campaigns - and customize text, amounts, types of information collected "
-"from contributors, etc."
-msgstr "Mit CiviContribute können Sie beliebig viele Online-Spendenseiten erstellen. Erstellen Sie unterschiedliche Seiten für verschiedene Projekte und Kampagnen mit jeweils eigenen Texten, Zahlungsoptionen und Formularen."
+" campaigns, and you can customize text, amounts, types of information "
+"collected from contributors, etc."
+msgstr ""
 
 #: templates/CRM/Contribute/Page/ContributionPage.hlp
 msgid "For existing pages"
@@ -4431,10 +5170,6 @@ msgid ""
 msgstr "Es wurden noch keine Spendenseiten angelegt. <a accesskey=\"N\" hre='%1'>Hier klicken</a>, um eine neue Spendenseite zu erstellen."
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-msgid "Cycle Day"
-msgstr "Datum der wiederkehrenden Zahlung"
-
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
 msgid "Next Contribution"
 msgstr "nächste Zuwendung"
 
@@ -4442,26 +5177,26 @@ msgstr "nächste Zuwendung"
 msgid "Auto Renew?"
 msgstr "Automatisch verlängern?"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-msgid "Avg Soft Credits"
-msgstr "Durchschn. Soft Credits"
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+msgid "No contributions have been recorded for this recurring contribution."
+msgstr ""
 
 #: templates/CRM/Contribute/Page/ContributionSoft.tpl
 msgid "Personal Campaign Page?"
 msgstr "Persönliche Kampagnenseite?"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-msgid "View contributor contact record"
-msgstr "Kontaktdaten des Unterstützers ansehen"
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
+msgid "# Completed Soft Credits"
+msgstr "Anz. abgeschlossener Soft Credits"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: templates/CRM/Contribute/Page/DashBoard.tpl
-msgid "(n/a)"
-msgstr "(nicht verfügbar)"
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
+msgid "Avg Soft Credit Amount"
+msgstr "Durchschnittsbetrag Soft Credit"
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-msgid "View related contribution"
-msgstr "in Beziehung stehende Zuwendungen ansehen"
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+msgid "Cancelled/Refunded"
+msgstr ""
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
 msgid "Current Year-to-Date"
@@ -4476,16 +5211,12 @@ msgid "Avg Amount"
 msgstr "Durchschnittlicher Betrag"
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
-msgid "Total Cancelled Amount"
-msgstr "Summe stornierter Betrag"
+msgid "# Completed"
+msgstr "# Abgeschlossen"
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
-msgid "# Completed Soft Credits"
-msgstr "Anz. abgeschlossener Soft Credits"
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
-msgid "Avg Soft Credit Amount"
-msgstr "Durchschnittsbetrag Soft Credit"
+msgid "Avg"
+msgstr "Durchschnitt"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 msgid ""
@@ -4520,6 +5251,10 @@ msgid ""
 " customized searches - click <a href='%1'>Find Contributions</a>. You can "
 "search by Contributor Name, Amount Range, and a variety of other criteria."
 msgstr ""
+
+#: templates/CRM/Contribute/Page/DashBoard.tpl
+msgid "(n/a)"
+msgstr "(nicht verfügbar)"
 
 #: templates/CRM/Contribute/Page/DashBoard.tpl
 msgid "view details"
@@ -4566,6 +5301,11 @@ msgstr "Hier können Sie alle Prämien verwalten, die SIe auf Ihren Spendenseite
 #: templates/CRM/Contribute/Page/Premium.tpl
 msgid "Min Contribution"
 msgstr "min Zuwendungen"
+
+#: templates/CRM/Contribute/Page/ManagePremiums.tpl
+#: templates/CRM/Contribute/Page/Premium.tpl
+msgid "Actual Cost"
+msgstr ""
 
 #: templates/CRM/Contribute/Page/ManagePremiums.tpl
 msgid "Add Premium"
@@ -4641,8 +5381,21 @@ msgid ""
 msgstr "Optionaler zusätzlicher Hinweis auf den Grund der Zahlung (Kampagnenname, Veranstaltung, Mailing)."
 
 #: templates/CRM/Contribute/Page/Tab.hlp
+msgid ""
+"You are not allowed to change the total amount as it will lead to incorrect "
+"line item entries. You can either delete or recreate or install <a %1>Line "
+"Item Editor</a>."
+msgstr ""
+
+#: templates/CRM/Contribute/Page/Tab.hlp
 msgid "Select the appropriate financial type for this transaction."
 msgstr "Wählen Sie die passende Zuwendungsart für diese Transaktion."
+
+#: templates/CRM/Contribute/Page/Tab.hlp
+msgid ""
+"Note: if the correct payment method is not listed here (e.g. for in-kind "
+"donations) ask your administrator to add a new option to this list."
+msgstr ""
 
 #: templates/CRM/Contribute/Page/Tab.hlp
 msgid ""
@@ -4712,9 +5465,21 @@ msgstr "Bisher keine Zuwendungen von diesem Kontakt erfasst."
 msgid "Soft credits"
 msgstr "Soft Credits"
 
+#: templates/CRM/Contribute/Page/Tab.tpl
+msgid "Active Recurring Contributions"
+msgstr ""
+
+#: templates/CRM/Contribute/Page/Tab.tpl
+msgid "Inactive Recurring Contributions"
+msgstr ""
+
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 msgid "Received date"
 msgstr "Eingangsdatum"
+
+#: templates/CRM/Contribute/Page/UserDashboard.tpl
+msgid "(Recurring Contribution)"
+msgstr "(wiederkehrende Zahlungen)"
 
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 msgid ""
@@ -4757,6 +5522,11 @@ msgstr ""
 
 #: xml/templates/message_templates/contribution_dupalert_html.tpl
 #: xml/templates/message_templates/contribution_dupalert_text.tpl
+msgid "Organization Email"
+msgstr "E-Mail-Adresse der Organisation"
+
+#: xml/templates/message_templates/contribution_dupalert_html.tpl
+#: xml/templates/message_templates/contribution_dupalert_text.tpl
 msgid "Organization Contact ID"
 msgstr ""
 
@@ -4777,6 +5547,128 @@ msgstr "Kopie des Zahlungsbelegs für eine Zuwendung"
 #: xml/templates/message_templates/contribution_dupalert_subject.tpl
 msgid "CiviContribute Alert: Possible Duplicate Contact Record"
 msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "INVOICE"
+msgstr "RECHNUNG"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Invoice Date:"
+msgstr "Rechnungsdatum:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Invoice Number:"
+msgstr "Rechnungsnummer:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Reference:"
+msgstr "Referenz:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Amount %1"
+msgstr "Betrag %1"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "No %1"
+msgstr "Nr. %1"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Sub Total"
+msgstr "Zwischensumme"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "TOTAL %1 %2%"
+msgstr "GESAMT %1 %2%"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "TOTAL NO %1"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "TOTAL %1"
+msgstr "GESAMT %1"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "LESS Amount Credited"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "LESS Amount Paid"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "AMOUNT DUE:"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "DUE DATE: %1"
+msgstr "FÄLLIG AM: %1"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "PAYMENT ADVICE"
+msgstr "ZAHLUNGSHINWEIS"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "To: "
+msgstr "An:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Customer: "
+msgstr "Kunde:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Invoice Number: "
+msgstr "Rechnungsnummer:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Amount Due:"
+msgstr "Fälliger Betrag:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Amount Due: "
+msgstr "Fälliger Betrag:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Due Date:  "
+msgstr "Fällig am:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "CREDIT NOTE"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Credit Note Number:"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "LESS Credit to invoice(s)"
+msgstr "bereits geleistete Zahlungen"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "REMAINING CREDIT"
+msgstr "VERBLEIBENDER KREDIT"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "CREDIT ADVICE"
+msgstr "KREDITHINWEIS"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid ""
+"Please do not pay on this advice. Deduct the amount of this Credit Note from"
+" your next payment to us"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Customer:"
+msgstr "Kunde:"
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Credit Note#:"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+msgid "Credit Amount:"
+msgstr "Kreditbetrag:"
 
 #: xml/templates/message_templates/contribution_invoice_receipt_subject.tpl
 msgid "Event Registration Invoice: %1"
@@ -4804,10 +5696,15 @@ msgid "Total Tax"
 msgstr "Steuern gesamt"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+msgid "This is a recurring contribution."
+msgstr ""
+
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
 msgid ""
-"This is a recurring contribution. You can cancel future contributions by <a "
-"href=\"%1\">visiting this web page</a>."
-msgstr "Dies ist eine wiederkehrende Zuwendung. Künftige Zahlungen <a href=\"%1\">können hier storniert werden</a>."
+"You can cancel future contributions by <a href=\"%1\">visiting this web "
+"page</a>."
+msgstr ""
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
@@ -4826,9 +5723,8 @@ msgid ""
 msgstr ""
 
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
-msgid ""
-"This is a recurring contribution. You can cancel future contributions at:"
-msgstr "Dies ist eine wiederkehrende Zuwendung. Künftige Zahlungen können hier storniert werden:"
+msgid "You can cancel future contributions at:"
+msgstr ""
 
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 msgid "You can update billing details for this recurring contribution at:"
@@ -4976,476 +5872,115 @@ msgid ""
 "This is a test-drive email. No live financial transaction has occurred."
 msgstr "Dies ist eine Test E-Mail. Es wurde keine finanzielle Transaktion ausgeführt."
 
-#: CRM/Contribute/ActionMapping/ByType.php
-msgid "Contribution Type"
-msgstr ""
-
-#: CRM/Contribute/ActionMapping/ByType.php
-msgid "Soft Credit Role"
+#: CRM/Contribute/Form/ContributionRecur.php
+msgid ""
+"There is no valid processor for this subscription so it cannot be updated"
 msgstr ""
 
 #: CRM/Contribute/BAO/Contribution.php
-msgid "Payment failed at payment processor"
-msgstr ""
+msgid "Membership for %1 has been Cancelled."
+msgstr "Mitgliedschaft für %1 wurde gekündigt."
 
 #: CRM/Contribute/BAO/Contribution.php
-msgid "Recurring contribution"
+msgid "Membership for %1 has been Expired."
+msgstr "Mitgliedschaft für %1 ist abgelaufen."
+
+#: CRM/Contribute/BAO/Contribution.php
+msgid "Membership for %1 has been updated. The membership End Date is %2."
 msgstr ""
 
-#: CRM/Contribute/BAO/ContributionRecur.php
-msgid "All recurring contributions"
+#: CRM/Contribute/DAO/Contribution.php
+msgid "Cancel Reason"
+msgstr "Grund der Stornierung"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Recurring Contribution Started Date"
 msgstr ""
 
-#: CRM/Contribute/BAO/ContributionRecur.php CRM/Contribute/BAO/Query.php
-msgid "Recurring contributions with at least one payment"
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Recurring Contribution Created Date"
 msgstr ""
 
-#: CRM/Contribute/BAO/Query.php
-msgid "All recurring contributions regardless of payments"
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Recurring Contribution Modified Date"
 msgstr ""
 
-#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Revenue Recognition Date"
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
+msgid "Recurring Contribution Status"
+msgstr "Status der wiederkehrenden Zahlung"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+msgid "Number of Cycle Day"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionPage.php
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Adjust Recurring Start Date"
+#: CRM/Contribute/Form/AdditionalPayment.php
+msgid "notification"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionProduct.php
-msgid "Contribution Product ID"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionProduct.php
-msgid "Start date for premium"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionProduct.php
-msgid "End date for premium"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionProduct.php
-msgid "Premium comment"
-msgstr ""
-
-#: CRM/Contribute/DAO/PremiumsProduct.php
-msgid "Premium Product ID"
-msgstr ""
-
-#: CRM/Contribute/DAO/PremiumsProduct.php
-msgid "Product"
-msgstr "Produkt"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Widget ID"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Widget Title"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Widget Image Url"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Homepage Url"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Title Color"
-msgstr "Titelfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Button Colour"
-msgstr "Schaltflächenfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Bar Color"
-msgstr "Balkenfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Main Text Color"
-msgstr "Haupttextfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Main Colour"
-msgstr "Hauptfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Backgroup Color"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Other Backgroun Colour"
-msgstr "Andere Hintergrundfarbe"
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "About Link Colour"
-msgstr ""
-
-#: CRM/Contribute/DAO/Widget.php
-msgid "Homepage Link Colour"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalInfo.php
-msgid "-select product-"
-msgstr ""
-
-#: CRM/Contribute/Form/CloseAccPeriod.php
-msgid "Accounting Period to Close"
-msgstr ""
-
-#: CRM/Contribute/Form/CloseAccPeriod.php
-msgid "Are you sure you want to close accounting period?"
-msgstr ""
-
-#: CRM/Contribute/Form/CloseAccPeriod.php
-msgid "Accounting Period has been closed successfully!"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-msgid "Payment Processor Error message :"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-msgid "Online Contribution:"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Returning since contribution has already been handled."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"This page does not have any price fields configured or you may not have "
-"permission for them. Please contact the site administrator for more details."
-msgstr ""
+"Click the <strong>%2</strong> button to go to %1, where you will select your"
+" payment method and complete the contribution."
+msgstr "Klicken Sie auf <strong>%2</strong>, um Ihre Zahlung per %1 abzuschließen."
 
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "Confirm Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php
-msgid "You cannot have auto-renewal on if you are paying later."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/Contribution.tpl
-msgid "Pay with Credit Card"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php
-msgid "Transaction ID for the refund payment"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php
-msgid "Month and Year are required field for Revenue Recognition."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"Contribution submitted by a staff person using contributor's credit card"
-msgstr ""
+"To complete this transaction, click the <strong>%1</strong> button below."
+msgstr "Um die Transaktion abzuschließen, klicken Sie auf den  <strong>%1</strong> Button."
 
-#: CRM/Contribute/Form/ContributionBase.php
-msgid "Invalid Membership"
-msgstr "Ungültige Mitgliedschaft"
-
-#: CRM/Contribute/Form/ContributionBase.php
-msgid "Please select one of the memberships."
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionBase.php
-msgid "Please renew my membership automatically."
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Specific Calendar Date"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Specific day of Month"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Day of Contribution"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Recurring Contribution Start Date Default"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "Allow Edits to Recurring Donation Start date?"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-msgid "The recurring start date cannot be prior to the current date."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Contribute/Task.php
-msgid "Update multiple contributions"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"File or Autocomplete-Select type field(s) in the selected profile are not "
-"supported for Update multiple contributions."
-msgstr ""
+"To complete your contribution, click the <strong>%1</strong> button below."
+msgstr "Um Ihre Zahlung abzuschließen, klicken Sie unten auf den <strong>%1</strong> Button."
 
-#: CRM/Contribute/Form/Task/Delete.php
-msgid "1 contribution could not be deleted."
-msgid_plural "%count contributions could not be deleted."
-msgstr[0] ""
-msgstr[1] ""
-
-#: CRM/Contribute/Form/Task/Delete.php
-msgid "1 contribution will not be deleted."
-msgid_plural "%count contributions will not be deleted."
-msgstr[0] ""
-msgstr[1] ""
-
-#: CRM/Contribute/Form/Task/PDF.php
-msgid "Override privacy setting? (Do not email / Do not mail)"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/PDFLetter.php
-msgid "Contact and Payment Method"
-msgstr "Kontakt und Zahlungsmethode"
-
-#: CRM/Contribute/Form/Task/PickProfile.php
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"The maximum number of contributions you can select for Update multiple "
-"contributions is %1. You have selected %2. Please select fewer contributions"
-" from your search results and try again."
-msgstr ""
+"Your transaction will not be completed until you click the "
+"<strong>%1</strong> button. Please click the button one time only."
+msgstr "Ihre Transaktion wird nicht abgeschlossen bis Sie den <strong>%1</strong> Button drücken. Bitte drücken Sie den Button nur einmal."
 
-#: CRM/Contribute/Form/Task/PickProfile.php
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 msgid ""
-"You will need to create a Profile containing the %1 fields you want to edit "
-"before you can use Update multiple contributions. Navigate to Administer "
-"CiviCRM > Customize Data and Screens > CiviCRM Profile to configure a "
-"Profile. Consult the online Administrator documentation for more "
-"information."
-msgstr ""
+"Your contribution will not be completed until you click the "
+"<strong>%1</strong> button. Please click the button one time only."
+msgstr "Ihre Zahlung wird erst abgeschlossen, wenn Sie auf <strong>%1</strong> drücken. Bitte nur einmal drücken."
 
-#: CRM/Contribute/Form/Task/Status.php
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
-"Payment Method should be Check when a check number is entered for a "
-"contribution."
-msgstr ""
+"Your contribution has been submitted to %1 for processing. Please print this"
+" page for your records."
+msgstr "Ihre Zahlung via %1 wurde erfolgreich verarbeitet. Bitte drucken Sie sich bei Bedarf diese Seite für Ihre Unterlagen aus."
 
-#: CRM/Contribute/Form/UpdateSubscription.php
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 msgid ""
-"There is no valid processor for this subscription so it cannot be edited."
+"Your transaction has been processed successfully. Please print this page for"
+" your records."
+msgstr "Ihre Zahlung wurde erfolgreich abgewickelt. Bitte drucken Sie sich diese Seite für Ihre Unterlagen aus."
+
+#: templates/CRM/Contribute/Form/UpdateSubscription.tpl
+msgid "'WARNING: This recurring contribution is linked to membership:"
 msgstr ""
 
-#: CRM/Contribute/Form/UpdateSubscription.php
-msgid "Recurring Contribution Updated - increased installment amount"
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+msgid "Recieved"
 msgstr ""
 
-#: CRM/Contribute/Form/UpdateSubscription.php
-msgid "Recurring Contribution Updated - decreased installment amount"
-msgstr ""
-
-#: CRM/Contribute/Task.php
-msgid "Export contributions"
-msgstr ""
-
-#: CRM/Contribute/Task.php
-msgid "Update pending contribution status"
-msgstr ""
-
-#: CRM/Contribute/Task.php
-msgid "Receipts - print or email"
-msgstr ""
-
-#: CRM/Contribute/Task.php
-msgid "Thank-you letters - print or email"
-msgstr ""
-
-#: CRM/Contribute/Task.php
-msgid "Invoices - print or email"
-msgstr "Rechnungen drucke oder per E-Mail versenden"
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-msgid "No payments found for this %1 record"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
-msgid ""
-"Recurring payment will be processed this day of the month following "
-"submission of this contribution page."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
-msgid "Contributor Profiles"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-msgid "Refund Transaction ID"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "New Payment Method"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "Edit Payment Method"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-msgid "Delete Payment Method"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Selector.tpl
-msgid "Click arrow to view payment details."
-msgstr ""
+#: templates/CRM/Contribute/Page/ContributionSoft.tpl
+msgid "Avg Soft Credits"
+msgstr "Durchschn. Soft Credits"
 
 #: templates/CRM/Contribute/Page/ContributionSoft.tpl
 msgid "Total Cancelled Soft Credits"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
-msgid "# Completed"
-msgstr "# Abgeschlossen"
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
-msgid "Avg"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/Tab.hlp
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
 msgid ""
-"Note: if the correct payment method is not listed here (e.g. for in-kind "
-"donations) ask your administrator to add a new option to this list."
-msgstr ""
+"This is a recurring contribution. You can cancel future contributions by <a "
+"href=\"%1\">visiting this web page</a>."
+msgstr "Dies ist eine wiederkehrende Zuwendung. Künftige Zahlungen <a href=\"%1\">können hier storniert werden</a>."
 
-#: templates/CRM/Contribute/Page/UserDashboard.tpl
-msgid "Pay Now"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "INVOICE"
-msgstr "RECHNUNG"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Invoice Date:"
-msgstr "Rechnungsdatum:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Invoice Number:"
-msgstr "Rechnungsnummer:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Reference:"
-msgstr "Referenz:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Amount %1"
-msgstr "Betrag %1"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "No %1"
-msgstr "Nr. %1"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Sub Total"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "TOTAL %1 %2%"
-msgstr "GESAMT %1 %2%"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "TOTAL NO %1"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "TOTAL %1"
-msgstr "GESAMT %1"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "LESS Amount Credited"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "LESS Amount Paid"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "AMOUNT DUE:"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "DUE DATE: %1"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "PAYMENT ADVICE"
-msgstr "ZAHLUNGSHINWEIS"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "To: "
-msgstr "An:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Customer: "
-msgstr "Kunde:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Invoice Number: "
-msgstr "Rechnungsnummer:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Amount Due:"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Amount Due: "
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Due Date:  "
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "CREDIT NOTE"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Credit Note Number:"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "LESS Credit to invoice(s)"
-msgstr "bereits geleistete Zahlungen"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "REMAINING CREDIT"
-msgstr "VERBLEIBENDER KREDIT"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "CREDIT ADVICE"
-msgstr "KREDITHINWEIS"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
 msgid ""
-"Please do not pay on this advice. Deduct the amount of this Credit Note from"
-" your next payment to us"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Customer:"
-msgstr "Kunde:"
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Credit Note#:"
-msgstr ""
-
-#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
-msgid "Credit Amount:"
-msgstr "Kreditbetrag:"
+"This is a recurring contribution. You can cancel future contributions at:"
+msgstr "Dies ist eine wiederkehrende Zuwendung. Künftige Zahlungen können hier storniert werden:"

@@ -3,25 +3,27 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Johny S <me@davod.ninja>, 2017
 # mahdi shorbi <mahdishorbi@gmail.com>, 2016
+# Mina Poorhossein <Minaprhn@gmail.com>, 2017
 # Mohammad Amini <m.m.amini11@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/civicrm/civicrm/language/fa_IR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fa_IR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Admin/Form/CMSUser.php templates/CRM/Financial/Form/Search.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "OK"
-msgstr ""
+msgstr "باشه"
 
 #: CRM/Admin/Form/ContactType.php templates/CRM/Admin/Form/Setting/Url.hlp
 #: CRM/Contribute/Form/ManagePremiums.php
@@ -49,7 +51,6 @@ msgstr "استایل فونت"
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Financial/Form/FinancialAccount.php
@@ -57,36 +58,52 @@ msgstr "استایل فونت"
 #: CRM/Mailing/Form/Component.php templates/CRM/Mailing/Page/Component.tpl
 #: CRM/Member/Form/MembershipStatus.php
 msgid "Default?"
+msgstr "پیش‌فرض؟"
+
+#: CRM/Admin/Form/MessageTemplates.php CRM/Campaign/Form/Survey.php
+#: CRM/Contribute/Form/ContributionPage.php CRM/Event/Form/ManageEvent.php
+msgid "Save and Done"
+msgstr "ذخیره و تمام"
+
+#: CRM/Admin/Form/MessageTemplates.php
+#: templates/CRM/Admin/Page/MessageTemplates.hlp ang/crmMailing/Templates.js
+msgid "Message Templates"
+msgstr ""
+
+#: CRM/Admin/Form/Navigation.php CRM/Report/Form/Instance.php
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Permission"
 msgstr ""
 
 #: CRM/Admin/Form/Navigation.php templates/CRM/Event/Page/DashBoard.tpl
 msgid "Parent"
-msgstr ""
+msgstr "والد"
 
 #: CRM/Admin/Form/Options.php CRM/Financial/Form/BatchTransaction.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Opened.php
 msgid "Opened"
 msgstr "باز شده"
 
 #: CRM/Admin/Form/Options.php CRM/Admin/Form/PaymentProcessor.php
 #: templates/CRM/Admin/Page/PaymentProcessor.tpl
+#: CRM/Financial/DAO/EntityFinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
 #: CRM/Financial/Form/FinancialTypeAccount.php
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Financial Account"
+msgstr "حساب مالی"
+
+#: CRM/Admin/Form/Options.php templates/CRM/Case/Audit/Audit.tpl
+msgid "Incomplete"
 msgstr ""
 
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
 msgid "Selected %1 type has not been deleted."
-msgstr ""
+msgstr "نوع انتخابی ٪ 1 حذف شده است."
 
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
 msgid "The %1 '%2' has been saved."
-msgstr ""
-
-#: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/BAO/PaymentProcessor.php
-msgid "Could not find payment processor meta information"
-msgstr ""
+msgstr "1% \"2%\" ذخیره شد."
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Site URL"
@@ -94,7 +111,7 @@ msgstr "آدرس سایت"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Recurring Payments URL"
-msgstr ""
+msgstr "آدرس پرداخت های تکراری"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Button URL"
@@ -102,7 +119,7 @@ msgstr "آدرس دکمه"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "API URL"
-msgstr ""
+msgstr "آدرس API"
 
 #: CRM/Admin/Form/PaymentProcessorType.php
 #: CRM/Financial/DAO/PaymentProcessorType.php
@@ -113,35 +130,55 @@ msgstr "نوع پرداخت"
 #: templates/CRM/Pledge/Page/Payment.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Due Date"
-msgstr ""
+msgstr "تاریخ سررسید"
+
+#: CRM/Admin/Form/RelationshipType.php
+#: templates/CRM/Admin/Form/LocationType.tpl
+#: templates/CRM/Admin/Form/OptionGroup.tpl
+#: templates/CRM/Admin/Form/Options.tpl templates/CRM/Badge/Form/Layout.tpl
+#: templates/CRM/Batch/Form/Batch.tpl
+#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"This may mean the loss of a substantial amount of data, and the action "
+"cannot be undone."
+msgstr "این می تواند به معنای  از دست دادن مقدار قابل توجهی از داده هاباشد ، و این داده ها غیر قابل بازگشت هستند. "
 
 #: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type A"
-msgstr ""
+msgstr "تماس نوع A"
 
 #: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type B"
+msgstr "تماس نوع B"
+
+#: CRM/Admin/Form/ScheduleReminders.php ang/crmCxn/PermTable.html
+#: templates/CRM/Admin/Page/APIExplorer.js
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/PCP/DAO/PCPBlock.php
+#: templates/CRM/PCP/Form/Event.hlp
+msgid "Entity"
 msgstr ""
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Pledge/BAO/Query.php
 #: CRM/Pledge/Form/Pledge.php CRM/Pledge/Form/PledgeView.php
 msgid "%1(s)"
-msgstr ""
+msgstr "%1(s)"
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/Form/Pledge.php CRM/Report/Form.php
 msgid "Frequency"
-msgstr ""
+msgstr "تناوب"
 
 #: CRM/Admin/Form/ScheduleReminders.php templates/CRM/Admin/Page/Reminders.tpl
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
 msgid "Repeat"
-msgstr ""
+msgstr "تکرار"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
@@ -150,71 +187,73 @@ msgstr ""
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "every"
-msgstr ""
+msgstr "همه"
 
 #: CRM/Admin/Form/ScheduleReminders.php templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "until"
-msgstr ""
+msgstr "تا"
+
+#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
+msgid "From Email"
+msgstr "از ایمیل"
 
 #: CRM/Admin/Form/ScheduleReminders.php ang/crmMailing/BlockMailing.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/BlockSetup.html
 #: ang/crmMailingAB/EditCtrl/report.html templates/CRM/Mailing/Page/Report.tpl
 #: templates/CRM/Mailing/Page/Tab.tpl
 msgid "Recipients"
-msgstr ""
+msgstr "دریافت کنندگان"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: CRM/Event/Form/ManageEvent/ScheduleReminders.php
 msgid "Scheduled Reminder"
+msgstr "یاد آور برنامه ریزی شده"
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "Add >>"
+msgstr ""
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "<< Remove"
 msgstr ""
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Contribute/Info.php CRM/Contribute/Page/DashBoard.php
 msgid "CiviContribute"
-msgstr ""
+msgstr "مشارکت"
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Member/Info.php CRM/Member/Page/DashBoard.php
 msgid "CiviMember"
 msgstr "عضو سیوی"
 
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Event/Info.php CRM/Event/Page/DashBoard.php
-msgid "CiviEvent"
-msgstr ""
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Mailing/Info.php
-msgid "CiviMail"
-msgstr ""
-
 #: CRM/Admin/Page/Admin.php CRM/Report/Info.php
 msgid "CiviReport"
-msgstr ""
+msgstr "گزارش"
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
 #: CRM/Campaign/Info.php
 msgid "CiviCampaign"
-msgstr ""
+msgstr "کمپین"
 
 #: CRM/Admin/Page/EventTemplate.php CRM/Event/Form/ManageEvent.php
 msgid "Edit Event Template"
-msgstr ""
+msgstr "ویرایش قالب های رویداد"
 
 #: CRM/Admin/Page/EventTemplate.php CRM/Event/Form/ManageEvent/Delete.php
 msgid "Delete Event Template"
-msgstr ""
+msgstr "پاک کردن قالب های رویداد"
 
 #: CRM/Admin/Page/Extensions.php CRM/Batch/BAO/Batch.php
 msgid "Download"
-msgstr ""
+msgstr "دانلود"
 
-#: CRM/Admin/Page/MessageTemplates.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailingAB/BlockMailing.html
+#: CRM/Admin/Page/MessageTemplates.php ang/crmMailingAB/BlockMailing.html
 msgid "Message Template"
-msgstr ""
+msgstr "قالب پیام"
 
 #: CRM/Admin/Page/Options.php templates/CRM/Admin/Page/APIExplorer.tpl
+#: templates/CRM/Admin/Page/CKEditorConfig.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -223,159 +262,130 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Option"
-msgstr ""
+msgstr "گزینه"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 msgid "%1 Options"
-msgstr ""
+msgstr "گزینه 1%"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 #: CRM/Report/Page/Options.php
 msgid "Enable %1"
-msgstr ""
+msgstr "فعال سازی %1"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 #: CRM/Report/Page/Options.php
 msgid "Delete %1 Type"
-msgstr ""
-
-#: CRM/Admin/Page/ParticipantStatusType.php CRM/Case/BAO/Case.php
-msgid "Edit Status"
-msgstr ""
+msgstr "پاک کردن نوع 1%"
 
 #: CRM/Admin/Page/Persistent.php CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Event/Page/DashBoard.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl CRM/PCP/BAO/PCP.php
 msgid "Configure"
-msgstr ""
+msgstr "پیکربندی"
 
 #: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: CRM/Contribute/DAO/Widget.php
 #: CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
-#: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: ang/crmCxn/ConfirmReconnectCtrl.html ang/crmCaseType/edit.html
-msgid "Advanced"
-msgstr ""
-
-#: templates/CRM/Admin/Form/LocationType.tpl
-#: templates/CRM/Admin/Form/OptionGroup.tpl
-#: templates/CRM/Admin/Form/Options.tpl
-#: templates/CRM/Admin/Form/RelationshipType.tpl
-#: templates/CRM/Badge/Form/Layout.tpl templates/CRM/Batch/Form/Batch.tpl
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"This may mean the loss of a substantial amount of data, and the action "
-"cannot be undone."
-msgstr ""
-
-#: templates/CRM/Admin/Page/APIExplorer.tpl
-#: templates/CRM/Admin/Page/OptionGroup.tpl CRM/Contribute/DAO/Product.php
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/Contribute/DAO/Product.php
 #: CRM/Contribute/Form/ManagePremiums.php
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Options"
-msgstr ""
+msgstr "گزینه ها"
 
 #: templates/CRM/Admin/Page/ConfigTaskList.tpl CRM/Pledge/Info.php
 #: CRM/Pledge/Page/DashBoard.php
 msgid "CiviPledge"
-msgstr ""
+msgstr "ضمانت/تعهد در مدیریت ارتباط با مشتریان"
 
 #: templates/CRM/Admin/Page/ConfigTaskList.tpl CRM/Grant/Info.php
 msgid "CiviGrant"
-msgstr ""
+msgstr "هدایا/کمک های مالی در مدیریت ارتباط با مشتری ها"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Public Event"
-msgstr ""
+msgstr "رویداد عمومی"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Paid Event"
-msgstr ""
+msgstr "رویداد پرداخت شده"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Allow Online Registration"
-msgstr ""
+msgstr "امکان ثبت‌نام آنلاین"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl CRM/Campaign/Form/Campaign.php
-#: CRM/Campaign/Form/Petition.php
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Search/Campaign.php
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Is Active?"
-msgstr ""
+msgstr "آیا فعال است؟"
 
-#: templates/CRM/Admin/Page/MessageTemplates.tpl
-#: ang/crmCaseType/activitySetDetails.html
-msgid "Workflow"
-msgstr ""
-
-#: templates/CRM/Admin/Page/Navigation.tpl
-#: CRM/Financial/Form/FinancialType.php
-msgid "Cannot Delete"
+#: templates/CRM/Admin/Page/ExtensionDetails.tpl
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "(not available)"
 msgstr ""
 
 #: templates/CRM/Admin/Page/Options.hlp ang/crmCaseType/edit.html
 msgid "Activity Types"
-msgstr ""
+msgstr "انواع فعالیت"
 
 #: templates/CRM/Admin/Page/Options.tpl templates/CRM/Report/Page/Options.tpl
 msgid ""
 "The existing option choices for %1 group are listed below. You can add, edit"
 " or delete them from this screen."
-msgstr ""
+msgstr " گزینه های موجود برای٪ 1 گروه به شرح زیر است.شما  می توانید به این گزینه ها اضافه کرده، آنها را ویرایش و یا  از این صفحه نمایش حذف کنید. "
 
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "Add %1"
-msgstr ""
+msgstr "افزودن %1"
 
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
 #: templates/CRM/Event/Page/DashBoard.tpl
 msgid "Counted"
-msgstr ""
+msgstr "شمارش شده"
 
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
-#: CRM/Report/Form/Register.php
+#: ang/crmCaseType/statusTable.html CRM/Report/Form/Register.php
 msgid "Class"
-msgstr ""
+msgstr "کلاس/طبقه/دسته"
 
 #: CRM/Badge/Form/Layout.php CRM/Financial/DAO/PaymentToken.php
 msgid "Token"
-msgstr ""
+msgstr "توکن"
 
 #: CRM/Badge/Form/Layout.php CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "Save and Preview"
-msgstr ""
+msgstr "ذخیره و پیش‌نمایش"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Close Batch"
-msgstr ""
+msgstr "بستن دسته"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Form/Export.php templates/CRM/Financial/Form/Export.tpl
 msgid "Export Batch"
-msgstr ""
+msgstr "صدور/خروج دسته ها"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/Search.php
 msgid "Re-open"
-msgstr ""
+msgstr "بازگشایی"
 
 #: CRM/Batch/BAO/Batch.php templates/CRM/Financial/Form/Search.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Current Total"
-msgstr ""
+msgstr "مجموع کنونی"
 
 #: CRM/Batch/DAO/Batch.php CRM/Batch/Form/Batch.php
 #: templates/CRM/Batch/Form/Search.tpl CRM/Contribute/BAO/Contribution.php
@@ -386,137 +396,159 @@ msgstr ""
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Member/ContributionDetail.php
 msgid "Batch Name"
-msgstr ""
+msgstr "نام دسته"
 
 #: CRM/Batch/DAO/Batch.php CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Summary.php
 msgid "Batch Title"
+msgstr "عنوان دسته"
+
+#: CRM/Batch/DAO/Batch.php CRM/Mailing/DAO/MailingAB.php
+msgid "When was this item created"
 msgstr ""
 
 #: CRM/Batch/Form/Batch.php CRM/Financial/Form/Search.php
 msgid "Number of Items"
-msgstr ""
-
-#: CRM/Batch/Form/Entry.php CRM/Mailing/Form/Group.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Save & Continue Later"
-msgstr ""
+msgstr "تعدادی از آیتم‌ها"
 
 #: CRM/Batch/Form/Entry.php CRM/Member/Form/MembershipRenewal.php
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
 msgid "Renew Membership"
-msgstr ""
+msgstr "تمدید عضویت"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/Contribution.php
 #: CRM/Pledge/Form/Payment.php
 msgid "Adjust Pledge Payment Schedule?"
-msgstr ""
+msgstr "آیا برنامه پرداخت ضمانت/تعهد تنظیم گردد؟"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/Contribution.php
 #: CRM/Pledge/Form/Payment.php
 msgid "Adjust Total Pledge Amount?"
-msgstr ""
+msgstr "آیا میزان کلی مبلغ ضمانت تنظیم گردد؟"
 
 #: CRM/Batch/Form/Entry.php CRM/Contribute/Form/SoftCredit.php
 msgid "Please enter the soft credit amount."
-msgstr ""
+msgstr "لطفا میزان مبلغ دریافت شده از مشارکت های غیر مستقیم را وارد کنید. "
 
 #: CRM/Batch/Page/Batch.php CRM/Financial/Page/Batch.php
 msgid "Search Batches"
-msgstr ""
+msgstr "جستجوی دسته ها"
 
 #: templates/CRM/Batch/Form/Search.tpl templates/CRM/Financial/Form/Search.tpl
 msgid "Item Count"
+msgstr "تعداد آیتم‌ها"
+
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "(filtered from _MAX_ total entries)"
 msgstr ""
 
-#: CRM/Campaign/DAO/Campaign.php
-#: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Campaign Name"
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Form/Search.tpl
+msgid "Search:"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Contribute/BAO/Contribution.php
+msgid "Campaign Title"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Title for Thank-you page (header title tag, and display at the top of the "
+"page)."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
 msgid "Thank-you Text"
+msgstr "متن تشکر"
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid "text and html allowed. displayed above result on success page"
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php CRM/Event/DAO/Event.php
 msgid "Is shared through social media"
-msgstr ""
+msgstr "از طریق رسانه های اجتماعی به اشتراک گذاشته شده است. "
 
-#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/Campaign.php
-#: CRM/Campaign/Page/DashBoard.php CRM/PCP/Form/PCP.php
+#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/PCP/Form/PCP.php
 msgid "Delete Campaign"
-msgstr ""
+msgstr "حذف کمپین"
 
 #: CRM/Campaign/Form/Campaign.php CRM/Contribute/BAO/Query.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php CRM/Grant/BAO/Query.php
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter a valid money value (e.g. %1)."
-msgstr ""
+msgstr "لطفا مقدار پول معتبر/قابل قبول (به عنوان مثال٪ 1) را وارد کنید."
 
 #: CRM/Campaign/Form/Petition.php
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 #: templates/CRM/Contribute/Form/ContributionPage/ThankYou.hlp
 msgid "Thank-you Page Title"
-msgstr ""
+msgstr "عنوان صفحه تشکر"
 
 #: CRM/Campaign/Form/Petition.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Allow sharing through social media?"
-msgstr ""
+msgstr "آیا امکان به اشتراک گذاری از طریق رسانه های اجتماعی می باشد؟"
 
 #: CRM/Campaign/Form/Survey/Results.php
 #: CRM/Report/Form/Campaign/SurveyDetails.php
 msgid "Survey Responses"
-msgstr ""
+msgstr "پاسخ‌های نظرسنجی"
 
 #: CRM/Campaign/Form/Survey/Results.php
 #: templates/CRM/Campaign/Form/Survey/Results.tpl CRM/Report/Form.php
 msgid "Create Report"
-msgstr ""
+msgstr "ایجاد گزارش"
 
 #: CRM/Campaign/Form/Survey/Results.php CRM/Report/Form/Instance.php
 msgid "Report Title"
-msgstr ""
+msgstr "نام گزارش"
 
 #: CRM/Campaign/Form/Survey/TabHeader.php ang/crmMailingAB/ListCtrl.html
 msgid "Results"
-msgstr ""
-
-#: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
-#: CRM/Event/Form/ManageEvent.php
-msgid "Save and Done"
-msgstr ""
+msgstr "نتایج"
 
 #: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
 msgid "Save and Next"
-msgstr ""
+msgstr "ذخیره و بعدی"
 
 #: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
 msgid "Order by Column"
-msgstr ""
+msgstr "مرتب سازی بر اساس ستون"
 
 #: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
 msgid "Order by Order"
-msgstr ""
+msgstr "مرتب سازی بر اساس سفارش"
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Ascending"
+msgstr "در حال افزایش"
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Descending"
+msgstr "در حال کاهش"
 
 #: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Contribute/Form/AbstractEditPayment.php
-#: CRM/Contribute/Form/ManagePremiums.php CRM/Mailing/Form/Upload.php
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Notice"
-msgstr ""
+msgstr "اعلان"
 
 #: CRM/Campaign/Page/DashBoard.php
 #: templates/CRM/Report/Form/Campaign/SurveyCoverSheet.tpl
 msgid "Result Set"
-msgstr ""
+msgstr "مجموع نتایج"
 
 #: CRM/Campaign/Page/Petition/Confirm.php CRM/Mailing/Form/Optout.php
 #: CRM/Mailing/Page/Common.php CRM/Mailing/Page/Confirm.php
 msgid "Missing input parameters"
-msgstr ""
+msgstr "پارامترهای ورودی از دست رفته"
 
 #: templates/CRM/Campaign/Form/Petition/Signature.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
@@ -524,47 +556,53 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 msgid "Thank you for your support."
-msgstr ""
+msgstr "از حمایت شما متشکریم"
 
 #: templates/CRM/Campaign/Form/Search/EmptyResults.tpl
 #: templates/CRM/Contribute/Form/Search/EmptyResults.tpl
 msgid ""
 "if you are searching within a date or amount range, try a wider range of "
 "values"
-msgstr ""
+msgstr "اگردربازه زمانی/تاریخ و یا مقدار مشخصی جستجو می کنید، سعی کنید ازطیف وسیع تری از ارزش ها/مقادیر استفاده نمایید. "
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "Column"
-msgstr ""
+msgstr "ستون"
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
 #: templates/CRM/Report/Form/Tabs/OrderBy.tpl
 msgid "another column"
-msgstr ""
+msgstr "ستون دیگر"
 
-#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
-#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
-#: templates/CRM/Case/Form/Task/Print.tpl CRM/Report/Form/Case/Summary.php
-msgid "Client"
-msgstr ""
-
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: CRM/Report/Form/Case/Summary.php CRM/Report/Form/Extended.php
 msgid "Case Subject"
-msgstr ""
+msgstr "موضوع پرونده/مورد"
 
-#: CRM/Case/DAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Page/AJAX.php templates/CRM/Case/Form/Search/Common.tpl
-#: CRM/Report/Form/Extended.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php
+#: CRM/Case/Form/Activity/OpenCase.php CRM/Case/Page/AJAX.php
+#: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case Start Date"
-msgstr ""
+msgstr " تاریخ شروع پرونده"
 
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case End Date"
+msgstr " تاریخ پایان پرونده"
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Submit"
 msgstr ""
+
+#: CRM/Case/Form/EditClient.php CRM/Event/Form/SelfSvcTransfer.php
+msgid "Select Contact"
+msgstr ""
+
+#: CRM/Case/Form/Task/Batch.php CRM/Contribute/Form/Task/Batch.php
+#: CRM/Member/Form/Task/Batch.php
+msgid "Your updates have been saved."
+msgstr "بروزرسانی ها ذخیره شد."
 
 #: templates/CRM/Case/Form/CaseView.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -572,101 +610,268 @@ msgstr ""
 #: templates/CRM/Event/Form/Selector.tpl
 #: templates/CRM/Member/Form/Selector.tpl templates/CRM/PCP/Page/PCP.tpl
 msgid "View contact record"
+msgstr "نمایش سابقه/پیشینه مخاطب"
+
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form/Mailing/Opened.php
+msgid "Open Date"
 msgstr ""
 
-#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form.php
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/BAO/ReportInstance.php
 msgid "Print Report"
-msgstr ""
+msgstr "چاپ گزارش"
 
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 #: templates/CRM/Event/Form/Search/EmptyResults.tpl
 #: templates/CRM/Grant/Form/Search/EmptyResults.tpl
 #: templates/CRM/Member/Form/Search/EmptyResults.tpl
 msgid "if you are searching within a date range, try a wider range of values"
+msgstr "اگردر بازه زمانی/تاریخ مشخصی جستجو می کنید، سعی کنید ازطیف وسیع تری از ارزش ها/مقادیر استفاده نمایید."
+
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Receive Date"
 msgstr ""
 
-#: CRM/Contribute/BAO/Contribution/Utils.php
-#: CRM/Event/Form/Registration/Confirm.php
-msgid ""
-"The system did not record payment details for this payment and so could not "
-"process the transaction. Please report this error to the site administrator."
-msgstr ""
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Cancel Date"
+msgstr "تاریخ لغو"
 
 #: CRM/Contribute/BAO/Contribution.php CRM/Member/BAO/Membership.php
 msgid "(match to contact)"
+msgstr "(مطابقت با مخاطب)"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/PremiumsProduct.php
+#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Task/Print.tpl
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Premium"
+msgstr "حق بیمه"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit For"
+msgstr "مشارکت غیر مستقیم برای"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Soft Credit Amount"
+msgstr "میزان شمارکت غیر مستقیم"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Name"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Email"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Phone"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/PCP/DAO/PCP.php
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Personal Campaign Page Title"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Event/Form/Registration/Confirm.php
+#: CRM/Event/Form/Registration/Register.php
+msgid "Online Event Registration"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Submit Credit Card payment"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Record Payment"
+msgstr "ثبت پرداخت"
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Record Refund"
 msgstr ""
 
 #: CRM/Contribute/BAO/ContributionPage.php CRM/Event/BAO/Event.php
 msgid "Copy of"
+msgstr "رونوشت از"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Financial/DAO/PaymentToken.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Page/BatchTransaction.tpl
+msgid "Contribution Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Search/Common.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancelled / Refunded Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Number"
 msgstr ""
 
 #: CRM/Contribute/BAO/Query.php CRM/Report/Form/Contribute/Detail.php
 msgid "Contributions Only"
-msgstr ""
+msgstr " فقط مشارکت ها"
 
 #: CRM/Contribute/BAO/Query.php CRM/Report/Form/Contribute/Detail.php
 msgid "Soft Credits Only"
+msgstr "فقط مشارکت های غیر مستقیم/ اعتبارهای نرم"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/Widget.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The Contribution Page which triggered this contribution"
 msgstr ""
 
-#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialType.php
-msgid "Financial Type ID"
+#: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "actual processor fee if known - may be 0."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialTrxn.php
+msgid ""
+"actual funds transfer amount. total less fees. if processor does not report "
+"actual fee during transaction, this is set to total_amount."
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Cancel Date"
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Reference"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/DAO/ContributionSoft.php CRM/Contribute/DAO/Product.php
+#: CRM/Event/DAO/Event.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Grant/DAO/Grant.php CRM/PCP/DAO/PCP.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "3 character string, value from config setting or input via user."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancellation / Refund Reason"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Report/Form/Contribute/Detail.php
+msgid "Thank-you Date"
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
 #: CRM/Member/DAO/Membership.php
 msgid "Is Pay Later"
+msgstr "بعداً پرداخت می شود"
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Recognition Date"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Report/Form/Contribute/PCP.php
 msgid "Contribution Page Title"
-msgstr ""
+msgstr "عنوان صفحه مشارکت "
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/AbstractEditPayment.php
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: CRM/Contribute/Form/Contribution.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl CRM/Event/DAO/Event.php
-#: CRM/Event/Form/ManageEvent/Fee.php CRM/Event/Form/Participant.php
-#: CRM/Financial/DAO/FinancialTrxn.php CRM/Financial/DAO/PaymentProcessor.php
-#: CRM/Member/Form.php
+#: CRM/Event/Form/ManageEvent/Fee.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Report/Form/Contribute/Recur.php
 msgid "Payment Processor"
+msgstr "پردازشگر پرداخت"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "if true - allows the user to send payment directly to the org later"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Pay Later Text"
+msgstr "متن پرداخت در آینده"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The text displayed to the user in the main form"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The receipt sent to the user instead of the normal receipt text"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Label"
+msgstr "برچسب مقدار اولیه"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount label for partial payment"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Help Text"
+msgstr "متن راهنمای مقدار اولیه"
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount help text for partial payment"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionPage.php
-#: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Minimum initial amount for partial payment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "FK to civicrm_option_value."
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
 msgid "Maximum Amount"
-msgstr ""
+msgstr "حداکثر مبلغ"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: templates/CRM/Contribute/Form/ContributionPage/Settings.hlp
 #: CRM/PCP/DAO/PCP.php CRM/Report/Form/Contribute/PCP.php
 msgid "Goal Amount"
-msgstr ""
+msgstr "مبلغ هدف"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/AdditionalPayment.php
@@ -674,39 +879,59 @@ msgstr ""
 #: CRM/Event/Form/ParticipantFeeSelection.php CRM/Member/Form/Membership.php
 #: CRM/Member/Form/MembershipRenewal.php CRM/Pledge/Form/Pledge.php
 msgid "Receipt From"
-msgstr ""
+msgstr "رسید از"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Footer Text"
-msgstr ""
+msgstr "متن پانوشت"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Is billing block required"
-msgstr ""
+msgstr "آیا  بلوک صورتحساب مورد نیاز است؟"
 
-#: CRM/Contribute/DAO/ContributionProduct.php CRM/Report/Form/Extended.php
+#: CRM/Contribute/DAO/ContributionProduct.php
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+#: CRM/Report/Form/Extended.php
 msgid "Quantity"
-msgstr ""
+msgstr "تعداد"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Contribute/DAO/Product.php
+#: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Contribute/Form/ManagePremiums.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Frequency Unit"
-msgstr ""
+msgstr "واحد تناوب"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/UpdateSubscription.php
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Number of Installments"
+msgstr "تعداد اقساط"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Financial/DAO/PaymentToken.php
 msgid "Payment Token ID"
-msgstr ""
+msgstr "شناسه توکن پرداخت"
 
 #: CRM/Contribute/DAO/ContributionRecur.php
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Next Scheduled Contribution Date"
-msgstr ""
+msgstr "تاریخ مشارکت برنامه ریزی شده بعدی"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Member/DAO/MembershipType.php
 #: templates/CRM/Member/Form/Membership.hlp
 msgid "Auto Renew"
+msgstr "تمدید خودکار"
+
+#: CRM/Contribute/DAO/ContributionRecur.php CRM/Pledge/DAO/Pledge.php
+msgid "FK to Financial Type"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionSoft.php
+#: CRM/Event/DAO/ParticipantPayment.php CRM/Member/DAO/MembershipPayment.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to contribution table."
 msgstr ""
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
@@ -719,89 +944,52 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
 #: CRM/Member/DAO/MembershipType.php CRM/Member/Form/MembershipType.php
 msgid "Fixed Period Start Day"
-msgstr ""
-
-#: CRM/Contribute/DAO/Product.php CRM/Member/Form/MembershipType.php
-msgid "Duration Interval"
-msgstr ""
+msgstr " روز تعیین شده برای شروع دوره"
 
 #: CRM/Contribute/DAO/Product.php CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency Interval"
-msgstr ""
+msgstr "فاصله زمانی تکرارها"
 
-#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Contribute/Form/Task/Print.tpl
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Premium"
-msgstr ""
+#: CRM/Contribute/Form/AbstractEditPayment.php
+#: CRM/Contribute/Form/ContributionView.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "View Payment"
+msgstr "مشاهده پرداخت"
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl CRM/PCP/Form/Event.php
 msgid "Online Contribution Page"
-msgstr ""
+msgstr "صفحه مشارکت های آنلاین"
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Send additional reminders"
-msgstr ""
+msgstr "ارسال یادآورهای بیشتر"
 
 #: CRM/Contribute/Form/AdditionalInfo.php CRM/Member/Form/Membership.php
 msgid "receipt"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Pledge/Page/Payment.tpl
-msgid "View Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
-#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: xml/templates/message_templates/event_registration_receipt_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
-#: xml/templates/message_templates/membership_offline_receipt_html.tpl
-#: xml/templates/message_templates/membership_offline_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-msgid "Credit Card Information"
-msgstr ""
+msgstr "رسید"
 
 #: CRM/Contribute/Form/AdditionalPayment.php
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Payment Amount"
-msgstr ""
+msgstr "مبلغ قابل پرداخت"
 
 #: CRM/Contribute/Form/AdditionalPayment.php CRM/Event/Form/EventFees.php
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "Confirmation Message"
-msgstr ""
+msgstr "پیام تأیید"
 
 #: CRM/Contribute/Form/CancelSubscription.php CRM/Member/Page/Tab.php
 #: CRM/Member/Selector/Search.php
 msgid "Cancel Auto-renewal"
-msgstr ""
+msgstr "لغو تمدید اتوماتیک"
 
 #: CRM/Contribute/Form/CancelSubscription.php
 #: xml/templates/message_templates/membership_autorenew_cancelled_html.tpl
@@ -810,7 +998,12 @@ msgid ""
 "The automatic renewal of your %1 membership has been cancelled as requested."
 " This does not affect the status of your membership - you will receive a "
 "separate notification when your membership is up for renewal."
-msgstr ""
+msgstr "بنا به درخواست شما تجدید خودکار  عضویت٪ 1 شما لغو شده است. این کار تأثیری در وضعیت عضویت شما ندارد -  زمانی که عضویت شما نیاز به تمدید داشته باشد پیام  جداگانه ای دربافت می کنید."
+
+#: CRM/Contribute/Form/Contribution/Confirm.php
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Make Payment"
+msgstr "پرداخت"
 
 #: CRM/Contribute/Form/Contribution/Confirm.php
 #: CRM/Event/Cart/Form/Checkout/ConferenceEvents.php
@@ -818,32 +1011,27 @@ msgstr ""
 #: CRM/Event/Form/Registration/AdditionalParticipant.php
 #: CRM/Event/Form/Registration/Confirm.php
 msgid "Go Back"
-msgstr ""
+msgstr "بازگشت"
 
 #: CRM/Contribute/Form/Contribution/Main.php CRM/PCP/BAO/PCP.php
 msgid "Include my name and message"
-msgstr ""
+msgstr "نام و پیام من را اضافه کن "
 
 #: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-#: CRM/PCP/BAO/PCP.php
-msgid "Personal Note"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/BAO/Query.php
 msgid "Every"
-msgstr ""
+msgstr "همه"
+
+#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment Method is a required field."
+msgstr "روش پرداخت یک فیلد اجباری است."
 
 #: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Event/Form/Registration/Register.php
 msgid "Custom %1 is a required field if %1 is of type Customized."
-msgstr ""
+msgstr "سفارش٪ 1 یک فیلد ضروری است اگر٪ 1 از نوع سفارشی باشد."
 
 #: CRM/Contribute/Form/Contribution.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -854,143 +1042,145 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Premium Information"
-msgstr ""
+msgstr "اطلاعات مربوط به ارتقا/حق بیمه"
+
+#: CRM/Contribute/Form/Contribution.php CRM/Event/Form/EventFees.php
+#: CRM/Member/Form/Membership.php
+msgid "You do not have all the permissions needed for this page."
+msgstr "شما تمام مجوزهای لازم را برای استفاده از این صفحه را ندارید."
 
 #: CRM/Contribute/Form/Contribution.php
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: CRM/Member/Form/Membership.php templates/CRM/Member/Form/Membership.tpl
 msgid "Choose price set"
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionBase.php CRM/Member/BAO/Membership.php
-msgid ""
-"Oops. The membership you're trying to renew appears to be invalid. Contact "
-"your site administrator if you need assistance. If you continue, you will be"
-" issued a new membership."
-msgstr ""
+msgstr "انتخاب مجموعه قیمت ها"
 
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Page/EventInfo.php
 msgid "The page you requested is currently unavailable."
-msgstr ""
+msgstr "صفحه مورد نظر شما در حال حاضر در دسترس نیست."
 
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Form/Registration.php
 msgid "Some of the profile fields cannot be configured for this page."
-msgstr ""
+msgstr "برخی از زمینه/فیلدهای پروفایل را نمی توان برای این صفحه  پیکربندی کرد."
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Pay Later Instructions"
-msgstr ""
+msgstr "دستور العمل پرداخت در آینده"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Billing address required"
-msgstr ""
+msgstr "آدرس صورتحساب ضروری است. "
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Show Recurring Donation Start Date?"
+msgstr " تاریخ شروع هدایای تکراری نمایش داده شود؟"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "I will send payment by check"
-msgstr ""
+msgstr "من از طریق چک پرداخت می کنم. "
 
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Include Profile"
-msgstr ""
+msgstr "شامل نمایه"
 
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "(top of page)"
-msgstr ""
+msgstr "(بالای صفحه)"
 
 #: CRM/Contribute/Form/ContributionPage/Custom.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "(bottom of page)"
-msgstr ""
+msgstr "(پایین صفحه)"
 
 #: CRM/Contribute/Form/ContributionPage/Premium.php
 #: CRM/Contribute/Form/ContributionPage/Settings.php CRM/Event/DAO/Event.php
 msgid "Introductory Message"
-msgstr ""
+msgstr "پیام معرفی"
 
 #: CRM/Contribute/Form/ContributionPage/Settings.php CRM/Event/DAO/Event.php
 msgid "Footer Message"
-msgstr ""
+msgstr "محتوای پانوشت"
 
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "End date should be after Start date."
-msgstr ""
+msgstr "تاریخ پایان باید پس از تاریخ شروع باشد."
 
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Contribute/Form/ContributionPage.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php CRM/Event/Form/ManageEvent.php
 msgid "'%1' information has been saved."
-msgstr ""
+msgstr "'٪ 1' اطلاعات ذخیره شده است."
 
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Receipt"
-msgstr ""
+msgstr "گیرنده"
 
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 #: CRM/Event/Form/ManageEvent/TabHeader.php
 msgid "Personal Campaigns"
-msgstr ""
+msgstr "کمپین های شخصی"
 
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 #: CRM/Member/Form/Membership.php
 msgid "Receipt Message"
-msgstr ""
+msgstr "پیام گیرنده"
 
 #: CRM/Contribute/Form/ContributionPage/ThankYou.php
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Please enter a valid list of comma delimited email addresses"
-msgstr ""
+msgstr "لطفا یک لیست معتبر از  آدرسهای ایمیلی که با ویرگول جدا شده اند را وارد نمایید. "
 
 #: CRM/Contribute/Form/ContributionPage/Widget.php
 #: CRM/Report/Form/Instance.php
 msgid "Title is a required field."
-msgstr ""
+msgstr "عنوان یک فیلد اجباری است"
 
 #: CRM/Contribute/Form/Search.php CRM/Financial/Form/BatchTransaction.php
 msgid "Contributor Name or Email"
-msgstr ""
+msgstr "نام یا آدرس ایمیل مشترک"
 
 #: CRM/Contribute/Form/Search.php CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor Name"
-msgstr ""
+msgstr "نام شرکت کننده"
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Unsupported Field Type"
-msgstr ""
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Tag(s)"
+msgstr "برچسب (های) مشترکین"
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Member/Form/Task/Batch.php
-msgid "Your updates have been saved."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "No updates have been saved."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Not Saved"
-msgstr ""
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Group(s)"
+msgstr "گروه (های) مشترکین"
 
 #: CRM/Contribute/Form/Task/Invoice.php CRM/Contribute/Form/Task/PDF.php
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: ang/crmMailing/services.js CRM/Report/Form.php
 msgid "Sent"
-msgstr ""
+msgstr "ارسال شد"
 
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Update Error"
-msgstr ""
+#: CRM/Contribute/Form/Task/Status.php
+#: templates/CRM/Contribute/Form/Task/Status.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: CRM/Financial/Form/PaymentEdit.php CRM/Financial/Page/AJAX.php
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Date"
+msgstr "تاریخ تراکنش"
 
 #: CRM/Contribute/Form/UpdateBilling.php
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
@@ -998,56 +1188,47 @@ msgstr ""
 msgid ""
 "Billing details for your automatically renewed %1 membership have been "
 "updated."
-msgstr ""
+msgstr "جزئیات صورت حساب برای  عضویت شما که به طور خودکار تمدید٪ 1 شده ، به روز شده است."
 
 #: CRM/Contribute/Import/Form/DataSource.php
 #: CRM/Member/Import/Form/DataSource.php
 msgid "Import mode"
-msgstr ""
+msgstr "حالت ورود"
 
 #: CRM/Contribute/Import/Parser/Contribution.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Pledge ID"
-msgstr ""
+msgstr "شناسه ضمانت/تعهد"
 
 #: CRM/Contribute/Info.php CRM/Event/Info.php CRM/Member/Info.php
 msgid "credit card"
-msgstr ""
-
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/Contribution/PreviewHeader.tpl
-#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
-#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
-msgid "Test-drive"
-msgstr ""
+msgstr "کارت اعتباری"
 
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Page/DashBoard.tpl
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Cumulative"
-msgstr ""
+msgstr "تصاعدی"
 
 #: CRM/Contribute/Page/Tab.php CRM/Member/Page/Tab.php
 msgid "Change Billing Details"
-msgstr ""
+msgstr "تغییر جزییات صورتحساب"
 
 #: CRM/Contribute/Page/Tab.php CRM/Contribute/Selector/Search.php
 #: CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Page/BatchTransaction.php
 msgid "View Contribution"
-msgstr ""
+msgstr "مشاهده مشارکت"
 
 #: CRM/Contribute/Selector/Search.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-#: CRM/Event/Selector/Search.php
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "test"
-msgstr ""
+msgstr "تست/آزمایش/ آزمون"
 
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Summary.php
-msgid "Soft Credit Amount"
-msgstr ""
-
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Detail.php
-msgid "Soft Credit For"
+#: CRM/Contribute/Tokens.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Payment Instrument"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
@@ -1058,21 +1239,16 @@ msgid ""
 "receipt to be sent when this payment is recorded, click Cancel and then "
 "click Edit from the Summary tab to add an email address before recording the"
 " payment."
-msgstr ""
+msgstr "شما قادر به ایمیل کردن خودکار رسید برای این پرداخت نیستید زیرا هیچ ادرس ایمیلی برای این مخاطب ثبت نشده است. اگر می‌خواهید که وقتی پرداخت ثبت شد یک رسید ارسال شود، روی لغو کلیک کنید و سپس ویرایش را از نوار اختصاری انتخاب کنید و یک ادرس ایمیل را قبل از ثبت پرداخت وارد کنید."
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
 msgid "Balance Owed"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Pledge/Form/Pledge.tpl
-msgid "loading"
-msgstr ""
+msgstr "میزان بدهی"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1091,49 +1267,55 @@ msgstr ""
 #: CRM/Report/Form/Contribute/History.php
 #: templates/CRM/Report/Form/Event/Income.tpl
 msgid "Total"
-msgstr ""
+msgstr "مجموع"
+
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Installment Amount"
+msgstr "مبلغ اقساط"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "Contribution Honor Roll"
-msgstr ""
+msgstr "دسته مشارکت افتخاری"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "List my contribution"
-msgstr ""
+msgstr "لیست مشارکت های من"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "anonymously"
-msgstr ""
+msgstr "مخفیانه"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "under the name"
-msgstr ""
+msgstr "تحت نام"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "With the personal note"
-msgstr ""
+msgstr "با توضیح شخصی"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "With no personal note"
-msgstr ""
+msgstr "بدون توضیح شخصی"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: templates/CRM/Event/Form/Registration/Confirm.tpl
 msgid "Don't list my contribution in the honor roll."
-msgstr ""
+msgstr "مشارکت من را در لیست مشارکت های افتخاری نگذار."
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
@@ -1160,50 +1342,30 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Expires"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Checkout with Google"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Click the Google Checkout button to continue."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Checkout with PayPal"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Click the PayPal button to continue."
-msgstr ""
+msgstr "منقضی می شود"
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Welcome %1"
-msgstr ""
+msgstr "خوش آمدید %1"
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid ""
 "Enter the name you want listed with this contribution. You can use a nick "
 "name like 'The Jones Family' or 'Sarah and Sam'."
-msgstr ""
+msgstr "نامی را که می خواهید ذکر کنید با این مشارکت وارد کنید. می توانید از اسامی مستعار مانند \" خانواده جونز\" یا \"سارا و سام 'استفاده کنید."
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Enter a message to accompany this contribution."
-msgstr ""
+msgstr "یک پیام به همراه این مشارکت  وارد کنید."
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Payment Options"
-msgstr ""
+msgstr "روش‌های پرداخت"
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1216,34 +1378,30 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Transaction #"
-msgstr ""
+msgstr "تراکنش #"
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Membership Transaction #"
-msgstr ""
+msgstr "تراکنش عضویت"
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Contribute/Page/ContributionSoft.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Contributor"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-msgid "(test)"
-msgstr ""
+msgstr "مشترک"
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Alternatively, you can use a price set."
-msgstr ""
+msgstr "متناوبا، می توانید از مجموعه  قیمت ها استفاده کنید."
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "loading"
+msgstr "درحال بارگزاری"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1252,28 +1410,28 @@ msgid ""
 "below without setting up a payment processor. All users will then be asked "
 "to submit payment offline (e.g. mail in a check, call in a credit card, "
 "etc.)."
-msgstr ""
+msgstr "توجه: متناوبا، می توانید گزینه \"بعداً پرداخت می کنم\" را   بدون راه اندازی  پردازنده پرداخت فعال کنید. پس از این از کلیه کاربران خواسته می شود  که به به صورت آفلاین پرداخت های خود را انجام دهند.  (به عنوان مثال پست کردن چک،پرداخت تلفنی با کارت اعتباری، و غیره)."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
 "Check this box if you want to give users the option to submit payment "
 "offline (e.g. mail in a check, call in a credit card, etc.)."
-msgstr ""
+msgstr "اگر شما می خواهید به کاربران امکان پرداخت آفلاین را بدهید  (به عنوان مثال پست کردن چک،پرداخت تلفنی با کارت اعتباری، و غیره) این بخش را بررسی کنید."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
 "Text displayed next to the checkbox for the 'pay later' option on the "
 "contribution form. You may include HTML formatting tags."
-msgstr ""
+msgstr "این متن در کنار کادر مربوط به گزینه \"پرداخت در آینده \"  در فرم مشارکت نمایش داده می شود. شما می توانید تگ های قالب بندی HTML را نیز اضافه نمایید."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 msgid ""
 "Check this box to require users who select the pay later option to provide "
 "billing name and address."
-msgstr ""
+msgstr "این بخش را بررسی کنید تا بتوانید کاربرانی را که گزینه \"پرداخت در آینده\" را انتخاب کرده اند ملزم کنید که نام و آدرس صورتحساب خود را وارد نمایند. "
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1282,28 +1440,28 @@ msgid ""
 "Once you switch to using a Price Set, you won't be able to switch back to "
 "your existing settings below except by re-entering them. Are you sure you "
 "want to switch to a Price Set?"
-msgstr ""
+msgstr "هنگامی که ازیک لیست قیمت استفاده می کنید نمی توانید مجددا به تنظیمات قبلی خود که در زیر آمده است برگردید، مگر اینکه دوباره آنها را وارد نمایید. آیا مطمئن هستید که می خواهید از لیست قیمت استفاده کنید؟"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid ""
 "Refer to the online documentation for more details on creating %1 and %2."
-msgstr ""
+msgstr "ارجاع به اسناد آنلاین برای جزئیات بیشتر دررابطه با ایجاد  1٪ و 2٪."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "custom fields"
-msgstr ""
+msgstr "فیلدهای سفارشی"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Custom.hlp
 #: templates/CRM/Event/Form/ManageEvent/Registration.hlp
 msgid "profiles"
-msgstr ""
+msgstr "پروفایل ها"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Event.hlp
 msgid "Approval Needed"
-msgstr ""
+msgstr "نیازمند تایید است"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
@@ -1313,7 +1471,7 @@ msgid ""
 "\"Notify Email\" feature if you are requiring approval to ensure that the "
 "appropriate staff person is informed when a new Personal Campaign page is "
 "'Waiting Review'."
-msgstr ""
+msgstr "مدیریت نیاز به تایید صفحات مبارزه شخصی جدید دارد قبل از آنکه آنها در دسترس عموم قرار گیرند. توصیه می کنیم اگر نیاز به تایید برای اطمینان ازینکه کارمند دارای صلاحیت از 'انتظار بازبینی' یک صفحه مبارزه شخصی جدید با خبر شده، از ویژگی \"پست الکترونیکی اخطار\" استفاده کنید."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
@@ -1321,7 +1479,12 @@ msgid ""
 "The person who created the personal campaign page will be automatically "
 "notified via email when their page is approved so that they can begin "
 "promoting the campaign."
-msgstr ""
+msgstr "پس از تایید  صفحه شخصی کمپین،  برای کسی که آن را ایجاد کرده است به طور خودکار ایمیلی ارسال خواهد شد تا بتوانند فعالیت خود را برای ارتقاء کمپین آغاز کنند. "
+
+#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Notification Email"
+msgstr "ایمیل اطلاع رسانی"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1330,7 +1493,7 @@ msgid ""
 " Page linked to this contribution page is either created or updated. The "
 "notification will include links to view the campaign page as well as the "
 "contact record of the creator of the page."
-msgstr ""
+msgstr "هرزمان که یک صفحه کمپین شخصی به این رویداد همکاری درحال ساخت یا بروز شده متصل شود، پیام اطلاع رسانی به این ادرس ایمیل فرستاده می شود. این پیام حاوی لینک هایی برای بازدید صفحه کمپین و سوابق تماس سازنده صفحه خواهد بود."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
@@ -1339,12 +1502,12 @@ msgid ""
 "Notification receipt, enter one or more email addresses here. Multiple email"
 " addresses should be separated by a comma (e.g. jane@example.org, "
 "paula@example.org) First Email will be sent to PCP user for support."
-msgstr ""
+msgstr "اگر می خواهید مدیر سازمان شما رسیدهای اخطار PCP را دریافت کند، یک یا چند آدرس ایمیل اینجا وارد کنید. آدرس های ایمیل چندتایی باید با علامت ویرگول جدا شوند (مثال: jane@example.org, paula@example.org)  اولین پست الکترونکی برای کاربر PCP جهت پشتیبانی ارسال خواهد شد."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid "Tell-a-Friend"
-msgstr ""
+msgstr "به دوست خود بگویید"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1353,24 +1516,24 @@ msgid ""
 "to send emails to people inviting them to visit their page and make a "
 "contribution? NOTE: Tell a Friend emails will automatically include a link "
 "to the sender's campaign page."
-msgstr ""
+msgstr "ایا صاحب صفحه کمپین شخصی می تواند از شیوه \"اطلاع به دوستان\" برای فرستادن ایمیل به افراد برای دعوت به بازدید از صفحه و مشارکت استفاده کند؟ نکته: ایمیل های اطلاع به دوستان به صورت خودکار حاوی لینک صفحه کمپین فرستنده می باشد."
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid "Tell-a-Friend Limit"
-msgstr ""
+msgstr "محدودیت اطلاع به دوستان "
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid ""
 "How many recipients can they send emails to at one time? You may want to "
 "limit this to prevent large mail blasts from being sent."
-msgstr ""
+msgstr "به چه تعداد از مخاطبین  می توان به طور همزمان ایمیل ارسال کرد؟ شما می توانید این تعداد را محدود نمایید  تا از   ارسال تعداد بیشماری ایمیل به طور همزمان جلوگیری کنید. "
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid "Personal Contribution Link"
-msgstr ""
+msgstr "لینک مشارکت  شخصی"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1379,66 +1542,87 @@ msgid ""
 "Page. This link will appear on the Contribution Thank-you page as well as on"
 " each Personal Campaign Page. Leave blank if you do not want constituents to"
 " be prompted to create their own Personal Campaign Pages."
-msgstr ""
+msgstr "متن لینک دعوت موسسان برای ساخت صفحه کمپین شخصی. این لینک روی صفحه تشکر همکاری و کمک همانند تمام صفحات کمپین شخصی ظاهر می شود .اگر نمی خواهید موسسان برای ساخت صفحات کمپین شخصی خودشان فعال شوند این قسمت را خالی بگذارید."
 
 #: templates/CRM/Contribute/Form/ContributionPage/Settings.hlp
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 msgid "Social Sharing"
-msgstr ""
+msgstr "اشتراک گذاری شبکه‌های اجتماعی"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
 #: templates/CRM/PCP/Form/Contribute.tpl
 msgid ""
 "Allow constituents to create their own personal fundraising pages linked to "
 "this contribution page."
+msgstr "به اعضا این امکان داده شود که صفحات شخصی جمع آوری کمک های مالی وابسته به این صفحه مشارکت برای خود ایجاد کنند."
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "This is a TEST transaction"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Recurring Contribution"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: CRM/Pledge/BAO/PledgeBlock.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Installments"
-msgstr ""
+msgstr "اقساط/ راه اندازی ها"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Personal Note"
+msgstr "توضیح شخصی"
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid "Total amount you would like to raise for this campaign."
-msgstr ""
+msgstr "مبلغ کلی که می خواهید  در این کمپین جمع آوری کنید."
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "If this option is checked, a \"thermometer\" showing progress toward your "
 "goal will be included on the page."
-msgstr ""
+msgstr "اگر این گزینه فعال باشد، یک درجه جهت نشان دادن میزان پیشرفت شما در راستای اهدافتان در صفحه گنجانده خواهد شد."
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid "Tell people why this campaign is important to you."
-msgstr ""
+msgstr "به دیگران بگویید که چرا این کمپین برای شما مهم است."
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "Is your Personal Campaign Page active? You can activate/de-activate it any "
 "time during it's lifecycle."
-msgstr ""
+msgstr "آیا صفحه شخصی کمپین شما  فعال است؟ شما می توانید در طول دوره فعالیت آن، هر زمان که بخواهید آن را فعال / غیر فعال کنید."
 
 #: templates/CRM/Contribute/Form/PCP/Delete.tpl
 #: templates/CRM/PCP/Form/PCP/Delete.tpl
 msgid "Delete Campaign Page "
-msgstr ""
+msgstr "حذف صفحه کمپین"
 
 #: templates/CRM/Contribute/Form/PCP/Delete.tpl
 #: templates/CRM/PCP/Form/PCP/Delete.tpl
 msgid "Are you sure you want to delete Campaign Page '%1'?"
-msgstr ""
+msgstr "آیا نسبت به حذف صفحه کمپین '%1' مطمئنید؟"
 
 #: templates/CRM/Contribute/Form/PCP/PCP.tpl
 #: templates/CRM/PCP/Form/PCP/PCP.tpl
 msgid "Find Campaign Pages"
-msgstr ""
+msgstr "یافتن صفحات کمپین"
 
 #: templates/CRM/Contribute/Form/PCP/PCPAccount.tpl
 #: templates/CRM/PCP/Form/PCPAccount.tpl
@@ -1446,70 +1630,45 @@ msgid ""
 "Creating your own fundraising page is simple. Fill in some basic information"
 " below, which will allow you to manage your page and invite friends to make "
 "a contribution. Then click 'Continue' to personalize and announce your page."
-msgstr ""
+msgstr "ساخت صفحه کمپین شخصی خودتان راحت است. قسمت اطلاعات پایه‌ای زیر را پر کنید، این قسمت به شما اجازه مدیریت صفحه و دعوت دوستان برای حمایت صفحه‌تان را می‌دهد. سپس روی \"ادامه\" کلیک کنید تا صفحه‌تان را منتشر و شخصی کند."
 
 #: templates/CRM/Contribute/Form/PCP/PCPAccount.tpl
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
 #: templates/CRM/PCP/Form/PCPAccount.tpl
 msgid "Profile is not configured with Email address."
-msgstr ""
+msgstr "پروفایل با آدرس ایمیل همراستا نشده است."
 
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Tag(s)"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Group(s)"
-msgstr ""
+#: templates/CRM/Contribute/Form/Selector.tpl
+#: templates/CRM/Contribute/Page/PaymentInfo.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+#: templates/CRM/Pledge/Form/Selector.tpl
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "view payments"
+msgstr "نمایش پرداخت ها"
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
-"Available email addresses are configurable by users with Administer CiviCRM "
-"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
-"Email Addresses</a> to add or edit email addresses. Make sure these email "
-"addresses are valid email accounts with your email service provider."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Contact your site administrator if you need to use a \"FROM\" Email Address "
-"which is not in the dropdown list."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You can choose to send BOTH an <strong>HTML</strong> and a plain "
 "<strong>TEXT</strong> version of your mailing, OR you can send a "
 "<strong>TEXT</strong> version only."
-msgstr ""
+msgstr "می توانید هم  یک نسخه <strong>HTML</strong> و هم یکـ <strong>متن</strong> ساده از پست الکترونیکی تان بفرستید، یا اینکه می توانید فقط یک نسخه <strong>متن</strong> بفرستید."
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "If you create only an <strong>HTML</strong> version, CiviMail will "
 "automatically create a <strong>TEXT</strong> version for your recipients who"
 " have chosen NOT to receive HTML email."
-msgstr ""
+msgstr "در صورتیکه فقط یک نسخه ی <strong>HTML</strong> ایجاد کنید، CiviMail بطور خودکار یک نسخه <strong>متن</strong> برای دریافت کنندگانتان که دریافت نکردن ایمیل HTML را انتخاب کردند، ایجاد می شود."
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "Required Elements"
-msgstr ""
+msgstr "المان‌های اجباری"
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "CiviMail email messages must include an <strong>opt-out</strong> link (\"Opt"
 " out via web page\"), and the <strong>postal address</strong> of your "
@@ -1518,43 +1677,13 @@ msgid ""
 "re-usable <strong>message footer</strong>. Refer to the online documentation"
 " for details on how to include required links and contact information as "
 "well as sample messages."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"You can use your favorite editor to create content on your local computer "
-"and then <strong>Upload</strong> the files. OR you can "
-"<strong>Compose</strong> content directly on the screen."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
-"what-you-get) editor is provided which you can use create simple HTML "
-"messages. However, if you are planning on creating HTML messages with "
-"complex layouts - it is best to use an HTML editor on your local computer. "
-"Then locate and upload the saved file(s) by clicking the "
-"<strong>Browse</strong> button."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Status.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: CRM/Financial/DAO/FinancialItem.php
-#: CRM/Report/Form/Contribute/Bookkeeping.php
-msgid "Transaction Date"
-msgstr ""
+msgstr "پیام های الکترونیکی CiviMail باید شامل یک لینک <strong>opt-out \")  Opt-outاز طریق صفحه وب\")، و یک <strong>آدرس پستی</strong> از سازمان شما باشد. تا احتمال دسته بندی ایمیل شما به عنوان پیام الکترونیکی ناخواسته کاهش یابد. آنها می توانند در متن اصلی پیام یا یک <strong>پاورقی پیام</strong> درج شوند. جهت جزئیات که چگونه لینک های مورد نیاز و اطلاعات مخاطب همچنین پیام های نمونه را درج کنید، به اسناد آنلاین مراجعه کنید."
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid "Import File Format"
-msgstr ""
+msgstr "وارد کردن فرمت/قالب بندی پوشه"
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
@@ -1563,7 +1692,7 @@ msgid ""
 "Files to be imported must be in the 'comma-separated-values' format (CSV). "
 "Most applications will allow you to export records in CSV format. Consult "
 "the documentation for your application if you're not sure how to do this."
-msgstr ""
+msgstr "فایل هایی که باید وارد شوند باید در فرمت \"CSV\" با علامت \"جدا شده با کاما\" باشند(CSV). اکثر برنامه ها به شما این امکان را می دهند که سوابق را در این فرمت صادر کنید. اگر مطمئن نیستید که چگونه این کار را انجام دهید، از اسناد مربوط به برنامه خود استفاده کنید."
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
@@ -1573,32 +1702,32 @@ msgid ""
 " <strong>Unsupervised Duplicate Matching</strong> rules. For the default "
 "duplicate matching rules, you would include a column in each row with the "
 "contributors' Email Address."
-msgstr ""
+msgstr "فیلدهای اطلاعات که برای 'تطبیق' مخاطبان یر اساس ضوابط <strong>تطبیق تکراری حفاظت نشده</strong> پیکر بندی شده است را درج کنید. برای ضوابط تطبیقی تکراری پیش فرض، ستونی که در هر ردیفش آدرس ایمیل مشارکت کنندگان است را درج کنید."
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 #: templates/CRM/Member/Import/Form/DataSource.hlp
 msgid "Matching to Contacts for Inserts and Updates"
-msgstr ""
+msgstr "تطبیق  ملحقات و به روز رسانی ها با مخاطبین "
 
 #: templates/CRM/Contribute/Import/Form/DataSource.tpl
 #: templates/CRM/Member/Import/Form/DataSource.tpl
 msgid ""
 "Check this box if the first row of your file consists of field names "
 "(Example: 'Contact ID', 'Amount')."
-msgstr ""
+msgstr "اگر سطر اول فایل شما  شامل نامهای فیلد   (مانند: \"شناسه مخاطب '،' مقدار/مبلغ ')می باشد این کادر بررسی کنید.."
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Event/Import/Form/Summary.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "Import has completed successfully."
-msgstr ""
+msgstr "ورود داده‌ها موفقیت آمیز انجام شد."
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Event/Import/Form/Summary.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
 msgid "The information below summarizes the results."
-msgstr ""
+msgstr "اطلاعات زیرخلاصه  نتایج را بیان می کند."
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Event/Import/Form/Summary.tpl
@@ -1606,7 +1735,7 @@ msgstr ""
 msgid ""
 "You can <a href=\"%1\">Download Errors</a>. You may then correct them, and "
 "import the new file with the corrected data."
-msgstr ""
+msgstr "شما می توانید ٪ 1 خطاها را دانلود کنید. سپس می توانید آنها را اصلاح کرده، و  فایل جدیدرا با داده های اصلاح وارد کنید. "
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
@@ -1614,7 +1743,7 @@ msgid ""
 "You can <a href=\"%1\">Download Conflicts</a>. You may then review these "
 "records to determine if they are actually conflicts, and correct the "
 "transaction IDs for those that are not."
-msgstr ""
+msgstr "شما می توانید ٪ 1 تضادها/تناقض ها را دانلود کنید. سپس می توانید این پیشینه ها را بررسی کنید تا مطمئن شوید که آیا واقعاً تناقض هستند و  شناسه های تراکنش هایی که جزء تناقض ها نیستد را اصلاح نمایید. "
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: templates/CRM/Member/Import/Form/Summary.tpl
@@ -1622,77 +1751,71 @@ msgid ""
 "You can <a href=\"%1\">Download Duplicates</a>. You may then review these "
 "records to determine if they are actually duplicates, and correct the "
 "transaction IDs for those that are not."
-msgstr ""
+msgstr "شما می توانید ٪ 1 نسخه های تکراری را دانلود کنید. شما می توانید این پیشینه ها را بررسی کنید تا مطمئن شوید که آیا واقعاً تکراری هستند و سپس شناسه های تراکنش هایی که تکراری نیستد را اصلاح نمایید."
 
 #: templates/CRM/Contribute/Import/Form/Summary.tpl
 #: CRM/Report/Form/Contribute/Detail.php
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Soft Credits"
-msgstr ""
+msgstr "مشارکت ها نرم/غیر مستقیم"
 
 #: templates/CRM/Contribute/Page/ContributionPage.tpl
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "Manage Personal Campaign Pages"
-msgstr ""
+msgstr "مدیریت صفحه شخصی کمپین "
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Cancelled Date"
-msgstr ""
+msgstr "تاریخ کنسلی"
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Failure Count"
-msgstr ""
+msgstr "تعداد شکست ها"
 
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
 #: CRM/Report/Form/Contribute/Recur.php
 msgid "Failure Retry Date"
+msgstr "تاریخ شکست تلاش مجدد "
+
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Related Contributions"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Total Soft Credits"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: templates/CRM/PCP/Page/PCP.tpl
-msgid "View Personal Campaign Page"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Total Soft Credit Amount"
-msgstr ""
+msgstr "مبلغ مشارکت غیر مستقیم/اعتبار نرم"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
 msgid "Acctg Code"
-msgstr ""
+msgstr "کد Acctg"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
 #: templates/CRM/Financial/Page/FinancialType.tpl
 msgid "Deductible?"
-msgstr ""
+msgstr "مالیات/کسری؟"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 #: templates/CRM/Financial/Page/FinancialType.tpl
 msgid "Add Financial Type"
-msgstr ""
+msgstr "افزودن نوع حساب مالی"
 
 #: templates/CRM/Contribute/Page/DashBoard.tpl
 #: templates/CRM/Member/Page/MembershipType.tpl
 #: templates/CRM/Member/Page/Tab.tpl
 msgid "Period"
-msgstr ""
+msgstr "دوره"
 
 #: templates/CRM/Contribute/Page/DashBoard.tpl
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "(since inception)"
-msgstr ""
+msgstr "(از ابتدا)"
 
 #: templates/CRM/Contribute/Page/PaymentInfo.tpl
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
@@ -1703,63 +1826,82 @@ msgstr ""
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Total Paid"
-msgstr ""
+msgstr "جمع پرداختی"
 
 #: templates/CRM/Contribute/Page/PaymentInfo.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_text.tpl
 #: CRM/Pledge/Selector/Search.php CRM/Report/Form/Event/ParticipantListing.php
 msgid "Balance"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/PaymentInfo.tpl
-#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
-msgid "view payments"
-msgstr ""
+msgstr "موجودی"
 
 #: templates/CRM/Contribute/Page/PcpUserDashboard.tpl
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "ongoing"
-msgstr ""
+msgstr "در حال انجام"
+
+#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/event_registration_receipt_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Credit Card Information"
+msgstr "مشخصات کارت اعتباری"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Adjust Pledge Payment Schedule"
-msgstr ""
+msgstr "تنظیم برنامه پرداخت ضمانت"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid ""
 "The next scheduled payment will be adjusted up or down to make up the "
 "difference."
-msgstr ""
+msgstr "بالا یا پایین بودن میزان پرداخت های برنامه ریزی شده بعدی  تنظیم خواهد شد تا تفاوت آن پرداخت گردد. "
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid ""
 "Example: If you enter a payment of 60 when the scheduled amount is 50, the "
 "next scheduled payment is adjusted to 40."
-msgstr ""
+msgstr "به عنوان مثال: اگر زمانی که مبلغ برنامه ریزی شده  50 است شما مبلغ  60 پرداخت کنید، پرداخت برنامه ریزی شده بعدی به 40 تنظیم می شود."
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Adjust Total Pledge Amount"
-msgstr ""
+msgstr "تنظیم مجموع مبلغ ضمانت"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid ""
 "The total amount of the pledge will be adjusted up or down to make up the "
 "difference. The payment schedule ( amounts / dates for future pending pledge"
 " payments ) is not changed."
-msgstr ""
+msgstr "بالا یا پایین بودن مبلغ کل این ضمانت  تنظیم  خواهد شد تا  تفاوت آن  پرداخت شود. برنامه پرداخت (مبلغ / تاریخ برای  پرداخت معوقه مبلغ ضمانت در آینده) تغییر نمی کند."
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid ""
 "Example: If you enter a payment of 60 when the scheduled amount is 50, the "
 "total pledge amount will be increased by 10."
-msgstr ""
+msgstr "اگر زمانی که مبلغ برنامه ریزی شده  50 است شما مبلغ  60 پرداخت کنید، مجموع مبلغ  ضمانت به میزان 10 افزایش خواهد یافت. "
 
 #: xml/templates/message_templates/contribution_invoice_receipt_subject.tpl
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Invoice"
-msgstr ""
+msgstr "فاکتور"
 
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1768,7 +1910,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Please print this receipt for your records."
-msgstr ""
+msgstr "لطفا این رسید را برای ذخیره در سوابق خود چاپ کنید."
 
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1781,6 +1923,32 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Each"
+msgstr "هریک/هرکدام"
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Total Tax Amount"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+msgid "Paid By"
 msgstr ""
 
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1790,7 +1958,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Amount before Tax"
-msgstr ""
+msgstr "مبلغ قبل از مالیات"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1799,14 +1967,14 @@ msgstr ""
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "Please print this confirmation for your records."
-msgstr ""
+msgstr "لطفا این تأییدیه را برای ذخیره در سوابق خود چاپ کنید."
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Display In Honor Roll"
-msgstr ""
+msgstr "نمایش در بخش مشارکت های افتخاری"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
@@ -1818,17 +1986,19 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Registered Email"
-msgstr ""
+msgstr "ایمیل ثبت شده"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "For information about this premium, contact:"
-msgstr ""
+msgstr "برای کسب اطلاعات بیشتر در مورد این حق بیمه، با شماره زیر تماس بگیرید:"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
@@ -1837,12 +2007,12 @@ msgstr ""
 msgid ""
 "The value of this premium is %1. This may affect the amount of the tax "
 "deduction you can claim. Consult your tax advisor for more information."
-msgstr ""
+msgstr "ارزش/مبلغ این حق بیمه٪ 1 است. این مبلغ می تواند  میزان کسر مالیات شما را تحت تاثیر قرار دهد. برای کسب اطلاعات بیشتر با مشاور مالیاتی خود مشورت کنید ."
 
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "On Behalf Of"
-msgstr ""
+msgstr "به نفع"
 
 #: xml/templates/message_templates/contribution_recurring_billing_html.tpl
 #: xml/templates/message_templates/contribution_recurring_billing_text.tpl
@@ -1858,27 +2028,29 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Dear %1"
-msgstr ""
+msgstr "%1 عزیز"
 
 #: xml/templates/message_templates/contribution_recurring_billing_html.tpl
 #: xml/templates/message_templates/contribution_recurring_billing_text.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 msgid "If you have questions please contact us at %1"
-msgstr ""
+msgstr "اگر سوالی دارید با ما در %1 تماس بگیرید"
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid ""
-"This membership will be renewed automatically. You can cancel the auto-"
-"renewal option by <a href=\"%1\">visiting this web page</a>."
+"You can cancel the auto-renewal option by <a href=\"%1\">visiting this web "
+"page</a>."
 msgstr ""
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
@@ -1888,6 +2060,10 @@ msgstr ""
 msgid ""
 "You can update billing details for this automatically renewed membership by "
 "<a href=\"%1\">visiting this web page</a>."
+msgstr " می توانید جزئیات صورت حساب  این عضویت که به طور خودکار تمدید شده است را ٪ 1 در این صفحه وب مشاهده کنید."
+
+#: CRM/Event/BAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Note"
 msgstr ""
 
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Fee.php
@@ -1895,28 +2071,36 @@ msgstr ""
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/Summary.php CRM/Report/Form/Extended.php
 msgid "Fee Label"
-msgstr ""
+msgstr "برچسب هزینه"
 
 #: CRM/Event/DAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
 msgid "Fee Currency"
-msgstr ""
+msgstr "واحد پول پرداخت هزینه"
 
 #: CRM/Event/DAO/ParticipantPayment.php CRM/Pledge/DAO/PledgePayment.php
 msgid "Payment ID"
-msgstr ""
+msgstr "شناسه پرداخت"
 
 #: CRM/Event/Form/EventFees.php CRM/Member/Form/Membership.php
 #: CRM/Member/Form/MembershipRenewal.php
 msgid "Transaction ID already exists in Database."
-msgstr ""
+msgstr "این شناسه تراکنش در حال حاضر در پایگاه داده موجود می باشد."
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php CRM/Mailing/BAO/Mailing.php
 msgid "Template Title"
-msgstr ""
+msgstr "عنوان الگو/تمپلت"
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Tip"
-msgstr ""
+msgstr "نکته"
+
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Member/Summary.php
+msgid "Fees"
+msgstr "هزینه ها"
 
 #: CRM/Event/Form/Participant.php
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1929,54 +2113,50 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
 msgid "Registration Date"
-msgstr ""
-
-#: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
-#: CRM/Member/Form/MembershipRenewal.php
-msgid "Paid By is a required field."
-msgstr ""
+msgstr "تاریخ ثبت نام"
 
 #: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
 msgid "Please select a valid payment status before updating."
-msgstr ""
+msgstr "لطفا قبل از بروزرسانی وضعیت پرداخت را مشخص کنید"
 
 #: CRM/Event/Form/Search.php templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Participant Name"
-msgstr ""
+msgstr "نام شرکت کننده"
 
-#: CRM/Event/Selector/Search.php templates/CRM/Pledge/Page/Payment.tpl
-msgid "Record Payment"
-msgstr ""
+#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "-select-"
+msgstr "انتخاب"
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
 msgid ""
 "Check this box to enter payment information. You will also be able to "
 "generate a customized receipt."
-msgstr ""
+msgstr "این کادر را برای وارد کردن اطلاعات پرداخت بررسی کنید. همچنین می توانید یک رسید سفارشی ایجاد کنید."
 
 #: templates/CRM/Event/Form/EventFees.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
+#: templates/CRM/Member/Form/MembershipCommon.tpl
 msgid "Select the appropriate financial type for this payment."
-msgstr ""
+msgstr "نوع حساب مالی مناسب برای این پرداخت را انتخاب کنید."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 #: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
 msgid "Template"
-msgstr ""
+msgstr "تمپلت/الگو"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl templates/CRM/PCP/Page/PCP.tpl
 msgid "Starts"
-msgstr ""
+msgstr "شروع"
 
 #: templates/CRM/Event/Import/Form/DataSource.hlp
 #: templates/CRM/Member/Import/Form/DataSource.hlp
@@ -1984,19 +2164,28 @@ msgid ""
 "You can include a column with each contact's <strong>Internal Contact "
 "ID</strong>. This is the unique ID assigned by CiviCRM which is displayed at"
 " the bottom of the Contact Summary screen - and can be exported."
-msgstr ""
+msgstr "شما می توانید یک ستون شامل شناسه های مخاطبین داخلی  ایجاد کنید. این شناسه که توسط CiviCRM/مدیریت ارتباط با مشتریان به افراد اختصاص داده می شود منحصر به فرد بوده و  در پایین صفحه نمایش خلاصه اطلاعات مخاطبین نمایش داده می شود."
 
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/event_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "SubTotal"
-msgstr ""
+msgstr "بخشی از جمع کل، جمع جزء، زیر جمع"
 
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "Amount Before Tax:"
+msgstr "مبلغ قبل از مالیات"
+
+#: CRM/Financial/BAO/PaymentProcessor.php CRM/Mailing/Event/BAO/Bounce.php
+msgid "Unknown"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Financial Item ID"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessor.php
@@ -2005,17 +2194,17 @@ msgstr ""
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php
 msgid "Payment Type"
-msgstr ""
+msgstr "نوع پرداخت"
 
-#: CRM/Financial/Form/Export.php CRM/Report/Form.php
-msgid "Export to CSV"
+#: CRM/Grant/BAO/Query.php CRM/Report/Form/Grant/Detail.php
+msgid "Grant Decision Date"
 msgstr ""
 
 #: CRM/Grant/BAO/Query.php CRM/Grant/DAO/Grant.php
 #: CRM/Grant/Form/Task/Update.php templates/CRM/Grant/Form/GrantView.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Status"
-msgstr ""
+msgstr "وضعیت کمک های مالی"
 
 #: CRM/Grant/DAO/Grant.php CRM/Grant/Form/Grant.php
 #: templates/CRM/Grant/Form/GrantView.tpl
@@ -2023,35 +2212,36 @@ msgstr ""
 #: templates/CRM/Grant/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
 msgid "Amount Requested"
-msgstr ""
+msgstr "مبلغ درخواست شده"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
-#: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Detail.php
+#: templates/CRM/Grant/Form/GrantView.tpl
+#: templates/CRM/Grant/Form/Task/Print.tpl CRM/Report/Form/Grant/Detail.php
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Application Received"
-msgstr ""
+msgstr "برنامه دریافت شد"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Form/Task/Update.php
 #: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Decision"
-msgstr ""
+msgstr "تصمیمات مربوط به کمک های مالی"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
 #: templates/CRM/Grant/Form/GrantView.tpl
 #: templates/CRM/Grant/Form/Task/Print.tpl
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Money Transferred"
-msgstr ""
+msgstr "پول جابجا شد"
 
 #: CRM/Grant/Form/Grant.php templates/CRM/Grant/Form/GrantView.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
 msgid "Grant Report Due"
-msgstr ""
+msgstr "موعد گزارش کمک های مالی"
 
 #: CRM/Grant/Form/Grant.php templates/CRM/Grant/Form/GrantView.tpl
 #: CRM/Report/Form/Grant/Detail.php
 msgid "Rationale"
-msgstr ""
+msgstr "اساس/بنیاد/پایه"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Form/Task/Update.php
 #: templates/CRM/Grant/Form/GrantView.tpl
@@ -2059,69 +2249,125 @@ msgstr ""
 #: templates/CRM/Grant/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Grant/Detail.php CRM/Report/Form/Grant/Statistics.php
 msgid "Amount Granted"
-msgstr ""
+msgstr "میزان کمک مالی"
 
 #: CRM/Grant/Selector/Search.php CRM/Report/Form/Grant/Statistics.php
 msgid "Report Received"
-msgstr ""
+msgstr "گزارش دریافت شد"
 
 #: CRM/Mailing/BAO/Mailing.php CRM/Report/Form/Mailing/Detail.php
 msgid "Reply"
-msgstr ""
+msgstr "پاسخ"
+
+#: CRM/Mailing/BAO/Query.php CRM/Mailing/DAO/Mailing.php
+#: CRM/Mailing/Tokens.php CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing ID"
+msgstr "شناسه پستی"
 
 #: CRM/Mailing/BAO/Query.php CRM/Report/Form/Mailing/Detail.php
 msgid "Delivery Status"
-msgstr ""
+msgstr "وضعیت تحویل"
+
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/Event/DAO/Bounce.php
+#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Type"
+msgstr "نوع برگشت"
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Search.php
 #: CRM/Mailing/Selector/Browse.php CRM/Mailing/Selector/Search.php
-#: ang/crmMailing/BlockReview.html ang/crmMailing/BlockSummary.html
-#: ang/crmMailingAB/EditCtrl/report.html
+#: CRM/Mailing/Tokens.php ang/crmMailing/BlockReview.html
+#: ang/crmMailing/BlockSummary.html ang/crmMailingAB/EditCtrl/report.html
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: templates/CRM/Mailing/Page/Browse.hlp templates/CRM/Mailing/Page/Report.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Name"
-msgstr ""
+msgstr "نام پستی"
 
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Selector/Event.php
 #: CRM/Report/Form/Mailing/Bounce.php
 msgid "Bounce Reason"
-msgstr ""
+msgstr "علت برگشت"
 
-#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Type"
-msgstr ""
+#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Started"
+msgstr "شروع شد. "
 
 #: CRM/Mailing/Selector/Event.php templates/CRM/Mailing/Page/Report.tpl
-#: CRM/Report/Form/Register.php templates/CRM/Report/Page/Options.tpl
+#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Register.php
+#: templates/CRM/Report/Page/Options.tpl
 msgid "URL"
-msgstr ""
+msgstr "آدرس اینترنتی"
 
 #: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
 #: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
 msgid "Intended Recipients"
+msgstr "مخاطبین مورد نظر"
+
+#: CRM/Mailing/Selector/Search.php CRM/Mailing/Tokens.php
+#: templates/CRM/Mailing/Form/Task/Print.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing Subject"
 msgstr ""
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Search.tpl
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Status"
-msgstr ""
+msgstr "وضعیت پست الکترونیکی"
 
 #: ang/crmMailing/BlockReview.html
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
 #: ang/crmMailingAB/EditCtrl/report.html CRM/Report/Form/Mailing/Detail.php
 msgid "Opt-out"
-msgstr ""
+msgstr "صرفنظر کردن"
 
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid "Approval"
-msgstr ""
+msgstr "تاییدیه"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
+"Available email addresses are configurable by users with Administer CiviCRM "
+"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
+msgstr "آدرس ایمیل From را برای این پست الکترونیکی از لیست انتخاب کنید. آدرس ایمیل های موجود توسط کاربران با مجوز مدیریت CiviVRM قابل پیکر بندی هستند. مثال: خدمات مشتری &It;clientservices@example.org&gt;"
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
+"Email Addresses</a> to add or edit email addresses. Make sure these email "
+"addresses are valid email accounts with your email service provider."
+msgstr "به <a href='%1'>مدیریت CiviCRM و آموزه ها؛ ارتباطات و آموزه ها از طریق آدرس های ایمیل ها</a> بروید تا آدرس های ایمیل ها را اضافه یا ویرایش کنید. مطمئن شوید که این آدرس های ایمیل حساب های ایمیل معتبری با فراهم کننده ی سرویس ایمیل شما هستند."
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Contact your site administrator if you need to use a \"FROM\" Email Address "
+"which is not in the dropdown list."
+msgstr "اگر نیاز به استفاده از FROM در فرستادن ایمیل دارید با مدیر وب‌سایت تماس بگیرید."
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Opens"
+msgstr "گشایش منحصر به فرد"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Total Opens"
+msgstr "مجموع گشایش ها"
 
 #: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
-#: CRM/Report/Form/Mailing/Summary.php
 msgid "Clicks"
+msgstr "کلیک‌ها"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Clicks"
 msgstr ""
 
 #: CRM/Member/Form/MembershipBlock.php templates/CRM/Member/Page/Tab.tpl
@@ -2129,15 +2375,23 @@ msgstr ""
 #: CRM/Report/Form/Member/Detail.php CRM/Report/Form/Member/Lapse.php
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Membership Types"
-msgstr ""
+msgstr "نوع عضویت"
 
 #: CRM/Member/Form/Search.php CRM/Report/Form/Member/Lapse.php
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Member Name"
+msgstr "نام عضو"
+
+#: templates/CRM/Member/Page/DashBoard.tpl CRM/Report/Form/Member/Summary.php
+msgid "Membership Summary"
 msgstr ""
 
 #: templates/CRM/Member/Page/MembershipType.tpl CRM/Report/Form.php
 msgid "Max"
+msgstr "بیشترین"
+
+#: templates/CRM/PCP/Page/PCP.tpl CRM/Report/Form/Contribute/PCP.php
+msgid "Page Title"
 msgstr ""
 
 #: templates/CRM/PCP/Page/PCP.tpl
@@ -2145,151 +2399,89 @@ msgstr ""
 #: xml/templates/message_templates/pcp_notify_text.tpl
 #: CRM/Report/Form/Contribute/PCP.php
 msgid "Supporter"
-msgstr ""
+msgstr "حامی"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 #: CRM/Report/Form/Member/Lapse.php
 msgid "Current Status"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Status"
-msgstr ""
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-msgid "Total Pledged"
-msgstr ""
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Start Date"
-msgstr ""
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/Form/Pledge.php
-#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-#: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Pledge Made"
-msgstr ""
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge End Date"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Create Date"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Amount"
-msgstr ""
-
-#: templates/CRM/Pledge/Page/DashBoard.tpl CRM/Report/Form/Pledge/Detail.php
-msgid "Balance Due"
-msgstr ""
-
-#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
-msgid "From Email"
-msgstr ""
-
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Ascending"
-msgstr ""
-
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Descending"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionRecur.php
-#: CRM/Contribute/Form/UpdateSubscription.php
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Number of Installments"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-#: templates/CRM/Pledge/Page/UserDashboard.tpl
-msgid "Make Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Payment Method is a required field."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php CRM/Member/Form/Membership.php
-msgid "You do not have all the permissions needed for this page."
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Show Recurring Donation Start Date?"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Update multiple records error"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Installment Amount"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Notification Email"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Median"
-msgstr ""
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Mode"
-msgstr ""
-
-#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
-#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Fees"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "-select-"
-msgstr ""
-
-#: CRM/Mailing/DAO/Mailing.php CRM/Report/Form/Mailing/Summary.php
-msgid "Mailing ID"
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
-msgid "Started"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Opens"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Total Opens"
-msgstr ""
+msgstr "وضعیت فعلی"
 
 #: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Next Payment Amount"
-msgstr ""
+msgstr "مبلغ پرداخت بعدی"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Summary.php
+msgid "Total Pledged"
+msgstr "مبلغ کل ضمانت"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+msgid "Pledge Start Date"
+msgstr "تاریخ شروع ضمانت"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/Form/Pledge.php
+#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/PledgeView.tpl
+#: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Pledge/Pbnp.php
+msgid "Pledge Made"
+msgstr "ضمانت انجام شد"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Summary.php
+msgid "Pledge End Date"
+msgstr "تاریخ پایان ضمانت"
+
+#: templates/CRM/Pledge/Form/Task/Print.tpl
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Create Date"
+msgstr "تاریخ ایجاد"
+
+#: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+msgid "Pledge Amount"
+msgstr "مبلغ ضمانت/تعهد"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl CRM/Report/Form/Pledge/Detail.php
+msgid "Balance Due"
+msgstr "میزان بدهی"
+
+#: CRM/Campaign/DAO/Campaign.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Campaign Name"
+msgstr "نام کمپین"
+
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+#: templates/CRM/Mailing/Form/Upload.hlp
+msgid ""
+"You can use your favorite editor to create content on your local computer "
+"and then <strong>Upload</strong> the files. OR you can "
+"<strong>Compose</strong> content directly on the screen."
+msgstr "می توانید از ویرایشگر دلخواه خود برای ایجاد محتویات در کامپیوتر خود استفاده کنید و سپس فایل ها را <strong>آپلود کنید</strong>. یا می توانید محتویات را مستقیما روی صفحه <strong>وارد کنید</strong>."
+
+#: templates/CRM/Contribute/Page/ContributionSoft.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Total Soft Credits"
+msgstr "مجموع اعتبارات نرم/ مشارکت های غیر مستقیم"
+
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Median"
+msgstr "میانه، میانگین "
+
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Mode"
+msgstr "مد، میانگین"
+
+#: xml/templates/message_templates/contribution_recurring_notify_html.tpl
+#: xml/templates/message_templates/contribution_recurring_notify_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid ""
+"This membership will be renewed automatically. You can cancel the auto-"
+"renewal option by <a href=\"%1\">visiting this web page</a>."
+msgstr "این عضویت به طور خودکار تمدید. خواهد شد. می توانید گزینه تمدید خودکار را٪ 1 با بازدید از این صفحه وب  لغو نمایید."

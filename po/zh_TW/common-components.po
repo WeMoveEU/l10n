@@ -3,15 +3,16 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mathieu Lutfy <mathieu@bidon.ca>, 2013
+# Mathieu Lu <mathieu@bidon.ca>, 2013
 # Piotr Szotkowski <chastell@chastell.net>, 2011
+# Sam Tse <samsam.tse@gmail.com>, 2018
 # 趙惟倫 <bluebat@member.fsf.org>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:42+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/civicrm/civicrm/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: CRM/Admin/Form/CMSUser.php templates/CRM/Financial/Form/Search.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: CRM/Admin/Form/ContactType.php templates/CRM/Admin/Form/Setting/Url.hlp
 #: CRM/Contribute/Form/ManagePremiums.php
@@ -31,15 +32,15 @@ msgstr "圖片網址"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Name"
-msgstr ""
+msgstr "字型名稱"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Size"
-msgstr ""
+msgstr "字型大小"
 
 #: CRM/Admin/Form/LabelFormats.php CRM/Badge/Form/Layout.php
 msgid "Font Style"
-msgstr ""
+msgstr "字型樣式"
 
 #: CRM/Admin/Form/LocationType.php templates/CRM/Admin/Page/LabelFormats.tpl
 #: templates/CRM/Admin/Page/LocationType.tpl
@@ -50,7 +51,6 @@ msgstr ""
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Financial/Form/FinancialAccount.php
@@ -58,23 +58,43 @@ msgstr ""
 #: CRM/Mailing/Form/Component.php templates/CRM/Mailing/Page/Component.tpl
 #: CRM/Member/Form/MembershipStatus.php
 msgid "Default?"
+msgstr "預設？"
+
+#: CRM/Admin/Form/MessageTemplates.php CRM/Campaign/Form/Survey.php
+#: CRM/Contribute/Form/ContributionPage.php CRM/Event/Form/ManageEvent.php
+msgid "Save and Done"
+msgstr "儲存並結束"
+
+#: CRM/Admin/Form/MessageTemplates.php
+#: templates/CRM/Admin/Page/MessageTemplates.hlp ang/crmMailing/Templates.js
+msgid "Message Templates"
+msgstr ""
+
+#: CRM/Admin/Form/Navigation.php CRM/Report/Form/Instance.php
+#: templates/CRM/Report/Form/Tabs/Settings.hlp
+msgid "Permission"
 msgstr ""
 
 #: CRM/Admin/Form/Navigation.php templates/CRM/Event/Page/DashBoard.tpl
 msgid "Parent"
-msgstr ""
+msgstr "上層"
 
 #: CRM/Admin/Form/Options.php CRM/Financial/Form/BatchTransaction.php
-#: CRM/Report/Form/Mailing/Opened.php CRM/Report/Form/Mailing/Summary.php
+#: CRM/Report/Form/Mailing/Opened.php
 msgid "Opened"
 msgstr "OpenID"
 
 #: CRM/Admin/Form/Options.php CRM/Admin/Form/PaymentProcessor.php
 #: templates/CRM/Admin/Page/PaymentProcessor.tpl
+#: CRM/Financial/DAO/EntityFinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
 #: CRM/Financial/Form/FinancialTypeAccount.php
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Financial Account"
+msgstr "財務帳號"
+
+#: CRM/Admin/Form/Options.php templates/CRM/Case/Audit/Audit.tpl
+msgid "Incomplete"
 msgstr ""
 
 #: CRM/Admin/Form/Options.php CRM/Report/Form/Register.php
@@ -85,13 +105,9 @@ msgstr "所選擇的 %1 類別沒有刪除。"
 msgid "The %1 '%2' has been saved."
 msgstr "已儲存 %1 '%2'。"
 
-#: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/BAO/PaymentProcessor.php
-msgid "Could not find payment processor meta information"
-msgstr ""
-
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Site URL"
-msgstr ""
+msgstr "網站網址"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Recurring Payments URL"
@@ -99,16 +115,16 @@ msgstr ""
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "Button URL"
-msgstr ""
+msgstr "按鈕網址"
 
 #: CRM/Admin/Form/PaymentProcessor.php CRM/Financial/DAO/PaymentProcessor.php
 msgid "API URL"
-msgstr ""
+msgstr "API 網址"
 
 #: CRM/Admin/Form/PaymentProcessorType.php
 #: CRM/Financial/DAO/PaymentProcessorType.php
 msgid "Billing Mode"
-msgstr ""
+msgstr "付款方式"
 
 #: CRM/Admin/Form/Preferences/Contribute.php
 #: templates/CRM/Pledge/Page/Payment.tpl
@@ -117,15 +133,34 @@ msgid "Due Date"
 msgstr "已過日期"
 
 #: CRM/Admin/Form/RelationshipType.php
+#: templates/CRM/Admin/Form/LocationType.tpl
+#: templates/CRM/Admin/Form/OptionGroup.tpl
+#: templates/CRM/Admin/Form/Options.tpl templates/CRM/Badge/Form/Layout.tpl
+#: templates/CRM/Batch/Form/Batch.tpl
+#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"This may mean the loss of a substantial amount of data, and the action "
+"cannot be undone."
+msgstr "這可能遺失大量資料，而且無法復原。"
+
+#: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type A"
-msgstr ""
+msgstr "聯絡人類別 A"
 
 #: CRM/Admin/Form/RelationshipType.php
 #: templates/CRM/Admin/Page/RelationshipType.tpl
 #: CRM/Report/Form/Contact/Relationship.php
 msgid "Contact Type B"
+msgstr "聯絡人類別 B"
+
+#: CRM/Admin/Form/ScheduleReminders.php ang/crmCxn/PermTable.html
+#: templates/CRM/Admin/Page/APIExplorer.js
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/PCP/DAO/PCPBlock.php
+#: templates/CRM/PCP/Form/Event.hlp
+msgid "Entity"
 msgstr ""
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Pledge/BAO/Query.php
@@ -135,6 +170,7 @@ msgstr "%1"
 
 #: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/Form/Pledge.php CRM/Report/Form.php
 msgid "Frequency"
 msgstr "頻率"
@@ -142,7 +178,7 @@ msgstr "頻率"
 #: CRM/Admin/Form/ScheduleReminders.php templates/CRM/Admin/Page/Reminders.tpl
 #: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
 msgid "Repeat"
-msgstr ""
+msgstr "重覆"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
@@ -157,16 +193,28 @@ msgstr "每"
 msgid "until"
 msgstr "至"
 
+#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
+msgid "From Email"
+msgstr ""
+
 #: CRM/Admin/Form/ScheduleReminders.php ang/crmMailing/BlockMailing.html
 #: ang/crmMailing/BlockReview.html ang/crmMailingAB/BlockSetup.html
 #: ang/crmMailingAB/EditCtrl/report.html templates/CRM/Mailing/Page/Report.tpl
 #: templates/CRM/Mailing/Page/Tab.tpl
 msgid "Recipients"
-msgstr ""
+msgstr "收件者"
 
 #: CRM/Admin/Form/ScheduleReminders.php
 #: CRM/Event/Form/ManageEvent/ScheduleReminders.php
 msgid "Scheduled Reminder"
+msgstr "排程提示 "
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "Add >>"
+msgstr ""
+
+#: CRM/Admin/Form/Setting/Localization.php CRM/Report/Form/Instance.php
+msgid "<< Remove"
 msgstr ""
 
 #: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
@@ -178,16 +226,6 @@ msgstr "捐款"
 #: CRM/Member/Info.php CRM/Member/Page/DashBoard.php
 msgid "CiviMember"
 msgstr "會員"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Event/Info.php CRM/Event/Page/DashBoard.php
-msgid "CiviEvent"
-msgstr "活動"
-
-#: CRM/Admin/Page/Admin.php templates/CRM/Admin/Page/ConfigTaskList.tpl
-#: CRM/Mailing/Info.php
-msgid "CiviMail"
-msgstr "電子報"
 
 #: CRM/Admin/Page/Admin.php CRM/Report/Info.php
 msgid "CiviReport"
@@ -208,14 +246,14 @@ msgstr "刪除活動範本"
 
 #: CRM/Admin/Page/Extensions.php CRM/Batch/BAO/Batch.php
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
-#: CRM/Admin/Page/MessageTemplates.php ang/crmMailing/BlockMailing.html
-#: ang/crmMailingAB/BlockMailing.html
+#: CRM/Admin/Page/MessageTemplates.php ang/crmMailingAB/BlockMailing.html
 msgid "Message Template"
-msgstr ""
+msgstr "訊息範本"
 
 #: CRM/Admin/Page/Options.php templates/CRM/Admin/Page/APIExplorer.tpl
+#: templates/CRM/Admin/Page/CKEditorConfig.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -224,7 +262,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Option"
-msgstr ""
+msgstr "選填"
 
 #: CRM/Admin/Page/Options.php CRM/Campaign/Page/SurveyType.php
 msgid "%1 Options"
@@ -240,10 +278,6 @@ msgstr "啟用 %1"
 msgid "Delete %1 Type"
 msgstr "刪除 %1 類別"
 
-#: CRM/Admin/Page/ParticipantStatusType.php CRM/Case/BAO/Case.php
-msgid "Edit Status"
-msgstr ""
-
 #: CRM/Admin/Page/Persistent.php CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Event/Page/DashBoard.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl CRM/PCP/BAO/PCP.php
@@ -251,36 +285,16 @@ msgid "Configure"
 msgstr "設定"
 
 #: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: CRM/Contribute/DAO/Widget.php
 #: CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "About"
-msgstr ""
+msgstr "關於"
 
-#: ang/crmCxn/AboutCtrl.html ang/crmCxn/ConfirmConnectCtrl.html
-#: ang/crmCxn/ConfirmReconnectCtrl.html ang/crmCaseType/edit.html
-msgid "Advanced"
-msgstr ""
-
-#: templates/CRM/Admin/Form/LocationType.tpl
-#: templates/CRM/Admin/Form/OptionGroup.tpl
-#: templates/CRM/Admin/Form/Options.tpl
-#: templates/CRM/Admin/Form/RelationshipType.tpl
-#: templates/CRM/Badge/Form/Layout.tpl templates/CRM/Batch/Form/Batch.tpl
-#: templates/CRM/Contribute/Form/PaymentInstrument.tpl
-#: templates/CRM/Member/Form/MembershipStatus.tpl
-#: templates/CRM/Member/Form/MembershipType.tpl
-msgid ""
-"This may mean the loss of a substantial amount of data, and the action "
-"cannot be undone."
-msgstr "這可能遺失大量資料，而且無法復原。"
-
-#: templates/CRM/Admin/Page/APIExplorer.tpl
-#: templates/CRM/Admin/Page/OptionGroup.tpl CRM/Contribute/DAO/Product.php
+#: templates/CRM/Admin/Page/APIExplorer.tpl CRM/Contribute/DAO/Product.php
 #: CRM/Contribute/Form/ManagePremiums.php
 #: ang/crmMailing/EditMailingCtrl/wizard.html
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 #: templates/CRM/Admin/Page/ConfigTaskList.tpl CRM/Pledge/Info.php
 #: CRM/Pledge/Page/DashBoard.php
@@ -294,7 +308,7 @@ msgstr "補助"
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "Public Event"
-msgstr ""
+msgstr "公開活動"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Fee.php
@@ -304,10 +318,10 @@ msgstr "付款活動"
 #: templates/CRM/Admin/Page/EventTemplate.tpl
 #: CRM/Event/Form/ManageEvent/Registration.php
 msgid "Allow Online Registration"
-msgstr ""
+msgstr "允許線上報名"
 
 #: templates/CRM/Admin/Page/EventTemplate.tpl CRM/Campaign/Form/Campaign.php
-#: CRM/Campaign/Form/Petition.php
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Search/Campaign.php
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
 #: templates/CRM/Campaign/Form/Search/Petition.tpl
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
@@ -315,19 +329,14 @@ msgstr ""
 msgid "Is Active?"
 msgstr "啟用中？"
 
-#: templates/CRM/Admin/Page/MessageTemplates.tpl
-#: ang/crmCaseType/activitySetDetails.html
-msgid "Workflow"
-msgstr ""
-
-#: templates/CRM/Admin/Page/Navigation.tpl
-#: CRM/Financial/Form/FinancialType.php
-msgid "Cannot Delete"
+#: templates/CRM/Admin/Page/ExtensionDetails.tpl
+#: templates/CRM/Event/Page/ICalendar.tpl
+msgid "(not available)"
 msgstr ""
 
 #: templates/CRM/Admin/Page/Options.hlp ang/crmCaseType/edit.html
 msgid "Activity Types"
-msgstr ""
+msgstr "活動類型"
 
 #: templates/CRM/Admin/Page/Options.tpl templates/CRM/Report/Page/Options.tpl
 msgid ""
@@ -338,7 +347,7 @@ msgstr "現存可供%1群組選擇的選項如下，您可以新增、編輯或�
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "Add %1"
-msgstr "新增 >>"
+msgstr "新增 %1"
 
 #: templates/CRM/Admin/Page/Options.tpl
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
@@ -347,7 +356,7 @@ msgid "Counted"
 msgstr "人數統計"
 
 #: templates/CRM/Admin/Page/ParticipantStatusType.tpl
-#: CRM/Report/Form/Register.php
+#: ang/crmCaseType/statusTable.html CRM/Report/Form/Register.php
 msgid "Class"
 msgstr "類別"
 
@@ -357,17 +366,17 @@ msgstr ""
 
 #: CRM/Badge/Form/Layout.php CRM/Contribute/Form/ContributionPage/Widget.php
 msgid "Save and Preview"
-msgstr ""
+msgstr "儲存及預覽"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Close Batch"
-msgstr ""
+msgstr "關閉批次"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Form/Export.php templates/CRM/Financial/Form/Export.tpl
 msgid "Export Batch"
-msgstr ""
+msgstr "匯出批次"
 
 #: CRM/Batch/BAO/Batch.php CRM/Financial/Form/Search.php
 msgid "Re-open"
@@ -390,18 +399,18 @@ msgid "Batch Name"
 msgstr ""
 
 #: CRM/Batch/DAO/Batch.php CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Summary.php
 msgid "Batch Title"
+msgstr "批次標題 "
+
+#: CRM/Batch/DAO/Batch.php CRM/Mailing/DAO/MailingAB.php
+msgid "When was this item created"
 msgstr ""
 
 #: CRM/Batch/Form/Batch.php CRM/Financial/Form/Search.php
 msgid "Number of Items"
 msgstr ""
-
-#: CRM/Batch/Form/Entry.php CRM/Mailing/Form/Group.php
-#: CRM/Mailing/Form/Settings.php CRM/Mailing/Form/Test.php
-#: CRM/Mailing/Form/Upload.php
-msgid "Save & Continue Later"
-msgstr "儲存，以後再繼續"
 
 #: CRM/Batch/Form/Entry.php CRM/Member/Form/MembershipRenewal.php
 #: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
@@ -424,28 +433,47 @@ msgstr ""
 
 #: CRM/Batch/Page/Batch.php CRM/Financial/Page/Batch.php
 msgid "Search Batches"
-msgstr ""
+msgstr "批次搜尋"
 
 #: templates/CRM/Batch/Form/Search.tpl templates/CRM/Financial/Form/Search.tpl
 msgid "Item Count"
 msgstr ""
 
-#: CRM/Campaign/DAO/Campaign.php
-#: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: CRM/Report/Form/Mailing/Summary.php
-msgid "Campaign Name"
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: templates/CRM/Batch/Form/Search.tpl
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Form/Search.tpl
+msgid "Search:"
+msgstr ""
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Contribute/BAO/Contribution.php
+msgid "Campaign Title"
+msgstr ""
+
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid ""
+"Title for Thank-you page (header title tag, and display at the top of the "
+"page)."
 msgstr ""
 
 #: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
 msgid "Thank-you Text"
 msgstr "致謝文字"
 
+#: CRM/Campaign/DAO/Survey.php CRM/Contribute/DAO/ContributionPage.php
+msgid "text and html allowed. displayed above result on success page"
+msgstr ""
+
 #: CRM/Campaign/DAO/Survey.php CRM/Event/DAO/Event.php
 msgid "Is shared through social media"
 msgstr ""
 
-#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/Campaign.php
-#: CRM/Campaign/Page/DashBoard.php CRM/PCP/Form/PCP.php
+#: CRM/Campaign/Form/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/PCP/Form/PCP.php
 msgid "Delete Campaign"
 msgstr "刪除個人募款專業"
 
@@ -476,20 +504,15 @@ msgstr "自動回應"
 #: CRM/Campaign/Form/Survey/Results.php
 #: templates/CRM/Campaign/Form/Survey/Results.tpl CRM/Report/Form.php
 msgid "Create Report"
-msgstr ""
+msgstr "新增報表"
 
 #: CRM/Campaign/Form/Survey/Results.php CRM/Report/Form/Instance.php
 msgid "Report Title"
-msgstr ""
+msgstr "報表標題"
 
 #: CRM/Campaign/Form/Survey/TabHeader.php ang/crmMailingAB/ListCtrl.html
 msgid "Results"
-msgstr ""
-
-#: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
-#: CRM/Event/Form/ManageEvent.php
-msgid "Save and Done"
-msgstr "儲存並結束"
+msgstr "結果"
 
 #: CRM/Campaign/Form/Survey.php CRM/Contribute/Form/ContributionPage.php
 msgid "Save and Next"
@@ -503,9 +526,17 @@ msgstr ""
 msgid "Order by Order"
 msgstr ""
 
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Ascending"
+msgstr ""
+
+#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
+msgid "Descending"
+msgstr ""
+
 #: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Contribute/Form/AbstractEditPayment.php
-#: CRM/Contribute/Form/ManagePremiums.php CRM/Mailing/Form/Upload.php
+#: CRM/Contribute/Form/ManagePremiums.php
 msgid "Notice"
 msgstr ""
 
@@ -544,28 +575,34 @@ msgstr ""
 msgid "another column"
 msgstr ""
 
-#: CRM/Case/BAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Selector/Search.php templates/CRM/Case/Audit/Report.tpl
-#: templates/CRM/Case/Form/Activity.tpl templates/CRM/Case/Form/Case.tpl
-#: templates/CRM/Case/Form/Task/Print.tpl CRM/Report/Form/Case/Summary.php
-msgid "Client"
-msgstr ""
-
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: CRM/Report/Form/Case/Summary.php CRM/Report/Form/Extended.php
 msgid "Case Subject"
 msgstr ""
 
-#: CRM/Case/DAO/Case.php CRM/Case/Form/Activity/OpenCase.php
-#: CRM/Case/Page/AJAX.php templates/CRM/Case/Form/Search/Common.tpl
-#: CRM/Report/Form/Extended.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php
+#: CRM/Case/Form/Activity/OpenCase.php CRM/Case/Page/AJAX.php
+#: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case Start Date"
 msgstr ""
 
-#: CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
+#: CRM/Case/BAO/Query.php CRM/Case/DAO/Case.php CRM/Case/Page/AJAX.php
 #: templates/CRM/Case/Form/Search/Common.tpl CRM/Report/Form/Extended.php
 msgid "Case End Date"
 msgstr ""
+
+#: CRM/Case/Form/AddToCaseAsRole.php CRM/Event/Form/SelfSvcUpdate.php
+msgid "Submit"
+msgstr ""
+
+#: CRM/Case/Form/EditClient.php CRM/Event/Form/SelfSvcTransfer.php
+msgid "Select Contact"
+msgstr ""
+
+#: CRM/Case/Form/Task/Batch.php CRM/Contribute/Form/Task/Batch.php
+#: CRM/Member/Form/Task/Batch.php
+msgid "Your updates have been saved."
+msgstr "您的更新已儲存。"
 
 #: templates/CRM/Case/Form/CaseView.tpl
 #: templates/CRM/Contribute/Form/ContributionView.tpl
@@ -575,9 +612,13 @@ msgstr ""
 msgid "View contact record"
 msgstr "瀏覽聯絡記錄"
 
-#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form.php
-msgid "Print Report"
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/Form/Mailing/Opened.php
+msgid "Open Date"
 msgstr ""
+
+#: templates/CRM/Case/Form/CaseView.tpl CRM/Report/BAO/ReportInstance.php
+msgid "Print Report"
+msgstr "列印報表"
 
 #: templates/CRM/Case/Form/Search/EmptyResults.tpl
 #: templates/CRM/Event/Form/Search/EmptyResults.tpl
@@ -586,20 +627,123 @@ msgstr ""
 msgid "if you are searching within a date range, try a wider range of values"
 msgstr "如果您在日期區間內搜尋，嘗試放寬您的值。"
 
-#: CRM/Contribute/BAO/Contribution/Utils.php
-#: CRM/Event/Form/Registration/Confirm.php
-msgid ""
-"The system did not record payment details for this payment and so could not "
-"process the transaction. Please report this error to the site administrator."
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Task/SearchTaskHookSample.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Receive Date"
 msgstr ""
+
+#: CRM/Contribute/ActionMapping/ByPage.php
+#: CRM/Contribute/ActionMapping/ByType.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/Contribution.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Import/Parser/Contribution.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Cancel Date"
+msgstr "取消日期"
 
 #: CRM/Contribute/BAO/Contribution.php CRM/Member/BAO/Membership.php
 msgid "(match to contact)"
 msgstr "(與聯絡人對應)"
 
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/BAO/Query.php
+#: CRM/Contribute/DAO/PremiumsProduct.php
+#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Task/Print.tpl
+#: CRM/Report/Form/Member/ContributionDetail.php
+msgid "Premium"
+msgstr "感謝禮"
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Soft Credit For"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Contribute/Selector/Search.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Soft Credit Amount"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Name"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Email"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Report/Form/Contribute/SoftCredit.php
+msgid "Soft Credit Phone"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/PCP/DAO/PCP.php
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Personal Campaign Page Title"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php CRM/Event/Form/Registration/Confirm.php
+#: CRM/Event/Form/Registration/Register.php
+msgid "Online Event Registration"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Submit Credit Card payment"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Record Payment"
+msgstr ""
+
+#: CRM/Contribute/BAO/Contribution.php
+#: CRM/Contribute/Form/ContributionView.php
+#: CRM/Contribute/Page/ContributionRecurPayments.php
+#: CRM/Contribute/Selector/Search.php CRM/Event/Selector/Search.php
+msgid "Record Refund"
+msgstr ""
+
 #: CRM/Contribute/BAO/ContributionPage.php CRM/Event/BAO/Event.php
 msgid "Copy of"
 msgstr "副本 %1"
+
+#: CRM/Contribute/BAO/ContributionRecur.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Financial/DAO/PaymentToken.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Page/BatchTransaction.tpl
+msgid "Contribution Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Form/Search/Common.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancelled / Refunded Date"
+msgstr ""
+
+#: CRM/Contribute/BAO/Query.php CRM/Contribute/DAO/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Number"
+msgstr ""
 
 #: CRM/Contribute/BAO/Query.php CRM/Report/Form/Contribute/Detail.php
 msgid "Contributions Only"
@@ -609,35 +753,76 @@ msgstr ""
 msgid "Soft Credits Only"
 msgstr ""
 
-#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialType.php
-msgid "Financial Type ID"
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/Widget.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The Contribution Page which triggered this contribution"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "actual processor fee if known - may be 0."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Financial/DAO/FinancialTrxn.php
+msgid ""
+"actual funds transfer amount. total less fees. if processor does not report "
+"actual fee during transaction, this is set to total_amount."
 msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php
-#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Cancel Date"
-msgstr "取消日期"
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+msgid "Invoice Reference"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/DAO/ContributionPage.php
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/DAO/ContributionSoft.php CRM/Contribute/DAO/Product.php
+#: CRM/Event/DAO/Event.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Grant/DAO/Grant.php CRM/PCP/DAO/PCP.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "3 character string, value from config setting or input via user."
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+msgid "Cancellation / Refund Reason"
+msgstr ""
+
+#: CRM/Contribute/DAO/Contribution.php CRM/Report/Form/Contribute/Detail.php
+msgid "Thank-you Date"
+msgstr ""
 
 #: CRM/Contribute/DAO/Contribution.php CRM/Event/DAO/Participant.php
 #: CRM/Member/DAO/Membership.php
 msgid "Is Pay Later"
 msgstr "後續付款"
 
+#: CRM/Contribute/DAO/Contribution.php CRM/Contribute/Form/Contribution.php
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Revenue Recognition Date"
+msgstr ""
+
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Report/Form/Contribute/PCP.php
 msgid "Contribution Page Title"
-msgstr ""
+msgstr "募款頁面標題"
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/AbstractEditPayment.php
 #: CRM/Contribute/Form/AdditionalPayment.php
-#: CRM/Contribute/Form/Contribution.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
+#: templates/CRM/Contribute/Form/Search/ContributionRecur.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl CRM/Event/DAO/Event.php
-#: CRM/Event/Form/ManageEvent/Fee.php CRM/Event/Form/Participant.php
-#: CRM/Financial/DAO/FinancialTrxn.php CRM/Financial/DAO/PaymentProcessor.php
-#: CRM/Member/Form.php
+#: CRM/Event/Form/ManageEvent/Fee.php CRM/Financial/DAO/FinancialTrxn.php
+#: CRM/Financial/DAO/PaymentProcessor.php CRM/Report/Form/Contribute/Recur.php
 msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "if true - allows the user to send payment directly to the org later"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
@@ -645,17 +830,36 @@ msgid "Pay Later Text"
 msgstr "稍候付款介紹文字"
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The text displayed to the user in the main form"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "The receipt sent to the user instead of the normal receipt text"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Label"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount label for partial payment"
 msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
 msgid "Initial Amount Help Text"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionPage.php
-#: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
-msgstr "最低金額"
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Initial amount help text for partial payment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "Minimum initial amount for partial payment"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionPage.php CRM/Event/DAO/Event.php
+msgid "FK to civicrm_option_value."
+msgstr ""
 
 #: CRM/Contribute/DAO/ContributionPage.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php CRM/Grant/BAO/Query.php
@@ -686,15 +890,25 @@ msgstr "頁尾文字"
 msgid "Is billing block required"
 msgstr ""
 
-#: CRM/Contribute/DAO/ContributionProduct.php CRM/Report/Form/Extended.php
+#: CRM/Contribute/DAO/ContributionProduct.php
+#: xml/templates/message_templates/contribution_invoice_receipt_html.tpl
+#: CRM/Report/Form/Extended.php
 msgid "Quantity"
-msgstr ""
+msgstr "數量"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Contribute/DAO/Product.php
+#: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Contribute/Form/ManagePremiums.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Frequency Unit"
 msgstr "頻率單位"
+
+#: CRM/Contribute/DAO/ContributionRecur.php
+#: CRM/Contribute/Form/UpdateSubscription.php
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Number of Installments"
+msgstr "定期捐款的期數"
 
 #: CRM/Contribute/DAO/ContributionRecur.php CRM/Financial/DAO/PaymentToken.php
 msgid "Payment Token ID"
@@ -709,6 +923,16 @@ msgstr ""
 #: templates/CRM/Member/Form/Membership.hlp
 msgid "Auto Renew"
 msgstr "自動更新會員資格"
+
+#: CRM/Contribute/DAO/ContributionRecur.php CRM/Pledge/DAO/Pledge.php
+msgid "FK to Financial Type"
+msgstr ""
+
+#: CRM/Contribute/DAO/ContributionSoft.php
+#: CRM/Event/DAO/ParticipantPayment.php CRM/Member/DAO/MembershipPayment.php
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to contribution table."
+msgstr ""
 
 #: CRM/Contribute/DAO/Product.php CRM/Contribute/Form/ManagePremiums.php
 #: templates/CRM/Contribute/Page/ManagePremiums.tpl
@@ -727,25 +951,20 @@ msgstr ""
 msgid "Fixed Period Start Day"
 msgstr "固定開始日期"
 
-#: CRM/Contribute/DAO/Product.php CRM/Member/Form/MembershipType.php
-msgid "Duration Interval"
-msgstr "期間間隔時間"
-
 #: CRM/Contribute/DAO/Product.php CRM/Report/Form/Contribute/Recur.php
 msgid "Frequency Interval"
 msgstr "頻率區間"
 
-#: CRM/Contribute/Form/AdditionalInfo.php CRM/Contribute/Selector/Search.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Contribute/Form/Task/Print.tpl
-#: CRM/Report/Form/Member/ContributionDetail.php
-msgid "Premium"
-msgstr "感謝禮"
+#: CRM/Contribute/Form/AbstractEditPayment.php
+#: CRM/Contribute/Form/ContributionView.php
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "View Payment"
+msgstr ""
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: templates/CRM/Contribute/Form/ContributionView.tpl CRM/PCP/Form/Event.php
 msgid "Online Contribution Page"
-msgstr ""
+msgstr "線上捐款頁"
 
 #: CRM/Contribute/Form/AdditionalInfo.php
 #: CRM/Contribute/Form/ContributionPage/Amount.php
@@ -755,54 +974,22 @@ msgstr "寄送額外的提醒在"
 
 #: CRM/Contribute/Form/AdditionalInfo.php CRM/Member/Form/Membership.php
 msgid "receipt"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Pledge/Page/Payment.tpl
-msgid "View Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/AdditionalPayment.php
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
-#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
-#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
-#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: xml/templates/message_templates/event_registration_receipt_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
-#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
-#: xml/templates/message_templates/membership_offline_receipt_html.tpl
-#: xml/templates/message_templates/membership_offline_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-msgid "Credit Card Information"
-msgstr ""
+msgstr "收據"
 
 #: CRM/Contribute/Form/AdditionalPayment.php
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Payment Amount"
-msgstr ""
+msgstr "付款金額 "
 
 #: CRM/Contribute/Form/AdditionalPayment.php CRM/Event/Form/EventFees.php
 #: CRM/Event/Form/ParticipantFeeSelection.php
 msgid "Confirmation Message"
-msgstr ""
+msgstr "確認訊息內容"
 
 #: CRM/Contribute/Form/CancelSubscription.php CRM/Member/Page/Tab.php
 #: CRM/Member/Selector/Search.php
 msgid "Cancel Auto-renewal"
-msgstr ""
+msgstr "取消自動更新"
 
 #: CRM/Contribute/Form/CancelSubscription.php
 #: xml/templates/message_templates/membership_autorenew_cancelled_html.tpl
@@ -811,6 +998,11 @@ msgid ""
 "The automatic renewal of your %1 membership has been cancelled as requested."
 " This does not affect the status of your membership - you will receive a "
 "separate notification when your membership is up for renewal."
+msgstr ""
+
+#: CRM/Contribute/Form/Contribution/Confirm.php
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Make Payment"
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Confirm.php
@@ -826,20 +1018,15 @@ msgid "Include my name and message"
 msgstr "包含我的名字及訊息"
 
 #: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: xml/templates/message_templates/contribution_online_receipt_html.tpl
-#: xml/templates/message_templates/contribution_online_receipt_text.tpl
-#: xml/templates/message_templates/membership_online_receipt_html.tpl
-#: xml/templates/message_templates/membership_online_receipt_text.tpl
-#: CRM/PCP/BAO/PCP.php
-msgid "Personal Note"
-msgstr "個人註記"
-
-#: CRM/Contribute/Form/Contribution/Main.php
-#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: CRM/Pledge/BAO/Query.php
 msgid "Every"
 msgstr "每隔"
+
+#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment Method is a required field."
+msgstr ""
 
 #: CRM/Contribute/Form/Contribution/Main.php
 #: CRM/Event/Form/Registration/Register.php
@@ -855,6 +1042,11 @@ msgstr "如果%1是的類別，自定%1為必須的欄位。"
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Premium Information"
+msgstr "感謝禮資訊"
+
+#: CRM/Contribute/Form/Contribution.php CRM/Event/Form/EventFees.php
+#: CRM/Member/Form/Membership.php
+msgid "You do not have all the permissions needed for this page."
 msgstr ""
 
 #: CRM/Contribute/Form/Contribution.php
@@ -862,13 +1054,6 @@ msgstr ""
 #: CRM/Member/Form/Membership.php templates/CRM/Member/Form/Membership.tpl
 msgid "Choose price set"
 msgstr "選擇價目表"
-
-#: CRM/Contribute/Form/ContributionBase.php CRM/Member/BAO/Membership.php
-msgid ""
-"Oops. The membership you're trying to renew appears to be invalid. Contact "
-"your site administrator if you need assistance. If you continue, you will be"
-" issued a new membership."
-msgstr "糟糕，您的會員資格更新無效，若需要協助請聯繫本站管理員。如果您繼續進行，我們會建立一個新的會員給您。"
 
 #: CRM/Contribute/Form/ContributionBase.php CRM/Event/Page/EventInfo.php
 msgid "The page you requested is currently unavailable."
@@ -881,11 +1066,16 @@ msgstr ""
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Pay Later Instructions"
-msgstr ""
+msgstr "稍後付款操作指引"
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
 #: CRM/Event/Form/ManageEvent/Fee.php
 msgid "Billing address required"
+msgstr ""
+
+#: CRM/Contribute/Form/ContributionPage/Amount.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Show Recurring Donation Start Date?"
 msgstr ""
 
 #: CRM/Contribute/Form/ContributionPage/Amount.php
@@ -920,7 +1110,7 @@ msgstr "頁尾訊息"
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Event/Form/ManageEvent/EventInfo.php
 msgid "End date should be after Start date."
-msgstr ""
+msgstr "結束日期必須在開始日期之後"
 
 #: CRM/Contribute/Form/ContributionPage/Settings.php
 #: CRM/Contribute/Form/ContributionPage.php
@@ -932,7 +1122,7 @@ msgstr "已儲存 %1 設定。"
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Receipt"
-msgstr ""
+msgstr "收據"
 
 #: CRM/Contribute/Form/ContributionPage/TabHeader.php
 #: CRM/Event/Form/ManageEvent/TabHeader.php
@@ -956,29 +1146,20 @@ msgstr ""
 
 #: CRM/Contribute/Form/Search.php CRM/Financial/Form/BatchTransaction.php
 msgid "Contributor Name or Email"
-msgstr ""
+msgstr "捐款人姓名或電子郵件"
 
 #: CRM/Contribute/Form/Search.php CRM/Report/Form/Contribute/SoftCredit.php
 msgid "Contributor Name"
+msgstr "捐款人姓名"
+
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Tag(s)"
 msgstr ""
 
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Unsupported Field Type"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Member/Form/Task/Batch.php
-msgid "Your updates have been saved."
-msgstr ""
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "No updates have been saved."
-msgstr "更新未儲存。"
-
-#: CRM/Contribute/Form/Task/Batch.php CRM/Event/Form/Task/Batch.php
-#: CRM/Member/Form/Task/Batch.php
-msgid "Not Saved"
+#: CRM/Contribute/Form/Search.php
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+msgid "Contributor Group(s)"
 msgstr ""
 
 #: CRM/Contribute/Form/Task/Invoice.php CRM/Contribute/Form/Task/PDF.php
@@ -986,12 +1167,20 @@ msgstr ""
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: ang/crmMailing/services.js CRM/Report/Form.php
 msgid "Sent"
-msgstr ""
+msgstr "已傳送"
 
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Batch Update Error"
-msgstr ""
+#: CRM/Contribute/Form/Task/Status.php
+#: templates/CRM/Contribute/Form/Task/Status.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: CRM/Financial/Form/PaymentEdit.php CRM/Financial/Page/AJAX.php
+#: CRM/Report/Form/Contribute/Bookkeeping.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Transaction Date"
+msgstr "交易編號"
 
 #: CRM/Contribute/Form/UpdateBilling.php
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
@@ -1007,19 +1196,13 @@ msgid "Import mode"
 msgstr "匯入模式"
 
 #: CRM/Contribute/Import/Parser/Contribution.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Pledge ID"
 msgstr "認捐編號"
 
 #: CRM/Contribute/Info.php CRM/Event/Info.php CRM/Member/Info.php
 msgid "credit card"
-msgstr ""
-
-#: CRM/Contribute/Page/ContributionPage.php
-#: templates/CRM/Contribute/Form/Contribution/PreviewHeader.tpl
-#: templates/CRM/Contribute/Form/ContributionPage/Tab.hlp
-#: templates/CRM/Event/Form/Registration/PreviewHeader.tpl
-msgid "Test-drive"
-msgstr "測試頁面"
+msgstr "信用卡"
 
 #: CRM/Contribute/Page/ContributionPage.php
 #: templates/CRM/Contribute/Page/DashBoard.tpl
@@ -1029,26 +1212,23 @@ msgstr "累積至今"
 
 #: CRM/Contribute/Page/Tab.php CRM/Member/Page/Tab.php
 msgid "Change Billing Details"
-msgstr ""
+msgstr "更新帳單資料"
 
 #: CRM/Contribute/Page/Tab.php CRM/Contribute/Selector/Search.php
 #: CRM/Financial/Form/BatchTransaction.php
 #: CRM/Financial/Page/BatchTransaction.php
 msgid "View Contribution"
-msgstr ""
+msgstr "瀏覽捐款"
 
 #: CRM/Contribute/Selector/Search.php
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
-#: CRM/Event/Selector/Search.php
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
 msgid "test"
 msgstr "測試"
 
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Summary.php
-msgid "Soft Credit Amount"
-msgstr ""
-
-#: CRM/Contribute/Selector/Search.php CRM/Report/Form/Contribute/Detail.php
-msgid "Soft Credit For"
+#: CRM/Contribute/Tokens.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Payment Instrument"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
@@ -1064,16 +1244,11 @@ msgstr ""
 #: templates/CRM/Contribute/Form/AdditionalPayment.tpl
 #: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
 msgid "Balance Owed"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/AdditionalPayment.tpl
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Pledge/Form/Pledge.tpl
-msgid "loading"
-msgstr ""
+msgstr "尚欠差額"
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: templates/CRM/Contribute/Page/ContributionTotals.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1092,6 +1267,12 @@ msgstr ""
 #: CRM/Report/Form/Contribute/History.php
 #: templates/CRM/Report/Form/Event/Income.tpl
 msgid "Total"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
+#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
+#: CRM/Report/Form/Contribute/Recur.php
+msgid "Installment Amount"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
@@ -1163,31 +1344,11 @@ msgstr "不要把我的捐款在捐款人名冊中顯示出來。"
 msgid "Expires"
 msgstr "已清除"
 
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Checkout with Google"
-msgstr "使用Google Checkout"
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Event/Form/Registration/Confirm.tpl
-msgid "Click the Google Checkout button to continue."
-msgstr "按Google Checkout繼續。"
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Checkout with PayPal"
-msgstr "使用PayPal結賬"
-
-#: templates/CRM/Contribute/Form/Contribution/Main.tpl
-#: templates/CRM/Event/Form/Registration/Register.tpl
-msgid "Click the PayPal button to continue."
-msgstr "按PayPal鍵繼續。"
-
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Cart/Form/Checkout/ParticipantsAndPrices.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Welcome %1"
-msgstr ""
+msgstr "歡迎 %1"
 
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
@@ -1204,7 +1365,7 @@ msgstr "請輸入此捐款的訊息。"
 #: templates/CRM/Contribute/Form/Contribution/Main.tpl
 #: templates/CRM/Event/Form/Registration/Register.tpl
 msgid "Payment Options"
-msgstr ""
+msgstr "付款選項"
 
 #: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
@@ -1230,21 +1391,17 @@ msgstr ""
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: templates/CRM/Member/Page/Tab.hlp
 msgid "Contributor"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution.tpl
-#: templates/CRM/Contribute/Form/ContributionView.tpl
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-msgid "(test)"
-msgstr "(測試)"
+msgstr "捐款人"
 
 #: templates/CRM/Contribute/Form/Contribution.tpl
 #: templates/CRM/Member/Form/Membership.tpl
 msgid "Alternatively, you can use a price set."
 msgstr ""
+
+#: templates/CRM/Contribute/Form/Contribution.tpl
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "loading"
+msgstr "載入中"
 
 #: templates/CRM/Contribute/Form/ContributionPage/Amount.tpl
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
@@ -1304,7 +1461,7 @@ msgstr "資料表單"
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Event.hlp
 msgid "Approval Needed"
-msgstr ""
+msgstr "需要審核"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
@@ -1323,6 +1480,11 @@ msgid ""
 "notified via email when their page is approved so that they can begin "
 "promoting the campaign."
 msgstr "當個人募款頁通過審核後，系統便會自動寄送一封通知信給申請個人募款頁的人，他們便能夠開始宣傳自己的募款頁。"
+
+#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Notification Email"
+msgstr "通知電郵"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1345,7 +1507,7 @@ msgstr "若您要讓組織的管理者收到個人募款頁的通知信，請在
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid "Tell-a-Friend"
-msgstr ""
+msgstr "分享給朋友"
 
 #: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
 #: templates/CRM/PCP/Form/Contribute.hlp
@@ -1396,11 +1558,32 @@ msgstr "允許使用者建立他們自己的個人募款頁，連結到此募款
 
 #: templates/CRM/Contribute/Form/ContributionView.tpl
 #: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "This is a TEST transaction"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Recurring Contribution"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: templates/CRM/Contribute/Page/ContributionRecur.tpl
+#: templates/CRM/Contribute/Page/ContributionRecurSelector.tpl
 #: templates/CRM/Contribute/Page/UserDashboard.tpl
 #: CRM/Pledge/BAO/PledgeBlock.php CRM/Report/Form/Contribute/Recur.php
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Pbnp.php
+#: CRM/Report/Form/Pledge/Summary.php
 msgid "Installments"
 msgstr "定期定額期數"
+
+#: templates/CRM/Contribute/Form/ContributionView.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Personal Note"
+msgstr "個人註記"
 
 #: templates/CRM/Contribute/Form/PCP/Campaign.tpl
 #: templates/CRM/PCP/Form/Campaign.tpl
@@ -1455,41 +1638,16 @@ msgstr "您只需填寫一些基本資料，便能建立自己的個人募款頁
 msgid "Profile is not configured with Email address."
 msgstr "此個人資訊未被所選擇的動作所設定。"
 
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Tag(s)"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Search.tpl
-#: templates/CRM/Financial/Form/BatchTransaction.tpl
-msgid "Contributor Group(s)"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
-"Available email addresses are configurable by users with Administer CiviCRM "
-"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
+#: templates/CRM/Contribute/Form/Selector.tpl
+#: templates/CRM/Contribute/Page/PaymentInfo.tpl
+#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
+#: templates/CRM/Pledge/Form/Selector.tpl
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "view payments"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
-"Email Addresses</a> to add or edit email addresses. Make sure these email "
-"addresses are valid email accounts with your email service provider."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
-msgid ""
-"Contact your site administrator if you need to use a \"FROM\" Email Address "
-"which is not in the dropdown list."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "You can choose to send BOTH an <strong>HTML</strong> and a plain "
 "<strong>TEXT</strong> version of your mailing, OR you can send a "
@@ -1497,7 +1655,7 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "If you create only an <strong>HTML</strong> version, CiviMail will "
 "automatically create a <strong>TEXT</strong> version for your recipients who"
@@ -1505,12 +1663,12 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid "Required Elements"
 msgstr ""
 
 #: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Mailing/MailingUI.hlp
 msgid ""
 "CiviMail email messages must include an <strong>opt-out</strong> link (\"Opt"
 " out via web page\"), and the <strong>postal address</strong> of your "
@@ -1520,36 +1678,6 @@ msgid ""
 " for details on how to include required links and contact information as "
 "well as sample messages."
 msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"You can use your favorite editor to create content on your local computer "
-"and then <strong>Upload</strong> the files. OR you can "
-"<strong>Compose</strong> content directly on the screen."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Invoice.hlp
-#: templates/CRM/Mailing/Form/Upload.hlp
-msgid ""
-"If you choose to compose on the screen, a basic WYSIWYG (what-you-see-is-"
-"what-you-get) editor is provided which you can use create simple HTML "
-"messages. However, if you are planning on creating HTML messages with "
-"complex layouts - it is best to use an HTML editor on your local computer. "
-"Then locate and upload the saved file(s) by clicking the "
-"<strong>Browse</strong> button."
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Task/Status.tpl
-#: templates/CRM/Event/Form/Registration/ThankYou.tpl
-#: xml/templates/message_templates/event_offline_receipt_html.tpl
-#: xml/templates/message_templates/event_offline_receipt_text.tpl
-#: xml/templates/message_templates/event_online_receipt_html.tpl
-#: xml/templates/message_templates/event_online_receipt_text.tpl
-#: CRM/Financial/DAO/FinancialItem.php
-#: CRM/Report/Form/Contribute/Bookkeeping.php
-msgid "Transaction Date"
-msgstr "交易編號"
 
 #: templates/CRM/Contribute/Import/Form/DataSource.hlp
 #: templates/CRM/Event/Import/Form/DataSource.hlp
@@ -1652,18 +1780,12 @@ msgstr ""
 msgid "Failure Retry Date"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-#: CRM/Report/Form/Contribute/Summary.php
-msgid "Total Soft Credits"
+#: templates/CRM/Contribute/Page/ContributionRecurPayments.tpl
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Related Contributions"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/ContributionSoft.tpl
-#: templates/CRM/PCP/Page/PCP.tpl
-msgid "View Personal Campaign Page"
-msgstr "瀏覽個人募款頁"
-
-#: templates/CRM/Contribute/Page/ContributionTotals.tpl
+#: templates/CRM/Contribute/Page/ContributionSoftTotals.tpl
 #: CRM/Report/Form/Contribute/Summary.php
 msgid "Total Soft Credit Amount"
 msgstr ""
@@ -1677,12 +1799,12 @@ msgstr ""
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
 #: templates/CRM/Financial/Page/FinancialType.tpl
 msgid "Deductible?"
-msgstr ""
+msgstr "可扣稅？"
 
 #: templates/CRM/Contribute/Page/ContributionType.tpl
 #: templates/CRM/Financial/Page/FinancialType.tpl
 msgid "Add Financial Type"
-msgstr ""
+msgstr "新增財務類型"
 
 #: templates/CRM/Contribute/Page/DashBoard.tpl
 #: templates/CRM/Member/Page/MembershipType.tpl
@@ -1713,15 +1835,34 @@ msgstr ""
 msgid "Balance"
 msgstr ""
 
-#: templates/CRM/Contribute/Page/PaymentInfo.tpl
-#: templates/CRM/Event/Form/ParticipantFeeSelection.tpl
-msgid "view payments"
-msgstr ""
-
 #: templates/CRM/Contribute/Page/PcpUserDashboard.tpl
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "ongoing"
 msgstr "繼續"
+
+#: templates/CRM/Contribute/Page/SubscriptionStatus.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_html.tpl
+#: xml/templates/message_templates/contribution_recurring_billing_text.tpl
+#: templates/CRM/Event/Cart/Form/Checkout/ThankYou.tpl
+#: templates/CRM/Event/Form/Registration/Confirm.tpl
+#: templates/CRM/Event/Form/Registration/ThankYou.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/event_registration_receipt_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_html.tpl
+#: xml/templates/message_templates/membership_autorenew_billing_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Credit Card Information"
+msgstr "信用卡資料"
 
 #: templates/CRM/Contribute/Page/Tab.hlp templates/CRM/Pledge/Page/Payment.hlp
 msgid "Adjust Pledge Payment Schedule"
@@ -1760,7 +1901,7 @@ msgstr ""
 #: xml/templates/message_templates/contribution_online_receipt_subject.tpl
 #: xml/templates/message_templates/membership_online_receipt_subject.tpl
 msgid "Invoice"
-msgstr ""
+msgstr "帳單"
 
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1769,7 +1910,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Please print this receipt for your records."
-msgstr ""
+msgstr "請列印這收據以作記錄。"
 
 #: xml/templates/message_templates/contribution_offline_receipt_html.tpl
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1782,6 +1923,32 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Each"
+msgstr "每"
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/contribution_online_receipt_html.tpl
+#: xml/templates/message_templates/contribution_online_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Total Tax Amount"
+msgstr ""
+
+#: xml/templates/message_templates/contribution_offline_receipt_html.tpl
+#: xml/templates/message_templates/contribution_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_offline_receipt_html.tpl
+#: xml/templates/message_templates/event_offline_receipt_text.tpl
+#: xml/templates/message_templates/event_online_receipt_html.tpl
+#: xml/templates/message_templates/event_online_receipt_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+msgid "Paid By"
 msgstr ""
 
 #: xml/templates/message_templates/contribution_offline_receipt_text.tpl
@@ -1791,7 +1958,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Amount before Tax"
-msgstr ""
+msgstr "除稅後金額"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1800,7 +1967,7 @@ msgstr ""
 #: xml/templates/message_templates/event_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "Please print this confirmation for your records."
-msgstr ""
+msgstr "請列印此確定以作記錄"
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
@@ -1819,6 +1986,8 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "Registered Email"
@@ -1829,7 +1998,7 @@ msgstr ""
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "For information about this premium, contact:"
-msgstr ""
+msgstr "關於此禮物的資料，請聯絡："
 
 #: xml/templates/message_templates/contribution_online_receipt_html.tpl
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
@@ -1843,7 +2012,7 @@ msgstr ""
 #: xml/templates/message_templates/contribution_online_receipt_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_text.tpl
 msgid "On Behalf Of"
-msgstr ""
+msgstr "代表"
 
 #: xml/templates/message_templates/contribution_recurring_billing_html.tpl
 #: xml/templates/message_templates/contribution_recurring_billing_text.tpl
@@ -1859,13 +2028,15 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_html.tpl
 #: xml/templates/message_templates/membership_autorenew_billing_text.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Dear %1"
-msgstr ""
+msgstr "親愛的%1"
 
 #: xml/templates/message_templates/contribution_recurring_billing_html.tpl
 #: xml/templates/message_templates/contribution_recurring_billing_text.tpl
@@ -1878,8 +2049,8 @@ msgstr ""
 #: xml/templates/message_templates/contribution_recurring_notify_text.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid ""
-"This membership will be renewed automatically. You can cancel the auto-"
-"renewal option by <a href=\"%1\">visiting this web page</a>."
+"You can cancel the auto-renewal option by <a href=\"%1\">visiting this web "
+"page</a>."
 msgstr ""
 
 #: xml/templates/message_templates/contribution_recurring_notify_html.tpl
@@ -1891,6 +2062,10 @@ msgid ""
 "<a href=\"%1\">visiting this web page</a>."
 msgstr ""
 
+#: CRM/Event/BAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
+msgid "Participant Note"
+msgstr ""
+
 #: CRM/Event/DAO/Event.php CRM/Event/Form/ManageEvent/Fee.php
 #: templates/CRM/Event/Form/ManageEvent/Fee.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
@@ -1900,7 +2075,7 @@ msgstr "名稱"
 
 #: CRM/Event/DAO/Participant.php CRM/Report/Form/Event/ParticipantListing.php
 msgid "Fee Currency"
-msgstr ""
+msgstr "費用貨幣"
 
 #: CRM/Event/DAO/ParticipantPayment.php CRM/Pledge/DAO/PledgePayment.php
 msgid "Payment ID"
@@ -1917,7 +2092,15 @@ msgstr "範本標題"
 
 #: CRM/Event/Form/ManageEvent/EventInfo.php templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Tip"
-msgstr ""
+msgstr "提示"
+
+#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
+#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
+#: templates/CRM/Event/Form/Participant.tpl
+#: templates/CRM/Event/Form/ParticipantView.tpl
+#: CRM/Report/Form/Contribute/Detail.php CRM/Report/Form/Member/Summary.php
+msgid "Fees"
+msgstr "費用"
 
 #: CRM/Event/Form/Participant.php
 #: xml/templates/message_templates/event_offline_receipt_html.tpl
@@ -1930,6 +2113,8 @@ msgstr ""
 #: xml/templates/message_templates/participant_confirm_text.tpl
 #: xml/templates/message_templates/participant_expired_html.tpl
 #: xml/templates/message_templates/participant_expired_text.tpl
+#: xml/templates/message_templates/participant_transferred_html.tpl
+#: xml/templates/message_templates/participant_transferred_text.tpl
 #: CRM/Report/Form/Event/IncomeCountSummary.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php CRM/Report/Form/Extended.php
@@ -1937,24 +2122,19 @@ msgid "Registration Date"
 msgstr "報名日期"
 
 #: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
-#: CRM/Member/Form/MembershipRenewal.php
-msgid "Paid By is a required field."
-msgstr ""
-
-#: CRM/Event/Form/Participant.php CRM/Member/Form/Membership.php
 msgid "Please select a valid payment status before updating."
 msgstr "請選擇有效的付款狀態，然後再更新。"
 
 #: CRM/Event/Form/Search.php templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/TopDonor.php
 #: CRM/Report/Form/Event/ParticipantListCount.php
 #: CRM/Report/Form/Event/ParticipantListing.php
 msgid "Participant Name"
 msgstr "參加者的姓名"
 
-#: CRM/Event/Selector/Search.php templates/CRM/Pledge/Page/Payment.tpl
-msgid "Record Payment"
-msgstr ""
+#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
+#: CRM/Report/Form/Event/ParticipantListing.php
+msgid "-select-"
+msgstr "- 選擇 - "
 
 #: templates/CRM/Event/Form/EventFees.tpl
 #: templates/CRM/Member/Form/MembershipRenewal.tpl
@@ -1964,15 +2144,14 @@ msgid ""
 msgstr "勾選此框以輸入付款資料。您也能產生一個的收據。"
 
 #: templates/CRM/Event/Form/EventFees.tpl
-#: templates/CRM/Member/Form/Membership.tpl
-#: templates/CRM/Member/Form/MembershipRenewal.tpl
+#: templates/CRM/Member/Form/MembershipCommon.tpl
 msgid "Select the appropriate financial type for this payment."
 msgstr ""
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.hlp
 #: ang/crmMailing/BlockMailing.html ang/crmMailingAB/BlockMailing.html
 msgid "Template"
-msgstr ""
+msgstr "範本"
 
 #: templates/CRM/Event/Form/ManageEvent/Repeat.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl templates/CRM/PCP/Page/PCP.tpl
@@ -1998,6 +2177,15 @@ msgstr ""
 #: xml/templates/message_templates/membership_offline_receipt_html.tpl
 #: xml/templates/message_templates/membership_online_receipt_html.tpl
 msgid "Amount Before Tax:"
+msgstr "除稅前金額"
+
+#: CRM/Financial/BAO/PaymentProcessor.php CRM/Mailing/Event/BAO/Bounce.php
+msgid "Unknown"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+#: CRM/Report/Form/Contribute/DeferredRevenue.php
+msgid "Financial Item ID"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessor.php
@@ -2006,10 +2194,10 @@ msgstr ""
 #: CRM/Report/Form/Member/ContributionDetail.php
 #: CRM/Report/Form/Member/Detail.php
 msgid "Payment Type"
-msgstr ""
+msgstr "付款類型"
 
-#: CRM/Financial/Form/Export.php CRM/Report/Form.php
-msgid "Export to CSV"
+#: CRM/Grant/BAO/Query.php CRM/Report/Form/Grant/Detail.php
+msgid "Grant Decision Date"
 msgstr ""
 
 #: CRM/Grant/BAO/Query.php CRM/Grant/DAO/Grant.php
@@ -2027,7 +2215,8 @@ msgid "Amount Requested"
 msgstr "需求的金額"
 
 #: CRM/Grant/Form/Grant.php CRM/Grant/Selector/Search.php
-#: templates/CRM/Grant/Form/GrantView.tpl CRM/Report/Form/Grant/Detail.php
+#: templates/CRM/Grant/Form/GrantView.tpl
+#: templates/CRM/Grant/Form/Task/Print.tpl CRM/Report/Form/Grant/Detail.php
 #: CRM/Report/Form/Grant/Statistics.php
 msgid "Application Received"
 msgstr "已收到的申請"
@@ -2070,37 +2259,58 @@ msgstr "已接收報表"
 msgid "Reply"
 msgstr "回覆"
 
+#: CRM/Mailing/BAO/Query.php CRM/Mailing/DAO/Mailing.php
+#: CRM/Mailing/Tokens.php CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing ID"
+msgstr ""
+
 #: CRM/Mailing/BAO/Query.php CRM/Report/Form/Mailing/Detail.php
 msgid "Delivery Status"
-msgstr ""
+msgstr "寄送狀態 "
+
+#: CRM/Mailing/DAO/BouncePattern.php CRM/Mailing/Event/DAO/Bounce.php
+#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
+msgid "Bounce Type"
+msgstr "退回類型"
 
 #: CRM/Mailing/DAO/Mailing.php CRM/Mailing/Form/Search.php
 #: CRM/Mailing/Selector/Browse.php CRM/Mailing/Selector/Search.php
-#: ang/crmMailing/BlockReview.html ang/crmMailing/BlockSummary.html
-#: ang/crmMailingAB/EditCtrl/report.html
+#: CRM/Mailing/Tokens.php ang/crmMailing/BlockReview.html
+#: ang/crmMailing/BlockSummary.html ang/crmMailingAB/EditCtrl/report.html
 #: templates/CRM/Mailing/Form/Task/Print.tpl
 #: templates/CRM/Mailing/Page/Browse.hlp templates/CRM/Mailing/Page/Report.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
 msgid "Mailing Name"
-msgstr ""
+msgstr "郵件名稱"
 
 #: CRM/Mailing/Event/DAO/Bounce.php CRM/Mailing/Selector/Event.php
 #: CRM/Report/Form/Mailing/Bounce.php
 msgid "Bounce Reason"
 msgstr "拒絕原因"
 
-#: CRM/Mailing/Selector/Event.php CRM/Report/Form/Mailing/Bounce.php
-msgid "Bounce Type"
-msgstr "退回類型"
+#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
+msgid "Started"
+msgstr "開始"
 
 #: CRM/Mailing/Selector/Event.php templates/CRM/Mailing/Page/Report.tpl
-#: CRM/Report/Form/Register.php templates/CRM/Report/Page/Options.tpl
+#: CRM/Report/Form/Mailing/Clicks.php CRM/Report/Form/Register.php
+#: templates/CRM/Report/Page/Options.tpl
 msgid "URL"
 msgstr "網址"
 
 #: CRM/Mailing/Selector/Event.php ang/crmMailing/services.js
 #: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
 msgid "Intended Recipients"
+msgstr "收件者"
+
+#: CRM/Mailing/Selector/Search.php CRM/Mailing/Tokens.php
+#: templates/CRM/Mailing/Form/Task/Print.tpl
+#: CRM/Report/Form/Mailing/Bounce.php CRM/Report/Form/Mailing/Clicks.php
+#: CRM/Report/Form/Mailing/Detail.php CRM/Report/Form/Mailing/Opened.php
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Mailing Subject"
 msgstr ""
 
 #: CRM/Mailing/Selector/Search.php templates/CRM/Mailing/Form/Search.tpl
@@ -2113,17 +2323,52 @@ msgstr "電子報設定"
 #: ang/crmMailing/EmailBodyCtrl/tokenAlert.html
 #: ang/crmMailingAB/EditCtrl/report.html CRM/Report/Form/Mailing/Detail.php
 msgid "Opt-out"
-msgstr ""
+msgstr "選擇退出"
 
 #: ang/crmMailing/EditMailingCtrl/workflow.html
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid "Approval"
 msgstr ""
 
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Select the \"FROM\" Email Address for this mailing from the dropdown list. "
+"Available email addresses are configurable by users with Administer CiviCRM "
+"permission. EXAMPLE: \"Client Services\" &lt;clientservices@example.org&gt;"
+msgstr ""
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Go to <a href='%1'>Administer CiviCRM &raquo; Communications &raquo; FROM "
+"Email Addresses</a> to add or edit email addresses. Make sure these email "
+"addresses are valid email accounts with your email service provider."
+msgstr ""
+
+#: templates/CRM/Mailing/MailingUI.hlp
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"Contact your site administrator if you need to use a \"FROM\" Email Address "
+"which is not in the dropdown list."
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Opened.php
 #: CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Opens"
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Total Opens"
+msgstr ""
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Clicks.php
 msgid "Clicks"
 msgstr "點擊"
+
+#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
+msgid "Unique Clicks"
+msgstr ""
 
 #: CRM/Member/Form/MembershipBlock.php templates/CRM/Member/Page/Tab.tpl
 #: CRM/Report/Form/Extended.php CRM/Report/Form/Member/ContributionDetail.php
@@ -2135,10 +2380,18 @@ msgstr "會籍類型"
 #: CRM/Member/Form/Search.php CRM/Report/Form/Member/Lapse.php
 #: CRM/Report/Form/Membership/Summary.php
 msgid "Member Name"
+msgstr "會員姓名"
+
+#: templates/CRM/Member/Page/DashBoard.tpl CRM/Report/Form/Member/Summary.php
+msgid "Membership Summary"
 msgstr ""
 
 #: templates/CRM/Member/Page/MembershipType.tpl CRM/Report/Form.php
 msgid "Max"
+msgstr ""
+
+#: templates/CRM/PCP/Page/PCP.tpl CRM/Report/Form/Contribute/PCP.php
+msgid "Page Title"
 msgstr ""
 
 #: templates/CRM/PCP/Page/PCP.tpl
@@ -2152,28 +2405,25 @@ msgstr "親愛的支持者"
 #: xml/templates/message_templates/pcp_notify_text.tpl
 #: CRM/Report/Form/Member/Lapse.php
 msgid "Current Status"
-msgstr ""
+msgstr "目前狀態"
 
-#: CRM/Pledge/BAO/Query.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
-msgid "Pledge Status"
-msgstr "認捐狀態 %1"
-
-#: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-msgid "Total Pledged"
-msgstr ""
+#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
+#: CRM/Report/Form/Pledge/Pbnp.php
+msgid "Next Payment Amount"
+msgstr "下一次付款金額"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
+msgid "Total Pledged"
+msgstr "總認捐"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+#: CRM/Report/Form/Pledge/Detail.php CRM/Report/Form/Pledge/Summary.php
 msgid "Pledge Start Date"
-msgstr ""
+msgstr "認捐開始日期"
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/Form/Pledge.php
-#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/Pledge.tpl
-#: templates/CRM/Pledge/Form/PledgeView.tpl
-#: templates/CRM/Pledge/Form/Search/Common.tpl
+#: CRM/Pledge/Selector/Search.php templates/CRM/Pledge/Form/PledgeView.tpl
 #: templates/CRM/Pledge/Form/Task/SearchTaskHookSample.tpl
 #: CRM/Report/Form/Pledge/Pbnp.php
 msgid "Pledge Made"
@@ -2182,7 +2432,7 @@ msgstr "已作出的認捐"
 #: CRM/Pledge/DAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
 #: CRM/Report/Form/Pledge/Summary.php
 msgid "Pledge End Date"
-msgstr ""
+msgstr "認捐結束日期"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
 #: CRM/Report/Form/Contribute/Recur.php
@@ -2198,57 +2448,24 @@ msgstr "認捐金額"
 msgid "Balance Due"
 msgstr ""
 
-#: CRM/Admin/Form/ScheduleReminders.php CRM/Contribute/Form/Task/PDF.php
-msgid "From Email"
+#: CRM/Campaign/DAO/Campaign.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+#: CRM/Report/Form/Mailing/Summary.php
+msgid "Campaign Name"
 msgstr ""
 
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Ascending"
+#: templates/CRM/Contribute/Form/Task/Invoice.hlp
+#: templates/CRM/Mailing/Form/Upload.hlp
+msgid ""
+"You can use your favorite editor to create content on your local computer "
+"and then <strong>Upload</strong> the files. OR you can "
+"<strong>Compose</strong> content directly on the screen."
 msgstr ""
 
-#: CRM/Campaign/Form/Task/Interview.php CRM/Report/Form.php
-msgid "Descending"
-msgstr ""
-
-#: CRM/Contribute/DAO/ContributionRecur.php
-#: CRM/Contribute/Form/UpdateSubscription.php
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Number of Installments"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Confirm.php
-#: templates/CRM/Pledge/Page/UserDashboard.tpl
-msgid "Make Payment"
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution/Main.php CRM/Event/Form/Participant.php
-#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
-msgid "Payment Method is a required field."
-msgstr ""
-
-#: CRM/Contribute/Form/Contribution.php CRM/Member/Form/Membership.php
-msgid "You do not have all the permissions needed for this page."
-msgstr ""
-
-#: CRM/Contribute/Form/ContributionPage/Amount.php
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Show Recurring Donation Start Date?"
-msgstr ""
-
-#: CRM/Contribute/Form/Task/PickProfile.php
-#: CRM/Member/Form/Task/PickProfile.php
-msgid "Update multiple records error"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/Contribution/Confirm.tpl
-#: templates/CRM/Contribute/Form/Contribution/ThankYou.tpl
-#: CRM/Report/Form/Contribute/Recur.php
-msgid "Installment Amount"
-msgstr ""
-
-#: templates/CRM/Contribute/Form/ContributionPage/PCP.hlp
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Notification Email"
+#: templates/CRM/Contribute/Page/ContributionSoft.tpl
+#: CRM/Report/Form/Contribute/Detail.php
+#: CRM/Report/Form/Contribute/Summary.php
+msgid "Total Soft Credits"
 msgstr ""
 
 #: templates/CRM/Contribute/Page/ContributionTotals.tpl
@@ -2261,36 +2478,10 @@ msgstr ""
 msgid "Mode"
 msgstr ""
 
-#: CRM/Event/Form/ManageEvent/TabHeader.php CRM/Event/Page/ManageEvent.php
-#: templates/CRM/Event/Form/ManageEvent/Tab.hlp
-#: templates/CRM/Event/Form/Participant.tpl
-#: templates/CRM/Event/Form/ParticipantView.tpl
-#: CRM/Report/Form/Contribute/Detail.php
-msgid "Fees"
-msgstr ""
-
-#: CRM/Event/Form/SelfSvcUpdate.php CRM/Report/Form/Case/Demographics.php
-#: CRM/Report/Form/Event/ParticipantListing.php
-msgid "-select-"
-msgstr ""
-
-#: CRM/Mailing/DAO/Mailing.php CRM/Report/Form/Mailing/Summary.php
-msgid "Mailing ID"
-msgstr ""
-
-#: CRM/Mailing/Selector/Browse.php CRM/Report/Form/Contribute/RecurSummary.php
-msgid "Started"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Unique Opens"
-msgstr ""
-
-#: templates/CRM/Mailing/Page/Report.tpl CRM/Report/Form/Mailing/Summary.php
-msgid "Total Opens"
-msgstr ""
-
-#: CRM/Pledge/BAO/Pledge.php CRM/Report/Form/Pledge/Detail.php
-#: CRM/Report/Form/Pledge/Pbnp.php
-msgid "Next Payment Amount"
+#: xml/templates/message_templates/contribution_recurring_notify_html.tpl
+#: xml/templates/message_templates/contribution_recurring_notify_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid ""
+"This membership will be renewed automatically. You can cancel the auto-"
+"renewal option by <a href=\"%1\">visiting this web page</a>."
 msgstr ""

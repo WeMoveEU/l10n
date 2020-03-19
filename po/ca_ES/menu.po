@@ -4,11 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # erich <edu@edurichard.com>, 2013
-# francescbassas <francesc@babu.cat>, 2013-2016
-# francescbassas <francesc@babu.cat>, 2013
-# francescbassas <francesc@babu.cat>, 2012-2013
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2013-2016
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2013
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2012-2013
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2017-2019
 # ixiam <info@ixiam.com>, 2016
 # Jaume Planas <jaumeplan@gmail.com>, 2011
+# Marti Prat <m.prat@ixiam.com>, 2019
 # Marti Prat <m.prat@ixiam.com>, 2013
 # oriolferran <oriol@creat.cat>, 2015
 # Piotr Szotkowski <chastell@chastell.net>, 2011
@@ -16,9 +18,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-11-24 13:23+0000\n"
-"Last-Translator: francescbassas <francesc@babu.cat>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 15:50+0000\n"
+"Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -164,6 +166,11 @@ msgstr "Detalls del cas"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "CiviCase Settings"
+msgstr ""
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Case Types"
 msgstr "Tipus de casos"
 
@@ -265,8 +272,8 @@ msgstr "Comptes financers"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Payment Instruments"
-msgstr "Mitjans de pagament"
+msgid "Payment Methods"
+msgstr "Mètodes de pagament"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -300,7 +307,7 @@ msgstr "Cerca contribucions"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Import Contributions"
-msgstr "Importa contribucions"
+msgstr "Importació de contribucions"
 
 msgctxt "menu"
 msgid "AdditionalInfo Form"
@@ -337,7 +344,7 @@ msgstr "Exporta lot de comptabilitat"
 
 msgctxt "menu"
 msgid "View Payment"
-msgstr "Visualitza el pagament"
+msgstr "Veure el pagament"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -351,6 +358,14 @@ msgstr "Factura PDF"
 msgctxt "menu"
 msgid "Email Invoice"
 msgstr "Factura per correu electrònic "
+
+msgctxt "menu"
+msgid "Recurring Contribution's Payments"
+msgstr "Pagaments de la contribució periòdica"
+
+msgctxt "menu"
+msgid "Membership Recurring Contributions"
+msgstr "Contribucions periòdiques de la pertinença"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -427,16 +442,6 @@ msgstr "Perfil CiviCRM nou"
 msgctxt "menu"
 msgid "Profile Settings"
 msgstr "Configuració de perfils"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Tags (Categories)"
-msgstr "Etiquetes (categories)"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "New Tag"
-msgstr "Etiqueta nova"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -530,7 +535,7 @@ msgstr "Adreça de l'organització i informació del contacte"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "From Email Addresses"
-msgstr "Adreces de correu electrònic del remitent"
+msgstr "Adreces de correu electrònic de remitent"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -540,7 +545,7 @@ msgstr "Plantilles de missatges"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Schedule Reminders"
-msgstr "Programació de recordatoris"
+msgstr "Recordatoris programats"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -614,12 +619,10 @@ msgctxt "menu"
 msgid "Configuration Checklist"
 msgstr "Llista de verificació de la configuració"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Enable CiviCRM Components"
 msgstr "Activa els components de CiviCRM"
 
-#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Manage Extensions"
 msgstr "Gestiona les extensions"
@@ -633,8 +636,8 @@ msgid "Outbound Email Settings"
 msgstr "Configuració del correu electrònic sortint"
 
 msgctxt "menu"
-msgid "Payment Processor"
-msgstr "Processador de pagaments"
+msgid "Settings - Payment Processor"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -760,6 +763,10 @@ msgid "Badge Layout"
 msgstr "Disseny de l'acreditació"
 
 msgctxt "menu"
+msgid "Configure CKEditor"
+msgstr "Configurar el CKEditor"
+
+msgctxt "menu"
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
@@ -792,7 +799,7 @@ msgstr "Cerca avançada"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Search Builder"
-msgstr "Generador de cerques"
+msgstr "Constructor de cerques"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -865,10 +872,6 @@ msgid "Smart Groups"
 msgstr "Grups intel·ligents"
 
 msgctxt "menu"
-msgid "Sunlight"
-msgstr "Sunlight"
-
-msgctxt "menu"
 msgid "Notes"
 msgstr "Notes"
 
@@ -888,9 +891,10 @@ msgctxt "menu"
 msgid "CiviCRM Blog"
 msgstr "Blog CiviCRM"
 
+#: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "CiviCRM Getting Started"
-msgstr "CiviCRM Primers passos"
+msgid "CiviCRM Resources"
+msgstr "Recursos CiviCRM"
 
 msgctxt "menu"
 msgid "Case Dashlet"
@@ -911,8 +915,12 @@ msgid "Find and Merge Duplicate Contacts"
 msgstr "Cerca i combina contactes duplicats"
 
 msgctxt "menu"
+msgid "Batch Merge Duplicate Contacts"
+msgstr "Combinar contactes duplicats per lots"
+
+msgctxt "menu"
 msgid "Dedupe Exceptions"
-msgstr "Excepcions de deduplicació"
+msgstr "Excepcions de desduplicació"
 
 msgctxt "menu"
 msgid "Add User"
@@ -956,11 +964,15 @@ msgstr "Actualització del CiviCRM"
 
 msgctxt "menu"
 msgid "Download Errors"
-msgstr "Errors de descàrrega"
+msgstr "Descarrega els errors"
 
 msgctxt "menu"
 msgid "Export Contacts"
 msgstr "Exportació de contactes"
+
+msgctxt "menu"
+msgid "Export"
+msgstr ""
 
 msgctxt "menu"
 msgid "ACL Roles"
@@ -995,8 +1007,8 @@ msgid "Log out"
 msgstr "Surt"
 
 msgctxt "menu"
-msgid "CiviCRM API"
-msgstr "API del CiviCRM"
+msgid "CiviCRM API v3"
+msgstr ""
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1016,8 +1028,26 @@ msgid "Confirm dates"
 msgstr "Confirma les dates"
 
 msgctxt "menu"
+msgid "Insert CiviCRM Content"
+msgstr "Inserir contingut de CiviCRM"
+
+msgctxt "menu"
 msgid "CiviCRM Profile Create"
 msgstr "Creació de perfil CiviCRM"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Tags (Categories)"
+msgstr "Etiquetes (categories)"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "New Tag"
+msgstr "Etiqueta nova"
+
+msgctxt "menu"
+msgid "Merge Tags"
+msgstr "Combina les etiquetes"
 
 msgctxt "menu"
 msgid "CiviEvent Dashboard"
@@ -1133,6 +1163,14 @@ msgid "Manage Price Sets"
 msgstr "Gestió de conjunts de preus"
 
 msgctxt "menu"
+msgid "Self-service Registration Update"
+msgstr "Actualització del registre per compte propi"
+
+msgctxt "menu"
+msgid "Self-service Registration Transfer"
+msgstr "Transferència del registre per compte propi"
+
+msgctxt "menu"
 msgid "Add Event To Cart"
 msgstr "Afegeix l'esdeveniment a la cistella"
 
@@ -1174,7 +1212,7 @@ msgstr "CiviMail"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Mailer Settings"
-msgstr "Configuració de l'aplicació de correu electrònic"
+msgstr "Configuració de l'administrador de correu electrònic"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1235,10 +1273,6 @@ msgstr "Enviant correu electrònic"
 msgctxt "menu"
 msgid "Mailing Event"
 msgstr "Mailing d'esdeveniments"
-
-msgctxt "menu"
-msgid "Schedule Mailing"
-msgstr "Programa el mailing"
 
 msgctxt "menu"
 msgid "View Mailing"
@@ -1341,11 +1375,6 @@ msgstr "Llistat d'informes"
 msgctxt "menu"
 msgid "CiviCRM News"
 msgstr "Notícies CiviCRM"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Getting Started"
-msgstr "Primers passos"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1564,6 +1593,11 @@ msgstr "Consola d'administració"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "System Status"
+msgstr "Estat del sistema"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Customize Data and Screens"
 msgstr "Personalitza dades i pantalles"
 
@@ -1590,7 +1624,7 @@ msgstr "Comunicacions"
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "FROM Email Addresses"
-msgstr "Adreces de correu electrònic del remitent"
+msgstr "Adreces de correu electrònic de remitent"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1619,8 +1653,23 @@ msgstr "Configuració del sistema"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Components"
+msgstr "Components"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Connections"
 msgstr "Connexions"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Extensions"
+msgstr "Extensions"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Debugging and Error Handling"
+msgstr "Depuració i control d'errors"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1636,11 +1685,6 @@ msgstr "Processadors de pagament"
 msgctxt "menu"
 msgid "Safe File Extensions"
 msgstr "Extensions de fitxer segures"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Debugging and Error Handling"
-msgstr "Depuració i control d'errors"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1764,6 +1808,11 @@ msgstr "Informes"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "My Reports"
+msgstr "Els meus informes"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Constituent Summary"
 msgstr "Resum de constituents"
 
@@ -1785,6 +1834,11 @@ msgid ""
 "Provides contact-related information on contributions, memberships, events "
 "and activities."
 msgstr "Proporciona informació relacionada amb els contactes en les contribucions, pertinences, esdeveniments i activitats."
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Activity Details"
+msgstr "Detalls de l'activitat"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1812,6 +1866,16 @@ msgstr "Proporciona els detalls de la relació entre dos contactes"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
+msgid "Activity Summary"
+msgstr "Resum d'activitat"
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
+msgid "Shows activity statistics by type / date"
+msgstr "Mostra estadístiques d'activitat per tipus / data "
+
+#: xml/templates/civicrm_navigation.tpl
+msgctxt "menu"
 msgid "Contribution Summary"
 msgstr "Resum de contribucions"
 
@@ -1820,7 +1884,7 @@ msgctxt "menu"
 msgid ""
 "Groups and totals contributions by criteria including contact, time period, "
 "contribution type, contributor location, etc."
-msgstr "Grups i contribucions totals per criteri incloent contacte, període de temps, tipus de contribició, ubicació del contribuïdor, etc."
+msgstr "Grups i contribucions totals per criteri incloent contacte, període de temps, tipus de contribició, ubicació del contribuent, etc."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1925,7 +1989,7 @@ msgstr "Mostra contribucions fetes per contactes que han fet crèdits tous a alt
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Contribution Aggregate by Relationship"
-msgstr "Contribucions totals per relacions"
+msgstr "Contribucions agregades per relacions"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1944,19 +2008,19 @@ msgctxt "menu"
 msgid ""
 "Summarizes amount raised and number of contributors for each Personal "
 "Campaign Page."
-msgstr "Resumeix l'import aconseguit i el número de contribuïdors per a cada pàgina de campanya personal."
+msgstr "Resumeix l'import aconseguit i el número de contribuents per a cada pàgina de campanya personal."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
-msgid "Pledge Summary"
-msgstr "Resum de compromisos"
+msgid "Pledge Detail"
+msgstr "Detall del compromís"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid ""
-"Summary of pledges including amount pledged, pledge status, next payment "
-"date, balance due, total amount paid etc."
-msgstr "Resum de compromisos incloent imports compromesos, estat del compromís, pròxima data de pagament, balanç pendent, import total pagat, etc."
+"List of pledges including amount pledged, pledge status, next payment date, "
+"balance due, total amount paid etc."
+msgstr "Llista de compromisos, incloent la quantitat compromesa, l'estat del compromís, la propera data de pagament, el saldo actual, la quantitat total pagada, etc."
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -1983,12 +2047,12 @@ msgstr "Proporciona els detalls de les transaccions per totes les contribucions 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Provides information about the status of recurring contributions"
-msgstr "Proporciona informació sobre l'estat de les contribucions recurrents"
+msgstr "Proporciona informació sobre l'estat de les contribucions periòdiques"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
 msgid "Membership Summary"
-msgstr "Resum de pertinença"
+msgstr "Resum de pertinences"
 
 #: xml/templates/civicrm_navigation.tpl
 msgctxt "menu"
@@ -2155,85 +2219,3 @@ msgctxt "menu"
 msgid ""
 "Detailed report for canvassing, phone-banking, walk lists or other surveys."
 msgstr "Informe detallat per a la captació de vots, la captació telefònica, les llistes de visites i altres enquestes."
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Payment Methods"
-msgstr "Mètodes de pagament"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Close Accounting Period"
-msgstr "Tanca el període comptable"
-
-msgctxt "menu"
-msgid "Configure CKEditor"
-msgstr "Configurar el CKEditor"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "CiviCRM Resources"
-msgstr "Recursos CiviCRM"
-
-msgctxt "menu"
-msgid "Batch Merge Duplicate Contacts"
-msgstr "Combinar contactes duplicats per lots"
-
-msgctxt "menu"
-msgid "Insert CiviCRM Content"
-msgstr "Inserir contingut de CiviCRM"
-
-msgctxt "menu"
-msgid "Self-service Registration Update"
-msgstr "Actualització del registre per compte propi"
-
-msgctxt "menu"
-msgid "Self-service Registration Transfer"
-msgstr "Transferència del registre per compte propi"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "System Status"
-msgstr "Estat del sistema"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Components"
-msgstr "Components"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Extensions"
-msgstr "Extensions"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "My Reports"
-msgstr "Els meus informes"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Details"
-msgstr "Detalls de l'activitat"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Activity Summary"
-msgstr "Resum de l'activitat"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Shows activity statistics by type / date"
-msgstr "Mostrar estadístiques de l'activitat per tipus / data"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid "Pledge Detail"
-msgstr "Detall del compromís"
-
-#: xml/templates/civicrm_navigation.tpl
-msgctxt "menu"
-msgid ""
-"List of pledges including amount pledged, pledge status, next payment date, "
-"balance due, total amount paid etc."
-msgstr "Llista de compromisos, incloent la quantitat compromesa, l'estat del compromís, la propera data de pagament, el saldo actual, la quantitat total pagada, etc."

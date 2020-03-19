@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Szabo Attila <atekka@gmail.com>, 2013
-# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2017
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2019
 # Zoltán Várady <zoltan@farm.co.hu>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-10 16:04+0000\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 06:25+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -26,6 +26,22 @@ msgstr "Jelenlegi kampányok"
 #: CRM/Campaign/BAO/Campaign.php
 msgid "Past Campaigns"
 msgstr "Múltbeli kampányok"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr "Jövőben"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr "Múltban"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr "Nincs beállítva"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr "Új kampány"
 
 #: CRM/Campaign/BAO/Petition.php
 msgid "No survey sid parameter. Cannot process signature."
@@ -55,10 +71,6 @@ msgstr "Riporter/Kérdező"
 msgid "Could not find survey for %1 respondents."
 msgstr "Felmérés nem található %1 válaszadóval."
 
-#: CRM/Campaign/BAO/Query.php
-msgid "Campaigns %1"
-msgstr "Kampányok %1"
-
 #: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
 #: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
 msgid "Reserve Respondents"
@@ -78,16 +90,52 @@ msgid "View Survey Report"
 msgstr "Kérdőív jelentés megtekintése"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr "Egyedi kampány azonosító"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr "Kampány neve."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr "Kampány megnevezése."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Description"
 msgstr "Kampány leírása"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr "Kampány részletes leírása."
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Start Date"
 msgstr "Kampány kezdés dátuma"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr "Kampány kezdő dátuma és ideje."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign End Date"
 msgstr "Kampány befejezésének dátuma"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr "Kampány záró dátuma és ideje."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr "Kampány  típus ID.Implicit FK a civicrm_option_value értékehez, ahol option_group = campaign_type"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr "Kampány állapot ID.Implicit FK to civicrm_option_value értékhez, ahol option_group = campaign_status"
 
 #: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign External ID"
@@ -98,84 +146,212 @@ msgid "Parent Campaign"
 msgstr "Szülő kampány"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr "Opcionális szülő azonosító ehhez a kampányhoz."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Is Campaign Active?"
 msgstr "Aktív kampány?"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr "Ez a kampány engedélyezett vagy tiltott/törölt?"
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Created By"
 msgstr "Kampány létrehozója"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr "A kampány létrehozó civicrm_contact kapcsolat FK."
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
 msgid "Campaign Created Date"
 msgstr "Kampány létrehozásának dátuma"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr "Kampány létrehozási ideje és dátuma."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified By"
 msgstr "Kampányt módosította"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr "A kampány módosító civicrm_contact kapcsolat FK."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Campaign Modified Date"
 msgstr "Kampány módosítási dátum"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr "Kampány utolsó szerkesztési dátuma és ideje."
 
 #: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
 msgid "Campaign Goals"
 msgstr "Kampány célok"
 
 #: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr "Kampány általános céljai."
+
+#: CRM/Campaign/DAO/Campaign.php
 msgid "Goal Revenue"
 msgstr "Cél bevétel"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr "Kampány célbevétel."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "Kampány csoport azonosító"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr "Kampány csoport azonosító."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr "Kampány tevékenység idegen kulcs."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "Kampány csoport típus"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr "Csoport típus."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr "Hivatkozott tábla egyed azonosító. "
 
 #: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
 msgid "Survey ID"
 msgstr "Felmérés azonosítója"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr "Felmérés azonosító."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr "Felmérés megnevezése."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Campaign ID"
 msgstr "Felmérés kampány azonosító"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr "Kampány idegen kulcs."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr "Hallgatólagos FK a civicrm_option_value értékehez, ahol option_group = activity_type"
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Follow up Interval"
 msgstr "Nyomon követés időköze "
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr "Ismételt kapcsolat felvétel intervallum az egyes állapothoz."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Instructions"
 msgstr "Útmutatók/Leirások"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr "Felmérés során használandó forgatókönyv utasítások az önkénteseknek."
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Hold Duration"
 msgstr "Felmérés tartás időtartama"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr "Ismétlődés elengedés napok száma. "
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Maximum number of contacts"
 msgstr "Kapcsolatok maximális száma"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr "Felmérés részére engedélyezett maximális kapcsolat szám."
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Default number of contacts"
 msgstr "Alapértelmezett kapcsolatok száma"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr "Felmérés részére engedélyezett alapértelmezett kapcsolat szám."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Is Active"
 msgstr "Felmérés aktív"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr "Ez a felmérés engedélyezett vagy tiltott/törölt? "
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Is Default Survey"
 msgstr "Alapértelmezett felmérés"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr "Alapértelmezett felmérés?"
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Created By"
 msgstr "Felmérést készítette"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr "Ezen felmérést létrehozó  civicrm_contact tartozó FK."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr "Felmérés létrehozási ideje és dátuma."
 
 #: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified"
 msgstr "Módosított felmérés "
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr "Ezen felmérést szerkesztő  civicrm_contact tartozó FK."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "Survey Modified On"
 msgstr "Felmérés módosítás dátuma"
 
 #: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr "Felmérés utolsó szerkesztési dátuma és ideje."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr "Opció csoport azonosító tárolására használt."
+
+#: CRM/Campaign/DAO/Survey.php
 msgid "No Email Verification"
 msgstr "Nincs e-mail ellenőrzés"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr "Email ellenőrzés kikerülése."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr "Közösségi médián keresztül megoszthatják mások? "
 
 #: CRM/Campaign/Form/Campaign.php
 msgid "Edit Campaign"
@@ -230,7 +406,7 @@ msgid "Edit Survey"
 msgstr "Felmérés szerkesztése"
 
 #: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Delete Survey"
 msgstr "Kérdőiv/Felmérés törlése"
 
@@ -337,7 +513,6 @@ msgstr "Tudnivalók az interjúztatók számára"
 #: CRM/Campaign/Form/Survey/Main.php
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Release Frequency"
 msgstr "Kiadás gyakorisága"
 
@@ -549,6 +724,10 @@ msgstr[0] "%count kapcsolat nem került lefoglalásra."
 msgstr[1] "%count kapcsolatok nem kerültek lefoglalásra."
 
 #: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr "CiviCRM Kampány motor"
+
+#: CRM/Campaign/Info.php
 msgid "administer CiviCampaign"
 msgstr "CiviKampány kezelése"
 
@@ -590,7 +769,7 @@ msgstr "Felmérés és petíció válaszok rögzítése a fenntartott kapcsolato
 
 #: CRM/Campaign/Info.php
 msgid "GOTV campaign contacts"
-msgstr "GOVT kampány kapcsoaltok"
+msgstr "GOVT kampány kapcsolatok"
 
 #: CRM/Campaign/Info.php
 msgid "Record that contacts voted"
@@ -608,31 +787,27 @@ msgstr "Válaszadó lefoglalva."
 msgid "Vote Recorded."
 msgstr "Szavazatt rögzítve."
 
-#: CRM/Campaign/Page/Campaign.php templates/CRM/Campaign/Form/Campaign.tpl
-msgid "Are you sure you want to delete this Campaign?"
-msgstr "Biztos vagy abban hogy törölni akarod ezt a Kampányt?"
-
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Campaign"
 msgstr "Kampány frissítése"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Campaign"
 msgstr "Kampány felfüggesztése"
 
-#: CRM/Campaign/Page/Campaign.php CRM/Campaign/Page/DashBoard.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Campaign"
 msgstr "Kampány engedélyezése"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Update Survey"
 msgstr "Kérdőív frissítése"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Disable Survey"
 msgstr "Kérdőív felfüggesztése"
 
-#: CRM/Campaign/Page/DashBoard.php CRM/Campaign/Page/Survey.php
+#: CRM/Campaign/Page/DashBoard.php
 msgid "Enable Survey"
 msgstr "Kérdőív engedélyezése"
 
@@ -710,6 +885,10 @@ msgstr "CiviCRM Válaszadó keresés"
 #: CRM/Campaign/Task.php
 msgid "Record Respondents Interview"
 msgstr "A válaszoló interjújának rögzítése"
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Biztos vagy abban hogy törölni akarod ezt a Kampányt?"
 
 #: templates/CRM/Campaign/Form/Gotv.tpl
 msgid "Is Interview Conducted?"
@@ -824,7 +1003,6 @@ msgid ""
 msgstr "Kérlek adj meg maximum  (10)  különféle válaszlehetőséget ebben a táblában (kattints a 'másik lehetőség'-re minden egyes másik lehetőséghez). Használhatsz már meglévő eredményeket is a felmérés eredményeket kiválasztva."
 
 #: templates/CRM/Campaign/Form/Search/Campaign.tpl
-#: templates/CRM/Campaign/Page/Campaign.tpl
 msgid "Add Campaign"
 msgstr "Kampány hozzáadása"
 
@@ -862,7 +1040,6 @@ msgstr "Petíció keresése"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Add Survey"
 msgstr "Felmérés hozzáadása"
 
@@ -872,7 +1049,6 @@ msgstr "Felmérés típusának azonosítója"
 
 #: templates/CRM/Campaign/Form/Search/Survey.tpl
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Survey Type"
 msgstr "Felmérés típusa"
 
@@ -899,14 +1075,6 @@ msgstr "Biztos abban, hogy törölni kívánja a %1 kérdőívet?"
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Title of the survey."
 msgstr "A felmérés címe"
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "Opens New Campaign form in a separate window"
-msgstr "Külön abalkban nyitja meg az új kampány űrlapot"
-
-#: templates/CRM/Campaign/Form/Survey/Main.tpl
-msgid "new campaign"
-msgstr "új kampány"
 
 #: templates/CRM/Campaign/Form/Survey/Main.tpl
 msgid "Select the campaign for which survey is created."
@@ -995,6 +1163,10 @@ msgid "Update Responses for All"
 msgstr "Összes válasz frissítése "
 
 #: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr "Kérem javítsa az alábbi felmérés mező hibákat:"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
 msgid "reserve"
 msgstr "fenntart"
 
@@ -1021,20 +1193,6 @@ msgid ""
 "activities, contributions, event participation, mailings, membership "
 "signups, and pledges to a particular campaign."
 msgstr "A szervezete kampányok segítségével nyomon követheti az összes erőfeszísét ami kapcsolódik egy adott adománygyűjtéshez vagy kötelezettséghez. Hozzárendelhet tevékenységeket, adományokat, esemény részvételeket, leveleket, tagsági feliratkozást, felajánlásokat egy adott kampányhoz."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "Show past campaign(s) in this select list."
-msgstr "Előző kampány(ok) mutatása ebben a kiválasztott listában."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid "There are currently no active Campaigns."
-msgstr "Jelenleg nincsenek aktív kampányok."
-
-#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
-msgid ""
-"If you want to associate this record with a campaign, you can <a %1>create a"
-" campaign here</a>."
-msgstr "Ha össze szeretné kötni ezt a rekordot egy kampánnyal, akkor  <a %1\">itt hozhat létre egy kampányt</a>."
 
 #: templates/CRM/Campaign/Page/Petition/Confirm.tpl
 msgid ""
@@ -1099,27 +1257,35 @@ msgid ""
 msgstr "Ha nem kaptál levelet tőlünk, ellenőrizd a spam mappádat, lehet hogy rosszul lett besorolva."
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Max Number Of Contacts"
 msgstr "Kapcsolatok maximális száma"
 
 #: templates/CRM/Campaign/Page/Petition.tpl
-#: templates/CRM/Campaign/Page/Survey.tpl
 msgid "Default Number Of Contacts"
 msgstr "Kapcsolatok alapértelmezett száma"
 
 #: templates/CRM/Campaign/Page/SurveyType.tpl
-msgid "There are no survey type entered. You can <a href='%1'>add one</a>."
-msgstr "Felmérés típus nem lett megadva.Itt adhatsz meg <a href='%1'>Hozzáadás</a>."
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group ID"
-msgstr "Kampány csoport azonosító"
-
-#: CRM/Campaign/DAO/CampaignGroup.php
-msgid "Campaign Group Type"
-msgstr "Kampány csoport típus"
-
-#: templates/CRM/Campaign/Page/SurveyType.tpl
 msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
 msgstr "Felmérés típus nem lett megadva. Itt adhat meg <a href='%1'>egyet</a>."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Opens New Campaign form in a separate window"
+msgstr "Külön abalkban nyitja meg az új kampány űrlapot"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "new campaign"
+msgstr "új kampány"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "Show past campaign(s) in this select list."
+msgstr "Előző kampány(ok) mutatása ebben a kiválasztott listában."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid "There are currently no active Campaigns."
+msgstr "Jelenleg nincsenek aktív kampányok."
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.tpl
+msgid ""
+"If you want to associate this record with a campaign, you can <a %1>create a"
+" campaign here</a>."
+msgstr "Ha össze szeretné kötni ezt a rekordot egy kampánnyal, akkor  <a %1\">itt hozhat létre egy kampányt</a>."

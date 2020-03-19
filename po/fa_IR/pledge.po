@@ -3,182 +3,360 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Mina Poorhossein <Minaprhn@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:41+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/civicrm/civicrm/language/fa_IR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fa_IR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Pledge/BAO/Pledge.php CRM/Pledge/Form/PledgeView.php
 #: CRM/Pledge/Selector/Search.php
 msgid "Pledged"
-msgstr ""
+msgstr "ضمانت"
 
 #: CRM/Pledge/BAO/Pledge.php
 msgid "Balance Amount"
-msgstr ""
+msgstr "ميزان تراز"
 
 #: CRM/Pledge/BAO/Pledge.php
 msgid "Next Payment Date"
-msgstr ""
+msgstr "تاريخ پرداخت بعدي"
 
 #: CRM/Pledge/BAO/Pledge.php
 msgid "Paid Amount"
-msgstr ""
+msgstr "مقدار پرداخت شده"
 
 #: CRM/Pledge/BAO/Pledge.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Paid Date"
-msgstr ""
+msgstr "تاريخ پرداخت شده"
 
 #: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/Query.php
 #: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Payment Status"
+msgstr "وضعيت پرداخت ضمانت"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "واحد تناوب وثيقه"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "مدت تكرار ضمانت"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
 msgstr ""
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2 (overdue)"
-msgstr ""
+msgstr "موعد پرداخت (سر رسيده) 1% 2%"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "%1 - due on %2"
-msgstr ""
+msgstr "موعد پرداخت در 1% 2%"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid ""
 "Oops. It looks like there is no valid payment status for online payment."
-msgstr ""
+msgstr "وضعيت پرداخت معتبربراي پرداخت اينترنتي موجود نمي باشد"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "Make Pledge Payment(s):"
-msgstr ""
+msgstr "پرداخت وثيقه(ها)"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "I want to make a one-time contribution"
-msgstr ""
+msgstr "مايلم سهم يك زمانه باز كنم"
 
 #: CRM/Pledge/BAO/PledgeBlock.php
 msgid "I pledge to contribute this amount every"
+msgstr "ضمانت ميكنم كه به اين مقدار هر ... اعانه بدهم"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
 msgstr ""
 
-#: CRM/Pledge/BAO/PledgeBlock.php CRM/Pledge/DAO/Pledge.php
-msgid "Pledge Frequency Interval"
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
 msgstr ""
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "اولين پرداخت قسط"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "روز پرداخت اقساط"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "اعلام وصول بيعانه ارسال شد"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "اعلام وصول بيعانه ارسال نشد"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test"
-msgstr ""
+msgstr "ضمانت يك محك است"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Financial Type - %1"
-msgstr ""
+msgstr "رقم مالي 1٪‏"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Financial Page - %1"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Contact ID %1 %2"
-msgstr ""
+msgstr "برگه مالي1%"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge is a Test?"
-msgstr ""
+msgstr "ضمانت يك ازمايش است؟"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "ايا اعلام وصول ارسال شده است؟"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "لطفا يك شماره وارد كنيد"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "لطفا شماره را وارد كنيد"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Please enter valid Pledge Frequency Interval"
-msgstr ""
+msgstr "لطفا مدت تكرار تعهد ضمانت را وارد كنيد"
 
 #: CRM/Pledge/BAO/Query.php
 msgid "Pledge Frequency"
+msgstr "تكرار ضمانت"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Contribution Page"
+msgstr "صفحه ي اعانه ي وثيقه"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Original Installment Amount"
+msgstr "مقدار قسط اصلي"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Currency"
+msgstr "ارز تعهد"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
 msgstr ""
 
-#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Frequency Unit"
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge day"
+msgstr "زمان تعهد"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Number of Installments"
+msgstr "تعداد اقساط وثيقه"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Acknowledged"
+msgstr "تعهد اذعان"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Modified Date"
+msgstr "تاريخ تغيير وثيقه"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Cancelled Date"
+msgstr "تاريخ لغو وثيقه"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Maximum Number of Reminders"
+msgstr "حداكثر دفعات تذكر"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Initial Reminder Day"
+msgstr "اولين روز تذكر"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
 msgid "Additional Reminder Days"
+msgstr "روز هاي ياداوري شده اضافي"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
 msgstr ""
 
 #: CRM/Pledge/DAO/Pledge.php
 msgid "Pledge Status Id"
+msgstr "شناسه وضعيت تعهد"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr ""
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "شناسه بيعانه ي بسته شده"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
 msgstr ""
 
 #: CRM/Pledge/DAO/PledgeBlock.php
 msgid "Entity Id"
+msgstr "شناسه نهاد"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "نمايش وقفه تناوب ؟"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "براي تاريخ شروع اهداي زماني معين، اجازه ي ويرايش دهيد ؟"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
 msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
 msgid "Scheduled Amount"
+msgstr "مقدار برنامه ريزي شده"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
 msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php
 msgid "Actual Amount"
+msgstr "مقدار واقعي"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr ""
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
 msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Last Reminder"
+msgstr "اخرين تذكر"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
 msgstr ""
 
 #: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
 msgid "Reminders Sent"
+msgstr "تذكرات ارسال شده"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
 msgstr ""
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Edit Scheduled Pledge Payment"
-msgstr ""
+msgstr "ويرايش مقدار وثيقه تعيين شده"
 
 #: CRM/Pledge/Form/Payment.php
 msgid "Pledge Payment Schedule has been updated."
-msgstr ""
+msgstr "برنامه ي پرداخت وثيقه به روز شد"
 
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
@@ -186,208 +364,221 @@ msgstr ""
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Total Pledge Amount"
-msgstr ""
+msgstr "مقدار كلي وثيقه"
 
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "To be paid in"
-msgstr ""
+msgstr "پرداخت شود در"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Please enter a valid number of installments."
-msgstr ""
+msgstr "لطفا تعداد صحيح اقساط را وارد نماييد"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Please enter a number for frequency (e.g. every \"3\" months)."
-msgstr ""
+msgstr "لطفا دفعات تكرار را در (هر 3 ماه) وارد نماييد"
 
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Payments are due on the"
-msgstr ""
+msgstr "پرداخت ها بر اساس"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Please enter a valid payment due day."
-msgstr ""
+msgstr "لطفا روز معتبر زمان پرداخت را وارد نماييد"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "each"
-msgstr ""
+msgstr "هر"
 
-#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/Pledge.tpl
+#: CRM/Pledge/Form/Pledge.php
 msgid "Payments Start"
-msgstr ""
+msgstr "شروع پرداخت"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Send Acknowledgment?"
-msgstr ""
+msgstr "ايا معرف داريد؟"
 
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Acknowledgment Date"
-msgstr ""
+msgstr "تاريخ اعلام وصول"
 
 #: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Self-service Payments Page"
-msgstr ""
+msgstr "صفحه خود پرداخت"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Total Pledge Amount should be greater than zero."
-msgstr ""
+msgstr "مقدار كلي وثيقه ميبايست از صفر بيشتر باشد"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Installments should be greater than zero."
-msgstr ""
+msgstr "اقساط بايد بيشتر از صفر باشد"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Please enter a valid frequency day ie. 1 through 31."
-msgstr ""
+msgstr "لطفا روز تكرار داراي اعتبار را وارد كنيد. از 1 تا 31"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Please enter a valid frequency day ie. 1 through 7."
-msgstr ""
+msgstr "لطفا روز داراي اعتبار را وارد كنيد. از1 تا 7"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid ""
 "Pledge has been recorded and the payment schedule has been created.<br />"
-msgstr ""
+msgstr "وثيقه ثبت و برنامه زمان بندي پرداخت ساخته شد "
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "Pledge has been updated.<br />"
-msgstr ""
+msgstr "ضمانت به روز رساني شد"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid "An acknowledgment email has been sent to %1.<br />"
-msgstr ""
+msgstr "ادرس ايميل معرف ارسال شد به 1%"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid ""
 "If a payment is due now, you can record <a href='%1'>a check, EFT, or cash "
 "payment for this pledge</a> OR <a href='%2'>submit a credit card "
 "payment</a>."
-msgstr ""
+msgstr "چنانچه زمان پرداخت  رسيده است، ميتوانيد وثيقه را با چك و يا بصورت نقد و يا با كارت بانكي پرداخت كنيد. 1% 2%"
 
 #: CRM/Pledge/Form/Pledge.php
 msgid ""
 "If a payment is due now, you can record <a href='%1'>a check, EFT, or cash "
 "payment for this pledge</a>."
-msgstr ""
+msgstr "چنانچه زمان پرداخت رسيده است، ميتوانيد وثيقه را با چك و يا بصورت نقدي پرداخت كنيد 1%"
 
 #: CRM/Pledge/Form/Pledge.php
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Payment Due"
-msgstr ""
+msgstr "بدهي پرداخت"
 
 #: CRM/Pledge/Form/PledgeView.php
 msgid "View Pledge by"
-msgstr ""
+msgstr "مشاهده ي وثيقه با"
 
 #: CRM/Pledge/Form/Search.php
 msgid "Pledger Name or Email"
-msgstr ""
+msgstr "نام يا ايميل ضامن"
 
 #: CRM/Pledge/Form/Search.php
 msgid "Pledger Name"
+msgstr "نام ضامن"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Tag(s)"
+msgstr ""
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr ""
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
 msgstr ""
 
 #: CRM/Pledge/Form/Search.php
 msgid "Find Pledges"
-msgstr ""
+msgstr "ضامن معرفي كنيد"
 
-#: CRM/Pledge/Form/Task/Delete.php CRM/Pledge/Task.php
+#: CRM/Pledge/Form/Task/Delete.php
 msgid "Delete Pledges"
-msgstr ""
+msgstr "ضمانت هاي حذف شده"
 
 #: CRM/Pledge/Form/Task/Delete.php
 msgid "%count pledge deleted."
 msgid_plural "%count pledges deleted."
-msgstr[0] ""
+msgstr[0] "مقدار بيعانات حذف شده"
+msgstr[1] "مقدار بيعانات حذف شده"
 
 #: CRM/Pledge/Form/Task/Print.php
 msgid "Print Pledge List"
-msgstr ""
+msgstr "ليست چاپ شده ي ضمانت"
 
 #: CRM/Pledge/Info.php
 msgid "CiviCRM Pledge Engine"
-msgstr ""
+msgstr "دستگاه CiviCRM بيعانه"
 
 #: CRM/Pledge/Info.php
 msgid "access CiviPledge"
-msgstr ""
+msgstr "دسترسي به civipledge"
 
 #: CRM/Pledge/Info.php
 msgid "View pledges"
-msgstr ""
+msgstr "مشاهده ي ضمانت"
 
 #: CRM/Pledge/Info.php
 msgid "edit pledges"
-msgstr ""
+msgstr "ويرايش وثيقه"
 
 #: CRM/Pledge/Info.php
 msgid "Create and update pledges"
-msgstr ""
+msgstr "ساخت و به روز رساني وثيقه"
 
 #: CRM/Pledge/Info.php
 msgid "delete in CiviPledge"
-msgstr ""
+msgstr "حذف در تعهد مدني"
 
-#: CRM/Pledge/Info.php
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
 msgid "Delete pledges"
-msgstr ""
+msgstr "وثيقه هاي حذف شده"
 
 #: CRM/Pledge/Info.php
 msgid "Your Pledge(s)"
-msgstr ""
+msgstr "وثيقه (هاي)شما"
 
 #: CRM/Pledge/Page/Tab.php
 msgid ""
 "Pledge has been Cancelled and all scheduled (not completed) payments have "
 "been cancelled.<br />"
-msgstr ""
+msgstr "ضمانت لغو شده و تمامي زمان بندي پرداخت ها (نه بطور كامل) لغو شده است"
 
 #: CRM/Pledge/Selector/Search.php
 msgid ""
 "Cancelling this pledge will also cancel any scheduled (and not completed) "
 "pledge payments."
-msgstr ""
+msgstr "لغو اين ضمانت منجر به لغو شدن تمامي برنامه زمان بندي پرداخت ها خواهد شد ( در صورت ناقص بودن)"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "View Pledge"
-msgstr ""
+msgstr "مشاهده وثيقه"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Edit Pledge"
-msgstr ""
+msgstr "ويرايش وثيقه"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Cancel Pledge"
-msgstr ""
+msgstr "لغو وثيقه"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Delete Pledge"
-msgstr ""
+msgstr "حذف وثيقه"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Pledged For"
-msgstr ""
+msgstr "وثيقه بمنظور"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Next Pay Date"
-msgstr ""
+msgstr "تاريخ بعدي وثيقه"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Next Amount"
-msgstr ""
+msgstr "مقدار بعدي"
 
 #: CRM/Pledge/Selector/Search.php
 msgid "Pledge Search"
-msgstr ""
+msgstr "جست و جوي وثيقه"
 
 #: CRM/Pledge/Task.php
-msgid "Export Pledges"
-msgstr ""
+msgid "Export pledges"
+msgstr "صدور بيعانات"
 
 #: templates/CRM/Pledge/Form/Payment.tpl
 msgid "Adjust scheduled amount"
-msgstr ""
+msgstr "ميزان زمانبندي وثيقه"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
@@ -395,12 +586,12 @@ msgid ""
 " is no email address recorded for this contact. If you want a acknowledgment"
 " to be sent when this pledge is recorded, click Cancel and then click Edit "
 "from the Summary tab to add an email address before recording the pledge."
-msgstr ""
+msgstr "شما به دليل نداشته ادرس ايميل ثبت شده از اين شماره قادر به ارسال تصديق براي اين وثيقه نميباشيد.  چنانچه براي وثيقه ي ثبت شده تصديق ميخواهيد، بر روي  گزينه ي لغو و سپس ويرايش بر روي صفحه ي سامري كليك نماييد و قبل از ثبت وثيقه ادرس ايميل خود را وارد كنيد"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "WARNING: Deleting this pledge will also delete any related pledge payments."
-msgstr ""
+msgstr "اخطار: حذف اين ضمانت منجر به حذف تمامي پرداخت هاي مرتبط با ضمانت خواهد شد"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
@@ -409,201 +600,181 @@ msgid ""
 "and cancel any not-yet-paid pledge payments, first click Cancel on this "
 "form. Then click the more &gt; link from the pledge listing, and select the "
 "Cancel action."
-msgstr ""
+msgstr "چنانچه مايل به ادامه ي رد مميزي و جلوگيري از از بين رفتن داده ها هستيد، بجاي آن  به لغو بيعانه اشاره كنيد. براي لغو وضعيت پرداخت  ها و لغو بيعانات پرداخت نشده، اول بر روي گزينه ي لغو كليك نماييد. سپس بر روي گزينه ي بيشتر كليك كرده و لينك ليست شده بيعانه را دريافت كنيد و گزينه ي لغو را انتخاب و فعال كنيد"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Pledge by"
-msgstr ""
+msgstr "ضمانت توسط"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid ""
 " Pledge total has changed due to payment adjustments. Original pledge amount"
 " was %1."
-msgstr ""
+msgstr "تمامي بيعانه در زمان تسويه پرداخت تغيير كرده است. مقدار اصلي بيعانه 1% بوده است"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "installments of"
-msgstr ""
+msgstr "اقساطِ"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "day of the period"
-msgstr ""
+msgstr "روز پايان"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "This applies to weekly, monthly and yearly payments."
-msgstr ""
+msgstr "درخواست پرداخت ها هفتگي، ماهانه و ساليانه ميباشد"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Date when pledge was made by the contributor."
-msgstr ""
+msgstr "تاريخ تشكيل ضمانت توسط شركت كننده"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Date of first pledge payment."
-msgstr ""
+msgstr "تاريخ اولين پرداخت وثيقه"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Automatically email an acknowledgment of this pledge to %1?"
-msgstr ""
+msgstr "تصديق اين بيعانه را بصورت خودكار ايميل كنيد 1%"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Date when an acknowledgment of the pledge was sent."
-msgstr ""
+msgstr "تاريخ  معرفي اولين معرف وثيقه"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid "Sets the default financial type for payments against this pledge."
-msgstr ""
+msgstr "نوع  بدهي مالي پرداختي اين بيعانه را مشخص كنيد"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "Select an Online Contribution page that the user can access to make self-"
 "service pledge payments. (Only Online Contribution pages configured to "
 "include the Pledge option are listed.)"
-msgstr ""
+msgstr "صفحه ي اشتراك انلاين  را بمنظور دسترسي كاربر به خودپرداز بيعانات انتخاب نماييد. ( تنها صفحات اشتراكي انلاين در ليست بيعانات قرار گرفته است)"
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "Pledges are \"Pending\" until the first payment is received. Once a payment "
 "is received, status is \"In Progress\" until all scheduled payments are "
 "completed. Overdue pledges are ones with payment(s) past due."
-msgstr ""
+msgstr "تا زمانيكه اولين پرداخت دريافت شود وضعيت بيعانات\" بلاتكليف \"است. زمانيكه اولين پرداخت دريافت شود، در وضعيت \" در حال بررسي\"  قرار ميگيرد تا زمانيكه برنامه پرداخت ها كامل شود. بيعانات سررسيده انهايي هستند كه از زمان پرداخت (هاي) انها گذشته است."
 
 #: templates/CRM/Pledge/Form/Pledge.tpl
 msgid ""
 "Click OK to save this Pledge record AND send an acknowledgment to %1 now."
-msgstr ""
+msgstr "براي ذخيره ي بيعانه ي ثبت شده بر روي گزينه ok كليك نماييد و و به ... تصديق را ارسال كنيد 1%"
 
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Pledge By"
-msgstr ""
+msgstr "ضمانت توسط"
 
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Payment Start"
-msgstr ""
+msgstr "اغاز پرداخت"
 
 #: templates/CRM/Pledge/Form/PledgeView.tpl
 msgid "Maximum Reminders Send"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payment Scheduled"
-msgstr ""
+msgstr "حداكثر تذكرات ارسال شده"
 
 #: templates/CRM/Pledge/Form/Search/Common.tpl
 msgid "Pledge Amounts"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Start Date"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Search/Common.tpl
-msgid "Payments Ended Date"
-msgstr ""
+msgstr "مقدار وثيقه"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
 "If you are searching by pledger name, check your spelling or use fewer "
 "letters."
-msgstr ""
+msgstr "چنانچه به دنبال نام ضامن ميگرديد، املاي كلمات را به درستي انجام دهيد يا حروف كمتري را وارد نماييد"
 
 #: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
 msgid ""
 "If you are searching within a date or amount range, try a wider range of "
 "values."
-msgstr ""
+msgstr "اگر در طول تاريخ يا مقدار وسيعي در جست و جو هستيد،  محدوده ي گسترده تري از قيمت ها را امتحان كنيد"
 
 #: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Click arrow to view pledge payments."
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Show payments"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Selector.tpl
-msgid "Hide payments"
-msgstr ""
+msgstr "براي مشاهده ي بيعانات پرداخت شده بر روي گزينه ي arrow كليك نماييد"
 
 #: templates/CRM/Pledge/Form/Selector.tpl
 msgid "Find more pledges"
-msgstr ""
+msgstr "وثيقه هاي بيشتري بيابيد"
 
 #: templates/CRM/Pledge/Form/Task/Delete.tpl
 msgid ""
 "Are you sure you want to delete the selected pledges? This delete operation "
 "cannot be undone and will delete all transactions associated with these "
 "pledges."
-msgstr ""
+msgstr "ايا از حذف وثيقه هاي انتخاب شده اطمينان داريد؟ حذف اين برنامه لغو نميشود و تمامي معاملات بكار گرفته شده توسط اين وثيقه ها حذف خواهد شد"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
 msgid "To Be Paid"
-msgstr ""
+msgstr "در اينده پرداخت خواهد شد"
 
 #: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Begining Date"
-msgstr ""
+msgid "Beginning Date"
+msgstr "تاريخ شروع"
 
 #: templates/CRM/Pledge/Form/Task.tpl
 msgid "Number of selected pledges: %1"
-msgstr ""
+msgstr "تعداد وثيقه هاي انتخاب شده 1%"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Pledge Summary"
-msgstr ""
+msgstr "مختصر بيعانات"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "(current month)"
-msgstr ""
+msgstr "(ماه جاري)"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "(current year)"
-msgstr ""
+msgstr "(سال جاري)"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Total Pledges"
-msgstr ""
+msgstr "مجموع وثيقه"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Payments Received"
-msgstr ""
+msgstr "پرداخت هاي دريافت شده"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Past Due"
-msgstr ""
+msgstr "گذشته از موعد مقرر"
 
 #: templates/CRM/Pledge/Page/DashBoard.tpl
 msgid "Recent Pledges"
-msgstr ""
+msgstr "بيعانه هاي اخير"
 
 #: templates/CRM/Pledge/Page/Payment.hlp
 msgid ""
 "If you enter an amount which is different than the current scheduled amount,"
 " choose one of these options:"
-msgstr ""
+msgstr "چنانچه مقدار وارد كرده مغاير با مقدار برنامه ي فعلي است، يكي از گزينه هاي دير را انتخاب نماييد"
 
 #: templates/CRM/Pledge/Page/Payment.tpl
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Amount Due"
-msgstr ""
+msgstr "مقدار بر حسب"
 
 #: templates/CRM/Pledge/Page/Payment.tpl
 msgid "Amount Paid"
-msgstr ""
+msgstr "مقدار پرداخت شده"
 
 #: templates/CRM/Pledge/Page/Payment.tpl
 msgid "Credit Card Payment"
-msgstr ""
+msgstr "پرداخت كارت اعتباري "
 
 #: templates/CRM/Pledge/Page/Payment.tpl
 msgid "Edit Scheduled Payment"
-msgstr ""
+msgstr "ويرايش جدول زمان بندي پرداخت"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid "Payment Reminders"
-msgstr ""
+msgstr "تذكرات پرداخت"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
@@ -611,126 +782,126 @@ msgid ""
 "the values entered in this section. If a 'Self-service Payments Page' has "
 "been selected, the reminder will include a link for the contributor to make "
 "their payment online."
-msgstr ""
+msgstr "يك يا چند ياداوري پرداختي به اين بيعانه دهنده بر اساس ارزش وارده در اين بخش ايميل ميشود. چنانچه صفحه ي خود پرداز را انتخاب كرديد، براي بيعانه دهنده لينكي خواهد آمد تا پرداخت هاي خود را بصورت اينترنتي انجام دهد"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid "In order for reminders to be sent:"
-msgstr ""
+msgstr "به ترتيب تذكرات ارسالي"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
 "Your site administrator must configure the scheduled job (Administer > "
 "System Settings > Scheduled Jobs) which updates pledge payment statuses and "
 "sends the reminders."
-msgstr ""
+msgstr "سرپرست سايت ميبايست برنامه ي كاري شكل دهد كه وضعيت پرداخت بيعانه را بروز و تذكرات را ارسال نمايد. ( نظارت، سيستم تنظيمات، برنامه كاري)"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
 "Your site administrator must also configure a \"cron job\" (scheduled server"
 " task) to run this script."
-msgstr ""
+msgstr "همچنين سرپرست سايت ميبايت يك \"برنامه ي cron\" را براي جاري شدن اين سند شكل دهد.  ( كار برنامه ي سرور)"
 
 #: templates/CRM/Pledge/Page/Tab.hlp
 msgid ""
 "This contributor must have a valid email address (and must not have the \"Do"
 " Not Email\" flag checked)."
-msgstr ""
+msgstr "شركت كننده ميبايست داري ادرس ايميل معتبر باشد. ( و بخش ايميل نبايد خالي بماند)"
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "Pledges received from %1 since inception."
-msgstr ""
+msgstr "بيعانات از روز اول دريافت شده است 1%"
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid ""
 "Click <a %1>Add Pledge</a> to record a new pledge received from this "
 "contact."
-msgstr ""
+msgstr "بر روي ...  كليك نماييد . بيعانه را اضافه كنيد  تا بيعانه جديدي كه از اين شماره دريافت كرديد را ثبت كنيد 1%"
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "No pledges have been recorded from this contact."
-msgstr ""
+msgstr "از اين مخاطب بيعانه اي ثبت نشده است"
 
 #: templates/CRM/Pledge/Page/Tab.tpl
 msgid "Contributions made in honor of %1"
-msgstr ""
+msgstr "مشاركت با ضمانت جناب  ... شكل گرفته است 1%"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Payments"
-msgstr ""
+msgstr "پرداخت ها"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "There are no Pledges for your record."
-msgstr ""
+msgstr "بيعانه اي براي شما ثبت نشده است"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Pledges made in your honor."
-msgstr ""
+msgstr "بيعانات بر اساس اعتماد شكل گرفته است"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Pledger"
-msgstr ""
+msgstr "ضامن"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Create date"
-msgstr ""
+msgstr "تاريخ شكل گيري"
 
 #: templates/CRM/Pledge/Page/UserDashboard.tpl
 msgid "Acknowledgment Sent"
-msgstr ""
+msgstr "تصديق ارسال شد"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 msgid "dear %1"
-msgstr ""
+msgstr "گرامي 1%"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 msgid ""
 "thank you for your generous pledge. please print this acknowledgment for "
 "your records."
-msgstr ""
+msgstr "از ضمانت صادقانه ي شما سپاسگذاريم. لطفا پرينت اين تصديق را بعنوان مدرك بگيريد"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Pledge Information"
-msgstr ""
+msgstr "اطلاعات وثيغه"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Pledge Received"
-msgstr ""
+msgstr "بيعانه ي دريافت شده"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "Payment Schedule"
-msgstr ""
+msgstr "برنامه ي زمان بندي پرداختي"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "%1 every %2 %3 for %4 installments."
-msgstr ""
+msgstr "براي هر قسط بندي 1% 2% 3% 4%"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "Payments are due on day %1 of the %2."
-msgstr ""
+msgstr "مهلت پرداخت ها از روز ... ميباشد 1% 2%"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "Payment %1"
-msgstr ""
+msgstr "پرداخت 1%"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "paid"
-msgstr ""
+msgstr "پرداخت شد"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid "due"
-msgstr ""
+msgstr "موعد پرداخت"
 
 #: xml/templates/message_templates/pledge_acknowledge_html.tpl
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
@@ -739,85 +910,37 @@ msgstr ""
 msgid ""
 "Please contact us at %1 or send email to %2 if you have questions\n"
 "or need to modify your payment schedule."
-msgstr ""
+msgstr "لطفا در ... با ما ارتباط برقرار كنيد. سوالات خود و يا اصلاحات برنامه ي پرداختي خود را به ادرس ... ايميل كنيد. 1% 2%"
 
 #: xml/templates/message_templates/pledge_acknowledge_subject.tpl
 msgid "Thank you for your Pledge"
-msgstr ""
+msgstr "با تشكر از ضمانت شما"
 
 #: xml/templates/message_templates/pledge_acknowledge_text.tpl
 msgid ""
 "Thank you for your generous pledge. Please print this acknowledgment for "
 "your records."
-msgstr ""
+msgstr "با تشكر از ضمانت صادقانه شما. لطفا براي تصديق مدرك خود، پرينت اين برگه را بگيريد "
 
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "This is a reminder that the next payment on your pledge is due on %1."
-msgstr ""
+msgstr "تذكر بمنظور پرداخت بعدي بيعانه در زمان ... 1%"
 
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 msgid "Go to a web page where you can make your payment online"
-msgstr ""
+msgstr "جهت پرداخت به سايت مراجعه كنيد"
 
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Please mail your payment to"
-msgstr ""
+msgstr "خواهشمند است پرداخت هاي خود به ... پست كنيد"
 
 #: xml/templates/message_templates/pledge_reminder_html.tpl
 #: xml/templates/message_templates/pledge_reminder_text.tpl
 msgid "Thank your for your generous support."
-msgstr ""
+msgstr "از حمايت صادقانه ي شما سپاسگذاريم"
 
 #: xml/templates/message_templates/pledge_reminder_subject.tpl
 msgid "Pledge Payment Reminder"
-msgstr ""
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "First installment payment"
-msgstr ""
-
-#: CRM/Pledge/BAO/PledgeBlock.php
-msgid "Day of month installments paid"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement Sent"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Pledge Acknowledgement  Not Sent"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Acknowledgement sent?"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter a number"
-msgstr ""
-
-#: CRM/Pledge/BAO/Query.php
-msgid "Please enter number."
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Pledge Block ID"
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Expose Frequency Interval?"
-msgstr ""
-
-#: CRM/Pledge/DAO/PledgeBlock.php
-msgid "Allow Edits to Recurring Donation Start Date?"
-msgstr ""
-
-#: CRM/Pledge/Task.php
-msgid "Export pledges"
-msgstr ""
-
-#: templates/CRM/Pledge/Form/Task/Print.tpl
-msgid "Beginning Date"
-msgstr ""
+msgstr "تذكرات پرداخت وثيغه"

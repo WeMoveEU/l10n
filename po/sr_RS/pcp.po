@@ -3,494 +3,602 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Bojana Bozovic <bojana.terzic@gmail.com>, 2017
+# Đorđe Kolaković <djordje@catalystbalkans.org>, 2016-2017,2019
+# Marinela Panić <marinela@catalystbalkans.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-05-09 13:33-0400\n"
-"PO-Revision-Date: 2016-05-09 17:06+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
-"Language-Team: Serbian (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS/)\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Serbian (Latin) (Serbia) (http://www.transifex.com/civicrm/civicrm/language/sr_RS@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr_RS\n"
+"Language: sr_RS@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Are you sure you want to delete this Personal Campaign Page?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da obrišete ovu stranicu lične kampanje?"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Create a Personal Campaign Page"
-msgstr ""
+msgstr "Kreiraj stranicu lične kampanje"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Edit Your Page"
-msgstr ""
+msgstr "Uredite svoju stranicu"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Tell Friends"
-msgstr ""
+msgstr "Recite prijateljima"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "URL for this Page"
-msgstr ""
+msgstr "URL ove stranice"
 
 #: CRM/PCP/BAO/PCP.php CRM/PCP/Form/PCPAccount.php
 msgid "Update Contact Information"
-msgstr ""
+msgstr "Ažuriraj kontakt informacije"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Enable Personal Campaign Pages?"
-msgstr ""
+msgstr "Uključi stranicu lične kampanje"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Approval required"
-msgstr ""
+msgstr "Potrebno odobrenje"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Owner Email Notification"
-msgstr ""
+msgstr "Notifikacija emailom vlasniku"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Allow 'Tell a friend' functionality"
-msgstr ""
+msgstr "Dozvoli funkcionalnost za \"Reci prijatelju\""
 
 #: CRM/PCP/BAO/PCP.php
 msgid "'Tell a friend' maximum recipients limit"
-msgstr ""
+msgstr "Limit maksimalog broja primaoca za 'Reci prijatelju' "
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Please enter a valid limit."
-msgstr ""
+msgstr "Molimo unesite važeći limit."
 
 #: CRM/PCP/BAO/PCP.php
 msgid "'Create Personal Campaign Page' link text"
-msgstr ""
+msgstr "Link tekst za 'Kreiraj stranicu lične kampanje'"
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "This event registration is being made thanks to the efforts of "
 "<strong>%1</strong>, who supports our campaign. "
-msgstr ""
+msgstr "Ova registracija je omogućena uz pomoć <strong>%1</strong>, koji/a podržava našu kampanju. "
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "This contribution is being made thanks to the efforts of "
 "<strong>%1</strong>, who supports our campaign. "
-msgstr ""
+msgstr "Ova donacija je omogućena uz pomoć <strong>%1</strong>, koji/a podržava našu kampanju. "
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Show my support in the public honor roll"
-msgstr ""
+msgstr "Prikaži moju podršku u javnom spisku zaslužnih"
 
 #: CRM/PCP/BAO/PCP.php
 msgid "List my support anonymously"
-msgstr ""
+msgstr "Prikaži moju podršku kao anonimnu"
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "This page is not related to the Personal Campaign Page you have just "
 "visited. However you can still make a contribution here."
-msgstr ""
+msgstr "Ova stranica nije povezana sa stranicom lične kampanje koju ste upravo posetili, ali možete donirati i na ovoj stranici."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The Personal Campaign Page you have just visited is currently %1. However "
 "you can still support the campaign here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili je %1, ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "Personal Campaign Pages are currently not enabled for this contribution "
 "page. However you can still support the campaign here."
-msgstr ""
+msgstr "Stranice lične kampanje trenutno nisu uključene za ovu stranicu za doniranje. Kampanju i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The Personal Campaign Page you have just visited is currently inactive. "
 "However you can still support the campaign here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili je neaktivna, ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The Personal Campaign Page you have just visited is only active from %1 to "
 "%2. However you can still support the campaign here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili više je aktivna samo od %1 do %2, ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The Personal Campaign Page you have just visited will be active beginning on"
 " %1. However you can still support the campaign here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili će biti aktivna od %1, ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The event linked to the Personal Campaign Page you have just visited is over"
 " (as of %1)."
-msgstr ""
+msgstr "Događaj povezan sa stranicom lične kampanje koju ste upravo posetili je završen (od %1)."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "The Personal Campaign Page you have just visited is no longer active (as of "
 "%1). However you can still support the campaign here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili više nije aktivna (od %1), ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/BAO/PCP.php
 msgid "%1 status has been updated to %2."
-msgstr ""
+msgstr "%1 status je ažuriran na %2."
 
 #: CRM/PCP/BAO/PCP.php
 msgid "A notification email has been sent to the supporter."
-msgstr ""
+msgstr "Notifikacioni email je poslat."
 
 #: CRM/PCP/BAO/PCP.php
 msgid "Email Sent"
-msgstr ""
+msgstr "Email poslat"
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "Supporter profile is not set for this Personal Campaign Page or the profile "
 "is disabled. Please contact the site administrator if you need assistance."
-msgstr ""
+msgstr "Profil pristalice nije podešen za ovu stranicu lične kampanje ili je profil isključen. Obratite se administratoru sajta ako vam je potrebna pomoć."
 
 #: CRM/PCP/BAO/PCP.php
 msgid ""
 "Owner Notification is not set for this Personal Campaign Page. Please "
 "contact the site administrator if you need assistance."
-msgstr ""
+msgstr "Notifikacija vlasniku nije podešena za ovu stranicu lične kampanje. Obratite se administratoru sajta ako vam je potrebna pomoć."
 
 #: CRM/PCP/DAO/PCP.php
 msgid "Personal Campaign Page ID"
-msgstr ""
+msgstr "ID stranice lične kampanje"
 
 #: CRM/PCP/DAO/PCP.php
 msgid "Personal Campaign Page Status"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php xml/templates/message_templates/pcp_notify_html.tpl
-#: xml/templates/message_templates/pcp_notify_text.tpl
-msgid "Personal Campaign Page Title"
-msgstr ""
+msgstr "Status stranice lične kampanje"
 
 #: CRM/PCP/DAO/PCP.php
 msgid "Intro Text"
-msgstr ""
+msgstr "Uvodni tekst"
 
 #: CRM/PCP/DAO/PCP.php
 msgid "Page Text"
-msgstr ""
+msgstr "Tekst na stranici"
 
 #: CRM/PCP/DAO/PCP.php
 msgid "Donate Link Text"
+msgstr "Tekst za Donirajte link"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The Contribution or Event Page which triggered this pcp"
 msgstr ""
 
 #: CRM/PCP/DAO/PCP.php
 msgid "PCP Page Type"
+msgstr "Tip strane za stranu lične kampanje"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The type of PCP this is: contribute or event"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Block"
+msgstr "Blok stranice lične kampanje"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The pcp block that this pcp page was created from"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Use Thermometer?"
+msgstr "Koristi termometar?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Show Honor Roll?"
+msgstr "Prikaži spisak zaslužnih?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Goal amount of this Personal Campaign Page."
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Is Personal Campaign Page enabled/active?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify Owner?"
+msgstr "Obavesti vlasnika?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify owner via email when someone donates to page?"
 msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity Type"
+msgid "PCP Block ID"
+msgstr "ID bloka stranice lične kampanje"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP block Id"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_contribution_page.id OR civicrm_event.id"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity"
+msgstr "Ciljani entitet"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The type of entity that this pcp targets"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity ID"
+msgstr "ID ciljanog entiteta"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The entity that this pcp targets"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"FK to civicrm_uf_group.id. Does Personal Campaign Page require manual "
+"activation by administrator? (is inactive by default after setup)?"
 msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php
 msgid "Owner Notification"
+msgstr "Notifikacija vlasniku"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_option_group with name = PCP owner notifications"
 msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php
-msgid "Tellfriend Limit"
+msgid "Approval Required?"
+msgstr "Potrebno odobrenje?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"Does Personal Campaign Page require manual activation by administrator? (is "
+"inactive by default after setup)?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell a Friend Enabled?"
+msgstr "Recite prijatelju uključeno?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Does Personal Campaign Page allow using tell a friend?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell A Friend Limit"
+msgstr "Limit za Recite prijatelju"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Maximum recipient fields allowed in tell a friend"
 msgstr ""
 
 #: CRM/PCP/DAO/PCPBlock.php templates/CRM/PCP/Form/Event.hlp
 msgid "Link Text"
+msgstr "Tekst za link"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Link text for PCP."
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Is Personal Campaign Page Block enabled/active?"
+msgstr ""
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"If set, notification is automatically emailed to this email-address on "
+"create/update Personal Campaign Page"
 msgstr ""
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Setup a Personal Campaign Page - Step 2"
-msgstr ""
+msgstr "Podešavanje stranice lične kampanje - korak 2"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Edit Your Personal Campaign Page"
-msgstr ""
+msgstr "Uredi stranicu lične kampanje"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Welcome"
-msgstr ""
+msgstr "Dobrodošli"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Your Goal"
-msgstr ""
+msgstr "Vaš cilj"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Goal Amount should be a numeric value"
-msgstr ""
+msgstr "Ciljani iznos mora biti numerička vrednost"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Join Us"
-msgstr ""
+msgstr "Pridružite nam se"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Sign up Button"
-msgstr ""
+msgstr "Dugme za prijavu"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Donate Now"
-msgstr ""
+msgstr "Doniraj sada"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Donation Button"
-msgstr ""
+msgstr "Dugme za doniranje"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Progress Bar"
-msgstr ""
+msgstr "Traka za progres"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Honor Roll"
-msgstr ""
+msgstr "Spisak zaslužnih"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Notify me via email when someone donates to my page"
-msgstr ""
+msgstr "Obavesti me emailom kada nako donira na mojoj stranici"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Goal Amount should be a numeric value greater than zero."
-msgstr ""
+msgstr "Ciljani iznos mora biti numerička vrednost veća od nule."
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Button Text must be less than 64 characters."
-msgstr ""
+msgstr "Tekst za dugme mora imati manje od 64 karaktera."
 
 #: CRM/PCP/Form/Campaign.php
 msgid ""
 "but requires administrator review before you can begin promoting your "
 "campaign. You will receive an email confirmation shortly which includes a "
 "link to return to this page."
-msgstr ""
+msgstr "ali zahteva pregled i odobrenje administratora pre nego što možete da počnete sa promocijom vaše kampanje. Uskoro ćete dobiti email sa potvrdom u kome se nalazi link za povratak na ovu stranicu."
 
 #: CRM/PCP/Form/Campaign.php
 msgid "and is ready to use."
-msgstr ""
+msgstr "spremno za korišćenje."
 
 #: CRM/PCP/Form/Campaign.php
 msgid "updated"
-msgstr ""
+msgstr "ažurirano"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "created"
-msgstr ""
+msgstr "kreirano"
 
 #: CRM/PCP/Form/Campaign.php
 msgid "A notification email has been sent to the site administrator."
-msgstr ""
+msgstr "Notifikacioni email je poslat administratoru sajta."
 
 #: CRM/PCP/Form/Campaign.php
 msgid ""
 " You will receive a second email as soon as the review process is complete."
-msgstr ""
+msgstr "Dobićete drugi email čim se proces pregleda i odobrenja završi."
 
 #: CRM/PCP/Form/Campaign.php
 msgid "Your Personal Campaign Page has been %1 %2 %3"
-msgstr ""
+msgstr "Vaša stranica lične kampanje je %1 %2 %3"
 
 #: CRM/PCP/Form/Contribute.php
 msgid "Create your own fundraising page"
-msgstr ""
+msgstr "Kreirajte sopstvenu stranicu za prikupljanje sredstava"
 
 #: CRM/PCP/Form/Contribute.php
 msgid "Enable Personal Campaign Pages? (for this contribution page)"
-msgstr ""
+msgstr "Uključi stranice lične kampanje? (za ovu stranicu za doniranje)"
 
 #: CRM/PCP/Form/Contribute.php
 msgid ""
 "if Tell Friend is enabled, Maximum recipients limit should be greater than "
 "zero."
-msgstr ""
+msgstr "Ako je funkcija Reci prijatelju uključena, ograničenje maksimalnog broja primalaca treba da bude veća od nula."
 
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
 msgid "Supporter profile is a required field."
-msgstr ""
+msgstr "Profil pristalice je obavezno polje."
 
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
 msgid "A valid Notify Email address must be specified"
-msgstr ""
+msgstr "Važeća email adresa mora biti unešena u polje za notifikaciju emailom"
 
 #: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
 msgid "Enable Personal Campaign Pages"
-msgstr ""
+msgstr "Uključi stranice lične kampanje"
 
 #: CRM/PCP/Form/Event.php
 msgid "Personal Campaign Page Settings (%1)"
-msgstr ""
+msgstr "Podešavanja stranice lične kampanje (%1)"
 
 #: CRM/PCP/Form/Event.php
 msgid "Promote this event with a personal campaign page"
-msgstr ""
+msgstr "Promovišite ovaj događaj sa stranicom lične kampanje"
 
 #: CRM/PCP/Form/Event.php
 msgid "Enable Personal Campaign Pages? (for this event)"
-msgstr ""
+msgstr "Uključi stranice lične kampanje? (za ovaj događaj)"
 
 #: CRM/PCP/Form/Event.php
 msgid ""
 "if Tell Friend is enable, Maximum recipients limit should be greater than "
 "zero."
-msgstr ""
+msgstr "Ukoliko je Reci prijatelju funkcija uključena, limit maksimalnih primaoca mora biti veći od nule."
 
 #: CRM/PCP/Form/PCP.php
 msgid "The Campaign Page '%1' has been deleted."
-msgstr ""
+msgstr "Stranica kampanje '%1' je obrisana."
 
 #: CRM/PCP/Form/PCP.php
 msgid "Page Deleted"
-msgstr ""
+msgstr "Stranica obrisana"
 
 #: CRM/PCP/Form/PCP.php
 msgid "The Campaign Page '%1' has been disabled."
-msgstr ""
+msgstr "Stranica kampanje '%1' je isključena."
 
 #: CRM/PCP/Form/PCP.php
 msgid "Page Disabled"
-msgstr ""
+msgstr "Stranica isključena"
 
 #: CRM/PCP/Form/PCP.php
 msgid "The Campaign Page '%1' has been enabled."
-msgstr ""
+msgstr "Stranica kampanje '%1' je uključena."
 
 #: CRM/PCP/Form/PCP.php
 msgid "Page Enabled"
-msgstr ""
+msgstr "Stranica uključena"
 
 #: CRM/PCP/Form/PCP.php
 msgid "Source Type"
-msgstr ""
+msgstr "Tip izvora"
 
 #: CRM/PCP/Form/PCPAccount.php
 msgid ""
 "We can't load the requested web page due to an incomplete link. This can be "
 "caused by using your browser's Back button or by using an incomplete or "
 "invalid link."
-msgstr ""
+msgstr "Ne možemo učitati zahtevanu veb stranicu zbog nekompletnog linka. Ovo se može desiti kada koristite dugme Nazad u vašem pretraživaču ili kada koristite nekompletan ili nevažeći link."
 
 #: CRM/PCP/Form/PCPAccount.php
 msgid "Could not find source page id."
-msgstr ""
+msgstr "ID izvorne stranice nije pronađen"
 
 #: CRM/PCP/Form/PCPAccount.php
 msgid ""
 "There is already an user associated with this email address. Please enter "
 "different email address."
-msgstr ""
+msgstr "Već postoji korisnik povezan sa ovom email adresom. Unesite drugačiju email adresu"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Are you sure you want to delete this Campaign Page ?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da obrišete stranicu ove kampanje?"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Edit Personal Campaign Page"
-msgstr ""
+msgstr "Uredi stranicu lične kampanje"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Approve"
-msgstr ""
+msgstr "Odobri"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Approve Personal Campaign Page"
-msgstr ""
+msgstr "Odobri stranicu lične kampanje"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Reject"
-msgstr ""
+msgstr "Odbij"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Reject Personal Campaign Page"
-msgstr ""
+msgstr "Odbij stranicu lične kampanje"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Delete Personal Campaign Page"
-msgstr ""
+msgstr "Obriši stranicu lične kampanje"
 
 #: CRM/PCP/Page/PCP.php
 msgid "Search Campaign Pages"
-msgstr ""
+msgstr "Pretraži stranice kampanja"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "The personal campaign page you requested is currently unavailable."
-msgstr ""
+msgstr "Stranica lične kampanje koju tražite trenutno nije dostupna."
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid ""
 "Once you've received your new account welcome email, you can <a "
 "href=%1>click here</a> to login and promote your campaign page."
-msgstr ""
+msgstr "Kada primite email poruku dobrodošlice za novi nalog, možete da <a href=%1>kliknete ovde</a> da biste se prijavili i promovisali svoju stranicu kampanje."
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid ""
 "The personal campaign page you requested is currently unavailable. However "
 "you can still support the campaign by making a contribution here."
-msgstr ""
+msgstr "Stranica lične kampanje koju ste upravo posetili je trenutno nedostupna, ali je i dalje možete podržati ovde."
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Change the content and appearance of your page"
-msgstr ""
+msgstr "Izmenite sadržaj i izgled vaše stranice"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Send emails inviting your friends to support your campaign!"
-msgstr ""
+msgstr "Pošaljite emailove i pozovite prijatelje da podrže vašu kampanju!"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Copy this link to share directly with your network!"
-msgstr ""
+msgstr "Kopirajte ovaj link i podelite ga!"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Update your personal contact information"
-msgstr ""
+msgstr "Ažurirajte vaše kontakt informacije"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "De-activate the page (you can re-activate it later)"
-msgstr ""
+msgstr "Deaktivirajte ovu stranicu (možete je reaktivirati kasnije)"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Activate the page (you can de-activate it later)"
-msgstr ""
+msgstr "Reaktivirajte ovu stranicu (možete je deaktivirati kasnije)"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Remove the page (this cannot be undone!)"
-msgstr ""
+msgstr "Uklonite ovu stranicu (ova akcija je nepovratna)"
 
 #: CRM/PCP/Page/PCPInfo.php
 msgid "Contribute Now"
-msgstr ""
+msgstr "Doniraj sada"
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "Personalize the contents and appearance of your personal campaign page here."
 " You will be able to return to this page and make changes at any time."
-msgstr ""
+msgstr "Prilagodite sebi sadržaj i izgled vaše stranice lične kampanje. Moći ćete da se vratite na ovu stranicu i izmenite je kada god želite."
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "Introduce the campaign and why you're supporting it. This text will appear "
 "at the top of your personal page AND at the top of the main contribution or "
 "event registration page."
-msgstr ""
+msgstr "Prestavite kampanju i razlog zbog koga je podržavate. Ovaj tekst će se prikazati na vrhu vaše lične stranice i na vrhu glavne stranice za doniranje ili registraciju za događaj."
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid "The text for the contribute or register button."
-msgstr ""
+msgstr "Tekst za doniraj ili registruj se dugme."
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "If this option is checked, an \"honor roll\" will be displayed with the "
 "names (or nicknames) of the people who supported you. (Donors will have the "
 "option to remain anonymous. Their names will NOT be listed.)"
-msgstr ""
+msgstr "Ukoliko je ova opcija štiklirana, \"spisak zaslužnih\" sa imenima (ili nadimcima) ljudi će biti prikazan na vašoj stranici za prikupljanje sredstava. (Donatori će imati opciju da ostanu anonimni, i u tom slučaju, njihova imena NEĆE biti objavljena.)"
 
 #: templates/CRM/PCP/Form/Campaign.tpl
 msgid ""
 "If this option is checked, you will receive an email notification when "
 "people contribute to your campaign."
-msgstr ""
+msgstr "Ukoliko je ova opcija uključena, dobićete notifikaciju emailom kada ljudi doniraju za vašu kampanju."
 
 #: templates/CRM/PCP/Form/Contribute.hlp
 msgid ""
@@ -499,11 +607,11 @@ msgid ""
 "contribution.  Contributions from people who come in through a Personal "
 "Campaign Page are recorded as \"soft credits\" for the supporter who created"
 " that campaign page."
-msgstr ""
+msgstr "Kada su stranice lične kampanje uključene, donatori i posetioci će videti link sa pozivom da kreiraju svoju stranicu za prikupljanje sredstava nakon doniranja. Donacije od ljudi koji su došli putem stranice lične kampanje zabeleženi su kao 'zasluge' za pristalicu koji je kreirao stranicu kampanje."
 
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid "Email Notification"
-msgstr ""
+msgstr "Email notifikacija"
 
 #: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -515,7 +623,7 @@ msgid ""
 "other fields in the profile. If you don't yet have an appropriate Profile "
 "configured, you will need to <a href='%1'>create one first</a>, and then "
 "return to this form to select it."
-msgstr ""
+msgstr "Profil pristalice koristi se za prikupljanje i ažuriranje osnovnih informacija (npr. ime i email adresa) od korisnika dok kreiraju stranicu lične kampanje. Profil koji izaberete mora da bude konfigurisan sa opcijom 'Kreiranje naloga je obavezno' (u odeljku Podešavanja profila &raquo; Napredna podešavanja). Polje za email adresu morate da obuhvatite, a možete da uključite i mnoga druga polja u profil. Ako još niste konfigurisali odgovarajući profil, moraćete <a href='%1'>prvo da ga kreirate</a>, a zatim da se vratite u ovaj formular da biste ga izabrali."
 
 #: templates/CRM/PCP/Form/Contribute.tpl templates/CRM/PCP/Form/Event.tpl
 msgid ""
@@ -523,7 +631,7 @@ msgid ""
 "enabled for your site. You need to <a href='%1'>configure a Supporter "
 "profile</a> first. It will be used to collect or update basic information "
 "from users while they are creating a Personal Campaign Page."
-msgstr ""
+msgstr "Nijedan profil sa opcijom registracije korisničkog naloga nije konfigurisan/uključen za vaš sajt. Morate prvo da <a href='%1'>konffigurišete profil pristalice</a>. Koristiće e za prikupljanje i ažuriranje osnovnih informacija od korisnika dok kreiraju stranicu lične kampanje."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -535,7 +643,7 @@ msgid ""
 "contributions) from people who come in through a Personal Campaign Page are "
 "recorded as \"soft credits\" for the supporter who created that campaign "
 "page."
-msgstr ""
+msgstr "Stranice lične kampanje daju mogućnost donatorima i posetiocima da promovišu ovaj događaj ili povezani događaj prikupljanja sredstava. Kada su stranice lične kampanje uključene, donatori i posetioci će videti link sa pozivom da kreiraju svoju stranicu za promovisanje događaja nakon doniranja (ili da promovišu povezanu online stranicu za donaciju). Kotizacije za registraciju na događaj (ili donacije) od ljudi koji su došli putem stranice lične kampanje zabeležene su kao 'zasluge' za pristalicu koji je kreirao stranicu kampanje."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -543,7 +651,7 @@ msgid ""
 " Page linked to this event is either created or updated. The notification "
 "will include links to view the campaign page as well as the contact record "
 "of the creator of the page."
-msgstr ""
+msgstr "Na ovu email adresu će biti poslata notifikacija kada god se stranica lične kampanje povezana sa događajem napravi ili ažurira. Notifikacija će sadržati linkovi za pregled ove stranice kampanje kao i zapis o kontaktu za osobu koja je napravila stranicu."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -551,7 +659,7 @@ msgid ""
 "to send emails to people inviting them to visit their page and register or "
 "contribute? NOTE: Tell a Friend emails will automatically include a link to "
 "the sender's campaign page."
-msgstr ""
+msgstr "Da li 'vlasnik' stranice za ličnu kampanju može da koristi funkciju Recite prijatelju kako bi poslao poziv putem emaila ljudima da posete njegovu stranicu i registruju se i doniraju? NAPOMENA: Emailovi poslati uz pomoć funkcije Recite prijatelju automatski sadrže link ka stranici kampanje pošiljaoca."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -559,7 +667,7 @@ msgid ""
 "This link will appear on the Event registration Thank-you page as well as on"
 " each Personal Campaign Page. Leave blank if you do not want constituents to"
 " be prompted to create their own Personal Campaign Pages."
-msgstr ""
+msgstr "Tekst za link koji poziva aktiviste da kreiraju ličnu stranicu kampanje. Ova j link će se prikazati na stranici zahvalnice za registraciju za događaj, kao i na svakoj stranici lične kampanje. Ostavite prazno ako ne želite da aktivisti budu upitani da kreiraju sopstvene stranice lične kampanje."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
@@ -567,26 +675,26 @@ msgid ""
 "network to also register for this event. Select \"Contribution\" if you want"
 " supporters to promote a related online fundraising campaign (by linking to "
 "an online contribution page)."
-msgstr ""
+msgstr "Izaberite 'Događaj' ako želite da vaše pristalice ohrabre ljude u svojim krugovima da se takođe registruju za ovaj događaj. Izaberite \"Donacija\" ako želite da pristalice promovišu povezanu online kampanju prikupljanja sredstava (povezivanjem sa online stranicom donacije)."
 
 #: templates/CRM/PCP/Form/Event.hlp
 msgid ""
 "Select the related online contribution page that supporters of this event "
 "are promoting. Visitors to their Personal Campaign pages will be directed to"
 " the selected online contribution page to donate money."
-msgstr ""
+msgstr "Izaberite povezanu online stranicu donacije koju pristalice ovog događaja promovišu. Posetioci njihove stranice lične kampanje biće usmereni ka izabranoj online stranici za donaciju kako bi donirali novac."
 
 #: templates/CRM/PCP/Form/Event.tpl
 msgid ""
 "Allow constituents to create their own personal fundraising pages linked to "
 "this event."
-msgstr ""
+msgstr "Dozvolite donatorima i posetiocima da kreiraju lične stranice prikupljanja fondova povezane sa ovim događajem."
 
 #: templates/CRM/PCP/Form/PCP.tpl templates/CRM/PCP/Page/PCP.hlp
 msgid ""
 "You can also place additional links (or menu items) allowing constituents to"
 " create their own fundraising pages using the following URL:"
-msgstr ""
+msgstr "Možete ubaciti i dodatne linkove (ili delove menija) koji će dozvoliti onima koji vas podržavaju da naprave svoje stranice za prikupljanje sredstava koristeći sledeći URL:"
 
 #: templates/CRM/PCP/Form/PCP.tpl templates/CRM/PCP/Page/PCP.hlp
 msgid ""
@@ -594,14 +702,14 @@ msgid ""
 " create their own fundraising pages using the Menu Manager. Select "
 "<strong>Contributions &raquo; Personal Campaign Pages</strong> and then "
 "select this event."
-msgstr ""
+msgstr ";ožete i da kreirate izložene linkove (ili stavke menija) koje omogućavaju donatorima i posetiocima da kreiraju svoje stranice za prikupljanje sredstava koristeći Menadžer menija. Izaberite <strong>Donacije &raquo; Stranice lične kampanje</strong>, a zatim izaberite ovaj događaj."
 
 #: templates/CRM/PCP/Form/PCPAccount.tpl
 msgid ""
 "Creating your own campaign page is simple. Fill in some basic information "
 "below, which will allow you to manage your page and invite friends to "
 "support you. Then click 'Continue' to personalize and announce your page."
-msgstr ""
+msgstr "Kreiranje sopstvene stranice kampanje je jednostavno. Unesite osnovne podatke ispod, što će vam omogućiti da upravljate svojom stranicom i pozovete prijatelje da vas podrže. Zatim kliknite na dugme 'Nastavi' da biste personalizovali i objavili vašu stranicu."
 
 #: templates/CRM/PCP/Page/PCP.hlp
 msgid ""
@@ -611,7 +719,7 @@ msgid ""
 "photo, text, and personal information. She can then send a link to the page "
 "to her friends, soliciting support for your organization. This is a powerful"
 " way to widely and quickly spread the message about your campaign."
-msgstr ""
+msgstr "Stranice lične kampanje (PCP) omoguavaju donatorima i posetiocima da kreiraju sopstvenu stranicu za prikupljanje fondova za vašu organizaciju. To znači da donator, nakon davanja donacije vašoj organizaciji, može da kreira stranicu sa sopstvenom fotografijom, tekstom i ličnim informacijama. Zatim može da pošalje link do stranice svojim prijateljima, sa upitom za podršku vašoj organizaciji. Ovo je snažan način da vest o svojoj kampanji podelite brzo sa velikim brojem ljudi."
 
 #: templates/CRM/PCP/Page/PCP.hlp
 msgid ""
@@ -620,179 +728,179 @@ msgid ""
 "contribution. CiviContribute has a section that allows you to administer all"
 " of the PCPs for your organization. You can require approval before a PCP "
 "goes 'live', and disable or delete any campaign pages you don't approve of."
-msgstr ""
+msgstr "Kada neko donira putem stranice lične kampanje, zasluga se dodeljuje vlasniku stranice, čime se prepoznaje njegova uloga u donaciji. CiviContribute sadrži odeljak koji vam omogućava administriranje svih stranica ličnih kampanja za vašu organizaciju. Možete da zahtevate odobrenje pre nego što se stranica objavi, kao i da isključite ili obrišete stranice kapanje koje ne odobravate."
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid ""
 "This screen shows all the Personal Campaign Pages created in the system and "
 "allows administrator to review them and change their status."
-msgstr ""
-
-#: templates/CRM/PCP/Page/PCP.tpl
-msgid "Page Title"
-msgstr ""
+msgstr "Ovaj ekran prikazuje sve stranice lične kampanje kreirane u sistemu i omogućava administratoruo da ih pregleda i promeni njihov status."
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "Contribution Page / Event"
-msgstr ""
+msgstr "Stranica za donacije / Događaj"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "View Personal Campaign Page"
+msgstr "Vidi stranicu lične kampanje"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "View page"
-msgstr ""
+msgstr "Pregled stranice"
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "There are no Personal Campaign Pages which match your search criteria."
-msgstr ""
+msgstr "Trenutno nema stranica lične kampanje koje odgovaraju kriterijumima vaše pretrage."
 
 #: templates/CRM/PCP/Page/PCP.tpl
 msgid "There are currently no Personal Campaign Pages."
-msgstr ""
+msgstr "Trenutno nema stranica lične kampanje."
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Personal Campaign Preview"
-msgstr ""
+msgstr "Pregled lične kampanje"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "This is a preview of your Personal Campaign Page in support of"
-msgstr ""
+msgstr "Ovo je pregled vaše stranice lične kampanje koja podržava"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "The current status of your page is"
-msgstr ""
+msgstr "Trenutni status vaše stranice je"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid ""
 "You will receive an email notification when your page is Approved and you "
 "can begin promoting your campaign."
-msgstr ""
+msgstr "Dobićete notifikaciju emailom kada vaša stranica bude odobrena, i možete početi sa promocijom vaše kampanje."
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "People can register for this event starting on "
-msgstr ""
+msgstr "Ljudi se mogu registrovati za ovaj događaj počevši od "
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "This campaign is active from"
-msgstr ""
+msgstr "Ova kampanja je aktivna od"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "You can"
-msgstr ""
+msgstr "Možete"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid ""
 "You must be logged in to your account to access the editing options above. "
 "(If you visit this page without logging in, you will be viewing the page in "
 "\"live\" mode - as your visitors and friends see it.)"
-msgstr ""
+msgstr "Morate biti ulogovani kako biste pristupili opcijama za uređivanje koje se nalaze iznad. (Ukoliko posetite ovu stranicu bez logovanja, pregledaćete je u \"produkcijskom\" modu - kao što je vaši posetioci vide.)"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Goal"
-msgstr ""
+msgstr "Cilj"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "raised"
-msgstr ""
+msgstr "prikupljeno"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "HONOR ROLL"
-msgstr ""
+msgstr "Spisak zaslužnih"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Start scrolling"
-msgstr ""
+msgstr "Počni skrolovanje"
 
 #: templates/CRM/PCP/Page/PCPInfo.tpl
 msgid "Stop scrolling"
-msgstr ""
+msgstr "Zaustavi skrolovanje"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_subject.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "Personal Campaign Page Notification"
-msgstr ""
+msgstr "Notifikacija Trenutno stranice lične kampanje "
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "Updated personal campaign page"
-msgstr ""
+msgstr "Ažurirana stranica lične kampanje"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "New personal campaign page"
-msgstr ""
+msgstr "Nova stranica lične kampanje"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "View Page"
-msgstr ""
+msgstr "Pregled stranice"
 
 #: xml/templates/message_templates/pcp_notify_html.tpl
 #: xml/templates/message_templates/pcp_notify_text.tpl
 msgid "Linked to Contribution Page"
-msgstr ""
+msgstr "Link ka stranici za doniranje"
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid "You have received a donation at your personal page"
-msgstr ""
+msgstr "Primili ste donaciju na ličnoj stranici"
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid "Your fundraising total has been updated."
-msgstr ""
+msgstr "Vaša ukupna prikupljena suma je ažurirana."
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid ""
 "The donor's information is listed below.  You can choose to contact them and"
 " convey your thanks if you wish."
-msgstr ""
+msgstr "Informacije o donatoru su izlistane ispod. Možete ih kontaktirati i zahvaliti se ukoliko to želite."
 
 #: xml/templates/message_templates/pcp_owner_notify_html.tpl
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid ""
 "The donor's name has been added to your honor roll unless they asked not to "
 "be included."
-msgstr ""
+msgstr "Ime donatora se dodaje u spisak zaslužnih osim u slučaju da su tražili da ne budu uključeni."
 
 #: xml/templates/message_templates/pcp_owner_notify_subject.tpl
 msgid "Someone has just donated to your personal campaign page"
-msgstr ""
+msgstr "Neko je upravo donirao na vašoj stranici lične kampanje"
 
 #: xml/templates/message_templates/pcp_owner_notify_text.tpl
 msgid "Personal Campaign Page Owner Notification"
-msgstr ""
+msgstr "Notifikacija vlasnika stranice lične kampanje"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 msgid "Your Personal Campaign Page"
-msgstr ""
+msgstr "Vaša stranica lične kampanje"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 msgid "Your personal campaign page has been approved and is now live."
-msgstr ""
+msgstr "Vaša stranica lične kampanje je odobrena i sada je na produkcijskom sajtu."
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Whenever you want to preview, update or promote your page"
-msgstr ""
+msgstr "Kad god želite da pregledate, ažurirate ili promovišete stranicu"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 msgid "Login to your account"
-msgstr ""
+msgstr "Prijavite se u vaš nalog"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 msgid "Go to your page"
-msgstr ""
+msgstr "Idite na vašu stranicu"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
@@ -801,20 +909,20 @@ msgstr ""
 msgid ""
 "When you view your campaign page WHILE LOGGED IN, the page includes links to"
 " edit your page, tell friends, and update your contact info."
-msgstr ""
+msgstr "Kada prikažete stranicu kampanje DOK STE PRIJAVLJENI, stranica sadrži linkove za uređivanje stranice, deljenje sa prijateljima i ažuriranje kontakt informacija."
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 msgid ""
 "After logging in, you can use this form to promote your fundraising page"
-msgstr ""
+msgstr "Nakon logovanja, možete koristiti ovaj formular da promovišete vašu stranicu za prikupljanje sredstava"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Questions? Send email to"
-msgstr ""
+msgstr "Pitanja? Pošaljite email"
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
@@ -822,75 +930,75 @@ msgid ""
 "Your personal campaign page has been reviewed. There were some issues with "
 "the content which prevented us from approving the page. We are sorry for any"
 " inconvenience."
-msgstr ""
+msgstr "Vaša stranica lične kampanje je pregledana. Bilo je nekoliko problema sa sadržajem, koje su nas sprečile da stranicu odobrimo. Žao nam je zbog eventualnih neprijatnosti."
 
 #: xml/templates/message_templates/pcp_status_change_html.tpl
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 msgid "Please contact our site administrator for more information"
-msgstr ""
+msgstr "Kontaktirajte administratora sajta za više informacija"
 
 #: xml/templates/message_templates/pcp_status_change_subject.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_subject.tpl
 msgid "Your Personal Campaign Page for %1"
-msgstr ""
+msgstr "Vaša stranica lične kampanje za %1"
 
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Login to your account at"
-msgstr ""
+msgstr "Prijavite se u vaš nalog "
 
 #: xml/templates/message_templates/pcp_status_change_text.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser to go to your page"
-msgstr ""
+msgstr "Kliknite na ovaj link, ili ga prekopirajte u pretraživač da biste pristupili vašoj stranici "
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Dear supporter"
-msgstr ""
+msgstr "Poštovane pristalice"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Thanks for creating a personal campaign page in support of %1."
-msgstr ""
+msgstr "Hvala što ste kreirali stranicu lične kampanje koja podržava %1."
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Promoting Your Page"
-msgstr ""
+msgstr "Promocija vaše stranice"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "You can begin your fundraising efforts using our \"Tell a Friend\" form"
-msgstr ""
+msgstr "Možete početi sa prikupljanjem sredstava koristeći \"Reci prijatelju\" formular"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 msgid "Click this link and follow the prompts"
-msgstr ""
+msgstr "Kliknite na ovaj link i pratite instrukcije"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid ""
 "Send email to family, friends and colleagues with a personal message about "
 "this campaign."
-msgstr ""
+msgstr "Pošaljite email porodici, prijateljima i kolegama sa ličnom porukom vezanom za ovu kampanju."
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Include this link to your fundraising page in your emails"
-msgstr ""
+msgstr "Uključite link ka vašoj stranici za prikupljanje sredstava u vašim mailovima"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Managing Your Page"
-msgstr ""
+msgstr "Mendažment vaše stranice"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid ""
 "Your page requires administrator review before you can begin your "
 "fundraising efforts."
-msgstr ""
+msgstr "Pre nego što počnete sa prikupljanjem sredstava, vašu stranicu mora da odobri administrator."
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
@@ -898,61 +1006,21 @@ msgid ""
 "A notification email has been sent to the site administrator, and you will "
 "receive another notification from them as soon as the review process is "
 "complete."
-msgstr ""
+msgstr "Notifikacioni email je poslat administratoru sajta, i dobićete još jedan odgovor od njih čim se proces odobrenja završi."
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "You can still preview your page prior to approval"
-msgstr ""
+msgstr "I dalje možete da pregledate stranicu pre odobravanja"
 
 #: xml/templates/message_templates/pcp_supporter_notify_html.tpl
 msgid "Click this link"
-msgstr ""
+msgstr "Kliknite na ovaj link"
 
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser and follow the prompts"
-msgstr ""
+msgstr "Kliknite na ovaj link, ili ga prekopirajte u pretraživač i pratite uputstva"
 
 #: xml/templates/message_templates/pcp_supporter_notify_text.tpl
 msgid "Click or paste this link into your browser"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "PCP Block"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Use Thermometer?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Show Honor Roll?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCP.php
-msgid "Notify Owner?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "PCP Block ID"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Target Entity ID"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Approval Required?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell a Friend Enabled?"
-msgstr ""
-
-#: CRM/PCP/DAO/PCPBlock.php
-msgid "Tell A Friend Limit"
-msgstr ""
+msgstr "Kliknite na ovaj link, ili ga prekopirajte u pretraživač"

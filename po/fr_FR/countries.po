@@ -6,16 +6,21 @@
 # SR71 <ben.alard@gmail.com>, 2012
 # Brodziak jean jacques <jj.brodziak@cpe31.com>, 2017
 # Camille Baldock <mademoisellegeek42@gmail.com>, 2012
+# ALL IN EVENT <allinevent2017@gmail.com>, 2019
+# haro99 <hans@koba.be>, 2018
+# Jimmy RUNDSTADLER, 2019
 # Paul Caranton <caranton.paul@gmail.com>, 2015
 # Philippe Bégou <philippe.begou@gmail.com>, 2013
 # Piotr Szotkowski <chastell@chastell.net>, 2011
+# Sev WDS <contact@webdevsev.com>, 2017
 # SR71 <ben.alard@gmail.com>, 2012
+# V. Gratioulet, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2017-01-18 07:05+0000\n"
-"Last-Translator: Brodziak jean jacques <jj.brodziak@cpe31.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-08-20 21:06+0000\n"
+"Last-Translator: Jimmy RUNDSTADLER\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +34,7 @@ msgstr "Europe et Asie Centrale"
 
 msgctxt "country"
 msgid "America South, Central, North and Caribbean"
-msgstr "Amérique du sud, centrale, du nord et les Caraïbes"
+msgstr "Amérique du sud, du nord, Centrale et Caraïbes"
 
 msgctxt "country"
 msgid "Middle East and North Africa"
@@ -209,7 +214,7 @@ msgstr "Cap-Vert"
 
 msgctxt "country"
 msgid "Cayman Islands"
-msgstr "Îles Caïmanes"
+msgstr "Îles Caïman"
 
 msgctxt "country"
 msgid "Central African Republic"
@@ -260,7 +265,7 @@ msgid "Costa Rica"
 msgstr "Costa Rica"
 
 msgctxt "country"
-msgid "Côte d'Ivoire"
+msgid "Côte d’Ivoire"
 msgstr "Côte d'Ivoire"
 
 msgctxt "country"
@@ -553,7 +558,7 @@ msgstr "Macao"
 
 msgctxt "country"
 msgid "Macedonia, Republic of"
-msgstr "Mécédoine, République de"
+msgstr "Macédoine, République de"
 
 msgctxt "country"
 msgid "Madagascar"
@@ -696,8 +701,8 @@ msgid "Palau"
 msgstr "Palaos"
 
 msgctxt "country"
-msgid "Palestinian Territory, Occupied"
-msgstr "Territoire Palestinien, Occupé"
+msgid "Palestine, State of"
+msgstr "Palestine"
 
 msgctxt "country"
 msgid "Panama"
@@ -848,8 +853,8 @@ msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard et Île Jan Mayen"
 
 msgctxt "country"
-msgid "Swaziland"
-msgstr "Swaziland"
+msgid "Eswatini"
+msgstr "Eswatini"
 
 msgctxt "country"
 msgid "Sweden"
@@ -869,7 +874,7 @@ msgstr "Sao Tomé-et-Principe"
 
 msgctxt "country"
 msgid "Taiwan"
-msgstr "Taïwan (Province de Chine)"
+msgstr "Taïwan"
 
 msgctxt "country"
 msgid "Tajikistan"
@@ -941,7 +946,7 @@ msgstr "Emirats Arabes Unis"
 
 msgctxt "country"
 msgid "United Kingdom"
-msgstr "Royaume Uni"
+msgstr "Royaume-Uni"
 
 msgctxt "country"
 msgid "United States Minor Outlying Islands"
@@ -1052,21 +1057,5 @@ msgid "Saint Martin (French part)"
 msgstr "Saint-Martin (partie Française)"
 
 msgctxt "country"
-msgid "Virgin Islands,British"
-msgstr "Îles Vierges Britanniques"
-
-msgctxt "country"
-msgid "Côte d’Ivoire"
-msgstr "Côte d'Ivoire"
-
-msgctxt "country"
-msgid "Iran, Islamic Republic Of"
-msgstr "République Islamique d'Iran"
-
-msgctxt "country"
-msgid "Macedonia, Republic Of"
-msgstr " République de Mécédoine"
-
-msgctxt "country"
-msgid "Palestinian Territory"
-msgstr "Territoire Palestinien"
+msgid "Swaziland"
+msgstr "Swaziland"

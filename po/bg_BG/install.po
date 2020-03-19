@@ -3,13 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mathieu Lutfy <mathieu@bidon.ca>, 2015-2016
+# Mathieu Lu <mathieu@bidon.ca>, 2017
+# Mathieu Lu <mathieu@bidon.ca>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-11-04 22:03+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/civicrm/civicrm/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: install/index.php
 msgid "Oops! Please correct your install location"
-msgstr ""
+msgstr "Моля, коригирайте местоположението за инсталиране."
 
 #: install/index.php
 msgid ""
@@ -36,29 +37,43 @@ msgid "[your Drupal root directory]"
 msgstr ""
 
 #: install/index.php
-msgid "Installation Guide"
+msgid "[your Backdrop root directory]"
 msgstr ""
+
+#: install/index.php
+msgid "Installation Guide"
+msgstr "Ръководство за инсталиране"
 
 #: install/index.php
 msgid ""
 "CiviCRM has already been installed. <ul><li>To <strong>start over</strong>, "
 "you must delete or rename the existing CiviCRM settings file - "
 "<strong>civicrm.settings.php</strong> - from <strong>%1</strong>.</li><li>To"
-" <strong>upgrade an existing installation</strong>, <a href='%2'>refer to "
-"the online documentation</a>.</li></ul>"
+" <strong>upgrade an existing installation</strong>, refer to the online "
+"documentation: %2.</li></ul>"
 msgstr ""
 
 #: install/index.php
 msgid "Oops! Incorrect CiviCRM version"
-msgstr ""
+msgstr "Внимание! Неправилна версия CiviCRM"
 
 #: install/index.php
 msgid "This installer can only be used for the Drupal version of CiviCRM."
+msgstr "Тази инсталационна програма може да се използва само за CiviCRM в Drupal."
+
+#: install/index.php
+msgid "You don't have permission to access this page"
+msgstr ""
+
+#: install/index.php
+msgid ""
+"The installer can only be run by a user with the permission to administer "
+"site configuration."
 msgstr ""
 
 #: install/index.php
 msgid "Oops! Incorrect Drupal version"
-msgstr ""
+msgstr "Внимание! Неправилна версия Drupal"
 
 #: install/index.php
 msgid ""
@@ -67,12 +82,26 @@ msgid ""
 msgstr ""
 
 #: install/index.php
+msgid "This installer can only be used for the Backdrop version of CiviCRM."
+msgstr ""
+
+#: install/index.php
+msgid "Oops! Incorrect Backdrop version"
+msgstr "Внимание! Неправилна версия Backdrop"
+
+#: install/index.php
+msgid ""
+"This version of CiviCRM can only be used with Backdrop 1.x. Please ensure "
+"that '%1' exists if you are running Backdrop 1.0 and over."
+msgstr ""
+
+#: install/index.php
 msgid "This installer can only be used for the WordPress version of CiviCRM."
 msgstr ""
 
 #: install/index.php
 msgid "PHP Configuration"
-msgstr ""
+msgstr "PHP конфигурация"
 
 #: install/index.php
 msgid "MySQL support"
@@ -84,7 +113,7 @@ msgstr ""
 
 #: install/index.php install/template.html
 msgid "MySQL %1 Configuration"
-msgstr ""
+msgstr "MySQL %1 конфигурация"
 
 #: install/index.php
 msgid "Does the server exist?"
@@ -112,7 +141,7 @@ msgstr ""
 
 #: install/index.php
 msgid "MySQL %1"
-msgstr ""
+msgstr "MySQL %1"
 
 #: install/index.php
 msgid "Is auto_increment_increment set to 1"
@@ -130,8 +159,8 @@ msgstr ""
 
 #: install/index.php
 msgid ""
-"The database name provided is not valid. Please use only 0-9, a-z, A-Z and _"
-" as characters in the name."
+"The database name provided is not valid. Please use only 0-9, a-z, A-Z, _ "
+"and - as characters in the name."
 msgstr ""
 
 #: install/index.php
@@ -144,6 +173,14 @@ msgstr ""
 
 #: install/index.php
 msgid "I can't create new databases and the database '%1' doesn't exist."
+msgstr ""
+
+#: install/index.php
+msgid "Does the database have data from a previous installation?"
+msgstr ""
+
+#: install/index.php
+msgid "CiviCRM data from previous installation exists in '%1'."
 msgstr ""
 
 #: install/index.php
@@ -186,11 +223,16 @@ msgid ""
 msgstr ""
 
 #: install/index.php
-msgid "PHP5 installed"
+msgid "Is the <code>utf8mb4</code> character set supported?"
 msgstr ""
 
 #: install/index.php
-msgid "PHP version %1"
+msgid ""
+"This MySQL server does not support the <code>utf8mb4</code> character set."
+msgstr ""
+
+#: install/index.php
+msgid "PHP5 installed"
 msgstr ""
 
 #: install/index.php
@@ -244,11 +286,27 @@ msgid ""
 msgstr ""
 
 #: install/index.php
+msgid "SimpleXML support"
+msgstr ""
+
+#: install/index.php
+msgid "SimpleXML support not included in PHP."
+msgstr ""
+
+#: install/index.php
 msgid "JSON support"
 msgstr ""
 
 #: install/index.php
 msgid "JSON support not included in PHP."
+msgstr ""
+
+#: install/index.php
+msgid "Multibyte support"
+msgstr ""
+
+#: install/index.php
+msgid "Multibyte support not enabled in PHP."
 msgstr ""
 
 #: install/index.php
@@ -287,14 +345,15 @@ msgstr ""
 
 #: install/index.php
 msgid ""
-"You need PHP version %1 or later, only %2 is installed. Please upgrade your "
-"server, or ask your web-host to do so."
+"This webserver is running an outdated version of PHP (%1). It is strongly "
+"recommended to upgrade to PHP %2 or later, as older versions can present a "
+"security risk. The preferred version is %3."
 msgstr ""
 
 #: install/index.php
 msgid ""
-"PHP version %1 is not supported. PHP version earlier than %2 is required. "
-"You might want to downgrade your server, or ask your web-host to do so."
+"You need PHP version %1 or later, only %2 is installed. Please upgrade your "
+"server, or ask your web-host to do so."
 msgstr ""
 
 #: install/index.php
@@ -378,6 +437,10 @@ msgid "MySQL \"thread_stack\" is %1 kb"
 msgstr ""
 
 #: install/index.php
+msgid "CiviCRM data from previous installation does not exist in %1."
+msgstr ""
+
+#: install/index.php
 msgid "The database: '%1' does not exist."
 msgstr ""
 
@@ -391,6 +454,14 @@ msgstr ""
 
 #: install/index.php
 msgid "the following PHP variables are missing: %1"
+msgstr ""
+
+#: install/index.php
+msgid ""
+"It is recommended, though not yet required, to configure your MySQL server "
+"for utf8mb4 support. You will need the following MySQL server configuration:"
+" innodb_large_prefix=true innodb_file_format=barracuda "
+"innodb_file_per_table=true"
 msgstr ""
 
 #: install/index.php
@@ -421,7 +492,7 @@ msgstr ""
 
 #: install/index.php
 msgid "CiviCRM Installed"
-msgstr ""
+msgstr "CiviCRM вече е инсталиран"
 
 #: install/index.php
 msgid "CiviCRM has been successfully installed"
@@ -443,6 +514,14 @@ msgstr ""
 
 #: install/index.php
 msgid ""
+"Backdrop user permissions have been automatically set - giving anonymous and"
+" authenticated users access to public CiviCRM forms and features. We "
+"recommend that you <a %1>review these permissions</a> to ensure that they "
+"are appropriate for your requirements (<a %2>learn more...</a>)"
+msgstr ""
+
+#: install/index.php
+msgid ""
 "WordPress user permissions have been automatically set - giving Anonymous "
 "and Subscribers access to public CiviCRM forms and features. We recommend "
 "that you <a %1>review these permissions</a> to ensure that they are "
@@ -450,7 +529,7 @@ msgid ""
 msgstr ""
 
 #: install/index.php
-msgid "<a %1>Refer to the online documentation for more information</a>"
+msgid "Refer to the online documentation for more information: "
 msgstr ""
 
 #: install/template.html
@@ -471,7 +550,7 @@ msgstr "Благодаря, че избрахте CiviCRM! Моля, следв�
 msgid ""
 "We are not able to install the software. Please <a "
 "href=\"#requirements\">see below</a> for details."
-msgstr ""
+msgstr "Не можем да инсталираме софтуера. Моля, <a href=\"#requirements\">вижте по-долу</a> за подробности."
 
 #: install/template.html
 msgid ""
@@ -486,7 +565,7 @@ msgstr "Вие сте готови да инсталирате!"
 
 #: install/template.html
 msgid "Check Requirements and Install CiviCRM"
-msgstr ""
+msgstr "Проверка на изискванията и инсталиране на CiviCRM"
 
 #: install/template.html
 msgid "Installing CiviCRM..."
@@ -511,7 +590,7 @@ msgstr "CiviCRM е преведена на много езици, благода
 
 #: install/template.html
 msgid "Language of basic data:"
-msgstr ""
+msgstr "Език на основните данни:"
 
 #: install/template.html
 msgid "Change language"
@@ -519,7 +598,7 @@ msgstr "Смяна на език"
 
 #: install/template.html
 msgid "Database Version and Connection Settings"
-msgstr ""
+msgstr "Версия на база данни и настройки за връзка"
 
 #: install/template.html
 msgid ""
@@ -539,7 +618,7 @@ msgstr ""
 msgid ""
 "Database version and connection settings have been verified and look "
 "correct!"
-msgstr ""
+msgstr "Версията на базата данни и настройките за връзка са потвърдени и изглеждат правилни!"
 
 #: install/template.html
 msgid "CiviCRM Database Settings"
@@ -547,6 +626,12 @@ msgstr "Настройки на база данни за CiviCRM"
 
 #: install/template.html
 msgid "MySQL server:"
+msgstr ""
+
+#: install/template.html
+msgid ""
+"If your mysql server is running on other port than default 3306, provide "
+"server info as server:port (i.e. localhost:1234) "
 msgstr ""
 
 #: install/template.html
@@ -566,12 +651,16 @@ msgid "Drupal Database Settings"
 msgstr "Настройки на база данни за Drupal"
 
 #: install/template.html
+msgid "Backdrop Database Settings"
+msgstr ""
+
+#: install/template.html
 msgid "Other Settings"
 msgstr "Други настройки"
 
 #: install/template.html
 msgid "Re-check requirements"
-msgstr ""
+msgstr "Проверяване на изисквания"
 
 #: install/template.html
 msgid "CiviCRM Database Details"
@@ -582,39 +671,13 @@ msgid "Drupal Database Details"
 msgstr ""
 
 #: install/template.html
+msgid "Backdrop Database Details"
+msgstr ""
+
+#: install/template.html
 msgid "Requirements"
 msgstr "Изисквания"
 
 #: install/index.php
-msgid "[your Backdrop root directory]"
-msgstr ""
-
-#: install/index.php
-msgid "This installer can only be used for the Backdrop version of CiviCRM."
-msgstr ""
-
-#: install/index.php
-msgid "Oops! Incorrect Backdrop version"
-msgstr ""
-
-#: install/index.php
-msgid ""
-"This version of CiviCRM can only be used with Backdrop 1.x. Please ensure "
-"that '%1' exists if you are running Backdrop 1.0 and over."
-msgstr ""
-
-#: install/index.php
-msgid ""
-"Backdrop user permissions have been automatically set - giving anonymous and"
-" authenticated users access to public CiviCRM forms and features. We "
-"recommend that you <a %1>review these permissions</a> to ensure that they "
-"are appropriate for your requirements (<a %2>learn more...</a>)"
-msgstr ""
-
-#: install/template.html
-msgid "Backdrop Database Settings"
-msgstr ""
-
-#: install/template.html
-msgid "Backdrop Database Details"
+msgid "PHP7 installed"
 msgstr ""

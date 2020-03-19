@@ -3,20 +3,21 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Bohdan Dmytryshyn <bohdan.dmytryshyn@agiliway.com>, 2017,2019
 # Sergiy <shemet.s@ua.fm>, 2015
 # Sergiy <shemet.s@ua.fm>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-05 15:43+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:38+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/civicrm/civicrm/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: CRM/Financial/BAO/ExportFormat.php
 msgid "Record:"
@@ -35,8 +36,8 @@ msgid "Last Modified By:"
 msgstr "Останнє редагування:"
 
 #: CRM/Financial/BAO/ExportFormat.php
-msgid "Payment Instrument:"
-msgstr "Платіжний засіб:"
+msgid "Payment Method:"
+msgstr "Спосіб оплати:"
 
 #: CRM/Financial/BAO/ExportFormat.php
 msgid "Batch"
@@ -44,10 +45,25 @@ msgstr "Пакет"
 
 #: CRM/Financial/BAO/FinancialAccount.php
 msgid ""
+"You cannot change the account type since this financial account refers to a "
+"financial item having an account type of Revenue/Liability."
+msgstr "Ви не можете змінити тип облікового запису, оскільки цей фінансовий рахунок стосується фінансової позиції, що має тип облікового запису \"Дохід / Відповідальність\"."
+
+#: CRM/Financial/BAO/FinancialAccount.php
+msgid ""
 "This financial account cannot be deleted since it is being used as a header "
 "account. Please remove it from being a header account before trying to "
 "delete it again."
 msgstr "Цей фінансовий рахунок не може бути виключений, оскільки він використовується в якості облікового запису заголовка. Будь ласка, видаліть його від рахунку заголовка, перш ніж намагатися видалити його знову."
+
+#: CRM/Financial/BAO/FinancialAccount.php
+msgid ""
+"Revenue Recognition Date cannot be processed unless there is a Deferred "
+"Revenue account setup for the Financial Type. Please remove Revenue "
+"Recognition Date, select a different Financial Type with a Deferred Revenue "
+"account setup for it, or setup a Deferred Revenue account for this Financial"
+" Type."
+msgstr "Неможливо обробити Дату Розпізнавання Доходу, якщо не встановлено обліковий запис \"Відкладений Дохід\" для Фінансового Типу. Видаліть Дату Розпізнавання Доходу, виберіть інший Фінансовий Тип  з налаштуванням облікового запису \"Відкладений Дохід\" або налаштуйте обліковий запис \"Відкладений Дохід\" для цього Фінансового Типу."
 
 #: CRM/Financial/BAO/FinancialItem.php
 msgid ""
@@ -57,8 +73,24 @@ msgid ""
 msgstr "Цей контакт(и) не може бути повністю вилучений, тому що контактна запис пов'язана з однією або більше живих фінансових операцій. Видалення цього контакту призведе до втрати фінансових даних."
 
 #: CRM/Financial/BAO/FinancialType.php
+msgid ""
+"Changing the name of a Financial Type will result in losing the current permissions associated with that Financial Type.\n"
+"            Before making this change you should likely note the existing permissions at Administer > Users and Permissions > Permissions (Access Control),\n"
+"            then clicking the Access Control link for your Content Management System, then noting down the permissions for 'CiviCRM: {financial type name} view', etc.\n"
+"            Then after making the change of name, reset the permissions to the way they were."
+msgstr "Зміна назви фінансового типу призведе до втрати поточних дозволів, пов'язаних із цим фінансовим типом. \nПерш ніж вносити ці зміни, ви, ймовірно, повинні помітити існуючі дозволи в розділі Адміністрування > Користувачі та дозволи > Дозволи (Контроль доступу),\n потім натисніть посилання \"Контроль доступу\" для своєї системи управління контентом, а потім позначте дозволи для \"CiviCRM: {financial type name} view\" тощо.\n Потім після зміни назви, відновіть дозволи так, як вони були."
+
+#: CRM/Financial/BAO/FinancialType.php
 msgid "The following tables have an entry for this financial type: %1"
-msgstr ""
+msgstr "Наступні таблиці мають запис для цього фінансового типу: %1"
+
+#: CRM/Financial/BAO/FinancialType.php
+msgid "administer CiviCRM Financial Types"
+msgstr "Адміністрування CiviCRM Фінансових типів"
+
+#: CRM/Financial/BAO/FinancialType.php
+msgid "Administer access to Financial Types"
+msgstr "Адміністрування доступу до фінансових типів"
 
 #: CRM/Financial/BAO/FinancialTypeAccount.php
 msgid ""
@@ -80,13 +112,17 @@ msgid ""
 "%1."
 msgstr "Незбалансовані угоди можуть бути створені, якщо видалити обліковий запис типу:% 1."
 
-#: CRM/Financial/BAO/PaymentProcessor.php
-msgid "Invalid value passed to getPayment function"
-msgstr "Введене невірне значення для функції \"отримати платіж\""
+#: CRM/Financial/BAO/FinancialTypeAccount.php
+msgid "This financial account cannot have '%1' relationship."
+msgstr "Ці фінансові облікові записи не можуть мати '%1' відносин."
+
+#: CRM/Financial/BAO/Payment.php
+msgid "notification"
+msgstr ""
 
 #: CRM/Financial/BAO/PaymentProcessor.php
-msgid "Could not retrieve payment processor details"
-msgstr "Не вдалося знайти інформацію щодо способу оплати"
+msgid "Could not find payment processor meta information"
+msgstr "Не вдалося знайти мета-інформацію про платіжний процесор"
 
 #: CRM/Financial/BAO/PaymentProcessorType.php
 msgid ""
@@ -99,22 +135,77 @@ msgid "Selected Payment Processor type has been deleted.<br/>"
 msgstr "Обраний тип Платіжної системи був видалений.<br>"
 
 #: CRM/Financial/DAO/Currency.php
-msgid "Symbol"
-msgstr "Символ"
+msgid "Currency ID"
+msgstr "ID валюти"
 
 #: CRM/Financial/DAO/Currency.php
-msgid "Numeric Code"
-msgstr "Нумеричний код"
+msgid "Currency Id"
+msgstr ""
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Currency Name"
+msgstr ""
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Currency Symbol"
+msgstr "Символ валюти"
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Currency Numeric Code"
+msgstr "Цифровий код валюти"
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Numeric currency code"
+msgstr ""
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Full Currency Name"
+msgstr "Повна назва валюти"
+
+#: CRM/Financial/DAO/Currency.php
+msgid "Full currency name"
+msgstr ""
+
+#: CRM/Financial/DAO/EntityFinancialAccount.php
+msgid "Entity Financial Account ID"
+msgstr "Об'єкт фінансового рахунку ID"
+
+#: CRM/Financial/DAO/EntityFinancialAccount.php
+msgid "Links to an entity_table like civicrm_financial_type"
+msgstr ""
+
+#: CRM/Financial/DAO/EntityFinancialAccount.php
+msgid ""
+"Links to an id in the entity_table, such as vid in civicrm_financial_type"
+msgstr ""
+
+#: CRM/Financial/DAO/EntityFinancialAccount.php
+msgid "FK to a new civicrm_option_value (account_relationship)"
+msgstr ""
+
+#: CRM/Financial/DAO/EntityFinancialAccount.php
+msgid "FK to the financial_account_id"
+msgstr ""
 
 #: CRM/Financial/DAO/EntityFinancialTrxn.php
 msgid "Entity Financial Transaction ID"
+msgstr "Об'єкт фінансової транзакції ID"
+
+#: CRM/Financial/DAO/EntityFinancialTrxn.php
+msgid ""
+"May contain civicrm_financial_item, civicrm_contribution, "
+"civicrm_financial_trxn, civicrm_grant, etc"
 msgstr ""
 
 #: CRM/Financial/DAO/EntityFinancialTrxn.php
 msgid "Financial Transaction Id"
+msgstr "Фінансова транзакція Id"
+
+#: CRM/Financial/DAO/EntityFinancialTrxn.php
+msgid "allocated amount of transaction to this entity"
 msgstr ""
 
-#: CRM/Financial/DAO/FinancialAccount.php
+#: CRM/Financial/DAO/FinancialAccount.php CRM/Financial/DAO/FinancialItem.php
 msgid "Financial Account ID"
 msgstr "Фінансовий рахунок"
 
@@ -123,39 +214,90 @@ msgid "Financial Account Name"
 msgstr "Ім'я фінансового рахунку"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid "Financial Account Name."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
+msgid "FK to Contact ID that is responsible for the funds in this account"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
+msgid "pseudo FK into civicrm_option_value."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
 #: templates/CRM/Financial/Page/FinancialTypeAccount.tpl
 msgid "Accounting Code"
 msgstr "Номер рахунку"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid ""
+"Optional value for mapping monies owed and received to accounting system "
+"codes."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 #: CRM/Financial/Form/FinancialAccount.php
+#: templates/CRM/Financial/Form/FinancialAccount.hlp
 msgid "Account Type Code"
 msgstr "Тип Номеру рахунку"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid ""
+"Optional value for mapping account types to accounting system account "
+"categories (QuickBooks Account Type Codes for example)."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 msgid "Financial Account Description"
 msgstr "Опис фінансового рахунку"
+
+#: CRM/Financial/DAO/FinancialAccount.php CRM/Financial/DAO/FinancialType.php
+msgid "Financial Type Description."
+msgstr ""
 
 #: CRM/Financial/DAO/FinancialAccount.php
 msgid "Financial Account Parent"
 msgstr "Батьківській Фінансовий рахунок"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid "Parent ID in account hierarchy"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 msgid "Header Financial Account?"
 msgstr "Тема Фінансового рахунку?"
+
+#: CRM/Financial/DAO/FinancialAccount.php
+msgid ""
+"Is this a header account which does not allow transactions to be posted "
+"against it directly, but only to its sub-accounts?"
+msgstr ""
 
 #: CRM/Financial/DAO/FinancialAccount.php
 msgid "Deductible Financial Account?"
 msgstr "Від'ємний фінансовий рахунок?"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid "Is this account tax-deductible?"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 msgid "Tax Financial Account?"
 msgstr "Податковий Фінансовий рахунок?"
 
 #: CRM/Financial/DAO/FinancialAccount.php
+msgid "Is this account for taxes?"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialAccount.php
 msgid "Financial Account Tax Rate"
 msgstr " Податкова ставка інансовий рахунок"
+
+#: CRM/Financial/DAO/FinancialAccount.php
+msgid "The percentage of the total_amount that is due for this tax."
+msgstr ""
 
 #: CRM/Financial/DAO/FinancialAccount.php
 msgid "Reserved Financial Account?"
@@ -169,49 +311,214 @@ msgstr "Активний фінансовий рахунок"
 msgid "Default Financial Account"
 msgstr "За умовчанням фінансового рахунку"
 
-#: CRM/Financial/DAO/FinancialTrxn.php
-msgid "Financial Transaction ID"
+#: CRM/Financial/DAO/FinancialAccount.php
+msgid ""
+"Is this account the default one (or default tax one) for its "
+"financial_account_type?"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Created Date"
+msgstr "Дата створення фінансової позиції"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Date and time the item was created"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Transaction Date"
+msgstr "Дата транзакції фінансової позиції"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Date and time of the source transaction"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Contact ID"
+msgstr "Фінансова позиція ID контакту"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "FK to Contact ID of contact the item is from"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Description"
+msgstr "Опис фінансової позиції"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid ""
+"Human readable description of this item, to ease display without lookup of "
+"source item."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Total amount of this item"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Currency"
+msgstr "Валюта фінансової позиції"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Currency for the amount"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "FK to civicrm_financial_account"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Financial Item Status ID"
+msgstr "Фінансова позиція ID статусу"
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "Payment status: test, paid, part_paid, unpaid (if empty assume unpaid)"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid "The table providing the source of this item such as civicrm_line_item"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialItem.php
+msgid ""
+"The specific source item that is responsible for the creation of this "
+"financial_item"
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Financial Transaction ID"
+msgstr "Фінансова транзакція ID"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Transaction From Account"
+msgstr "Фінансова транзакція з рахунку"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "FK to financial_account table."
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Transaction To Account"
+msgstr "Фінансова транзакція до рахунку"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "FK to financial_financial_account table."
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Transaction Date"
+msgstr "Дата фінансової транзакції"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "date transaction occurred"
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Total Amount"
+msgstr "Фінансова загальна сума"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "amount of transaction"
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Fee Amount"
-msgstr ""
+msgstr "Фінансова сума грошового збору"
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Net Amount"
-msgstr ""
+msgstr "Фінансовий чистий дохід"
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Currency"
+msgstr "Фінансова валюта"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Is Payment?"
+msgstr "Чи є платіж?"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Is this entry either a payment or a reversal of a payment?"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Transaction Result Code"
+msgstr "Код результату транзакції"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "processor result code"
 msgstr ""
 
 #: CRM/Financial/DAO/FinancialTrxn.php
 msgid "Financial Transaction Status Id"
 msgstr "ID Статусу Фінансової транзакції"
 
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid ""
+"pseudo FK to civicrm_option_value of contribution_status_id option_group"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Payment Processor for this financial transaction"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "FK to payment_instrument option group values"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Card Type ID"
+msgstr "Іденитифікатор Типу Картки"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "FK to accept_creditcard option group values"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Check number"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Pan Truncation"
+msgstr "Обрізання"
+
+#: CRM/Financial/DAO/FinancialTrxn.php
+msgid "Last 4 digits of credit card"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialType.php
+msgid "Financial Type ID"
+msgstr "ідентифікатор Фінансового Типу"
+
+#: CRM/Financial/DAO/FinancialType.php
+msgid ""
+"ID of original financial_type so you can search this table by the "
+"financial_type.id and then select the relevant version based on the "
+"timestamp"
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialType.php
+msgid "Financial Type Name."
+msgstr ""
+
 #: CRM/Financial/DAO/FinancialType.php
 msgid "Is Tax Deductible?"
 msgstr "Це підлягає оподаткуванню?"
+
+#: CRM/Financial/DAO/FinancialType.php
+msgid ""
+"Is this financial type tax-deductible? If true, contributions of this type "
+"may be fully OR partially deductible - non-deductible amount is stored in "
+"the Contribution record."
+msgstr ""
+
+#: CRM/Financial/DAO/FinancialType.php CRM/Financial/Form/FinancialAccount.php
+msgid "Tax-Deductible?"
+msgstr "Підлягає оподаткуванню?"
 
 #: CRM/Financial/DAO/FinancialType.php
 msgid "Financial Type is Reserved?"
@@ -221,17 +528,32 @@ msgstr "Фінансовий Тип зарезервований?"
 msgid "Financial Type Is Active?"
 msgstr "Фінансовий Тип активний?"
 
-#: CRM/Financial/DAO/PaymentProcessor.php CRM/Financial/DAO/PaymentToken.php
-msgid "Payment Processor ID"
-msgstr "Метод оплати ID"
-
 #: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Payment Processor Domain"
 msgstr "Оплата Процесор домену"
 
 #: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Payment Processor Name."
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Payment Processor Title"
+msgstr "Назва методу оплати"
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+msgid "Payment Processor Descriptive Name."
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Processor Description"
 msgstr "Процесор з умовчанням?"
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Payment Processor Description."
+msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessor.php
 #: CRM/Financial/DAO/PaymentProcessorType.php
@@ -243,33 +565,67 @@ msgid "Processor is Active?"
 msgstr "Процесор активний"
 
 #: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Is this processor active?"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Processor Is Default?"
 msgstr "Процесор встановлено за умовчанням?"
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Is this processor the default?"
+msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Is Test Processor?"
 msgstr "Це тестовий процесор?"
 
 #: CRM/Financial/DAO/PaymentProcessor.php
+msgid "Is this processor for a test site?"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
 #: CRM/Financial/DAO/PaymentProcessorType.php
-msgid "Suffix for PHP clas name implementation"
-msgstr "Достатньо для PHP імплементації"
+msgid "Suffix for PHP class name implementation"
+msgstr "Суфікс для  реалізації імені класу PHP "
 
 #: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Processor Billing Mode"
 msgstr "Процесор методу надання платежу"
 
 #: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Billing Mode (deprecated)"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
 msgid "Processor Supports Recurring?"
 msgstr "Процесор підтримки повторень?"
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Can process recurring contributions"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Payment Type: Credit or Debit (deprecated)"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+#: CRM/Financial/DAO/PaymentProcessorType.php
+msgid "Payment Instrument ID"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentProcessor.php
+msgid "array of accepted credit card types"
+msgstr ""
 
 #: CRM/Financial/DAO/PaymentProcessorType.php
 msgid "Payment Processor variable name to be used in code"
 msgstr "Змінна величина системи платежу має бути використана у коді"
-
-#: CRM/Financial/DAO/PaymentProcessorType.php
-msgid "Payment Processor Title"
-msgstr "Назва методу оплати"
 
 #: CRM/Financial/DAO/PaymentProcessorType.php
 msgid "Processor Type Description"
@@ -340,19 +696,69 @@ msgid "Processor Type Payment Type"
 msgstr "Тип процесора Тип оплати"
 
 #: CRM/Financial/DAO/PaymentToken.php
+msgid "FK to Contact ID for the owner of the token"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "Externally provided token string"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "Date created"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
 msgid "Created ID"
+msgstr "Створити ID"
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "Contact ID of token creator"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentToken.php
 msgid "Expiry Date"
+msgstr "Термін придатності"
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "Date this token expires"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "Email at the time of token creation. Useful for fraud forensics"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid ""
+"Billing first name at the time of token creation. Useful for fraud forensics"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid ""
+"Billing middle name at the time of token creation. Useful for fraud "
+"forensics"
+msgstr ""
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid ""
+"Billing last name at the time of token creation. Useful for fraud forensics"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentToken.php
 msgid "Masked Account Number"
+msgstr "Прихований номер рахунку"
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid ""
+"Holds the part of the card number or account details that may be retained or"
+" displayed"
 msgstr ""
 
 #: CRM/Financial/DAO/PaymentToken.php
 msgid "IP Address"
+msgstr "IP-адреса"
+
+#: CRM/Financial/DAO/PaymentToken.php
+msgid "IP used when creating the token. Useful for fraud forensics"
 msgstr ""
 
 #: CRM/Financial/Form/BatchTransaction.php
@@ -360,20 +766,20 @@ msgid "Accounting Batch - %1"
 msgstr "Пакетні фінансові операції - %1"
 
 #: CRM/Financial/Form/BatchTransaction.php
-msgid "Entered Transactions"
-msgstr "Ввести транзакцию"
+msgid "Expected Number of Items"
+msgstr "Очікувана Кількість Елементів"
 
 #: CRM/Financial/Form/BatchTransaction.php
-msgid "Assigned Transactions"
-msgstr "Призначена трнзакция"
+msgid "Actual Number of Items"
+msgstr "Фактична Кількість Елементів"
 
 #: CRM/Financial/Form/BatchTransaction.php
-msgid "Entered Total"
-msgstr "Ввести всього"
+msgid "Expected Total Amount"
+msgstr "Очікувана Загальна Сума"
 
 #: CRM/Financial/Form/BatchTransaction.php
-msgid "Assigned Total"
-msgstr "Призначено всього"
+msgid "Actual Total Amount"
+msgstr "Фактична Загальна Сума"
 
 #: CRM/Financial/Form/BatchTransaction.php
 msgid "Close & Export Batch"
@@ -385,7 +791,7 @@ msgstr "Завдання"
 
 #: CRM/Financial/Form/BatchTransaction.php CRM/Financial/Form/Search.php
 msgid "- actions -"
-msgstr ""
+msgstr "- дії -"
 
 #: CRM/Financial/Form/BatchTransaction.php
 msgid "Remove from Batch"
@@ -404,12 +810,16 @@ msgid "Assign Transaction"
 msgstr "Призначити транзакцию"
 
 #: CRM/Financial/Form/Export.php
-msgid "You cannot exported the batches which were exported earlier."
-msgstr "Ви не можете експортувати пакети, які були експортовані раніше."
+msgid "You cannot export batches which have already been exported."
+msgstr "Не можна експортувати батчі, які вже експортувалися."
 
 #: CRM/Financial/Form/Export.php
 msgid "Export to IIF"
 msgstr "Експортувати IIF"
+
+#: CRM/Financial/Form/Export.php
+msgid "Export to CSV"
+msgstr "Експорт до CSV"
 
 #: CRM/Financial/Form/FinancialAccount.php
 msgid ""
@@ -427,11 +837,6 @@ msgstr "Тип фінансування з такою назвою вже існ
 #: CRM/Financial/Form/FinancialAccount.php
 msgid "Owner"
 msgstr "Власник"
-
-#: CRM/Financial/Form/FinancialAccount.php
-#: CRM/Financial/Form/FinancialType.php
-msgid "Tax-Deductible?"
-msgstr "Підлягає оподаткуванню?"
 
 #: CRM/Financial/Form/FinancialAccount.php
 msgid "Is Tax?"
@@ -476,7 +881,7 @@ msgstr "Кількість транзакцій"
 
 #: CRM/Financial/Form/FinancialBatch.php
 msgid "Please select a valid contact."
-msgstr ""
+msgstr "Будь ласка, оберіть дійсний контакт"
 
 #: CRM/Financial/Form/FinancialBatch.php
 msgid "Number of Transactions should a positive number"
@@ -503,6 +908,29 @@ msgid "You dont have permission to %1 this batch"
 msgstr "Ви не маєте дозволу на % 1 цього пакету"
 
 #: CRM/Financial/Form/FinancialType.php
+msgid "Are contributions of this type tax-deductible?"
+msgstr "Внески даного типу підлягають оподаткуванню?"
+
+#: CRM/Financial/Form/FinancialType.php
+#: templates/CRM/Financial/Form/FinancialBatch.tpl
+#: templates/CRM/Financial/Form/FinancialTypeAccount.tpl
+msgid ""
+"WARNING: You cannot delete a financial type if it is currently used by any "
+"Contributions, Contribution Pages or Membership Types. Consider disabling "
+"this option instead."
+msgstr "УВАГА: Ви не можете видалити тип внеску, якщо він в даний час використовується будь-якими Внесками, Сторінками Внесків або Типами членства. Натомість, розгляньте можливість відключення цього параметру."
+
+#: CRM/Financial/Form/FinancialType.php
+#: templates/CRM/Financial/Form/FinancialAccount.tpl
+#: templates/CRM/Financial/Form/FinancialBatch.tpl
+msgid "Deleting a financial type cannot be undone."
+msgstr "Видалення фінансового типу не може бути відмінено."
+
+#: CRM/Financial/Form/FinancialType.php
+msgid "Cannot Delete"
+msgstr "Неможливо Видалити"
+
+#: CRM/Financial/Form/FinancialType.php
 msgid "Selected financial type has been deleted."
 msgstr "Обраний фінансовий тип був видалений."
 
@@ -512,18 +940,18 @@ msgstr "Фінансовий тип \"%1"
 
 #: CRM/Financial/Form/FinancialType.php
 msgid ""
-"Your Financial \"%1\" Type has been created and assigned to an existing "
-"financial account with the same title. You should review the assigned "
-"account and determine whether additional account relationships are needed."
-msgstr ""
+"Your Financial \"%1\" Type has been created, along with a corresponding "
+"income account \"%1\". That income account, along with standard financial "
+"accounts \"%2\", \"%3\" and \"%4\" have been linked to the financial type. "
+"You may edit or replace those relationships here."
+msgstr "Ваш фінансовий тип \"% 1\" створено разом з відповідним прибутковим рахунком \"% 1\". Цей прибутковий рахунок, а також стандартні фінансові рахунки \"% 2\", \"% 3\" і \"% 4\" були пов'язані з фінансовим типом. Ви можете редагувати або замінювати ці зв'язки тут."
 
 #: CRM/Financial/Form/FinancialType.php
 msgid ""
-"Your Financial \"%1\" Type has been created, along with a corresponding "
-"income account \"%2\". That income account, along with standard financial "
-"accounts \"%3\", \"%4\" and \"%5\" have been linked to the financial type. "
-"You may edit or replace those relationships here."
-msgstr ""
+"Your Financial \"%1\" Type has been created and assigned to an existing "
+"financial account with the same title. You should review the assigned "
+"account and determine whether additional account relationships are needed."
+msgstr "Ваш фінансовий тип \"%1\" був створений та призначений для існуючого фінансово рахунку з такою самою назвою. Ви повинні переглянути призначений обліковий запис і визначити необхідність взаємодії додаткових облікових записів."
 
 #: CRM/Financial/Form/FinancialTypeAccount.php
 #: templates/CRM/Financial/Page/FinancialType.tpl
@@ -548,6 +976,10 @@ msgstr "Типи фінансових рахунків"
 msgid "Financial Account Relationship"
 msgstr "Фінансові відносини облікового запису"
 
+#: CRM/Financial/Form/FinancialTypeAccount.php CRM/Financial/Page/AJAX.php
+msgid "- Select Financial Account Relationship -"
+msgstr "- Вибрати фінансові відносини облікового запису -"
+
 #: CRM/Financial/Form/FinancialTypeAccount.php
 msgid "Is Tax? must be set for respective financial account"
 msgstr "Цей податок? повинен бути встановлений для відповідного фінансового рахунку"
@@ -568,9 +1000,13 @@ msgstr "Тип фінансового акаунту \"%1\" був збереж�
 msgid " You can add another Financial Account Type."
 msgstr "Ви можете додати інший тип фінансового акаунту."
 
-#: CRM/Financial/Page/AJAX.php
-msgid "- Select Financial Account Relationship -"
-msgstr "- Вибрати фінансові відносини облікового запису -"
+#: CRM/Financial/Form/PaymentEdit.php
+msgid "You cannot update this payment as it is tied to a payment processor"
+msgstr "Неможливо оновити цей платіж, оскільки він прив'язаний до платіжного процесора"
+
+#: CRM/Financial/Form/PaymentEdit.php
+msgid "Update Payment details"
+msgstr "Оновити реквізити Платежу"
 
 #: CRM/Financial/Page/AJAX.php
 msgid ""
@@ -640,6 +1076,11 @@ msgstr "Тип Фінансового рахунку"
 
 #: templates/CRM/Financial/Form/BatchTransaction.tpl
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
+msgid "Payment/Transaction Date"
+msgstr "Дата Платежу/Транзакції"
+
+#: templates/CRM/Financial/Form/BatchTransaction.tpl
+#: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Pay Method"
 msgstr "Метод оплати"
 
@@ -657,11 +1098,27 @@ msgid ""
 "exported. Are you sure you want to export?"
 msgstr "Увага: Ви не зможете відновити або змінити пакет після того, як він буде експортований. Ви впевнені, що хочете експортувати цей пакет?"
 
-#: templates/CRM/Financial/Form/FinancialAccount.tpl
-#: templates/CRM/Financial/Form/FinancialBatch.tpl
-#: templates/CRM/Financial/Form/FinancialType.tpl
-msgid "Deleting a financial type cannot be undone."
-msgstr "Видалення фінансового типу не може бути відмінено."
+#: templates/CRM/Financial/Form/FinancialAccount.hlp
+msgid "Financial Account Owner"
+msgstr "Власник фінансового рахунку"
+
+#: templates/CRM/Financial/Form/FinancialAccount.hlp
+msgid ""
+"Normally the owner of a financial account is the organization implementing "
+"CiviCRM so there is no need to change this. Some organizations that maintain"
+" accounts for groups, chapters, regions, constiuency associations or other "
+"parts of the main CiviCRM organization may need to change the owner to one "
+"of these sub-entities or sibling entities."
+msgstr "Зазвичай, власником фінансового рахунку є організація, що впроваджує CiviCRM, тому немає необхідності змінювати це. Деяким організаціям, які підтримують облікові записи для груп, розділів, регіонів, членів - асоціацій  або інших частин основної організації CiviCRM, може знадобитися замінити власника на один з цих суб-об'єктів або суб'єктів-братів."
+
+#: templates/CRM/Financial/Form/FinancialAccount.hlp
+msgid ""
+"For export to QuickBooks, export your Chart of Accounts and open in low "
+"level text editor. You will be able to see the Account Type Code for each "
+"account. Generally, they will be from the following list: BANK, AR, OCASSET,"
+" FIXASSET, OASSET, AP, OCLIAB, LTLIAB, EQUITY, INC, COGS, EXP, EXEXP (though"
+" there may be others in your version of QuickBooks)."
+msgstr "Для експорту до QuickBooks, експортуйте свій графік рахунків і відкрийте текстовий редактор низького рівня. Ви зможете побачити тип коду облікового запису для кожного облікового запису. Зазвичай, вони будуть з наступного списку: BANK, AR, OCASSET, FIXASSET, OASSET, AP, OCLIAB, LTLIAB, EQUITY, INC, COGS, EXP, EXEXP (хоча у вашій версії QuickBooks можуть бути інші типи облікових записів)."
 
 #: templates/CRM/Financial/Form/FinancialAccount.tpl
 msgid "Use this field to indicate the organization that owns this account."
@@ -702,25 +1159,12 @@ msgid ""
 msgstr "Чи є це рахунок, який буде використовуватися в якості облікового запису за умовчанням для його типу фінансового рахунку при спілкуванні фінансової звітності з фінансовим типом?"
 
 #: templates/CRM/Financial/Form/FinancialBatch.tpl
-#: templates/CRM/Financial/Form/FinancialType.tpl
-#: templates/CRM/Financial/Form/FinancialTypeAccount.tpl
-msgid ""
-"WARNING: You cannot delete a financial type if it is currently used by any "
-"Contributions, Contribution Pages or Membership Types. Consider disabling "
-"this option instead."
-msgstr "УВАГА: Ви не можете видалити тип внеску, якщо він в даний час використовується будь-якими Внесками, Сторінками Внесків або Типами членства. Натомість, розгляньте можливість відключення цього параметру."
-
-#: templates/CRM/Financial/Form/FinancialBatch.tpl
 msgid "Opened Date"
 msgstr "Відкрита дата"
 
 #: templates/CRM/Financial/Form/FinancialBatch.tpl
 msgid "Optional Constraints"
 msgstr "Опціональні обмеження"
-
-#: templates/CRM/Financial/Form/FinancialType.tpl
-msgid "Are contributions of this type tax-deductible?"
-msgstr "Внески даного типу підлягають оподаткуванню?"
 
 #: templates/CRM/Financial/Form/FinancialType.tpl
 msgid "View or Edit Financial Accounts"
@@ -731,6 +1175,26 @@ msgid ""
 "Deleting a financial type cannot be undone. Unbalanced transactions may be "
 "created if you delete this account."
 msgstr "Видалення фінансового типу не може бути скасовано. Незбалансовані угоди можуть бути створені, якщо ви видалите цей рахунок."
+
+#: templates/CRM/Financial/Form/PaypalExpress.tpl
+msgid "Checkout with PayPal"
+msgstr "Оформити замовлення з PayPal"
+
+#: templates/CRM/Financial/Form/PaypalExpress.tpl
+msgid "Click the PayPal button to continue."
+msgstr "Натисніть кнопку PayPal, щоб продовжити."
+
+#: templates/CRM/Financial/Form/PaypalExpress.tpl
+#: templates/CRM/Financial/Form/PaypalPro.tpl
+msgid "Checkout securely. Pay without sharing your financial information."
+msgstr "Оформлюйте замовлення надійно. Оплачуйте, не поширюючи свою фінансову інформацію."
+
+#: templates/CRM/Financial/Form/PaypalPro.tpl
+msgid ""
+"If you have a PayPal account, you can click the PayPal button to continue. "
+"Otherwise, fill in the credit card and billing information on this form and "
+"click <strong>Continue</strong> at the bottom of the page."
+msgstr "Якщо у вас є обліковий запис PayPal, ви можете натиснути кнопку PayPal, щоб продовжити. В іншому випадку, внесіть дані про кредитну картку та платіжну інформацію у цю форму та натисніть <strong>Продовжити</strong> внизу сторінки."
 
 #: templates/CRM/Financial/Form/Search.tpl
 msgid "New Accounting Batch"
@@ -835,20 +1299,20 @@ msgstr "Оновлення"
 
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Are you sure you want to close this batch?"
-msgstr ""
+msgstr "Ви впевнені, що хочете закрити цю групу?"
 
 #: templates/CRM/Financial/Page/BatchTransaction.tpl
 msgid "Are you sure you want to close and export this batch?"
-msgstr ""
+msgstr "Ви впевені, що хочете закрити та експортувати цю групу?"
 
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
 msgid ""
 "Financial accounts correspond to those in your accounting system.  <a "
-"href=\"%1\">Financial types</a>, <a href=\"%2\">payment instruments</a>, and"
-" <a href=\"%3\">premiums</a> are associated with financial accounts so that "
-"they can result in the proper double-entry transactions to export to your "
+"href=\"%1\">Financial types</a>, <a href=\"%2\">payment methods</a>, and <a "
+"href=\"%3\">premiums</a> are associated with financial accounts so that they"
+" can result in the proper double-entry transactions to export to your "
 "accounting system."
-msgstr "Фінансові рахунки відповідають рахункам у Вашій системі бухгалтерського обліку. <a href=\"%1\"> Фінансові типи </a>, <a href=\"%2\"> платіжні інструменти </a> і <a href=\"%3\"> премії </a> пов'язані з фінансовими рахунками, так що вони забезпечують правильність відповідних угод за системою подвійного запису для експорту до Вашої системи бухгалтерського обліку."
+msgstr "Фінансові рахунки відповідають рахункам у Вашій системі бухгалтерського обліку. <a href=\"%1\"> Фінансові типи </a>, <a href=\"%2\"> способи оплати </a> і <a href=\"%3\"> премії </a> є пов'язані з фінансовими рахунками таким чином, що вони забезпечують правильність відповідних транзакцій за системою подвійного запису для експорту до Вашої системи бухгалтерського обліку."
 
 #: templates/CRM/Financial/Page/FinancialAccount.tpl
 msgid "Add Financial Account"
@@ -865,15 +1329,15 @@ msgstr "Інформація про фінансовий акаунт не бу�
 
 #: templates/CRM/Financial/Page/FinancialBatch.hlp
 msgid ""
-"If you specify a payment instrument then this batch will be limited to "
-"exporting only transactions paid with that method."
-msgstr "Якщо ви вкажете платіжний засіб, тоді ця пакетна операція буде обмежена експортом лише тих транзакцій, які сплачені за допомогою цього засобу."
+"If you specify a payment method then this batch will be limited to exporting"
+" only transactions paid with that method."
+msgstr "Якщо ви вкажете спосіб оплати, ця пакетна операція буде обмежена експортом лише тих транзакцій, які сплачені за допомогою цього способу."
 
 #: templates/CRM/Financial/Page/FinancialBatch.hlp
 msgid ""
 "Note that not all transactions are necessarily associated with a payment "
-"instrument."
-msgstr "Зверніть увагу, що не всі транзакції обов'язково пов'язані з платіжним засобом."
+"method."
+msgstr "Зверніть увагу, що не всі транзакції обов'язково пов'язані із способом оплати."
 
 #: templates/CRM/Financial/Page/FinancialBatch.hlp
 msgid ""
@@ -936,173 +1400,3 @@ msgid ""
 "There are no financial accounts assigned to this financial type. You can <a "
 "href='%1'>assign one</a>."
 msgstr "Там немає фінансових рахунків, присвоєні цьому фінансовому типу. Ви можете <a href='%1'> призначити один </a>."
-
-#: CRM/Financial/BAO/ExportFormat.php
-msgid "Payment Method:"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialAccount.php
-msgid ""
-"You cannot change the account type since this financial account refers to a "
-"financial item having an account type of Revenue/Liability."
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialAccount.php
-msgid ""
-"Revenue recognition date can only be specified if the financial type "
-"selected has a deferred revenue account configured. Please have an "
-"administrator set up the deferred revenue account at Administer > "
-"CiviContribute > Financial Accounts, then configure it for financial types "
-"at Administer > CiviContribution > Financial Types, Accounts"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialAccount.php
-msgid ""
-"Deferred revenue account is not configured for selected financial type. "
-"Please have an administrator set up the deferred revenue account at "
-"Administer > CiviContribute > Financial Accounts, then configure it for "
-"financial types at Administer > CiviContribution > Financial Types, Accounts"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialAccount.php
-msgid ""
-"Before Deferred Revenue can be enabled, a Deferred Revenue Account relationship must be defined for all financial types currently used for Memberships and Events, including\n"
-"<ul>\n"
-"<li>those specified for each membership type at Admin > CiviMember > Membership Types, edit</li>\n"
-"<li>on the Fees tab when managing events</li>\n"
-"<li>the default financial type associated with a membership or event price set</li>\n"
-"<li>the financial type for a membership price set field option when the membership type is non-blank</li>\n"
-"<li>as the financial type for a price set field with participant count > 0</li>\n"
-"<li>as the financial type for a price set field option with participant count > 0</li>\n"
-"</ul>\n"
-"In other words, please create deferred revenue accounts at Administer > CiviContribute > Financial Accounts, then configure them for the following financial types at Administer > CiviContribute > Financial Types, accounts:"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialType.php
-msgid ""
-"Changing the name of a Financial Type will result in losing the current permissions associated with that Financial Type.\n"
-"            Before making this change you should likely note the existing permissions at Administer > Users and Permissions > Permissions (Access Control),\n"
-"            then clicking the Access Control link for your Content Management System, then noting down the permissions for 'CiviCRM: {financial type name} view', etc.\n"
-"            Then after making the change of name, reset the permissions to the way they were."
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialType.php
-msgid "administer CiviCRM Financial Types"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialType.php
-msgid "Administer access to Financial Types"
-msgstr ""
-
-#: CRM/Financial/BAO/FinancialTypeAccount.php
-msgid "This financial account cannot have '%1' relationship."
-msgstr ""
-
-#: CRM/Financial/DAO/Currency.php
-msgid "Currency ID"
-msgstr ""
-
-#: CRM/Financial/DAO/Currency.php
-msgid "Currency Symbol"
-msgstr ""
-
-#: CRM/Financial/DAO/Currency.php
-msgid "Currency Numeric Code"
-msgstr ""
-
-#: CRM/Financial/DAO/Currency.php
-msgid "Full Currency Name"
-msgstr ""
-
-#: CRM/Financial/DAO/EntityFinancialAccount.php
-msgid "Entity Financial Account ID"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialAccount.php
-#: CRM/Financial/Form/FinancialAccount.php
-msgid "Opening Balance"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialAccount.php
-msgid "Current period opening Balance"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item ID"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Created Date"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Transaction Date"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Contact ID"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Description"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Currency"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialItem.php
-msgid "Financial Item Status ID"
-msgstr ""
-
-#: CRM/Financial/DAO/FinancialTrxn.php
-msgid "Is Payment?"
-msgstr ""
-
-#: CRM/Financial/DAO/PaymentProcessor.php
-#: CRM/Financial/DAO/PaymentProcessorType.php
-msgid "Suffix for PHP class name implementation"
-msgstr ""
-
-#: CRM/Financial/Form/FinancialAccount.php
-msgid "Current Period Opening Balance"
-msgstr ""
-
-#: templates/CRM/Financial/Form/FinancialAccount.hlp
-msgid "Financial Account Owner"
-msgstr ""
-
-#: templates/CRM/Financial/Form/FinancialAccount.hlp
-msgid ""
-"For export to QuickBooks, export your Chart of Accounts and open in low "
-"level text editor. You will be able to see the Account Type Code for each "
-"account. Generally, they will be from the following list: BANK, AR, OCASSET,"
-" FIXASSET, OASSET, AP, OCLIAB, LTLIAB, EQUITY, INC, COGS, EXP, EXEXP (though"
-" there may be others in your version of QuickBooks)."
-msgstr ""
-
-#: templates/CRM/Financial/Form/PaypalExpress.tpl
-#: templates/CRM/Financial/Form/PaypalPro.tpl
-msgid "Checkout securely. Pay without sharing your financial information."
-msgstr ""
-
-#: templates/CRM/Financial/Page/FinancialAccount.tpl
-msgid ""
-"Financial accounts correspond to those in your accounting system.  <a "
-"href=\"%1\">Financial types</a>, <a href=\"%2\">payment methods</a>, and <a "
-"href=\"%3\">premiums</a> are associated with financial accounts so that they"
-" can result in the proper double-entry transactions to export to your "
-"accounting system."
-msgstr ""
-
-#: templates/CRM/Financial/Page/FinancialBatch.hlp
-msgid ""
-"If you specify a payment method then this batch will be limited to exporting"
-" only transactions paid with that method."
-msgstr ""
-
-#: templates/CRM/Financial/Page/FinancialBatch.hlp
-msgid ""
-"Note that not all transactions are necessarily associated with a payment "
-"method."
-msgstr ""

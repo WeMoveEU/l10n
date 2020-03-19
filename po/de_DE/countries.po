@@ -6,17 +6,19 @@
 # Alain Schaefer <alain.schaefer@gmail.com>, 2016
 # Detlev Sieber <detlev.sieber@foebud.org>, 2011
 # Ettore Atalan <atalanttore@googlemail.com>, 2016
-# Michal Seidler, 2012
+# Fabian <schuttenberg@systopia.de>, 2017
+# Michal Seidler <info@euroconsults.eu>, 2012
 # Malek, 2012
 # Martin Peth <peth@systopia.de>, 2013
+# Mirko Gmyrek <rabuntu@x-quture.com>, 2019
 # Martin Peth <peth@systopia.de>, 2012
 # Piotr Szotkowski <chastell@chastell.net>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM\n"
-"POT-Creation-Date: 2016-10-05 11:33-0400\n"
-"PO-Revision-Date: 2016-10-06 16:05+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2019-06-06 12:32-0400\n"
+"PO-Revision-Date: 2019-06-07 00:36+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -250,7 +252,7 @@ msgstr "Demokratische Republik Kongo"
 
 msgctxt "country"
 msgid "Congo, Republic of the"
-msgstr "Demokratische Republik Kongo"
+msgstr "Republik Kongo"
 
 msgctxt "country"
 msgid "Cook Islands"
@@ -261,7 +263,7 @@ msgid "Costa Rica"
 msgstr "Costa Rica"
 
 msgctxt "country"
-msgid "Côte d'Ivoire"
+msgid "Côte d’Ivoire"
 msgstr "Elfenbeinküste"
 
 msgctxt "country"
@@ -697,8 +699,8 @@ msgid "Palau"
 msgstr "Palau"
 
 msgctxt "country"
-msgid "Palestinian Territory, Occupied"
-msgstr "Palästinensische Autonomiegebiete"
+msgid "Palestine, State of"
+msgstr "Palästina, Bundesstaat"
 
 msgctxt "country"
 msgid "Panama"
@@ -849,8 +851,8 @@ msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard und Jan Mayen"
 
 msgctxt "country"
-msgid "Swaziland"
-msgstr "Swasiland"
+msgid "Eswatini"
+msgstr ""
 
 msgctxt "country"
 msgid "Sweden"
@@ -1053,21 +1055,5 @@ msgid "Saint Martin (French part)"
 msgstr "Saint Martin (französischer Teil)"
 
 msgctxt "country"
-msgid "Virgin Islands,British"
-msgstr "Jungferninseln, Britisch"
-
-msgctxt "country"
-msgid "Côte d’Ivoire"
-msgstr "Elfenbeinküste"
-
-msgctxt "country"
-msgid "Iran, Islamic Republic Of"
-msgstr "Iran, Islamische Republik"
-
-msgctxt "country"
-msgid "Macedonia, Republic Of"
-msgstr "Mazedonien, Republik"
-
-msgctxt "country"
-msgid "Palestinian Territory"
-msgstr "Palästinensische Gebiete"
+msgid "Swaziland"
+msgstr "Swasiland"
