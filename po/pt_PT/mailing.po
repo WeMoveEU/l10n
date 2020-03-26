@@ -1126,7 +1126,7 @@ msgstr "Houve um erro no seu pedido"
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Please Confirm Your Opt Out"
-msgstr "Favor confirmar sua exclusão"
+msgstr "Por favor confirme sua exclusão"
 
 #: CRM/Mailing/Form/Optout.php
 msgid "Verify email address to opt out:"
@@ -2246,7 +2246,7 @@ msgstr "Digite até 5 contas de email para receber o mailing."
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
 "You are requesting to opt out this email address from all mailing lists:"
-msgstr "Você está solicitando a remoção de deste endereço de email de todas as nossas listas:"
+msgstr "Você está solicitando a remoção deste endereço de email de todas as nossas listas:"
 
 #: templates/CRM/Mailing/Form/Optout.tpl
 msgid ""
@@ -2254,7 +2254,7 @@ msgid ""
 " <i><b>not</b></i> been added to any mailing lists. If this is your email "
 "address and you <i><b>wish to opt out</b></i> please enter your email "
 "address below for verification purposes:"
-msgstr "Se este não for seu endereço de email, não há nada a fazer. Você <i><b>não</b></i> foi incluído em qualquer lista de emails. Se este for seu endereço de email e você <i><b>desejar não receber mais nossas mensagens</b></i> por favor insira seu email completo abaixo para propósito de conferência:"
+msgstr "Se este não é seu endereço de email, não faça mais nada. Você <i><b>não</b></i> foi incluído em nenhuma lista de emails. Se este é seu endereço de email e você <i><b>deseja não receber mais as nossas mensagens</b></i> por favor insira seu email completo abaixo para propósito de conferência:"
 
 #: templates/CRM/Mailing/Form/Search.tpl
 msgid "SMS Date"
